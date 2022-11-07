@@ -1,0 +1,484 @@
+openapi: 3.0.1
+info:
+  title: comtrade
+  description: Free APIs to get trade data and metadata. A subscription key is required.
+  version: v1
+servers:
+  - url: https://comtradeapi.un.org/data/v1
+paths:
+  /getLiveUpdate:
+    get:
+      summary: getLiveUpdate
+      description: getLiveUpdate
+      operationId: get-getliveupdate
+      responses:
+        '200':
+          description: 'null'
+  '/getTariffline/{typeCode}/{freqCode}/{clCode}':
+    get:
+      summary: getTariffline
+      description: getTariffline
+      operationId: get-gettariffline
+      parameters:
+        - name: typeCode
+          in: path
+          description: 'Type of trade: C for commodities and S for service'
+          required: true
+          schema:
+            enum:
+              - C
+              - S
+            type: string
+        - name: freqCode
+          in: path
+          description: 'Trade frequency: A for annual and M for monthly'
+          required: true
+          schema:
+            enum:
+              - A
+              - M
+            type: string
+        - name: clCode
+          in: path
+          description: 'Trade (IMTS) classifications: HS, SITC, BEC or EBOPS.'
+          required: true
+          schema:
+            enum:
+              - HS
+              - H6
+              - H5
+              - H4
+              - H3
+              - H2
+              - H1
+              - H0
+              - S4
+              - S3
+              - S2
+              - S1
+              - BE
+              - BE5
+              - EB
+              - EB10
+              - EB02
+              - EBSDMX
+            type: string
+        - name: reporterCode
+          in: query
+          description: 'Reporter code (Possible values are M49 code of the countries separated by comma (,))'
+          schema:
+            type: string
+        - name: period
+          in: query
+          description: 'Year or month. Year should be 4 digit year. Month should be six digit integer with the values of the form YYYYMM. Ex: 201002 for 2010 February. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            type: string
+        - name: partnerCode
+          in: query
+          description: 'Partner code (Possible values are M49 code of the countries separated by comma (,))'
+          schema:
+            type: string
+        - name: partner2Code
+          in: query
+          description: 'Second partner/consignment code (Possible values are M49 code of the countries separated by comma (,))'
+          schema:
+            type: string
+        - name: cmdCode
+          in: query
+          description: 'Commodity code. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            type: string
+        - name: flowCode
+          in: query
+          description: 'Trade flow code. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            enum:
+              - '-1'
+              - M
+              - X
+              - RX
+              - RM
+              - MIP
+              - XIP
+              - MOP
+              - XOP
+              - MIF
+              - XIF
+              - DX
+              - FM
+            type: string
+        - name: customsCode
+          in: query
+          description: 'Customs code. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            enum:
+              - '-1'
+              - C01
+              - C02
+              - C03
+              - C04
+              - C05
+              - C06
+              - C07
+              - C08
+              - C09
+              - C10
+              - C11
+              - C12
+              - C13
+              - C14
+              - C15
+              - C20
+            type: string
+        - name: motCode
+          in: query
+          description: 'Mode of transport code. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            enum:
+              - '-1'
+              - '1000'
+              - '2000'
+              - '2100'
+              - '2200'
+              - '2900'
+              - '3000'
+              - '3100'
+              - '3200'
+              - '3900'
+              - '9000'
+              - '9100'
+              - '9110'
+              - '9120'
+              - '9190'
+              - '9200'
+              - '9300'
+              - '9900'
+            type: string
+        - name: aggregateBy
+          in: query
+          description: Add parameters in csv list on which you want the results to be aggregated
+          schema:
+            enum:
+              - cmdCode
+              - period
+              - partnerCode
+              - partner2Code
+              - reporterCode
+              - customsCode
+              - motCode
+            type: csv
+        - name: breakdownMode
+          in: query
+          description: Mode to choose from
+          schema:
+            enum:
+              - classic
+              - plus
+            type: csv
+      responses:
+        '200':
+          description: 'null'
+  '/getDaTariffline/{typeCode}/{freqCode}/{clCode}':
+    get:
+      summary: getDaTariffline
+      description: getDaTariffline
+      operationId: get-getdatariffline
+      parameters:
+        - name: typeCode
+          in: path
+          description: 'Type of trade: C for commodities and S for service'
+          required: true
+          schema:
+            enum:
+              - C
+              - S
+            type: string
+        - name: freqCode
+          in: path
+          description: 'Trade frequency: A for annual and M for monthly'
+          required: true
+          schema:
+            enum:
+              - A
+              - M
+            type: string
+        - name: clCode
+          in: path
+          description: 'Trade (IMTS) classifications: HS, SITC, BEC or EBOPS.'
+          required: true
+          schema:
+            enum:
+              - HS
+              - H6
+              - H5
+              - H4
+              - H3
+              - H2
+              - H1
+              - H0
+              - S4
+              - S3
+              - S2
+              - S1
+              - BE
+              - BE5
+              - EB
+              - EB10
+              - EB02
+              - EBSDMX
+            type: string
+        - name: reporterCode
+          in: query
+          description: 'Reporter code (Possible values are M49 code of the countries separated by comma (,))'
+          schema:
+            type: string
+        - name: period
+          in: query
+          description: 'Year or month. Year should be 4 digit year. Month should be six digit integer with the values of the form YYYYMM. Ex: 201002 for 2010 February. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'null'
+  '/getDa/{typeCode}/{freqCode}/{clCode}':
+    get:
+      summary: getDa
+      description: getDa
+      operationId: get-getda
+      parameters:
+        - name: typeCode
+          in: path
+          description: 'Type of trade: C for commodities and S for service'
+          required: true
+          schema:
+            enum:
+              - C
+              - S
+            type: string
+        - name: freqCode
+          in: path
+          description: 'Trade frequency: A for annual and M for monthly'
+          required: true
+          schema:
+            enum:
+              - A
+              - M
+            type: string
+        - name: clCode
+          in: path
+          description: 'Trade (IMTS) classifications: HS, SITC, BEC or EBOPS.'
+          required: true
+          schema:
+            enum:
+              - HS
+              - H6
+              - H5
+              - H4
+              - H3
+              - H2
+              - H1
+              - H0
+              - S4
+              - S3
+              - S2
+              - S1
+              - BE
+              - BE5
+              - EB
+              - EB10
+              - EB02
+              - EBSDMX
+            type: string
+        - name: reporterCode
+          in: query
+          description: 'Reporter code (Possible values are M49 code of the countries separated by comma (,))'
+          schema:
+            type: string
+        - name: period
+          in: query
+          description: 'Year or month. Year should be 4 digit year. Month should be six digit integer with the values of the form YYYYMM. Ex: 201002 for 2010 February. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'null'
+  '/get/{typeCode}/{freqCode}/{clCode}':
+    get:
+      summary: get
+      description: get
+      operationId: get-get
+      parameters:
+        - name: typeCode
+          in: path
+          description: 'Type of trade: C for commodities and S for service'
+          required: true
+          schema:
+            enum:
+              - C
+              - S
+            type: string
+        - name: freqCode
+          in: path
+          description: 'Trade frequency: A for annual and M for monthly'
+          required: true
+          schema:
+            enum:
+              - A
+              - M
+            type: string
+        - name: clCode
+          in: path
+          description: 'Trade (IMTS) classifications: HS, SITC, BEC or EBOPS.'
+          required: true
+          schema:
+            enum:
+              - HS
+              - H6
+              - H5
+              - H4
+              - H3
+              - H2
+              - H1
+              - H0
+              - S4
+              - S3
+              - S2
+              - S1
+              - BE
+              - BE5
+              - EB
+              - EB10
+              - EB02
+              - EBSDMX
+            type: string
+        - name: reporterCode
+          in: query
+          description: 'Reporter code (Possible values are M49 code of the countries separated by comma (,))'
+          schema:
+            type: string
+        - name: period
+          in: query
+          description: 'Year or month. Year should be 4 digit year. Month should be six digit integer with the values of the form YYYYMM. Ex: 201002 for 2010 February. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            type: string
+        - name: partnerCode
+          in: query
+          description: 'Partner code (Possible values are M49 code of the countries separated by comma (,))'
+          schema:
+            type: string
+        - name: partner2Code
+          in: query
+          description: 'Second partner/consignment code (Possible values are M49 code of the countries separated by comma (,))'
+          schema:
+            type: string
+        - name: cmdCode
+          in: query
+          description: 'Commodity code. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            type: string
+        - name: flowCode
+          in: query
+          description: 'Trade flow code. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            enum:
+              - '-1'
+              - M
+              - X
+              - RX
+              - RM
+              - MIP
+              - XIP
+              - MOP
+              - XOP
+              - MIF
+              - XIF
+              - DX
+              - FM
+            type: string
+        - name: customsCode
+          in: query
+          description: 'Customs code. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            enum:
+              - '-1'
+              - C01
+              - C02
+              - C03
+              - C04
+              - C05
+              - C06
+              - C07
+              - C08
+              - C09
+              - C10
+              - C11
+              - C12
+              - C13
+              - C14
+              - C15
+              - C20
+            type: string
+        - name: motCode
+          in: query
+          description: 'Mode of transport code. Multi value input should be in the form of csv (Codes separated by comma (,))'
+          schema:
+            enum:
+              - '-1'
+              - '1000'
+              - '2000'
+              - '2100'
+              - '2200'
+              - '2900'
+              - '3000'
+              - '3100'
+              - '3200'
+              - '3900'
+              - '9000'
+              - '9100'
+              - '9110'
+              - '9120'
+              - '9190'
+              - '9200'
+              - '9300'
+              - '9900'
+            type: string
+      responses:
+        '200':
+          description: 'null'
+  '/getMetadata/{typeCode}/{freqCode}/{clCode}':
+    get:
+      summary: getMetadata
+      description: getMetadata
+      operationId: getmetadata
+      parameters:
+        - name: typeCode
+          in: path
+          required: true
+          schema:
+            type: ''
+        - name: freqCode
+          in: path
+          required: true
+          schema:
+            type: ''
+        - name: clCode
+          in: path
+          required: true
+          schema:
+            type: ''
+      responses:
+        '200':
+          description: 'null'
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
