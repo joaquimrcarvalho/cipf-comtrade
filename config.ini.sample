@@ -1,0 +1,12 @@
+[comtrade]
+# DUPLICATE THIS FILE AS config.ini
+# Add API Key. DO NOT SHARE
+# 
+# Configuration for uncomtrade API
+# 
+# get free API KEY by enrolling at https://comtradedeveloper.un.org/
+# Then goto "Products" page
+# Click on "Premium Individual APIs" (https://comtradedeveloper.un.org/product#product=dataapis)
+# Subscribe to "comtrade - v1"  wait for email with API key (takes a few days)
+# Copy api key bellow (first duplicate this file as "config.ini")
+key = 'APIKEYHERE'
