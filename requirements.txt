@@ -1,4 +1,5 @@
 pandas
+matplotlib
 requests
 openpyxl
 tabulate
