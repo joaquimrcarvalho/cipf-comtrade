@@ -1,3 +1,10 @@
 .DS_Store
 ~*.xls
 config.ini
+support/COMTRADE+ COMPLETE.csv
+support/REF  MOS.csv
+support/REF COUNTRIES.csv
+support/REF CUSTOMS.csv
+support/REF FLOWS.csv
+support/REF MOT.csv
+support/REF QTY.csv
