@@ -46,11 +46,22 @@ HS_CODES_L2_DF = None
 HS_CODES: dict = {}
 HS_CODES_L2: dict = {}
 
+global INIT_DONE
 INIT_DONE = False # flag to avoid multiple initialization
 
 def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None):
     """Set the API Key and codebooks for the module"""
 
+    global APIKEY
+    global CODE_BOOK_URL
+    global INIT_DONE
+
+    # if already initialized, do nothing
+    if INIT_DONE:
+        return
+
+    APIKEY = apy_key
+    INIT_DONE = True
 
     if not os.path.isfile(CODE_BOOK_FILE):
         logging.info(f"Downloading codebook from {CODE_BOOK_URL}")
@@ -134,8 +145,8 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None):
     global HS_CODES_L2
     HS_CODES_L2 = dict(zip(HS_CODES_L2_DF.hscode, HS_CODES_L2_DF.description)) # dict for decoding 
 
-    global INIT_DONE
-    INIT_DONE = True
+    #global INIT_DONE
+    #INIT_DONE = True
 
 
 def getURL(apiKey:Union[str,None]=None):
@@ -147,10 +158,12 @@ def getURL(apiKey:Union[str,None]=None):
         uncomtrade_url = BASE_URL_PREVIEW
     else:
         uncomtrade_url = BASE_URL_API
-    logging.info("baseCODE_BOOK_URL:",uncomtrade_url)
+
+    # log to info
+    logging.info("baseURL: "+uncomtrade_url)
 
     if apiKey is not None:
-        logging.info("APIKEY:",apiKey[:8])
+        logging.info("APIKEY: "+apiKey[:8])
 
     return uncomtrade_url
 
