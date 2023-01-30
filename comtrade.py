@@ -34,6 +34,34 @@ QTY_CODES: dict = {}
 QTY_CODES_DESC: dict = {}
 COLS_DESC_DF = None
 COLS_DESC: dict = {}
+PLP_CODES: dict = {}
+PLP_CODES_REVERSE: dict = {}
+PLP_TUPLES: list = []
+PLP_TUPLES_REVERSE: list = []
+
+
+# Specific codes for Portuguese Speaking Countries
+# in the future package move this to a separate file
+m49_angola = 24
+m49_brazil = 76
+m49_cabo_verde = 132
+m49_china = 156
+m49_hong_kong = 344
+m49_macau = 446
+m49_guine_equatorial = 226
+m49_guine_bissau = 624
+m49_mozambique = 508
+m49_portugal = 620
+m49_stome_principe = 678
+m49_timor = 626
+
+
+# make list of Portuguese Speaking Countries
+m49_plp = [m49_angola,m49_brazil,m49_cabo_verde,m49_guine_bissau,
+            m49_guine_equatorial,m49_mozambique,m49_portugal,
+            m49_stome_principe,m49_timor]
+# make string of Portuguese Speaking Countries codes
+m49_plp_list = ",".join(map(str,m49_plp))
 
 
 # HS Codes are not included in the codebook
@@ -55,6 +83,11 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None):
     global APIKEY
     global CODE_BOOK_URL
     global INIT_DONE
+
+    global PLP_CODES
+    global PLP_CODES_REVERSE
+    global PLP_TUPLES
+    global PLP_TUPLES_REVERSE
 
     # if already initialized, do nothing
     if INIT_DONE:
@@ -144,6 +177,12 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None):
 
     global HS_CODES_L2
     HS_CODES_L2 = dict(zip(HS_CODES_L2_DF.hscode, HS_CODES_L2_DF.description)) # dict for decoding 
+
+    # extract dict and tuples for plp_list from country_codes
+    PLP_CODES = {k: v for k, v in COUNTRY_CODES.items() if k in m49_plp}
+    PLP_CODES_REVERSE = {v: k for k, v in PLP_CODES.items()}
+    PLP_TUPLES = list(PLP_CODES.items())
+    PLP_TUPLES_REVERSE = list(PLP_CODES_REVERSE.items())
 
     #global INIT_DONE
     #INIT_DONE = True
@@ -305,3 +344,67 @@ def year_range(year_start=1984,year_end=2030):
     """
     period = ",".join(map(str,list(range(year_start,year_end,1))))
     return period
+
+def excel_col_autowidth(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sheet=None):
+    """Set the column width in the Excel file to the maximum width of the data in the column
+    
+    Args:
+        data_frame (pd.DataFrame): The DataFrame to format
+        excel_file (pd.ExcelWriter): The ExcelWriter object
+        sheet (str, optional): The sheet name. Defaults to first one
+
+    """
+    idx_len = len(data_frame.index.names)
+
+    # get the name of the first sheet
+    if sheet is None:
+        sheet = list(excel_file.sheets.keys())[0]
+
+    # for each level of the index
+    for index in data_frame.index.names:
+        col_width = max(data_frame.index.get_level_values(index).astype(str).map(len).max(), len(index))
+        if col_width > 100:
+            col_width = 100
+
+        col_idx = data_frame.index.names.index(index)
+        excel_file.sheets[sheet].set_column(col_idx, col_idx, col_width)
+
+    for column in data_frame:
+        col_width = max(data_frame[column].astype(str).map(len).max(), len(column))
+        if col_width > 100:
+            col_width = 100
+
+        col_idx = data_frame.columns.get_loc(column) + idx_len
+        excel_file.sheets[sheet].set_column(col_idx, col_idx, col_width)
+
+def excel_format_currency(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sheet=None,columns=None, format= '$#,##0', width=None):
+    """Format the columns in the Excel file as currency
+    
+    Args:
+        data_frame (pd.DataFrame): The DataFrame to format
+        excel_file (pd.ExcelWriter): The ExcelWriter object
+        sheet (str, optional): The sheet to format. Defaults to None, first sheet.
+        columns (list, optional): The columns to format. Defaults to all numeric columns.
+        format (str, optional): The format to use. Defaults to '$#,##0'.
+    """
+    workbook = excel_file.book
+    currency_format = workbook.add_format({'num_format': format})
+    if columns is None:
+        columns = data_frame.select_dtypes(include=['number']).columns
+        # if columns is a string create a list
+        if isinstance(columns, str):
+            columns = [columns]
+        elif columns is None:
+            columns = []
+
+    idx_len = len(data_frame.index.names)
+
+    # get the name of the first sheet
+    if sheet is None:
+        sheet = list(excel_file.sheets.keys())[0]
+
+    
+    for column in columns:
+        col_idx = data_frame.columns.get_loc(column) + idx_len
+        excel_file.sheets[sheet].set_column(col_idx, col_idx, width, currency_format)
+        
