@@ -8,4 +8,5 @@ support/REF CUSTOMS.csv
 support/REF FLOWS.csv
 support/REF MOT.csv
 support/REF QTY.csv
+venv
 __pycache__
