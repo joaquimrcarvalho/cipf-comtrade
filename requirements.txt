@@ -2,5 +2,6 @@ pandas
 matplotlib
 requests
 openpyxl
+xlsxwriter
 tabulate
 ipywidgets
