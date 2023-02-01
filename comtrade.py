@@ -334,6 +334,44 @@ def get_data(typeCode: str, freqCode: str,
         return df
 
 
+def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', rank_filter=5, pco_cols=None):
+    """Get the top commodities (level 2 HS nomenclature) traded between countries for a given year range
+    
+    Args:
+        reporterCode (str): reporter country code, e.g. 49 for China
+        partnerCode (str): partner country code, e.g. 152 for Chile
+        years (str): year range, e.g. 2010,2011,2012
+        flowCode (str): flow code, e.g. M for imports, X for exports, defaults to M,X
+        rank_filter (int): number of top commodities to return, default 5
+        pco_cols (list): list of columns to return, default 
+                         'reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
+                         'flowCode','primaryValue'
+    
+    """
+    if pco_cols is None:
+        pco_cols = ['reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
+                    'flowCode','primaryValue']
+    df = get_data("C",# C for commodities, S for Services
+                     "A",# (freqCode) A for annual and M for monthly
+                     flowCode=flowCode,
+                     cmdCode="AG2",
+                     reporterCode=reporterCode,
+                     partnerCode=partnerCode,
+                     period=years,
+                     timeout=120
+                     )
+
+    pco = df.sort_values(['partnerDesc','refYear','primaryValue'], ascending=[True,True,False])
+    pco['rank'] = pco.groupby(['partnerDesc','refYear','flowCode'])["primaryValue"].rank(method="dense", ascending=False)
+# convert rank column to int
+    pco['rank'] = pco['rank'].astype(int)
+
+    pco_top5 = pco[pco['rank'] <= rank_filter]
+
+    pco_top5_sorted = pco_top5[pco_cols].set_index(['reporterDesc','partnerDesc','flowCode','refYear','rank']).sort_index()
+    return pco_top5_sorted
+
+
 def year_range(year_start=1984,year_end=2030):
     """Return a string with comma separeted list of years
     
