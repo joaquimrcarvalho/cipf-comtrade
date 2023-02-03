@@ -10,3 +10,4 @@ support/REF MOT.csv
 support/REF QTY.csv
 venv
 __pycache__
+.python-version
