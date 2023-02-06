@@ -392,7 +392,7 @@ def excel_col_autowidth(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sh
         sheet (str, optional): The sheet name. Defaults to first one
 
     """
-    idx_len = len(data_frame.index.names)
+    idx_len = 0
 
     # get the name of the first sheet
     if sheet is None:
@@ -400,12 +400,14 @@ def excel_col_autowidth(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sh
 
     # for each level of the index
     for index in data_frame.index.names:
-        col_width = max(data_frame.index.get_level_values(index).astype(str).map(len).max(), len(index))
-        if col_width > 100:
-            col_width = 100
+        if index is not None:
+            col_width = max(data_frame.index.get_level_values(index).astype(str).map(len).max(), len(index))
+            if col_width > 100:
+                col_width = 100
 
-        col_idx = data_frame.index.names.index(index)
-        excel_file.sheets[sheet].set_column(col_idx, col_idx, col_width)
+            col_idx = data_frame.index.names.index(index)
+            excel_file.sheets[sheet].set_column(col_idx, col_idx, col_width)
+            idx_len = idx_len + 1
 
     for column in data_frame:
         col_width = max(data_frame[column].astype(str).map(len).max(), len(column))
