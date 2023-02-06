@@ -1,0 +1,95 @@
+China Angola M
+1993   27,84
+        -> 27   179,857,111.00 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+        -> 84       839,509.00 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+1994 ! 27,71
+        -> 71         9,835.00 Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin
+1995 ! 27,84
+1996 ! 27,03
+        -> 03       131,488.00 Fish and crustaceans, molluscs and other aquatic invertebrates
+1997 ! 27,39
+        -> 39       209,792.00 Plastics and articles thereof
+1998 ! 27,03
+1999 ! 27,84
+2000 ! 27,44
+        -> 44       671,664.00 Wood and articles of wood; wood charcoal
+2001 =
+2002 ! 27,03
+2003 ! 27,25
+        -> 25       232,059.00 Salt; sulphur; earths, stone; plastering materials, lime and cement
+2004 ! 27,71
+2005 =
+2006 =
+2007 =
+2008 =
+2009 =
+2010 ! 27,25
+2011 ! 27,71
+2012 =
+2013 =
+2014 =
+2015 =
+2016 ! 27,44
+2017 ! 27,71
+2018 ! 27,44
+2019 ! 27,25
+2020 =
+2021 =
+     03 Fish and crustaceans, molluscs and other aquatic invertebrates
+     25 Salt; sulphur; earths, stone; plastering materials, lime and cement
+     27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+     39 Plastics and articles thereof
+     44 Wood and articles of wood; wood charcoal
+     71 Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+--------------------------------------------------------------------------------
+China Angola X
+1993   10,07
+        -> 07     1,131,231.00 Vegetables and certain roots and tubers; edible
+        -> 10     7,570,108.00 Cereals
+1994 ≈ 07,10
+1995 ! 64,52
+        -> 64     5,267,131.00 Footwear; gaiters and the like; parts of such articles
+        -> 52     4,207,903.00 Cotton
+1996 ! 64,62
+        -> 62     4,264,683.00 Apparel and clothing accessories; not knitted or crocheted
+1997 ! 64,85
+        -> 85     4,296,563.00 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+1998 ! 62,64
+1999 ≈ 64,62
+2000 ! 64,07
+2001 ! 64,62
+2002 ! 64,07
+2003 ! 85,64
+2004 ! 85,87
+        -> 87    23,172,232.00 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+2005 ≈ 87,85
+2006 ≈ 85,87
+2007 ≈ 87,85
+2008 ! 87,84
+        -> 84   485,406,140.00 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+2009 ! 85,84
+2010 =
+2011 ! 85,73
+        -> 73   296,495,595.00 Iron or steel articles
+2012 ! 85,84
+2013 ! 85,87
+2014 ! 87,94
+        -> 94   734,399,796.00 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+2015 ! 85,94
+2016 ! 85,84
+2017 =
+2018 =
+2019 =
+2020 =
+2021 =
+     07 Vegetables and certain roots and tubers; edible
+     10 Cereals
+     52 Cotton
+     62 Apparel and clothing accessories; not knitted or crocheted
+     64 Footwear; gaiters and the like; parts of such articles
+     73 Iron or steel articles
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
