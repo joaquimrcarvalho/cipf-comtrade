@@ -363,7 +363,7 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', rank_filte
 
     pco = df.sort_values(['partnerDesc','refYear','primaryValue'], ascending=[True,True,False])
     pco['rank'] = pco.groupby(['partnerDesc','refYear','flowCode'])["primaryValue"].rank(method="dense", ascending=False)
-# convert rank column to int
+    # convert rank column to int
     pco['rank'] = pco['rank'].astype(int)
 
     pco_top5 = pco[pco['rank'] <= rank_filter]
@@ -392,29 +392,30 @@ def excel_col_autowidth(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sh
         sheet (str, optional): The sheet name. Defaults to first one
 
     """
-    idx_len = 0
 
     # get the name of the first sheet
     if sheet is None:
         sheet = list(excel_file.sheets.keys())[0]
 
     # for each level of the index
-    for index in data_frame.index.names:
+    for indx_n, index in enumerate(data_frame.index.names):
         if index is not None:
-            col_width = max(data_frame.index.get_level_values(index).astype(str).map(len).max(), len(index))
-            if col_width > 100:
-                col_width = 100
+            index_col = index
+        else:
+            index_col = ''
 
-            col_idx = data_frame.index.names.index(index)
-            excel_file.sheets[sheet].set_column(col_idx, col_idx, col_width)
-            idx_len = idx_len + 1
+        col_width = max(data_frame.index.get_level_values(indx_n).astype(str).map(len).max(), len(index_col))
+        if col_width > 100:
+            col_width = 100
+
+        excel_file.sheets[sheet].set_column(indx_n, indx_n, col_width)
 
     for column in data_frame:
         col_width = max(data_frame[column].astype(str).map(len).max(), len(column))
         if col_width > 100:
             col_width = 100
 
-        col_idx = data_frame.columns.get_loc(column) + idx_len
+        col_idx = data_frame.columns.get_loc(column) + indx_n + 1
         excel_file.sheets[sheet].set_column(col_idx, col_idx, col_width)
 
 def excel_format_currency(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sheet=None,columns=None, format= '$#,##0', width=None):
@@ -448,3 +449,60 @@ def excel_format_currency(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, 
         col_idx = data_frame.columns.get_loc(column) + idx_len
         excel_file.sheets[sheet].set_column(col_idx, col_idx, width, currency_format)
         
+
+def excel_format_percent(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sheet=None,columns=None, format= '0.00%', width=None):
+    """Format the columns in the Excel file as percentage
+    
+    Args:
+        data_frame (pd.DataFrame): The DataFrame to format
+        excel_file (pd.ExcelWriter): The ExcelWriter object
+        sheet (str, optional): The sheet to format. Defaults to None, first sheet.
+        columns (list, optional): The columns to format. Defaults to all numeric columns.
+        format (str, optional): The format to use. Defaults to '0.00%'.
+    """
+    workbook = excel_file.book
+    percent_format = workbook.add_format({'num_format': format})
+    if columns is None:
+        columns = data_frame.select_dtypes(include=['number']).columns
+        # if columns is a string create a list
+        if isinstance(columns, str):
+            columns = [columns]
+        elif columns is None:
+            columns = []
+
+    idx_len = len(data_frame.index.names)
+
+    # get the name of the first sheet
+    if sheet is None:
+        sheet = list(excel_file.sheets.keys())[0]
+
+    
+    for column in columns:
+        col_idx = data_frame.columns.get_loc(column) + idx_len
+        excel_file.sheets[sheet].set_column(col_idx, col_idx, width, percent_format)
+
+
+def checkAggregateValues(df: pd.DataFrame, hcode_column:str, aggregate_column='isAggregate'):
+    """Check if the values in the column hcode_column are aggregate values
+    
+    Args:
+        df (pd.DataFrame): The DataFrame to check
+        hcode_column (str): The column containing the hierarchical codes
+        aggregate_column (str, optional): The column to set the result. Defaults to 'isAggregate'.
+
+    Returns: The DataFrame with the new column
+
+    Notes:
+        The values in the column hcode_column must be sorted in ascending order.
+    """
+    lastCode = "---"
+    lastIndex = 0
+    for row in df.iterrows():
+        currentCode = row[1][hcode_column]
+        if currentCode != lastCode and currentCode.startswith(lastCode):
+            # print(f">>>> Last code {lastCode} index {lastIndex} is parent of {currentCode}")
+            df.loc[lastIndex,aggregate_column] = True
+        # print(df.loc[row[0]][['cmdCode','cmdDesc']])
+        lastCode = currentCode
+        lastIndex = row[0]
+    return df
