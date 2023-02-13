@@ -502,6 +502,8 @@ def checkAggregateValues(df: pd.DataFrame, hcode_column:str, aggregate_column='i
         if currentCode != lastCode and currentCode.startswith(lastCode):
             # print(f">>>> Last code {lastCode} index {lastIndex} is parent of {currentCode}")
             df.loc[lastIndex,aggregate_column] = True
+        else:
+            df.loc[lastIndex,aggregate_column] = False
         # print(df.loc[row[0]][['cmdCode','cmdDesc']])
         lastCode = currentCode
         lastIndex = row[0]
