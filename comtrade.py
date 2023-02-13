@@ -77,8 +77,14 @@ HS_CODES_L2: dict = {}
 global INIT_DONE
 INIT_DONE = False # flag to avoid multiple initialization
 
-def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None):
-    """Set the API Key and codebooks for the module"""
+def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, force_init: bool=False):
+    """Set the API Key and codebooks for the module
+    
+    Args:
+        apy_key (Union[str,None], optional): API Key. Defaults to None.
+        code_book_url (Union[None,str], optional): URL to download codebook. Defaults to None.
+        force_init (bool, optional): Force initialization. Defaults to False.
+    """
 
     global APIKEY
     global CODE_BOOK_URL
@@ -90,7 +96,7 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None):
     global PLP_TUPLES_REVERSE
 
     # if already initialized, do nothing
-    if INIT_DONE:
+    if INIT_DONE and not force_init:
         return
 
     APIKEY = apy_key
@@ -219,6 +225,7 @@ def get_data(typeCode: str, freqCode: str,
                     customsCode:str = 'C00', 
                     more_pars = {},
                     qtyUnitCodeFilter = None,
+                    motCode = None,
                     apiKey:Union[str,None]=None,
                     timeout: int = 10,
                     echo_url: bool = False
@@ -238,6 +245,7 @@ def get_data(typeCode: str, freqCode: str,
         customsCode (str, optional): Customs code, C00 for all customs. Defaults to 'C00'.
         more_pars (dict, optional): Additional parameters to pass to the API.
         qtyUnitCodeFilter (str, optional): Quantity unit code, e.g. 1 for tonnes, 2 for kilograms. Defaults to None.
+        motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air. Defaults to None. If -1 is passed removes results with motCode = 0, 
         apiKey (str,optional): API Key for umcomtrade+
         timeout (int, optional): Timeout for the API call. Defaults to 10.
         echo_url (bool, optional): Echo the CODE_BOOK_url to the console. Defaults to False.
@@ -290,6 +298,15 @@ def get_data(typeCode: str, freqCode: str,
             if qtyUnitCodeFilter is not None:
                 df = df[df.qtyUnitCode == qtyUnitCodeFilter]
 
+            if motCode is not None:
+                if motCode == -1: # Remove motCode = 0
+                    df = df[df.motCode != 0]
+                else:           # Keep only specified motCode
+                    df = df[df.motCode == motCode]
+            else:
+                motCodes = df['motCode'].unique()
+                if len(motCodes) > 1 and 0 in motCodes:
+                    warnings.warn("Query returned different motCodes including 0 (all), check for duplicate results when aggregating. Use motCode = -1 to remove motCode = 0, or motCode=0 to remove details")
             # Convert the country codes to country names
             if 'reporterCode' in df.columns.values:
                 df.reporterDesc = df.reporterCode.map(COUNTRY_CODES)
@@ -502,6 +519,10 @@ def checkAggregateValues(df: pd.DataFrame, hcode_column:str, aggregate_column='i
         if currentCode != lastCode and currentCode.startswith(lastCode):
             # print(f">>>> Last code {lastCode} index {lastIndex} is parent of {currentCode}")
             df.loc[lastIndex,aggregate_column] = True
+        elif currentCode == lastCode:
+            # code is the same as last row, copy the value
+            df.loc[row[0],aggregate_column] = df.loc[lastIndex,aggregate_column]
+            warnings.warn(f"Code {currentCode} is duplicated in row {row[0]} and {lastIndex}")
         else:
             df.loc[lastIndex,aggregate_column] = False
         # print(df.loc[row[0]][['cmdCode','cmdDesc']])
