@@ -307,6 +307,17 @@ def get_data(typeCode: str, freqCode: str,
                 motCodes = df['motCode'].unique()
                 if len(motCodes) > 1 and 0 in motCodes:
                     warnings.warn("Query returned different motCodes including 0 (all), check for duplicate results when aggregating. Use motCode = -1 to remove motCode = 0, or motCode=0 to remove details")
+            
+            # check for multiple partner2Codes and potentially duplicate results
+            
+            partner2Codes = df['partner2Code'].unique()
+            if len(partner2Codes) > 1 and 0 in partner2Codes:
+                warnings.warn("Query returned different partner2Codes including 0 (all), check for duplicate results when aggregating. Use partner2Code = -1 to remove partner2Code = 0, or partner2Code=0 to remove details")  
+            if partner2Code == -1: # Remove partner2Code = 0
+                df = df[df.partner2Code != 0]
+            elif partner2Code is not None: # Keep only specified partner2Code
+                df = df[df.partner2Code == partner2Code]
+
             # Convert the country codes to country names
             if 'reporterCode' in df.columns.values:
                 df.reporterDesc = df.reporterCode.map(COUNTRY_CODES)
@@ -351,7 +362,7 @@ def get_data(typeCode: str, freqCode: str,
         return df
 
 
-def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', rank_filter=5, pco_cols=None):
+def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', rank_filter=5, pco_cols=None, echo_url=False):
     """Get the top commodities (level 2 HS nomenclature) traded between countries for a given year range
     
     Args:
@@ -363,6 +374,7 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', rank_filte
         pco_cols (list): list of columns to return, default 
                          'reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
                          'flowCode','primaryValue'
+        echo_url (bool): print the url to the console, default False
     
     """
     if pco_cols is None:
@@ -375,7 +387,8 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', rank_filte
                      reporterCode=reporterCode,
                      partnerCode=partnerCode,
                      period=years,
-                     timeout=120
+                     timeout=120,
+                     echo_url=echo_url
                      )
 
     pco = df.sort_values(['partnerDesc','refYear','primaryValue'], ascending=[True,True,False])

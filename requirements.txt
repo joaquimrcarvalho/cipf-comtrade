@@ -5,3 +5,4 @@ openpyxl
 xlsxwriter
 tabulate
 ipywidgets
+jinja2
