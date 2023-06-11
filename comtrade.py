@@ -273,8 +273,9 @@ def get_data(typeCode: str, freqCode: str,
         sanitize = re.sub("subscription-key=.*","subscription-key=HIDDEN",resp.url)
         print(sanitize)
     if resp.status_code != 200:
-        warnings.warn(f"Server returned HTTP Status: "+str(resp.status_code),)        
-        warnings.warn(str(resp.content))
+        warnings.warn(f"Server returned HTTP Status: {str(resp.status_code)}",)     
+        errorInfo = json.loads(resp.content)
+        warnings.warn(f"Server returned error: {errorInfo['message']}")
         df = None
         error = True
     else:
