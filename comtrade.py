@@ -275,7 +275,8 @@ def get_data(typeCode: str, freqCode: str,
     if resp.status_code != 200:
         warnings.warn(f"Server returned HTTP Status: {str(resp.status_code)}",)     
         errorInfo = json.loads(resp.content)
-        warnings.warn(f"Server returned error: {errorInfo['message']}")
+        message = errorInfo.get('message',resp.content)
+        warnings.warn(f"Server returned error: {message}")
         df = None
         error = True
     else:
