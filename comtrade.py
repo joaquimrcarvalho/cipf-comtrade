@@ -364,7 +364,7 @@ def get_data(typeCode: str, freqCode: str,
         return df
 
 
-def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', rank_filter=5, pco_cols=None, echo_url=False):
+def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', motCode=None, rank_filter=5,  pco_cols=None, timeout=120, echo_url=False):
     """Get the top commodities (level 2 HS nomenclature) traded between countries for a given year range
     
     Args:
@@ -372,6 +372,8 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', rank_filte
         partnerCode (str): partner country code, e.g. 152 for Chile
         years (str): year range, e.g. 2010,2011,2012
         flowCode (str): flow code, e.g. M for imports, X for exports, defaults to M,X
+        motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air. 
+                                 Defaults to None. If -1 is passed removes results with motCode = 0
         rank_filter (int): number of top commodities to return, default 5
         pco_cols (list): list of columns to return, default 
                          'reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
@@ -389,7 +391,8 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', rank_filte
                      reporterCode=reporterCode,
                      partnerCode=partnerCode,
                      period=years,
-                     timeout=120,
+                     motCode=motCode,
+                     timeout=timeout,
                      echo_url=echo_url
                      )
 
