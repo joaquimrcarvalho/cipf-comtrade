@@ -6,3 +6,4 @@ xlsxwriter
 tabulate
 ipywidgets
 jinja2
+ratelimit

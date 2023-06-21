@@ -10,6 +10,7 @@ import urllib.request
 import requests
 import pandas as pd
 
+from ratelimit import limits, sleep_and_retry
 
 SUPPORT_DIR = 'support'
 
@@ -18,6 +19,9 @@ Path(SUPPORT_DIR).mkdir(parents=True, exist_ok=True)
 APIKEY = None
 BASE_URL_PREVIEW = "https://comtradeapi.un.org/public/v1/preview/"
 BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
+
+CALLS_PER_PERIOD = 1  # number of calls per period
+PERIOD_SECONDS = 12  # period in seconds
 
 # we use a copy of the codebook in git because the original cannot be downloaded
 #   without human action
@@ -213,7 +217,8 @@ def getURL(apiKey:Union[str,None]=None):
     return uncomtrade_url
 
 
-
+@sleep_and_retry
+@limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
 def get_data(typeCode: str, freqCode: str, 
                     reporterCode: str = '49', 
                     partnerCode: str = '024,076,132,226,624,508,620,678,626',
@@ -302,7 +307,11 @@ def get_data(typeCode: str, freqCode: str,
 
             if motCode is not None:
                 if motCode == -1: # Remove motCode = 0
+                    lenBefore = len(df)
                     df = df[df.motCode != 0]
+                    lenAfter = len(df)
+                    if lenBefore != lenAfter:
+                        warnings.warn(f"Removed {lenBefore-lenAfter} results with motCode = 0")
                 else:           # Keep only specified motCode
                     df = df[df.motCode == motCode]
             else:
@@ -359,12 +368,15 @@ def get_data(typeCode: str, freqCode: str,
 
             # Generate a formated version of the value for readability here
             if 'primaryValue' in df.columns.values:
-                df['primaryValueFormated'] = df.primaryValue.map('{:,}'.format)
+                df['primaryValueFormated'] = df.primaryValue.map('{:,.2f}'.format)
             # return the DataFrame
         return df
 
 
-def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', motCode=None, rank_filter=5,  pco_cols=None, timeout=120, echo_url=False):
+def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', 
+                    motCode=None, rank_filter=5, 
+                    global_stats=None, partner_first=True, pco_cols=None, 
+                    timeout=120, echo_url=False):
     """Get the top commodities (level 2 HS nomenclature) traded between countries for a given year range
     
     Args:
@@ -375,6 +387,13 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', motCode=No
         motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air. 
                                  Defaults to None. If -1 is passed removes results with motCode = 0
         rank_filter (int): number of top commodities to return, default 5
+        global_stats (Dataframe): optional a DataFrame with total imports and exports 
+                                  for each year and flowCode as returned 
+                                  by get_global_stats(reporterCode, years); percentage
+                                    of total imports/exports will be added to the results
+        partner_first (bool): if True, for each partner/flow/year the commodities are ranked
+                              if False for each commodity/flow/year the partners are ranked
+
         pco_cols (list): list of columns to return, default 
                          'reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
                          'flowCode','primaryValue'
@@ -383,7 +402,7 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', motCode=No
     """
     if pco_cols is None:
         pco_cols = ['reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
-                    'flowCode','primaryValue']
+                    'flowCode','primaryValue',]
     df = get_data("C",# C for commodities, S for Services
                      "A",# (freqCode) A for annual and M for monthly
                      flowCode=flowCode,
@@ -395,17 +414,105 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', motCode=No
                      timeout=timeout,
                      echo_url=echo_url
                      )
+    if partner_first:
+        sort_list = ['reporterDesc','partnerDesc','flowCode','refYear','primaryValue']
+        sort_order = [True,True,True,True,False]
+        groupby_list = ['reporterDesc','partnerDesc','flowCode','refYear']
+        index_list  = ['reporterDesc','partnerDesc','flowCode','refYear','rank']
+    else:
+        sort_list = ['reporterDesc','cmdCode','flowCode','refYear','partnerDesc','primaryValue']
+        sort_order = [True,True,True,True,True,False]
+        groupby_list = ['reporterDesc','refYear','flowCode','cmdCode','partnerDesc']
+        index_list  = ['reporterDesc','refYear','flowCode','cmdCode','rank']
 
-    pco = df.sort_values(['partnerDesc','refYear','primaryValue'], ascending=[True,True,False])
-    pco['rank'] = pco.groupby(['partnerDesc','refYear','flowCode'])["primaryValue"].rank(method="dense", ascending=False)
+    pco = df.sort_values(sort_list, ascending=sort_order)
+    pco['rank'] = pco.groupby(groupby_list)["primaryValue"].rank(method="dense", ascending=False)
     # convert rank column to int
     pco['rank'] = pco['rank'].astype(int)
 
     pco_top5 = pco[pco['rank'] <= rank_filter]
 
-    pco_top5_sorted = pco_top5[pco_cols].set_index(['reporterDesc','partnerDesc','flowCode','refYear','rank']).sort_index()
-    return pco_top5_sorted
+    pco_top5_sorted = pco_top5[pco_cols].set_index(index_list).sort_index()
+    if global_stats is not None:
+        for line in pco_top5_sorted.index:
+            _,_,flow,year,_ = line
+            cmdValue = pco_top5_sorted.loc[line]['primaryValue']
+            globalValue = global_stats.loc[(year,flow)]['primaryValue']
+            pco_top5_sorted.loc[line,'perc'] = cmdValue/globalValue
+    return (pco_top5_sorted, df)
 
+def get_global_stats(reporterCode, years,timeout=120, echo_url=False):
+    """
+    Get the Import/Export totals for a given country and year range
+
+    Args:
+        reporterCode (str): reporter country code, e.g. 49 for China
+        years (str): year range, e.g. 2010,2011,2012
+        timeout (int): timeout in seconds for the request, default 120
+        echo_url (bool): print the url to the console, default False
+    
+    Returns:
+        DataFrame: DataFrame with the totals for each year and flow indexed
+                   by year and flow code"""
+    
+    global_stats = get_data('C','A',reporterCode, 0, 0, years, motCode=0, timeout=timeout, echo_url=echo_url)
+    global_stats.set_index(['refYear','flowCode'], inplace=True)
+    return global_stats
+
+def top_partners(reporterCode, years,  cmdCode='TOTAL', flowCode='M,X', motCode=0, rank_filter=5, global_stats=None,  pco_cols=None, timeout=120, echo_url=False):
+    """Get the top trade partners of a country (as reported by said country) for a given year range
+    
+    Args:
+        reporterCode (str): reporter country code, e.g. 49 for China
+        years (str): year range, e.g. 2010,2011,2012
+        cmdCode (str): HS code, e.g. TOTAL for all commodities, defaults to TOTAL
+        flowCode (str): flow code, e.g. M for imports, X for exports, defaults to M,X
+        motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air. 
+                                 Defaults to None. If -1 is passed removes results with motCode = 0
+        rank_filter (int): number of top commodities to return, default 5
+        global_stats (Dataframe): optional a DataFrame with total imports and exports 
+                                  for each year and flowCode as returned 
+                                  by get_global_stats(reporterCode, years); percentage
+                                    of total imports/exports will be added to the results
+        pco_cols (list): list of columns to return, default 
+                         'reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
+                         'flowCode','primaryValue'
+        echo_url (bool): print the url to the console, default False
+    
+    """
+    # TODO Not sure this is good idea. Maybe if "few" show these cols.
+    if pco_cols is None:
+        pco_cols = ['reporterDesc','refYear','flowCode','partnerCode','partnerDesc','cmdCode','cmdDesc','rank',
+                    'primaryValue','primaryValueFormated']
+    df = get_data("C",# C for commodities, S for Services
+                     "A",# (freqCode) A for annual and M for monthly
+                     flowCode=flowCode,
+                     cmdCode=cmdCode,
+                     reporterCode=reporterCode,
+                     partnerCode=None,
+                     period=years,
+                     motCode=motCode,
+                     timeout=timeout,
+                     echo_url=echo_url
+                     )
+
+    df = df[df['partnerCode'] != 0]
+    pco = df.sort_values(['refYear','flowCode','cmdCode','primaryValue'], ascending=[True,True,True,False])
+    pco['rank'] = pco.groupby(['refYear','flowCode','cmdCode'])["primaryValue"].rank(method="dense", ascending=False)
+    # convert rank column to int
+    pco['rank'] = pco['rank'].astype(int)
+
+    pco_top5 = pco[pco['rank'] <= rank_filter]
+
+    pco_top5_sorted = pco_top5[pco_cols].set_index(['reporterDesc','refYear','flowCode','rank']).sort_index()
+    if global_stats is not None:
+        for line in pco_top5_sorted.index:
+            _,year,flow,_ = line
+            partnerValue = pco_top5_sorted.loc[line]['primaryValue']
+            globalValue = global_stats.loc[(year,flow)]['primaryValue']
+            pco_top5_sorted.loc[line,'perc'] = partnerValue/globalValue
+
+    return pco_top5_sorted
 
 def year_range(year_start=1984,year_end=2030):
     """Return a string with comma separeted list of years
