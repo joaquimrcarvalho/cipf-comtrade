@@ -399,10 +399,11 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X',
                          'flowCode','primaryValue'
         echo_url (bool): print the url to the console, default False
     
+        
     """
     if pco_cols is None:
         pco_cols = ['reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
-                    'flowCode','primaryValue',]
+                    'flowCode','primaryValue','primaryValueFormated']
     df = get_data("C",# C for commodities, S for Services
                      "A",# (freqCode) A for annual and M for monthly
                      flowCode=flowCode,
