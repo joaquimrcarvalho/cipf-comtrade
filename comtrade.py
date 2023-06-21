@@ -302,6 +302,12 @@ def get_data(typeCode: str, freqCode: str,
             df = None
         else:
             df = pd.DataFrame(results)
+
+            if partnerCode is None:
+                # when partnerCode is None, the API returns partnerCode = 0 for the world
+                #  and partnerCode for each partner. We remove the world entry
+                df = df[df.partnerCode != 0]
+
             if qtyUnitCodeFilter is not None:
                 df = df[df.qtyUnitCode == qtyUnitCodeFilter]
 
