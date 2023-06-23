@@ -242,7 +242,7 @@ def get_data(typeCode: str, freqCode: str,
         freqCode (str): Frequency of data, A for annual, M for monthly
         reporterCode (str, optional): Reporter country code. Defaults to '49'.
         partnerCode (str, optional): Partner country code. Defaults to '024,076,132,226,624,508,620,678,626'.
-        partner2Code (str, optional): Partner2 country code. Defaults to 0.
+        partner2Code (str, optional): Partner2 country code. Defaults to 0 (world). Use -1 to get only details
         period (str, optional): Period of data, e.g. 2018, 2018,2019, 2018,2019,2020. Defaults to None.
         clCode (str, optional): Classification code, HS for Harmonized System, SITC for Standard International Trade Classification. Defaults to "HS".
         cmdCode (str, optional): Commodity code, TOTAL for all commodities. Defaults to "TOTAL".
@@ -260,11 +260,16 @@ def get_data(typeCode: str, freqCode: str,
         apiKey = APIKEY
 
     base_url=f"{getURL(apiKey)}/{typeCode}/{freqCode}/{clCode}"
+    if partner2Code == -1:  # -1 
+        partner2CodePar = None
+    else:
+        partner2CodePar = partner2Code
+        
     pars = {
             'reporterCode':reporterCode,
             'period':period,
             'partnerCode':partnerCode,
-            'partner2Code':partner2Code,
+            'partner2CodePar':partner2Code,
             'cmdCode':cmdCode,
             'flowCode':flowCode,
             'customsCode':customsCode,
@@ -497,7 +502,10 @@ def get_global_stats(reporterCode, years,timeout=120, echo_url=False):
     global_stats.set_index(['refYear','flowCode'], inplace=True)
     return global_stats
 
-def top_partners(reporterCode, years,  cmdCode='TOTAL', flowCode='M,X', motCode=0, rank_filter=5, global_stats=None,  pco_cols=None, timeout=120, echo_url=False):
+def top_partners(reporterCode, years,  cmdCode='TOTAL', flowCode='M,X', 
+                 motCode=0, rank_filter=5, global_stats=None,  
+                 extra_cols=None,
+                 pco_cols=None, timeout=120, echo_url=False):
     """Get the top trade partners of a country (as reported by said country) for a given year range
     
     Args:
@@ -512,15 +520,12 @@ def top_partners(reporterCode, years,  cmdCode='TOTAL', flowCode='M,X', motCode=
                                   for each year and flowCode as returned 
                                   by get_global_stats(reporterCode, years); percentage
                                     of total imports/exports will be added to the results
-        pco_cols (list): list of columns to return, default 
-                         'reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
-                         'flowCode','primaryValue'
+        extra_cols (list): other than the default columns, add extra columns to the DataFrame
         echo_url (bool): print the url to the console, default False
     
     """
     # TODO Not sure this is good idea. Maybe if "few" show these cols.
-    if pco_cols is None:
-        pco_cols = ['reporterDesc','refYear','flowCode','partnerCode','partnerDesc','cmdCode','cmdDesc','rank',
+    show_cols = ['reporterDesc','refYear','flowCode','partnerCode','partnerDesc','cmdCode','cmdDesc','rank',
                     'primaryValue','primaryValueFormated']
     df = get_data("C",# C for commodities, S for Services
                      "A",# (freqCode) A for annual and M for monthly
@@ -534,6 +539,10 @@ def top_partners(reporterCode, years,  cmdCode='TOTAL', flowCode='M,X', motCode=
                      echo_url=echo_url
                      )
 
+    
+    if extra_cols is None:
+        extra_cols = []
+
     df = df[df['partnerCode'] != 0]
     pco = df.sort_values(['refYear','flowCode','cmdCode','primaryValue'], ascending=[True,True,True,False])
     pco['rank'] = pco.groupby(['refYear','flowCode','cmdCode'])["primaryValue"].rank(method="dense", ascending=False)
@@ -542,7 +551,7 @@ def top_partners(reporterCode, years,  cmdCode='TOTAL', flowCode='M,X', motCode=
 
     pco_top5 = pco[pco['rank'] <= rank_filter]
 
-    pco_top5_sorted = pco_top5[pco_cols].set_index(['reporterDesc','refYear','flowCode','rank']).sort_index()
+    pco_top5_sorted = pco_top5.sort_values(['refYear','flowCode','cmdCode','rank'], ascending=[True,True,True,True])
     if global_stats is not None:
         for line in pco_top5_sorted.index:
             _,year,flow,_ = line
@@ -550,7 +559,7 @@ def top_partners(reporterCode, years,  cmdCode='TOTAL', flowCode='M,X', motCode=
             globalValue = global_stats.loc[(year,flow)]['primaryValue']
             pco_top5_sorted.loc[line,'perc'] = partnerValue/globalValue
 
-    return pco_top5_sorted
+    return pco_top5_sorted[show_cols+extra_cols]
 
 def year_range(year_start=1984,year_end=2030):
     """Return a string with comma separeted list of years
