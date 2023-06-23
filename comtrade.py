@@ -325,6 +325,9 @@ def get_data(typeCode: str, freqCode: str,
                 if len(motCodes) > 1 and 0 in motCodes:
                     warnings.warn("Query returned different motCodes including 0 (all), check for duplicate results when aggregating. Use motCode = -1 to remove motCode = 0, or motCode=0 to remove details")
             
+            if len(df['isAggregate'].unique()) > 1:
+                warnings.warn("Query returned different isAggregate values, check for duplicate results when aggregating")
+                
             # check for multiple partner2Codes and potentially duplicate results
             
             partner2Codes = df['partner2Code'].unique()
@@ -381,7 +384,9 @@ def get_data(typeCode: str, freqCode: str,
 
 def top_commodities(reporterCode, partnerCode, years, flowCode='M,X', 
                     motCode=None, rank_filter=5, 
-                    global_stats=None, partner_first=True, pco_cols=None, 
+                    partner_first=False, 
+                    extra_cols = None,
+                    return_data = False,
                     timeout=120, echo_url=False):
     """Get the top commodities (level 2 HS nomenclature) traded between countries for a given year range
     
@@ -393,23 +398,18 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X',
         motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air. 
                                  Defaults to None. If -1 is passed removes results with motCode = 0
         rank_filter (int): number of top commodities to return, default 5
-        global_stats (Dataframe): optional a DataFrame with total imports and exports 
-                                  for each year and flowCode as returned 
-                                  by get_global_stats(reporterCode, years); percentage
-                                    of total imports/exports will be added to the results
-        partner_first (bool): if True, for each partner/flow/year the commodities are ranked
-                              if False for each commodity/flow/year the partners are ranked
+        partner_first (bool): if True, return top 5 partners and for each partner 
+                                the top 5 commodities;
+                                if False return top 5 commotidites and for each 
+                                commodity the top 5 partners. Default False
 
-        pco_cols (list): list of columns to return, default 
-                         'reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
-                         'flowCode','primaryValue'
+        extra_cols (list): other than the default columns, add extra columns to the DataFrame
+        return_data (bool): return the original data before clipping, If true
+                            retruns a tuple (top_commodities, data)
         echo_url (bool): print the url to the console, default False
     
         
     """
-    if pco_cols is None:
-        pco_cols = ['reporterDesc','partnerDesc','refYear','rank','cmdCode','cmdDesc',
-                    'flowCode','primaryValue','primaryValueFormated']
     df = get_data("C",# C for commodities, S for Services
                      "A",# (freqCode) A for annual and M for monthly
                      flowCode=flowCode,
@@ -421,32 +421,63 @@ def top_commodities(reporterCode, partnerCode, years, flowCode='M,X',
                      timeout=timeout,
                      echo_url=echo_url
                      )
+    
+    if df is None:  
+        warnings.warn("No data returned, check the parameters")
+        return None
+    
+    if extra_cols is None:
+        extra_cols = []
+
+    # label for the percentage of a commodity in the total trade of a country
+    cmd_in_country = 'perc_cmd_for_partner'
+    # label for the percentage of a country in the total trade of a commodity
+    country_in_cmd = 'perc_partner_for_cmd'
+    # Total value of commodities per HS code
+    df['sum_cmd'] = df.groupby(['reporterDesc','refYear','flowCode','cmdCode'])['primaryValue'].transform('sum')  
+    # Total value of commodities per partner
+    df['sum_partner'] = df.groupby(['reporterDesc','refYear','flowCode','partnerCode'])['primaryValue'].transform('sum')
+    # rank of commodity per HS code
+    df['rank_cmd'] = df.groupby(['reporterDesc','refYear','flowCode'])['sum_cmd'].rank(ascending=False,method='dense')
+    df['rank_cmd'] = df['rank_cmd'].astype(int)
+    # value of trade as percentage of total same HS code
+    df[country_in_cmd] = df['primaryValue']/df['sum_cmd']
+    # value of trade as percentage of total same partner
+    df[cmd_in_country] = df['primaryValue']/df['sum_partner']
+
+    # rank of partner per HS code
+    df['rank_cmd_partner'] = df.groupby(['reporterDesc','refYear','flowCode','cmdCode'])['primaryValue'].rank(ascending=False,method='dense')
+    df['rank_cmd_partner'] = df['rank_cmd_partner'].astype(int)
+    # rank of commodity per partner
+    df['rank_partner_cmd'] = df.groupby(['reporterDesc','refYear','flowCode','partnerCode'])['primaryValue'].rank(ascending=False,method='dense')
+    df['rank_partner_cmd'] = df['rank_partner_cmd'].astype(int)
+
+    # global rank of partner
+    df['rank_partner'] = df.groupby(['reporterDesc','refYear','flowCode'])['sum_partner'].rank(ascending=False,method='dense')
+    df['rank_partner'] = df['rank_partner'].astype(int)
+
+    # chage result according to partner_first
     if partner_first:
-        sort_list = ['reporterDesc','partnerDesc','flowCode','refYear','primaryValue']
-        sort_order = [True,True,True,True,False]
-        groupby_list = ['reporterDesc','partnerDesc','flowCode','refYear']
-        index_list  = ['reporterDesc','partnerDesc','flowCode','refYear','rank']
+        rank_cut = (df['rank_partner'] <= rank_filter) & (df['rank_partner_cmd'] <= rank_filter)
+        sort_list = ['refYear','flowCode','rank_partner','rank_partner_cmd']
+        sort_order = [True,True,True,True]
+        show_cols = ['reporterDesc','refYear','flowCode','flowDesc','rank_partner','partnerDesc',
+                     'rank_partner_cmd','rank_cmd','cmdCode', 'cmdDesc','primaryValueFormated',
+                     cmd_in_country,country_in_cmd]
     else:
-        sort_list = ['reporterDesc','cmdCode','flowCode','refYear','partnerDesc','primaryValue']
-        sort_order = [True,True,True,True,True,False]
-        groupby_list = ['reporterDesc','refYear','flowCode','cmdCode','partnerDesc']
-        index_list  = ['reporterDesc','refYear','flowCode','cmdCode','rank']
+        rank_cut = (df['rank_cmd'] <= rank_filter) & (df['rank_cmd_partner'] <= rank_filter)
+        sort_list = ['refYear','flowCode','rank_cmd','rank_cmd_partner']
+        sort_order = [True,True,True,True]
+        show_cols = ['reporterDesc','refYear','flowCode','flowDesc','rank_cmd','cmdCode','cmdDesc',
+                     'rank_cmd_partner','rank_partner','partnerDesc','primaryValueFormated',
+                     cmd_in_country,country_in_cmd]
 
-    pco = df.sort_values(sort_list, ascending=sort_order)
-    pco['rank'] = pco.groupby(groupby_list)["primaryValue"].rank(method="dense", ascending=False)
-    # convert rank column to int
-    pco['rank'] = pco['rank'].astype(int)
 
-    pco_top5 = pco[pco['rank'] <= rank_filter]
-
-    pco_top5_sorted = pco_top5[pco_cols].set_index(index_list).sort_index()
-    if global_stats is not None:
-        for line in pco_top5_sorted.index:
-            _,_,flow,year,_ = line
-            cmdValue = pco_top5_sorted.loc[line]['primaryValue']
-            globalValue = global_stats.loc[(year,flow)]['primaryValue']
-            pco_top5_sorted.loc[line,'perc'] = cmdValue/globalValue
-    return (pco_top5_sorted, df)
+    pco = df[rank_cut].sort_values(sort_list, ascending=sort_order)[show_cols+extra_cols]
+    if return_data:
+        return (pco, df)
+    else:
+        return pco
 
 def get_global_stats(reporterCode, years,timeout=120, echo_url=False):
     """
