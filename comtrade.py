@@ -28,6 +28,15 @@ PERIOD_SECONDS = 12  # period in seconds
 CODE_BOOK_URL = "https://raw.githubusercontent.com/joaquimrcarvalho/cipf-comtrade/main/support/codebook.xlsx"
 CODE_BOOK_FILE = "support/codebook.xlsx"
 
+# Countries, regions, and other geographical areas
+# The UN Comtrade division keeps a list of countries and areas that is used for aggregation purposes.
+# See: https://unctadstat.unctad.org/EN/Classifications.html
+# The list mapping individual countries to their corresponding area is available in the codebook.
+# CSV file at https://unctadstat.unctad.org/EN/Classifications/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv
+COUNTRY_GROUPS_URL = "https://unctadstat.unctad.org/EN/Classifications/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv"
+COUNTRY_GROUPS_FILE = "support/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv"
+
+
 COUNTRY_CODES: dict = {}
 COUNTRY_CODES_REVERSE: dict = {}
 MOS_CODES: dict = {}
@@ -122,6 +131,14 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, for
             xls = pd.read_excel(CODE_BOOK_FILE, sheet_name=worksheet)
             xls.to_csv(cache_file, index=False)
             print(f"Worksheet {worksheet} saved to {cache_file}")
+
+    if not os.path.isfile(COUNTRY_GROUPS_FILE):
+        logging.info(f"Downloading country groups from {COUNTRY_GROUPS_URL}")
+        headers={'user-agent': 'Mozilla/5.0'}
+        r=requests.get(COUNTRY_GROUPS_URL, headers=headers)
+        with open(COUNTRY_GROUPS_FILE, 'wb') as f:
+            f.write(r.content)
+        print("un-comtrade country groups downloaded to",COUNTRY_GROUPS_FILE)
 
     COUNTRY_CODE_FILE="support/REF COUNTRIES.csv"
     MOS_CODE_FILE="support/REF  MOS.csv"
