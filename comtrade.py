@@ -426,8 +426,8 @@ def top_commodities(reporterCode,
                     years=None, 
                     flowCode='M,X', 
                     partner2Code=0,
-                    motCode=None, rank_filter=5, 
-                    partner_first=False, 
+                    motCode=None, 
+                    rank_filter=5, 
                     extra_cols = None,
                     return_data = False,
                     timeout=120, echo_url=False):
@@ -443,11 +443,6 @@ def top_commodities(reporterCode,
         motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air. 
                                  Defaults to None. If -1 is passed removes results with motCode = 0
         rank_filter (int): number of top commodities to return, default 5
-        partner_first (bool): if True, return top 5 partners and for each partner 
-                                the top 5 commodities;
-                                if False return top 5 commotidites and for each 
-                                commodity the top 5 partners. Default False
-
         extra_cols (list): other than the default columns, add extra columns to the DataFrame
         return_data (bool): return the original data before clipping, If true
                             returns a tuple (top_commodities, data)
@@ -496,21 +491,13 @@ def top_commodities(reporterCode,
     df['rank_partner'] = df.groupby(['reporterDesc','refYear','flowCode'])['sum_partner'].rank(ascending=False,method='dense')
     df['rank_partner'] = df['rank_partner'].astype(int)
 
-    # chage result according to partner_first
-    if partner_first:
-        rank_cut = (df['rank_partner'] <= rank_filter) & (df['rank_partner_cmd'] <= rank_filter)
-        sort_list = ['refYear','flowCode','rank_partner','rank_partner_cmd']
-        sort_order = [True,True,True,True]
-        show_cols = ['reporterDesc','refYear','flowCode','flowDesc','rank_partner','partnerDesc',
-                     'rank_partner_cmd','rank_cmd','cmdCode', 'cmdDesc','primaryValueFormated',
-                     PERC_CMD_IN_PARTNER,PERC_PARTNER_IN_CMD]
-    else:
-        rank_cut = (df['rank_cmd'] <= rank_filter) & (df['rank_cmd_partner'] <= rank_filter)
-        sort_list = ['refYear','flowCode','rank_cmd','rank_cmd_partner']
-        sort_order = [True,True,True,True]
-        show_cols = ['reporterDesc','refYear','flowCode','flowDesc','rank_cmd','cmdCode','cmdDesc',
-                     'rank_cmd_partner','rank_partner','partnerDesc','primaryValueFormated',
-                     PERC_CMD_IN_PARTNER,PERC_PARTNER_IN_CMD]
+
+    rank_cut = (df['rank_cmd'] <= rank_filter)  # & (df['rank_cmd_partner'] <= rank_filter)
+    sort_list = ['refYear','flowCode','rank_cmd','rank_cmd_partner']
+    sort_order = [True,True,True,True]
+    show_cols = ['reporterDesc','refYear','flowCode','flowDesc','rank_cmd','cmdCode','cmdDesc',
+                    'rank_cmd_partner','rank_partner','partnerDesc','primaryValueFormated',
+                    PERC_CMD_IN_PARTNER,PERC_PARTNER_IN_CMD]
 
 
     pco = df[rank_cut].sort_values(sort_list, ascending=sort_order)[show_cols+extra_cols]
@@ -572,8 +559,12 @@ def top_partners(reporterCode=0,
     
     """
     # TODO Not sure this is good idea. Maybe if "few" show these cols.
-    show_cols = ['reporterDesc','refYear','flowCode','rank_cmd','partnerCode','partnerDesc','cmdCode','cmdDesc',
-                    'primaryValue','primaryValueFormated']
+    show_cols = ['reporterDesc','refYear','flowCode','flowDesc', 
+                 'rank_partner','rank_cmd',
+                 'partnerCode','partnerDesc','per_partner','sum_partner',
+                 'cmdCode','cmdDesc',
+                'primaryValue','primaryValueFormated',
+                PERC_CMD_IN_PARTNER,PERC_PARTNER_IN_CMD]
     df = get_data("C",# C for commodities, S for Services
                      "A",# (freqCode) A for annual and M for monthly
                      flowCode=flowCode,
@@ -604,6 +595,10 @@ def top_partners(reporterCode=0,
     df['rank_partner'] = df.groupby(['reporterDesc','refYear','flowCode'])['sum_partner'].rank(ascending=False,method='dense')
     df['rank_partner'] = df['rank_partner'].astype(int)
 
+       # rank of commodity per HS code
+    df['rank_cmd'] = df.groupby(['reporterDesc','refYear','flowCode'])['sum_cmd'].rank(ascending=False,method='dense')
+    df['rank_cmd'] = df['rank_cmd'].astype(int)
+
     # rank of commodity per partner
     df['rank_partner_cmd'] = df.groupby(['reporterDesc','refYear','flowCode','partnerCode'])['primaryValue'].rank(ascending=False,method='dense')
     df['rank_partner_cmd'] = df['rank_partner_cmd'].astype(int)
@@ -617,7 +612,7 @@ def top_partners(reporterCode=0,
     # value of trade as percentage of total same partner
     df[PERC_CMD_IN_PARTNER] = df['primaryValue']/df['sum_partner']
 
-    sort_list = ['refYear','flowCode','cmdCode','primaryValue']
+    sort_list = ['refYear','flowCode','partnerDesc','primaryValue']
     sort_order = [True,True,True,False]
     
     rank_cut = (df['rank_partner'] <= rank_filter) & (df['rank_partner_cmd'] <= rank_filter)
