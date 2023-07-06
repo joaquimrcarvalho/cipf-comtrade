@@ -426,6 +426,7 @@ def top_commodities(reporterCode,
                     years=None, 
                     flowCode='M,X', 
                     partner2Code=0,
+                    cmdCode='AG2',
                     motCode=None, 
                     rank_filter=5, 
                     extra_cols = None,
@@ -440,6 +441,7 @@ def top_commodities(reporterCode,
                             -1 all but World, None for all, default 0
         years (str): year range, e.g. 2010,2011,2012
         flowCode (str): flow code, e.g. M for imports, X for exports, defaults to M,X
+        cmdCode (str): HS code, e.g. AG2 for all HS2 codes, AG4 for all HS4 codes, defaults to AG2  
         motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air. 
                                  Defaults to None. If -1 is passed removes results with motCode = 0
         rank_filter (int): number of top commodities to return, default 5
@@ -453,7 +455,7 @@ def top_commodities(reporterCode,
     df = get_data("C",# C for commodities, S for Services
                      "A",# (freqCode) A for annual and M for monthly
                      flowCode=flowCode,
-                     cmdCode="AG2",
+                     cmdCode=cmdCode,
                      reporterCode=reporterCode,
                      partnerCode=partnerCode,
                      partner2Code=partner2Code,
