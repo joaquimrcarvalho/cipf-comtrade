@@ -520,7 +520,7 @@ def top_commodities(reporterCode,
 
 def get_global_stats(countryOfInterest=None, 
                      years=None,
-                     export_from_word_imports=True,
+                     exports_from_word_imports=True,
                      timeout=120, 
                      echo_url=False):
     """
@@ -532,7 +532,7 @@ def get_global_stats(countryOfInterest=None,
     Args:
         country_of_interest (str): country of interest, e.g. 49 for China
         years (str): year range, e.g. 2010,2011,2012
-        export_from_world_imports (bool): if True country exports are calculated 
+        exports_from_world_imports (bool): if True country exports are calculated 
                                             from world imports; default True
         timeout (int): timeout in seconds for the request, default 120
         echo_url (bool): print the url to the console, default False
@@ -540,7 +540,7 @@ def get_global_stats(countryOfInterest=None,
     Returns:
         DataFrame: DataFrame with the totals for each year and flow indexed
                    by year and flow code"""
-    
+    reporterCode = countryOfInterest
     global_stats_import = get_data('C',
                             'A',
                             reporterCode=countryOfInterest, 
@@ -551,7 +551,7 @@ def get_global_stats(countryOfInterest=None,
                             motCode=0,
                             timeout=timeout, 
                             echo_url=echo_url)
-    if export_from_word_imports:
+    if exports_from_word_imports:  # get the exports from the world imports from country of interest
         global_stats_export = get_data('C',
                                 'A',
                                 reporterCode=None, 
@@ -562,6 +562,7 @@ def get_global_stats(countryOfInterest=None,
                                 motCode=0, 
                                 timeout=timeout, 
                                 echo_url=echo_url)
+        exportReporterCode = 0
     else:
         global_stats_export = get_data('C',
                             'A',
@@ -573,18 +574,23 @@ def get_global_stats(countryOfInterest=None,
                             motCode=0,
                             timeout=timeout, 
                             echo_url=echo_url)        
+        exportReporterCode = countryOfInterest
     # Agregate by year and flow
     gse_grouped = global_stats_export.groupby(['refYear','partnerCode','partnerDesc'])['primaryValue'].sum()
     exports = gse_grouped.reset_index().rename(columns={'partnerCode':'countryCode','partnerDesc':'countryDesc'})
     exports['primaryValueFormated'] = exports.primaryValue.map('{:,.2f}'.format)
     exports['flowCode'] = 'X'
     exports['flowDesc'] = 'Exports'
+    exports['reporterCode'] = exportReporterCode
+    exports['reporterDesc'] = COUNTRY_CODES[exportReporterCode]
     gsi_grouped = global_stats_import.groupby(['refYear','reporterCode','reporterDesc'])['primaryValue'].sum()
     imports = gsi_grouped.reset_index().rename(columns={'reporterCode':'countryCode','reporterDesc':'countryDesc'})
     imports['primaryValueFormated'] = imports.primaryValue.map('{:,.2f}'.format)
     imports['flowCode'] = 'M'
     imports['flowDesc'] = 'Imports'
-    global_stats = pd.concat([imports, exports])                      
+    imports['reporterCode'] = countryOfInterest
+    imports['reporterDesc'] = COUNTRY_CODES[countryOfInterest]
+    global_stats = pd.concat([imports, exports]).sort_values(['refYear','flowCode'])                   
     return global_stats
 
 def top_partners(reporterCode=0, 
@@ -599,7 +605,6 @@ def top_partners(reporterCode=0,
                  return_data=False,
                  timeout=120, echo_url=False):
     """Get the top trade partners of a country 
-        (as reported by said country) 
         for a given year range
     
     Args:
