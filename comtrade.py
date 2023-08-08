@@ -14,6 +14,7 @@ import re
 import json
 from pathlib import Path
 import urllib.request
+import configparser
 
 import requests
 import pandas as pd
@@ -840,3 +841,29 @@ def checkAggregateValues(df: pd.DataFrame,
         lastCode = currentCode
         lastIndex = row[0]
     return df
+
+# create main function
+if __name__ == '__main__':
+    print("contrade.py initializing...")
+    Path('support').mkdir(parents=True, exist_ok=True)
+    Path('reports').mkdir(parents=True, exist_ok=True)
+    fname = 'config.ini'
+    content = """
+    # Config file
+    [comtrade]
+    # Add API Key. DO NOT SHARE
+    key = 
+    """
+    if not os.path.isfile(fname):
+        print("Creating file config.ini")
+        with open(fname,'w', encoding='utf-8') as f:
+            f.write(content)
+        print("Add API Key. Get one at https://comtradedeveloper.un.org/ ")
+    if os.path.isfile(fname):
+        config = configparser.ConfigParser()
+        config.read('config.ini')
+        # get API Key or set to None    
+        APIKEY = config['comtrade'].get('key', None)
+    init(APIKEY, force_init=True)
+    PERIOD_SECONDS=7
+print("contrade.py initialized")
