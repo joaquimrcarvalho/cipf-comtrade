@@ -9,6 +9,7 @@ support/REF FLOWS.csv
 support/REF MOT.csv
 support/REF QTY.csv
 venv
+.venv
 __pycache__
 .python-version
 support/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv
