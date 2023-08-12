@@ -30,7 +30,7 @@ BASE_URL_PREVIEW = "https://comtradeapi.un.org/public/v1/preview/"
 BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
 
 CALLS_PER_PERIOD = 1  # number of calls per period
-PERIOD_SECONDS = 12  # period in seconds
+PERIOD_SECONDS = 60  # period in seconds
 
 # we use a copy of the codebook in git because the original cannot be downloaded
 #   without human action
@@ -705,7 +705,7 @@ def year_range(year_start=1984,year_end=2030):
         year_end (int, optional): End year. Defaults to 2030.
 
     """
-    period = ",".join(map(str,list(range(year_start,year_end,1))))
+    period = ",".join(map(str,list(range(year_start,year_end+1,1))))
     return period
 
 def excel_col_autowidth(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sheet=None):
