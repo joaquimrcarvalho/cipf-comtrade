@@ -437,6 +437,61 @@ def get_data(typeCode: str, freqCode: str,
         return df
 
 
+def subtotal(df,groupby: list,col: str):
+    """Returns the sum of col for each groupby group
+    
+    Args:
+        df (pd.DataFrame): DataFrame to group
+        groupby (list): list of columns to group by
+        col (str): column to sum
+    """
+    return df.groupby(groupby)[col].transform('sum')  
+
+
+def rank(df,rankby: list,col: str):
+    """Returns the rank of col for each rankby group
+    
+    Args:
+        df (pd.DataFrame): DataFrame to group
+        rankby (list): list of columns to group by
+        col (str): column to rank
+    """
+    return df.groupby(rankby)[col].rank(ascending=False,method='dense').astype(int)
+
+
+def total_rank_perc(df: pd.DataFrame,
+                    groupby: list, 
+                    col: str,
+                    prefix:str,
+                    drop_duplicates: bool = True):
+    """Returns the sum, rank and percentages of col for each groupby subset
+
+    Args:
+        df (pd.DataFrame): DataFrame to group
+        groupby (list): list of columns to group by
+        col (str): column to rank
+        prefix (str): prefix for the new columns. 
+        
+        
+    Returns:
+        Dataframe with extra columns:
+            {prefix}_sum
+            {prefix}_rank
+            {prefix}_perc
+            {prefix}_upper_sum (sum of col for groupby[:-1])
+            {prefix}_upper_perc (perc of {prefix}_upper_sum in {prefix}_sum )
+            """
+    subtotal_col = f'{prefix}_sum'
+    df[subtotal_col] = subtotal(df,groupby,col)
+    df[f'{prefix}_rank'] = rank(df,groupby[:-1],subtotal_col)
+    df[f'{prefix}_perc'] = df[col] / subtotal(df,groupby[:-1],col)
+    df[f'{prefix}_upper_sum'] = subtotal(df,groupby[:-1],col)
+    df[f'{prefix}_upper_perc'] = df[subtotal_col] / df[f'{prefix}_upper_sum']
+    if drop_duplicates:
+        df = df.drop_duplicates(groupby).copy()
+    return df
+
+
 def top_commodities(reporterCode, 
                     partnerCode=0, 
                     years=None, 
@@ -529,8 +584,10 @@ def top_commodities(reporterCode,
         return pco
 
 def get_global_stats(countryOfInterest=None, 
-                     years=None,
-                     exports_from_word_imports=True,
+                     period=None,
+                     exports_from_world_imports=True,
+                     typeCode='C',
+                     freqCode='A',
                      timeout=120, 
                      echo_url=False):
     """
@@ -544,6 +601,8 @@ def get_global_stats(countryOfInterest=None,
         years (str): year range, e.g. 2010,2011,2012
         exports_from_world_imports (bool): if True country exports are calculated 
                                             from world imports; default True
+        typeCode (str): C for commodities, S for Services, default C
+        freqCode (str): A for annual and M for monthly, default A
         timeout (int): timeout in seconds for the request, default 120
         echo_url (bool): print the url to the console, default False
     
@@ -551,24 +610,24 @@ def get_global_stats(countryOfInterest=None,
         DataFrame: DataFrame with the totals for each year and flow indexed
                    by year and flow code"""
     reporterCode = countryOfInterest
-    global_stats_import = get_data('C',
-                            'A',
+    global_stats_import = get_data(typeCode,
+                            freqCode,
                             reporterCode=countryOfInterest, 
                             partnerCode=0, 
                             partner2Code=0,
                             flowCode='M',
-                            period=years, 
+                            period=period, 
                             motCode=0,
                             timeout=timeout, 
                             echo_url=echo_url)
-    if exports_from_word_imports:  # get the exports from the world imports from country of interest
+    if exports_from_world_imports:  # get the exports from the world imports from country of interest
         global_stats_export = get_data('C',
                                 'A',
                                 reporterCode=None, 
                                 partnerCode=countryOfInterest, 
                                 partner2Code=0,
                                 flowCode='M',
-                                period=years,
+                                period=period,
                                 motCode=0, 
                                 timeout=timeout, 
                                 echo_url=echo_url)
@@ -580,28 +639,33 @@ def get_global_stats(countryOfInterest=None,
                             partnerCode=0, 
                             partner2Code=0,
                             flowCode='X',
-                            period=years, 
+                            period=period, 
                             motCode=0,
                             timeout=timeout, 
                             echo_url=echo_url)        
         exportReporterCode = countryOfInterest
     # Agregate by year and flow
     gse_grouped = global_stats_export.groupby(['refYear','partnerCode','partnerDesc'])['primaryValue'].sum()
-    exports = gse_grouped.reset_index().rename(columns={'partnerCode':'countryCode','partnerDesc':'countryDesc'})
+    exports = gse_grouped.reset_index()  #.rename(columns={'partnerCode':'countryCode','partnerDesc':'countryDesc'})
     exports['primaryValueFormated'] = exports.primaryValue.map('{:,.2f}'.format)
     exports['flowCode'] = 'X'
     exports['flowDesc'] = 'Exports'
-    exports['reporterCode'] = exportReporterCode
-    exports['reporterDesc'] = COUNTRY_CODES[exportReporterCode]
     gsi_grouped = global_stats_import.groupby(['refYear','reporterCode','reporterDesc'])['primaryValue'].sum()
-    imports = gsi_grouped.reset_index().rename(columns={'reporterCode':'countryCode','reporterDesc':'countryDesc'})
+    imports = gsi_grouped.reset_index() #.rename(columns={'reporterCode':'countryCode','reporterDesc':'countryDesc'})
     imports['primaryValueFormated'] = imports.primaryValue.map('{:,.2f}'.format)
     imports['flowCode'] = 'M'
     imports['flowDesc'] = 'Imports'
-    imports['reporterCode'] = countryOfInterest
-    imports['reporterDesc'] = COUNTRY_CODES[countryOfInterest]
     global_stats = pd.concat([imports, exports]).sort_values(['refYear','flowCode'])                   
-    return global_stats
+    trade_balance = pd.pivot_table(global_stats, index=['refYear'],columns='flowDesc', values='primaryValue').fillna(0)
+    trade_balance.rename(columns={'Exports':'exports','Imports':'imports'}, inplace=True)
+    trade_balance['trade_balance'] = trade_balance['exports'] - trade_balance['imports']
+    trade_balance['xReporterCode'] = exportReporterCode
+    trade_balance['xReporterDesc'] = COUNTRY_CODES[exportReporterCode]
+    trade_balance['countryCode'] = countryOfInterest
+    trade_balance['countryDesc'] = COUNTRY_CODES[countryOfInterest]
+    trade_balance.reset_index()
+    return trade_balance.reindex(columns=['countryCode','countryDesc','exports','imports','trade_balance','xReporterCode','xReporterDesc'])
+
 
 def top_partners(reporterCode=0, 
                  years=None,  
