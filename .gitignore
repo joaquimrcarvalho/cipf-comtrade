@@ -14,3 +14,4 @@ __pycache__
 .python-version
 support/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv
 Angola_country_trade_profile.html
+cache/

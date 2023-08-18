@@ -8,6 +8,7 @@ UN Comtrade API.
 """
 import logging
 import os
+import datetime
 from typing import Union
 import warnings
 import re
@@ -15,6 +16,8 @@ import json
 from pathlib import Path
 import urllib.request
 import configparser
+import hashlib
+import pickle
 
 import requests
 import pandas as pd
@@ -22,15 +25,18 @@ import pandas as pd
 from ratelimit import limits, sleep_and_retry
 
 SUPPORT_DIR = 'support'
+CACHE_DIR = 'cache'
 
 Path(SUPPORT_DIR).mkdir(parents=True, exist_ok=True)
+Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
 
 APIKEY = None
 BASE_URL_PREVIEW = "https://comtradeapi.un.org/public/v1/preview/"
 BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
 
-CALLS_PER_PERIOD = 1  # number of calls per period
+CALLS_PER_PERIOD = 60  # number of calls per period
 PERIOD_SECONDS = 60  # period in seconds
+CACHE_VALID_DAYS = 7  # number of days to keep cached data
 
 # we use a copy of the codebook in git because the original cannot be downloaded
 #   without human action
@@ -227,8 +233,21 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, for
     PLP_TUPLES = list(PLP_CODES.items())
     PLP_TUPLES_REVERSE = list(PLP_CODES_REVERSE.items())
 
+    clean_cache()
+
     #global INIT_DONE
     #INIT_DONE = True
+
+
+def clean_cache():
+    directory = CACHE_DIR
+    cutoff_time = datetime.datetime.now() - datetime.timedelta(days=CACHE_VALID_DAYS)
+
+    for filename in os.listdir(directory):
+        file_path = os.path.join(directory, filename)
+        modification_time = datetime.datetime.fromtimestamp(os.path.getmtime(file_path))
+        if modification_time < cutoff_time:
+            os.remove(file_path)
 
 
 def getURL(apiKey:Union[str,None]=None):
@@ -250,8 +269,6 @@ def getURL(apiKey:Union[str,None]=None):
     return uncomtrade_url
 
 
-@sleep_and_retry
-@limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
 def get_data(typeCode: str, freqCode: str, 
                     reporterCode: str = '49', 
                     partnerCode: str = '024,076,132,226,624,508,620,678,626',
@@ -265,6 +282,7 @@ def get_data(typeCode: str, freqCode: str,
                     qtyUnitCodeFilter = None,
                     motCode = None,
                     apiKey:Union[str,None]=None,
+                    cache:bool = True,
                     timeout: int = 10,
                     echo_url: bool = False
                     )-> Union[pd.DataFrame,None]:
@@ -292,6 +310,7 @@ def get_data(typeCode: str, freqCode: str,
     if apiKey is None:
         apiKey = APIKEY
 
+    
     base_url=f"{getURL(apiKey)}/{typeCode}/{freqCode}/{clCode}"
     if partner2Code == -1:  # -1 
         partner2CodePar = None
@@ -308,10 +327,30 @@ def get_data(typeCode: str, freqCode: str,
             'customsCode':customsCode,
             'subscription-key':apiKey,
             }
+    
+    df: pd.DataFrame | None = pd.DataFrame()
+
+    # make a hash of the parameters for caching
+    hash = hashlib.md5()
+    hash.update(f"{base_url}{str(pars)}".encode('utf-8'))
+
+    if cache and not os.path.exists(CACHE_DIR):
+        Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
+
+    cache_file = f'{CACHE_DIR}/{hash.hexdigest()}.pickle'
+    if cache and os.path.exists(cache_file):
+        modification_time = os.path.getmtime(cache_file)
+        current_time = datetime.datetime.now().timestamp()
+        days_since_modification = (current_time - modification_time) / (24 * 3600)
+        if days_since_modification <= CACHE_VALID_DAYS:
+            with open(cache_file, 'rb') as f:
+                df = pickle.load(f)
+                return df
+        else:   
+            os.remove(cache_file)  
+
     error: bool = False
-    resp = requests.get(base_url,
-            {**pars, **more_pars},
-            timeout=timeout)
+    resp = call_comtrade(more_pars, timeout, base_url, pars)
     if echo_url:
         sanitize = re.sub("subscription-key=.*","subscription-key=HIDDEN",resp.url)
         print(sanitize)
@@ -433,8 +472,28 @@ def get_data(typeCode: str, freqCode: str,
             # Generate a formated version of the value for readability here
             if 'primaryValue' in df.columns.values:
                 df['primaryValueFormated'] = df.primaryValue.map('{:,.2f}'.format)
+            
+            # check to cache the results
+            if cache:
+                with open(cache_file, 'wb') as f:
+                    pickle.dump(df, f)
+
             # return the DataFrame
         return df
+
+
+@sleep_and_retry
+@limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
+def call_comtrade(more_pars, timeout, base_url, pars):
+    """Calls the comtrade API with the given parameters
+
+    This is isolated in a function to allow for retrying and rate limiting
+    """
+    resp = requests.get(base_url,
+            {**pars, **more_pars},
+            timeout=timeout)
+            
+    return resp
 
 
 def subtotal(df,groupby: list,col: str):
@@ -463,6 +522,8 @@ def total_rank_perc(df: pd.DataFrame,
                     groupby: list, 
                     col: str,
                     prefix:str,
+                    rankby: list = None,
+                    percby: list = None,
                     drop_duplicates: bool = True):
     """Returns the sum, rank and percentages of col for each groupby subset
 
@@ -470,7 +531,9 @@ def total_rank_perc(df: pd.DataFrame,
         df (pd.DataFrame): DataFrame to group
         groupby (list): list of columns to group by
         col (str): column to rank
-        prefix (str): prefix for the new columns. 
+        prefix (str): prefix for the new columns
+        rankby (list): list of columns to rank by. Default groupby[:-1]
+        drop_duplicates (bool): drop duplicates after calculating subtotal. Default True
         
         
     Returns:
@@ -482,8 +545,12 @@ def total_rank_perc(df: pd.DataFrame,
             {prefix}_upper_perc (perc of {prefix}_upper_sum in {prefix}_sum )
             """
     subtotal_col = f'{prefix}_sum'
+    if rankby is None:
+        rankby = groupby[:-1]
+    if percby is None:
+        percby = groupby[:-1]
     df[subtotal_col] = subtotal(df,groupby,col)
-    df[f'{prefix}_rank'] = rank(df,groupby[:-1],subtotal_col)
+    df[f'{prefix}_rank'] = rank(df,rankby,subtotal_col)
     df[f'{prefix}_perc'] = df[col] / subtotal(df,groupby[:-1],col)
     df[f'{prefix}_upper_sum'] = subtotal(df,groupby[:-1],col)
     df[f'{prefix}_upper_perc'] = df[subtotal_col] / df[f'{prefix}_upper_sum']
@@ -491,6 +558,12 @@ def total_rank_perc(df: pd.DataFrame,
         df = df.drop_duplicates(groupby).copy()
     return df
 
+
+def make_format(cols:list):
+    f = {col:'{0:.3%}' for col in cols if col.endswith('_perc')}
+    f.update({col:'${0:,.0f}' for col in cols if col.endswith('_sum')})
+    f.update({'primaryValue':'${0:,.0f}'})
+    return f
 
 def top_commodities(reporterCode, 
                     partnerCode=0, 
@@ -583,26 +656,26 @@ def top_commodities(reporterCode,
     else:
         return pco
 
+
 def get_global_stats(countryOfInterest=None, 
                      period=None,
-                     exports_from_world_imports=True,
                      typeCode='C',
                      freqCode='A',
+                     partners=0,  # default world
+                     symmetric_values=True,
                      timeout=120, 
                      echo_url=False):
     """
     Get the Import/Export totals for a given country and year range
 
-    Imports as reported by country of interest
-    Exports as reported by partners as imports from country of interest-
-
     Args:
         country_of_interest (str): country of interest, e.g. 49 for China
         years (str): year range, e.g. 2010,2011,2012
-        exports_from_world_imports (bool): if True country exports are calculated 
-                                            from world imports; default True
+        symmetric_values: if True report also exports from partner imports
+                          and imports from partners exports; default True
         typeCode (str): C for commodities, S for Services, default C
         freqCode (str): A for annual and M for monthly, default A
+        partners (str): 0 for the world, None for all, code or CSV, default 0
         timeout (int): timeout in seconds for the request, default 120
         echo_url (bool): print the url to the console, default False
     
@@ -610,20 +683,31 @@ def get_global_stats(countryOfInterest=None,
         DataFrame: DataFrame with the totals for each year and flow indexed
                    by year and flow code"""
     reporterCode = countryOfInterest
-    global_stats_import = get_data(typeCode,
+    reported_imports = get_data(typeCode,
                             freqCode,
                             reporterCode=countryOfInterest, 
-                            partnerCode=0, 
+                            partnerCode=partners, 
                             partner2Code=0,
                             flowCode='M',
                             period=period, 
                             motCode=0,
                             timeout=timeout, 
                             echo_url=echo_url)
-    if exports_from_world_imports:  # get the exports from the world imports from country of interest
-        global_stats_export = get_data('C',
+    reported_exports = get_data('C',
+                            'A',
+                            reporterCode=countryOfInterest, 
+                            partnerCode=partners,
+                            partner2Code=0,
+                            flowCode='X',
+                            period=period, 
+                            motCode=0,
+                            timeout=timeout, 
+                            echo_url=echo_url) 
+    if symmetric_values:
+
+        exports_from_imports = get_data('C',
                                 'A',
-                                reporterCode=None, 
+                                reporterCode=partners if partners!=0 else None, 
                                 partnerCode=countryOfInterest, 
                                 partner2Code=0,
                                 flowCode='M',
@@ -631,40 +715,53 @@ def get_global_stats(countryOfInterest=None,
                                 motCode=0, 
                                 timeout=timeout, 
                                 echo_url=echo_url)
-        exportReporterCode = 0
-    else:
-        global_stats_export = get_data('C',
-                            'A',
-                            reporterCode=countryOfInterest, 
-                            partnerCode=0, 
+        imports_from_exports = get_data(typeCode,
+                            freqCode,
+                            reporterCode=partners if partners!=0 else None, 
+                            partnerCode=countryOfInterest, 
                             partner2Code=0,
                             flowCode='X',
                             period=period, 
                             motCode=0,
                             timeout=timeout, 
-                            echo_url=echo_url)        
-        exportReporterCode = countryOfInterest
+                            echo_url=echo_url)
+
     # Agregate by year and flow
-    gse_grouped = global_stats_export.groupby(['refYear','partnerCode','partnerDesc'])['primaryValue'].sum()
-    exports = gse_grouped.reset_index()  #.rename(columns={'partnerCode':'countryCode','partnerDesc':'countryDesc'})
-    exports['primaryValueFormated'] = exports.primaryValue.map('{:,.2f}'.format)
-    exports['flowCode'] = 'X'
-    exports['flowDesc'] = 'Exports'
-    gsi_grouped = global_stats_import.groupby(['refYear','reporterCode','reporterDesc'])['primaryValue'].sum()
-    imports = gsi_grouped.reset_index() #.rename(columns={'reporterCode':'countryCode','reporterDesc':'countryDesc'})
-    imports['primaryValueFormated'] = imports.primaryValue.map('{:,.2f}'.format)
-    imports['flowCode'] = 'M'
-    imports['flowDesc'] = 'Imports'
-    global_stats = pd.concat([imports, exports]).sort_values(['refYear','flowCode'])                   
-    trade_balance = pd.pivot_table(global_stats, index=['refYear'],columns='flowDesc', values='primaryValue').fillna(0)
-    trade_balance.rename(columns={'Exports':'exports','Imports':'imports'}, inplace=True)
-    trade_balance['trade_balance'] = trade_balance['exports'] - trade_balance['imports']
-    trade_balance['xReporterCode'] = exportReporterCode
-    trade_balance['xReporterDesc'] = COUNTRY_CODES[exportReporterCode]
-    trade_balance['countryCode'] = countryOfInterest
-    trade_balance['countryDesc'] = COUNTRY_CODES[countryOfInterest]
+    reported_exports=reported_exports.groupby(['period','reporterCode'])['primaryValue'].sum().reset_index()
+    reported_exports['flowCode'] = 'X'
+    reported_exports['flowDesc'] = 'exports'
+    # rename reporterCode to countryCode
+    reported_exports.rename(columns={'reporterCode':'countryCode'}, inplace=True)
+    reported_imports=reported_imports.groupby(['period','reporterCode'])['primaryValue'].sum().reset_index()
+    # rename reporterCode to countryCode
+    reported_imports.rename(columns={'reporterCode':'countryCode'}, inplace=True)
+    reported_imports['flowCode'] = 'M'
+    reported_imports['flowDesc'] = 'imports'
+
+    global_trade = pd.concat([reported_imports, reported_exports])
+
+    if symmetric_values:
+        exports_from_imports = exports_from_imports.groupby(['period','partnerCode'])['primaryValue'].sum().reset_index()
+        # rename partnerCode to countryCode
+        exports_from_imports.rename(columns={'partnerCode':'countryCode'}, inplace=True)
+        exports_from_imports['flowCode'] = 'X<M'
+        exports_from_imports['flowDesc'] = 'exports(others imports)'
+
+        imports_from_exports = imports_from_exports.groupby(['period','partnerCode'])['primaryValue'].sum().reset_index()
+        # rename partnerCode to countryCode
+        imports_from_exports.rename(columns={'partnerCode':'countryCode'}, inplace=True)
+        imports_from_exports['flowCode'] = 'M<X'
+        imports_from_exports['flowDesc'] = 'imports(others exports)'
+
+        global_trade = pd.concat([global_trade, exports_from_imports, imports_from_exports])
+                 
+    trade_balance = pd.pivot_table(global_trade, index=['period'],columns='flowCode', values='primaryValue').fillna(0)
+    trade_balance['trade_balance'] = trade_balance['X'] - trade_balance['M']
+    trade_balance['trade_volume'] = trade_balance['X'] + trade_balance['M']
+    trade_balance['trade_balance （X<M-M)'] = trade_balance['X<M'] - trade_balance['M']
+    trade_balance['trade_volume （X<M-M)'] = trade_balance['X<M'] + trade_balance['M']
     trade_balance.reset_index()
-    return trade_balance.reindex(columns=['countryCode','countryDesc','exports','imports','trade_balance','xReporterCode','xReporterDesc'])
+    return trade_balance  #.reindex(columns=['countryCode','countryDesc','exports','imports','trade_balance','xReporterCode','xReporterDesc'])
 
 
 def top_partners(reporterCode=0, 
