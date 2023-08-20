@@ -108,9 +108,10 @@ PERC_CMD_IN_PARTNER = 'perc_cmd_for_partner'
 # label for the percentage of a country in the total trade of a commodity
 PERC_PARTNER_IN_CMD = 'perc_partner_for_cmd'
 
-global INIT_DONE
+INIT_DONE = False
 
 INIT_DONE = False # flag to avoid multiple initialization
+
 
 def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, force_init: bool=False):
     """Set the API Key and codebooks for the module
@@ -269,16 +270,16 @@ def getURL(apiKey:Union[str,None]=None):
     return uncomtrade_url
 
 
-def get_data(typeCode: str, freqCode: str, 
-                    reporterCode: str = '49', 
+def get_data(typeCode: str, freqCode: str,
+                    reporterCode: str = '49',
                     partnerCode: str = '024,076,132,226,624,508,620,678,626',
                     partner2Code: str = 0,
                     period: str = None,
                     clCode: str = "HS",
                     cmdCode: str = "TOTAL",
                     flowCode: str = "M,X",
-                    customsCode:str = 'C00', 
-                    more_pars = {},
+                    customsCode:str = 'C00',
+                    more_pars = None,
                     qtyUnitCodeFilter = None,
                     motCode = None,
                     apiKey:Union[str,None]=None,
@@ -309,7 +310,8 @@ def get_data(typeCode: str, freqCode: str,
      """
     if apiKey is None:
         apiKey = APIKEY
-
+    if more_pars is None:
+        more_pars = {}
     
     base_url=f"{getURL(apiKey)}/{typeCode}/{freqCode}/{clCode}"
     if partner2Code == -1:  # -1 
@@ -682,7 +684,7 @@ def get_global_stats(countryOfInterest=None,
     Returns:
         DataFrame: DataFrame with the totals for each year and flow indexed
                    by year and flow code"""
-    reporterCode = countryOfInterest
+
     reported_imports = get_data(typeCode,
                             freqCode,
                             reporterCode=countryOfInterest, 
@@ -727,33 +729,45 @@ def get_global_stats(countryOfInterest=None,
                             echo_url=echo_url)
 
     # Agregate by year and flow
-    reported_exports=reported_exports.groupby(['period','reporterCode'])['primaryValue'].sum().reset_index()
-    reported_exports['flowCode'] = 'X'
-    reported_exports['flowDesc'] = 'exports'
-    # rename reporterCode to countryCode
-    reported_exports.rename(columns={'reporterCode':'countryCode'}, inplace=True)
-    reported_imports=reported_imports.groupby(['period','reporterCode'])['primaryValue'].sum().reset_index()
-    # rename reporterCode to countryCode
-    reported_imports.rename(columns={'reporterCode':'countryCode'}, inplace=True)
-    reported_imports['flowCode'] = 'M'
-    reported_imports['flowDesc'] = 'imports'
+    if reported_exports is not None:
+        reported_exports=reported_exports.groupby(['period','reporterCode'])['primaryValue'].sum().reset_index()
+        reported_exports['flowCode'] = 'X'
+        reported_exports['flowDesc'] = 'exports'
+        # rename reporterCode to countryCode
+        reported_exports.rename(columns={'reporterCode':'countryCode'}, inplace=True)
+    else:
+        reported_exports = pd.DataFrame(columns=['period','countryCode','primaryValue','flowCode','flowDesc'])  
+    if reported_imports is not None:
+        reported_imports=reported_imports.groupby(['period','reporterCode'])['primaryValue'].sum().reset_index()
+        # rename reporterCode to countryCode
+        reported_imports.rename(columns={'reporterCode':'countryCode'}, inplace=True)
+        reported_imports['flowCode'] = 'M'
+        reported_imports['flowDesc'] = 'imports'
+    else:
+        reported_imports = pd.DataFrame(columns=['period','countryCode','primaryValue','flowCode','flowDesc'])
 
     global_trade = pd.concat([reported_imports, reported_exports])
 
     if symmetric_values:
-        exports_from_imports = exports_from_imports.groupby(['period','partnerCode'])['primaryValue'].sum().reset_index()
-        # rename partnerCode to countryCode
-        exports_from_imports.rename(columns={'partnerCode':'countryCode'}, inplace=True)
-        exports_from_imports['flowCode'] = 'X<M'
-        exports_from_imports['flowDesc'] = 'exports(others imports)'
+        if exports_from_imports is not None:
+            exports_from_imports = exports_from_imports.groupby(['period','partnerCode'])['primaryValue'].sum().reset_index()
+            # rename partnerCode to countryCode
+            exports_from_imports.rename(columns={'partnerCode':'countryCode'}, inplace=True)
+            exports_from_imports['flowCode'] = 'X<M'
+            exports_from_imports['flowDesc'] = 'exports(others imports)'
+        else:
+            exports_from_imports = pd.DataFrame(columns=['period','countryCode','primaryValue','flowCode','flowDesc'])
 
-        imports_from_exports = imports_from_exports.groupby(['period','partnerCode'])['primaryValue'].sum().reset_index()
-        # rename partnerCode to countryCode
-        imports_from_exports.rename(columns={'partnerCode':'countryCode'}, inplace=True)
-        imports_from_exports['flowCode'] = 'M<X'
-        imports_from_exports['flowDesc'] = 'imports(others exports)'
+        if imports_from_exports is not None:
+            imports_from_exports = imports_from_exports.groupby(['period','partnerCode'])['primaryValue'].sum().reset_index()
+            # rename partnerCode to countryCode
+            imports_from_exports.rename(columns={'partnerCode':'countryCode'}, inplace=True)
+            imports_from_exports['flowCode'] = 'M<X'
+            imports_from_exports['flowDesc'] = 'imports(others exports)'
+        else:
+            imports_from_exports = pd.DataFrame(columns=['period','countryCode','primaryValue','flowCode','flowDesc'])
 
-        global_trade = pd.concat([global_trade, exports_from_imports, imports_from_exports])
+    global_trade = pd.concat([global_trade, exports_from_imports, imports_from_exports])
                  
     trade_balance = pd.pivot_table(global_trade, index=['period'],columns='flowCode', values='primaryValue').fillna(0)
     trade_balance['trade_balance'] = trade_balance['X'] - trade_balance['M']
