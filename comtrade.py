@@ -8,6 +8,7 @@ UN Comtrade API.
 """
 import logging
 import os
+import time
 import datetime
 from typing import Union
 import warnings
@@ -23,6 +24,7 @@ import requests
 import pandas as pd
 
 from ratelimit import limits, sleep_and_retry
+import comtradeapicall
 
 SUPPORT_DIR = 'support'
 CACHE_DIR = 'cache'
@@ -34,8 +36,11 @@ APIKEY = None
 BASE_URL_PREVIEW = "https://comtradeapi.un.org/public/v1/preview/"
 BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
 
-CALLS_PER_PERIOD = 60  # number of calls per period
-PERIOD_SECONDS = 60  # period in seconds
+CALLS_PER_PERIOD = 1  # number of calls per period
+PERIOD_SECONDS = 20  # period in seconds
+MAX_RETRIES = 5  # number of retries for a failed call
+MAX_SLEEP = 5  # maximum number of seconds to sleep between retries
+
 CACHE_VALID_DAYS = 7  # number of days to keep cached data
 
 # we use a copy of the codebook in git because the original cannot be downloaded
@@ -269,7 +274,16 @@ def getURL(apiKey:Union[str,None]=None):
 
     return uncomtrade_url
 
+def split_period(period: str, max_periods=12):
+    """Splits a period string into a list of periods of max_periods length
+    Usefull to handle the limitation of the API to 12 periods per query"""
 
+    period_list = period.split(',')
+    period_list = [",".join(period_list[i:i + max_periods]) for i in range(0, len(period_list), max_periods)]
+    return period_list
+
+@sleep_and_retry
+@limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
 def get_data(typeCode: str, freqCode: str,
                     reporterCode: str = '49',
                     partnerCode: str = '024,076,132,226,624,508,620,678,626',
@@ -352,7 +366,26 @@ def get_data(typeCode: str, freqCode: str,
             os.remove(cache_file)  
 
     error: bool = False
-    resp = call_comtrade(more_pars, timeout, base_url, pars)
+
+    retry = 0
+    while retry < MAX_RETRIES:    
+        resp = requests.get(base_url,
+                {**pars, **more_pars},
+                timeout=timeout)
+        if resp.status_code == 200:
+            break
+        elif resp.status_code == 429:
+            sleep = MAX_SLEEP * (retry + 1)
+            retry += 1
+            errorInfo = json.loads(resp.content)
+            message = errorInfo.get('message',resp.content)
+            warnings.warn(f"Server returned HTTP Status: {str(resp.status_code)} {message} retrying in {sleep} seconds",)
+
+            time.sleep(sleep)
+        else:
+            break
+
+
     if echo_url:
         sanitize = re.sub("subscription-key=.*","subscription-key=HIDDEN",resp.url)
         print(sanitize)
@@ -486,17 +519,26 @@ def get_data(typeCode: str, freqCode: str,
 
 @sleep_and_retry
 @limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
-def call_comtrade(more_pars, timeout, base_url, pars):
-    """Calls the comtrade API with the given parameters
-
-    This is isolated in a function to allow for retrying and rate limiting
-    """
-    resp = requests.get(base_url,
-            {**pars, **more_pars},
-            timeout=timeout)
-            
-    return resp
-
+def getFinalData(*p,**kwp):
+    """Wrapper for comtradeapicall.getFinalData with rate limit"""
+    try:
+        df = comtradeapicall.getFinalData(*p,**kwp)
+    except Exception as e:
+        sleep = MAX_SLEEP * (retry + 1)
+        print(f"Error in getFinalData, retrying in {MAX_SLEEP} seconds",e)
+        time.sleep(MAX_SLEEP)
+        df = comtradeapicall.getFinalData(*p,**kwp)
+    retry = 0
+    while df is None and retry < MAX_RETRIES:
+        sleep = MAX_SLEEP * (retry + 1)
+        print(f"Empty result in getFinalData, retrying in {sleep} seconds")
+        time.sleep(sleep)
+        retry += 1
+        df = comtradeapicall.getFinalData(*p,**kwp)
+    if df is None:
+        raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
+    return df
+    
 
 def subtotal(df,groupby: list,col: str):
     """Returns the sum of col for each groupby group
