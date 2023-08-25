@@ -604,8 +604,8 @@ def total_rank_perc(df: pd.DataFrame,
 
 
 def make_format(cols:list):
-    f = {col:'{0:.3%}' for col in cols if col.endswith('_perc')}
-    f.update({col:'${0:,.0f}' for col in cols if col.endswith('_sum')})
+    f = {col:'{0:.3%}' for col in cols if col.endswith('perc')}
+    f.update({col:'${0:,.0f}' for col in cols if col.endswith('sum')})
     f.update({'primaryValue':'${0:,.0f}'})
     return f
 
