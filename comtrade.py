@@ -143,7 +143,7 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, for
     APIKEY = apy_key
     INIT_DONE = True
 
-    if not os.path.isfile(CODE_BOOK_FILE):
+    if not os.path.isfile(CODE_BOOK_FILE) or force_init:
         logging.info(f"Downloading codebook from {CODE_BOOK_URL}")
         urllib.request.urlretrieve(CODE_BOOK_URL, CODE_BOOK_FILE)
         print("un-comtrade codeboox downloaded")
@@ -160,7 +160,7 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, for
             xls.to_csv(cache_file, index=False)
             print(f"Worksheet {worksheet} saved to {cache_file}")
 
-    if not os.path.isfile(COUNTRY_GROUPS_FILE):
+    if not os.path.isfile(COUNTRY_GROUPS_FILE) or force_init:
         logging.info(f"Downloading country groups from {COUNTRY_GROUPS_URL}")
         headers={'user-agent': 'Mozilla/5.0'}
         r=requests.get(COUNTRY_GROUPS_URL, headers=headers)
@@ -177,9 +177,19 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, for
     COLS_DESCRIPTION_FILE="support/COMTRADE+ COMPLETE.csv"
 
 
-    # Process codebook tables into dictionnaries
-    global COUNTRY_CODES 
-    COUNTRY_CODES = pd.read_csv(COUNTRY_CODE_FILE, index_col=0).squeeze().to_dict()
+    # Process reference tables
+
+
+    # COUNTRY_CODES = pd.read_csv(COUNTRY_CODE_FILE, index_col=0).squeeze().to_dict()
+    
+    PARTNER_TABLE = comtradeapicall.getReference('partner')
+    PARTNER_CODES = PARTNER_TABLE[['id','text']].set_index('id').squeeze().to_dict()
+    COUNTRY_CODES=PARTNER_CODES
+
+    REPORTER_TABLE = comtradeapicall.getReference('reporter')
+    REPORTER_CODES = REPORTER_TABLE[['id','text']].set_index('id').squeeze().to_dict()  
+    COUNTRY_CODES.update(REPORTER_CODES)
+
 
     global COUNTRY_CODES_REVERSE
     COUNTRY_CODES_REVERSE = {v: k for k, v in COUNTRY_CODES.items()}
