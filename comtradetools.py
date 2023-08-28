@@ -1,5 +1,5 @@
 """
-Module comtrade.
+Module comtradetools.
 
 Auxiliary functions and data to access the
 UN Comtrade API.
@@ -28,6 +28,7 @@ import comtradeapicall
 
 SUPPORT_DIR = 'support'
 CACHE_DIR = 'cache'
+CONFIG_FILE = 'config.ini'
 
 Path(SUPPORT_DIR).mkdir(parents=True, exist_ok=True)
 Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
@@ -44,9 +45,15 @@ MAX_SLEEP = 5  # maximum number of seconds to sleep between retries
 CACHE_VALID_DAYS = 7  # number of days to keep cached data
 
 # we use a copy of the codebook in git because the original cannot be downloaded
-#   without human action
+#   without human action. The codebook is used to decode the results of the API call
+# Note that with the release of comtradeapicall python package, the codebook is no longer used
+#   but we keep it here for reference
 CODE_BOOK_URL = "https://raw.githubusercontent.com/joaquimrcarvalho/cipf-comtrade/main/support/codebook.xlsx"
 CODE_BOOK_FILE = "support/codebook.xlsx"
+
+# Description of the columns in the results of the API call
+DATA_ITEM_DF = None
+DATA_ITEM_CSV = "support/dataitem.csv"
 
 # Countries, regions, and other geographical areas
 # The UN Comtrade division keeps a list of countries and areas that is used for aggregation purposes.
@@ -55,7 +62,10 @@ CODE_BOOK_FILE = "support/codebook.xlsx"
 # CSV file at https://unctadstat.unctad.org/EN/Classifications/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv
 COUNTRY_GROUPS_URL = "https://unctadstat.unctad.org/EN/Classifications/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv"
 COUNTRY_GROUPS_FILE = "support/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv"
-
+PARTNER_DF = None
+PARTNER_CSV = "support/partner.csv"
+REPORTER_DF = None
+REPORTER_CSV = "support/reporter.csv"
 
 COUNTRY_CODES: dict = {}
 COUNTRY_CODES_REVERSE: dict = {}
@@ -117,6 +127,53 @@ INIT_DONE = False
 
 INIT_DONE = False # flag to avoid multiple initialization
 
+def setup(support_dir: str = 'support',
+          cache_dir: str = 'cache',
+          config_file: str = 'config.ini',):
+    """Create support directories and config file if they do not exist
+
+    Args:
+        support_dir (str, optional): Directory for support files. Defaults to 'support'.
+        cache_dir (str, optional): Directory for cached files. Defaults to 'cache'.
+        config_file (str, optional): Config file. Defaults to 'config.ini'.
+    """
+    # create "support" directory if it does not exist
+    global SUPPORT_DIR
+    Path(support_dir).mkdir(parents=True, exist_ok=True)
+    SUPPORT_DIR = support_dir
+
+    # create cache directory if it does not exist
+    global CACHE_DIR
+    Path(cache_dir).mkdir(parents=True, exist_ok=True)
+    CACHE_DIR = cache_dir
+
+    # create config file if it does not exist
+    global CONFIG_FILE
+    if not os.path.isfile(config_file):
+        logging.info(f"Creating config file {config_file}")
+        content = """
+# Config for comtradetools
+[comtrade]
+# Add API Key. DO NOT SHARE
+key = APIKEYHERE
+"""
+        with open(config_file, 'w') as f:
+            f.write(content)
+        logging.warning(f"Please edit {config_file} and add your API Key")
+
+    CONFIG_FILE = config_file
+
+
+def get_apikey() -> str:
+    """Get the API Key from the config file
+
+    Returns:
+        str: API Key
+    """
+    config = configparser.ConfigParser()
+    config.read(CONFIG_FILE)
+    return config['comtrade']['key']
+
 
 def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, force_init: bool=False):
     """Set the API Key and codebooks for the module
@@ -143,10 +200,12 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, for
     APIKEY = apy_key
     INIT_DONE = True
 
+    # downloadd codebook if not cached. Note that with the release of comtradeapicall python package, the codebook is no longer used
+    #   but we keep it here for reference
     if not os.path.isfile(CODE_BOOK_FILE) or force_init:
         logging.info(f"Downloading codebook from {CODE_BOOK_URL}")
         urllib.request.urlretrieve(CODE_BOOK_URL, CODE_BOOK_FILE)
-        print("un-comtrade codeboox downloaded")
+        print("un-comtrade codebook downloaded to",CODE_BOOK_FILE)
 
     # Get the worksheets from the Excel workbook
     code_book_xls = pd.ExcelFile(CODE_BOOK_FILE)
@@ -178,16 +237,39 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, for
 
 
     # Process reference tables
+    # get descriptions of columns
+    global DATA_ITEM_DF
+    if not os.path.isfile(DATA_ITEM_CSV) or force_init:
+        DATA_ITEM_DF = comtradeapicall.getReference('dataitem')
+        DATA_ITEM_DF.to_csv(DATA_ITEM_CSV)
+    else:
+        DATA_ITEM_DF = pd.read_csv(DATA_ITEM_CSV)
 
 
     # COUNTRY_CODES = pd.read_csv(COUNTRY_CODE_FILE, index_col=0).squeeze().to_dict()
     
-    PARTNER_TABLE = comtradeapicall.getReference('partner')
-    PARTNER_CODES = PARTNER_TABLE[['id','text']].set_index('id').squeeze().to_dict()
+    global PARTNER_DF
+    global PARTNER_CSV
+    global COUNTRY_CODES
+    global PARTNER_CODES
+    if not os.path.isfile(PARTNER_CSV) or force_init:
+        PARTNER_DF = comtradeapicall.getReference('partner')
+        PARTNER_DF.to_csv(PARTNER_CSV)
+    else:
+        PARTNER_DF = pd.read_csv(PARTNER_CSV)
+    PARTNER_CODES = PARTNER_DF[['id','text']].set_index('id').squeeze().to_dict()
     COUNTRY_CODES=PARTNER_CODES
 
-    REPORTER_TABLE = comtradeapicall.getReference('reporter')
-    REPORTER_CODES = REPORTER_TABLE[['id','text']].set_index('id').squeeze().to_dict()  
+    global REPORTER_DF
+    global REPORTER_CSV
+    global REPORTER_CODES
+    if not os.path.isfile(REPORTER_CSV) or force_init:
+        REPORTER_DF = comtradeapicall.getReference('reporter')
+        REPORTER_DF.to_csv(REPORTER_CSV)
+    else:
+        REPORTER_DF = pd.read_csv(REPORTER_CSV)
+    REPORTER_CODES = REPORTER_DF[['id','text']].set_index('id').squeeze().to_dict()  
+    
     COUNTRY_CODES.update(REPORTER_CODES)
 
 
@@ -1137,4 +1219,4 @@ if __name__ == '__main__':
         APIKEY = config['comtrade'].get('key', None)
     init(APIKEY, force_init=True)
     PERIOD_SECONDS=7
-print("contrade.py initialized")
+    print("contrade.py initialized")
