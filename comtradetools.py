@@ -39,8 +39,10 @@ BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
 
 CALLS_PER_PERIOD = 1  # number of calls per period
 PERIOD_SECONDS = 20  # period in seconds
-MAX_RETRIES = 5  # number of retries for a failed call
+MAX_RETRIES = 5  # max number of retries for a failed call
+RETRIES = 0  # number of retries for a failed call
 MAX_SLEEP = 5  # maximum number of seconds to sleep between retries
+
 
 CACHE_VALID_DAYS = 7  # number of days to keep cached data
 
@@ -164,7 +166,7 @@ key = APIKEYHERE
     CONFIG_FILE = config_file
 
 
-def get_apikey() -> str:
+def get_api_key() -> str:
     """Get the API Key from the config file
 
     Returns:
@@ -348,21 +350,21 @@ def clean_cache():
             os.remove(file_path)
 
 
-def getURL(apiKey:Union[str,None]=None):
+def get_url(api_key:Union[str,None]=None):
     """Get the URL for the API call"""
 
-    if apiKey == 'APIKEYHERE':
-        apiKey=None
-    if apiKey is None:
+    if api_key == 'APIKEYHERE':
+        api_key=None
+    if api_key is None:
         uncomtrade_url = BASE_URL_PREVIEW
     else:
         uncomtrade_url = BASE_URL_API
 
     # log to info
-    logging.info("baseURL: "+uncomtrade_url)
+    logging.info("baseURL: %s",uncomtrade_url)
 
-    if apiKey is not None:
-        logging.info("APIKEY: "+apiKey[:8])
+    if api_key is not None:
+        logging.info("APIKEY: %s",api_key[:8])
 
     return uncomtrade_url
 
@@ -419,7 +421,7 @@ def get_data(typeCode: str, freqCode: str,
     if more_pars is None:
         more_pars = {}
     
-    base_url=f"{getURL(apiKey)}/{typeCode}/{freqCode}/{clCode}"
+    base_url=f"{get_url(apiKey)}/{typeCode}/{freqCode}/{clCode}"
     if partner2Code == -1:  # -1 
         partner2CodePar = None
     else:
@@ -459,16 +461,17 @@ def get_data(typeCode: str, freqCode: str,
 
     error: bool = False
 
-    retry = 0
-    while retry < MAX_RETRIES:    
+    global RETRY
+    RETRY = 0
+    while RETRY < MAX_RETRIES:    
         resp = requests.get(base_url,
                 {**pars, **more_pars},
                 timeout=timeout)
         if resp.status_code == 200:
             break
         elif resp.status_code == 429:
-            sleep = MAX_SLEEP * (retry + 1)
-            retry += 1
+            sleep = MAX_SLEEP * (RETRY + 1)
+            RETRY += 1
             errorInfo = json.loads(resp.content)
             message = errorInfo.get('message',resp.content)
             warnings.warn(f"Server returned HTTP Status: {str(resp.status_code)} {message} retrying in {sleep} seconds",)
@@ -476,7 +479,6 @@ def get_data(typeCode: str, freqCode: str,
             time.sleep(sleep)
         else:
             break
-
 
     if echo_url:
         sanitize = re.sub("subscription-key=.*","subscription-key=HIDDEN",resp.url)
@@ -613,19 +615,20 @@ def get_data(typeCode: str, freqCode: str,
 @limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
 def getFinalData(*p,**kwp):
     """Wrapper for comtradeapicall.getFinalData with rate limit"""
+    global RETRY
     try:
         df = comtradeapicall.getFinalData(*p,**kwp)
     except Exception as e:
-        sleep = MAX_SLEEP * (retry + 1)
+        sleep = MAX_SLEEP * (RETRY + 1)
         print(f"Error in getFinalData, retrying in {MAX_SLEEP} seconds",e)
         time.sleep(MAX_SLEEP)
         df = comtradeapicall.getFinalData(*p,**kwp)
-    retry = 0
-    while df is None and retry < MAX_RETRIES:
-        sleep = MAX_SLEEP * (retry + 1)
+    RETRY = 0
+    while df is None and RETRY < MAX_RETRIES:
+        sleep = MAX_SLEEP * (RETRY + 1)
         print(f"Empty result in getFinalData, retrying in {sleep} seconds")
         time.sleep(sleep)
-        retry += 1
+        RETRY += 1
         df = comtradeapicall.getFinalData(*p,**kwp)
     if df is None:
         raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
@@ -793,7 +796,7 @@ def top_commodities(reporterCode,
         return pco
 
 
-def get_global_stats(countryOfInterest=None, 
+def get_trade_flows_old(countryOfInterest=None, 
                      period=None,
                      typeCode='C',
                      freqCode='A',
@@ -802,6 +805,7 @@ def get_global_stats(countryOfInterest=None,
                      timeout=120, 
                      echo_url=False):
     """
+    DEPRECATED: use get_trade_flows instead
     Get the Import/Export totals for a given country and year range
 
     Args:
@@ -819,26 +823,28 @@ def get_global_stats(countryOfInterest=None,
         DataFrame: DataFrame with the totals for each year and flow indexed
                    by year and flow code"""
 
-    reported_imports = get_data(typeCode,
-                            freqCode,
-                            reporterCode=countryOfInterest, 
-                            partnerCode=partners, 
+    reported_imports = get_data(
+                            typeCode=typeCode,
+                            freqCode=freqCode,
+                            reporterCode=countryOfInterest,
+                            partnerCode=partners,
                             partner2Code=0,
                             flowCode='M',
-                            period=period, 
+                            period=period,
                             motCode=0,
-                            timeout=timeout, 
-                            echo_url=echo_url)
-    reported_exports = get_data('C',
-                            'A',
+                            clCode='HS',
+                            )
+    reported_exports = get_data(
+                            typeCode=typeCode,
+                            freqCode=freqCode,
                             reporterCode=countryOfInterest, 
                             partnerCode=partners,
                             partner2Code=0,
                             flowCode='X',
-                            period=period, 
+                            period=period,
                             motCode=0,
-                            timeout=timeout, 
-                            echo_url=echo_url) 
+                            timeout=timeout,
+                            echo_url=echo_url)
     if symmetric_values:
 
         exports_from_imports = get_data('C',
@@ -904,13 +910,143 @@ def get_global_stats(countryOfInterest=None,
     global_trade = pd.concat([global_trade, exports_from_imports, imports_from_exports])
                  
     trade_balance = pd.pivot_table(global_trade, index=['period'],columns='flowCode', values='primaryValue').fillna(0)
-    trade_balance['trade_balance'] = trade_balance['X'] - trade_balance['M']
-    trade_balance['trade_volume'] = trade_balance['X'] + trade_balance['M']
-    trade_balance['trade_balance （X<M-M)'] = trade_balance['X<M'] - trade_balance['M']
-    trade_balance['trade_volume （X<M-M)'] = trade_balance['X<M'] + trade_balance['M']
+    trade_balance['trade_balance (X-M)'] = trade_balance['X'] - trade_balance['M']
+    trade_balance['trade_balance (X<M-M)'] = trade_balance['X<M'] - trade_balance['M']
+    trade_balance['trade_volume (X+M)'] = trade_balance['X'] + trade_balance['M']
+    trade_balance['trade_volume (X<M+M)'] = trade_balance['X<M'] + trade_balance['M']
     trade_balance.reset_index()
     return trade_balance  #.reindex(columns=['countryCode','countryDesc','exports','imports','trade_balance','xReporterCode','xReporterDesc'])
 
+
+def get_trade_flows(countryOfInterest=None,
+                     period=None,
+                     typeCode='C',
+                     freqCode='A',
+                     partners=0,  # default world
+                     symmetric_values=True):
+    """
+    Get the Import/Export totals for a given country and year range
+
+    Args:
+        country_of_interest (str): country of interest, e.g. 49 for China
+        years (str): year range, e.g. 2010,2011,2012
+        symmetric_values: if True report also exports from partner imports
+                          and imports from partners exports; default True
+        typeCode (str): C for commodities, S for Services, default C
+        freqCode (str): A for annual and M for monthly, default A
+        partners (str): 0 for the world, None for all, code or CSV, default 0
+   
+    Returns:
+        DataFrame: DataFrame with the totals for each year and flow indexed
+                   by year and flow code"""
+
+    reported_imports = getFinalData(
+                            APIKEY,
+                            typeCode=typeCode,
+                            freqCode=freqCode,
+                            reporterCode=countryOfInterest,
+                            partnerCode=partners,
+                            partner2Code=0,
+                            flowCode='M',
+                            period=period,
+                            motCode=0,
+                            customsCode='C00',
+                            cmdCode="TOTAL",
+                            clCode='HS',
+                            includeDesc=True)
+    reported_exports = getFinalData(APIKEY,
+                            typeCode=typeCode,
+                            freqCode=freqCode,
+                            reporterCode=countryOfInterest, 
+                            partnerCode=partners,
+                            partner2Code=0,
+                            flowCode='X',
+                            period=period, 
+                            clCode="HS",
+                            cmdCode="TOTAL",
+                            customsCode='C00',
+                            motCode=0,
+                            includeDesc=True,
+                            )
+    if symmetric_values:
+
+        exports_from_imports = getFinalData(APIKEY,
+                                typeCode=typeCode,
+                                freqCode=freqCode,
+                                reporterCode=partners if partners!=0 else None, 
+                                partnerCode=countryOfInterest, 
+                                partner2Code=0,
+                                flowCode='M',
+                                period=period,
+                                clCode="HS",
+                                customsCode='C00',
+                                cmdCode="TOTAL",
+                                motCode=0,
+                                includeDesc=True,
+                                )
+        imports_from_exports = getFinalData(APIKEY,
+                                typeCode=typeCode,
+                                freqCode=freqCode,
+                                reporterCode=partners if partners!=0 else None, 
+                                partnerCode=countryOfInterest,
+                                partner2Code=0,
+                                flowCode='X',
+                                period=period, 
+                                clCode="HS",
+                                customsCode='C00',
+                                cmdCode="TOTAL",
+                                motCode=0,
+                                includeDesc=True,
+                                )
+
+    # Agregate by year and flow
+    if reported_exports is not None:
+        reported_exports=reported_exports.groupby(['period','reporterCode'])['primaryValue'].sum().reset_index()
+        reported_exports['flowCode'] = 'X'
+        reported_exports['flowDesc'] = 'exports'
+        # rename reporterCode to countryCode
+        reported_exports.rename(columns={'reporterCode':'countryCode'}, inplace=True)
+    else:
+        reported_exports = pd.DataFrame(columns=['period','countryCode','primaryValue','flowCode','flowDesc'])  
+    if reported_imports is not None:
+        reported_imports=reported_imports.groupby(['period','reporterCode'])['primaryValue'].sum().reset_index()
+        # rename reporterCode to countryCode
+        reported_imports.rename(columns={'reporterCode':'countryCode'}, inplace=True)
+        reported_imports['flowCode'] = 'M'
+        reported_imports['flowDesc'] = 'imports'
+    else:
+        reported_imports = pd.DataFrame(columns=['period','countryCode','primaryValue','flowCode','flowDesc'])
+
+    global_trade = pd.concat([reported_imports, reported_exports])
+
+    if symmetric_values:
+        if exports_from_imports is not None:
+            exports_from_imports = exports_from_imports.groupby(['period','partnerCode'])['primaryValue'].sum().reset_index()
+            # rename partnerCode to countryCode
+            exports_from_imports.rename(columns={'partnerCode':'countryCode'}, inplace=True)
+            exports_from_imports['flowCode'] = 'X<M'
+            exports_from_imports['flowDesc'] = 'exports(others imports)'
+        else:
+            exports_from_imports = pd.DataFrame(columns=['period','countryCode','primaryValue','flowCode','flowDesc'])
+
+        if imports_from_exports is not None:
+            imports_from_exports = imports_from_exports.groupby(['period','partnerCode'])['primaryValue'].sum().reset_index()
+            # rename partnerCode to countryCode
+            imports_from_exports.rename(columns={'partnerCode':'countryCode'}, inplace=True)
+            imports_from_exports['flowCode'] = 'M<X'
+            imports_from_exports['flowDesc'] = 'imports(others exports)'
+        else:
+            imports_from_exports = pd.DataFrame(columns=['period','countryCode','primaryValue','flowCode','flowDesc'])
+
+    global_trade = pd.concat([global_trade, exports_from_imports, imports_from_exports])
+                 
+    trade_balance = pd.pivot_table(global_trade, index=['period'],columns='flowCode', values='primaryValue').fillna(0)
+    trade_balance['trade_balance (X-M)'] = trade_balance['X'] - trade_balance['M']
+    trade_balance['trade_balance (X<M-M)'] = trade_balance['X<M'] - trade_balance['M']
+    trade_balance['trade_volume (X+M)'] = trade_balance['X'] + trade_balance['M']
+    trade_balance['trade_volume (X<M+M)'] = trade_balance['X<M'] + trade_balance['M']
+    trade_balance.reset_index()
+    return trade_balance  #.reindex(columns=['countryCode','countryDesc','exports','imports','trade_balance','xReporterCode','xReporterDesc'])
 
 def top_partners(reporterCode=0, 
                  years=None,  
