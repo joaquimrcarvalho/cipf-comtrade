@@ -1,0 +1,51 @@
+,dataItem,description,isInDataAPICommodity,isInDataAPIServices,isInBulkFileFinal,isInBulkFileTariffline
+0,datasetCode,Combination of several keys to identify specific datasetCode,True,True,True,True
+1,typeCode,Product type: Goods or Services,True,True,True,True
+2,freqCode,The time interval at which observations occur,True,True,True,True
+3,refPeriodId,The period of time to which the measured observation is intended to refer,True,True,True,True
+4,refYear,Year of observation,True,True,True,False
+5,refMonth,"Month of observation. For annual, it would bet set to 52",True,True,True,False
+6,period,"Combination of year and month (for monthly), year for (annual)",True,True,True,True
+7,reporterCode,The country or geographic area to which the measured statistical phenomenon relates,True,True,True,True
+8,reporterISO,ISO 3 code of reporter,True,True,False,False
+9,reporterDesc,Description of reporter,True,True,False,False
+10,flowCategory,Simplified trade flow: exports or imports,False,False,False,True
+11,flowCode,"Trade flow or sub-flow (exports, re-exports, imports, re-imports, etc.)",True,True,True,True
+12,flowDesc,Description of trade flows,True,True,False,False
+13,partnerCode,The primary partner country or geographic area for the respective trade flow,True,True,True,True
+14,partnerISO,ISO 3 code of 1st partner,True,True,False,False
+15,partnerDesc,Description of 1st partner,True,True,False,False
+16,partner2Code,A secondary partner country or geographic area for the respective trade flow,True,False,True,True
+17,partner2ISO,ISO 3 code of 2nd partner,True,False,False,False
+18,partner2Desc,Description of 2nd partner,True,False,False,False
+19,classificationSearchCode,Additional product classification to assist data search,True,True,True,False
+20,classificationCode,"Indicates the product classification used and which version (HS, SITC)",True,True,True,True
+21,isOriginalClassification,Flag to indicate whether the classification is reported by country or not,True,True,True,False
+22,cmdCode,Product code in conjunction with classification code,True,True,True,True
+23,cmdDesc,Description of commodity /service category,True,True,False,False
+24,aggrLevel,Hierarchical level of commodity/service category,True,True,False,False
+25,isLeaf,"Identification whether a product code has the most basic level (i.e.,sub-heading for HS)",True,True,False,False
+26,customsCode,Customs or statistical procedure,True,False,True,True
+27,customsDesc,Description of customs procedure,True,False,False,False
+28,mosCode,The mode of supply on delivery of services (trade in services only),False,True,True,True
+29,mosDesc,Description of mode of supply (trade in services only),False,True,False,False
+30,motCode,The mode of transport used when goods enter or leave the economic territory of a country,True,False,True,True
+31,motDesc,Description of mode of transport,True,False,False,False
+32,qtyUnitCode,Unit of primary quantity,True,False,True,True
+33,qtyUnitAbbr,Abbreviation of primary quantity unit,True,False,False,False
+34,qty,Value of primary quantity,True,False,True,True
+35,isQtyEstimated,Flag whether primary quantity is estimated or not,True,False,True,False
+36,altQtyUnitCode,Unit of secondary quantity,True,False,True,True
+37,altQtyUnitAbbr,Abbreviation of secondary quantity unit,True,False,False,False
+38,altQty,Value of secondary quantity,True,False,True,True
+39,isAltQtyEstimated,Flag whether secondary quantity is estimated or not,True,False,True,False
+40,netWgt,Net weight,True,False,True,True
+41,isnetWgtEstimated,Flag whether net weight is estimated or not,True,False,True,False
+42,grossWgt,Gross weight,True,False,True,True
+43,isgrossWgtEstimated,Flag whether gross weight is estimated or not,True,False,True,False
+44,cifValue,Trade values in CIF,True,False,True,True
+45,fobValue,Trade values in FOB,True,False,True,True
+46,primaryValue,Primary trade values (taken from CIF or FOB values),True,True,True,True
+47,legacyEstimationFlag,Legacy quantity estimation flag,True,False,True,False
+48,isReported,Flag to indicate whether a record is reported by country,True,True,True,False
+49,isAggregate,Flag to indicate whether a record is aggregated by UNSD,True,True,True,False
