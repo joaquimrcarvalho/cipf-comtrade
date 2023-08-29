@@ -338,6 +338,31 @@ def init(apy_key: Union[str,None]=None, code_book_url: Union[None,str]=None, for
     #global INIT_DONE
     #INIT_DONE = True
 
+def encode_country(country: str) -> str:
+    """Encode country name to country code
+
+    Args:
+        country (str): Country name
+
+    Returns:
+        str: Country code
+    """
+    global COUNTRY_CODES_REVERSE
+    return COUNTRY_CODES_REVERSE.get(country, country)
+
+
+def decode_country(country_code: str) -> str:
+    """Decode country code to country name
+
+    Args:
+        country_code (str): Country code
+
+    Returns:
+        str: Country name
+    """
+    global COUNTRY_CODES
+    return COUNTRY_CODES.get(country_code, country_code)
+
 
 def clean_cache():
     directory = CACHE_DIR
