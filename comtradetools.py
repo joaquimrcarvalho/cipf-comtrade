@@ -6,6 +6,13 @@ UN Comtrade API.
 
 
 """
+# disable Pylint warning about too many arguments
+# pylint: disable=R0913
+# disable Pylint warning invalid-name
+# pylint: disable=C0103
+# disable Pylint global-statement
+# pylint: disable=W0603
+
 import logging
 import os
 import time
@@ -40,7 +47,7 @@ BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
 CALLS_PER_PERIOD = 1  # number of calls per period
 PERIOD_SECONDS = 20  # period in seconds
 MAX_RETRIES = 5  # max number of retries for a failed call
-RETRIES = 0  # number of retries for a failed call
+RETRY = 0  # number of retries for a failed call
 MAX_SLEEP = 5  # maximum number of seconds to sleep between retries
 
 
@@ -348,6 +355,7 @@ def encode_country(country: str) -> str:
         str: Country code
     """
     global COUNTRY_CODES_REVERSE
+    
     return COUNTRY_CODES_REVERSE.get(country, country)
 
 
@@ -401,6 +409,27 @@ def split_period(period: str, max_periods=12):
     period_list = [",".join(period_list[i:i + max_periods]) for i in range(0, len(period_list), max_periods)]
     return period_list
 
+
+def get_year_intervals(years):
+    """Converts a list of years to a list of year intervals
+    e.g. [2018,2019,2020] -> ['2018-2020']
+    e.g. [2018,2019,2021] -> ['2018-2019','2021-2021']
+    """
+    intervals = []
+    start_year = years[0]
+    end_year = years[0]
+
+    for year in years[1:]:
+        if year == end_year + 1:
+            end_year = year
+        else:
+            intervals.append(f"{start_year}-{end_year}")
+            start_year = year
+            end_year = year
+
+    intervals.append(f"{start_year}-{end_year}")
+    return intervals
+
 @sleep_and_retry
 @limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
 def get_data(typeCode: str, freqCode: str,
@@ -437,6 +466,7 @@ def get_data(typeCode: str, freqCode: str,
         qtyUnitCodeFilter (str, optional): Quantity unit code, e.g. 1 for tonnes, 2 for kilograms. Defaults to None.
         motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air. Defaults to None. If -1 is passed removes results with motCode = 0, 
         apiKey (str,optional): API Key for umcomtrade+
+        cache (bool, optional): Cache the results. Defaults to True.
         timeout (int, optional): Timeout for the API call. Defaults to 10.
         echo_url (bool, optional): Echo the CODE_BOOK_url to the console. Defaults to False.
     
@@ -639,10 +669,57 @@ def get_data(typeCode: str, freqCode: str,
 @sleep_and_retry
 @limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
 def getFinalData(*p,**kwp):
-    """Wrapper for comtradeapicall.getFinalData with rate limit"""
+    """Wrapper for comtradeapicall.getFinalData with rate limit
+    See https://github.com/uncomtrade/comtradeapicall
+
+    Args: (extra args for comtradeapicall.getFinalData)
+    cache (bool, optional): Cache the results. Defaults to True.
+    use_alternative (bool, optional): Use alternative API call. Defaults to False.
+                                      "Alternative functions of _previewFinalData, 
+                                      _previewTarifflineData, _getFinalData, 
+                                      _getTarifflineData returns the same data frame, 
+                                      respectively, with query optimization by calling 
+                                      multiple APIs based on the periods (instead of single API call)"
+    """
     global RETRY
+
+    cache = kwp.get('cache',True)
+    # remove cache from kwp
+    if 'cache' in kwp:
+        del kwp['cache']
+
+    use_alternative = kwp.get('use_alternative',False)
+    # remove use_alternative from kwp
+    if 'use_alternative' in kwp:
+        del kwp['use_alternative']
+    
+    if cache and not os.path.exists(CACHE_DIR):
+        Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
+
+    hash_updater = hashlib.md5()
+    call_string = f"{p}{str(kwp)}{use_alternative}"
+    hash_updater.update(call_string.encode('utf-8'))
+    cache_file = f'{CACHE_DIR}/{hash_updater.hexdigest()}.pickle'
+
+    if cache and os.path.exists(cache_file):
+        # make a hash of the parameters for caching
+
+        modification_time = os.path.getmtime(cache_file)
+        current_time = datetime.datetime.now().timestamp()
+        days_since_modification = (current_time - modification_time) / (24 * 3600)
+        if days_since_modification <= CACHE_VALID_DAYS:
+            with open(cache_file, 'rb') as f:
+                df = pickle.load(f)
+                return df
+        else:   
+            os.remove(cache_file)  
+
+
     try:
-        df = comtradeapicall.getFinalData(*p,**kwp)
+        if use_alternative:
+            df = comtradeapicall._getFinalData(*p,**kwp)
+        else:
+            df = comtradeapicall.getFinalData(*p,**kwp)
     except Exception as e:
         sleep = MAX_SLEEP * (RETRY + 1)
         print(f"Error in getFinalData, retrying in {MAX_SLEEP} seconds",e)
@@ -656,7 +733,15 @@ def getFinalData(*p,**kwp):
         RETRY += 1
         df = comtradeapicall.getFinalData(*p,**kwp)
     if df is None:
+        # raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
+        # 
         raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
+    
+    # check to cache the results
+    if cache:
+        with open(cache_file, 'wb') as f:
+            pickle.dump(df, f)
+
     return df
     
 
