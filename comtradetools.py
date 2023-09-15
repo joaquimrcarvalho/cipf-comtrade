@@ -33,6 +33,8 @@ import pandas as pd
 from ratelimit import limits, sleep_and_retry
 import comtradeapicall
 
+logging.basicConfig(level=logging.INFO)
+
 SUPPORT_DIR = 'support'
 CACHE_DIR = 'cache'
 CONFIG_FILE = 'config.ini'
@@ -670,7 +672,12 @@ def get_data(typeCode: str, freqCode: str,
 @limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
 def getFinalData(*p,**kwp):
     """Wrapper for comtradeapicall.getFinalData with rate limit
-    See https://github.com/uncomtrade/comtradeapicall
+    This wrapper is needed to avoid rate limit errors when calling the API
+    Also deals with requests that specify more than 12 periods
+    by splitting the request in multiple calls and concatenating the results
+
+    For information about the base function see https://github.com/uncomtrade/comtradeapicall
+
 
     Args: (extra args for comtradeapicall.getFinalData)
     cache (bool, optional): Cache the results. Defaults to True.
@@ -693,54 +700,71 @@ def getFinalData(*p,**kwp):
     if 'use_alternative' in kwp:
         del kwp['use_alternative']
     
+    # get period from kwp
+    period = kwp.get('period',None)
+    if period is None:
+        raise ValueError("Period is required")
+    
     if cache and not os.path.exists(CACHE_DIR):
         Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
-
-    hash_updater = hashlib.md5()
-    call_string = f"{p}{str(kwp)}{use_alternative}"
-    hash_updater.update(call_string.encode('utf-8'))
-    cache_file = f'{CACHE_DIR}/{hash_updater.hexdigest()}.pickle'
-
-    if cache and os.path.exists(cache_file):
-        # make a hash of the parameters for caching
-
-        modification_time = os.path.getmtime(cache_file)
-        current_time = datetime.datetime.now().timestamp()
-        days_since_modification = (current_time - modification_time) / (24 * 3600)
-        if days_since_modification <= CACHE_VALID_DAYS:
-            with open(cache_file, 'rb') as f:
-                df = pickle.load(f)
-                return df
-        else:   
-            os.remove(cache_file)  
-
-
-    try:
-        if use_alternative:
-            df = comtradeapicall._getFinalData(*p,**kwp)
-        else:
-            df = comtradeapicall.getFinalData(*p,**kwp)
-    except Exception as e:
-        sleep = MAX_SLEEP * (RETRY + 1)
-        print(f"Error in getFinalData, retrying in {MAX_SLEEP} seconds",e)
-        time.sleep(MAX_SLEEP)
-        df = comtradeapicall.getFinalData(*p,**kwp)
-    RETRY = 0
-    while df is None and RETRY < MAX_RETRIES:
-        sleep = MAX_SLEEP * (RETRY + 1)
-        print(f"Empty result in getFinalData, retrying in {sleep} seconds")
-        time.sleep(sleep)
-        RETRY += 1
-        df = comtradeapicall.getFinalData(*p,**kwp)
-    if df is None:
-        # raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
-        # 
-        raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
     
-    # check to cache the results
-    if cache:
-        with open(cache_file, 'wb') as f:
-            pickle.dump(df, f)
+    subperiods = split_period(period, 12)
+
+    df = pd.DataFrame()
+    for subperiod in subperiods:
+        kwp['period'] = subperiod
+
+        logging.info("Calling getFinalData for period %s",subperiod)
+
+        # make a hash of the parameters for caching
+        hash_updater = hashlib.md5()
+        call_string = f"{p}{str(kwp)}{use_alternative}"
+        hash_updater.update(call_string.encode('utf-8'))
+        cache_file = f'{CACHE_DIR}/{hash_updater.hexdigest()}.pickle'
+        used_cache = False
+
+        if cache and os.path.exists(cache_file):
+
+            modification_time = os.path.getmtime(cache_file)
+            current_time = datetime.datetime.now().timestamp()
+            days_since_modification = (current_time - modification_time) / (24 * 3600)
+            if days_since_modification <= CACHE_VALID_DAYS:
+                with open(cache_file, 'rb') as f:
+                    temp = pickle.load(f)
+                    used_cache = True
+                    logging.info("Using cached results for period %s",subperiod)
+            else:   
+                os.remove(cache_file)
+                used_cache = False  
+
+        if not used_cache:
+            RETRY = 0
+            try:
+                if use_alternative:
+                    temp = comtradeapicall._getFinalData(*p,**kwp)
+                else:
+                    temp = comtradeapicall.getFinalData(*p,**kwp)
+            except Exception as e:
+                sleep = MAX_SLEEP * (RETRY + 1)
+                print(f"Error in getFinalData, retrying in {MAX_SLEEP} seconds",e)
+                time.sleep(MAX_SLEEP)
+                RETRY += 1
+                temp = comtradeapicall.getFinalData(*p,**kwp)
+            while temp is None and RETRY < MAX_RETRIES:
+                sleep = MAX_SLEEP * (RETRY + 1)
+                print(f"Empty result in getFinalData, retrying in {sleep} seconds")
+                time.sleep(sleep)
+                RETRY += 1
+                temp = comtradeapicall.getFinalData(*p,**kwp)
+            if temp is None:
+                # raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
+                # 
+                raise IOError(f"Empty result in getFinalData after {MAX_RETRIES} retries")
+        df = pd.concat([df,temp], ignore_index=True)
+        # check to cache the results
+        if cache and not used_cache:  # if used_cache no need to write again
+            with open(cache_file, 'wb') as f:
+                pickle.dump(df, f)
 
     return df
     
