@@ -13,6 +13,7 @@ UN Comtrade API.
 # disable Pylint global-statement
 # pylint: disable=W0603
 
+
 import logging
 import os
 import time
@@ -47,7 +48,7 @@ BASE_URL_PREVIEW = "https://comtradeapi.un.org/public/v1/preview/"
 BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
 
 CALLS_PER_PERIOD = 1  # number of calls per period
-PERIOD_SECONDS = 20  # period in seconds
+PERIOD_SECONDS = 5  # period in seconds
 MAX_RETRIES = 5  # max number of retries for a failed call
 RETRY = 0  # number of retries for a failed call
 MAX_SLEEP = 5  # maximum number of seconds to sleep between retries
@@ -668,8 +669,6 @@ def get_data(typeCode: str, freqCode: str,
         return df
 
 
-@sleep_and_retry
-@limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
 def getFinalData(*p,**kwp):
     """Wrapper for comtradeapicall.getFinalData with rate limit
     This wrapper is needed to avoid rate limit errors when calling the API
@@ -740,22 +739,19 @@ def getFinalData(*p,**kwp):
         if not used_cache:
             RETRY = 0
             try:
-                if use_alternative:
-                    temp = comtradeapicall._getFinalData(*p,**kwp)
-                else:
-                    temp = comtradeapicall.getFinalData(*p,**kwp)
+                temp = comtradeapicall_getFinalData(p, kwp, use_alternative)
             except Exception as e:
                 sleep = MAX_SLEEP * (RETRY + 1)
                 print(f"Error in getFinalData, retrying in {MAX_SLEEP} seconds",e)
                 time.sleep(MAX_SLEEP)
                 RETRY += 1
-                temp = comtradeapicall.getFinalData(*p,**kwp)
+                temp = comtradeapicall_getFinalData(p, kwp, use_alternative)
             while temp is None and RETRY < MAX_RETRIES:
                 sleep = MAX_SLEEP * (RETRY + 1)
                 print(f"Empty result in getFinalData, retrying in {sleep} seconds")
                 time.sleep(sleep)
                 RETRY += 1
-                temp = comtradeapicall.getFinalData(*p,**kwp)
+                temp = comtradeapicall_getFinalData(p, kwp, use_alternative)
             if temp is None:
                 # raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
                 # 
@@ -767,6 +763,14 @@ def getFinalData(*p,**kwp):
                 pickle.dump(df, f)
 
     return df
+
+@sleep_and_retry
+@limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
+def comtradeapicall_getFinalData(p, kwp, use_alternative):
+    if use_alternative:
+        temp = comtradeapicall._getFinalData(*p,**kwp)
+    else:
+        temp = comtradeapicall.getFinalData(*p,**kwp)
     
 
 def subtotal(df,groupby: list,col: str):
@@ -1331,13 +1335,19 @@ def year_range(year_start=1984,year_end=2030):
     period = ",".join(map(str,list(range(year_start,year_end+1,1))))
     return period
 
-def excel_col_autowidth(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sheet=None):
+def excel_col_autowidth(data_frame: pd.DataFrame, 
+                        excel_file: pd.ExcelWriter, 
+                        sheet=None,
+                        consider_headers=True
+                        ):
     """Set the column width in the Excel file to the maximum width of the data in the column
     
     Args:
         data_frame (pd.DataFrame): The DataFrame to format
         excel_file (pd.ExcelWriter): The ExcelWriter object
         sheet (str, optional): The sheet name. Defaults to first one
+        consider_heards (bool, optional): If True consider the headers when setting 
+                                            the width. Defaults to True.
 
     """
 
@@ -1352,19 +1362,30 @@ def excel_col_autowidth(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sh
         else:
             index_col = ''
 
-        col_width = max(data_frame.index.get_level_values(indx_n).astype(str).map(len).max(), len(index_col))
+        # get the max width of the index
+        col_width = data_frame.index.get_level_values(indx_n).astype(str).map(len).max()
+        if consider_headers:
+            col_header_width = len(index_col)
+            col_width=max(col_width, col_header_width)
+
         if col_width > 100:
             col_width = 100
 
         excel_file.sheets[sheet].set_column(indx_n, indx_n, col_width)
 
     for column in data_frame:
-        col_width = max(data_frame[column].astype(str).map(len).max(), len(column))
+        # get the max width of the index
+        col_width = data_frame[column].astype(str).map(len).max()
+        if consider_headers:
+            col_header_width = len(column)
+            col_width=max(col_width, col_header_width)
+
         if col_width > 100:
             col_width = 100
 
         col_idx = data_frame.columns.get_loc(column) + indx_n + 1
         excel_file.sheets[sheet].set_column(col_idx, col_idx, col_width)
+    
 
 def excel_format_currency(data_frame: pd.DataFrame, excel_file: pd.ExcelWriter, sheet=None,columns=None, format= '$#,##0', width=None):
     """Format the columns in the Excel file as currency
