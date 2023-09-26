@@ -48,7 +48,7 @@ BASE_URL_PREVIEW = "https://comtradeapi.un.org/public/v1/preview/"
 BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
 
 CALLS_PER_PERIOD = 1  # number of calls per period
-PERIOD_SECONDS = 5  # period in seconds
+PERIOD_SECONDS = 20  # period in seconds
 MAX_RETRIES = 5  # max number of retries for a failed call
 RETRY = 0  # number of retries for a failed call
 MAX_SLEEP = 5  # maximum number of seconds to sleep between retries
@@ -680,7 +680,7 @@ def getFinalData(*p,**kwp):
 
     Args: (extra args for comtradeapicall.getFinalData)
     cache (bool, optional): Cache the results. Defaults to True.
-    use_alternative (bool, optional): Use alternative API call. Defaults to False.
+    use_alternative (bool, optional): Use alternative API call. True/False NOT TESTED.
                                       "Alternative functions of _previewFinalData, 
                                       _previewTarifflineData, _getFinalData, 
                                       _getTarifflineData returns the same data frame, 
@@ -689,16 +689,19 @@ def getFinalData(*p,**kwp):
     """
     global RETRY
 
+    if len(p) == 0:
+        api_key=get_api_key()
+    elif len(p) == 1:
+        api_key=p[0]
+    else:
+        raise ValueError("Only one positional argument is allowed, the API Key")    
     cache = kwp.get('cache',True)
     # remove cache from kwp
     if 'cache' in kwp:
         del kwp['cache']
 
-    use_alternative = kwp.get('use_alternative',False)
-    # remove use_alternative from kwp
-    if 'use_alternative' in kwp:
-        del kwp['use_alternative']
-    
+    use_alternative = kwp.get('use_alternative',False)    
+
     # get period from kwp
     period = kwp.get('period',None)
     if period is None:
@@ -739,19 +742,19 @@ def getFinalData(*p,**kwp):
         if not used_cache:
             RETRY = 0
             try:
-                temp = comtradeapicall_getFinalData(p, kwp, use_alternative)
+                temp = comtradeapicall_getFinalData(*p,**kwp)
             except Exception as e:
                 sleep = MAX_SLEEP * (RETRY + 1)
                 print(f"Error in getFinalData, retrying in {MAX_SLEEP} seconds",e)
                 time.sleep(MAX_SLEEP)
                 RETRY += 1
-                temp = comtradeapicall_getFinalData(p, kwp, use_alternative)
+                temp = comtradeapicall_getFinalData(*p,**kwp)
             while temp is None and RETRY < MAX_RETRIES:
                 sleep = MAX_SLEEP * (RETRY + 1)
                 print(f"Empty result in getFinalData, retrying in {sleep} seconds")
                 time.sleep(sleep)
                 RETRY += 1
-                temp = comtradeapicall_getFinalData(p, kwp, use_alternative)
+                temp = comtradeapicall_getFinalData(*p,**kwp)
             if temp is None:
                 # raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
                 # 
@@ -766,11 +769,16 @@ def getFinalData(*p,**kwp):
 
 @sleep_and_retry
 @limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
-def comtradeapicall_getFinalData(p, kwp, use_alternative):
+def comtradeapicall_getFinalData(*p, **kwp):
+    use_alternative = kwp.get('use_alternative',False)
+    # remove use_alternative from kwp
+    if 'use_alternative' in kwp:
+        del kwp['use_alternative']
     if use_alternative:
         temp = comtradeapicall._getFinalData(*p,**kwp)
     else:
         temp = comtradeapicall.getFinalData(*p,**kwp)
+    return temp
     
 
 def subtotal(df,groupby: list,col: str):
