@@ -679,6 +679,10 @@ def getFinalData(*p,**kwp):
 
 
     Args: (extra args for comtradeapicall.getFinalData)
+    remove_world (bool, optional): Remove the world entry. Defaults to False.
+                                    When patnerCode is None, the API returns partnerCode = 0 
+                                    for the world and partnerCode for each partner. If True
+                                    the world entry is removed.
     cache (bool, optional): Cache the results. Defaults to True.
     use_alternative (bool, optional): Use alternative API call. True/False NOT TESTED.
                                       "Alternative functions of _previewFinalData, 
@@ -699,6 +703,11 @@ def getFinalData(*p,**kwp):
     # remove cache from kwp
     if 'cache' in kwp:
         del kwp['cache']
+
+    remove_world = kwp.get('remove_world',False)
+    # remove remove_world from kwp
+    if 'remove_world' in kwp:
+        del kwp['remove_world']
 
     use_alternative = kwp.get('use_alternative',False)    
 
@@ -764,6 +773,13 @@ def getFinalData(*p,**kwp):
         if cache and not used_cache:  # if used_cache no need to write again
             with open(cache_file, 'wb') as f:
                 pickle.dump(df, f)
+
+    # we do some checks on the results to avoid common problems
+    partnerCode = kwp.get('partnerCode',None)
+    if partnerCode is None and remove_world:
+        # when partnerCode is None, the API returns partnerCode = 0 for the world
+        #  and partnerCode for each partner. We remove the world entry
+        df = df[df.partnerCode != 0]
 
     return df
 
