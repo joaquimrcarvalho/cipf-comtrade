@@ -774,7 +774,7 @@ def getFinalData(*p,**kwp):
                 raise IOError(f"Empty result in getFinalData after {MAX_RETRIES} retries")
             elif cache and temp is not None:  # save in cache
                 with open(cache_file, 'wb') as f:
-                  pickle.dump(df, f)
+                  pickle.dump(temp, f)
         df = pd.concat([df,temp], ignore_index=True)
 
 
