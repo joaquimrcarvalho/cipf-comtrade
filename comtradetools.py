@@ -670,26 +670,24 @@ def get_data(typeCode: str, freqCode: str,
 
 
 def getFinalData(*p,**kwp):
-    """Wrapper for comtradeapicall.getFinalData with rate limit
-    This wrapper is needed to avoid rate limit errors when calling the API
-    Also deals with requests that specify more than 12 periods
-    by splitting the request in multiple calls and concatenating the results
+    """
+    Wrapper for comtradeapicall.getFinalData with rate limit.
 
-    For information about the base function see https://github.com/uncomtrade/comtradeapicall
+    This wrapper is needed to avoid rate limit errors when calling the API.
+    It also deals with requests that specify more than 12 periods by splitting the request in multiple calls and concatenating the results.
 
+    For information about the base function see https://github.com/uncomtrade/comtradeapicall.
 
-    Args: (extra args for comtradeapicall.getFinalData)
-    remove_world (bool, optional): Remove the world entry. Defaults to False.
-                                    When patnerCode is None, the API returns partnerCode = 0 
-                                    for the world and partnerCode for each partner. If True
-                                    the world entry is removed.
-    cache (bool, optional): Cache the results. Defaults to True.
-    use_alternative (bool, optional): Use alternative API call. True/False NOT TESTED.
-                                      "Alternative functions of _previewFinalData, 
-                                      _previewTarifflineData, _getFinalData, 
-                                      _getTarifflineData returns the same data frame, 
-                                      respectively, with query optimization by calling 
-                                      multiple APIs based on the periods (instead of single API call)"
+    Args:
+        *args: Extra arguments for comtradeapicall.getFinalData.
+        remove_world (bool, optional): Remove the world entry. Defaults to False.
+            When patnerCode is None, the API returns partnerCode = 0 for the world and partnerCode for each partner.
+            If True, the world entry is removed.
+        cache (bool, optional): Cache the results. Defaults to True.
+        period_size (int, optional): Number of periods to request in each call. Defaults to 12.
+        use_alternative (bool, optional): Use alternative API call. True/False NOT TESTED.
+            "Alternative functions of _previewFinalData, _previewTarifflineData, _getFinalData, _getTarifflineData returns the same data frame,
+            respectively, with query optimization by calling multiple APIs based on the periods (instead of single API call)"
     """
     global RETRY
 
@@ -699,6 +697,7 @@ def getFinalData(*p,**kwp):
         api_key=p[0]
     else:
         raise ValueError("Only one positional argument is allowed, the API Key")    
+    
     cache = kwp.get('cache',True)
     # remove cache from kwp
     if 'cache' in kwp:
@@ -708,6 +707,11 @@ def getFinalData(*p,**kwp):
     # remove remove_world from kwp
     if 'remove_world' in kwp:
         del kwp['remove_world']
+
+    period_size = kwp.get('period_size',12)
+    # remove period_size from kwp
+    if 'period_size' in kwp:
+        del kwp['period_size']
 
     use_alternative = kwp.get('use_alternative',False)    
 
@@ -719,7 +723,7 @@ def getFinalData(*p,**kwp):
     if cache and not os.path.exists(CACHE_DIR):
         Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
     
-    subperiods = split_period(period, 12)
+    subperiods = split_period(period, period_size)
 
     df = pd.DataFrame()
     for subperiod in subperiods:
@@ -768,11 +772,11 @@ def getFinalData(*p,**kwp):
                 # raise Exception(f"Empty result in getFinalData after {MAX_RETRIES} retries")
                 # 
                 raise IOError(f"Empty result in getFinalData after {MAX_RETRIES} retries")
+            elif cache and temp is not None:  # save in cache
+                with open(cache_file, 'wb') as f:
+                  pickle.dump(df, f)
         df = pd.concat([df,temp], ignore_index=True)
-        # check to cache the results
-        if cache and not used_cache:  # if used_cache no need to write again
-            with open(cache_file, 'wb') as f:
-                pickle.dump(df, f)
+
 
     # we do some checks on the results to avoid common problems
     partnerCode = kwp.get('partnerCode',None)
