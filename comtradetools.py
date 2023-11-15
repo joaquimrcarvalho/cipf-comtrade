@@ -47,6 +47,7 @@ APIKEY = None
 BASE_URL_PREVIEW = "https://comtradeapi.un.org/public/v1/preview/"
 BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
 
+# Parameters for rate limiting
 CALLS_PER_PERIOD = 1  # number of calls per period
 PERIOD_SECONDS = 20  # period in seconds
 MAX_RETRIES = 5  # max number of retries for a failed call
@@ -54,7 +55,7 @@ RETRY = 0  # number of retries for a failed call
 MAX_SLEEP = 5  # maximum number of seconds to sleep between retries
 
 
-CACHE_VALID_DAYS = 7  # number of days to keep cached data
+CACHE_VALID_DAYS = 60  # number of days to keep cached data
 
 # we use a copy of the codebook in git because the original cannot be downloaded
 #   without human action. The codebook is used to decode the results of the API call
