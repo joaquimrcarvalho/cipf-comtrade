@@ -52,7 +52,7 @@ CALLS_PER_PERIOD = 1  # number of calls per period
 PERIOD_SECONDS = 20  # period in seconds
 MAX_RETRIES = 5  # max number of retries for a failed call
 RETRY = 0  # number of retries for a failed call
-MAX_SLEEP = 5  # maximum number of seconds to sleep between retries
+MAX_SLEEP = 6  # maximum number of seconds to sleep between retries
 
 
 CACHE_VALID_DAYS = 60  # number of days to keep cached data
