@@ -1375,7 +1375,7 @@ def excel_col_autowidth(data_frame: pd.DataFrame,
         data_frame (pd.DataFrame): The DataFrame to format
         excel_file (pd.ExcelWriter): The ExcelWriter object
         sheet (str, optional): The sheet name. Defaults to first one
-        consider_heards (bool, optional): If True consider the headers when setting 
+        consider_headers (bool, optional): If True consider the headers when setting 
                                             the width. Defaults to True.
 
     """
