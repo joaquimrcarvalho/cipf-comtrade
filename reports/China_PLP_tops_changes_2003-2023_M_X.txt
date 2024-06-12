@@ -1,0 +1,863 @@
+
+Report on variations of top commodities flows.
+
+Number of top commodities considered 3
+
+Each year is followed by a character that indicates the variation in the top commodities from the previous year:
+* ! : change in one of the top commodities
+* = : same top commodities as the previous year, same relative importance
+* ≈ : same top commodities as the previous year, different relative importance
+
+China Angola M
+Percentages show change of commodity value compared to previous year
+2003   27,25,71 | 27=2,205,654,993.00 (100%) | 25=232,059.00 (100%) | 71=47,397.00 (100%) | 
+               -> 25 Salt; sulphur; earths, stone; plastering materials, lime and cement
+               -> 27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+               -> 71 Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin
+2004 ≈ 27,71,25 | 27=4,716,807,801.00 (214%) | 71=430,188.00 (908%) | 25=92,383.00 (40%) | 
+2005 ! 27,71,73 | 27=6,575,939,442.00  (139%) | 71=5,645,659.00  (1312%) | 73=120,907.00  (new:73) | 
+               -> 73 Iron or steel articles
+2006 ! 27,71,25 | 27=10,930,839,396.00  (166%) | 71=2,162,576.00  (38%) | 25=128,801.00  (139%) | 
+2007 ! 27,71,44 | 27=12,879,534,443.00  (118%) | 71=8,619,506.00  (399%) | 44=338,307.00  (new:44) | 
+               -> 44 Wood and articles of wood; wood charcoal
+2008 ! 27,71,25 | 27=22,358,967,995.00  (174%) | 71=23,098,324.00  (268%) | 25=414,551.00  (322%) | 
+2009 = 27,71,25 | 27=14,617,853,760.00 (65%) | 71=51,637,955.00 (224%) | 25=6,320,176.00 (1525%) | 
+2010 ≈ 27,25,71 | 27=22,795,735,088.00 (156%) | 25=8,701,706.00 (138%) | 71=8,668,635.00 (17%) | 
+2011 ≈ 27,71,25 | 27=24,809,999,280.00 (109%) | 71=99,380,019.00 (1146%) | 25=11,337,407.00 (130%) | 
+2012 = 27,71,25 | 27=33,430,524,104.00 (135%) | 71=99,710,379.00 (100%) | 25=23,152,647.00 (204%) | 
+2013 = 27,71,25 | 27=31,906,807,904.00 (95%) | 71=50,072,949.00 (50%) | 25=13,456,904.00 (58%) | 
+2014 = 27,71,25 | 27=31,060,219,206.00 (97%) | 71=30,495,543.00 (61%) | 25=8,240,009.00 (61%) | 
+2015 ! 27,71,44 | 27=15,959,335,845.00  (51%) | 71=18,092,668.00  (59%) | 44=12,849,940.00  (3798%) | 
+2016 ! 27,44,25 | 27=13,927,144,994.00  (87%) | 44=20,718,237.00  (161%) | 25=13,777,983.00  (167%) | 
+2017 ! 27,71,44 | 27=20,541,590,167.00  (147%) | 71=105,942,436.00  (586%) | 44=27,138,190.00  (131%) | 
+2018 ! 27,44,25 | 27=25,755,301,914.00  (125%) | 44=30,857,058.00  (114%) | 25=21,344,705.00  (155%) | 
+2019 ≈ 27,25,44 | 27=23,785,794,261.00 (92%) | 25=17,479,507.00 (82%) | 44=14,204,738.00 (46%) | 
+2020 ! 27,25,71 | 27=14,686,950,196.00  (62%) | 25=29,428,961.00  (168%) | 71=20,014,740.00  (19%) | 
+2021 ! 27,25,26 | 27=20,943,059,621.00  (143%) | 25=30,420,529.00  (103%) | 26=16,922,666.00  (new:26) | 
+               -> 26 Ores, slag and ash
+2022 ! 27,25,74 | 27=23,089,107,826.00  (110%) | 25=83,328,042.00  (274%) | 74=24,724,947.00  (new:74) | 
+               -> 74 Copper and articles thereof
+2023 = 27,25,74 | 27=18,800,137,521.00 (81%) | 25=49,374,196.00 (59%) | 74=28,559,269.00 (116%) | 
+All commodities involved in M exchanges between China and Angola:
+     25 Salt; sulphur; earths, stone; plastering materials, lime and cement
+     26 Ores, slag and ash
+     27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+     44 Wood and articles of wood; wood charcoal
+     71 Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin
+     73 Iron or steel articles
+     74 Copper and articles thereof
+--------------------------------------------------------------------------------
+China Angola X
+Percentages show change of commodity value compared to previous year
+2003   85,64,87 | 85=55,692,376.00 (100%) | 64=11,918,892.00 (100%) | 87=11,830,979.00 (100%) | 
+               -> 64 Footwear; gaiters and the like; parts of such articles
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+2004 ≈ 85,87,64 | 85=61,876,689.00 (111%) | 87=23,172,232.00 (196%) | 64=11,830,967.00 (99%) | 
+2005 ! 87,85,84 | 87=69,885,570.00  (302%) | 85=58,427,504.00  (94%) | 84=43,878,548.00  (new:84) | 
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2006 ≈ 85,87,84 | 85=176,712,583.00 (302%) | 87=171,776,484.00 (246%) | 84=140,106,905.00 (319%) | 
+2007 ≈ 87,85,84 | 87=240,439,955.00 (140%) | 85=200,284,106.00 (113%) | 84=168,500,992.00 (120%) | 
+2008 ≈ 87,84,85 | 87=572,657,619.00 (238%) | 84=485,406,140.00 (288%) | 85=414,820,982.00 (207%) | 
+2009 ≈ 85,84,87 | 85=338,220,595.00 (82%) | 84=329,359,781.00 (68%) | 87=321,138,902.00 (56%) | 
+2010 = 85,84,87 | 85=333,976,971.00 (99%) | 84=221,688,669.00 (67%) | 87=214,852,925.00 (67%) | 
+2011 ! 85,73,84 | 85=467,418,594.00  (140%) | 73=296,495,595.00  (new:73) | 84=274,022,459.00  (124%) | 
+               -> 73 Iron or steel articles
+2012 ! 85,84,87 | 85=539,386,948.00  (115%) | 84=499,696,526.00  (182%) | 87=465,152,420.00  (216%) | 
+2013 ≈ 85,87,84 | 85=534,865,233.00 (99%) | 87=474,654,223.00 (102%) | 84=415,658,418.00 (83%) | 
+2014 ! 87,94,85 | 87=751,037,668.00  (158%) | 94=734,399,796.00  (new:94) | 85=727,990,237.00  (136%) | 
+               -> 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+2015 ! 85,94,84 | 85=554,605,388.00  (76%) | 94=372,839,144.00  (51%) | 84=360,303,994.00  (87%) | 
+2016 ! 85,84,64 | 85=283,477,686.00  (51%) | 84=187,286,870.00  (52%) | 64=123,248,231.00  (1042%) | 
+2017 = 85,84,64 | 85=317,340,871.00 (112%) | 84=249,927,247.00 (133%) | 64=204,900,602.00 (166%) | 
+2018 = 85,84,64 | 85=310,699,372.00 (98%) | 84=241,425,276.00 (97%) | 64=191,630,845.00 (94%) | 
+2019 = 85,84,64 | 85=253,436,390.00 (82%) | 84=215,585,476.00 (89%) | 64=179,144,712.00 (93%) | 
+2020 = 85,84,64 | 85=203,996,443.00 (80%) | 84=137,859,846.00 (64%) | 64=137,080,023.00 (77%) | 
+2021 ! 85,84,87 | 85=299,126,792.00  (147%) | 84=246,802,764.00  (179%) | 87=191,829,946.00  (26%) | 
+2022 ≈ 85,87,84 | 85=534,248,648.00 (179%) | 87=470,758,779.00 (245%) | 84=464,939,772.00 (188%) | 
+2023 ≈ 87,85,84 | 87=521,342,392.00 (111%) | 85=475,746,041.00 (89%) | 84=457,291,556.00 (98%) | 
+All commodities involved in X exchanges between China and Angola:
+     64 Footwear; gaiters and the like; parts of such articles
+     73 Iron or steel articles
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+--------------------------------------------------------------------------------
+China Brazil M
+Percentages show change of commodity value compared to previous year
+2003   12,26,72 | 12=1,683,531,130.00 (100%) | 26=1,369,127,929.00 (100%) | 72=745,347,034.00 (100%) | 
+               -> 12 Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder
+               -> 72 Iron and steel
+               -> 26 Ores, slag and ash
+2004 ≈ 26,12,72 | 26=2,921,260,613.00 (213%) | 12=2,077,123,180.00 (123%) | 72=657,928,321.00 (88%) | 
+2005 = 26,12,72 | 26=4,055,827,571.00 (139%) | 12=2,381,027,304.00 (115%) | 72=530,934,837.00 (81%) | 
+2006 ! 26,12,27 | 26=5,624,307,869.00  (139%) | 12=3,019,826,962.00  (127%) | 27=892,691,492.00  (new:27) | 
+               -> 27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+2007 = 26,12,27 | 26=9,664,473,898.00 (172%) | 12=3,894,223,527.00 (129%) | 27=981,972,620.00 (110%) | 
+2008 = 26,12,27 | 26=15,539,993,435.00 (161%) | 12=7,281,776,723.00 (187%) | 27=1,887,310,448.00 (192%) | 
+2009 = 26,12,27 | 26=13,183,521,262.00 (85%) | 12=7,350,424,257.00 (101%) | 27=1,613,382,868.00 (85%) | 
+2010 = 26,12,27 | 26=18,335,819,380.00 (139%) | 12=8,148,875,572.00 (111%) | 27=4,231,407,127.00 (262%) | 
+2011 = 26,12,27 | 26=26,156,736,775.00 (143%) | 12=11,790,913,853.00 (145%) | 27=4,885,038,810.00 (115%) | 
+2012 = 26,12,27 | 26=23,042,655,160.00 (88%) | 12=14,260,427,298.00 (121%) | 27=4,659,171,706.00 (95%) | 
+2013 = 26,12,27 | 26=22,199,542,371.00 (96%) | 12=19,144,320,489.00 (134%) | 27=3,810,247,074.00 (82%) | 
+2014 ≈ 12,26,27 | 12=18,724,241,384.00 (98%) | 26=18,598,979,041.00 (84%) | 27=4,903,800,173.00 (129%) | 
+2015 = 12,26,27 | 12=16,887,916,146.00 (90%) | 26=12,653,641,892.00 (68%) | 27=5,297,996,353.00 (108%) | 
+2016 = 12,26,27 | 12=15,551,903,256.00 (92%) | 26=13,339,552,748.00 (105%) | 27=6,041,262,180.00 (114%) | 
+2017 = 12,26,27 | 12=20,916,408,256.00 (134%) | 26=18,261,973,405.00 (137%) | 27=9,189,149,994.00 (152%) | 
+2018 = 12,26,27 | 12=28,843,062,797.00 (138%) | 26=19,307,536,897.00 (106%) | 27=16,484,023,407.00 (179%) | 
+2019 ≈ 26,12,27 | 26=23,583,825,250.00 (122%) | 12=23,000,723,886.00 (80%) | 27=19,201,449,910.00 (116%) | 
+2020 = 26,12,27 | 26=27,701,000,048.00 (117%) | 12=24,906,157,697.00 (108%) | 27=14,303,779,665.00 (74%) | 
+2021 = 26,12,27 | 26=40,283,558,527.00 (145%) | 12=33,091,289,282.00 (133%) | 27=15,564,994,544.00 (109%) | 
+2022 ≈ 12,26,27 | 12=37,321,654,533.00 (113%) | 26=27,042,129,133.00 (67%) | 27=18,789,434,487.00 (121%) | 
+2023 = 12,26,27 | 12=40,956,146,408.00 (110%) | 26=29,892,371,671.00 (111%) | 27=23,308,278,516.00 (124%) | 
+All commodities involved in M exchanges between China and Brazil:
+     12 Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder
+     26 Ores, slag and ash
+     27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+     72 Iron and steel
+--------------------------------------------------------------------------------
+China Brazil X
+Percentages show change of commodity value compared to previous year
+2003   85,27,84 | 85=627,958,830.00 (100%) | 27=343,552,268.00 (100%) | 84=234,948,016.00 (100%) | 
+               -> 27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2004 = 85,27,84 | 85=1,020,245,474.00 (162%) | 27=533,170,168.00 (155%) | 84=395,102,993.00 (168%) | 
+2005 ! 85,84,29 | 85=1,563,608,529.00  (153%) | 84=673,279,781.00  (170%) | 29=320,129,884.00  (new:29) | 
+               -> 29 Organic chemicals
+2006 = 85,84,29 | 85=2,424,615,737.00 (155%) | 84=1,163,289,368.00 (173%) | 29=421,246,329.00 (132%) | 
+2007 ! 85,84,90 | 85=3,142,565,745.00  (130%) | 84=1,808,210,516.00  (155%) | 90=718,325,397.00  (new:90) | 
+               -> 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+2008 = 85,84,90 | 85=4,701,870,059.00 (150%) | 84=3,103,056,708.00 (172%) | 90=1,400,467,065.00 (195%) | 
+2009 = 85,84,90 | 85=3,803,444,131.00 (81%) | 84=2,784,488,396.00 (90%) | 90=1,196,515,228.00 (85%) | 
+2010 = 85,84,90 | 85=5,716,893,300.00 (150%) | 84=4,929,104,265.00 (177%) | 90=1,823,626,312.00 (152%) | 
+2011 = 85,84,90 | 85=7,395,170,678.00 (129%) | 84=5,957,905,816.00 (121%) | 90=2,023,255,991.00 (111%) | 
+2012 = 85,84,90 | 85=7,391,189,396.00 (100%) | 84=6,451,046,964.00 (108%) | 90=2,049,122,788.00 (101%) | 
+2013 = 85,84,90 | 85=8,354,034,113.00 (113%) | 84=6,528,986,039.00 (101%) | 90=2,023,080,051.00 (99%) | 
+2014 ! 85,84,29 | 85=7,805,044,435.00  (93%) | 84=5,870,493,289.00  (90%) | 29=1,877,609,820.00  (446%) | 
+2015 = 85,84,29 | 85=5,584,480,837.00 (72%) | 84=4,035,507,731.00 (69%) | 29=1,663,792,754.00 (89%) | 
+2016 = 85,84,29 | 85=5,690,205,237.00 (102%) | 84=2,982,234,271.00 (74%) | 29=1,681,534,242.00 (101%) | 
+2017 = 85,84,29 | 85=7,529,578,778.00 (132%) | 84=3,789,751,767.00 (127%) | 29=1,982,890,002.00 (118%) | 
+2018 = 85,84,29 | 85=8,149,780,782.00 (108%) | 84=4,165,428,689.00 (110%) | 29=2,423,415,775.00 (122%) | 
+2019 = 85,84,29 | 85=9,030,740,878.00 (111%) | 84=4,818,988,575.00 (116%) | 29=2,554,575,330.00 (105%) | 
+2020 = 85,84,29 | 85=10,052,287,826.00 (111%) | 84=5,241,525,910.00 (109%) | 29=2,691,843,102.00 (105%) | 
+2021 = 85,84,29 | 85=14,073,928,233.00 (140%) | 84=7,822,780,501.00 (149%) | 29=4,176,994,885.00 (155%) | 
+2022 = 85,84,29 | 85=17,690,384,698.00 (126%) | 84=8,189,933,811.00 (105%) | 29=6,325,616,789.00 (151%) | 
+2023 ! 85,84,87 | 85=15,252,692,301.00  (86%) | 84=8,535,075,579.00  (104%) | 87=3,913,118,569.00  (new:87) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+All commodities involved in X exchanges between China and Brazil:
+     27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+     29 Organic chemicals
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+--------------------------------------------------------------------------------
+China Cabo Verde M
+Percentages show change of commodity value compared to previous year
+2003   85 | 85=353.00 (100%) | 
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+2006 = 85 | 85=344.00 (97%) | 
+2007 = 85 | 85=50.00 (15%) | 
+2009 ! 09,85 | 09=168.00  (new:09) | 85=25.00  (50%) | 
+               -> 09 Coffee, tea, mate and spices
+2010 ! 39 | 39=12,060.00  (new:39) | 
+               -> 39 Plastics and articles thereof
+2011 ! 84 | 84=12,062.00  (new:84) | 
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2012 = 84 | 84=1,115.00 (9%) | 
+2013 ! 87,85 | 87=156.00  (new:87) | 85=4.00  (16%) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+2014 ! 84,87,85 | 84=2,668.00  (239%) | 87=309.00  (198%) | 85=43.00  (1075%) | 
+2015 ! 39,85,84 | 39=11,919.00  (99%) | 85=5,844.00  (13591%) | 84=3,511.00  (132%) | 
+2016 ! 73,84,99 | 73=70,160.00  (new:73) | 84=11,476.00  (327%) | 99=545.00  (new:99) | 
+               -> 99 Commodities not specified according to kind
+               -> 73 Iron or steel articles
+2017 ! 99,90,85 | 99=3,194.00  (586%) | 90=2,584.00  (new:90) | 85=1,901.00  (33%) | 
+               -> 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+2018 ! 54,85,62 | 54=162,420.00  (new:54) | 85=65,325.00  (3436%) | 62=51,779.00  (new:62) | 
+               -> 54 Man-made filaments; strip and the like of man-made textile materials
+               -> 62 Apparel and clothing accessories; not knitted or crocheted
+2019 ! 62,38,85 | 62=12,329.00  (24%) | 38=6,559.00  (new:38) | 85=5,357.00  (8%) | 
+               -> 38 Chemical products n.e.c.
+2020 ! 74,84,85 | 74=1,191,650.00  (new:74) | 84=8,500.00  (74%) | 85=5,100.00  (95%) | 
+               -> 74 Copper and articles thereof
+2021 ! 74,26,62 | 74=1,108,099.00  (93%) | 26=14,985.00  (new:26) | 62=14,651.00  (119%) | 
+               -> 26 Ores, slag and ash
+2022 ! 99,62,49 | 99=9,511.00  (298%) | 62=7,128.00  (49%) | 49=1,888.00  (new:49) | 
+               -> 49 Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans
+2023 ! 38,99,85 | 38=62,063.00  (946%) | 99=7,170.00  (75%) | 85=2,331.00  (46%) | 
+All commodities involved in M exchanges between China and Cabo Verde:
+     09 Coffee, tea, mate and spices
+     26 Ores, slag and ash
+     38 Chemical products n.e.c.
+     39 Plastics and articles thereof
+     49 Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans
+     54 Man-made filaments; strip and the like of man-made textile materials
+     62 Apparel and clothing accessories; not knitted or crocheted
+     73 Iron or steel articles
+     74 Copper and articles thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+     99 Commodities not specified according to kind
+--------------------------------------------------------------------------------
+China Cabo Verde X
+Percentages show change of commodity value compared to previous year
+2003   10,39,84 | 10=573,895.00 (100%) | 39=315,158.00 (100%) | 84=259,564.00 (100%) | 
+               -> 39 Plastics and articles thereof
+               -> 10 Cereals
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2004 ! 39,84,85 | 39=546,301.00  (173%) | 84=359,253.00  (138%) | 85=337,156.00  (new:85) | 
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+2005 ! 84,39,73 | 84=1,151,586.00  (321%) | 39=813,200.00  (149%) | 73=648,543.00  (new:73) | 
+               -> 73 Iron or steel articles
+2006 ! 54,63,84 | 54=3,507,823.00  (new:54) | 63=1,228,970.00  (new:63) | 84=1,099,513.00  (95%) | 
+               -> 63 Textiles, made up articles; sets; worn clothing and worn textile articles; rags
+               -> 54 Man-made filaments
+2007 ! 54,84,39 | 54=7,227,278.00  (206%) | 84=790,436.00  (72%) | 39=747,424.00  (92%) | 
+2008 ! 54,84,85 | 54=2,545,901.00  (35%) | 84=1,487,703.00  (188%) | 85=1,380,063.00  (409%) | 
+2009 ! 90,85,03 | 90=9,801,780.00  (new:90) | 85=7,861,796.00  (570%) | 03=2,000,492.00  (new:03) | 
+               -> 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+               -> 03 Fish and crustaceans, molluscs and other aquatic invertebrates
+2010 ! 85,84,39 | 85=5,472,377.00  (70%) | 84=2,483,997.00  (167%) | 39=2,454,551.00  (328%) | 
+2011 ! 85,16,94 | 85=9,405,682.00  (172%) | 16=6,095,368.00  (new:16) | 94=5,570,483.00  (new:94) | 
+               -> 16 Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof
+               -> 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+2012 ! 85,94,39 | 85=7,474,223.00  (79%) | 94=6,200,250.00  (111%) | 39=4,950,995.00  (202%) | 
+2013 = 85,94,39 | 85=9,126,810.00 (122%) | 94=5,571,963.00 (90%) | 39=5,236,537.00 (106%) | 
+2014 ! 85,03,84 | 85=9,313,956.00  (102%) | 03=4,523,256.00  (226%) | 84=3,910,174.00  (157%) | 
+2015 ! 85,64,03 | 85=5,709,314.00  (61%) | 64=4,560,162.00  (new:64) | 03=3,458,360.00  (76%) | 
+               -> 64 Footwear; gaiters and the like; parts of such articles
+2016 ! 85,84,64 | 85=7,167,164.00  (126%) | 84=5,267,022.00  (135%) | 64=4,854,933.00  (106%) | 
+2017 ≈ 84,85,64 | 84=12,327,283.00 (234%) | 85=10,461,349.00 (146%) | 64=3,988,115.00 (82%) | 
+2018 ! 16,90,85 | 16=10,755,979.00  (176%) | 90=9,491,545.00  (97%) | 85=6,622,738.00  (63%) | 
+2019 ! 16,85,84 | 16=9,956,938.00  (93%) | 85=7,158,536.00  (108%) | 84=5,350,863.00  (43%) | 
+2020 ≈ 85,16,84 | 85=16,727,833.00 (234%) | 16=12,773,522.00 (128%) | 84=9,050,620.00 (169%) | 
+2021 ≈ 16,84,85 | 16=14,176,157.00 (111%) | 84=8,620,573.00 (95%) | 85=7,632,167.00 (46%) | 
+2022 ! 69,84,16 | 69=13,411,441.00  (new:69) | 84=8,657,026.00  (100%) | 16=8,238,176.00  (58%) | 
+               -> 69 Ceramic products
+2023 ! 16,87,69 | 16=9,821,754.00  (119%) | 87=9,342,259.00  (new:87) | 69=8,651,292.00  (65%) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+All commodities involved in X exchanges between China and Cabo Verde:
+     03 Fish and crustaceans, molluscs and other aquatic invertebrates
+     10 Cereals
+     16 Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof
+     16 Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof
+     39 Plastics and articles thereof
+     54 Man-made filaments
+     54 Man-made filaments; strip and the like of man-made textile materials
+     63 Textiles, made up articles; sets; worn clothing and worn textile articles; rags
+     64 Footwear; gaiters and the like; parts of such articles
+     69 Ceramic products
+     73 Iron or steel articles
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+     94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+--------------------------------------------------------------------------------
+China Equatorial Guinea M
+Percentages show change of commodity value compared to previous year
+2003   27,44,48 | 27=315,975,939.00 (100%) | 44=95,910,458.00 (100%) | 48=135.00 (100%) | 
+               -> 44 Wood and articles of wood; wood charcoal
+               -> 27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+               -> 48 Paper and paperboard; articles of paper pulp, of paper or paperboard
+2004 ! 27,44,85 | 27=928,113,538.00  (294%) | 44=68,533,314.00  (71%) | 85=2,957.00  (new:85) | 
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+2005 = 27,44,85 | 27=1,365,261,596.00 (147%) | 44=72,570,263.00 (106%) | 85=2,115.00 (72%) | 
+2006 ! 27,44 | 27=2,444,018,703.00  (179%) | 44=93,572,961.00  (129%) | 
+2007 = 27,44 | 27=1,566,216,748.00 (64%) | 44=131,066,598.00 (140%) | 
+2008 ! 27,44,90 | 27=2,191,217,628.00  (140%) | 44=76,630,695.00  (58%) | 90=23,559.00  (new:90) | 
+               -> 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+2009 ! 27,44,25 | 27=1,047,731,132.00  (48%) | 44=7,335,749.00  (10%) | 25=3,714.00  (new:25) | 
+               -> 25 Salt; sulphur; earths, stone; plastering materials, lime and cement
+2010 = 27,44,25 | 27=514,408,054.00 (49%) | 44=84,227,437.00 (1148%) | 25=21,534.00 (580%) | 
+2011 ! 27,44,03 | 27=1,549,017,486.00  (301%) | 44=123,888,784.00  (147%) | 03=41,170.00  (new:03) | 
+               -> 03 Fish and crustaceans, molluscs and other aquatic invertebrates
+2012 ! 27,44,85 | 27=1,690,756,137.00  (109%) | 44=132,047,052.00  (107%) | 85=144.00  (7%) | 
+2013 ! 27,44,25 | 27=2,321,145,422.00  (137%) | 44=148,770,721.00  (113%) | 25=1,645.00  (8%) | 
+2014 ! 27,44,90 | 27=3,040,223,478.00  (131%) | 44=176,958,981.00  (119%) | 90=4,654.00  (20%) | 
+2015 ! 27,44,25 | 27=987,243,930.00  (32%) | 44=179,184,240.00  (101%) | 25=65,800.00  (4000%) | 
+2016 ! 27,44,85 | 27=370,157,078.00  (37%) | 44=261,693,756.00  (146%) | 85=615.00  (427%) | 
+2017 ! 27,44,29 | 27=1,203,922,386.00  (325%) | 44=269,700,214.00  (103%) | 29=10,006,189.00  (new:29) | 
+               -> 29 Organic chemicals
+2018 ! 27,44,76 | 27=1,793,533,506.00  (149%) | 44=345,793,504.00  (128%) | 76=43,992.00  (new:76) | 
+               -> 76 Aluminium and articles thereof
+2019 = 27,44,76 | 27=1,523,588,638.00 (85%) | 44=199,409,536.00 (58%) | 76=65,574.00 (149%) | 
+2020 ! 27,44,99 | 27=1,107,027,835.00  (73%) | 44=75,510,928.00  (38%) | 99=5,606.00  (new:99) | 
+               -> 99 Commodities not specified according to kind
+2021 ! 27,44,90 | 27=1,125,476,898.00  (102%) | 44=89,710,260.00  (119%) | 90=2,627.00  (56%) | 
+2022 ! 27,44,99 | 27=1,379,198,492.00  (123%) | 44=137,180,639.00  (153%) | 99=4,237.00  (76%) | 
+2023 ! 27,44,76 | 27=1,323,331,863.00  (96%) | 44=47,600,535.00  (35%) | 76=149,978.00  (229%) | 
+All commodities involved in M exchanges between China and Equatorial Guinea:
+     03 Fish and crustaceans, molluscs and other aquatic invertebrates
+     25 Salt; sulphur; earths, stone; plastering materials, lime and cement
+     27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+     29 Organic chemicals
+     44 Wood and articles of wood; wood charcoal
+     48 Paper and paperboard; articles of paper pulp, of paper or paperboard
+     76 Aluminium and articles thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+     99 Commodities not specified according to kind
+--------------------------------------------------------------------------------
+China Equatorial Guinea X
+Percentages show change of commodity value compared to previous year
+2003   84,25,49 | 84=1,049,857.00 (100%) | 25=536,055.00 (100%) | 49=500,279.00 (100%) | 
+               -> 25 Salt; sulphur; earths, stone; plastering materials, lime and cement
+               -> 49 Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2004 ! 84,73,72 | 84=3,033,619.00  (289%) | 73=1,396,374.00  (new:73) | 72=820,256.00  (new:72) | 
+               -> 72 Iron and steel
+               -> 73 Iron or steel articles
+2005 ! 84,73,87 | 84=4,340,929.00  (143%) | 73=3,018,129.00  (216%) | 87=1,773,184.00  (new:87) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+2006 ! 84,73,85 | 84=6,248,454.00  (144%) | 73=5,775,981.00  (191%) | 85=5,509,071.00  (new:85) | 
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+2007 ! 84,72,73 | 84=26,004,350.00  (416%) | 72=12,090,297.00  (1474%) | 73=8,911,894.00  (154%) | 
+2008 ! 85,84,87 | 85=88,432,301.00  (1605%) | 84=36,533,167.00  (140%) | 87=34,907,291.00  (1969%) | 
+2009 ! 85,73,84 | 85=125,236,558.00  (142%) | 73=64,585,001.00  (725%) | 84=51,422,640.00  (141%) | 
+2010 ≈ 85,84,73 | 85=166,698,291.00 (133%) | 84=108,713,600.00 (211%) | 73=43,115,295.00 (67%) | 
+2011 ! 84,85,72 | 84=43,676,434.00  (40%) | 85=42,349,570.00  (25%) | 72=37,404,407.00  (309%) | 
+2012 ! 85,84,73 | 85=89,431,455.00  (211%) | 84=47,251,361.00  (108%) | 73=38,999,467.00  (90%) | 
+2013 ≈ 85,73,84 | 85=118,866,482.00 (133%) | 73=46,093,936.00 (118%) | 84=37,765,768.00 (80%) | 
+2014 ≈ 84,85,73 | 84=75,984,643.00 (201%) | 85=67,619,517.00 (57%) | 73=37,793,157.00 (82%) | 
+2015 ≈ 85,84,73 | 85=70,357,551.00 (104%) | 84=31,575,053.00 (42%) | 73=24,106,741.00 (64%) | 
+2016 = 85,84,73 | 85=24,378,566.00 (35%) | 84=20,999,074.00 (67%) | 73=14,487,670.00 (60%) | 
+2017 ! 84,85,87 | 84=34,937,863.00  (166%) | 85=34,307,079.00  (141%) | 87=14,495,062.00  (42%) | 
+2018 ! 85,94,73 | 85=28,512,254.00  (83%) | 94=13,031,030.00  (new:94) | 73=11,147,904.00  (77%) | 
+               -> 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+2019 ! 73,85,84 | 73=21,449,655.00  (192%) | 85=14,600,449.00  (51%) | 84=11,007,654.00  (32%) | 
+2020 ! 73,39,84 | 73=15,632,090.00  (73%) | 39=13,472,916.00  (new:39) | 84=12,895,797.00  (117%) | 
+               -> 39 Plastics and articles thereof
+2021 ! 39,84,30 | 39=13,908,888.00  (103%) | 84=13,755,356.00  (107%) | 30=12,140,912.00  (new:30) | 
+               -> 30 Pharmaceutical products
+2022 ! 89,84,85 | 89=35,185,288.00  (new:89) | 84=34,506,136.00  (251%) | 85=26,665,893.00  (183%) | 
+               -> 89 Ships, boats and floating structures
+2023 ! 84,69,39 | 84=25,495,551.00  (74%) | 69=24,581,415.00  (new:69) | 39=21,957,269.00  (158%) | 
+               -> 69 Ceramic products
+All commodities involved in X exchanges between China and Equatorial Guinea:
+     25 Salt; sulphur; earths, stone; plastering materials, lime and cement
+     30 Pharmaceutical products
+     39 Plastics and articles thereof
+     49 Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans
+     69 Ceramic products
+     72 Iron and steel
+     73 Iron or steel articles
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     89 Ships, boats and floating structures
+     94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+--------------------------------------------------------------------------------
+China Guinea-Bissau M
+Percentages show change of commodity value compared to previous year
+2004   72,41 | 72=29,080.00 (100%) | 41=171.00 (100%) | 
+               -> 72 Iron and steel
+               -> 41 Raw hides and skins (other than furskins) and leather
+2006 ! 82 | 82=64.00  (new:82) | 
+               -> 82 Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal
+2007 ! 08,44,85 | 08=134,552.00  (new:08) | 44=32,386.00  (new:44) | 85=5,322.00  (new:85) | 
+               -> 44 Wood and articles of wood; wood charcoal
+               -> 08 Fruit and nuts, edible; peel of citrus fruit or melons
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+2008 ! 44,01,85 | 44=1,229,421.00  (3796%) | 01=12,036.00  (new:01) | 85=918.00  (17%) | 
+               -> 01 Animals; live
+2009 ! 44,73,85 | 44=1,616,968.00  (132%) | 73=125.00  (new:73) | 85=90.00  (10%) | 
+               -> 73 Iron or steel articles
+2010 ! 44,97,73 | 44=3,852,335.00  (238%) | 97=10,000.00  (new:97) | 73=535.00  (428%) | 
+               -> 97 Works of art; collectors' pieces and antiques
+2011 ! 44,85,71 | 44=4,111,990.00  (107%) | 85=670.00  (744%) | 71=30.00  (new:71) | 
+               -> 71 Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin
+2012 ! 44,12,04 | 44=6,418,361.00  (156%) | 12=176,508.00  (new:12) | 04=38,511.00  (new:04) | 
+               -> 12 Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder
+               -> 04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included
+2013 ! 44,26,73 | 44=10,171,274.00  (158%) | 26=6,656,436.00  (new:26) | 73=28.00  (5%) | 
+               -> 26 Ores, slag and ash
+2014 ! 44 | 44=49,956,236.00  (491%) | 
+2015 ! 44,26,84 | 44=17,659,588.00  (35%) | 26=143,719.00  (2%) | 84=9,106.00  (new:84) | 
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2016 ! 44,61,99 | 44=159,910.00  (1%) | 61=1,106.00  (new:61) | 99=211.00  (new:99) | 
+               -> 99 Commodities not specified according to kind
+               -> 61 Apparel and clothing accessories; knitted or crocheted
+2017 ! 26,44,99 | 26=211,413.00  (147%) | 44=190,734.00  (119%) | 99=194.00  (92%) | 
+2018 ! 44,29,99 | 44=7,622,117.00  (3996%) | 29=16,072.00  (new:29) | 99=423.00  (218%) | 
+               -> 29 Organic chemicals
+2019 ! 44,85,49 | 44=8,368,793.00  (110%) | 85=24,306.00  (3628%) | 49=6,186.00  (new:49) | 
+               -> 49 Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans
+2020 ! 49,99,85 | 49=4,644.00  (75%) | 99=411.00  (97%) | 85=326.00  (1%) | 
+2021 ! 99 | 99=1,111.00  (270%) | 
+2022 ! 85,99,61 | 85=1,897.00  (582%) | 99=384.00  (35%) | 61=264.00  (24%) | 
+2023 ! 84,99,73 | 84=1,094.00  (12%) | 99=419.00  (109%) | 73=20.00  (71%) | 
+All commodities involved in M exchanges between China and Guinea-Bissau:
+     01 Animals; live
+     04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included
+     08 Fruit and nuts, edible; peel of citrus fruit or melons
+     12 Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder
+     26 Ores, slag and ash
+     29 Organic chemicals
+     41 Raw hides and skins (other than furskins) and leather
+     44 Wood and articles of wood; wood charcoal
+     49 Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans
+     61 Apparel and clothing accessories; knitted or crocheted
+     71 Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin
+     72 Iron and steel
+     73 Iron or steel articles
+     82 Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     97 Works of art; collectors' pieces and antiques
+     99 Commodities not specified according to kind
+--------------------------------------------------------------------------------
+China Guinea-Bissau X
+Percentages show change of commodity value compared to previous year
+2003   89,10,84 | 89=4,008,715.00 (100%) | 10=3,587,400.00 (100%) | 84=1,698,079.00 (100%) | 
+               -> 10 Cereals
+               -> 89 Ships, boats and floating structures
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2004 ! 84,10,73 | 84=1,627,248.00  (96%) | 10=1,162,598.00  (32%) | 73=725,649.00  (new:73) | 
+               -> 73 Iron or steel articles
+2005 ! 99,84,73 | 99=1,234,440.00  (new:99) | 84=1,217,959.00  (75%) | 73=812,177.00  (112%) | 
+               -> 99 Commodities not specified according to kind
+2006 ! 84,73,85 | 84=1,655,337.00  (136%) | 73=858,098.00  (106%) | 85=627,442.00  (new:85) | 
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+2007 ≈ 84,85,73 | 84=2,023,674.00 (122%) | 85=1,620,128.00 (258%) | 73=649,196.00 (76%) | 
+2008 ! 85,72,84 | 85=1,187,286.00  (73%) | 72=968,143.00  (new:72) | 84=966,901.00  (48%) | 
+               -> 72 Iron and steel
+2009 ! 89,85,84 | 89=13,056,375.00  (326%) | 85=2,867,188.00  (241%) | 84=2,165,950.00  (224%) | 
+2010 ! 85,10,84 | 85=1,180,596.00  (41%) | 10=1,084,237.00  (93%) | 84=1,079,401.00  (50%) | 
+2011 ! 85,72,34 | 85=2,915,273.00  (247%) | 72=1,095,701.00  (113%) | 34=1,086,166.00  (new:34) | 
+               -> 34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster
+2012 ! 85,84,87 | 85=2,693,067.00  (92%) | 84=2,381,006.00  (221%) | 87=1,468,606.00  (new:87) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+2013 ! 84,87,73 | 84=1,758,413.00  (74%) | 87=1,223,018.00  (83%) | 73=1,083,401.00  (167%) | 
+2014 ! 85,84,73 | 85=3,536,841.00  (131%) | 84=2,155,449.00  (123%) | 73=1,885,648.00  (174%) | 
+2015 ! 85,94,69 | 85=2,211,594.00  (63%) | 94=1,696,979.00  (new:94) | 69=1,462,570.00  (new:69) | 
+               -> 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+               -> 69 Ceramic products
+2016 ! 87,85,96 | 87=3,890,969.00  (318%) | 85=2,231,792.00  (101%) | 96=1,886,136.00  (new:96) | 
+               -> 96 Miscellaneous manufactured articles
+2017 ! 10,85,69 | 10=16,316,166.00  (1505%) | 85=3,018,780.00  (135%) | 69=2,274,406.00  (156%) | 
+2018 ! 10,84,85 | 10=9,373,461.00  (57%) | 84=3,894,823.00  (181%) | 85=3,066,857.00  (102%) | 
+2019 ! 10,72,85 | 10=9,088,000.00  (97%) | 72=3,352,938.00  (306%) | 85=2,653,163.00  (87%) | 
+2020 ! 10,85,69 | 10=17,207,500.00  (189%) | 85=5,532,817.00  (209%) | 69=4,193,467.00  (184%) | 
+2021 ! 89,10,85 | 89=32,823,647.00  (251%) | 10=20,996,000.00  (122%) | 85=11,881,962.00  (215%) | 
+2022 ! 10,85,64 | 10=13,392,552.00  (64%) | 85=10,767,930.00  (91%) | 64=4,158,460.00  (new:64) | 
+               -> 64 Footwear; gaiters and the like; parts of such articles
+2023 ! 10,85,84 | 10=16,904,500.00  (126%) | 85=8,219,128.00  (76%) | 84=7,031,700.00  (181%) | 
+All commodities involved in X exchanges between China and Guinea-Bissau:
+     10 Cereals
+     34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster
+     64 Footwear; gaiters and the like; parts of such articles
+     69 Ceramic products
+     72 Iron and steel
+     73 Iron or steel articles
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     89 Ships, boats and floating structures
+     94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+     96 Miscellaneous manufactured articles
+     99 Commodities not specified according to kind
+--------------------------------------------------------------------------------
+China Mozambique M
+Percentages show change of commodity value compared to previous year
+2003   44,08,03 | 44=26,557,497.00 (100%) | 08=25,563.00 (100%) | 03=5,457.00 (100%) | 
+               -> 03 Fish and crustaceans, molluscs and other aquatic invertebrates
+               -> 44 Wood and articles of wood; wood charcoal
+               -> 08 Fruit and nuts, edible; peel of citrus fruit or melons
+2004 ! 44,26,52 | 44=27,723,229.00  (104%) | 26=15,723,974.00  (new:26) | 52=642,411.00  (new:52) | 
+               -> 26 Ores, slag and ash
+               -> 52 Cotton
+2005 = 44,26,52 | 44=41,266,524.00 (149%) | 26=23,657,565.00 (150%) | 52=5,912,388.00 (920%) | 
+2006 = 44,26,52 | 44=51,162,095.00 (124%) | 26=12,849,806.00 (54%) | 52=10,188,172.00 (172%) | 
+2007 ! 44,12,26 | 44=98,287,050.00  (192%) | 12=9,786,082.00  (new:12) | 26=9,229,693.00  (72%) | 
+               -> 12 Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder
+2008 = 44,12,26 | 44=93,335,916.00 (95%) | 12=25,084,728.00 (256%) | 26=6,045,376.00 (65%) | 
+2009 ! 44,76,12 | 44=67,324,015.00  (72%) | 76=65,116,200.00  (new:76) | 12=37,077,658.00  (148%) | 
+               -> 76 Aluminium and articles thereof
+2010 ! 44,26,12 | 44=134,323,113.00  (200%) | 26=32,408,148.00  (536%) | 12=23,611,324.00  (64%) | 
+2011 = 44,26,12 | 44=154,604,357.00 (115%) | 26=48,592,164.00 (150%) | 12=30,853,806.00 (131%) | 
+2012 ! 44,26,27 | 44=208,847,671.00  (135%) | 26=104,063,195.00  (214%) | 27=36,626,602.00  (new:27) | 
+               -> 27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+2013 ≈ 44,27,26 | 44=240,548,308.00 (115%) | 27=66,985,033.00 (183%) | 26=64,021,616.00 (62%) | 
+2014 ! 71,44,12 | 71=1,028,828,072.00  (new:71) | 44=410,136,287.00  (171%) | 12=92,681,114.00  (300%) | 
+               -> 71 Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin
+2015 ! 44,12,26 | 44=307,326,386.00  (75%) | 12=59,393,688.00  (64%) | 26=55,381,725.00  (87%) | 
+2016 ≈ 44,26,12 | 44=308,365,652.00 (100%) | 26=90,706,073.00 (164%) | 12=37,703,494.00 (63%) | 
+2017 = 44,26,12 | 44=311,129,275.00 (101%) | 26=150,803,587.00 (166%) | 12=35,775,790.00 (95%) | 
+2018 = 44,26,12 | 44=276,455,352.00 (89%) | 26=223,977,647.00 (149%) | 12=74,845,394.00 (209%) | 
+2019 = 44,26,12 | 44=276,864,554.00 (100%) | 26=211,195,631.00 (94%) | 12=112,328,616.00 (150%) | 
+2020 ≈ 26,44,12 | 26=271,065,355.00 (128%) | 44=133,609,682.00 (48%) | 12=111,479,137.00 (99%) | 
+2021 ! 26,27,44 | 26=497,052,550.00  (183%) | 27=238,065,317.00  (355%) | 44=201,397,129.00  (151%) | 
+2022 ! 26,12,44 | 26=787,176,627.00  (158%) | 12=172,478,223.00  (155%) | 44=152,994,446.00  (76%) | 
+2023 ! 26,27,12 | 26=851,166,874.00  (108%) | 27=580,610,169.00  (244%) | 12=152,991,342.00  (89%) | 
+All commodities involved in M exchanges between China and Mozambique:
+     03 Fish and crustaceans, molluscs and other aquatic invertebrates
+     08 Fruit and nuts, edible; peel of citrus fruit or melons
+     12 Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder
+     26 Ores, slag and ash
+     27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+     44 Wood and articles of wood; wood charcoal
+     52 Cotton
+     71 Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin
+     76 Aluminium and articles thereof
+--------------------------------------------------------------------------------
+China Mozambique X
+Percentages show change of commodity value compared to previous year
+2003   85,64,10 | 85=7,760,556.00 (100%) | 64=4,804,458.00 (100%) | 10=4,406,997.00 (100%) | 
+               -> 64 Footwear; gaiters and the like; parts of such articles
+               -> 10 Cereals
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+2004 ! 85,84,87 | 85=10,791,407.00  (139%) | 84=10,251,012.00  (new:84) | 87=6,840,837.00  (new:87) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2005 = 85,84,87 | 85=15,098,269.00 (140%) | 84=10,530,398.00 (103%) | 87=8,520,343.00 (125%) | 
+2006 ! 85,73,87 | 85=24,221,851.00  (160%) | 73=19,873,410.00  (new:73) | 87=14,153,643.00  (166%) | 
+               -> 73 Iron or steel articles
+2007 ! 84,87,85 | 84=19,454,700.00  (185%) | 87=18,105,490.00  (128%) | 85=16,515,135.00  (68%) | 
+2008 = 84,87,85 | 84=43,739,698.00 (225%) | 87=35,631,119.00 (197%) | 85=34,519,241.00 (209%) | 
+2009 ≈ 87,84,85 | 87=42,062,632.00 (118%) | 84=39,474,907.00 (90%) | 85=38,969,446.00 (113%) | 
+2010 ≈ 84,85,87 | 84=77,570,976.00 (197%) | 85=51,807,097.00 (133%) | 87=47,524,962.00 (113%) | 
+2011 ≈ 85,84,87 | 85=90,123,116.00 (174%) | 84=79,452,852.00 (102%) | 87=64,275,531.00 (135%) | 
+2012 = 85,84,87 | 85=139,014,653.00 (154%) | 84=119,446,630.00 (150%) | 87=80,128,906.00 (125%) | 
+2013 = 85,84,87 | 85=179,234,989.00 (129%) | 84=157,974,445.00 (132%) | 87=116,043,595.00 (145%) | 
+2014 = 85,84,87 | 85=264,234,129.00 (147%) | 84=228,251,832.00 (144%) | 87=164,289,225.00 (142%) | 
+2015 ! 85,84,86 | 85=226,683,265.00  (86%) | 84=178,400,727.00  (78%) | 86=139,547,313.00  (new:86) | 
+               -> 86 Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds
+2016 ! 85,84,62 | 85=172,232,670.00  (76%) | 84=121,644,349.00  (68%) | 62=84,702,352.00  (new:62) | 
+               -> 62 Apparel and clothing accessories; not knitted or crocheted
+2017 ! 85,84,87 | 85=163,251,871.00  (95%) | 84=107,981,959.00  (89%) | 87=104,791,053.00  (64%) | 
+2018 ! 85,27,84 | 85=230,462,025.00  (141%) | 27=215,378,010.00  (new:27) | 84=150,056,486.00  (139%) | 
+               -> 27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+2019 ≈ 27,85,84 | 27=226,175,656.00 (105%) | 85=210,485,038.00 (91%) | 84=170,130,558.00 (113%) | 
+2020 ! 85,84,39 | 85=257,917,607.00  (123%) | 84=190,456,944.00  (112%) | 39=127,463,347.00  (new:39) | 
+               -> 39 Plastics and articles thereof
+2021 ! 85,84,87 | 85=386,361,522.00  (150%) | 84=231,236,864.00  (121%) | 87=189,805,373.00  (181%) | 
+2022 ! 85,27,84 | 85=409,104,842.00  (106%) | 27=289,784,024.00  (128%) | 84=249,241,213.00  (108%) | 
+2023 ! 85,84,87 | 85=494,282,480.00  (121%) | 84=373,138,910.00  (150%) | 87=308,771,386.00  (163%) | 
+All commodities involved in X exchanges between China and Mozambique:
+     10 Cereals
+     27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+     39 Plastics and articles thereof
+     62 Apparel and clothing accessories; not knitted or crocheted
+     64 Footwear; gaiters and the like; parts of such articles
+     73 Iron or steel articles
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     86 Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+--------------------------------------------------------------------------------
+China Portugal M
+Percentages show change of commodity value compared to previous year
+2003   84,85,45 | 84=74,330,413.00 (100%) | 85=56,921,885.00 (100%) | 45=11,912,041.00 (100%) | 
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+               -> 45 Cork and articles of cork
+2004 = 84,85,45 | 84=130,372,919.00 (175%) | 85=41,129,539.00 (72%) | 45=15,906,310.00 (134%) | 
+2005 ! 84,85,25 | 84=181,135,707.00  (139%) | 85=40,247,671.00  (98%) | 25=18,657,298.00  (new:25) | 
+               -> 25 Salt; sulphur; earths, stone; plastering materials, lime and cement
+2006 ≈ 85,84,25 | 85=124,836,068.00 (310%) | 84=119,795,679.00 (66%) | 25=25,218,260.00 (135%) | 
+2007 = 85,84,25 | 85=202,148,152.00 (162%) | 84=39,462,925.00 (33%) | 25=28,869,258.00 (114%) | 
+2008 ! 85,25,45 | 85=137,036,770.00  (68%) | 25=43,912,826.00  (152%) | 45=28,793,684.00  (181%) | 
+2009 ! 85,87,25 | 85=107,564,900.00  (78%) | 87=55,655,165.00  (new:87) | 25=44,567,865.00  (101%) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+2010 ≈ 87,85,25 | 87=169,364,688.00 (304%) | 85=121,387,061.00 (113%) | 25=76,253,946.00 (171%) | 
+2011 ! 87,85,47 | 87=297,238,767.00  (176%) | 85=173,858,701.00  (143%) | 47=88,124,987.00  (new:47) | 
+               -> 47 Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard
+2012 ! 87,85,26 | 87=622,687,875.00  (209%) | 85=238,399,999.00  (137%) | 26=109,042,720.00  (new:26) | 
+               -> 26 Ores, slag and ash
+2013 ! 87,85,25 | 87=377,993,893.00  (61%) | 85=300,864,516.00  (126%) | 25=93,498,535.00  (123%) | 
+2014 ! 87,85,26 | 87=586,404,394.00  (155%) | 85=285,800,465.00  (95%) | 26=100,179,672.00  (92%) | 
+2015 = 87,85,26 | 87=444,939,535.00 (76%) | 85=242,080,332.00 (85%) | 26=138,515,495.00 (138%) | 
+2016 ! 85,87,61 | 85=549,422,791.00  (227%) | 87=204,114,889.00  (46%) | 61=118,850,130.00  (new:61) | 
+               -> 61 Apparel and clothing accessories; knitted or crocheted
+2017 = 85,87,61 | 85=666,194,062.00 (121%) | 87=422,541,103.00 (207%) | 61=159,870,047.00 (135%) | 
+2018 = 85,87,61 | 85=735,501,857.00 (110%) | 87=503,096,916.00 (119%) | 61=166,002,505.00 (104%) | 
+2019 = 85,87,61 | 85=717,709,400.00 (98%) | 87=552,495,785.00 (110%) | 61=166,517,523.00 (100%) | 
+2020 = 85,87,61 | 85=1,117,362,125.00 (156%) | 87=587,856,388.00 (106%) | 61=185,415,738.00 (111%) | 
+2021 = 85,87,61 | 85=1,208,940,889.00 (108%) | 87=736,854,205.00 (125%) | 61=313,257,946.00 (169%) | 
+2022 = 85,87,61 | 85=1,016,501,300.00 (84%) | 87=716,481,209.00 (97%) | 61=284,049,243.00 (91%) | 
+2023 = 85,87,61 | 85=974,897,018.00 (96%) | 87=558,524,760.00 (78%) | 61=287,811,621.00 (101%) | 
+All commodities involved in M exchanges between China and Portugal:
+     25 Salt; sulphur; earths, stone; plastering materials, lime and cement
+     26 Ores, slag and ash
+     45 Cork and articles of cork
+     47 Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard
+     61 Apparel and clothing accessories; knitted or crocheted
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+--------------------------------------------------------------------------------
+China Portugal X
+Percentages show change of commodity value compared to previous year
+2003   85,84,94 | 85=76,192,317.00 (100%) | 84=53,929,905.00 (100%) | 94=20,633,062.00 (100%) | 
+               -> 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.s.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2004 ! 85,84,95 | 85=108,163,673.00  (142%) | 84=86,073,653.00  (160%) | 95=33,106,128.00  (new:95) | 
+               -> 95 Toys, games and sports requisites; parts and accessories thereof
+2005 ! 85,84,38 | 85=190,666,817.00  (176%) | 84=141,715,742.00  (165%) | 38=40,947,941.00  (new:38) | 
+               -> 38 Chemical products n.e.s.
+2006 ! 85,84,72 | 85=398,188,483.00  (209%) | 84=177,144,851.00  (125%) | 72=81,434,489.00  (new:72) | 
+               -> 72 Iron and steel
+2007 = 85,84,72 | 85=496,594,561.00 (125%) | 84=263,487,659.00 (149%) | 72=154,538,309.00 (190%) | 
+2008 = 85,84,72 | 85=521,086,545.00 (105%) | 84=465,335,538.00 (177%) | 72=212,848,285.00 (138%) | 
+2009 ! 84,85,94 | 84=418,294,831.00  (90%) | 85=397,586,701.00  (76%) | 94=96,884,860.00  (470%) | 
+2010 ! 85,84,61 | 85=488,378,622.00  (123%) | 84=376,212,939.00  (90%) | 61=133,131,491.00  (new:61) | 
+               -> 61 Apparel and clothing accessories; knitted or crocheted
+2011 ! 85,84,72 | 85=522,859,338.00  (107%) | 84=351,222,253.00  (93%) | 72=153,781,289.00  (72%) | 
+2012 = 85,84,72 | 85=483,158,521.00 (92%) | 84=383,252,300.00 (109%) | 72=175,405,996.00 (114%) | 
+2013 ! 85,84,61 | 85=459,360,990.00  (95%) | 84=327,166,362.00  (85%) | 61=139,487,336.00  (105%) | 
+2014 = 85,84,61 | 85=525,453,581.00 (114%) | 84=397,346,212.00 (121%) | 61=195,360,048.00 (140%) | 
+2015 ! 85,84,94 | 85=516,905,761.00  (98%) | 84=361,845,705.00  (91%) | 94=160,578,643.00  (166%) | 
+2016 ! 89,85,84 | 89=1,191,295,566.00  (new:89) | 85=556,911,503.00  (108%) | 84=331,794,278.00  (92%) | 
+               -> 89 Ships, boats and floating structures
+2017 ≈ 85,89,84 | 85=535,099,698.00 (96%) | 89=498,501,822.00 (42%) | 84=375,019,591.00 (113%) | 
+2018 ! 85,84,90 | 85=659,169,398.00  (123%) | 84=426,213,061.00  (114%) | 90=182,086,555.00  (new:90) | 
+               -> 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+2019 ! 85,84,87 | 85=987,813,346.00  (150%) | 84=532,608,602.00  (125%) | 87=204,587,304.00  (new:87) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+2020 ! 85,84,63 | 85=996,729,970.00  (101%) | 84=663,540,976.00  (125%) | 63=232,891,675.00  (new:63) | 
+               -> 63 Textiles, made up articles; sets; worn clothing and worn textile articles; rags
+2021 ! 85,84,87 | 85=1,332,452,423.00  (134%) | 84=830,803,442.00  (125%) | 87=342,658,995.00  (167%) | 
+2022 = 85,84,87 | 85=2,010,403,509.00 (151%) | 84=654,441,449.00 (79%) | 87=302,536,458.00 (88%) | 
+2023 = 85,84,87 | 85=1,644,735,974.00 (82%) | 84=797,912,575.00 (122%) | 87=300,816,846.00 (99%) | 
+All commodities involved in X exchanges between China and Portugal:
+     38 Chemical products n.e.s.
+     61 Apparel and clothing accessories; knitted or crocheted
+     63 Textiles, made up articles; sets; worn clothing and worn textile articles; rags
+     72 Iron and steel
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     89 Ships, boats and floating structures
+     90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+     94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+     94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.s.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+     95 Toys, games and sports requisites; parts and accessories thereof
+--------------------------------------------------------------------------------
+China Sao Tome and Principe M
+Percentages show change of commodity value compared to previous year
+2003   76 | 76=29,404.00 (100%) | 
+               -> 76 Aluminium and articles thereof
+2004 ! 74,76 | 74=1,307,375.00  (new:74) | 76=30,171.00  (103%) | 
+               -> 74 Copper and articles thereof
+2008 ! 85,73,83 | 85=16,918.00  (new:85) | 73=157.00  (new:73) | 83=50.00  (new:83) | 
+               -> 73 Iron or steel articles
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+               -> 83 Metal; miscellaneous products of base metal
+2009 ! 85,97 | 85=3,462.00  (20%) | 97=818.00  (new:97) | 
+               -> 97 Works of art; collectors' pieces and antiques
+2010 ! 85,40,48 | 85=9,421.00  (272%) | 40=713.00  (new:40) | 48=263.00  (new:48) | 
+               -> 40 Rubber and articles thereof
+               -> 48 Paper and paperboard; articles of paper pulp, of paper or paperboard
+2011 ! 85,06 | 85=1,446.00  (15%) | 06=193.00  (new:06) | 
+               -> 06 Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage
+2012 ! 73,85,84 | 73=23,174.00  (14761%) | 85=11,877.00  (821%) | 84=7,942.00  (new:84) | 
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2013 ! 85,06 | 85=2,457.00  (21%) | 06=7.00  (4%) | 
+2014 ! 85,84,73 | 85=275.00  (11%) | 84=153.00  (2%) | 73=46.00  (0%) | 
+2015 ! 85,73,40 | 85=33,169.00  (12061%) | 73=34.00  (74%) | 40=6.00  (1%) | 
+2016 ! 85,73,99 | 85=14,889.00  (45%) | 73=2,756.00  (8106%) | 99=61.00  (new:99) | 
+               -> 99 Commodities not specified according to kind
+2017 ! 85,99 | 85=399.00  (3%) | 99=311.00  (510%) | 
+2018 ! 85,73,40 | 85=44,180.00  (11073%) | 73=3,225.00  (117%) | 40=1,190.00  (19833%) | 
+2019 ! 84,85,40 | 84=7,848.00  (5129%) | 85=4,696.00  (11%) | 40=888.00  (75%) | 
+2020 ! 84,90,73 | 84=37,730.00  (481%) | 90=5,518.00  (new:90) | 73=1,269.00  (39%) | 
+               -> 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+2021 ! 85,84,39 | 85=74,081.00  (1578%) | 84=48,105.00  (127%) | 39=8,410.00  (new:39) | 
+               -> 39 Plastics and articles thereof
+2022 ! 38,84,85 | 38=126,574.00  (new:38) | 84=20,336.00  (42%) | 85=1,528.00  (2%) | 
+               -> 38 Chemical products n.e.c.
+2023 ! 87,84,38 | 87=19,370.00  (new:87) | 84=18,190.00  (89%) | 38=13,220.00  (10%) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+All commodities involved in M exchanges between China and Sao Tome and Principe:
+     06 Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage
+     38 Chemical products n.e.c.
+     39 Plastics and articles thereof
+     40 Rubber and articles thereof
+     48 Paper and paperboard; articles of paper pulp, of paper or paperboard
+     73 Iron or steel articles
+     74 Copper and articles thereof
+     76 Aluminium and articles thereof
+     83 Metal; miscellaneous products of base metal
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+     97 Works of art; collectors' pieces and antiques
+     99 Commodities not specified according to kind
+--------------------------------------------------------------------------------
+China Sao Tome and Principe X
+Percentages show change of commodity value compared to previous year
+2003   64,95,85 | 64=62,468.00 (100%) | 95=57,005.00 (100%) | 85=22,908.00 (100%) | 
+               -> 64 Footwear; gaiters and the like; parts of such articles
+               -> 95 Toys, games and sports requisites; parts and accessories thereof
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+2004 ! 85,64,87 | 85=60,911.00  (266%) | 64=47,577.00  (76%) | 87=30,968.00  (new:87) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+2005 ! 87,64,39 | 87=78,809.00  (254%) | 64=68,320.00  (144%) | 39=52,967.00  (new:39) | 
+               -> 39 Plastics and articles thereof
+2006 ! 87,63,34 | 87=351,015.00  (445%) | 63=323,142.00  (new:63) | 34=110,808.00  (new:34) | 
+               -> 63 Textiles, made up articles; sets; worn clothing and worn textile articles; rags
+               -> 34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster
+2007 ! 87,73,04 | 87=400,734.00  (114%) | 73=346,552.00  (new:73) | 04=254,470.00  (new:04) | 
+               -> 04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included
+               -> 73 Iron or steel articles
+2008 ! 87,39,72 | 87=518,973.00  (130%) | 39=151,387.00  (286%) | 72=140,879.00  (new:72) | 
+               -> 72 Iron and steel
+2009 ! 87,85,84 | 87=519,231.00  (100%) | 85=479,398.00  (787%) | 84=158,248.00  (new:84) | 
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2010 ! 87,84,65 | 87=577,320.00  (111%) | 84=189,869.00  (120%) | 65=161,828.00  (new:65) | 
+               -> 65 Headgear and parts thereof
+2011 ! 87,84,72 | 87=575,798.00  (100%) | 84=247,716.00  (130%) | 72=110,751.00  (79%) | 
+2012 ! 87,84,94 | 87=499,399.00  (87%) | 84=436,804.00  (176%) | 94=424,469.00  (new:94) | 
+               -> 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+2013 ! 85,72,87 | 85=2,172,855.00  (453%) | 72=367,327.00  (332%) | 87=352,865.00  (71%) | 
+2014 ! 69,85,72 | 69=862,512.00  (new:69) | 85=856,713.00  (39%) | 72=833,142.00  (227%) | 
+               -> 69 Ceramic products
+2015 ! 89,64,84 | 89=1,293,781.00  (new:89) | 64=587,311.00  (860%) | 84=526,731.00  (121%) | 
+               -> 89 Ships, boats and floating structures
+2016 ! 85,87,64 | 85=918,670.00  (107%) | 87=914,372.00  (259%) | 64=575,069.00  (98%) | 
+2017 ! 84,72,10 | 84=1,126,450.00  (214%) | 72=820,675.00  (99%) | 10=747,126.00  (new:10) | 
+               -> 10 Cereals
+2018 ! 72,84,73 | 72=1,209,175.00  (147%) | 84=812,372.00  (72%) | 73=735,312.00  (212%) | 
+2019 ! 72,87,73 | 72=1,654,193.00  (137%) | 87=1,294,018.00  (142%) | 73=1,046,931.00  (142%) | 
+2020 ! 89,84,72 | 89=5,190,210.00  (401%) | 84=3,091,842.00  (381%) | 72=2,278,785.00  (138%) | 
+2021 ! 73,72,84 | 73=1,964,385.00  (188%) | 72=1,309,689.00  (57%) | 84=1,211,363.00  (39%) | 
+2022 ! 72,73,85 | 72=2,719,106.00  (208%) | 73=2,277,125.00  (116%) | 85=1,993,338.00  (217%) | 
+2023 ! 85,64,72 | 85=1,432,428.00  (72%) | 64=1,313,391.00  (228%) | 72=1,048,294.00  (39%) | 
+All commodities involved in X exchanges between China and Sao Tome and Principe:
+     04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included
+     10 Cereals
+     34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster
+     39 Plastics and articles thereof
+     63 Textiles, made up articles; sets; worn clothing and worn textile articles; rags
+     64 Footwear; gaiters and the like; parts of such articles
+     65 Headgear and parts thereof
+     69 Ceramic products
+     72 Iron and steel
+     73 Iron or steel articles
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     89 Ships, boats and floating structures
+     94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+     95 Toys, games and sports requisites; parts and accessories thereof
+--------------------------------------------------------------------------------
+China Timor-Leste M
+Percentages show change of commodity value compared to previous year
+2003   61 | 61=62.00 (100%) | 
+               -> 61 Apparel and clothing accessories; knitted or crocheted
+2004 ! 85,84 | 85=59.00  (new:85) | 84=30.00  (new:84) | 
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2005 ! 84 | 84=716.00  (2387%) | 
+2006 ! 27,72,09 | 27=10,809,000.00  (new:27) | 72=105,882.00  (new:72) | 09=22,568.00  (new:09) | 
+               -> 72 Iron and steel
+               -> 09 Coffee, tea, mate and spices
+               -> 27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+2007 ! 44,85,73 | 44=49,235.00  (new:44) | 85=236.00  (400%) | 73=9.00  (new:73) | 
+               -> 44 Wood and articles of wood; wood charcoal
+               -> 73 Iron or steel articles
+2008 ! 09,85,32 | 09=58,562.00  (259%) | 85=47,585.00  (20163%) | 32=15.00  (new:32) | 
+               -> 32 Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks
+2009 ! 85,44,39 | 85=10,168.00  (21%) | 44=8,931.00  (18%) | 39=2,546.00  (new:39) | 
+               -> 39 Plastics and articles thereof
+2010 ! 44,09,85 | 44=153,289.00  (1716%) | 09=84,056.00  (144%) | 85=13,142.00  (129%) | 
+2011 = 44,09,85 | 44=1,385,874.00 (904%) | 09=181,170.00 (216%) | 85=169,352.00 (1289%) | 
+2012 ! 44,09,14 | 44=350,274.00  (25%) | 09=126,747.00  (70%) | 14=104,724.00  (new:14) | 
+               -> 14 Vegetable plaiting materials; vegetable products not elsewhere specified or included
+2013 ! 85,09,14 | 85=168,109.00  (99%) | 09=109,769.00  (87%) | 14=105,840.00  (101%) | 
+2014 ! 12,85,09 | 12=62,380.00  (new:12) | 85=33,016.00  (20%) | 09=3,831.00  (3%) | 
+               -> 12 Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder
+2015 ! 85,12,44 | 85=614,928.00  (1863%) | 12=61,045.00  (98%) | 44=45,743.00  (13%) | 
+2016 ! 12,09,44 | 12=102,627.00  (168%) | 09=93,875.00  (2450%) | 44=28,220.00  (62%) | 
+2017 = 12,09,44 | 12=1,071,105.00 (1044%) | 09=250,946.00 (267%) | 44=143,116.00 (507%) | 
+2018 ! 12,85,09 | 12=2,741,154.00  (256%) | 85=148,123.00  (24%) | 09=74,639.00  (30%) | 
+2019 ! 27,12,09 | 27=21,251,247.00  (197%) | 12=2,753,538.00  (100%) | 09=233,642.00  (313%) | 
+2020 ! 12,09,38 | 12=893,868.00  (32%) | 09=165,167.00  (71%) | 38=50,680.00  (new:38) | 
+               -> 38 Chemical products n.e.c.
+2021 ! 27,09,14 | 27=110,901,868.00  (522%) | 09=1,644,726.00  (996%) | 14=278,216.00  (263%) | 
+2022 ! 27,09,44 | 27=144,705,393.00  (130%) | 09=392,900.00  (24%) | 44=125,268.00  (88%) | 
+2023 ! 27,09,76 | 27=74,125,501.00  (51%) | 09=260,094.00  (66%) | 76=129,581.00  (new:76) | 
+               -> 76 Aluminium and articles thereof
+All commodities involved in M exchanges between China and Timor-Leste:
+     09 Coffee, tea, mate and spices
+     12 Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder
+     14 Vegetable plaiting materials; vegetable products not elsewhere specified or included
+     27 Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes
+     32 Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks
+     38 Chemical products n.e.c.
+     39 Plastics and articles thereof
+     44 Wood and articles of wood; wood charcoal
+     61 Apparel and clothing accessories; knitted or crocheted
+     72 Iron and steel
+     73 Iron or steel articles
+     76 Aluminium and articles thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+--------------------------------------------------------------------------------
+China Timor-Leste X
+Percentages show change of commodity value compared to previous year
+2003   85,87,99 | 85=296,031.00 (100%) | 87=178,047.00 (100%) | 99=100,000.00 (100%) | 
+               -> 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+               -> 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+               -> 99 Commodities not specified according to kind
+2004 ! 85,87,34 | 85=523,500.00  (177%) | 87=314,491.00  (177%) | 34=242,324.00  (new:34) | 
+               -> 34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster
+2005 ! 85,84,73 | 85=185,656.00  (35%) | 84=138,318.00  (new:84) | 73=113,483.00  (new:73) | 
+               -> 73 Iron or steel articles
+               -> 84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+2006 ! 85,10,72 | 85=1,769,355.00  (953%) | 10=1,579,089.00  (new:10) | 72=386,832.00  (new:72) | 
+               -> 72 Iron and steel
+               -> 10 Cereals
+2007 ! 85,10,84 | 85=1,974,136.00  (112%) | 10=765,529.00  (48%) | 84=746,137.00  (539%) | 
+2008 ! 85,87,84 | 85=1,326,410.00  (67%) | 87=1,248,998.00  (397%) | 84=911,125.00  (122%) | 
+2009 ! 85,84,61 | 85=7,577,081.00  (571%) | 84=3,088,445.00  (339%) | 61=2,033,611.00  (new:61) | 
+               -> 61 Apparel and clothing accessories; knitted or crocheted
+2010 ! 85,73,72 | 85=10,626,127.00  (140%) | 73=8,128,488.00  (7163%) | 72=3,265,319.00  (844%) | 
+2011 ! 85,73,84 | 85=31,558,193.00  (297%) | 73=10,930,783.00  (134%) | 84=5,443,342.00  (176%) | 
+2012 ! 85,90,72 | 85=10,607,536.00  (34%) | 90=7,558,976.00  (new:90) | 72=6,324,147.00  (194%) | 
+               -> 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+2013 ! 94,73,72 | 94=7,096,958.00  (new:94) | 73=6,696,468.00  (61%) | 72=6,686,573.00  (106%) | 
+               -> 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+2014 ! 72,84,73 | 72=9,258,575.00  (138%) | 84=8,920,472.00  (164%) | 73=8,100,357.00  (121%) | 
+2015 ! 84,72,85 | 84=16,495,435.00  (185%) | 72=13,216,824.00  (143%) | 85=11,905,209.00  (112%) | 
+2016 ! 84,85,73 | 84=30,376,812.00  (184%) | 85=26,419,083.00  (222%) | 73=17,482,856.00  (216%) | 
+2017 ! 84,72,85 | 84=20,734,941.00  (68%) | 72=18,759,340.00  (142%) | 85=17,572,004.00  (67%) | 
+2018 ! 89,73,72 | 89=31,860,788.00  (new:89) | 73=14,700,465.00  (84%) | 72=14,305,882.00  (76%) | 
+               -> 89 Ships, boats and floating structures
+2019 ! 84,73,72 | 84=17,569,248.00  (85%) | 73=15,040,930.00  (102%) | 72=14,091,285.00  (98%) | 
+2020 ! 73,72,85 | 73=31,739,472.00  (211%) | 72=26,500,018.00  (188%) | 85=14,083,450.00  (80%) | 
+2021 = 73,72,85 | 73=44,029,243.00 (139%) | 72=21,363,225.00 (81%) | 85=16,722,998.00 (119%) | 
+2022 ! 73,84,72 | 73=51,401,298.00  (117%) | 84=35,445,399.00  (202%) | 72=33,379,723.00  (156%) | 
+2023 ! 73,72,85 | 73=33,914,549.00  (66%) | 72=25,456,747.00  (76%) | 85=25,428,869.00  (152%) | 
+All commodities involved in X exchanges between China and Timor-Leste:
+     10 Cereals
+     34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster
+     61 Apparel and clothing accessories; knitted or crocheted
+     72 Iron and steel
+     73 Iron or steel articles
+     84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof
+     84 Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof
+     85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles
+     87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof
+     89 Ships, boats and floating structures
+     90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories
+     94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings
+     99 Commodities not specified according to kind
+--------------------------------------------------------------------------------
