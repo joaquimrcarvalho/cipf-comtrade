@@ -74,6 +74,7 @@ DATA_ITEM_CSV = "support/dataitem.csv"
 # See: https://unctadstat.unctad.org/EN/Classifications.html
 # The list mapping individual countries to their corresponding area is available in the codebook.
 # CSV file at https://unctadstat.unctad.org/EN/Classifications/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv
+
 COUNTRY_GROUPS_URL = "https://unctadstat.unctad.org/EN/Classifications/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv"
 COUNTRY_GROUPS_FILE = "support/Dim_Countries_Hierarchy_UnctadStat_All_Flat.csv"
 PARTNER_DF = None
@@ -256,6 +257,7 @@ def init(
             f.write(r.content)
         print("un-comtrade country groups downloaded to", COUNTRY_GROUPS_FILE)
 
+    global COUNTRY_CODE_FILE
     COUNTRY_CODE_FILE = "support/REF COUNTRIES.csv"
     MOS_CODE_FILE = "support/REF  MOS.csv"
     CUSTOMS_CODE_FILE = "support/REF CUSTOMS.csv"
@@ -273,12 +275,13 @@ def init(
     else:
         DATA_ITEM_DF = pd.read_csv(DATA_ITEM_CSV)
 
-    # COUNTRY_CODES = pd.read_csv(COUNTRY_CODE_FILE, index_col=0).squeeze().to_dict()
-
     global PARTNER_DF
     global PARTNER_CSV
     global COUNTRY_CODES
     global PARTNER_CODES
+
+    COUNTRY_CODES = pd.read_csv(COUNTRY_CODE_FILE, index_col=0).squeeze().to_dict()
+
     if not os.path.isfile(PARTNER_CSV) or force_init:
         PARTNER_DF = comtradeapicall.getReference("partner")
         PARTNER_DF.to_csv(PARTNER_CSV)
@@ -290,6 +293,7 @@ def init(
     global REPORTER_DF
     global REPORTER_CSV
     global REPORTER_CODES
+
     if not os.path.isfile(REPORTER_CSV) or force_init:
         REPORTER_DF = comtradeapicall.getReference("reporter")
         REPORTER_DF.to_csv(REPORTER_CSV)
@@ -743,13 +747,36 @@ def getFinalData(*p, **kwp):
         use_alternative (bool, optional): Use alternative API call. True/False NOT TESTED.
             "Alternative functions of _previewFinalData, _previewTarifflineData, _getFinalData, _getTarifflineData returns the same data frame,
             respectively, with query optimization by calling multiple APIs based on the periods (instead of single API call)"
+
+
+    If the call does not specify partner2Code, some years produce more than one line per reporter/partner pair
+    with different values. For example, if China is the reporter and Equatorial Guinea is the partner in the
+    years 2015, 2016, 2017, it appears:
+
+    One line per partner2Code, including a line where partner2 is equal to partner (direct imports).
+    An additional line with partner2Code equal to zero that contains the total aggregate of the other lines with explicit partner2Code.
+    This means that there is duplication of the total.
+
+    |    | reporterDesc   | partnerDesc       |   partner2Code | partner2Desc         |   refYear | cmdCode   | flowCode   | primaryValueFormated   |
+    |---:|:---------------|:------------------|---------------:|:---------------------|----------:|:----------|:-----------|:-----------------------|
+    |  3 | China          | Equatorial Guinea |            344 | China, Hong Kong SAR |      2015 | TOTAL     | M          | 59.0                   |
+    |  1 | China          | Equatorial Guinea |             56 | Belgium              |      2015 | TOTAL     | M          | 2,435.0                |
+    |  2 | China          | Equatorial Guinea |            226 | Equatorial Guinea    |      2015 | TOTAL     | M          | 1,166,493,970.0        |
+    |  0 | China          | Equatorial Guinea |              0 | nan                  |      2015 | TOTAL     | M          | 1,166,496,464.0        |
+
+
+    To avoid this, the API must be called with partner2Code = 0, so that the results for 2015, 2016, 2017 exclude
+        the breakdown. If partner2Code=None, the additional lines appear.
+
+    So if partner2Code is not specified in the arguments this function will add partner2Code = 0 before calling comtrade.
     """
     global RETRY
 
     if len(p) == 0:
         api_key = get_api_key()
+        p = [api_key]
     elif len(p) == 1:
-        api_key = p[0]
+        api_key = p[0] # currently unused
     else:
         raise ValueError("Only one positional argument is allowed, the API Key")
 
@@ -769,6 +796,14 @@ def getFinalData(*p, **kwp):
         del kwp["period_size"]
 
     use_alternative = kwp.get("use_alternative", False)
+
+    # check for partner2Code missing.
+
+    # check if "partner2Code" is not in kwp
+    if "partner2Code" not in kwp:
+        # do something
+        kwp['partner2Code'] = 0
+
 
     # get period from kwp
     period = kwp.get("period", None)
