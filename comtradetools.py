@@ -232,8 +232,11 @@ def init(
 
     # downloadd codebook if not cached. Note that with the release of comtradeapicall python package, the codebook is no longer used
     #   but we keep it here for reference
+    if code_book_url is not None:
+        CODE_BOOK_URL = code_book_url
+
     if not os.path.isfile(CODE_BOOK_FILE) or force_init:
-        logging.info(f"Downloading codebook from {CODE_BOOK_URL}")
+        logging.info("Downloading codebook from %s", CODE_BOOK_URL)
         urllib.request.urlretrieve(CODE_BOOK_URL, CODE_BOOK_FILE)
         print("un-comtrade codebook downloaded to", CODE_BOOK_FILE)
 
@@ -502,16 +505,23 @@ def get_data(
         typeCode (str): Type of data to retrieve, C for commodities, S for Services
         freqCode (str): Frequency of data, A for annual, M for monthly
         reporterCode (str, optional): Reporter country code. Defaults to '49'.
-        partnerCode (str, optional): Partner country code. Defaults to '024,076,132,226,624,508,620,678,626'.
-        partner2Code (str, optional): Partner2 country code. Defaults to 0 (world). Use -1 to remove 0 (world)
-        period (str, optional): Period of data, e.g. 2018, 2018,2019, 2018,2019,2020. Defaults to None.
-        clCode (str, optional): Classification code, HS for Harmonized System, SITC for Standard International Trade Classification. Defaults to "HS".
+        partnerCode (str, optional): Partner country code. Defaults to
+                                        '024,076,132,226,624,508,620,678,626'.
+        partner2Code (str, optional): Partner2 country code. Defaults to 0 (world).
+                                        Use -1 to remove 0 (world)
+        period (str, optional): Period of data, e.g. 2018, 2018,2019, 2018,2019,2020.
+                                Defaults to None.
+        clCode (str, optional): Classification code, HS for Harmonized System,
+                                SITC for Standard International Trade Classification. Defaults to "HS".
         cmdCode (str, optional): Commodity code, TOTAL for all commodities. Defaults to "TOTAL".
         flowCode (str, optional): Flow code, M for imports, X for exports. Defaults to "M,X".
         customsCode (str, optional): Customs code, C00 for all customs. Defaults to 'C00'.
         more_pars (dict, optional): Additional parameters to pass to the API.
-        qtyUnitCodeFilter (str, optional): Quantity unit code, e.g. 1 for tonnes, 2 for kilograms. Defaults to None.
-        motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air. Defaults to None. If -1 is passed removes results with motCode = 0,
+        qtyUnitCodeFilter (str, optional): Quantity unit code, e.g. 1 for tonnes, 2 for kilograms.
+                                            Defaults to None.
+        motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air.
+                                            Defaults to None.
+                                            If -1 is passed removes results with motCode = 0,
         apiKey (str,optional): API Key for umcomtrade+
         cache (bool, optional): Cache the results. Defaults to True.
         timeout (int, optional): Timeout for the API call. Defaults to 10.
@@ -639,12 +649,15 @@ def get_data(
                 motCodes = df["motCode"].unique()
                 if len(motCodes) > 1 and 0 in motCodes:
                     warnings.warn(
-                        "Query returned different motCodes including 0 (all), check for duplicate results when aggregating. Use motCode = -1 to remove motCode = 0, or motCode=0 to remove details"
+                        "Query returned different motCodes including 0 (all), check for duplicate"
+                        " results when aggregating. Use motCode = -1 to remove motCode = 0, "
+                        "or motCode=0 to remove details"
                     )
 
             if len(df["isAggregate"].unique()) > 1:
                 warnings.warn(
-                    "Query returned different isAggregate values, check for duplicate results when aggregating"
+                    "Query returned different isAggregate values, "
+                    "check for duplicate results when aggregating"
                 )
 
             # check for multiple partner2Codes and potentially duplicate results
@@ -657,7 +670,8 @@ def get_data(
             partner2Codes = df["partner2Code"].unique()
             if len(partner2Codes) > 1 and 0 in partner2Codes:
                 warnings.warn(
-                    "Query returned different partner2Codes including 0 (all), check for duplicate results when aggregating. Use partner2Code = -1 to remove partner2Code = 0, or partner2Code=0 to remove details"
+                    "Query returned different partner2Codes including 0 (all), check for duplicate results when aggregating. "
+                    "Use partner2Code = -1 to remove partner2Code = 0, or partner2Code=0 to remove details"
                 )
 
             customCodes = df["customsCode"].unique()
@@ -744,17 +758,24 @@ def getFinalData(*p, **kwp):
                                         if True, the world entry is removed.
         cache (bool, optional): Cache the results; defaults to True.
         period_size (int, optional): Number of periods to request in each call; defaults to 12;
-        use_alternative (bool, optional): Use alternative API call. True/False NOT TESTED.
-            "Alternative functions of _previewFinalData, _previewTarifflineData, _getFinalData, _getTarifflineData returns the same data frame,
-            respectively, with query optimization by calling multiple APIs based on the periods (instead of single API call)"
+        use_alternative (bool, optional): Use alternative API call. True/False.
+            "Alternative functions ... returns the same data frame ....
+            with query optimization by calling multiple APIs based on the periods
+            (instead of single API call)" Not Tested.
 
 
-    If the call does not specify partner2Code, some years produce more than one line per reporter/partner pair
-    with different values. For example, if China is the reporter and Equatorial Guinea is the partner in the
-    years 2015, 2016, 2017, it appears:
+    If the call does not specify partner2Code, some years produce
+    more than one line per reporter/partner pair with different values.
 
-    One line per partner2Code, including a line where partner2 is equal to partner (direct imports).
-    An additional line with partner2Code equal to zero that contains the total aggregate of the other lines with explicit partner2Code.
+    For example, if China is the reporter and Equatorial Guinea
+    is the partner in the years 2015, 2016, 2017, it appears:
+
+    One line per partner2Code, including a line where partner2
+    is equal to partner (direct imports).
+    An additional line with partner2Code equal to zero that
+    contains the total aggregate of the other lines
+    with explicit partner2Code.
+
     This means that there is duplication of the total.
 
     |    | reporterDesc   | partnerDesc       |   partner2Code | partner2Desc         |   refYear | cmdCode   | flowCode   | primaryValueFormated   |
@@ -776,7 +797,7 @@ def getFinalData(*p, **kwp):
         api_key = get_api_key()
         p = [api_key]
     elif len(p) == 1:
-        api_key = p[0] # currently unused
+        api_key = p[0]  # currently unused
     else:
         raise ValueError("Only one positional argument is allowed, the API Key")
 
@@ -854,7 +875,7 @@ def getFinalData(*p, **kwp):
                 temp = comtradeapicall_getFinalData(*p, **kwp)
             while temp is None and RETRY < MAX_RETRIES:
                 sleep = MAX_SLEEP * (RETRY + 1)
-                print(f"Empty result in getFinalData, retrying in {sleep} seconds")
+                logging.info(f"Empty result in getFinalData, retrying in {sleep} seconds")
                 time.sleep(sleep)
                 RETRY += 1
                 temp = comtradeapicall_getFinalData(*p, **kwp)
@@ -987,9 +1008,10 @@ def top_commodities(
                             -1 all but World, None for all, default 0
         years (str): year range, e.g. 2010,2011,2012
         flowCode (str): flow code, e.g. M for imports, X for exports, defaults to M,X
-        cmdCode (str): HS code, e.g. AG2 for all HS2 codes, AG4 for all HS4 codes, TOTAL for all, defaults to AG2
+        cmdCode (str): HS code, e.g. AG2 for all HS2 codes, AG4 for all HS4 codes,
+                        TOTAL for all, defaults to AG2
         motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air.
-                                 Defaults to None. If -1 is passed removes results with motCode = 0
+                                    Defaults to None. If -1 is passed removes results with motCode = 0
         rank_filter (int): number of top commodities to return, default 5
         return_data (bool): return the original data before clipping, If true
                             returns a tuple (top_commodities, data)
@@ -1246,7 +1268,9 @@ def get_trade_flows_old(
     trade_balance["trade_volume (X+M)"] = trade_balance["X"] + trade_balance["M"]
     trade_balance["trade_volume (X<M+M)"] = trade_balance["X<M"] + trade_balance["M"]
     trade_balance.reset_index()
-    return trade_balance  # .reindex(columns=['countryCode','countryDesc','exports','imports','trade_balance','xReporterCode','xReporterDesc'])
+    return trade_balance
+    # .reindex(columns=['countryCode','countryDesc','exports','imports',
+    # 'trade_balance','xReporterCode','xReporterDesc'])
 
 
 def get_trade_flows(
@@ -1425,7 +1449,9 @@ def get_trade_flows(
     trade_balance["trade_volume (X+M)"] = trade_balance["X"] + trade_balance["M"]
     trade_balance["trade_volume (X<M+M)"] = trade_balance["X<M"] + trade_balance["M"]
     trade_balance.reset_index()
-    return trade_balance  # .reindex(columns=['countryCode','countryDesc','exports','imports','trade_balance','xReporterCode','xReporterDesc'])
+    return trade_balance
+    # .reindex(columns=['countryCode','countryDesc','exports','imports',
+    # 'trade_balance','xReporterCode','xReporterDesc'])
 
 
 def top_partners(
@@ -1452,13 +1478,15 @@ def top_partners(
     Args:
         reporterCode (str): reporter country code, e.g. 49 for China, or a CSV list
         years (str): year range, e.g. 2010,2011,2012
-        cmdCode (str): HS code, e.g. TOTAL for all commodities, or AG2, AG4 or specific code or list of
+        cmdCode (str): HS code, e.g. TOTAL for all commodities, or AG2,
+                        AG4 or specific code or list of
         flowCode (str): flow code, e.g. M for imports, X for exports, defaults to M,X
         partnerCode (str, optional): partner country code, e.g. 842 for USA, defaults to None (all)
-        partner2Code (str, optional): second partner country code, e.g. 842 for USA, defaults to 0 (world)
+        partner2Code (str, optional): second partner country code, e.g. 842 for USA,
+                                    defaults to 0 (world)
                                     None for all, -1 for all but world.
         motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air.
-                                 Defaults to None. If -1 is passed removes results with motCode = 0
+                                    Defaults to None. If -1 is passed removes results with motCode = 0
         customsCode (str, optional): Customs procedure code, e.g. C00 for all, C05 for free zone.
         rank_filter (int): number of top commodities to return, default 5
         return_data (bool): return the DataFrame with the results and the DataFrame with the
