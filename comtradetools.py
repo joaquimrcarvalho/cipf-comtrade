@@ -13,6 +13,9 @@ UN Comtrade API.
 # pylint: disable=C0103
 # disable Pylint global-statement
 # pylint: disable=W0603
+# disable Pylint error E501 (line too long)
+# pylint: disable=E501
+# flake8: noqa: E501
 
 
 import logging
@@ -357,15 +360,11 @@ def init(
         HS_CODES_DF = pd.read_csv(HS_CODES_URL)  # read from CODE_BOOK_url
         HS_CODES_DF.to_csv(HS_CODES_FILE)
 
-    global HS_CODES
-    HS_CODES = dict(
-        zip(HS_CODES_DF.hscode, HS_CODES_DF.description)
-    )  #  dict for decoding
+    global HS_CODES  # dict for decoding
+    HS_CODES = dict(zip(HS_CODES_DF.hscode, HS_CODES_DF.description))
 
-    global HS_CODES_L2_DF
-    HS_CODES_L2_DF = HS_CODES_DF[
-        HS_CODES_DF.level == 2
-    ]  # create subset of level 2 codes
+    global HS_CODES_L2_DF  # create subset of level 2 codes
+    HS_CODES_L2_DF = HS_CODES_DF[HS_CODES_DF.level == 2]
 
     global HS_CODES_L2
     HS_CODES_L2 = dict(
@@ -473,271 +472,6 @@ def get_year_intervals(years):
     intervals.append(f"{start_year}-{end_year}")
     return intervals
 
-@sleep_and_retry
-@limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
-def get_data(
-    typeCode: str,
-    freqCode: str,
-    reporterCode: str = "49",
-    partnerCode: str = "024,076,132,226,624,508,620,678,626",
-    partner2Code: str = 0,
-    period: str = None,
-    clCode: str = "HS",
-    cmdCode: str = "TOTAL",
-    flowCode: str = "M,X",
-    customsCode: str = "C00",
-    more_pars=None,
-    qtyUnitCodeFilter=None,
-    motCode=None,
-    apiKey: Union[str, None] = None,
-    cache: bool = True,
-    timeout: int = 10,
-    echo_url: bool = False,
-) -> Union[pd.DataFrame, None]:
-    """Makes a query to UN Comtrade+ API, returns a pandas DataFrame
-
-    This is deprecated. Originally the UN API did not decode results
-    and this function added decoding of values using the various codebooks.
-
-    Use comtradetools.getFinalData() instead.
-
-    Args:
-        typeCode (str): Type of data to retrieve, C for commodities, S for Services
-        freqCode (str): Frequency of data, A for annual, M for monthly
-        reporterCode (str, optional): Reporter country code. Defaults to '49'.
-        partnerCode (str, optional): Partner country code. Defaults to
-                                        '024,076,132,226,624,508,620,678,626'.
-        partner2Code (str, optional): Partner2 country code. Defaults to 0 (world).
-                                        Use -1 to remove 0 (world)
-        period (str, optional): Period of data, e.g. 2018, 2018,2019, 2018,2019,2020.
-                                Defaults to None.
-        clCode (str, optional): Classification code, HS for Harmonized System,
-                                SITC for Standard International Trade Classification. Defaults to "HS".
-        cmdCode (str, optional): Commodity code, TOTAL for all commodities. Defaults to "TOTAL".
-        flowCode (str, optional): Flow code, M for imports, X for exports. Defaults to "M,X".
-        customsCode (str, optional): Customs code, C00 for all customs. Defaults to 'C00'.
-        more_pars (dict, optional): Additional parameters to pass to the API.
-        qtyUnitCodeFilter (str, optional): Quantity unit code, e.g. 1 for tonnes, 2 for kilograms.
-                                            Defaults to None.
-        motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air.
-                                            Defaults to None.
-                                            If -1 is passed removes results with motCode = 0,
-        apiKey (str,optional): API Key for umcomtrade+
-        cache (bool, optional): Cache the results. Defaults to True.
-        timeout (int, optional): Timeout for the API call. Defaults to 10.
-        echo_url (bool, optional): Echo the CODE_BOOK_url to the console. Defaults to False.
-
-    """
-    if apiKey is None:
-        apiKey = APIKEY
-    if more_pars is None:
-        more_pars = {}
-
-    base_url = f"{get_url(apiKey)}/{typeCode}/{freqCode}/{clCode}"
-    if partner2Code == -1:  # -1
-        partner2CodePar = None
-    else:
-        partner2CodePar = partner2Code
-
-    pars = {
-        "reporterCode": reporterCode,
-        "period": period,
-        "partnerCode": partnerCode,
-        "partner2CodePar": partner2CodePar,
-        "cmdCode": cmdCode,
-        "flowCode": flowCode,
-        "customsCode": customsCode,
-        "subscription-key": apiKey,
-    }
-
-    df: pd.DataFrame | None = pd.DataFrame()
-
-    # make a hash of the parameters for caching
-    hash = hashlib.md5()
-    hash.update(f"{base_url}{str(pars)}".encode("utf-8"))
-
-    if cache and not os.path.exists(CACHE_DIR):
-        Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
-
-    cache_file = f"{CACHE_DIR}/{hash.hexdigest()}.pickle"
-    if cache and os.path.exists(cache_file):
-        modification_time = os.path.getmtime(cache_file)
-        current_time = datetime.datetime.now().timestamp()
-        days_since_modification = (current_time - modification_time) / (24 * 3600)
-        if days_since_modification <= CACHE_VALID_DAYS:
-            with open(cache_file, "rb") as f:
-                df = pickle.load(f)
-                return df
-        else:
-            os.remove(cache_file)
-
-    error: bool = False
-
-    global RETRY
-    RETRY = 0
-    while RETRY < MAX_RETRIES:
-        resp = requests.get(base_url, {**pars, **more_pars}, timeout=timeout)
-        if resp.status_code == 200:
-            break
-        elif resp.status_code == 429:
-            sleep = MAX_SLEEP * (RETRY + 1)
-            RETRY += 1
-            errorInfo = json.loads(resp.content)
-            message = errorInfo.get("message", resp.content)
-            warnings.warn(
-                f"Server returned HTTP Status: {str(resp.status_code)} {message} retrying in {sleep} seconds",
-            )
-
-            time.sleep(sleep)
-        else:
-            break
-
-    if echo_url:
-        sanitize = re.sub("subscription-key=.*", "subscription-key=HIDDEN", resp.url)
-        print(sanitize)
-    if resp.status_code != 200:
-        warnings.warn(
-            f"Server returned HTTP Status: {str(resp.status_code)}",
-        )
-        errorInfo = json.loads(resp.content)
-        message = errorInfo.get("message", resp.content)
-        warnings.warn(f"Server returned error: {message}")
-        df = None
-        error = True
-    else:
-        resp_json = json.loads(resp.content)
-        error_json = resp_json.get("statusCode", None)
-        if error_json is not None:
-            error_message = resp_json.get("message", None)
-            warnings.warn(f"Server returned JSON error: {error_json}: {error_message}")
-            df = None
-            error = True
-
-    if error:
-        return None
-    else:
-        results = json.loads(resp.content)["data"]
-        if len(results) == 0:
-            warnings.warn("Query returned no results")
-            df = None
-        else:
-            df = pd.DataFrame(results)
-
-            if partnerCode is None:
-                # when partnerCode is None, the API returns partnerCode = 0 for the world
-                #  and partnerCode for each partner. We remove the world entry
-                df = df[df.partnerCode != 0]
-
-            if qtyUnitCodeFilter is not None:
-                df = df[df.qtyUnitCode == qtyUnitCodeFilter]
-
-            if customsCode is not None:
-                df = df[df.customsCode == customsCode]
-
-            if motCode is not None:
-                if motCode == -1:  # Remove motCode = 0
-                    lenBefore = len(df)
-                    df = df[df.motCode != 0]
-                    lenAfter = len(df)
-                    if lenBefore != lenAfter:
-                        warnings.warn(
-                            f"Removed {lenBefore-lenAfter} results with motCode = 0"
-                        )
-                else:  # Keep only specified motCode
-                    df = df[df.motCode == motCode]
-            else:
-                motCodes = df["motCode"].unique()
-                if len(motCodes) > 1 and 0 in motCodes:
-                    warnings.warn(
-                        "Query returned different motCodes including 0 (all), check for duplicate"
-                        " results when aggregating. Use motCode = -1 to remove motCode = 0, "
-                        "or motCode=0 to remove details"
-                    )
-
-            if len(df["isAggregate"].unique()) > 1:
-                warnings.warn(
-                    "Query returned different isAggregate values, "
-                    "check for duplicate results when aggregating"
-                )
-
-            # check for multiple partner2Codes and potentially duplicate results
-
-            if partner2Code == -1:  # Remove partner2Code = 0
-                df = df[df.partner2Code != 0]
-            elif partner2Code is not None:  # Keep only specified partner2Code
-                df = df[df.partner2Code == partner2Code]
-
-            partner2Codes = df["partner2Code"].unique()
-            if len(partner2Codes) > 1 and 0 in partner2Codes:
-                warnings.warn(
-                    "Query returned different partner2Codes including 0 (all), check for duplicate results when aggregating. "
-                    "Use partner2Code = -1 to remove partner2Code = 0, or partner2Code=0 to remove details"
-                )
-
-            customCodes = df["customsCode"].unique()
-            if len(customCodes) > 1 and "C00" in customCodes:
-                warnings.warn(
-                    "Query returned different customCodes including C00 (all), check for duplicate results when aggregating. Use customsCode = C00 to remove details"
-                )
-
-            # Convert the country codes to country names
-            if "reporterCode" in df.columns.values:
-                df.reporterDesc = df.reporterCode.map(COUNTRY_CODES)
-                # check for Nan in the result
-                # and change it to the reporterCode as string
-                df.reporterDesc = df.reporterDesc.fillna(df.reporterCode.astype(str))
-            if "partnerCode" in df.columns.values:
-                df.partnerDesc = df.partnerCode.map(COUNTRY_CODES)
-                # check for Nan in the result
-                # and change it to the partnerCode
-                df.partnerDesc = df.partnerDesc.fillna(df.partnerCode.astype(str))
-            if "partner2Code" in df.columns.values:
-                df.partner2Desc = df.partner2Code.map(COUNTRY_CODES)
-                # check for Nan in the result
-                # and change it to the partner2Code
-                df.partner2Desc = df.partner2Desc.fillna(df.partner2Code.astype(str))
-
-            # Convert flowCode
-            if "flowCode" in df.columns.values:
-                df["flowDesc"] = df.flowCode.map(FLOWS_CODES)
-            # Convert the HS codes
-            if "cmdCode" in df.columns.values:
-                df["cmdDesc"] = df.cmdCode.map(HS_CODES)
-
-            # Convert customsCode
-            if "customsCode" in df.columns.values:
-                df["customsDesc"] = df.customsCode.map(CUSTOMS_CODE)
-
-            # Convert mosCode
-            if "mosCode" in df.columns.values:
-                df["mosDesc"] = df.mosCode.map(MOS_CODES)
-
-            # Convert motCode
-            if "motCode" in df.columns.values:
-                df["motDesc"] = df.motCode.map(MOT_CODES)
-
-            # Convert qtyUnitCode
-            if "qtyUnitCode" in df.columns.values:
-                df["qtyUnitAbbr"] = df.qtyUnitCode.map(QTY_CODES)
-                df["qtyUnitDesc"] = df.qtyUnitCode.map(QTY_CODES_DESC)
-
-            # Convert altQtyUnitCode
-            if "altQtyUnitCode" in df.columns.values:
-                df["altQtyUnitAbbr"] = df.altQtyUnitCode.map(QTY_CODES)
-                df["altQtyUnitDesc"] = df.altQtyUnitCode.map(QTY_CODES_DESC)
-
-            # Generate a formated version of the value for readability here
-            if "primaryValue" in df.columns.values:
-                df["primaryValueFormated"] = df.primaryValue.map("{:,.2f}".format)
-
-            # check to cache the results
-            if cache:
-                with open(cache_file, "wb") as f:
-                    pickle.dump(df, f)
-
-            # return the DataFrame
-        return df
-
 
 def getFinalData(*p, **kwp):
     """
@@ -757,6 +491,7 @@ def getFinalData(*p, **kwp):
                                         partnerCode for each partner;
                                         if True, the world entry is removed.
         cache (bool, optional): Cache the results; defaults to True.
+        retry_if_empty (bool, optional): Retry if the cached result is empty; defaults to True.
         period_size (int, optional): Number of periods to request in each call; defaults to 12;
         use_alternative (bool, optional): Use alternative API call. True/False.
             "Alternative functions ... returns the same data frame ....
@@ -806,6 +541,11 @@ def getFinalData(*p, **kwp):
     if "cache" in kwp:
         del kwp["cache"]
 
+    retry_if_empty = kwp.get("retry_if_empty", True)
+    # remove retry_if_empty from kwp
+    if "retry_if_empty" in kwp:
+        del kwp["retry_if_empty"]
+
     remove_world = kwp.get("remove_world", False)
     # remove remove_world from kwp
     if "remove_world" in kwp:
@@ -823,8 +563,7 @@ def getFinalData(*p, **kwp):
     # check if "partner2Code" is not in kwp
     if "partner2Code" not in kwp:
         # do something
-        kwp['partner2Code'] = 0
-
+        kwp["partner2Code"] = 0
 
     # get period from kwp
     period = kwp.get("period", None)
@@ -845,6 +584,7 @@ def getFinalData(*p, **kwp):
         # make a hash of the parameters for caching
         hash_updater = hashlib.md5()
         call_string = f"{p}{str(kwp)}{use_alternative}"
+        logging.debug("Call %s", call_string)
         hash_updater.update(call_string.encode("utf-8"))
         cache_file = f"{CACHE_DIR}/{hash_updater.hexdigest()}.pickle"
         used_cache = False
@@ -862,20 +602,40 @@ def getFinalData(*p, **kwp):
             else:
                 os.remove(cache_file)
                 used_cache = False
+            if temp.size == 0 and retry_if_empty:
+                os.remove(cache_file)
+                logging.info(
+                    "Empty result in cached result, retrying. Disable with retry_if_empty=False"
+                )
+                used_cache = False
 
         if not used_cache:
             RETRY = 0
             try:
+                logging.debug("Calling comtradeapicall.getFinalData with %s %s", p, kwp)
                 temp = comtradeapicall_getFinalData(*p, **kwp)
+                if temp is None:
+                    logging.debug("Call returned None")
+                else:
+                    logging.debug("Number of record in temp: %s", temp.size)
             except Exception as e:
                 sleep = MAX_SLEEP * (RETRY + 1)
-                print(f"Error in getFinalData, retrying in {MAX_SLEEP} seconds", e)
+                logging.error(
+                    f"Error in getFinalData, retrying in {MAX_SLEEP} seconds", e
+                )
                 time.sleep(MAX_SLEEP)
                 RETRY += 1
+                logging.debug("Retrying comtradeapicall.getFinalData with %s %s", p, kwp)
                 temp = comtradeapicall_getFinalData(*p, **kwp)
+                if temp is None:
+                    logging.debug("Call returned None")
+                else:
+                    logging.debug("Number of record in temp: %s", temp.size)
             while temp is None and RETRY < MAX_RETRIES:
                 sleep = MAX_SLEEP * (RETRY + 1)
-                logging.info(f"Empty result in getFinalData, retrying in {sleep} seconds")
+                logging.info(
+                    f"Empty result in getFinalData, retrying in {sleep} seconds"
+                )
                 time.sleep(sleep)
                 RETRY += 1
                 temp = comtradeapicall_getFinalData(*p, **kwp)
@@ -888,11 +648,12 @@ def getFinalData(*p, **kwp):
             elif cache and temp is not None:  # save in cache
                 with open(cache_file, "wb") as f:
                     pickle.dump(temp, f)
-        df = pd.concat([df, temp], ignore_index=True)
+        if temp is not None and temp.size > 0:
+            df = pd.concat([df, temp], ignore_index=True)
 
     # we do some checks on the results to avoid common problems
     partnerCode = kwp.get("partnerCode", None)
-    if partnerCode is None and remove_world:
+    if partnerCode is None and remove_world and "partnerCode" in df.columns:
         # when partnerCode is None, the API returns partnerCode = 0 for the world
         #  and partnerCode for each partner. We remove the world entry
         df = df[df.partnerCode != 0]
@@ -910,7 +671,12 @@ def comtradeapicall_getFinalData(*p, **kwp):
     if use_alternative:
         temp = comtradeapicall._getFinalData(*p, **kwp)
     else:
+        logging.debug("Calling comtradeapicall.getFinalData with %s %s", p, kwp)
         temp = comtradeapicall.getFinalData(*p, **kwp)
+        if temp is not None:
+            logging.debug("Number of records fetched: %s", temp.size)
+        else:
+            logging.debug("Call returned None")
     return temp
 
 
@@ -1001,6 +767,7 @@ def top_commodities(
 ):
     """Get the top commodities (level 2 HS nomenclature) traded between countries for a given year range
 
+    DEPRECATED
     Args:
         reporterCode (str): reporter country code, e.g. 49 for China
         partnerCode (str): partner country code, 0 for the world, None for all, code or CSV
@@ -1475,6 +1242,7 @@ def top_partners(
     """Get the top trade partners of a country
         for a given year range
 
+        DEPRECATED
     Args:
         reporterCode (str): reporter country code, e.g. 49 for China, or a CSV list
         years (str): year range, e.g. 2010,2011,2012
@@ -1800,6 +1568,299 @@ def checkAggregateValues(
         lastCode = currentCode
         lastIndex = row[0]
     return df
+
+
+# create main function
+if __name__ == "__main__":
+    print("contrade.py initializing...")
+    Path("support").mkdir(parents=True, exist_ok=True)
+    Path("reports").mkdir(parents=True, exist_ok=True)
+    fname = "config.ini"
+    content = """
+    # Config file
+    [comtrade]
+    # Add API Key. DO NOT SHARE
+    key =
+    """
+    if not os.path.isfile(fname):
+        print("Creating file config.ini")
+        with open(fname, "w", encoding="utf-8") as f:
+            f.write(content)
+        print("Add API Key. Get one at https://comtradedeveloper.un.org/ ")
+    if os.path.isfile(fname):
+        config = configparser.ConfigParser()
+        config.read("config.ini")
+        # get API Key or set to None
+        APIKEY = config["comtrade"].get("key", None)
+    init(APIKEY, force_init=True)
+    PERIOD_SECONDS = 7
+    print("contrade.py initialized")
+
+
+@sleep_and_retry
+@limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
+def get_data(
+    typeCode: str,
+    freqCode: str,
+    reporterCode: str = "49",
+    partnerCode: str = "024,076,132,226,624,508,620,678,626",
+    partner2Code: str = 0,
+    period: str = None,
+    clCode: str = "HS",
+    cmdCode: str = "TOTAL",
+    flowCode: str = "M,X",
+    customsCode: str = "C00",
+    more_pars=None,
+    qtyUnitCodeFilter=None,
+    motCode=None,
+    apiKey: Union[str, None] = None,
+    cache: bool = True,
+    timeout: int = 10,
+    echo_url: bool = False,
+) -> Union[pd.DataFrame, None]:
+    """Makes a query to UN Comtrade+ API, returns a pandas DataFrame
+
+    This is DEPRECATED. Originally the UN API did not decode results
+    and this function added decoding of values using the various codebooks.
+
+    Use comtradetools.getFinalData() instead.
+
+    Args:
+        typeCode (str): Type of data to retrieve, C for commodities, S for Services
+        freqCode (str): Frequency of data, A for annual, M for monthly
+        reporterCode (str, optional): Reporter country code. Defaults to '49'.
+        partnerCode (str, optional): Partner country code. Defaults to
+                                        '024,076,132,226,624,508,620,678,626'.
+        partner2Code (str, optional): Partner2 country code. Defaults to 0 (world).
+                                        Use -1 to remove 0 (world)
+        period (str, optional): Period of data, e.g. 2018, 2018,2019, 2018,2019,2020.
+                                Defaults to None.
+        clCode (str, optional): Classification code, HS for Harmonized System,
+                                SITC for Standard International Trade Classification. Defaults to "HS".
+        cmdCode (str, optional): Commodity code, TOTAL for all commodities. Defaults to "TOTAL".
+        flowCode (str, optional): Flow code, M for imports, X for exports. Defaults to "M,X".
+        customsCode (str, optional): Customs code, C00 for all customs. Defaults to 'C00'.
+        more_pars (dict, optional): Additional parameters to pass to the API.
+        qtyUnitCodeFilter (str, optional): Quantity unit code, e.g. 1 for tonnes, 2 for kilograms.
+                                            Defaults to None.
+        motCode (str, optional): Mode of transport code, e.g. 0 for all, 1 for sea, 2 for air.
+                                            Defaults to None.
+                                            If -1 is passed removes results with motCode = 0,
+        apiKey (str,optional): API Key for umcomtrade+
+        cache (bool, optional): Cache the results. Defaults to True.
+        timeout (int, optional): Timeout for the API call. Defaults to 10.
+        echo_url (bool, optional): Echo the CODE_BOOK_url to the console. Defaults to False.
+
+    """
+    if apiKey is None:
+        apiKey = APIKEY
+    if more_pars is None:
+        more_pars = {}
+
+    base_url = f"{get_url(apiKey)}/{typeCode}/{freqCode}/{clCode}"
+    if partner2Code == -1:  # -1
+        partner2CodePar = None
+    else:
+        partner2CodePar = partner2Code
+
+    pars = {
+        "reporterCode": reporterCode,
+        "period": period,
+        "partnerCode": partnerCode,
+        "partner2CodePar": partner2CodePar,
+        "cmdCode": cmdCode,
+        "flowCode": flowCode,
+        "customsCode": customsCode,
+        "subscription-key": apiKey,
+    }
+
+    df: pd.DataFrame | None = pd.DataFrame()
+
+    # make a hash of the parameters for caching
+    hash = hashlib.md5()
+    hash.update(f"{base_url}{str(pars)}".encode("utf-8"))
+
+    if cache and not os.path.exists(CACHE_DIR):
+        Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
+
+    cache_file = f"{CACHE_DIR}/{hash.hexdigest()}.pickle"
+    if cache and os.path.exists(cache_file):
+        modification_time = os.path.getmtime(cache_file)
+        current_time = datetime.datetime.now().timestamp()
+        days_since_modification = (current_time - modification_time) / (24 * 3600)
+        if days_since_modification <= CACHE_VALID_DAYS:
+            with open(cache_file, "rb") as f:
+                df = pickle.load(f)
+                return df
+        else:
+            os.remove(cache_file)
+
+    error: bool = False
+
+    global RETRY
+    RETRY = 0
+    while RETRY < MAX_RETRIES:
+        resp = requests.get(base_url, {**pars, **more_pars}, timeout=timeout)
+        if resp.status_code == 200:
+            break
+        elif resp.status_code == 429:
+            sleep = MAX_SLEEP * (RETRY + 1)
+            RETRY += 1
+            errorInfo = json.loads(resp.content)
+            message = errorInfo.get("message", resp.content)
+            warnings.warn(
+                f"Server returned HTTP Status: {str(resp.status_code)} {message} retrying in {sleep} seconds",
+            )
+
+            time.sleep(sleep)
+        else:
+            break
+
+    if echo_url:
+        sanitize = re.sub("subscription-key=.*", "subscription-key=HIDDEN", resp.url)
+        print(sanitize)
+    if resp.status_code != 200:
+        warnings.warn(
+            f"Server returned HTTP Status: {str(resp.status_code)}",
+        )
+        errorInfo = json.loads(resp.content)
+        message = errorInfo.get("message", resp.content)
+        warnings.warn(f"Server returned error: {message}")
+        df = None
+        error = True
+    else:
+        resp_json = json.loads(resp.content)
+        error_json = resp_json.get("statusCode", None)
+        if error_json is not None:
+            error_message = resp_json.get("message", None)
+            warnings.warn(f"Server returned JSON error: {error_json}: {error_message}")
+            df = None
+            error = True
+
+    if error:
+        return None
+    else:
+        results = json.loads(resp.content)["data"]
+        if len(results) == 0:
+            warnings.warn("Query returned no results")
+            df = None
+        else:
+            df = pd.DataFrame(results)
+
+            if partnerCode is None:
+                # when partnerCode is None, the API returns partnerCode = 0 for the world
+                #  and partnerCode for each partner. We remove the world entry
+                df = df[df.partnerCode != 0]
+
+            if qtyUnitCodeFilter is not None:
+                df = df[df.qtyUnitCode == qtyUnitCodeFilter]
+
+            if customsCode is not None:
+                df = df[df.customsCode == customsCode]
+
+            if motCode is not None:
+                if motCode == -1:  # Remove motCode = 0
+                    lenBefore = len(df)
+                    df = df[df.motCode != 0]
+                    lenAfter = len(df)
+                    if lenBefore != lenAfter:
+                        warnings.warn(
+                            f"Removed {lenBefore-lenAfter} results with motCode = 0"
+                        )
+                else:  # Keep only specified motCode
+                    df = df[df.motCode == motCode]
+            else:
+                motCodes = df["motCode"].unique()
+                if len(motCodes) > 1 and 0 in motCodes:
+                    warnings.warn(
+                        "Query returned different motCodes including 0 (all), check for duplicate"
+                        " results when aggregating. Use motCode = -1 to remove motCode = 0, "
+                        "or motCode=0 to remove details"
+                    )
+
+            if len(df["isAggregate"].unique()) > 1:
+                warnings.warn(
+                    "Query returned different isAggregate values, "
+                    "check for duplicate results when aggregating"
+                )
+
+            # check for multiple partner2Codes and potentially duplicate results
+
+            if partner2Code == -1:  # Remove partner2Code = 0
+                df = df[df.partner2Code != 0]
+            elif partner2Code is not None:  # Keep only specified partner2Code
+                df = df[df.partner2Code == partner2Code]
+
+            partner2Codes = df["partner2Code"].unique()
+            if len(partner2Codes) > 1 and 0 in partner2Codes:
+                warnings.warn(
+                    "Query returned different partner2Codes including 0 (all), check for duplicate results when aggregating. "
+                    "Use partner2Code = -1 to remove partner2Code = 0, or partner2Code=0 to remove details"
+                )
+
+            customCodes = df["customsCode"].unique()
+            if len(customCodes) > 1 and "C00" in customCodes:
+                warnings.warn(
+                    "Query returned different customCodes including C00 (all), check for duplicate results when aggregating. Use customsCode = C00 to remove details"
+                )
+
+            # Convert the country codes to country names
+            if "reporterCode" in df.columns.values:
+                df.reporterDesc = df.reporterCode.map(COUNTRY_CODES)
+                # check for Nan in the result
+                # and change it to the reporterCode as string
+                df.reporterDesc = df.reporterDesc.fillna(df.reporterCode.astype(str))
+            if "partnerCode" in df.columns.values:
+                df.partnerDesc = df.partnerCode.map(COUNTRY_CODES)
+                # check for Nan in the result
+                # and change it to the partnerCode
+                df.partnerDesc = df.partnerDesc.fillna(df.partnerCode.astype(str))
+            if "partner2Code" in df.columns.values:
+                df.partner2Desc = df.partner2Code.map(COUNTRY_CODES)
+                # check for Nan in the result
+                # and change it to the partner2Code
+                df.partner2Desc = df.partner2Desc.fillna(df.partner2Code.astype(str))
+
+            # Convert flowCode
+            if "flowCode" in df.columns.values:
+                df["flowDesc"] = df.flowCode.map(FLOWS_CODES)
+            # Convert the HS codes
+            if "cmdCode" in df.columns.values:
+                df["cmdDesc"] = df.cmdCode.map(HS_CODES)
+
+            # Convert customsCode
+            if "customsCode" in df.columns.values:
+                df["customsDesc"] = df.customsCode.map(CUSTOMS_CODE)
+
+            # Convert mosCode
+            if "mosCode" in df.columns.values:
+                df["mosDesc"] = df.mosCode.map(MOS_CODES)
+
+            # Convert motCode
+            if "motCode" in df.columns.values:
+                df["motDesc"] = df.motCode.map(MOT_CODES)
+
+            # Convert qtyUnitCode
+            if "qtyUnitCode" in df.columns.values:
+                df["qtyUnitAbbr"] = df.qtyUnitCode.map(QTY_CODES)
+                df["qtyUnitDesc"] = df.qtyUnitCode.map(QTY_CODES_DESC)
+
+            # Convert altQtyUnitCode
+            if "altQtyUnitCode" in df.columns.values:
+                df["altQtyUnitAbbr"] = df.altQtyUnitCode.map(QTY_CODES)
+                df["altQtyUnitDesc"] = df.altQtyUnitCode.map(QTY_CODES_DESC)
+
+            # Generate a formated version of the value for readability here
+            if "primaryValue" in df.columns.values:
+                df["primaryValueFormated"] = df.primaryValue.map("{:,.2f}".format)
+
+            # check to cache the results
+            if cache:
+                with open(cache_file, "wb") as f:
+                    pickle.dump(df, f)
+
+            # return the DataFrame
+        return df
 
 
 # create main function
