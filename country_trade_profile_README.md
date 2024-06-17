@@ -205,6 +205,12 @@ qual a posição de Angola entre os clientes?
   anterior só com as linhas respeitantes ao país em análise quando o ranking entre
   os clientes é igual ou inferior a 25 (configurável).
 
+## Validation
+
+Compare results with:
+
+* [https://wits.worldbank.org/countrysnapshot/en/AGO](https://wits.worldbank.org/countrysnapshot/en/AGO)
+  *
 
 ## Notes
 
