@@ -1047,6 +1047,8 @@ def get_trade_flows(
     typeCode="C",
     freqCode="A",
     partners=0,  # default world
+    period_size=1,
+    retry_if_empty=True,
     symmetric_values=True,
 ):
     """
@@ -1055,15 +1057,17 @@ def get_trade_flows(
     Args:
         country_of_interest (str): country of interest, e.g. 49 for China
         years (str): year range, e.g. 2010,2011,2012
+        period_size(int): number of periods to request in each call; defaults to 1
+        retry_if_empty (bool): retry if the cached result is empty; defaults to True
         symmetric_values: if True report also exports from partner imports
-                          and imports from partners exports; default True
+                            and imports from partners exports; default True
         typeCode (str): C for commodities, S for Services, default C
         freqCode (str): A for annual and M for monthly, default A
         partners (str): 0 for the world, None for all, code or CSV, default 0
 
     Returns:
         DataFrame: DataFrame with the totals for each year and flow indexed
-                   by year and flow code"""
+                    by year and flow code"""
 
     reported_imports = getFinalData(
         APIKEY,
@@ -1074,7 +1078,8 @@ def get_trade_flows(
         partner2Code=0,
         flowCode="M",
         period=period,
-        period_size=1,
+        period_size=period_size,
+        retry_if_empty=retry_if_empty,
         motCode=0,
         customsCode="C00",
         cmdCode="TOTAL",
@@ -1090,7 +1095,8 @@ def get_trade_flows(
         partner2Code=0,
         flowCode="X",
         period=period,
-        period_size=1,
+        period_size=period_size,
+        retry_if_empty=retry_if_empty,
         clCode="HS",
         cmdCode="TOTAL",
         customsCode="C00",
@@ -1108,7 +1114,8 @@ def get_trade_flows(
             partner2Code=0,
             flowCode="M",
             period=period,
-            period_size=1,
+            period_size=period_size,
+            retry_if_empty=retry_if_empty,
             clCode="HS",
             customsCode="C00",
             cmdCode="TOTAL",
@@ -1124,7 +1131,8 @@ def get_trade_flows(
             partner2Code=0,
             flowCode="X",
             period=period,
-            period_size=1,
+            period_size=period_size,
+            retry_if_empty=retry_if_empty,
             clCode="HS",
             customsCode="C00",
             cmdCode="TOTAL",
