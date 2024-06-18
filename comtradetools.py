@@ -583,7 +583,8 @@ def getFinalData(*p, **kwp):
 
         # make a hash of the parameters for caching
         hash_updater = hashlib.md5()
-        call_string = f"{p}{str(kwp)}{use_alternative}"
+        call_string = f"{str(kwp)}{use_alternative}"
+
         logging.debug("Call %s", call_string)
         hash_updater.update(call_string.encode("utf-8"))
         cache_file = f"{CACHE_DIR}/{hash_updater.hexdigest()}.pickle"
@@ -612,7 +613,7 @@ def getFinalData(*p, **kwp):
         if not used_cache:
             RETRY = 0
             try:
-                logging.debug("Calling comtradeapicall.getFinalData with %s %s", p, kwp)
+                logging.debug("Calling comtradeapicall.getFinalData with %s", kwp)
                 temp = comtradeapicall_getFinalData(*p, **kwp)
                 if temp is None:
                     logging.debug("Call returned None")
@@ -625,7 +626,7 @@ def getFinalData(*p, **kwp):
                 )
                 time.sleep(MAX_SLEEP)
                 RETRY += 1
-                logging.debug("Retrying comtradeapicall.getFinalData with %s %s", p, kwp)
+                logging.debug("Retrying comtradeapicall.getFinalData with %s", kwp)
                 temp = comtradeapicall_getFinalData(*p, **kwp)
                 if temp is None:
                     logging.debug("Call returned None")
@@ -671,7 +672,7 @@ def comtradeapicall_getFinalData(*p, **kwp):
     if use_alternative:
         temp = comtradeapicall._getFinalData(*p, **kwp)
     else:
-        logging.debug("Calling comtradeapicall.getFinalData with %s %s", p, kwp)
+        logging.debug("Calling comtradeapicall.getFinalData with %s",  kwp)
         temp = comtradeapicall.getFinalData(*p, **kwp)
         if temp is not None:
             logging.debug("Number of records fetched: %s", temp.size)
