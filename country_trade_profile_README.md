@@ -46,7 +46,7 @@ Com base nestes dados são produzidos os seguintes ficheiros:
  * "reports/[PAIS]_2.1.3_export_top_5_partners_2003-2023.xlsx" versão simplificada do ficheiro anterior, apenas com os países que foram um dos cinco principais parceiros em qualquer um dos anos.
  * Um gráfico com a evolução das exportações com os principais países "reports/<PAÍS>_2.1.4_export_partners_2003-2023.png", por exº: [reports/Angola_2.1.4_export_partners_2003-2023.png](reports/Angola_2.1.4_export_partners_2003-2023.png)
  * Opcionalmente um gráfico que compara num determinado ano as exportações declaradas pelo país em análise
-    com as importações reportadas pelo parceiro "reports/<PAÍS>_2.1.4_export_import_symmetry_2008.xlsx", por exº: [reports/Mozambique_2.1.4_export_import_symmetry_2008.xlsx](Mozambique_2.1.4_export_import_symmetry_2008.xlsx)
+    com as importações reportadas pelo parceiro "reports/<PAÍS>_2.1.5_export_import_symmetry_2008.xlsx", por exº: [reports/Mozambique_2.1.5_export_import_symmetry_2008.xlsx](Mozambique_2.1.5_export_import_symmetry_2008.xlsx)
 
 ### 2.2 Principais produtos exportados
 
