@@ -583,7 +583,12 @@ def getFinalData(*p, **kwp):
 
         # make a hash of the parameters for caching
         hash_updater = hashlib.md5()
-        call_string = f"{str(kwp)}{use_alternative}"
+        # remove parameters that are not use in API calls
+        pars_relevant_to_caching = kwp.copy()
+        pars_relevant_to_caching.pop('retry_if_empty', None)
+        pars_relevant_to_caching.pop('remove_world', None)
+
+        call_string = f"{str(pars_relevant_to_caching)}{use_alternative}"
 
         logging.debug("Call %s", call_string)
         hash_updater.update(call_string.encode("utf-8"))
@@ -1474,7 +1479,7 @@ def excel_format_currency(
     excel_file: pd.ExcelWriter,
     sheet=None,
     columns=None,
-    format="$#,##0",
+    format_currency="$#,##0",
     width=None,
 ):
     """Format the columns in the Excel file as currency
@@ -1487,7 +1492,7 @@ def excel_format_currency(
         format (str, optional): The format to use. Defaults to '$#,##0'.
     """
     workbook = excel_file.book
-    currency_format = workbook.add_format({"num_format": format})
+    currency_format = workbook.add_format({"num_format": format_currency})
     if columns is None:
         columns = data_frame.select_dtypes(include=["number"]).columns
         # if columns is a string create a list
@@ -1512,7 +1517,7 @@ def excel_format_percent(
     excel_file: pd.ExcelWriter,
     sheet=None,
     columns=None,
-    format="0.00%",
+    format_perc="0.00%",
     width=None,
 ):
     """Format the columns in the Excel file as percentage
@@ -1525,7 +1530,7 @@ def excel_format_percent(
         format (str, optional): The format to use. Defaults to '0.00%'.
     """
     workbook = excel_file.book
-    percent_format = workbook.add_format({"num_format": format})
+    percent_format = workbook.add_format({"num_format": format_perc})
     if columns is None:
         columns = data_frame.select_dtypes(include=["number"]).columns
         # if columns is a string create a list
