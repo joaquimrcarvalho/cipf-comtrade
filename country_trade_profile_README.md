@@ -29,9 +29,13 @@ total das exportações de cada ano em análise.
 
 > Quem são os principais clientes de Angola?
 
-O valor das exportações é baseado
-nas importações reportadas pelos parceiros (é possível usar em alternativa os
-valores reportados de exportação do país em análise).
+O valor das exportações utilizado pode ser o reportado pelo
+país em análise ou pelos valores de importação reportados pelos parceiros.
+A modalidade é configurável no bloco de notas (variável `report_symmetric`)
+
+Os ficheiros produzidos com valores das exportações tem um nome terminado
+em `direct` quando são usados os valores reportados pelo país em análise e
+`reverse` quando são usados os valores reportados pelos parceiros.
 
 O bloco de notas pode fazer opcionalmente uma análise de simetria, comparando os
 valores de exportação com os valores de importação reportados pelos parceiros, para
@@ -41,12 +45,13 @@ Com base nestes dados são produzidos os seguintes ficheiros:
 
 #### Ficheiros
 
- * "reports/[PAIS]_2.1.1_top_export_partners.xlsx": dados retirados da API da UN Comtrade para os anos de 2003 a 2023 uma linha por combinação PAIS-PARCEIRO-ANO.
- * "reports/[PAIS]_2.1.2_top_export_partners_cols.xlsx": quadro invertido com os anos em linhas e os parceiros em colunas. Por cada parceiro duas colunas: valor de exportações e percentagem no total das exportações do ano.
- * "reports/[PAIS]_2.1.3_export_top_5_partners_2003-2023.xlsx" versão simplificada do ficheiro anterior, apenas com os países que foram um dos cinco principais parceiros em qualquer um dos anos.
- * Um gráfico com a evolução das exportações com os principais países "reports/<PAÍS>_2.1.4_export_partners_2003-2023.png", por exº: [reports/Angola_2.1.4_export_partners_2003-2023.png](reports/Angola_2.1.4_export_partners_2003-2023.png)
+
+ * "reports/[PAIS]_2.1.1_top_export_partners_[direct/reverse].xlsx": dados retirados da API da UN Comtrade para os anos de 2003 a 2023 uma linha por combinação PAIS-PARCEIRO-ANO.
+ * "reports/[PAIS]_2.1.2_top_export_partners_cols_[direct/reverse].xlsx": quadro invertido com os anos em linhas e os parceiros em colunas. Por cada parceiro duas colunas: valor de exportações e percentagem no total das exportações do ano.
+ * "reports/[PAIS]_2.1.3_export_top_5_partners_2003-2023_[direct/reverse].xlsx" versão simplificada do ficheiro anterior, apenas com os países que foram um dos cinco principais parceiros em qualquer um dos anos.
+ * Um gráfico com a evolução das exportações com os principais países "reports/<PAÍS>_2.1.4_export_partners_2003-2023_[direct/reverse].png".
  * Opcionalmente um gráfico que compara num determinado ano as exportações declaradas pelo país em análise
-    com as importações reportadas pelo parceiro "reports/<PAÍS>_2.1.5_export_import_symmetry_2008.xlsx", por exº: [reports/Mozambique_2.1.5_export_import_symmetry_2008.xlsx](Mozambique_2.1.5_export_import_symmetry_2008.xlsx)
+    com as importações reportadas pelo parceiro "reports/<PAÍS>_2.1.5_export_import_symmetry_2008.xlsx".
 
 ### 2.2 Principais produtos exportados
 
@@ -56,8 +61,8 @@ mais exportados em qualquer um dos anos do período em análise.
 > Quais as principais exportações de Angola?
 
 O valor das exportações é baseado nas importações reportadas
-pelos parceiros (é possível usar em alternativa os valores reportados
-de exportação do país em análise)。
+pelos parceiros (modo `reverse`) (é possível usar em alternativa os valores reportados
+de exportação do país em análise: modo `direct`)。
 
 Os valores reportados são agregados por HS-AG6 (nível
 de detalhe de 6 dígitos, como nas fichas do Banco Mundial, configurável).
@@ -72,7 +77,7 @@ análise.
 
 #### Ficheiros
 
-* "reports/[PAIS]_2.2_exports_products_HS-AG6-2003-2023.xlsx", p. exº: [reports/Angola_2.2_exports_products_HS-AG6-2003-2023.xlsx](reports/Angola_2.2_exports_products_HS-AG6-2003-2023.xlsx)
+* "reports/[PAIS]_2.2_exports_products_HS-AG6-2003-2023_[direct/reverse].xlsx", p. exº: [reports/Angola_2.2_exports_products_HS-AG6-2003-2023.xlsx](reports/Angola_2.2_exports_products_HS-AG6-2003-2023.xlsx)
 
 ### 2.3 Principais produtos exportados e principais clientes
 
@@ -80,15 +85,17 @@ Principais *destinos/clients* dos principais *produtos*.
 
 > Quem compra o petróleo de Angola?
 
-Por cada ano, são identificados os cinco principais destinos dos produtos mais exportados. Para cada produto, é indicado o valor total de exportações para os cinco (configurável) principais compradores e a percentagem de cada parceiro no total das exportações desse produto desse ano. O valor das exportações é estimado a partir das
-importações dos países parceiros do país em análise.
+Por cada ano, são identificados os cinco principais destinos dos produtos mais exportados.
+
+Para cada produto, é indicado o valor total de exportações para os cinco (configurável) principais compradores
+e a percentagem de cada parceiro no total das exportações desse produto desse ano.
 
 Estes dados permitem analisar a evolução
 dos destinos dos principais produtos exportados.
 
 #### Ficheiros
 
-* [PAIS]_2.3_exports_products_partners_HS-AG6-2003-2023.xlsx
+* [PAIS]_2.3_exports_products_partners_HS-AG6-2003-2023_[direct/reverse].xlsx
 
 ### 2.4 Principais clientes de exportações e principais produtos exportados
 
@@ -104,7 +111,7 @@ clientes e a respectiva diversificação ou concentração
 > O que compra a China a Angola (além de petróleo)?
 
 #### Ficheiros
-* [PAÍS]_2.4_exports_partners_products_HS-AG6-2003-2023.xlsx
+* [PAÍS]_2.4_exports_partners_products_HS-AG6-2003-2023_[direct/reverse].xlsx
 
 ### 2.5 Fornecedores alternativos dos produtos exportados
 
