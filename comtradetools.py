@@ -1146,7 +1146,7 @@ def get_trade_flows(
         )
 
     # Agregate by year and flow
-    if reported_exports is not None:
+    if reported_exports is not None and not reported_exports.empty:
         reported_exports = (
             reported_exports.groupby(["period", "reporterCode"])["primaryValue"]
             .sum()
@@ -1160,7 +1160,7 @@ def get_trade_flows(
         reported_exports = pd.DataFrame(
             columns=["period", "countryCode", "primaryValue", "flowCode", "flowDesc"]
         )
-    if reported_imports is not None:
+    if reported_imports is not None and not reported_imports.empty:
         reported_imports = (
             reported_imports.groupby(["period", "reporterCode"])["primaryValue"]
             .sum()
@@ -1229,10 +1229,18 @@ def get_trade_flows(
     trade_balance = pd.pivot_table(
         global_trade, index=["period"], columns="flowCode", values="primaryValue"
     ).fillna(0)
-    trade_balance["trade_balance (X-M)"] = trade_balance["X"] - trade_balance["M"]
-    trade_balance["trade_balance (X<M-M)"] = trade_balance["X<M"] - trade_balance["M"]
-    trade_balance["trade_volume (X+M)"] = trade_balance["X"] + trade_balance["M"]
-    trade_balance["trade_volume (X<M+M)"] = trade_balance["X<M"] + trade_balance["M"]
+    if "X" in trade_balance.columns and "M" in trade_balance.columns:
+        trade_balance["trade_balance (X-M)"] = trade_balance["X"] - trade_balance["M"]
+    if "X<M" in trade_balance.columns and "M" in trade_balance.columns:
+        trade_balance["trade_balance (X<M-M)"] = trade_balance["X<M"] - trade_balance["M"]
+    if "X<M" in trade_balance.columns and "M<X" in trade_balance.columns:
+        trade_balance["trade_balance (X<M-M<X)"] = trade_balance["X<M"] - trade_balance["M<X"]
+    if "X" in trade_balance.columns and "M" in trade_balance.columns:
+        trade_balance["trade_volume (X+M)"] = trade_balance["X"] + trade_balance["M"]
+    if "X<M" in trade_balance.columns and "M" in trade_balance.columns:
+        trade_balance["trade_volume (X<M+M)"] = trade_balance["X<M"] + trade_balance["M"]
+    if "X<M" in trade_balance.columns and "M<X" in trade_balance.columns:
+        trade_balance["trade_volume (X<M+M<X)"] = trade_balance["X<M"] + trade_balance["M<X"]
     trade_balance.reset_index()
     return trade_balance
     # .reindex(columns=['countryCode','countryDesc','exports','imports',
