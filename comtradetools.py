@@ -135,7 +135,7 @@ m49_plp_list = ",".join(map(str, m49_plp))
 
 # HS Codes are not included in the codebook
 HS_CODES_FILE = "support/harmonized-system.csv"
-HS_CODES_URL = "https://github.com/datasets/harmonized-system/blob/master/data/harmonized-system.csv?raw=true"
+HS_CODES_URL = "https://github.com/datasets/harmonized-system/blob/main/data/harmonized-system.csv?raw=true"
 
 HS_CODES_DF = None
 HS_CODES_L2_DF = None
