@@ -8,3 +8,5 @@ ipywidgets
 jinja2
 ratelimit
 comtradeapicall
+itables
+

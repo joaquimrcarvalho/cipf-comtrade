@@ -9,10 +9,10 @@ bloco de notas `cn_plp_import_export.ipynb`.
 * **[reports/cn_plp_trocas_2003-202X.xlsx](reports/cn_plp_trocas_2003-202X.xlsx)**
   * Tabela com os valores das trocas comerciais entre a China e os Países de Língua Portuguesa.
   * Por cada combinação ano/país, inclui o valor das exportações, importações, volume de trocas e saldo comercial.
-  * Reproduz para todos os anos dispníveis, os quadros publicados pelo Forum Macau desde 2016 e inclui o saldo
+  * Reproduz para todos os anos disponíveis, os quadros publicados pelo Forum Macau desde 2016 e inclui o saldo
     comercial que os quadros do Forum não incluem.
-  * Este quadro serve de validação da conformidade dos dados obtidos através da API Comtrade com os quadro publicados pelo
-    Forum Macau.
+  * Este quadro serve de validação da conformidade dos dados obtidos através da API Comtrade
+    com os quadro publicados pelo Forum Macau.
 * **[reports/quadros_forum_2003-2023.xlsx](reports/quadros_forum_2003-2023.xlsx)** mesmos dados em formato para impressão ao estilo do Forum Macau
 * **[reports/quadros_forum_10_2003-2023.xlsx](reports/quadros_forum_10_2003-2023.xlsx)** mesmos dados em formato para impressão com a undidade 10 milhões USD como usado pelo Forum Macau
 * **[reports/quadros_forum_10mil_2003-2023.xlsx](reports/quadros_forum_10mil_2003-2023.xlsx)** mesmos dados em formato para impressão com 10 mil milhões USD como unidade.
