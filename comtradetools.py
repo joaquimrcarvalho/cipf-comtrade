@@ -654,7 +654,7 @@ def getFinalData(*p, **kwp):
             elif cache and temp is not None:  # save in cache
                 with open(cache_file, "wb") as f:
                     pickle.dump(temp, f)
-        if temp is not None and temp.size > 0:
+        if temp is not None and temp.size > 0 and not temp.empty:
             df = pd.concat([df, temp], ignore_index=True)
 
     # we do some checks on the results to avoid common problems
