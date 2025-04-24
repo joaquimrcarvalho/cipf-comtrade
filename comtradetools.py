@@ -528,6 +528,9 @@ def getFinalData(*p, **kwp):
     """
     global RETRY
 
+    # Log the function parameters to the DEBUG log
+    logging.debug("Function parameters: %s", kwp)
+    
     if len(p) == 0:
         api_key = get_api_key()
         p = [api_key]
@@ -596,7 +599,7 @@ def getFinalData(*p, **kwp):
         used_cache = False
 
         if cache and os.path.exists(cache_file):
-
+            logging.debug("Getting data from cache for period %s", subperiod)
             modification_time = os.path.getmtime(cache_file)
             current_time = datetime.datetime.now().timestamp()
             days_since_modification = (current_time - modification_time) / (24 * 3600)
@@ -654,7 +657,10 @@ def getFinalData(*p, **kwp):
             elif cache and temp is not None:  # save in cache
                 with open(cache_file, "wb") as f:
                     pickle.dump(temp, f)
-        if temp is not None and temp.size > 0 and not temp.empty:
+        temp_na = temp.isna().all().all()
+        if temp_na:
+            logging.warning("All values in the temp DataFrame are NA")
+        if temp is not None and temp.size > 0 and not temp.empty and not temp_na:
             df = pd.concat([df, temp], ignore_index=True)
 
     # we do some checks on the results to avoid common problems
