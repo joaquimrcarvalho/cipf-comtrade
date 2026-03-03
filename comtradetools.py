@@ -59,7 +59,7 @@ RETRY = 0  # number of retries for a failed call
 MAX_SLEEP = 6  # maximum number of seconds to sleep between retries
 
 
-CACHE_VALID_DAYS = 60  # number of days to keep cached data
+CACHE_VALID_DAYS = 90  # number of days to use cached data
 
 # we use a copy of the codebook in git because the original cannot be downloaded
 #   without human action. The codebook is used to decode the results of the API call
