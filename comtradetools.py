@@ -578,7 +578,7 @@ def getFinalData(*p, **kwp):
 
     subperiods = split_period(period, period_size)
 
-    df = pd.DataFrame()
+    dfs = []
     for subperiod in subperiods:
         kwp["period"] = subperiod
 
@@ -661,7 +661,15 @@ def getFinalData(*p, **kwp):
         if temp_na:
             logging.warning("All values in the temp DataFrame are NA")
         if temp is not None and temp.size > 0 and not temp.empty and not temp_na:
-            df = pd.concat([df, temp], ignore_index=True)
+            # Drop empty or all-NA columns from temp to avoid FutureWarning
+            temp = temp.dropna(axis=1, how='all')
+            if not temp.empty:
+                dfs.append(temp)
+
+    if dfs:
+        df = pd.concat(dfs, ignore_index=True)
+    else:
+        df = pd.DataFrame()
 
     # we do some checks on the results to avoid common problems
     partnerCode = kwp.get("partnerCode", None)
