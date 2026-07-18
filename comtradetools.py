@@ -1237,7 +1237,8 @@ def get_trade_flows(
                 ]
             )
 
-    global_trade = pd.concat([global_trade, exports_from_imports, imports_from_exports])
+    if symmetric_values:
+        global_trade = pd.concat([global_trade, exports_from_imports, imports_from_exports])
 
     trade_balance = pd.pivot_table(
         global_trade, index=["period"], columns="flowCode", values="primaryValue"
