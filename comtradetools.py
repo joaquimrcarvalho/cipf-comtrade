@@ -627,9 +627,9 @@ def getFinalData(*p, **kwp):
                     logging.debug("Call returned None")
                 else:
                     logging.debug("Number of record in temp: %s", temp.size)
-            except Exception as e:
-                logging.error(
-                    "Error in getFinalData, retrying in %s seconds: %s", MAX_SLEEP, e
+            except Exception:
+                logging.exception(
+                    "Error in getFinalData, retrying in %s seconds", MAX_SLEEP
                 )
                 time.sleep(MAX_SLEEP)
                 RETRY += 1
