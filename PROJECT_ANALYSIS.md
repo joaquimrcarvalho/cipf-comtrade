@@ -122,6 +122,8 @@ cipf-comtrade/
 ├── *.ipynb                   # Analysis notebooks (10)
 ├── *_README.md/pdf           # Notebook documentation
 ├── support/                  # Reference data & codebooks
+├── tests/                    # pytest suite for comtradetools.py (offline, mocked API)
+├── conftest.py               # pytest bootstrap: sys.path + hermetic init fixture
 ├── cache/                    # Cached API responses (gitignored, ~2,476 pickles)
 ├── reports/                  # Generated reports (~470 files)
 ├── downloads/                # Downloaded files

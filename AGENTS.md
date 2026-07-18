@@ -7,7 +7,8 @@ between **China and the Portuguese-speaking countries (PLPs)** and Macau's role 
 Author: Joaquim Carvalho, Universidade Politécnica de Macau.
 
 The deliverables are **notebooks** and their generated outputs (Excel tables + PNG charts in
-`reports/`). There is no test suite and no package build.
+`reports/`). Tests live in `tests/` (pytest, no network — the API layer is mocked); there is
+no package build.
 
 ## Layout
 
@@ -28,6 +29,8 @@ The deliverables are **notebooks** and their generated outputs (Excel tables + P
 
 - Python **3.10** (`.python-version`), dependencies in `requirements.txt`; virtualenv in `venv/`
   (`source venv/bin/activate`).
+- Run tests with `venv/bin/python -m pytest tests/ -q` (31 tests, all offline; `conftest.py`
+  at repo root puts the repo on `sys.path` and provides the hermetic `ctt` init fixture).
 - A UN Comtrade API key goes in `config.ini` (`[comtrade] key = ...`). Without it the public
   preview endpoint caps results at **500 rows**, which can silently produce **wrong aggregates**.
 - First-time setup is done via notebook `0-comtrade-setup-first.ipynb`.
