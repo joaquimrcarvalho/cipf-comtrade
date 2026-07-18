@@ -149,8 +149,6 @@ PERC_CMD_IN_PARTNER = "perc_cmd_for_partner"
 # label for the percentage of a country in the total trade of a commodity
 PERC_PARTNER_IN_CMD = "perc_partner_for_cmd"
 
-INIT_DONE = False
-
 INIT_DONE = False  # flag to avoid multiple initialization
 
 
@@ -212,7 +210,7 @@ def init(
     """Set the API Key and codebooks for the module
 
     Args:
-        apy_key (Union[str,None], optional): API Key. Defaults to None.
+        api_key (Union[str,None], optional): API Key. Defaults to None.
         code_book_url (Union[None,str], optional): URL to download codebook. Defaults to None.
         force_init (bool, optional): Force initialization. Defaults to False.
     """
@@ -383,28 +381,30 @@ def init(
     # INIT_DONE = True
 
 
-def encode_country(country: str) -> str:
+def encode_country(country: str) -> Union[str, int]:
     """Encode country name to country code
 
     Args:
         country (str): Country name
 
     Returns:
-        str: Country code
+        Union[str, int]: M49 country code (int), or the input
+            unchanged if the name is unknown
     """
     global COUNTRY_CODES_REVERSE
 
     return COUNTRY_CODES_REVERSE.get(country, country)
 
 
-def decode_country(country_code: str) -> str:
+def decode_country(country_code: Union[str, int]) -> Union[str, int]:
     """Decode country code to country name
 
     Args:
-        country_code (str): Country code
+        country_code (Union[str, int]): M49 country code (codes are ints)
 
     Returns:
-        str: Country name
+        Union[str, int]: Country name, or the input unchanged
+            if the code is unknown
     """
     global COUNTRY_CODES
     return COUNTRY_CODES.get(country_code, country_code)
@@ -627,10 +627,9 @@ def getFinalData(*p, **kwp):
                     logging.debug("Call returned None")
                 else:
                     logging.debug("Number of record in temp: %s", temp.size)
-            except Exception as e:
-                sleep = MAX_SLEEP * (RETRY + 1)
-                logging.error(
-                    f"Error in getFinalData, retrying in {MAX_SLEEP} seconds", e
+            except Exception:
+                logging.exception(
+                    "Error in getFinalData, retrying in %s seconds", MAX_SLEEP
                 )
                 time.sleep(MAX_SLEEP)
                 RETRY += 1
@@ -789,7 +788,7 @@ def top_commodities(
 
     DEPRECATED
     Args:
-        reporterCode (str): reporter country code, e.g. 49 for China
+        reporterCode (str): reporter country code, e.g. 156 for China
         partnerCode (str): partner country code, 0 for the world, None for all, code or CSV
         partner2Code (str): partner2 country code, 0 for world,
                             -1 all but World, None for all, default 0
@@ -902,7 +901,7 @@ def get_trade_flows_old(
     Get the Import/Export totals for a given country and year range
 
     Args:
-        country_of_interest (str): country of interest, e.g. 49 for China
+        country_of_interest (str): country of interest, e.g. 156 for China
         years (str): year range, e.g. 2010,2011,2012
         symmetric_values: if True report also exports from partner imports
                           and imports from partners exports; default True
@@ -1074,7 +1073,7 @@ def get_trade_flows(
     Get the Import/Export totals for a given country and year range
 
     Args:
-        country_of_interest (str): country of interest, e.g. 49 for China
+        country_of_interest (str): country of interest, e.g. 156 for China
         years (str): year range, e.g. 2010,2011,2012
         period_size(int): number of periods to request in each call; defaults to 1
         retry_if_empty (bool): retry if the cached result is empty; defaults to True
@@ -1238,7 +1237,8 @@ def get_trade_flows(
                 ]
             )
 
-    global_trade = pd.concat([global_trade, exports_from_imports, imports_from_exports])
+    if symmetric_values:
+        global_trade = pd.concat([global_trade, exports_from_imports, imports_from_exports])
 
     trade_balance = pd.pivot_table(
         global_trade, index=["period"], columns="flowCode", values="primaryValue"
@@ -1284,7 +1284,7 @@ def top_partners(
 
         DEPRECATED
     Args:
-        reporterCode (str): reporter country code, e.g. 49 for China, or a CSV list
+        reporterCode (str): reporter country code, e.g. 156 for China, or a CSV list
         years (str): year range, e.g. 2010,2011,2012
         cmdCode (str): HS code, e.g. TOTAL for all commodities, or AG2,
                         AG4 or specific code or list of
@@ -1610,39 +1610,12 @@ def checkAggregateValues(
     return df
 
 
-# create main function
-if __name__ == "__main__":
-    print("contrade.py initializing...")
-    Path("support").mkdir(parents=True, exist_ok=True)
-    Path("reports").mkdir(parents=True, exist_ok=True)
-    fname = "config.ini"
-    content = """
-    # Config file
-    [comtrade]
-    # Add API Key. DO NOT SHARE
-    key =
-    """
-    if not os.path.isfile(fname):
-        print("Creating file config.ini")
-        with open(fname, "w", encoding="utf-8") as f:
-            f.write(content)
-        print("Add API Key. Get one at https://comtradedeveloper.un.org/ ")
-    if os.path.isfile(fname):
-        config = configparser.ConfigParser()
-        config.read("config.ini")
-        # get API Key or set to None
-        APIKEY = config["comtrade"].get("key", None)
-    init(APIKEY, force_init=True)
-    PERIOD_SECONDS = 7
-    print("contrade.py initialized")
-
-
 @sleep_and_retry
 @limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)
 def get_data(
     typeCode: str,
     freqCode: str,
-    reporterCode: str = "49",
+    reporterCode: str = "156",
     partnerCode: str = "024,076,132,226,624,508,620,678,626",
     partner2Code: str = 0,
     period: str = None,
@@ -1668,7 +1641,7 @@ def get_data(
     Args:
         typeCode (str): Type of data to retrieve, C for commodities, S for Services
         freqCode (str): Frequency of data, A for annual, M for monthly
-        reporterCode (str, optional): Reporter country code. Defaults to '49'.
+        reporterCode (str, optional): Reporter country code. Defaults to '156' (China).
         partnerCode (str, optional): Partner country code. Defaults to
                                         '024,076,132,226,624,508,620,678,626'.
         partner2Code (str, optional): Partner2 country code. Defaults to 0 (world).
@@ -1905,7 +1878,7 @@ def get_data(
 
 # create main function
 if __name__ == "__main__":
-    print("contrade.py initializing...")
+    print("comtrade.py initializing...")
     Path("support").mkdir(parents=True, exist_ok=True)
     Path("reports").mkdir(parents=True, exist_ok=True)
     fname = "config.ini"
@@ -1926,5 +1899,4 @@ if __name__ == "__main__":
         # get API Key or set to None
         APIKEY = config["comtrade"].get("key", None)
     init(APIKEY, force_init=True)
-    PERIOD_SECONDS = 7
-    print("contrade.py initialized")
+    print("comtrade.py initialized")
