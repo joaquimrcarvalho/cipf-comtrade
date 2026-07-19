@@ -10,7 +10,6 @@ export default {
     {name: "Trocas China–PLP", path: "/china-plp"},
     {name: "Macau (RAEM)–PLP", path: "/macau"},
     {name: "Hong Kong (RAEHK)–PLP", path: "/hong-kong"},
-    {name: "Taiwan (Prov. China)–PLP", path: "/taiwan"},
     {name: "Perfis por país", path: "/perfis"},
     {name: "Metodologia e fontes", path: "/metodologia"},
     {name: "Dados abertos", path: "/dados"}

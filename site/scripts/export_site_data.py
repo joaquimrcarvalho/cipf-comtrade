@@ -34,9 +34,8 @@ REPORTERS = {
     "cn": (156, "China"),
     "mo": (446, "Macau (RAEM)"),
     "hk": (344, "Hong Kong (RAEHK)"),
-    # Taiwan (Prov. China) is reported by Comtrade as "Other Asia, nes" (code 490):
-    # https://uncomtrade.org/docs/taiwan-province-of-china-trade-data/
-    "tw": (490, "Taiwan (Prov. China)"),
+    # Taiwan (Prov. China) is deliberately excluded from the public site
+    # (editorial decision, 2026-07-19); data remains in the notebooks/reports.
 }
 
 # Portuguese short names for the site UI (Comtrade names are English).
@@ -56,7 +55,6 @@ SOURCE_NOTEBOOKS = {
     "cn": "cn_plp_import_export.ipynb",
     "mo": "mo_plp_import_export.ipynb",
     "hk": "hk_plp_import_export.ipynb",
-    "tw": "tw_plp_import_export.ipynb",
 }
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")

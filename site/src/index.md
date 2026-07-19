@@ -67,7 +67,6 @@ display(Plot.plot({
 | [Trocas China–PLP](/china-plp)      | ✅ disponível | Exportações, importações, volume de trocas e saldo, 2003–${latestYear}; base direta e espelho |
 | [Macau (RAEM)–PLP](/macau)          | 🚧 fase 2      | Trocas de Macau (RAEM) com os PLP e o papel de plataforma                                          |
 | [Hong Kong (RAEHK)–PLP](/hong-kong) | 🚧 fase 2      | Trocas de Hong Kong (RAEHK) com os PLP                                                             |
-| [Taiwan (Prov. China)–PLP](/taiwan) | 🚧 fase 2      | Trocas de Taiwan (Prov. China) com os PLP                                                          |
 | [Perfis por país](/perfis)          | 🚧 fase 3      | Balança, principais parceiros e produtos (HS-AG6) de cada PLP                                     |
 | [Metodologia e fontes](/metodologia) | 🚧 fase 4      | Fontes, direto vs. espelho, validação, como citar                                                |
 | [Dados abertos](/dados)              | 🚧 fase 4      | Descarregamento de todos os conjuntos de dados                                                     |
