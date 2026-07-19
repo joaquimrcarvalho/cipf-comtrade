@@ -1,0 +1,4 @@
+node_modules/
+dist/
+src/.observablehq/cache/
+.DS_Store

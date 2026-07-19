@@ -1,0 +1,43 @@
+name: Deploy site
+
+# Build the Observable Framework project in site/ and publish to GitHub Pages.
+# Data snapshots under site/src/data are committed (see docs/SITE_SPECS.md §4.2),
+# so no UN Comtrade API key is needed at build time.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,18 @@
+{
+  "name": "cipf-comtrade-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "China-PLP trade observatory — static site (Observable Framework) for the cipf-comtrade project",
+  "scripts": {
+    "dev": "observable preview",
+    "build": "observable build",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@observablehq/framework": "^1.13.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
