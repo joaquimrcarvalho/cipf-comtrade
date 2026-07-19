@@ -306,7 +306,7 @@ class TestGetTradeFlows:
         assert "X<M" not in tb.columns
 
     def test_missing_exports_skips_derived_columns(self, monkeypatch):
-        calls = trade_flows_fake(monkeypatch)
+        trade_flows_fake(monkeypatch)
 
         original = comtradetools.getFinalData
 

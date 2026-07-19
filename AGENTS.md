@@ -95,8 +95,8 @@ notebooks ──► getFinalData() ────┘        (cache + period split)
 ## Conventions
 
 - Code, identifiers, and comments in English; user-facing docs/reports largely in Portuguese.
-- Style: PEP 8, `max-line-length = 100` (`.flake8`), though `comtradetools.py` disables E501.
-  Docstrings use Google style (`Args:` / `Returns:`).
+- Style: PEP 8, `max-line-length = 100` (`.flake8`; E501 is waived for `comtradetools.py`
+  via `per-file-ignores`). Docstrings use Google style (`Args:` / `Returns:`).
 - The module relies on module-level globals for config (`APIKEY`, reference DataFrames);
   preserve this pattern rather than refactoring to classes — notebooks depend on it.
 - Notebooks are executed interactively; outputs are committed. Keep notebooks runnable

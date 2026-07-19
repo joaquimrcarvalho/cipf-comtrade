@@ -15,7 +15,7 @@ UN Comtrade API.
 # pylint: disable=W0603
 # disable Pylint error E501 (line too long)
 # pylint: disable=E501
-# flake8: noqa: E501
+# (E501 disabled file-wide via per-file-ignores in .flake8)
 
 
 import logging
@@ -280,7 +280,6 @@ def init(
         DATA_ITEM_DF = pd.read_csv(DATA_ITEM_CSV)
 
     global PARTNER_DF
-    global PARTNER_CSV
     global COUNTRY_CODES
     global PARTNER_CODES
 
@@ -295,7 +294,6 @@ def init(
     COUNTRY_CODES = PARTNER_CODES
 
     global REPORTER_DF
-    global REPORTER_CSV
     global REPORTER_CODES
 
     if not os.path.isfile(REPORTER_CSV) or force_init:
@@ -391,8 +389,6 @@ def encode_country(country: str) -> Union[str, int]:
         Union[str, int]: M49 country code (int), or the input
             unchanged if the name is unknown
     """
-    global COUNTRY_CODES_REVERSE
-
     return COUNTRY_CODES_REVERSE.get(country, country)
 
 
@@ -406,7 +402,6 @@ def decode_country(country_code: Union[str, int]) -> Union[str, int]:
         Union[str, int]: Country name, or the input unchanged
             if the code is unknown
     """
-    global COUNTRY_CODES
     return COUNTRY_CODES.get(country_code, country_code)
 
 
@@ -446,7 +441,7 @@ def split_period(period: str, max_periods=12):
 
     period_list = period.split(",")
     period_list = [
-        ",".join(period_list[i : i + max_periods])
+        ",".join(period_list[i: i + max_periods])
         for i in range(0, len(period_list), max_periods)
     ]
     return period_list
@@ -530,7 +525,7 @@ def getFinalData(*p, **kwp):
 
     # Log the function parameters to the DEBUG log
     logging.debug("Function parameters: %s", kwp)
-    
+
     if len(p) == 0:
         api_key = get_api_key()
         p = [api_key]
@@ -690,7 +685,7 @@ def comtradeapicall_getFinalData(*p, **kwp):
     if use_alternative:
         temp = comtradeapicall._getFinalData(*p, **kwp)
     else:
-        logging.debug("Calling comtradeapicall.getFinalData with %s",  kwp)
+        logging.debug("Calling comtradeapicall.getFinalData with %s", kwp)
         temp = comtradeapicall.getFinalData(*p, **kwp)
         if temp is not None:
             logging.debug("Number of records fetched: %s", temp.size)
@@ -1087,6 +1082,7 @@ def get_trade_flows(
         DataFrame: DataFrame with the totals for each year and flow indexed
                     by year and flow code"""
 
+    logging.info("Fetching reported imports")
     reported_imports = getFinalData(
         APIKEY,
         typeCode=typeCode,
@@ -1104,6 +1100,8 @@ def get_trade_flows(
         clCode="HS",
         includeDesc=True,
     )
+
+    logging.info("Fetching reported exports")
     reported_exports = getFinalData(
         APIKEY,
         typeCode=typeCode,
@@ -1122,6 +1120,7 @@ def get_trade_flows(
         includeDesc=True,
     )
     if symmetric_values:
+        logging.info("Fetching exports from partners imports")
 
         exports_from_imports = getFinalData(
             APIKEY,
@@ -1140,6 +1139,7 @@ def get_trade_flows(
             motCode=0,
             includeDesc=True,
         )
+        logging.info("Fetching imports from partners exports")
         imports_from_exports = getFinalData(
             APIKEY,
             typeCode=typeCode,
@@ -1159,6 +1159,7 @@ def get_trade_flows(
         )
 
     # Agregate by year and flow
+    logging.info("Aggregating reported exports")
     if reported_exports is not None and not reported_exports.empty:
         reported_exports = (
             reported_exports.groupby(["period", "reporterCode"])["primaryValue"]
@@ -1173,6 +1174,7 @@ def get_trade_flows(
         reported_exports = pd.DataFrame(
             columns=["period", "countryCode", "primaryValue", "flowCode", "flowDesc"]
         )
+    logging.info("Aggregating reported imports")
     if reported_imports is not None and not reported_imports.empty:
         reported_imports = (
             reported_imports.groupby(["period", "reporterCode"])["primaryValue"]
@@ -1191,6 +1193,7 @@ def get_trade_flows(
     global_trade = pd.concat([reported_imports, reported_exports])
 
     if symmetric_values:
+        logging.info("Aggregating symmetric exports")
         if exports_from_imports is not None:
             exports_from_imports = (
                 exports_from_imports.groupby(["period", "partnerCode"])["primaryValue"]
@@ -1215,6 +1218,7 @@ def get_trade_flows(
             )
 
         if imports_from_exports is not None:
+            logging.info("Aggregating symmetric imports")
             imports_from_exports = (
                 imports_from_exports.groupby(["period", "partnerCode"])["primaryValue"]
                 .sum()

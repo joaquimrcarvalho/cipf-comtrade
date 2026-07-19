@@ -1,2 +1,5 @@
 [flake8]
 max-line-length = 100
+per-file-ignores =
+    # long lines are tolerated in the legacy module
+    comtradetools.py:E501
