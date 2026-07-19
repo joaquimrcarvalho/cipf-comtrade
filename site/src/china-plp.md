@@ -70,7 +70,7 @@ display(Plot.plot({
   y: {type: isLog ? "log" : "linear", label: yLabel, tickFormat: usdAxis},
   x: {label: null, tickFormat: "d"},
   marks: [
-    Plot.ruleY([0]),
+    ...(isLog ? [] : [Plot.ruleY([0])]),
     Plot.areaY(totals, {x: "year", y: "value", fillOpacity: 0.12}),
     Plot.line(totals, {x: "year", y: "value", strokeWidth: 2, tip: {
       format: {x: "d", y: (v) => formatUSD(v)}
@@ -83,28 +83,43 @@ display(Plot.plot({
 ### Por país
 
 ```js
-display(Plot.plot({
-  height: 620,
-  marginLeft: 75,
-  grid: true,
-  y: {type: isLog ? "log" : "linear", label: yLabel, tickFormat: usdAxis},
-  x: {label: null, tickFormat: "d"},
-  fy: {label: null},
-  marks: [
-    Plot.ruleY([0]),
-    Plot.line(data, {
-      x: "year", y: measure, fy: "partner",
-      stroke: "#2a6f97", strokeWidth: 1.5,
-      tip: {format: {x: "d", y: (v) => formatUSD(v), fy: true}}
-    }),
-    Plot.dot(data, {x: "year", y: measure, fy: "partner", r: 1.5, fill: "#2a6f97"})
-  ]
-}));
+// Agrupar por ordem de grandeza, como no bloco de notas cn_plp_import_export:
+// top 2, seguintes 3, restantes — cada grupo com a sua escala de valores.
+const byMax = d3
+  .rollups(data, (v) => d3.max(v, (d) => Math.abs(d[measure])), (d) => d.partner)
+  .map(([partner, maxAbs]) => ({partner, maxAbs}))
+  .sort((a, b) => d3.descending(a.maxAbs, b.maxAbs));
+const groups = [byMax.slice(0, 2), byMax.slice(2, 5), byMax.slice(5)].filter((g) => g.length > 0);
+const groupTitles = ["Maiores volumes", "Volumes intermédios", "Menores volumes"];
+const colorDomain = Array.from(new Set(flows.map((d) => d.partner)));
+const colorOf = new Map(colorDomain.map((p, i) => [p, d3.schemeObservable10[i]]));
+```
+
+```js
+display(html`${groups.map((g, i) => {
+  const members = new Set(g.map((d) => d.partner));
+  const gdata = data.filter((d) => members.has(d.partner));
+  const gmembers = g.map((d) => d.partner);
+  const chart = Plot.plot({
+    marginLeft: 75,
+    grid: true,
+    y: {type: isLog ? "log" : "linear", label: yLabel, tickFormat: usdAxis},
+    x: {label: null, tickFormat: "d"},
+    color: {domain: gmembers, range: gmembers.map((p) => colorOf.get(p)), legend: true},
+    marks: [
+      ...(isLog ? [] : [Plot.ruleY([0])]),
+      Plot.line(gdata, {x: "year", y: measure, stroke: "partner", strokeWidth: 1.8,
+        tip: {format: {x: "d", y: (v) => formatUSD(v)}}}),
+      Plot.dot(gdata, {x: "year", y: measure, fill: "partner", r: 1.8})
+    ]
+  });
+  return html`<h4 style="margin-top: 1.5rem;">${groupTitles[i]} · ${g.map((d) => d.partner).join(", ")}</h4>${chart}`;
+})}`);
 ```
 
 <div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
   ${L.fonte} · base: ${basis === "direct" ? "valores reportados pela China" : "valores reportados pelos parceiros (espelho)"} ·
-  escalas dos painéis partilhadas para comparabilidade.
+  gráficos agrupados por ordem de grandeza (como no bloco de notas), cada grupo com a sua escala.
 </div>
 
 ## Tabela

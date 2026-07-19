@@ -226,6 +226,10 @@ extraction slow and fragile. Therefore:
 - Chart types: line (evolution), stacked area/bar (composition by country/product),
   bar ranking (top-N per year), slope/heatmap optional for product×partner (D8),
   KPI `big number` cards on the landing page.
+- Per-country views are **grouped into volume tiers** (top 2 / next 3 / rest, by max
+  value), each tier rendered as its own chart with its own y-scale — mirroring the
+  notebooks' multi-panel figures; a single shared-scale view compresses low-volume
+  countries and must not be used.
 - Interactions via `Inputs`: country multi-select, year range, flow selector,
   direct/mirror toggle, log-scale toggle for long-tailed values.
 
