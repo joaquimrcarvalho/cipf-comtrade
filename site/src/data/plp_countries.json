@@ -1,0 +1,47 @@
+[
+  {
+    "code": 24,
+    "name_pt": "Angola",
+    "name_en": "Angola"
+  },
+  {
+    "code": 76,
+    "name_pt": "Brasil",
+    "name_en": "Brazil"
+  },
+  {
+    "code": 132,
+    "name_pt": "Cabo Verde",
+    "name_en": "Cabo Verde"
+  },
+  {
+    "code": 624,
+    "name_pt": "Guiné-Bissau",
+    "name_en": "Guinea-Bissau"
+  },
+  {
+    "code": 226,
+    "name_pt": "Guiné Equatorial",
+    "name_en": "Equatorial Guinea"
+  },
+  {
+    "code": 508,
+    "name_pt": "Moçambique",
+    "name_en": "Mozambique"
+  },
+  {
+    "code": 620,
+    "name_pt": "Portugal",
+    "name_en": "Portugal"
+  },
+  {
+    "code": 678,
+    "name_pt": "São Tomé e Príncipe",
+    "name_en": "Sao Tome and Principe"
+  },
+  {
+    "code": 626,
+    "name_pt": "Timor-Leste",
+    "name_en": "Timor-Leste"
+  }
+]
