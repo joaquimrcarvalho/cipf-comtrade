@@ -11,8 +11,8 @@ import {formatUSD, usdInt, usdAxis} from "./components/format.js";
 import {L, MEASURES, MEASURE_LABEL} from "./components/i18n.js";
 import {kpiCards} from "./components/cards.js";
 
-const flows = FileAttachment("data/cn_plp_flows_2003-2024.csv").csv({typed: true});
-const meta = FileAttachment("data/cn_plp_flows_2003-2024.meta.json").json();
+const flows = await FileAttachment("data/cn_plp_flows_2003-2024.csv").csv({typed: true});
+const meta = await FileAttachment("data/cn_plp_flows_2003-2024.meta.json").json();
 ```
 
 ```js
@@ -29,12 +29,12 @@ const sumLatest = (m) => d3.sum(latest, (d) => d[m]);
 ## ${latestYear} em síntese (base direta)
 
 ```js
-display(html`${kpiCards([
+display(kpiCards(html, [
   {label: "Trocas comerciais", value: formatUSD(sumLatest("trade_volume")), sub: `China ↔ PLP, ${latestYear}`},
   {label: "Exportações da China", value: formatUSD(sumLatest("exports")), sub: "para os PLP"},
   {label: "Importações da China", value: formatUSD(sumLatest("imports")), sub: "dos PLP"},
   {label: "Saldo comercial", value: formatUSD(sumLatest("balance")), sub: "perspetiva da China"}
-])}`);
+]));
 ```
 
 ## Explorar
@@ -43,8 +43,8 @@ display(html`${kpiCards([
 const measure = view(Inputs.radio(MEASURES, {label: L.medida, value: "trade_volume"}));
 const basis = view(Inputs.radio(
   new Map([
-    ["direct", "Reportado pela China"],
-    ["mirror", "Espelho (reportado pelos PLP)"]
+    ["Reportado pela China", "direct"],
+    ["Espelho (reportado pelos PLP)", "mirror"]
   ]),
   {label: L.base, value: "direct"}
 ));

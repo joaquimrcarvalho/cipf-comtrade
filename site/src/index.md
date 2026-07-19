@@ -10,7 +10,7 @@ Observatório de dados do comércio entre a **China** e os Países de Língua Po
 import {formatUSD, usdAxis, pctSigned} from "./components/format.js";
 import {kpiCards} from "./components/cards.js";
 
-const flows = FileAttachment("data/cn_plp_flows_2003-2024.csv").csv({typed: true});
+const flows = await FileAttachment("data/cn_plp_flows_2003-2024.csv").csv({typed: true});
 const direct = flows.filter((d) => d.basis === "direct");
 const years = Array.from(new Set(direct.map((d) => d.year))).sort(d3.ascending);
 const latestYear = years.at(-1);
@@ -23,13 +23,13 @@ const yoy = (sum("trade_volume") - sum("trade_volume", prev)) / sum("trade_volum
 ## Trocas China ↔ PLP, ${latestYear}
 
 ```js
-display(html`${kpiCards([
+display(kpiCards(html, [
   {label: "Trocas comerciais", value: formatUSD(sum("trade_volume")),
    sub: `${pctSigned(yoy)} face a ${latestYear - 1}`},
   {label: "Exportações da China", value: formatUSD(sum("exports")), sub: "para os PLP"},
   {label: "Importações da China", value: formatUSD(sum("imports")), sub: "dos PLP"},
   {label: "Saldo comercial", value: formatUSD(sum("balance")), sub: "perspetiva da China"}
-])}`);
+]));
 ```
 
 ```js

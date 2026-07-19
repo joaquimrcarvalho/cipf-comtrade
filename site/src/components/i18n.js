@@ -13,12 +13,14 @@ export const L = {
   downloadMeta: "Metadados (JSON)"
 };
 
-// Measure selector: column name → pt label
+// Measure selector for Observable Inputs: Map of LABEL → column name.
+// (Inputs uses Map keys as the displayed labels and values as the selection.)
 export const MEASURES = new Map([
-  ["trade_volume", "Trocas comerciais"],
-  ["exports", "Exportações"],
-  ["imports", "Importações"],
-  ["balance", "Saldo comercial"]
+  ["Trocas comerciais", "trade_volume"],
+  ["Exportações", "exports"],
+  ["Importações", "imports"],
+  ["Saldo comercial", "balance"]
 ]);
 
-export const MEASURE_LABEL = Object.fromEntries(MEASURES);
+// Reverse lookup: column name → pt label
+export const MEASURE_LABEL = Object.fromEntries([...MEASURES].map(([l, v]) => [v, l]));
