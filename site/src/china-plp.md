@@ -7,9 +7,6 @@ e as exportações que declaram para a China) — as duas bases diferem por CIF/
 de reporte, e ambas são apresentadas.
 
 ```js
-import * as Plot from "@observablehq/plot";
-import * as d3 from "d3";
-import * as Inputs from "@observablehq/inputs";
 import {formatUSD, usdInt, usdAxis} from "./components/format.js";
 import {L, MEASURES, MEASURE_LABEL} from "./components/i18n.js";
 import {kpiCards} from "./components/cards.js";

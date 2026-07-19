@@ -7,8 +7,6 @@ Observatório de dados do comércio entre a **China** e os Países de Língua Po
 [cipf-comtrade](https://github.com/joaquimrcarvalho/cipf-comtrade).
 
 ```js
-import * as Plot from "@observablehq/plot";
-import * as d3 from "d3";
 import {formatUSD, usdAxis} from "./components/format.js";
 import {kpiCards} from "./components/cards.js";
 
