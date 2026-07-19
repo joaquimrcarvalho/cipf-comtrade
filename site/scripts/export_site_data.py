@@ -32,9 +32,9 @@ OUT_DIR = REPO_ROOT / "site" / "src" / "data"
 
 REPORTERS = {
     "cn": (156, "China"),
-    "mo": (446, "Macau"),
-    "hk": (344, "Hong Kong"),
-    "tw": (158, "Taiwan"),
+    "mo": (446, "Macau (RAEM)"),
+    "hk": (344, "Hong Kong (RAEHK)"),
+    "tw": (158, "Taiwan (Prov. China)"),
 }
 
 # Portuguese short names for the site UI (Comtrade names are English).
