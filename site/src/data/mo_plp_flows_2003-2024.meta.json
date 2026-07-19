@@ -1,0 +1,22 @@
+{
+  "dataset": "mo_plp_flows",
+  "generated_at": "2026-07-19T08:05:16+00:00",
+  "source_notebook": "mo_plp_import_export.ipynb",
+  "reporter_code": 446,
+  "reporter_name": "Macau (RAEM)",
+  "units": "USD (current)",
+  "flow_basis": "both — see 'basis' column: 'direct' (reported by the reporter) or 'mirror' (inferred from partners' reports, X<M / M<X)",
+  "period": "2003-2024",
+  "rows": 201,
+  "columns": [
+    "year",
+    "partner_code",
+    "partner",
+    "exports",
+    "imports",
+    "trade_volume",
+    "balance",
+    "basis"
+  ],
+  "notes": "trade_volume = exports + imports; balance = exports - imports. From the reporter's perspective. Source: UN Comtrade via comtradetools.getFinalData(). An unreported flow contributes 0 to volume/balance (the Forum Macau quadros print blank in those cells; see the --check warnings)."
+}

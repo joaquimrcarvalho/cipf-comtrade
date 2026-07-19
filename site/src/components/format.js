@@ -30,8 +30,13 @@ const pctSignedFmt = new Intl.NumberFormat("pt-PT", {
   minimumFractionDigits: 1, maximumFractionDigits: 1, signDisplay: "always"
 });
 
-export const pct = (v) =>
-  v == null || Number.isNaN(v) ? "—" : `${pctFmt.format(v)}%`;
+export const pct = (v, digits = 1) => {
+  if (v == null || Number.isNaN(v)) return "—";
+  const fmt = new Intl.NumberFormat("pt-PT", {
+    minimumFractionDigits: digits, maximumFractionDigits: digits
+  });
+  return `${fmt.format(v)}%`;
+};
 
 export const pctSigned = (v) =>
   v == null || Number.isNaN(v) ? "—" : `${pctSignedFmt.format(v)}%`;
