@@ -60,7 +60,7 @@ definitions** of each dataset; the site must not re-derive numbers differently.
 | D1 | China ↔ PLP flows: year × PLP, with Exportações, Importações, Trocas (volume), Saldo | `cn_plp_import_export.ipynb` | year (2003–latest) × 9 PLPs | `reports/cn_plp_trocas_2003-*.xlsx`, `quadros_forum_*.xlsx`, `cn_plp_{Trocas,Importações,Exportações,Saldo}.png` |
 | D2 | Macau (RAEM) ↔ PLP flows | `mo_plp_import_export.ipynb` | year × 9 PLPs, same measures | `reports/mo_plp_*` |
 | D3 | Hong Kong (RAEHK) ↔ PLP flows | `hk_plp_import_export.ipynb` | year × 9 PLPs | `reports/hk_plp_*` |
-| D4 | Taiwan (Prov. China) ↔ PLP flows | `tw_plp_import_export.ipynb` | year × 9 PLPs | `reports/tw_plp_*` |
+| D4 | Taiwan (Prov. China) ↔ PLP flows | `tw_plp_import_export.ipynb` | year × 9 PLPs; reporter code **490** ("Other Asia, nes" — see [UN Comtrade note](https://uncomtrade.org/docs/taiwan-province-of-china-trade-data/)) | `reports/tw_plp_*` |
 | D5 | Country trade profile — trade balance (direct vs. mirror) | `country_trade_profile.ipynb` §1 | year × country: X, M, X<M, M<X, balance | `<C>_1.1_trade_balance_*.xlsx`, `_1.2_*.png` |
 | D6 | Profile — top export partners / top import origins | §2.1, §3.1 | year × partner (top-N + %) | `<C>_2.1.x_*`, `<C>_3.1.x_*` |
 | D7 | Profile — top exported / imported products (HS-AG6) | §2.2, §3.2 | year × HS6 product (top-N + %) | `<C>_2.2_*`, `<C>_3.2_*` |
@@ -210,7 +210,7 @@ extraction slow and fragile. Therefore:
 |---|---|---|---|
 | `/` | China–PLP: comércio em números | D1 | Headline KPIs (latest year volume, balance), hero time-series chart, small-multiples per PLP, links to sections |
 | `/china-plp` | Trocas China–PLP | D1 | Interactive explorer: stacked/lines by country; flow toggle (Trocas/Exportações/Importações/Saldo); data table; Forum Macau–style table view; CSV download |
-| `/macau`, `/hong-kong`, `/taiwan` | Macau (RAEM) / Hong Kong (RAEHK) / Taiwan (Prov. China)–PLP | D2–D4 | Same explorer pattern; Macau (RAEM) page adds "platform role" narrative comparing Macau (RAEM)'s share vs. China direct |
+| `/macau`, `/hong-kong`, `/taiwan` | Macau (RAEM) / Hong Kong (RAEHK) / Taiwan (Prov. China)–PLP | D2–D4 | Same explorer pattern; Macau (RAEM) page adds "platform role" narrative comparing Macau (RAEM)'s share vs. China direct. Taiwan-related data pages carry a methodological note: Taiwan (Prov. China) is reported under code 490, "Other Asia, nes", per the [UN Comtrade documentation](https://uncomtrade.org/docs/taiwan-province-of-china-trade-data/) |
 | `/perfis/` | Perfis por país | D5–D8 index | Country picker grid (9 PLPs) |
 | `/perfis/<pais>` | Perfil: Angola (etc.) | D5–D8 | Trade balance (direct vs mirror), top partners, top products, product×partner explorer — mirrors notebook §1–§3 numbering so readers can cross-reference the READMEs |
 | `/metodologia` | Metodologia e fontes | — | UN Comtrade source & API, direct/mirror explanation, CIF/FOB caveat, HS-AG6 aggregation, validation vs Forum Macau tables and WITS, update cadence, how to cite |

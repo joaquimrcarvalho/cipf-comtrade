@@ -34,7 +34,9 @@ REPORTERS = {
     "cn": (156, "China"),
     "mo": (446, "Macau (RAEM)"),
     "hk": (344, "Hong Kong (RAEHK)"),
-    "tw": (158, "Taiwan (Prov. China)"),
+    # Taiwan (Prov. China) is reported by Comtrade as "Other Asia, nes" (code 490):
+    # https://uncomtrade.org/docs/taiwan-province-of-china-trade-data/
+    "tw": (490, "Taiwan (Prov. China)"),
 }
 
 # Portuguese short names for the site UI (Comtrade names are English).
