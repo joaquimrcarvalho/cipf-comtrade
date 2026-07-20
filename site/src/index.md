@@ -57,7 +57,7 @@ display(Plot.plot({
 <div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
   Valores reportados pela China (base direta), ${years[0]}–${latestYear} ·
   Fonte: UN Comtrade, extração e análise próprias ·
-  <a href="/china-plp">Explorar em detalhe →</a>
+  <a href="./china-plp">Explorar em detalhe →</a>
 </div>
 
 ## Secções

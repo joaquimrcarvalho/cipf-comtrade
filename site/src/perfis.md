@@ -60,7 +60,7 @@ const ordenados = [...resumos].sort((a, b) => b.disponivel - a.disponivel);
 ```js
 display(html`<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.9rem; margin: 1.25rem 0;">
   ${ordenados.map((p) => p.disponivel ? html`
-    <a href="/perfis/${p.slug}" style="text-decoration: none; color: inherit;">
+    <a href="./perfis/${p.slug}" style="text-decoration: none; color: inherit;">
       <div style="background: var(--theme-background-alt); border-radius: 8px; padding: 1rem 1.15rem; height: 100%;">
         <div style="font-weight: 600; font-size: 1.05rem;">${p.nome}</div>
         <div style="font-size: 1.35rem; font-weight: 600; margin: 0.3rem 0 0.1rem;">${formatUSD(p.volume)}</div>
@@ -83,6 +83,6 @@ display(html`<div style="display: grid; grid-template-columns: repeat(auto-fill,
 
 <div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
   Valores em USD correntes, no último ano com dados (base indicada em cada cartão). A análise China ↔ PLP
-  está em <a href="/china-plp">Trocas China–PLP</a>; o papel das plataformas em
-  <a href="/macau">Macau (RAEM)</a> e <a href="/hong-kong">Hong Kong (RAEHK)</a>.
+  está em <a href="./china-plp">Trocas China–PLP</a>; o papel das plataformas em
+  <a href="./macau">Macau (RAEM)</a> e <a href="./hong-kong">Hong Kong (RAEHK)</a>.
 </div>
