@@ -1,0 +1,291 @@
+year,partner_code,partner,value,share_pct,rank,basis
+2003,702,Singapura,30917869,50.382,1,direct
+2003,699,Índia,24764478,40.355,2,direct
+2003,620,Portugal,1636878,2.667,3,direct
+2003,591,Panamá,1326105,2.161,4,direct
+2003,686,Senegal,1138030,1.854,5,direct
+2003,156,China,988631,1.611,6,direct
+2003,380,Itália,364679,0.594,7,direct
+2003,724,Espanha,201021,0.328,8,direct
+2003,132,Cabo Verde,29102,0.047,9,direct
+2003,699,Índia,51173949,67.284,1,mirror
+2003,566,Nigéria,12909586,16.974,2,mirror
+2003,380,Itália,5852643,7.695,3,mirror
+2003,620,Portugal,2142924,2.818,4,mirror
+2003,842,EUA,2114378,2.78,5,mirror
+2003,826,Reino Unido,350034,0.46,6,mirror
+2003,251,França,244290,0.321,7,mirror
+2003,288,Gana,196483,0.258,8,mirror
+2003,384,Costa do Marfim,136693,0.18,9,mirror
+2003,528,Países Baixos,126698,0.167,10,mirror
+2004,699,Índia,45593503,84.238,1,direct
+2004,702,Singapura,6923355,12.791,2,direct
+2004,686,Senegal,696783,1.287,3,direct
+2004,500,Montserrat,578206,1.068,4,direct
+2004,724,Espanha,86400,0.16,5,direct
+2004,528,Países Baixos,73215,0.135,6,direct
+2004,620,Portugal,51216,0.095,7,direct
+2004,251,França,29083,0.054,8,direct
+2004,478,Mauritânia,25224,0.047,9,direct
+2004,591,Panamá,17989,0.033,10,direct
+2004,699,Índia,70702103,62.362,1,mirror
+2004,842,EUA,28051781,24.743,2,mirror
+2004,380,Itália,4261196,3.759,3,mirror
+2004,288,Gana,3942977,3.478,4,mirror
+2004,410,Coreia do Sul,1383270,1.22,5,mirror
+2004,466,Mali,1185649,1.046,6,mirror
+2004,620,Portugal,983695,0.868,7,mirror
+2004,392,Japão,485311,0.428,8,mirror
+2004,528,Países Baixos,466633,0.412,9,mirror
+2004,120,Camarões,380413,0.336,10,mirror
+2005,699,Índia,20134580,86.619,1,direct
+2005,702,Singapura,2812782,12.101,2,direct
+2005,620,Portugal,121206,0.521,3,direct
+2005,528,Países Baixos,58233,0.251,4,direct
+2005,591,Panamá,49769,0.214,5,direct
+2005,408,Coreia do Norte,47840,0.206,6,direct
+2005,270,Gambia,8176,0.035,7,direct
+2005,842,EUA,4753,0.02,8,direct
+2005,686,Senegal,4421,0.019,9,direct
+2005,132,Cabo Verde,1592,0.007,10,direct
+2005,699,Índia,92642674,89.486,1,mirror
+2005,380,Itália,2601580,2.513,2,mirror
+2005,288,Gana,1714942,1.657,3,mirror
+2005,410,Coreia do Sul,1565667,1.512,4,mirror
+2005,620,Portugal,1239415,1.197,5,mirror
+2005,586,Paquistão,803566,0.776,6,mirror
+2005,466,Mali,783366,0.757,7,mirror
+2005,120,Camarões,533989,0.516,8,mirror
+2005,490,Taiwan (Prov. China),302872,0.293,9,mirror
+2005,344,Hong Kong (RAEHK),250968,0.242,10,mirror
+2006,699,Índia,44075187,82.03,1,mirror
+2006,380,Itália,2016095,3.752,2,mirror
+2006,620,Portugal,1462085,2.721,3,mirror
+2006,410,Coreia do Sul,1280045,2.382,4,mirror
+2006,566,Nigéria,1032617,1.922,5,mirror
+2006,288,Gana,809739,1.507,6,mirror
+2006,384,Costa do Marfim,590197,1.098,7,mirror
+2006,842,EUA,492187,0.916,8,mirror
+2006,586,Paquistão,421579,0.785,9,mirror
+2006,50,Bangladesh,409357,0.762,10,mirror
+2007,699,Índia,72124750,84.872,1,mirror
+2007,120,Camarões,2961609,3.485,2,mirror
+2007,566,Nigéria,2516864,2.962,3,mirror
+2007,288,Gana,1324312,1.558,4,mirror
+2007,410,Coreia do Sul,1170212,1.377,5,mirror
+2007,50,Bangladesh,982824,1.157,6,mirror
+2007,344,Hong Kong (RAEHK),846603,0.996,7,mirror
+2007,620,Portugal,692164,0.815,8,mirror
+2007,724,Espanha,493262,0.58,9,mirror
+2007,270,Gambia,405783,0.478,10,mirror
+2008,699,Índia,104443923,73.113,1,mirror
+2008,704,Vietname,22501059,15.751,2,mirror
+2008,768,Togo,6775098,4.743,3,mirror
+2008,156,China,1242562,0.87,4,mirror
+2008,620,Portugal,854980,0.599,5,mirror
+2008,686,Senegal,848666,0.594,6,mirror
+2008,100,Bulgária,808349,0.566,7,mirror
+2008,50,Bangladesh,782372,0.548,8,mirror
+2008,380,Itália,740534,0.518,9,mirror
+2008,270,Gambia,509747,0.357,10,mirror
+2009,699,Índia,85733174,78.851,1,mirror
+2009,768,Togo,7922974,7.287,2,mirror
+2009,704,Vietname,6690686,6.154,3,mirror
+2009,620,Portugal,1923167,1.769,4,mirror
+2009,156,China,1617183,1.487,5,mirror
+2009,288,Gana,723689,0.666,6,mirror
+2009,724,Espanha,588488,0.541,7,mirror
+2009,270,Gambia,449785,0.414,8,mirror
+2009,566,Nigéria,369428,0.34,9,mirror
+2009,100,Bulgária,335927,0.309,10,mirror
+2010,699,Índia,131972901,78.985,1,mirror
+2010,768,Togo,8574006,5.132,2,mirror
+2010,704,Vietname,7348660,4.398,3,mirror
+2010,724,Espanha,6407201,3.835,4,mirror
+2010,156,China,3862870,2.312,5,mirror
+2010,384,Costa do Marfim,2013335,1.205,6,mirror
+2010,120,Camarões,1667268,0.998,7,mirror
+2010,616,Polónia,1088719,0.652,8,mirror
+2010,842,EUA,887216,0.531,9,mirror
+2010,288,Gana,657243,0.393,10,mirror
+2011,699,Índia,297917262,77.301,1,mirror
+2011,704,Vietname,40700031,10.56,2,mirror
+2011,76,Brasil,13076223,3.393,3,mirror
+2011,586,Paquistão,10765431,2.793,4,mirror
+2011,768,Togo,9376130,2.433,5,mirror
+2011,724,Espanha,4337458,1.125,6,mirror
+2011,156,China,4112691,1.067,7,mirror
+2011,384,Costa do Marfim,1531082,0.397,8,mirror
+2011,616,Polónia,485610,0.126,9,mirror
+2011,620,Portugal,362779,0.094,10,mirror
+2012,699,Índia,123926789,68.441,1,mirror
+2012,704,Vietname,24972318,13.792,2,mirror
+2012,156,China,6633460,3.663,3,mirror
+2012,724,Espanha,5820757,3.215,4,mirror
+2012,768,Togo,5542517,3.061,5,mirror
+2012,76,Brasil,5186434,2.864,6,mirror
+2012,757,Suíça,4253824,2.349,7,mirror
+2012,251,França,1266427,0.699,8,mirror
+2012,384,Costa do Marfim,627658,0.347,9,mirror
+2012,792,Turquia,603620,0.333,10,mirror
+2013,699,Índia,136546395,44.988,1,mirror
+2013,704,Vietname,62292793,20.523,2,mirror
+2013,288,Gana,50635362,16.683,3,mirror
+2013,156,China,16827743,5.544,4,mirror
+2013,768,Togo,15037516,4.954,5,mirror
+2013,120,Camarões,6095218,2.008,6,mirror
+2013,384,Costa do Marfim,5119481,1.687,7,mirror
+2013,842,EUA,3223773,1.062,8,mirror
+2013,204,Benim,1789579,0.59,9,mirror
+2013,566,Nigéria,1783974,0.588,10,mirror
+2014,699,Índia,81585448,72.796,1,direct
+2014,702,Singapura,10129980,9.039,2,direct
+2014,784,Emirados Árabes Unidos,9942849,8.872,3,direct
+2014,704,Vietname,5030759,4.489,4,direct
+2014,344,Hong Kong (RAEHK),1910910,1.705,5,direct
+2014,156,China,1733253,1.547,6,direct
+2014,620,Portugal,1706998,1.523,7,direct
+2014,528,Países Baixos,33640,0.03,8,direct
+2014,699,Índia,160743082,58.353,1,mirror
+2014,156,China,49956236,18.135,2,mirror
+2014,704,Vietname,28359040,10.295,3,mirror
+2014,768,Togo,13678244,4.966,4,mirror
+2014,288,Gana,10297282,3.738,5,mirror
+2014,528,Países Baixos,3250895,1.18,6,mirror
+2014,120,Camarões,2368233,0.86,7,mirror
+2014,490,Taiwan (Prov. China),1425795,0.518,8,mirror
+2014,392,Japão,612222,0.222,9,mirror
+2014,792,Turquia,571537,0.207,10,mirror
+2015,699,Índia,171641622,52.454,1,direct
+2015,702,Singapura,48104702,14.701,2,direct
+2015,156,China,47102428,14.395,3,direct
+2015,784,Emirados Árabes Unidos,35762400,10.929,4,direct
+2015,704,Vietname,23827732,7.282,5,direct
+2015,344,Hong Kong (RAEHK),540000,0.165,6,direct
+2015,586,Paquistão,180200,0.055,7,direct
+2015,686,Senegal,42741,0.013,8,direct
+2015,132,Cabo Verde,15062,0.005,9,direct
+2015,620,Portugal,7056,0.002,10,direct
+2015,699,Índia,201280618,67.584,1,mirror
+2015,704,Vietname,31916143,10.716,2,mirror
+2015,156,China,17812428,5.981,3,mirror
+2015,768,Togo,13934727,4.679,4,mirror
+2015,288,Gana,12641638,4.245,5,mirror
+2015,784,Emirados Árabes Unidos,4057384,1.362,6,mirror
+2015,24,Angola,2880182,0.967,7,mirror
+2015,384,Costa do Marfim,2720365,0.913,8,mirror
+2015,204,Benim,1664340,0.559,9,mirror
+2015,120,Camarões,1635546,0.549,10,mirror
+2016,699,Índia,137829229,78.195,1,direct
+2016,702,Singapura,21088046,11.964,2,direct
+2016,704,Vietname,7416048,4.207,3,direct
+2016,784,Emirados Árabes Unidos,5707069,3.238,4,direct
+2016,288,Gana,3000000,1.702,5,direct
+2016,156,China,1223115,0.694,6,direct
+2016,699,Índia,214737337,59.643,1,mirror
+2016,704,Vietname,70648133,19.622,2,mirror
+2016,112,Bielorrússia,33426600,9.284,3,mirror
+2016,384,Costa do Marfim,10335066,2.871,4,mirror
+2016,288,Gana,10029935,2.786,5,mirror
+2016,784,Emirados Árabes Unidos,5344880,1.485,6,mirror
+2016,768,Togo,3735324,1.037,7,mirror
+2016,792,Turquia,1443105,0.401,8,mirror
+2016,410,Coreia do Sul,1435067,0.399,9,mirror
+2016,76,Brasil,1324394,0.368,10,mirror
+2017,699,Índia,111887164,59.115,1,direct
+2017,704,Vietname,37214847,19.662,2,direct
+2017,702,Singapura,35386742,18.697,3,direct
+2017,784,Emirados Árabes Unidos,2155087,1.139,4,direct
+2017,528,Países Baixos,692300,0.366,5,direct
+2017,344,Hong Kong (RAEHK),632500,0.334,6,direct
+2017,156,China,575000,0.304,7,direct
+2017,288,Gana,402500,0.213,8,direct
+2017,360,Indonésia,230000,0.122,9,direct
+2017,620,Portugal,89700,0.047,10,direct
+2017,699,Índia,252785396,73.047,1,mirror
+2017,704,Vietname,65836734,19.025,2,mirror
+2017,768,Togo,7729623,2.234,3,mirror
+2017,384,Costa do Marfim,6230566,1.8,4,mirror
+2017,288,Gana,4922728,1.423,5,mirror
+2017,251,França,2948887,0.852,6,mirror
+2017,410,Coreia do Sul,1640034,0.474,7,mirror
+2017,120,Camarões,1549484,0.448,8,mirror
+2017,792,Turquia,937919,0.271,9,mirror
+2017,156,China,402375,0.116,10,mirror
+2018,699,Índia,108133992,44.173,1,direct
+2018,156,China,71324918,29.136,2,direct
+2018,702,Singapura,43691093,17.848,3,direct
+2018,704,Vietname,15015018,6.134,4,direct
+2018,784,Emirados Árabes Unidos,4173488,1.705,5,direct
+2018,528,Países Baixos,1500000,0.613,6,direct
+2018,344,Hong Kong (RAEHK),960250,0.392,7,direct
+2018,699,Índia,130465259,82.747,1,mirror
+2018,156,China,7638682,4.845,2,mirror
+2018,384,Costa do Marfim,4036592,2.56,3,mirror
+2018,288,Gana,3377684,2.142,4,mirror
+2018,430,Liberia,2984475,1.893,5,mirror
+2018,410,Coreia do Sul,2557528,1.622,6,mirror
+2018,76,Brasil,1798328,1.141,7,mirror
+2018,724,Espanha,982281,0.623,8,mirror
+2018,528,Países Baixos,731356,0.464,9,mirror
+2018,620,Portugal,657502,0.417,10,mirror
+2019,699,Índia,123049866,49.141,1,mirror
+2019,56,Bélgica,69229476,27.647,2,mirror
+2019,384,Costa do Marfim,20917450,8.354,3,mirror
+2019,156,China,8402360,3.356,4,mirror
+2019,288,Gana,6932998,2.769,5,mirror
+2019,430,Liberia,6004363,2.398,6,mirror
+2019,784,Emirados Árabes Unidos,3645917,1.456,7,mirror
+2019,410,Coreia do Sul,2467743,0.986,8,mirror
+2019,842,EUA,1998402,0.798,9,mirror
+2019,764,Tailândia,950566,0.38,10,mirror
+2020,699,Índia,128735488,71.004,1,mirror
+2020,384,Costa do Marfim,19034065,10.498,2,mirror
+2020,430,Liberia,8391268,4.628,3,mirror
+2020,120,Camarões,7413816,4.089,4,mirror
+2020,180,RD Congo,5465757,3.015,5,mirror
+2020,410,Coreia do Sul,2240827,1.236,6,mirror
+2020,620,Portugal,2135084,1.178,7,mirror
+2020,792,Turquia,1180499,0.651,8,mirror
+2020,204,Benim,1017184,0.561,9,mirror
+2020,842,EUA,924337,0.51,10,mirror
+2021,699,Índia,143885858,69.822,1,mirror
+2021,586,Paquistão,22047130,10.699,2,mirror
+2021,384,Costa do Marfim,15819103,7.676,3,mirror
+2021,288,Gana,7233244,3.51,4,mirror
+2021,792,Turquia,4888554,2.372,5,mirror
+2021,768,Togo,3030355,1.471,6,mirror
+2021,430,Liberia,2769506,1.344,7,mirror
+2021,410,Coreia do Sul,2555190,1.24,8,mirror
+2021,152,Chile,584879,0.284,9,mirror
+2021,76,Brasil,487168,0.236,10,mirror
+2022,699,Índia,202710149,89.576,1,mirror
+2022,384,Costa do Marfim,5659323,2.501,2,mirror
+2022,768,Togo,5401058,2.387,3,mirror
+2022,288,Gana,3281063,1.45,4,mirror
+2022,528,Países Baixos,2979862,1.317,5,mirror
+2022,410,Coreia do Sul,1260684,0.557,6,mirror
+2022,276,Alemanha,750931,0.332,7,mirror
+2022,152,Chile,654177,0.289,8,mirror
+2022,792,Turquia,422289,0.187,9,mirror
+2022,40,Áustria,405724,0.179,10,mirror
+2023,699,Índia,72337191,65.23,1,mirror
+2023,152,Chile,10043168,9.056,2,mirror
+2023,384,Costa do Marfim,5884908,5.307,3,mirror
+2023,288,Gana,4733894,4.269,4,mirror
+2023,528,Países Baixos,2798575,2.524,5,mirror
+2023,792,Turquia,2511271,2.265,6,mirror
+2023,430,Liberia,1995727,1.8,7,mirror
+2023,218,Equador,1665834,1.502,8,mirror
+2023,410,Coreia do Sul,1622615,1.463,9,mirror
+2023,392,Japão,1293554,1.166,10,mirror
+2024,699,Índia,199276659,91.958,1,mirror
+2024,792,Turquia,6176236,2.85,2,mirror
+2024,410,Coreia do Sul,1405040,0.648,3,mirror
+2024,246,Finlândia,1261327,0.582,4,mirror
+2024,528,Países Baixos,1205870,0.556,5,mirror
+2024,392,Japão,1205585,0.556,6,mirror
+2024,458,Malásia,1094937,0.505,7,mirror
+2024,380,Itália,571357,0.264,8,mirror
+2024,768,Togo,567403,0.262,9,mirror
+2024,100,Bulgária,493907,0.228,10,mirror

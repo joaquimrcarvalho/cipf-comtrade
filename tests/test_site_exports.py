@@ -77,3 +77,124 @@ def test_plp_countries_reference():
     rows = json.loads(path.read_text())
     assert {r["code"] for r in rows} == PLP_CODES
     assert all(r["name_pt"] and r["name_en"] for r in rows)
+
+
+# ---------------------------------------------------------------------------
+# Country profiles (D5–D8), spec §5.2 — export_profiles.py
+# ---------------------------------------------------------------------------
+
+PROFILE_SLUGS = {
+    "angola": 24, "brasil": 76, "cabo-verde": 132, "guine-bissau": 624,
+    "guine-equatorial": 226, "mocambique": 508, "portugal": 620,
+    "sao-tome-e-principe": 678, "timor-leste": 626,
+}
+D5_COLS = ["year", "basis", "exports", "imports", "trade_volume", "balance"]
+D6_COLS = ["year", "partner_code", "partner", "value", "share_pct", "rank", "basis"]
+D7_COLS = ["year", "hs6", "description_pt", "value", "share_pct", "rank", "basis"]
+D8_COLS = ["year", "hs6", "description_pt", "partner_code", "partner", "value",
+           "share_pct", "basis"]
+PROFILE_META_REQUIRED = {"dataset", "generated_at", "source_notebook", "country_code",
+                         "country_name_pt", "units", "flow_basis", "period", "files"}
+
+
+def profile_csv(slug, kind):
+    files = list(DATA_DIR.glob(f"{slug}_{kind}_*.csv"))
+    return files[0] if files else None
+
+
+def read_profile(slug, kind, cols):
+    """Read a profile CSV, tolerating empty (header-only) files."""
+    path = profile_csv(slug, kind)
+    assert path is not None, f"missing {slug}_{kind}_*.csv — run export_profiles.py"
+    if path.stat().st_size == 0:
+        pytest.fail(f"{path.name} is a zero-byte file")
+    df = pd.read_csv(path, dtype={"hs6": str})
+    assert list(df.columns) == cols, f"{path.name}: {list(df.columns)} != {cols}"
+    return df
+
+
+@pytest.mark.parametrize("slug", sorted(PROFILE_SLUGS))
+def test_d5_trade_balance(slug):
+    df = read_profile(slug, "trade_balance", D5_COLS)
+    assert not df.isna().any().any()
+    assert set(df["basis"].unique()) == {"direct", "mirror"}
+    assert df["year"].between(2003, 2100).all()
+    assert (df["trade_volume"] == df["exports"] + df["imports"]).all()
+    assert (df["balance"] == df["exports"] - df["imports"]).all()
+    assert not df.duplicated(subset=["year", "basis"]).any()
+    assert df["year"].nunique() >= 20, "D5 covers the full period (zeros allowed)"
+    ordered = df.sort_values(["year", "basis"]).reset_index(drop=True)
+    pd.testing.assert_frame_equal(df.reset_index(drop=True), ordered)
+
+
+@pytest.mark.parametrize("slug", sorted(PROFILE_SLUGS))
+@pytest.mark.parametrize("kind", ["top_partners_exports", "top_partners_imports"])
+def test_d6_top_partners(slug, kind):
+    df = read_profile(slug, kind, D6_COLS)
+    if df.empty:
+        pytest.skip(f"{slug} {kind}: legitimately empty (no reported data)")
+    assert not df.isna().any().any()
+    assert set(df["basis"].unique()) <= {"direct", "mirror"}
+    assert (df["value"] > 0).all()
+    assert df["share_pct"].between(0, 100, inclusive="both").all()
+    assert df["rank"].between(1, 10).all()
+    assert (df["partner"].str.len() > 0).all()
+    assert not df.duplicated(subset=["year", "basis", "rank"]).any()
+    ordered = df.sort_values(["year", "basis", "rank"]).reset_index(drop=True)
+    pd.testing.assert_frame_equal(df.reset_index(drop=True), ordered)
+
+
+@pytest.mark.parametrize("slug", sorted(PROFILE_SLUGS))
+@pytest.mark.parametrize("kind", ["top_products_exports_HS-AG6", "top_products_imports_HS-AG6"])
+def test_d7_top_products(slug, kind):
+    df = read_profile(slug, kind, D7_COLS)
+    if df.empty:
+        pytest.skip(f"{slug} {kind}: legitimately empty (no reported data)")
+    assert not df.isna().any().any()
+    assert set(df["basis"].unique()) <= {"direct", "mirror"}
+    assert (df["value"] > 0).all()
+    assert df["share_pct"].between(0, 100, inclusive="both").all()
+    assert df["rank"].between(1, 10).all()
+    assert df["hs6"].str.match(r"^\d{6}$").all(), "HS-AG6 codes are 6 digits"
+    assert not df.duplicated(subset=["year", "basis", "rank"]).any()
+    ordered = df.sort_values(["year", "basis", "rank"]).reset_index(drop=True)
+    pd.testing.assert_frame_equal(df.reset_index(drop=True), ordered)
+
+
+@pytest.mark.parametrize("slug", sorted(PROFILE_SLUGS))
+@pytest.mark.parametrize("kind", ["products_partners_HS-AG6", "partners_products_HS-AG6"])
+def test_d8_products_partners(slug, kind):
+    df = read_profile(slug, kind, D8_COLS)
+    if df.empty:
+        pytest.skip(f"{slug} {kind}: legitimately empty (no reported data)")
+    assert not df.isna().any().any()
+    assert set(df["basis"].unique()) <= {"direct", "mirror"}
+    assert (df["value"] != 0).all()
+    assert df["share_pct"].abs().le(100).all()
+    assert df["hs6"].str.match(r"^\d{6}$").all()
+    # pre-filtered per spec §10: at most 8 partners per (year, basis, hs6)
+    assert (df.groupby(["year", "basis", "hs6"]).size() <= 8).all()
+    ordered = df.sort_values(["year", "basis", "hs6", "value"],
+                             ascending=[True, True, True, False]).reset_index(drop=True)
+    pd.testing.assert_frame_equal(df.reset_index(drop=True), ordered)
+
+
+@pytest.mark.parametrize("slug", sorted(PROFILE_SLUGS))
+def test_profile_meta(slug):
+    files = list(DATA_DIR.glob(f"{slug}_profile_*.meta.json"))
+    assert files, f"missing {slug}_profile_*.meta.json — run export_profiles.py"
+    meta = json.loads(files[0].read_text())
+    assert PROFILE_META_REQUIRED <= set(meta)
+    assert meta["country_code"] == PROFILE_SLUGS[slug]
+    assert meta["units"] == "USD (current)"
+    assert len(meta["files"]) == 7
+    for info in meta["files"].values():
+        assert (DATA_DIR / info["file"]).exists(), f"missing {info['file']}"
+
+
+def test_hs_labels_reference():
+    path = DATA_DIR / "hs_ag6_labels.json"
+    assert path.exists(), "missing hs_ag6_labels.json — run export_profiles.py"
+    rows = json.loads(path.read_text())
+    assert rows, "hs_ag6_labels.json is empty"
+    assert all(r["hs6"] and r["en"] for r in rows)

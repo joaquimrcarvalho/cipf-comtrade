@@ -1,0 +1,441 @@
+year,hs6,description_pt,value,share_pct,rank,basis
+2003,999999,Commodities not specified according to kind,338413892,19.305,1,direct
+2003,271019,Combustíveis refinados,173960109,9.924,2,direct
+2003,100630,Arroz,58406080,3.332,3,direct
+2003,271600,Electrical energy,49546846,2.826,4,direct
+2003,271011,Combustíveis refinados,48259433,2.753,5,direct
+2003,100190,100190,43730768,2.495,6,direct
+2003,870421,Veículos de mercadorias,38310749,2.185,7,direct
+2003,870323,Automóveis de passageiros,28740436,1.64,8,direct
+2003,320890,"Paints and varnishes; based on polymers n.e.c. in heading no. 3208, dispersed or dissolved in a non-aqueous medium",25530767,1.456,9,direct
+2003,851730,851730,16670814,0.951,10,direct
+2003,271011,Combustíveis refinados,109614445,6.439,1,mirror
+2003,100190,100190,54143060,3.18,2,mirror
+2003,100630,Arroz,34909727,2.051,3,mirror
+2003,870421,Veículos de mercadorias,23549057,1.383,4,mirror
+2003,999999,Commodities not specified according to kind,15073496,0.885,5,mirror
+2003,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",11212682,0.659,6,mirror
+2003,271312,Coque de petróleo e betume,10820879,0.636,7,mirror
+2003,870323,Automóveis de passageiros,10012912,0.588,8,mirror
+2003,630900,"Clothing; worn, and other worn articles",9361996,0.55,9,mirror
+2003,300490,Medicamentos,8249219,0.485,10,mirror
+2004,999999,Commodities not specified according to kind,317480888,15.604,1,direct
+2004,271019,Combustíveis refinados,168994617,8.306,2,direct
+2004,100630,Arroz,82523791,4.056,3,direct
+2004,271600,Electrical energy,67492452,3.317,4,direct
+2004,271011,Combustíveis refinados,67010444,3.293,5,direct
+2004,100190,100190,53312449,2.62,6,direct
+2004,870421,Veículos de mercadorias,51697206,2.541,7,direct
+2004,900719,900719,39281225,1.931,8,direct
+2004,401511,401511,27322836,1.343,9,direct
+2004,030379,Peixe congelado,24653162,1.212,10,direct
+2004,271011,Combustíveis refinados,163212283,7.424,1,mirror
+2004,100190,100190,82483178,3.752,2,mirror
+2004,100630,Arroz,58425649,2.658,3,mirror
+2004,870421,Veículos de mercadorias,23239846,1.057,4,mirror
+2004,300490,Medicamentos,15216150,0.692,5,mirror
+2004,999999,Commodities not specified according to kind,12559262,0.571,6,mirror
+2004,271019,Combustíveis refinados,11966366,0.544,7,mirror
+2004,630900,"Clothing; worn, and other worn articles",11293680,0.514,8,mirror
+2004,870323,Automóveis de passageiros,10075791,0.458,9,mirror
+2004,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",8973292,0.408,10,mirror
+2005,999999,Commodities not specified according to kind,631617167,26.228,1,direct
+2005,100630,Arroz,108450206,4.503,2,direct
+2005,870421,Veículos de mercadorias,83479247,3.466,3,direct
+2005,271600,Electrical energy,79773662,3.313,4,direct
+2005,100190,100190,49111721,2.039,5,direct
+2005,271019,Combustíveis refinados,28653767,1.19,6,direct
+2005,030379,Peixe congelado,27904996,1.159,7,direct
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",25063272,1.041,8,direct
+2005,300490,Medicamentos,23448251,0.974,9,direct
+2005,271312,Coque de petróleo e betume,19294336,0.801,10,direct
+2005,271011,Combustíveis refinados,322649515,12.968,1,mirror
+2005,100630,Arroz,107010434,4.301,2,mirror
+2005,100190,100190,49650528,1.996,3,mirror
+2005,870421,Veículos de mercadorias,28943338,1.163,4,mirror
+2005,271312,Coque de petróleo e betume,19989944,0.803,5,mirror
+2005,999999,Commodities not specified according to kind,18207408,0.732,6,mirror
+2005,252310,Cement clinkers (whether or not coloured),15750443,0.633,7,mirror
+2005,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",14704964,0.591,8,mirror
+2005,870120,870120,12431631,0.5,9,mirror
+2005,300490,Medicamentos,12357327,0.497,10,mirror
+2006,999999,Commodities not specified according to kind,572921199,19.967,1,direct
+2006,271019,Combustíveis refinados,302220750,10.533,2,direct
+2006,870421,Veículos de mercadorias,94173790,3.282,3,direct
+2006,100630,Arroz,90723317,3.162,4,direct
+2006,271600,Electrical energy,83717902,2.918,5,direct
+2006,271011,Combustíveis refinados,74561487,2.599,6,direct
+2006,100190,100190,66400712,2.314,7,direct
+2006,847110,847110,36415711,1.269,8,direct
+2006,252310,Cement clinkers (whether or not coloured),32766309,1.142,9,direct
+2006,300490,Medicamentos,30165327,1.051,10,direct
+2006,100190,100190,86070643,3.117,1,mirror
+2006,100630,Arroz,80721500,2.924,2,mirror
+2006,271011,Combustíveis refinados,53642691,1.943,3,mirror
+2006,870421,Veículos de mercadorias,39108554,1.416,4,mirror
+2006,271312,Coque de petróleo e betume,30961653,1.121,5,mirror
+2006,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",26433973,0.957,6,mirror
+2006,271019,Combustíveis refinados,20931166,0.758,7,mirror
+2006,999999,Commodities not specified according to kind,19672495,0.712,8,mirror
+2006,300490,Medicamentos,16403248,0.594,9,mirror
+2006,252310,Cement clinkers (whether or not coloured),13939858,0.505,10,mirror
+2007,999999,Commodities not specified according to kind,550252913,18.043,1,direct
+2007,271019,Combustíveis refinados,291558523,9.56,2,direct
+2007,271600,Electrical energy,107412314,3.522,3,direct
+2007,100630,Arroz,106113876,3.479,4,direct
+2007,870421,Veículos de mercadorias,99135401,3.251,5,direct
+2007,271011,Combustíveis refinados,68302246,2.24,6,direct
+2007,200210,"Vegetable preparations; tomatoes, whole or in pieces, prepared or preserved otherwise than by vinegar or acetic acid",65207148,2.138,7,direct
+2007,100190,100190,55346995,1.815,8,direct
+2007,200190,"Vegetable preparations; vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid (excluding cucumbers and gherkins)",44901273,1.472,9,direct
+2007,300490,Medicamentos,42329395,1.388,10,direct
+2007,271019,Combustíveis refinados,246357436,6.638,1,mirror
+2007,100630,Arroz,116979559,3.152,2,mirror
+2007,271600,Electrical energy,98472657,2.653,3,mirror
+2007,100190,100190,80342475,2.165,4,mirror
+2007,271312,Coque de petróleo e betume,39600549,1.067,5,mirror
+2007,870421,Veículos de mercadorias,34816594,0.938,6,mirror
+2007,999999,Commodities not specified according to kind,25876604,0.697,7,mirror
+2007,300490,Medicamentos,25025478,0.674,8,mirror
+2007,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",21891034,0.59,9,mirror
+2007,271011,Combustíveis refinados,19164092,0.516,10,mirror
+2008,999999,Commodities not specified according to kind,674863799,16.839,1,direct
+2008,271019,Combustíveis refinados,546918782,13.646,2,direct
+2008,870421,Veículos de mercadorias,132909032,3.316,3,direct
+2008,271600,Electrical energy,122085124,3.046,4,direct
+2008,100630,Arroz,111685618,2.787,5,direct
+2008,271011,Combustíveis refinados,103618967,2.585,6,direct
+2008,100190,100190,99668703,2.487,7,direct
+2008,151110,Óleo de palma,69870820,1.743,8,direct
+2008,300490,Medicamentos,47982183,1.197,9,direct
+2008,870323,Automóveis de passageiros,40146976,1.002,10,direct
+2008,271019,Combustíveis refinados,323324053,7.479,1,mirror
+2008,100630,Arroz,132989677,3.076,2,mirror
+2008,271600,Electrical energy,113899688,2.635,3,mirror
+2008,100190,100190,69989299,1.619,4,mirror
+2008,271312,Coque de petróleo e betume,61583522,1.424,5,mirror
+2008,271011,Combustíveis refinados,59620395,1.379,6,mirror
+2008,870421,Veículos de mercadorias,50792382,1.175,7,mirror
+2008,999999,Commodities not specified according to kind,34939161,0.808,8,mirror
+2008,870422,Veículos de mercadorias,29483483,0.682,9,mirror
+2008,300490,Medicamentos,28811532,0.666,10,mirror
+2009,999999,Commodities not specified according to kind,468279476,12.44,1,direct
+2009,271019,Combustíveis refinados,307621887,8.172,2,direct
+2009,100630,Arroz,151079035,4.014,3,direct
+2009,870421,Veículos de mercadorias,137097135,3.642,4,direct
+2009,271600,Electrical energy,127261337,3.381,5,direct
+2009,271011,Combustíveis refinados,103687378,2.755,6,direct
+2009,100190,100190,91084351,2.42,7,direct
+2009,870323,Automóveis de passageiros,53359788,1.418,8,direct
+2009,151110,Óleo de palma,49720900,1.321,9,direct
+2009,252329,"Cement; portland, other than white, whether or not artificially coloured",40358170,1.072,10,direct
+2009,271019,Combustíveis refinados,207996460,4.668,1,mirror
+2009,100630,Arroz,157716339,3.539,2,mirror
+2009,271011,Combustíveis refinados,145859006,3.273,3,mirror
+2009,271600,Electrical energy,112362692,2.522,4,mirror
+2009,100190,100190,95085952,2.134,5,mirror
+2009,870421,Veículos de mercadorias,55161391,1.238,6,mirror
+2009,300490,Medicamentos,46758990,1.049,7,mirror
+2009,271312,Coque de petróleo e betume,44049199,0.989,8,mirror
+2009,999999,Commodities not specified according to kind,41138617,0.923,9,mirror
+2009,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",29562872,0.663,10,mirror
+2010,999999,Commodities not specified according to kind,617198728,17.316,1,direct
+2010,271019,Combustíveis refinados,382230097,10.724,2,direct
+2010,271600,Electrical energy,157426584,4.417,3,direct
+2010,271011,Combustíveis refinados,137765209,3.865,4,direct
+2010,870421,Veículos de mercadorias,105573035,2.962,5,direct
+2010,100630,Arroz,74041864,2.077,6,direct
+2010,100190,100190,64226528,1.802,7,direct
+2010,151110,Óleo de palma,52083758,1.461,8,direct
+2010,252329,"Cement; portland, other than white, whether or not artificially coloured",36701592,1.03,9,direct
+2010,870323,Automóveis de passageiros,34569799,0.97,10,direct
+2010,271019,Combustíveis refinados,322274330,6.104,1,mirror
+2010,271011,Combustíveis refinados,204973606,3.882,2,mirror
+2010,100630,Arroz,140672760,2.665,3,mirror
+2010,271600,Electrical energy,130703563,2.476,4,mirror
+2010,100190,100190,120407022,2.281,5,mirror
+2010,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",83015268,1.572,6,mirror
+2010,271312,Coque de petróleo e betume,68046179,1.289,7,mirror
+2010,870421,Veículos de mercadorias,58074415,1.1,8,mirror
+2010,300490,Medicamentos,52592401,0.996,9,mirror
+2010,999999,Commodities not specified according to kind,34046668,0.645,10,mirror
+2011,271019,Combustíveis refinados,861190000,13.657,1,direct
+2011,760110,Alumínio em bruto,601401000,9.537,2,direct
+2011,271600,Electrical energy,314163000,4.982,3,direct
+2011,271011,Combustíveis refinados,235679000,3.738,4,direct
+2011,870421,Veículos de mercadorias,144755000,2.296,5,direct
+2011,842951,Front-end shovel loaders,137500000,2.181,6,direct
+2011,100630,Arroz,134791000,2.138,7,direct
+2011,100190,100190,130501000,2.07,8,direct
+2011,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",108462000,1.72,9,direct
+2011,300490,Medicamentos,104424000,1.656,10,direct
+2011,271011,Combustíveis refinados,367574428,5.093,1,mirror
+2011,271019,Combustíveis refinados,231741575,3.211,2,mirror
+2011,271600,Electrical energy,202629805,2.808,3,mirror
+2011,100190,100190,177936376,2.465,4,mirror
+2011,100630,Arroz,175607761,2.433,5,mirror
+2011,271312,Coque de petróleo e betume,116577128,1.615,6,mirror
+2011,999999,Commodities not specified according to kind,98252093,1.361,7,mirror
+2011,300490,Medicamentos,80119987,1.11,8,mirror
+2011,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",77955959,1.08,9,mirror
+2011,870421,Veículos de mercadorias,71331754,0.988,10,mirror
+2012,271019,Combustíveis refinados,885136340,14.329,1,direct
+2012,271600,Electrical energy,306310370,4.959,2,direct
+2012,760110,Alumínio em bruto,295300017,4.78,3,direct
+2012,760410,"Aluminium; (not alloyed), bars, rods and profiles",266406460,4.313,4,direct
+2012,271011,Combustíveis refinados,249445030,4.038,5,direct
+2012,230110,"Flours, meals and pellets; of meat or meat offal, greaves",233354340,3.778,6,direct
+2012,731512,"Chain; articulated link, (other than roller), of iron or steel",214526880,3.473,7,direct
+2012,870421,Veículos de mercadorias,130165980,2.107,8,direct
+2012,100190,100190,103328480,1.673,9,direct
+2012,100630,Arroz,93412970,1.512,10,direct
+2012,271019,Combustíveis refinados,550404809,6.977,1,mirror
+2012,271600,Electrical energy,225480855,2.858,2,mirror
+2012,100630,Arroz,220384192,2.794,3,mirror
+2012,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",149337334,1.893,4,mirror
+2012,271012,Combustíveis refinados,117436953,1.489,5,mirror
+2012,999999,Commodities not specified according to kind,109995640,1.394,6,mirror
+2012,271011,Combustíveis refinados,97807898,1.24,7,mirror
+2012,870421,Veículos de mercadorias,91948876,1.166,8,mirror
+2012,300490,Medicamentos,88419783,1.121,9,mirror
+2012,271312,Coque de petróleo e betume,78369456,0.993,10,mirror
+2013,271019,Combustíveis refinados,1591705391,15.761,1,direct
+2013,902710,"Instruments and apparatus; gas or smoke analysis apparatus, for physical or chemical analysis",969989280,9.605,2,direct
+2013,271113,Gás natural e outros gases de petróleo,570175455,5.646,3,direct
+2013,760110,Alumínio em bruto,488136060,4.833,4,direct
+2013,271011,Combustíveis refinados,470095440,4.655,5,direct
+2013,271600,Electrical energy,292365582,2.895,6,direct
+2013,100630,Arroz,243217530,2.408,7,direct
+2013,870421,Veículos de mercadorias,217786640,2.156,8,direct
+2013,100190,100190,136931680,1.356,9,direct
+2013,300490,Medicamentos,124396330,1.232,10,direct
+2013,271019,Combustíveis refinados,1651824237,16.163,1,mirror
+2013,271012,Combustíveis refinados,771199934,7.546,2,mirror
+2013,271600,Electrical energy,274351364,2.684,3,mirror
+2013,100630,Arroz,232339409,2.273,4,mirror
+2013,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",214498716,2.099,5,mirror
+2013,870421,Veículos de mercadorias,112894859,1.105,6,mirror
+2013,271312,Coque de petróleo e betume,75839703,0.742,7,mirror
+2013,999999,Commodities not specified according to kind,70003220,0.685,8,mirror
+2013,300490,Medicamentos,64734487,0.633,9,mirror
+2013,630900,"Clothing; worn, and other worn articles",62028093,0.607,10,mirror
+2014,271019,Combustíveis refinados,1033946417,11.826,1,direct
+2014,760110,Alumínio em bruto,528996210,6.05,2,direct
+2014,271011,Combustíveis refinados,312329740,3.572,3,direct
+2014,271600,Electrical energy,269672130,3.084,4,direct
+2014,870421,Veículos de mercadorias,242592350,2.775,5,direct
+2014,100630,Arroz,187175730,2.141,6,direct
+2014,100190,100190,146454700,1.675,7,direct
+2014,300490,Medicamentos,132776140,1.519,8,direct
+2014,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",111669860,1.277,9,direct
+2014,151110,Óleo de palma,92811080,1.062,10,direct
+2014,271019,Combustíveis refinados,1734718010,14.215,1,mirror
+2014,271012,Combustíveis refinados,716924276,5.875,2,mirror
+2014,271600,Electrical energy,312261342,2.559,3,mirror
+2014,100630,Arroz,250760251,2.055,4,mirror
+2014,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",168569524,1.381,5,mirror
+2014,300490,Medicamentos,135212416,1.108,6,mirror
+2014,870421,Veículos de mercadorias,131256688,1.076,7,mirror
+2014,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",92096552,0.755,8,mirror
+2014,999999,Commodities not specified according to kind,87361120,0.716,9,mirror
+2014,271312,Coque de petróleo e betume,67326533,0.552,10,mirror
+2015,890200,"Fishing vessels, factory ships and other vessels; for processing or preserving fishery products",527129922,6.666,1,direct
+2015,271019,Combustíveis refinados,523329195,6.618,2,direct
+2015,760110,Alumínio em bruto,469090923,5.932,3,direct
+2015,300490,Medicamentos,266535278,3.371,4,direct
+2015,271600,Electrical energy,245038191,3.099,5,direct
+2015,870421,Veículos de mercadorias,206243020,2.608,6,direct
+2015,271011,Combustíveis refinados,187349216,2.369,7,direct
+2015,100630,Arroz,149573571,1.892,8,direct
+2015,100190,100190,142506771,1.802,9,direct
+2015,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",120504959,1.524,10,direct
+2015,271019,Combustíveis refinados,1024315477,10.674,1,mirror
+2015,271012,Combustíveis refinados,308539888,3.215,2,mirror
+2015,271600,Electrical energy,225085319,2.346,3,mirror
+2015,300490,Medicamentos,193080828,2.012,4,mirror
+2015,100630,Arroz,185118669,1.929,5,mirror
+2015,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",123900550,1.291,6,mirror
+2015,870421,Veículos de mercadorias,89925615,0.937,7,mirror
+2015,999999,Commodities not specified according to kind,83585519,0.871,8,mirror
+2015,271312,Coque de petróleo e betume,65883241,0.687,9,mirror
+2015,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",63322016,0.66,10,mirror
+2016,271019,Combustíveis refinados,525434517,9.923,1,direct
+2016,271600,Electrical energy,193538147,3.655,2,direct
+2016,300490,Medicamentos,162787797,3.074,3,direct
+2016,271011,Combustíveis refinados,158328388,2.99,4,direct
+2016,282612,Fluorides; of aluminium,140607891,2.655,5,direct
+2016,100630,Arroz,138426519,2.614,6,direct
+2016,760110,Alumínio em bruto,105292074,1.988,7,direct
+2016,100190,100190,102166196,1.929,8,direct
+2016,870421,Veículos de mercadorias,73842967,1.394,9,direct
+2016,271312,Coque de petróleo e betume,71995320,1.36,10,direct
+2016,271019,Combustíveis refinados,639524239,8.65,1,mirror
+2016,271012,Combustíveis refinados,293061566,3.964,2,mirror
+2016,271600,Electrical energy,227535951,3.078,3,mirror
+2016,100630,Arroz,223879838,3.028,4,mirror
+2016,300490,Medicamentos,187281546,2.533,5,mirror
+2016,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",126357289,1.709,6,mirror
+2016,999999,Commodities not specified according to kind,68050426,0.92,7,mirror
+2016,252310,Cement clinkers (whether or not coloured),60095817,0.813,8,mirror
+2016,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",52130702,0.705,9,mirror
+2016,271312,Coque de petróleo e betume,51870612,0.702,10,mirror
+2017,271019,Combustíveis refinados,672914233,11.72,1,direct
+2017,760110,Alumínio em bruto,472895591,8.237,2,direct
+2017,271600,Electrical energy,269056110,4.686,3,direct
+2017,271012,Combustíveis refinados,256522411,4.468,4,direct
+2017,890690,"Vessels; other, including lifeboats other than rowing boats, other than warships",210121798,3.66,5,direct
+2017,999999,Commodities not specified according to kind,195101547,3.398,6,direct
+2017,100630,Arroz,182600752,3.18,7,direct
+2017,300490,Medicamentos,151556904,2.64,8,direct
+2017,870421,Veículos de mercadorias,70161931,1.222,9,direct
+2017,252310,Cement clinkers (whether or not coloured),59787995,1.041,10,direct
+2017,271019,Combustíveis refinados,808530418,9.349,1,mirror
+2017,271012,Combustíveis refinados,458570622,5.302,2,mirror
+2017,271600,Electrical energy,269642682,3.118,3,mirror
+2017,100630,Arroz,264812409,3.062,4,mirror
+2017,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",151141344,1.748,5,mirror
+2017,300490,Medicamentos,77919511,0.901,6,mirror
+2017,271113,Gás natural e outros gases de petróleo,58439910,0.676,7,mirror
+2017,271312,Coque de petróleo e betume,57180589,0.661,8,mirror
+2017,999999,Commodities not specified according to kind,54621709,0.632,9,mirror
+2017,630900,"Clothing; worn, and other worn articles",46247858,0.535,10,mirror
+2018,271019,Combustíveis refinados,827562273,10.706,1,direct
+2018,760110,Alumínio em bruto,476381140,6.163,2,direct
+2018,271012,Combustíveis refinados,475932615,6.157,3,direct
+2018,271600,Electrical energy,241851874,3.129,4,direct
+2018,100630,Arroz,218571283,2.828,5,direct
+2018,300490,Medicamentos,144714631,1.872,6,direct
+2018,999999,Commodities not specified according to kind,140917083,1.823,7,direct
+2018,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",104671483,1.354,8,direct
+2018,870421,Veículos de mercadorias,104080968,1.347,9,direct
+2018,870120,870120,97697398,1.264,10,direct
+2018,271019,Combustíveis refinados,711857663,7.15,1,mirror
+2018,271012,Combustíveis refinados,297115404,2.984,2,mirror
+2018,999999,Commodities not specified according to kind,292278862,2.936,3,mirror
+2018,271600,Electrical energy,260908148,2.62,4,mirror
+2018,100630,Arroz,217785552,2.187,5,mirror
+2018,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",139982220,1.406,6,mirror
+2018,300490,Medicamentos,97105482,0.975,7,mirror
+2018,271312,Coque de petróleo e betume,80212340,0.806,8,mirror
+2018,870421,Veículos de mercadorias,60313319,0.606,9,mirror
+2018,630900,"Clothing; worn, and other worn articles",48067336,0.483,10,mirror
+2019,271019,Combustíveis refinados,907554342,11.788,1,direct
+2019,100630,Arroz,239481882,3.111,2,direct
+2019,282612,Fluorides; of aluminium,219991993,2.857,3,direct
+2019,271012,Combustíveis refinados,197502518,2.565,4,direct
+2019,271600,Electrical energy,171559894,2.228,5,direct
+2019,151110,Óleo de palma,154742961,2.01,6,direct
+2019,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",152028704,1.975,7,direct
+2019,300490,Medicamentos,148160950,1.924,8,direct
+2019,870421,Veículos de mercadorias,143877380,1.869,9,direct
+2019,271312,Coque de petróleo e betume,102654955,1.333,10,direct
+2019,271019,Combustíveis refinados,2091923015,16.979,1,mirror
+2019,271012,Combustíveis refinados,445955673,3.62,2,mirror
+2019,271600,Electrical energy,316607178,2.57,3,mirror
+2019,100630,Arroz,243172640,1.974,4,mirror
+2019,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",130139989,1.056,5,mirror
+2019,300490,Medicamentos,103439472,0.84,6,mirror
+2019,999999,Commodities not specified according to kind,81985994,0.665,7,mirror
+2019,870421,Veículos de mercadorias,79046448,0.642,8,mirror
+2019,271312,Coque de petróleo e betume,59352454,0.482,9,mirror
+2019,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",54106746,0.439,10,mirror
+2020,271019,Combustíveis refinados,467906176,7.183,1,direct
+2020,100630,Arroz,247402997,3.798,2,direct
+2020,300490,Medicamentos,225953090,3.469,3,direct
+2020,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",207023812,3.178,4,direct
+2020,271600,Electrical energy,205864939,3.16,5,direct
+2020,282612,Fluorides; of aluminium,177405893,2.723,6,direct
+2020,151110,Óleo de palma,163588472,2.511,7,direct
+2020,271012,Combustíveis refinados,160275895,2.46,8,direct
+2020,870421,Veículos de mercadorias,94728620,1.454,9,direct
+2020,252310,Cement clinkers (whether or not coloured),94137646,1.445,10,direct
+2020,271019,Combustíveis refinados,1292022045,11.752,1,mirror
+2020,271600,Electrical energy,256224904,2.331,2,mirror
+2020,100630,Arroz,254511359,2.315,3,mirror
+2020,271012,Combustíveis refinados,229593393,2.088,4,mirror
+2020,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",207278526,1.885,5,mirror
+2020,999999,Commodities not specified according to kind,198956583,1.81,6,mirror
+2020,300490,Medicamentos,147874697,1.345,7,mirror
+2020,630900,"Clothing; worn, and other worn articles",68086474,0.619,8,mirror
+2020,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",60839933,0.553,9,mirror
+2020,870421,Veículos de mercadorias,53905091,0.49,10,mirror
+2021,271019,Combustíveis refinados,815253425,9.309,1,direct
+2021,100630,Arroz,373789974,4.268,2,direct
+2021,151110,Óleo de palma,282137338,3.221,3,direct
+2021,271600,Electrical energy,279311585,3.189,4,direct
+2021,271012,Combustíveis refinados,274299665,3.132,5,direct
+2021,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",237563311,2.713,6,direct
+2021,282612,Fluorides; of aluminium,229412296,2.619,7,direct
+2021,300490,Medicamentos,191487385,2.186,8,direct
+2021,870421,Veículos de mercadorias,133204525,1.521,9,direct
+2021,282619,Fluorides; other than of aluminium,132670104,1.515,10,direct
+2021,271019,Combustíveis refinados,1617595065,9.387,1,mirror
+2021,271012,Combustíveis refinados,377410071,2.19,2,mirror
+2021,271600,Electrical energy,291070647,1.689,3,mirror
+2021,100630,Arroz,290294924,1.685,4,mirror
+2021,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",181730905,1.055,5,mirror
+2021,999999,Commodities not specified according to kind,146065539,0.848,6,mirror
+2021,300490,Medicamentos,130629061,0.758,7,mirror
+2021,630900,"Clothing; worn, and other worn articles",98671974,0.573,8,mirror
+2021,271312,Coque de petróleo e betume,83030843,0.482,9,mirror
+2021,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",73185135,0.425,10,mirror
+2022,890590,"Vessels; light, fire-floats, floating cranes and other vessels, the navigability of which is subsidiary to their main function, floating docks",4666447242,31.807,1,direct
+2022,271019,Combustíveis refinados,1838146154,12.529,2,direct
+2022,282612,Fluorides; of aluminium,512525244,3.493,3,direct
+2022,271012,Combustíveis refinados,433289716,2.953,4,direct
+2022,100630,Arroz,315775370,2.152,5,direct
+2022,151110,Óleo de palma,272582204,1.858,6,direct
+2022,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",258158817,1.76,7,direct
+2022,271600,Electrical energy,223847524,1.526,8,direct
+2022,300490,Medicamentos,186228555,1.269,9,direct
+2022,271312,Coque de petróleo e betume,164753308,1.123,10,direct
+2022,271019,Combustíveis refinados,2489247669,13.715,1,mirror
+2022,271012,Combustíveis refinados,682300074,3.759,2,mirror
+2022,271600,Electrical energy,318310859,1.754,3,mirror
+2022,100630,Arroz,256606866,1.414,4,mirror
+2022,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",208696700,1.15,5,mirror
+2022,271312,Coque de petróleo e betume,136810599,0.754,6,mirror
+2022,300490,Medicamentos,133261196,0.734,7,mirror
+2022,630900,"Clothing; worn, and other worn articles",91540868,0.504,8,mirror
+2022,870421,Veículos de mercadorias,77620502,0.428,9,mirror
+2022,999999,Commodities not specified according to kind,66998829,0.369,10,mirror
+2023,271019,Combustíveis refinados,1258695000,12.472,1,direct
+2023,271012,Combustíveis refinados,392034000,3.885,2,direct
+2023,282612,Fluorides; of aluminium,380475000,3.77,3,direct
+2023,100630,Arroz,347989000,3.448,4,direct
+2023,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",255296000,2.53,5,direct
+2023,151110,Óleo de palma,249061000,2.468,6,direct
+2023,300490,Medicamentos,219319000,2.173,7,direct
+2023,271600,Electrical energy,209954000,2.08,8,direct
+2023,820130,"Tools, hand; mattocks, picks, hoes and rakes",191434000,1.897,9,direct
+2023,870421,Veículos de mercadorias,157602000,1.562,10,direct
+2023,271019,Combustíveis refinados,1771005604,9.525,1,mirror
+2023,271012,Combustíveis refinados,739743127,3.979,2,mirror
+2023,100630,Arroz,322508081,1.735,3,mirror
+2023,271600,Electrical energy,293063676,1.576,4,mirror
+2023,300490,Medicamentos,171892464,0.924,5,mirror
+2023,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",163387167,0.879,6,mirror
+2023,271312,Coque de petróleo e betume,120056573,0.646,7,mirror
+2023,630900,"Clothing; worn, and other worn articles",82488617,0.444,8,mirror
+2023,870421,Veículos de mercadorias,79551091,0.428,9,mirror
+2023,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",71013891,0.382,10,mirror
+2024,271019,Combustíveis refinados,1045585702,11.349,1,direct
+2024,100630,Arroz,469519123,5.096,2,direct
+2024,271012,Combustíveis refinados,381867673,4.145,3,direct
+2024,151110,Óleo de palma,215747192,2.342,4,direct
+2024,271600,Electrical energy,209113485,2.27,5,direct
+2024,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",206712746,2.244,6,direct
+2024,271312,Coque de petróleo e betume,188976984,2.051,7,direct
+2024,282612,Fluorides; of aluminium,176720537,1.918,8,direct
+2024,870421,Veículos de mercadorias,132825052,1.442,9,direct
+2024,300490,Medicamentos,131117579,1.423,10,direct
+2024,271019,Combustíveis refinados,815165725,5.295,1,mirror
+2024,271012,Combustíveis refinados,456227716,2.963,2,mirror
+2024,100630,Arroz,422989419,2.747,3,mirror
+2024,271600,Electrical energy,273890852,1.779,4,mirror
+2024,999999,Commodities not specified according to kind,229100384,1.488,5,mirror
+2024,300490,Medicamentos,130118845,0.845,6,mirror
+2024,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",99943163,0.649,7,mirror
+2024,271312,Coque de petróleo e betume,94900802,0.616,8,mirror
+2024,630900,"Clothing; worn, and other worn articles",83357116,0.541,9,mirror
+2024,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",76610413,0.498,10,mirror

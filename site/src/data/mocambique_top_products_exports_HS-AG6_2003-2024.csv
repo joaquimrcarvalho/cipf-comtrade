@@ -1,0 +1,441 @@
+year,hs6,description_pt,value,share_pct,rank,basis
+2003,760110,Alumínio em bruto,567600000,54.372,1,direct
+2003,271600,Electrical energy,113219289,10.846,2,direct
+2003,030613,Crustáceos,75747916,7.256,3,direct
+2003,240110,Tabaco não manufaturado,20250934,1.94,4,direct
+2003,520100,Algodão em fibra,20168825,1.932,5,direct
+2003,271019,Combustíveis refinados,18099303,1.734,6,direct
+2003,520300,Cotton; carded or combed,17081726,1.636,7,direct
+2003,170111,Açúcar de cana ou de beterraba,16093291,1.542,8,direct
+2003,030219,Peixe fresco ou refrigerado,14202161,1.36,9,direct
+2003,610910,"T-shirts, singlets and other vests; of cotton, knitted or crocheted",9478132,0.908,10,direct
+2003,760110,Alumínio em bruto,586214981,53.608,1,mirror
+2003,030613,Crustáceos,83417826,7.628,2,mirror
+2003,760120,Alumínio em bruto,65738578,6.012,3,mirror
+2003,271600,Electrical energy,41191515,3.767,4,mirror
+2003,240120,Tabaco não manufaturado,40427337,3.697,5,mirror
+2003,520100,Algodão em fibra,34177234,3.125,6,mirror
+2003,080131,"Cocos, castanhas de caju e nozes",20515669,1.876,7,mirror
+2003,999999,Commodities not specified according to kind,16942922,1.549,8,mirror
+2003,170111,Açúcar de cana ou de beterraba,16765172,1.533,9,mirror
+2003,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",7552125,0.691,10,mirror
+2004,760429,"Aluminium; alloys, bars, rods and profiles, other than hollow",915014125,60.845,1,direct
+2004,271600,Electrical energy,102251931,6.799,2,direct
+2004,030613,Crustáceos,91505574,6.085,3,direct
+2004,271019,Combustíveis refinados,39963482,2.657,4,direct
+2004,271121,Gás natural e outros gases de petróleo,31273032,2.08,5,direct
+2004,240110,Tabaco não manufaturado,30309915,2.015,6,direct
+2004,170111,Açúcar de cana ou de beterraba,23576399,1.568,7,direct
+2004,080131,"Cocos, castanhas de caju e nozes",21209189,1.41,8,direct
+2004,520100,Algodão em fibra,19922435,1.325,9,direct
+2004,440399,Madeira em bruto,14848951,0.987,10,direct
+2004,760110,Alumínio em bruto,987894622,58.914,1,mirror
+2004,760120,Alumínio em bruto,93402942,5.57,2,mirror
+2004,030613,Crustáceos,78143560,4.66,3,mirror
+2004,240120,Tabaco não manufaturado,44775709,2.67,4,mirror
+2004,271019,Combustíveis refinados,31237440,1.863,5,mirror
+2004,080131,"Cocos, castanhas de caju e nozes",29763930,1.775,6,mirror
+2004,520100,Algodão em fibra,28217865,1.683,7,mirror
+2004,170111,Açúcar de cana ou de beterraba,22172946,1.322,8,mirror
+2004,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",12537357,0.748,9,mirror
+2004,120740,"Oil seeds; sesamum seeds, whether or not broken",10072867,0.601,10,mirror
+2005,760110,Alumínio em bruto,1020548586,58.476,1,direct
+2005,271600,Electrical energy,141800425,8.125,2,direct
+2005,271121,Gás natural e outros gases de petróleo,100158083,5.739,3,direct
+2005,030613,Crustáceos,71670586,4.107,4,direct
+2005,520100,Algodão em fibra,40377712,2.314,5,direct
+2005,240110,Tabaco não manufaturado,38736128,2.22,6,direct
+2005,170111,Açúcar de cana ou de beterraba,37700267,2.16,7,direct
+2005,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",18548017,1.063,8,direct
+2005,080131,"Cocos, castanhas de caju e nozes",17531806,1.005,9,direct
+2005,090240,Chá,16993858,0.974,10,direct
+2005,760110,Alumínio em bruto,1172106924,55.425,1,mirror
+2005,271600,Electrical energy,157886245,7.466,2,mirror
+2005,760120,Alumínio em bruto,114985137,5.437,3,mirror
+2005,030613,Crustáceos,103066396,4.874,4,mirror
+2005,240120,Tabaco não manufaturado,69277842,3.276,5,mirror
+2005,170111,Açúcar de cana ou de beterraba,34179462,1.616,6,mirror
+2005,080131,"Cocos, castanhas de caju e nozes",27683576,1.309,7,mirror
+2005,520100,Algodão em fibra,27275273,1.29,8,mirror
+2005,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",20729033,0.98,9,mirror
+2005,271019,Combustíveis refinados,13720049,0.649,10,mirror
+2006,760110,Alumínio em bruto,1401314661,58.851,1,direct
+2006,271600,Electrical energy,177829989,7.468,2,direct
+2006,271121,Gás natural e outros gases de petróleo,109605547,4.603,3,direct
+2006,030613,Crustáceos,86268693,3.623,4,direct
+2006,240120,Tabaco não manufaturado,78842114,3.311,5,direct
+2006,271019,Combustíveis refinados,48781332,2.049,6,direct
+2006,999999,Commodities not specified according to kind,37600646,1.579,7,direct
+2006,520100,Algodão em fibra,36841473,1.547,8,direct
+2006,240110,Tabaco não manufaturado,31466751,1.322,9,direct
+2006,170111,Açúcar de cana ou de beterraba,30535299,1.282,10,direct
+2006,760110,Alumínio em bruto,1528176794,58.707,1,mirror
+2006,760120,Alumínio em bruto,117170054,4.501,2,mirror
+2006,240120,Tabaco não manufaturado,110664523,4.251,3,mirror
+2006,271019,Combustíveis refinados,108299313,4.16,4,mirror
+2006,030613,Crustáceos,95951677,3.686,5,mirror
+2006,999999,Commodities not specified according to kind,49895889,1.917,6,mirror
+2006,170111,Açúcar de cana ou de beterraba,41732774,1.603,7,mirror
+2006,520100,Algodão em fibra,37493878,1.44,8,mirror
+2006,080131,"Cocos, castanhas de caju e nozes",20145457,0.774,9,mirror
+2006,271600,Electrical energy,14681309,0.564,10,mirror
+2007,760110,Alumínio em bruto,1515924885,62.847,1,direct
+2007,271600,Electrical energy,225286769,9.34,2,direct
+2007,271121,Gás natural e outros gases de petróleo,110889096,4.597,3,direct
+2007,030613,Crustáceos,61690736,2.558,4,direct
+2007,170111,Açúcar de cana ou de beterraba,59029369,2.447,5,direct
+2007,240120,Tabaco não manufaturado,43314523,1.796,6,direct
+2007,271019,Combustíveis refinados,29677875,1.23,7,direct
+2007,520100,Algodão em fibra,19597177,0.812,8,direct
+2007,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",17791720,0.738,9,direct
+2007,999999,Commodities not specified according to kind,17730929,0.735,10,direct
+2007,760110,Alumínio em bruto,1603959571,50.364,1,mirror
+2007,240120,Tabaco não manufaturado,151703378,4.763,2,mirror
+2007,760120,Alumínio em bruto,148289560,4.656,3,mirror
+2007,271111,Gás natural e outros gases de petróleo,118361692,3.717,4,mirror
+2007,271600,Electrical energy,117730024,3.697,5,mirror
+2007,271019,Combustíveis refinados,106423860,3.342,6,mirror
+2007,030613,Crustáceos,96039059,3.016,7,mirror
+2007,999999,Commodities not specified according to kind,79087378,2.483,8,mirror
+2007,170111,Açúcar de cana ou de beterraba,65032769,2.042,9,mirror
+2007,520100,Algodão em fibra,48368400,1.519,10,mirror
+2008,760120,Alumínio em bruto,1451846140,54.719,1,direct
+2008,271600,Electrical energy,226369015,8.532,2,direct
+2008,999999,Commodities not specified according to kind,198959415,7.499,3,direct
+2008,240120,Tabaco não manufaturado,164784631,6.211,4,direct
+2008,030613,Crustáceos,61949485,2.335,5,direct
+2008,271019,Combustíveis refinados,50673555,1.91,6,direct
+2008,520100,Algodão em fibra,50414766,1.9,7,direct
+2008,120740,"Oil seeds; sesamum seeds, whether or not broken",30577264,1.152,8,direct
+2008,261400,Titanium ores and concentrates,28803712,1.086,9,direct
+2008,240110,Tabaco não manufaturado,28256035,1.065,10,direct
+2008,760110,Alumínio em bruto,1053995534,37.211,1,mirror
+2008,271600,Electrical energy,181402445,6.404,2,mirror
+2008,271111,Gás natural e outros gases de petróleo,167824123,5.925,3,mirror
+2008,999999,Commodities not specified according to kind,115577282,4.08,4,mirror
+2008,760120,Alumínio em bruto,109972878,3.883,5,mirror
+2008,240120,Tabaco não manufaturado,109026605,3.849,6,mirror
+2008,030613,Crustáceos,103654805,3.66,7,mirror
+2008,170111,Açúcar de cana ou de beterraba,93511455,3.301,8,mirror
+2008,271019,Combustíveis refinados,57037471,2.014,9,mirror
+2008,520100,Algodão em fibra,45717422,1.614,10,mirror
+2009,999999,Commodities not specified according to kind,867748512,40.414,1,direct
+2009,271600,Electrical energy,274386680,12.779,2,direct
+2009,240120,Tabaco não manufaturado,154552370,7.198,3,direct
+2009,271111,Gás natural e outros gases de petróleo,77530311,3.611,4,direct
+2009,170111,Açúcar de cana ou de beterraba,58310000,2.716,5,direct
+2009,030613,Crustáceos,53323510,2.483,6,direct
+2009,261400,Titanium ores and concentrates,43810979,2.04,7,direct
+2009,120740,"Oil seeds; sesamum seeds, whether or not broken",39140037,1.823,8,direct
+2009,520100,Algodão em fibra,26490439,1.234,9,direct
+2009,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24915754,1.16,10,direct
+2009,760110,Alumínio em bruto,945593035,37.714,1,mirror
+2009,271600,Electrical energy,217580244,8.678,2,mirror
+2009,240120,Tabaco não manufaturado,134796224,5.376,3,mirror
+2009,271111,Gás natural e outros gases de petróleo,132120950,5.269,4,mirror
+2009,999999,Commodities not specified according to kind,62217626,2.481,5,mirror
+2009,271019,Combustíveis refinados,61584994,2.456,6,mirror
+2009,030613,Crustáceos,59938481,2.391,7,mirror
+2009,170111,Açúcar de cana ou de beterraba,59531894,2.374,8,mirror
+2009,120740,"Oil seeds; sesamum seeds, whether or not broken",52120210,2.079,9,mirror
+2009,760120,Alumínio em bruto,35510153,1.416,10,mirror
+2010,760110,Alumínio em bruto,1159636909,51.699,1,direct
+2010,271600,Electrical energy,276543971,12.329,2,direct
+2010,271111,Gás natural e outros gases de petróleo,133830440,5.966,3,direct
+2010,240120,Tabaco não manufaturado,132139337,5.891,4,direct
+2010,999999,Commodities not specified according to kind,83654609,3.729,5,direct
+2010,030613,Crustáceos,49359356,2.201,6,direct
+2010,271019,Combustíveis refinados,33849369,1.509,7,direct
+2010,440729,Madeira serrada,30419181,1.356,8,direct
+2010,500100,Silk; silk-worm cocoons suitable for reeling,29057262,1.295,9,direct
+2010,261400,Titanium ores and concentrates,19709095,0.879,10,direct
+2010,760110,Alumínio em bruto,1203846212,39.955,1,mirror
+2010,271600,Electrical energy,266332427,8.839,2,mirror
+2010,271111,Gás natural e outros gases de petróleo,174626888,5.796,3,mirror
+2010,240120,Tabaco não manufaturado,155052688,5.146,4,mirror
+2010,261400,Titanium ores and concentrates,76335820,2.534,5,mirror
+2010,170111,Açúcar de cana ou de beterraba,72198189,2.396,6,mirror
+2010,030613,Crustáceos,60435469,2.006,7,mirror
+2010,271019,Combustíveis refinados,58448723,1.94,8,mirror
+2010,760120,Alumínio em bruto,54178271,1.798,9,mirror
+2010,520100,Algodão em fibra,39683634,1.317,10,mirror
+2011,760410,"Aluminium; (not alloyed), bars, rods and profiles",1348631000,37.419,1,direct
+2011,271600,Electrical energy,297198000,8.246,2,direct
+2011,760110,Alumínio em bruto,276103000,7.661,3,direct
+2011,240120,Tabaco não manufaturado,174704000,4.847,4,direct
+2011,080300,080300,168776000,4.683,5,direct
+2011,271111,Gás natural e outros gases de petróleo,160874000,4.464,6,direct
+2011,261400,Titanium ores and concentrates,121975000,3.384,7,direct
+2011,440729,Madeira serrada,112216000,3.114,8,direct
+2011,170111,Açúcar de cana ou de beterraba,87522000,2.428,9,direct
+2011,271019,Combustíveis refinados,71449000,1.982,10,direct
+2011,760110,Alumínio em bruto,1019333286,26.81,1,mirror
+2011,271600,Electrical energy,292469315,7.693,2,mirror
+2011,240120,Tabaco não manufaturado,219504845,5.773,3,mirror
+2011,271111,Gás natural e outros gases de petróleo,214548765,5.643,4,mirror
+2011,170111,Açúcar de cana ou de beterraba,110768096,2.913,5,mirror
+2011,261400,Titanium ores and concentrates,110235236,2.899,6,mirror
+2011,760120,Alumínio em bruto,69860691,1.837,7,mirror
+2011,999999,Commodities not specified according to kind,65132600,1.713,8,mirror
+2011,030613,Crustáceos,64970717,1.709,9,mirror
+2011,261510,Zirconium ores and concentrates,64177468,1.688,10,mirror
+2012,760410,"Aluminium; (not alloyed), bars, rods and profiles",1088631076,31.374,1,direct
+2012,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",435233161,12.543,2,direct
+2012,271600,Electrical energy,233409767,6.727,3,direct
+2012,240120,Tabaco não manufaturado,219100344,6.314,4,direct
+2012,261400,Titanium ores and concentrates,211504785,6.095,5,direct
+2012,271111,Gás natural e outros gases de petróleo,175058498,5.045,6,direct
+2012,170111,Açúcar de cana ou de beterraba,146104665,4.211,7,direct
+2012,380290,"Chemical products; activated natural mineral products, animal black, including spent animal black",111065062,3.201,8,direct
+2012,901590,Surveying equipment; parts and accessories for articles of heading no. 9015,100988397,2.91,9,direct
+2012,271121,Gás natural e outros gases de petróleo,73100322,2.107,10,direct
+2012,760110,Alumínio em bruto,817922127,17.835,1,mirror
+2012,271111,Gás natural e outros gases de petróleo,246112414,5.367,2,mirror
+2012,271600,Electrical energy,241510595,5.266,3,mirror
+2012,240120,Tabaco não manufaturado,225224046,4.911,4,mirror
+2012,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",212595110,4.636,5,mirror
+2012,261400,Titanium ores and concentrates,164194824,3.58,6,mirror
+2012,999999,Commodities not specified according to kind,143377315,3.126,7,mirror
+2012,261510,Zirconium ores and concentrates,81903769,1.786,8,mirror
+2012,760120,Alumínio em bruto,72911317,1.59,9,mirror
+2012,271019,Combustíveis refinados,71862796,1.567,10,mirror
+2013,760410,"Aluminium; (not alloyed), bars, rods and profiles",1063192908,26.423,1,direct
+2013,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",526582497,13.087,2,direct
+2013,271121,Gás natural e outros gases de petróleo,281371209,6.993,3,direct
+2013,271600,Electrical energy,275542886,6.848,4,direct
+2013,240120,Tabaco não manufaturado,249878980,6.21,5,direct
+2013,170111,Açúcar de cana ou de beterraba,185708447,4.615,6,direct
+2013,271111,Gás natural e outros gases de petróleo,164036430,4.077,7,direct
+2013,890190,Navios,126862551,3.153,8,direct
+2013,261400,Titanium ores and concentrates,126559416,3.145,9,direct
+2013,271019,Combustíveis refinados,87420930,2.173,10,direct
+2013,760110,Alumínio em bruto,1142394489,21.879,1,mirror
+2013,240120,Tabaco não manufaturado,274527908,5.258,2,mirror
+2013,271111,Gás natural e outros gases de petróleo,250559517,4.799,3,mirror
+2013,271600,Electrical energy,233933910,4.48,4,mirror
+2013,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",175749875,3.366,5,mirror
+2013,261400,Titanium ores and concentrates,151924981,2.91,6,mirror
+2013,520100,Algodão em fibra,125541414,2.404,7,mirror
+2013,271019,Combustíveis refinados,62492073,1.197,8,mirror
+2013,120740,"Oil seeds; sesamum seeds, whether or not broken",59102722,1.132,9,mirror
+2013,999999,Commodities not specified according to kind,42485808,0.814,10,mirror
+2014,760410,"Aluminium; (not alloyed), bars, rods and profiles",1045677000,22.129,1,direct
+2014,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",484117440,10.245,2,direct
+2014,380290,"Chemical products; activated natural mineral products, animal black, including spent animal black",433493660,9.174,3,direct
+2014,760110,Alumínio em bruto,366578490,7.758,4,direct
+2014,271600,Electrical energy,301190553,6.374,5,direct
+2014,271111,Gás natural e outros gases de petróleo,295333241,6.25,6,direct
+2014,271121,Gás natural e outros gases de petróleo,253456860,5.364,7,direct
+2014,240120,Tabaco não manufaturado,251408722,5.32,8,direct
+2014,261400,Titanium ores and concentrates,134307156,2.842,9,direct
+2014,170111,Açúcar de cana ou de beterraba,81668505,1.728,10,direct
+2014,760110,Alumínio em bruto,1055484128,17.396,1,mirror
+2014,271111,Gás natural e outros gases de petróleo,385138688,6.348,2,mirror
+2014,271600,Electrical energy,268012602,4.417,3,mirror
+2014,240120,Tabaco não manufaturado,252857532,4.168,4,mirror
+2014,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",251425980,4.144,5,mirror
+2014,261400,Titanium ores and concentrates,166940590,2.751,6,mirror
+2014,120740,"Oil seeds; sesamum seeds, whether or not broken",117649089,1.939,7,mirror
+2014,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",71946123,1.186,8,mirror
+2014,271019,Combustíveis refinados,55704179,0.918,9,mirror
+2014,261510,Zirconium ores and concentrates,41110366,0.678,10,mirror
+2015,760410,"Aluminium; (not alloyed), bars, rods and profiles",908269706,28.113,1,direct
+2015,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",375309493,11.617,2,direct
+2015,271600,Electrical energy,332018732,10.277,3,direct
+2015,240120,Tabaco não manufaturado,285892963,8.849,4,direct
+2015,271111,Gás natural e outros gases de petróleo,231051652,7.152,5,direct
+2015,760110,Alumínio em bruto,143326540,4.436,6,direct
+2015,170111,Açúcar de cana ou de beterraba,118342031,3.663,7,direct
+2015,261400,Titanium ores and concentrates,110122896,3.409,8,direct
+2015,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",89730814,2.777,9,direct
+2015,261510,Zirconium ores and concentrates,37472038,1.16,10,direct
+2015,760110,Alumínio em bruto,844241855,19.368,1,mirror
+2015,271111,Gás natural e outros gases de petróleo,312574747,7.171,2,mirror
+2015,271600,Electrical energy,274687027,6.302,3,mirror
+2015,240120,Tabaco não manufaturado,260346068,5.973,4,mirror
+2015,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",247868567,5.686,5,mirror
+2015,261400,Titanium ores and concentrates,106716019,2.448,6,mirror
+2015,120740,"Oil seeds; sesamum seeds, whether or not broken",76609143,1.757,7,mirror
+2015,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",71805159,1.647,8,mirror
+2015,271019,Combustíveis refinados,66788581,1.532,9,mirror
+2015,261510,Zirconium ores and concentrates,61788847,1.417,10,mirror
+2016,760110,Alumínio em bruto,507633563,15.144,1,direct
+2016,380290,"Chemical products; activated natural mineral products, animal black, including spent animal black",454517939,13.559,2,direct
+2016,271600,Electrical energy,379826657,11.331,3,direct
+2016,760410,"Aluminium; (not alloyed), bars, rods and profiles",334184489,9.969,4,direct
+2016,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",258347944,7.707,5,direct
+2016,240120,Tabaco não manufaturado,225327751,6.722,6,direct
+2016,271111,Gás natural e outros gases de petróleo,221535232,6.609,7,direct
+2016,261400,Titanium ores and concentrates,138945130,4.145,8,direct
+2016,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",100578345,3.0,9,direct
+2016,271121,Gás natural e outros gases de petróleo,56952475,1.699,10,direct
+2016,760110,Alumínio em bruto,819936998,18.829,1,mirror
+2016,271600,Electrical energy,408205363,9.374,2,mirror
+2016,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",303017246,6.959,3,mirror
+2016,240120,Tabaco não manufaturado,258907489,5.946,4,mirror
+2016,271111,Gás natural e outros gases de petróleo,212545604,4.881,5,mirror
+2016,261400,Titanium ores and concentrates,104642930,2.403,6,mirror
+2016,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",96171380,2.209,7,mirror
+2016,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",83329931,1.914,8,mirror
+2016,261510,Zirconium ores and concentrates,64761583,1.487,9,mirror
+2016,271019,Combustíveis refinados,64086310,1.472,10,mirror
+2017,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",1502350024,31.596,1,direct
+2017,760110,Alumínio em bruto,699612165,14.714,2,direct
+2017,760410,"Aluminium; (not alloyed), bars, rods and profiles",393549231,8.277,3,direct
+2017,271600,Electrical energy,360787497,7.588,4,direct
+2017,271111,Gás natural e outros gases de petróleo,234033719,4.922,5,direct
+2017,240120,Tabaco não manufaturado,202724074,4.264,6,direct
+2017,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",184791216,3.886,7,direct
+2017,261400,Titanium ores and concentrates,156548154,3.292,8,direct
+2017,271121,Gás natural e outros gases de petróleo,125498561,2.639,9,direct
+2017,999999,Commodities not specified according to kind,106769727,2.245,10,direct
+2017,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",1000278974,16.526,1,mirror
+2017,760110,Alumínio em bruto,955199515,15.782,2,mirror
+2017,271111,Gás natural e outros gases de petróleo,251795477,4.16,3,mirror
+2017,240120,Tabaco não manufaturado,225544268,3.726,4,mirror
+2017,271600,Electrical energy,207039791,3.421,5,mirror
+2017,261400,Titanium ores and concentrates,174887471,2.889,6,mirror
+2017,080131,"Cocos, castanhas de caju e nozes",151710235,2.507,7,mirror
+2017,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",139768344,2.309,8,mirror
+2017,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",107790794,1.781,9,mirror
+2017,261510,Zirconium ores and concentrates,74441359,1.23,10,mirror
+2018,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",1140237698,18.889,1,direct
+2018,760410,"Aluminium; (not alloyed), bars, rods and profiles",582899556,9.656,2,direct
+2018,760110,Alumínio em bruto,565936054,9.375,3,direct
+2018,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",479184519,7.938,4,direct
+2018,271600,Electrical energy,428627648,7.101,5,direct
+2018,220850,Gin and geneva,227703540,3.772,6,direct
+2018,271121,Gás natural e outros gases de petróleo,211158528,3.498,7,direct
+2018,261400,Titanium ores and concentrates,193233611,3.201,8,direct
+2018,240120,Tabaco não manufaturado,190543099,3.156,9,direct
+2018,220421,Vinho,160259066,2.655,10,direct
+2018,760110,Alumínio em bruto,1122895923,16.71,1,mirror
+2018,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",1031422089,15.349,2,mirror
+2018,271111,Gás natural e outros gases de petróleo,310649226,4.623,3,mirror
+2018,271600,Electrical energy,270034438,4.018,4,mirror
+2018,261400,Titanium ores and concentrates,254153458,3.782,5,mirror
+2018,240120,Tabaco não manufaturado,203806675,3.033,6,mirror
+2018,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",144118217,2.145,7,mirror
+2018,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",128867040,1.918,8,mirror
+2018,261510,Zirconium ores and concentrates,105771742,1.574,9,mirror
+2018,120740,"Oil seeds; sesamum seeds, whether or not broken",93747358,1.395,10,mirror
+2019,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",1009749768,21.095,1,direct
+2019,760110,Alumínio em bruto,989966960,20.681,2,direct
+2019,271600,Electrical energy,434557719,9.078,3,direct
+2019,271111,Gás natural e outros gases de petróleo,230807472,4.822,4,direct
+2019,240120,Tabaco não manufaturado,220902023,4.615,5,direct
+2019,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",212075690,4.43,6,direct
+2019,261400,Titanium ores and concentrates,199307813,4.164,7,direct
+2019,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",121864469,2.546,8,direct
+2019,271019,Combustíveis refinados,102086142,2.133,9,direct
+2019,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",100120127,2.092,10,direct
+2019,760110,Alumínio em bruto,979096478,15.965,1,mirror
+2019,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",691655858,11.278,2,mirror
+2019,271111,Gás natural e outros gases de petróleo,317564870,5.178,3,mirror
+2019,271600,Electrical energy,295714932,4.822,4,mirror
+2019,261400,Titanium ores and concentrates,252610075,4.119,5,mirror
+2019,240120,Tabaco não manufaturado,215787623,3.519,6,mirror
+2019,120740,"Oil seeds; sesamum seeds, whether or not broken",153517240,2.503,7,mirror
+2019,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",143115483,2.334,8,mirror
+2019,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",97104161,1.583,9,mirror
+2019,261510,Zirconium ores and concentrates,93129243,1.519,10,mirror
+2020,760110,Alumínio em bruto,907299287,24.39,1,direct
+2020,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",613471521,16.491,2,direct
+2020,271600,Electrical energy,456437506,12.27,3,direct
+2020,271121,Gás natural e outros gases de petróleo,228129613,6.133,4,direct
+2020,261400,Titanium ores and concentrates,188259046,5.061,5,direct
+2020,240120,Tabaco não manufaturado,170873315,4.593,6,direct
+2020,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",71629229,1.926,7,direct
+2020,120740,"Oil seeds; sesamum seeds, whether or not broken",69234029,1.861,8,direct
+2020,170114,Açúcar de cana ou de beterraba,65871261,1.771,9,direct
+2020,261510,Zirconium ores and concentrates,50243703,1.351,10,direct
+2020,760110,Alumínio em bruto,895232590,18.162,1,mirror
+2020,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",418051359,8.481,2,mirror
+2020,261400,Titanium ores and concentrates,314144539,6.373,3,mirror
+2020,271600,Electrical energy,290374972,5.891,4,mirror
+2020,240120,Tabaco não manufaturado,238498784,4.839,5,mirror
+2020,271111,Gás natural e outros gases de petróleo,238462073,4.838,6,mirror
+2020,120740,"Oil seeds; sesamum seeds, whether or not broken",156752456,3.18,7,mirror
+2020,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",93118711,1.889,8,mirror
+2020,261510,Zirconium ores and concentrates,76431544,1.551,9,mirror
+2020,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",63484779,1.288,10,mirror
+2021,760110,Alumínio em bruto,1253045951,21.966,1,direct
+2021,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",1243850801,21.805,2,direct
+2021,271600,Electrical energy,569709171,9.987,3,direct
+2021,261400,Titanium ores and concentrates,372614207,6.532,4,direct
+2021,271121,Gás natural e outros gases de petróleo,258156567,4.526,5,direct
+2021,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",221703339,3.886,6,direct
+2021,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",158096310,2.771,7,direct
+2021,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",134532414,2.358,8,direct
+2021,240120,Tabaco não manufaturado,129549706,2.271,9,direct
+2021,071390,"Vegetables, leguminous; n.e.c. in heading no. 0713, shelled, whether or not skinned or split, dried",92544067,1.622,10,direct
+2021,760110,Alumínio em bruto,971929330,13.156,1,mirror
+2021,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",736511870,9.969,2,mirror
+2021,261400,Titanium ores and concentrates,670361646,9.074,3,mirror
+2021,271600,Electrical energy,349729026,4.734,4,mirror
+2021,271111,Gás natural e outros gases de petróleo,259936832,3.518,5,mirror
+2021,999999,Commodities not specified according to kind,256919080,3.478,6,mirror
+2021,240120,Tabaco não manufaturado,226186061,3.062,7,mirror
+2021,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",165372046,2.238,8,mirror
+2021,120740,"Oil seeds; sesamum seeds, whether or not broken",106901013,1.447,9,mirror
+2021,261510,Zirconium ores and concentrates,104501859,1.414,10,mirror
+2022,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",2004858464,24.158,1,direct
+2022,760110,Alumínio em bruto,1631157650,19.655,2,direct
+2022,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",847317468,10.21,3,direct
+2022,271600,Electrical energy,571027357,6.881,4,direct
+2022,261400,Titanium ores and concentrates,406767932,4.901,5,direct
+2022,271121,Gás natural e outros gases de petróleo,295345849,3.559,6,direct
+2022,271111,Gás natural e outros gases de petróleo,246231195,2.967,7,direct
+2022,071390,"Vegetables, leguminous; n.e.c. in heading no. 0713, shelled, whether or not skinned or split, dried",188565983,2.272,8,direct
+2022,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",185923367,2.24,9,direct
+2022,271019,Combustíveis refinados,183577456,2.212,10,direct
+2022,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",2155834664,18.965,1,mirror
+2022,760110,Alumínio em bruto,1585587839,13.948,2,mirror
+2022,261400,Titanium ores and concentrates,937902650,8.251,3,mirror
+2022,271111,Gás natural e outros gases de petróleo,580008162,5.102,4,mirror
+2022,271600,Electrical energy,382659718,3.366,5,mirror
+2022,120740,"Oil seeds; sesamum seeds, whether or not broken",208155585,1.831,6,mirror
+2022,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",206851340,1.82,7,mirror
+2022,999999,Commodities not specified according to kind,193323779,1.701,8,mirror
+2022,240120,Tabaco não manufaturado,165802887,1.459,9,mirror
+2022,271019,Combustíveis refinados,163923860,1.442,10,mirror
+2023,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",1760984000,21.278,1,direct
+2023,271111,Gás natural e outros gases de petróleo,1657942000,20.033,2,direct
+2023,760110,Alumínio em bruto,1089947000,13.17,3,direct
+2023,271600,Electrical energy,658248000,7.954,4,direct
+2023,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",464623000,5.614,5,direct
+2023,261400,Titanium ores and concentrates,371759000,4.492,6,direct
+2023,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",228057000,2.756,7,direct
+2023,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",160583000,1.94,8,direct
+2023,120740,"Oil seeds; sesamum seeds, whether or not broken",149815000,1.81,9,direct
+2023,240120,Tabaco não manufaturado,146307000,1.768,10,direct
+2023,271111,Gás natural e outros gases de petróleo,1917570760,17.716,1,mirror
+2023,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",1202976348,11.114,2,mirror
+2023,760110,Alumínio em bruto,967639498,8.94,3,mirror
+2023,261400,Titanium ores and concentrates,925076145,8.547,4,mirror
+2023,271600,Electrical energy,464160581,4.288,5,mirror
+2023,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",262194880,2.422,6,mirror
+2023,120740,"Oil seeds; sesamum seeds, whether or not broken",224958861,2.078,7,mirror
+2023,261510,Zirconium ores and concentrates,184859430,1.708,8,mirror
+2023,240120,Tabaco não manufaturado,173145663,1.6,9,mirror
+2023,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",160678312,1.485,10,mirror
+2024,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",1747416505,21.281,1,direct
+2024,271121,Gás natural e outros gases de petróleo,1426893862,17.377,2,direct
+2024,760110,Alumínio em bruto,1115901795,13.59,3,direct
+2024,271600,Electrical energy,688558570,8.386,4,direct
+2024,271111,Gás natural e outros gases de petróleo,539977562,6.576,5,direct
+2024,261400,Titanium ores and concentrates,349407746,4.255,6,direct
+2024,270400,"Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",256303142,3.121,7,direct
+2024,120740,"Oil seeds; sesamum seeds, whether or not broken",223204921,2.718,8,direct
+2024,240120,Tabaco não manufaturado,201401412,2.453,9,direct
+2024,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",159443621,1.942,10,direct
+2024,271111,Gás natural e outros gases de petróleo,2353519210,21.995,1,mirror
+2024,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",1288406784,12.041,2,mirror
+2024,760110,Alumínio em bruto,1103925838,10.317,3,mirror
+2024,261400,Titanium ores and concentrates,925793572,8.652,4,mirror
+2024,271600,Electrical energy,570257309,5.329,5,mirror
+2024,120740,"Oil seeds; sesamum seeds, whether or not broken",272568660,2.547,6,mirror
+2024,710391,"Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",239617506,2.239,7,mirror
+2024,240120,Tabaco não manufaturado,198416868,1.854,8,mirror
+2024,760511,"Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",176093153,1.646,9,mirror
+2024,261510,Zirconium ores and concentrates,116580334,1.09,10,mirror

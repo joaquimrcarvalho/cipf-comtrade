@@ -1,0 +1,41 @@
+{
+  "dataset": "cabo-verde_profile",
+  "generated_at": "2026-07-20T04:58:53+00:00",
+  "source_notebook": "country_trade_profile.ipynb",
+  "country_code": 132,
+  "country_name_pt": "Cabo Verde",
+  "units": "USD (current)",
+  "flow_basis": "both — 'direct' (reported by the country) and 'mirror' (reported by its partners; mirror totals sum the individual reporters — reporter=all responses carry no 'World' reporter row, and reporter=0 returns no data)",
+  "period": "2003-2024",
+  "files": {
+    "trade_balance": {
+      "file": "cabo-verde_trade_balance_2003-2024.csv",
+      "rows": 44
+    },
+    "top_partners_exports": {
+      "file": "cabo-verde_top_partners_exports_2003-2024.csv",
+      "rows": 426
+    },
+    "top_partners_imports": {
+      "file": "cabo-verde_top_partners_imports_2003-2024.csv",
+      "rows": 440
+    },
+    "top_products_exports_HS-AG6": {
+      "file": "cabo-verde_top_products_exports_HS-AG6_2003-2024.csv",
+      "rows": 427
+    },
+    "top_products_imports_HS-AG6": {
+      "file": "cabo-verde_top_products_imports_HS-AG6_2003-2024.csv",
+      "rows": 440
+    },
+    "products_partners_HS-AG6": {
+      "file": "cabo-verde_products_partners_HS-AG6_2003-2024.csv",
+      "rows": 1944
+    },
+    "partners_products_HS-AG6": {
+      "file": "cabo-verde_partners_products_HS-AG6_2003-2024.csv",
+      "rows": 6353
+    }
+  },
+  "notes": "From the country's own perspective: exports = country -> partner. D6/D7 keep top-10 per (year, basis); D8 keeps all-time top-25 products x top-8 partners per (year, hs6, basis). share_pct of D6/D7 uses the year's world total of the same basis; D8 share_pct uses the product-year total. description_pt: curated PT label where available, else the English HS description. An unreported flow/year contributes 0 (see export_site_data.py notes). NOTE: mirror product views (D7-mirror, D8-mirror) cover the country's all-time top-25 direct products; products outside that set are not shown on the mirror basis."
+}

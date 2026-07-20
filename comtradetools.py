@@ -493,6 +493,33 @@ def getFinalData(*p, **kwp):
             with query optimization by calling multiple APIs based on the periods
             (instead of single API call)" Not Tested.
 
+    Notes:
+        Wrapper-only kwargs (consumed here, not forwarded to the API):
+        ``cache``, ``retry_if_empty``, ``remove_world``, ``period_size``,
+        ``use_alternative``.
+
+        Caching: one pickle per period chunk (``CACHE_DIR``, valid for
+        ``CACHE_VALID_DAYS`` days); the cache key covers every API parameter
+        (including the chunk's period string), so any parameter change creates
+        a new entry. Empty results are cached too; on the next call they are
+        refetched live unless ``retry_if_empty=False`` (use False for
+        legitimately empty reporter/partner/flow combinations).
+
+        Rate limit: calls are spaced by the ``@limits(calls=CALLS_PER_PERIOD,
+        period=PERIOD_SECONDS)`` decorator on ``comtradeapicall_getFinalData``
+        — frozen at import time; edit the module constants to change it.
+
+        Record cap: the API caps the number of records returned per call
+        (500 for public preview; much higher with a subscription key). An
+        over-cap response can be silently truncated — keep commodity-detail
+        queries narrow (e.g. restrict ``cmdCode``) or sanity-check row counts.
+
+        World rows (verified 2026-07-19): ``partnerCode=None`` includes a
+        ``partnerCode=0`` World row alongside individual partners;
+        ``reporterCode=None`` responses contain individual reporters only —
+        no ``reporterCode=0`` World row — and ``reporterCode='0'`` returns
+        empty. Mirror-side aggregates must therefore sum the individual
+        reporters (which never double counts).
 
     If the call does not specify partner2Code, some years produce
     more than one line per reporter/partner pair with different values.

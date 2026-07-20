@@ -1,0 +1,796 @@
+year,hs6,description_pt,partner_code,partner,value,share_pct,basis
+2003,080131,"Cocos, castanhas de caju e nozes",702,Singapura,30917869,53.018,direct
+2003,080131,"Cocos, castanhas de caju e nozes",699,Índia,24764478,42.466,direct
+2003,080131,"Cocos, castanhas de caju e nozes",591,Panamá,1326105,2.274,direct
+2003,080131,"Cocos, castanhas de caju e nozes",156,China,988631,1.695,direct
+2003,080131,"Cocos, castanhas de caju e nozes",620,Portugal,318913,0.547,direct
+2003,080132,"Cocos, castanhas de caju e nozes",620,Portugal,14,100.0,direct
+2003,440399,Madeira em bruto,620,Portugal,197231,88.094,direct
+2003,440399,Madeira em bruto,132,Cabo Verde,26655,11.906,direct
+2003,030379,Peixe congelado,380,Itália,1839837,75.296,mirror
+2003,030379,Peixe congelado,566,Nigéria,483610,19.792,mirror
+2003,030379,Peixe congelado,288,Gana,68243,2.793,mirror
+2003,030379,Peixe congelado,384,Costa do Marfim,51794,2.12,mirror
+2003,080131,"Cocos, castanhas de caju e nozes",699,Índia,50911450,100.0,mirror
+2003,080132,"Cocos, castanhas de caju e nozes",620,Portugal,126567,70.074,mirror
+2003,080132,"Cocos, castanhas de caju e nozes",842,EUA,51789,28.673,mirror
+2003,080132,"Cocos, castanhas de caju e nozes",251,França,2262,1.252,mirror
+2003,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",724,Espanha,79069,100.0,mirror
+2003,440349,Madeira em bruto,620,Portugal,170986,85.952,mirror
+2003,440349,Madeira em bruto,764,Tailândia,27945,14.048,mirror
+2003,440399,Madeira em bruto,620,Portugal,190480,100.0,mirror
+2003,440799,Madeira serrada,620,Portugal,12751,100.0,mirror
+2003,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,155808,100.0,mirror
+2003,999999,Commodities not specified according to kind,826,Reino Unido,343856,86.91,mirror
+2003,999999,Commodities not specified according to kind,842,EUA,46851,11.842,mirror
+2003,999999,Commodities not specified according to kind,208,Dinamarca,4937,1.248,mirror
+2004,080131,"Cocos, castanhas de caju e nozes",699,Índia,45569794,85.865,direct
+2004,080131,"Cocos, castanhas de caju e nozes",702,Singapura,6923355,13.045,direct
+2004,080131,"Cocos, castanhas de caju e nozes",500,Montserrat,578206,1.089,direct
+2004,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,30190,100.0,direct
+2004,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,270,Gambia,1869,79.974,direct
+2004,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,686,Senegal,468,20.026,direct
+2004,030379,Peixe congelado,380,Itália,1035229,73.475,mirror
+2004,030379,Peixe congelado,764,Tailândia,165248,11.728,mirror
+2004,030379,Peixe congelado,410,Coreia do Sul,122382,8.686,mirror
+2004,030379,Peixe congelado,120,Camarões,86088,6.11,mirror
+2004,080131,"Cocos, castanhas de caju e nozes",699,Índia,69440776,100.0,mirror
+2004,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,375795,58.238,mirror
+2004,080132,"Cocos, castanhas de caju e nozes",842,EUA,263257,40.798,mirror
+2004,080132,"Cocos, castanhas de caju e nozes",251,França,6220,0.964,mirror
+2004,270900,Petróleo bruto,842,EUA,27556218,100.0,mirror
+2004,440349,Madeira em bruto,620,Portugal,363579,59.199,mirror
+2004,440349,Madeira em bruto,699,Índia,186589,30.381,mirror
+2004,440349,Madeira em bruto,276,Alemanha,64000,10.421,mirror
+2004,440399,Madeira em bruto,620,Portugal,132987,100.0,mirror
+2004,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,428270,93.642,mirror
+2004,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,156,China,29080,6.358,mirror
+2004,999999,Commodities not specified according to kind,842,EUA,190336,90.616,mirror
+2004,999999,Commodities not specified according to kind,208,Dinamarca,17094,8.138,mirror
+2004,999999,Commodities not specified according to kind,384,Costa do Marfim,1501,0.715,mirror
+2004,999999,Commodities not specified according to kind,512,Omã,780,0.371,mirror
+2004,999999,Commodities not specified according to kind,344,Hong Kong (RAEHK),162,0.077,mirror
+2004,999999,Commodities not specified according to kind,716,Zimbabué,152,0.072,mirror
+2004,999999,Commodities not specified according to kind,586,Paquistão,21,0.01,mirror
+2005,080131,"Cocos, castanhas de caju e nozes",699,Índia,20102491,87.725,direct
+2005,080131,"Cocos, castanhas de caju e nozes",702,Singapura,2812782,12.275,direct
+2005,440399,Madeira em bruto,591,Panamá,49769,100.0,direct
+2005,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,1141,75.016,direct
+2005,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,324,Guinea,380,24.984,direct
+2005,999999,Commodities not specified according to kind,408,Coreia do Norte,47840,49.568,direct
+2005,999999,Commodities not specified according to kind,528,Países Baixos,42968,44.52,direct
+2005,999999,Commodities not specified according to kind,842,EUA,4753,4.925,direct
+2005,999999,Commodities not specified according to kind,620,Portugal,951,0.985,direct
+2005,030379,Peixe congelado,380,Itália,716077,70.102,mirror
+2005,030379,Peixe congelado,410,Coreia do Sul,294794,28.859,mirror
+2005,030379,Peixe congelado,288,Gana,10610,1.039,mirror
+2005,080131,"Cocos, castanhas de caju e nozes",699,Índia,92385351,99.981,mirror
+2005,080131,"Cocos, castanhas de caju e nozes",620,Portugal,17480,0.019,mirror
+2005,080132,"Cocos, castanhas de caju e nozes",842,EUA,47391,64.908,mirror
+2005,080132,"Cocos, castanhas de caju e nozes",203,Chéquia,25622,35.092,mirror
+2005,120740,"Oil seeds; sesamum seeds, whether or not broken",528,Países Baixos,68374,100.0,mirror
+2005,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",528,Países Baixos,85779,100.0,mirror
+2005,440349,Madeira em bruto,620,Portugal,676472,100.0,mirror
+2005,440799,Madeira serrada,620,Portugal,48484,78.994,mirror
+2005,440799,Madeira serrada,344,Hong Kong (RAEHK),12893,21.006,mirror
+2005,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490,Taiwan (Prov. China),210797,56.854,mirror
+2005,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,97858,26.393,mirror
+2005,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,62112,16.752,mirror
+2005,999999,Commodities not specified according to kind,842,EUA,65102,74.871,mirror
+2005,999999,Commodities not specified according to kind,724,Espanha,20451,23.52,mirror
+2005,999999,Commodities not specified according to kind,208,Dinamarca,1300,1.495,mirror
+2005,999999,Commodities not specified according to kind,458,Malásia,99,0.114,mirror
+2006,030379,Peixe congelado,380,Itália,598526,48.866,mirror
+2006,030379,Peixe congelado,384,Costa do Marfim,573169,46.796,mirror
+2006,030379,Peixe congelado,410,Coreia do Sul,30983,2.53,mirror
+2006,030379,Peixe congelado,288,Gana,22158,1.809,mirror
+2006,080131,"Cocos, castanhas de caju e nozes",699,Índia,43932970,99.999,mirror
+2006,080131,"Cocos, castanhas de caju e nozes",620,Portugal,338,0.001,mirror
+2006,080132,"Cocos, castanhas de caju e nozes",620,Portugal,219834,66.976,mirror
+2006,080132,"Cocos, castanhas de caju e nozes",710,África do Sul,61008,18.587,mirror
+2006,080132,"Cocos, castanhas de caju e nozes",842,EUA,47387,14.437,mirror
+2006,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",826,Reino Unido,166173,100.0,mirror
+2006,440710,Madeira serrada,620,Portugal,103053,100.0,mirror
+2006,440799,Madeira serrada,620,Portugal,161004,88.768,mirror
+2006,440799,Madeira serrada,344,Hong Kong (RAEHK),20373,11.232,mirror
+2006,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,50,Bangladesh,409357,74.246,mirror
+2006,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,141994,25.754,mirror
+2006,999999,Commodities not specified according to kind,842,EUA,10728,54.54,mirror
+2006,999999,Commodities not specified according to kind,724,Espanha,6529,33.193,mirror
+2006,999999,Commodities not specified according to kind,826,Reino Unido,1221,6.207,mirror
+2006,999999,Commodities not specified according to kind,458,Malásia,653,3.32,mirror
+2006,999999,Commodities not specified according to kind,288,Gana,421,2.14,mirror
+2006,999999,Commodities not specified according to kind,586,Paquistão,117,0.595,mirror
+2006,999999,Commodities not specified according to kind,208,Dinamarca,1,0.005,mirror
+2007,030379,Peixe congelado,288,Gana,203308,73.499,mirror
+2007,030379,Peixe congelado,120,Camarões,73306,26.501,mirror
+2007,080131,"Cocos, castanhas de caju e nozes",699,Índia,71495662,99.812,mirror
+2007,080131,"Cocos, castanhas de caju e nozes",156,China,134552,0.188,mirror
+2007,080131,"Cocos, castanhas de caju e nozes",620,Portugal,85,0.0,mirror
+2007,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,164703,47.563,mirror
+2007,080132,"Cocos, castanhas de caju e nozes",620,Portugal,137596,39.735,mirror
+2007,080132,"Cocos, castanhas de caju e nozes",842,EUA,23395,6.756,mirror
+2007,080132,"Cocos, castanhas de caju e nozes",251,França,20588,5.945,mirror
+2007,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",404,Quénia,39387,100.0,mirror
+2007,440399,Madeira em bruto,156,China,32386,79.512,mirror
+2007,440399,Madeira em bruto,478,Mauritânia,8345,20.488,mirror
+2007,440799,Madeira serrada,620,Portugal,191849,97.68,mirror
+2007,440799,Madeira serrada,478,Mauritânia,4557,2.32,mirror
+2007,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,50,Bangladesh,950077,52.401,mirror
+2007,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,624560,34.447,mirror
+2007,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724,Espanha,199246,10.989,mirror
+2007,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,344,Hong Kong (RAEHK),22481,1.24,mirror
+2007,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,620,Portugal,16741,0.923,mirror
+2007,999999,Commodities not specified according to kind,736,Sudan (...2011),45947,71.54,mirror
+2007,999999,Commodities not specified according to kind,24,Angola,15260,23.76,mirror
+2007,999999,Commodities not specified according to kind,458,Malásia,1989,3.097,mirror
+2007,999999,Commodities not specified according to kind,384,Costa do Marfim,1029,1.602,mirror
+2008,030379,Peixe congelado,768,Togo,6775098,99.652,mirror
+2008,030379,Peixe congelado,710,África do Sul,23670,0.348,mirror
+2008,080131,"Cocos, castanhas de caju e nozes",699,Índia,102688287,82.241,mirror
+2008,080131,"Cocos, castanhas de caju e nozes",704,Vietname,22173118,17.758,mirror
+2008,080131,"Cocos, castanhas de caju e nozes",620,Portugal,1262,0.001,mirror
+2008,080132,"Cocos, castanhas de caju e nozes",704,Vietname,327941,47.305,mirror
+2008,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,209235,30.182,mirror
+2008,080132,"Cocos, castanhas de caju e nozes",710,África do Sul,77604,11.194,mirror
+2008,080132,"Cocos, castanhas de caju e nozes",380,Itália,61976,8.94,mirror
+2008,080132,"Cocos, castanhas de caju e nozes",804,Ucrânia,15990,2.307,mirror
+2008,080132,"Cocos, castanhas de caju e nozes",620,Portugal,502,0.072,mirror
+2008,440349,Madeira em bruto,132,Cabo Verde,178347,58.661,mirror
+2008,440349,Madeira em bruto,156,China,103277,33.97,mirror
+2008,440349,Madeira em bruto,100,Bulgária,22404,7.369,mirror
+2008,440399,Madeira em bruto,156,China,1126144,76.265,mirror
+2008,440399,Madeira em bruto,620,Portugal,339783,23.011,mirror
+2008,440399,Madeira em bruto,478,Mauritânia,8104,0.549,mirror
+2008,440399,Madeira em bruto,276,Alemanha,2593,0.176,mirror
+2008,440710,Madeira serrada,132,Cabo Verde,16209,100.0,mirror
+2008,440799,Madeira serrada,620,Portugal,87604,100.0,mirror
+2008,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,1445676,62.684,mirror
+2008,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,50,Bangladesh,782372,33.923,mirror
+2008,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,344,Hong Kong (RAEHK),51003,2.211,mirror
+2008,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490,Taiwan (Prov. China),27253,1.182,mirror
+2008,999999,Commodities not specified according to kind,84,Belize,13672,64.394,mirror
+2008,999999,Commodities not specified according to kind,724,Espanha,1478,6.959,mirror
+2008,999999,Commodities not specified according to kind,458,Malásia,1438,6.773,mirror
+2008,999999,Commodities not specified according to kind,344,Hong Kong (RAEHK),1394,6.566,mirror
+2008,999999,Commodities not specified according to kind,716,Zimbabué,1364,6.426,mirror
+2008,999999,Commodities not specified according to kind,842,EUA,1056,4.974,mirror
+2008,999999,Commodities not specified according to kind,100,Bulgária,830,3.909,mirror
+2009,030379,Peixe congelado,768,Togo,7922974,97.98,mirror
+2009,030379,Peixe congelado,288,Gana,163314,2.02,mirror
+2009,080131,"Cocos, castanhas de caju e nozes",699,Índia,85492718,92.74,mirror
+2009,080131,"Cocos, castanhas de caju e nozes",704,Vietname,6690643,7.258,mirror
+2009,080131,"Cocos, castanhas de caju e nozes",620,Portugal,2217,0.002,mirror
+2009,080132,"Cocos, castanhas de caju e nozes",804,Ucrânia,95229,94.953,mirror
+2009,080132,"Cocos, castanhas de caju e nozes",380,Itália,5062,5.047,mirror
+2009,440349,Madeira em bruto,132,Cabo Verde,120837,72.469,mirror
+2009,440349,Madeira em bruto,156,China,28224,16.927,mirror
+2009,440349,Madeira em bruto,699,Índia,17485,10.486,mirror
+2009,440349,Madeira em bruto,478,Mauritânia,198,0.119,mirror
+2009,440399,Madeira em bruto,156,China,1564913,100.0,mirror
+2009,440710,Madeira serrada,132,Cabo Verde,15460,100.0,mirror
+2009,440799,Madeira serrada,620,Portugal,31097,72.156,mirror
+2009,440799,Madeira serrada,156,China,12000,27.844,mirror
+2009,710812,Ouro,380,Itália,263894,91.037,mirror
+2009,710812,Ouro,124,Canadá,25983,8.963,mirror
+2009,710813,Ouro,56,Bélgica,192416,100.0,mirror
+2009,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,189338,59.973,mirror
+2009,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,344,Hong Kong (RAEHK),69224,21.927,mirror
+2009,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,32237,10.211,mirror
+2009,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724,Espanha,24905,7.889,mirror
+2009,999999,Commodities not specified according to kind,100,Bulgária,81136,90.202,mirror
+2009,999999,Commodities not specified according to kind,724,Espanha,8717,9.691,mirror
+2009,999999,Commodities not specified according to kind,458,Malásia,53,0.059,mirror
+2009,999999,Commodities not specified according to kind,704,Vietname,43,0.048,mirror
+2010,030379,Peixe congelado,768,Togo,8574006,86.77,mirror
+2010,030379,Peixe congelado,384,Costa do Marfim,967638,9.793,mirror
+2010,030379,Peixe congelado,288,Gana,160815,1.627,mirror
+2010,030379,Peixe congelado,120,Camarões,154417,1.563,mirror
+2010,030379,Peixe congelado,410,Coreia do Sul,24463,0.248,mirror
+2010,080131,"Cocos, castanhas de caju e nozes",699,Índia,59628450,90.748,mirror
+2010,080131,"Cocos, castanhas de caju e nozes",704,Vietname,6077910,9.25,mirror
+2010,080131,"Cocos, castanhas de caju e nozes",620,Portugal,1158,0.002,mirror
+2010,080132,"Cocos, castanhas de caju e nozes",704,Vietname,240720,96.393,mirror
+2010,080132,"Cocos, castanhas de caju e nozes",380,Itália,8979,3.596,mirror
+2010,080132,"Cocos, castanhas de caju e nozes",40,Áustria,29,0.012,mirror
+2010,270900,Petróleo bruto,699,Índia,71021409,100.0,mirror
+2010,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",724,Espanha,6405085,100.0,mirror
+2010,440349,Madeira em bruto,132,Cabo Verde,49179,100.0,mirror
+2010,440399,Madeira em bruto,156,China,3852335,100.0,mirror
+2010,440710,Madeira serrada,132,Cabo Verde,103646,74.792,mirror
+2010,440710,Madeira serrada,682,Arábia Saudita,34933,25.208,mirror
+2010,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,704,Vietname,1029760,50.714,mirror
+2010,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,925676,45.588,mirror
+2010,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,35125,1.73,mirror
+2010,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,29775,1.466,mirror
+2010,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,344,Hong Kong (RAEHK),10170,0.501,mirror
+2010,999999,Commodities not specified according to kind,376,Israel,52000,75.312,mirror
+2010,999999,Commodities not specified according to kind,484,México,10308,14.929,mirror
+2010,999999,Commodities not specified according to kind,170,Colômbia,4096,5.932,mirror
+2010,999999,Commodities not specified according to kind,842,EUA,2372,3.435,mirror
+2010,999999,Commodities not specified according to kind,704,Vietname,270,0.391,mirror
+2011,030379,Peixe congelado,768,Togo,9376130,85.963,mirror
+2011,030379,Peixe congelado,384,Costa do Marfim,1531082,14.037,mirror
+2011,080131,"Cocos, castanhas de caju e nozes",699,Índia,214984266,80.515,mirror
+2011,080131,"Cocos, castanhas de caju e nozes",704,Vietname,38954986,14.589,mirror
+2011,080131,"Cocos, castanhas de caju e nozes",76,Brasil,13070745,4.895,mirror
+2011,080131,"Cocos, castanhas de caju e nozes",620,Portugal,1963,0.001,mirror
+2011,080132,"Cocos, castanhas de caju e nozes",504,Marrocos,290392,100.0,mirror
+2011,260300,Minério de cobre,699,Índia,21114355,100.0,mirror
+2011,270900,Petróleo bruto,699,Índia,44401614,100.0,mirror
+2011,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",724,Espanha,4325681,100.0,mirror
+2011,440349,Madeira em bruto,699,Índia,80881,37.802,mirror
+2011,440349,Madeira em bruto,132,Cabo Verde,70046,32.738,mirror
+2011,440349,Madeira em bruto,156,China,63033,29.46,mirror
+2011,440399,Madeira em bruto,156,China,3910746,97.053,mirror
+2011,440399,Madeira em bruto,699,Índia,93591,2.323,mirror
+2011,440399,Madeira em bruto,704,Vietname,25162,0.624,mirror
+2011,440710,Madeira serrada,132,Cabo Verde,29784,100.0,mirror
+2011,440799,Madeira serrada,156,China,61102,90.1,mirror
+2011,440799,Madeira serrada,440,Lituânia,6714,9.9,mirror
+2011,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,704,Vietname,1698423,52.818,mirror
+2011,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,1359195,42.268,mirror
+2011,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,98833,3.074,mirror
+2011,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490,Taiwan (Prov. China),59190,1.841,mirror
+2011,999999,Commodities not specified according to kind,251,França,34226,59.514,mirror
+2011,999999,Commodities not specified according to kind,736,Sudan (...2011),10335,17.971,mirror
+2011,999999,Commodities not specified according to kind,724,Espanha,8959,15.578,mirror
+2011,999999,Commodities not specified according to kind,842,EUA,2683,4.665,mirror
+2011,999999,Commodities not specified according to kind,60,Bermuda,643,1.118,mirror
+2011,999999,Commodities not specified according to kind,704,Vietname,376,0.654,mirror
+2011,999999,Commodities not specified according to kind,699,Índia,197,0.343,mirror
+2011,999999,Commodities not specified according to kind,72,Botsuana,90,0.156,mirror
+2012,030379,Peixe congelado,768,Togo,5542517,89.836,mirror
+2012,030379,Peixe congelado,384,Costa do Marfim,627094,10.164,mirror
+2012,030389,Peixe congelado,410,Coreia do Sul,253797,100.0,mirror
+2012,080131,"Cocos, castanhas de caju e nozes",699,Índia,121164764,81.604,mirror
+2012,080131,"Cocos, castanhas de caju e nozes",704,Vietname,22078187,14.87,mirror
+2012,080131,"Cocos, castanhas de caju e nozes",76,Brasil,5178802,3.488,mirror
+2012,080131,"Cocos, castanhas de caju e nozes",380,Itália,57721,0.039,mirror
+2012,080132,"Cocos, castanhas de caju e nozes",704,Vietname,1388628,85.13,mirror
+2012,080132,"Cocos, castanhas de caju e nozes",792,Turquia,239063,14.656,mirror
+2012,080132,"Cocos, castanhas de caju e nozes",620,Portugal,3490,0.214,mirror
+2012,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,317122,64.243,mirror
+2012,120740,"Oil seeds; sesamum seeds, whether or not broken",156,China,176508,35.757,mirror
+2012,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",724,Espanha,5745444,83.791,mirror
+2012,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",251,França,1111453,16.209,mirror
+2012,440349,Madeira em bruto,132,Cabo Verde,93564,57.487,mirror
+2012,440349,Madeira em bruto,156,China,69194,42.513,mirror
+2012,440399,Madeira em bruto,156,China,5878578,97.722,mirror
+2012,440399,Madeira em bruto,699,Índia,69403,1.154,mirror
+2012,440399,Madeira em bruto,704,Vietname,67628,1.124,mirror
+2012,440710,Madeira serrada,682,Arábia Saudita,109333,94.295,mirror
+2012,440710,Madeira serrada,132,Cabo Verde,6615,5.705,mirror
+2012,440799,Madeira serrada,704,Vietname,49031,56.319,mirror
+2012,440799,Madeira serrada,156,China,38029,43.681,mirror
+2012,710812,Ouro,757,Suíça,4244038,100.0,mirror
+2012,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,704,Vietname,1365183,62.251,mirror
+2012,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490,Taiwan (Prov. China),406253,18.525,mirror
+2012,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,366802,16.726,mirror
+2012,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,49344,2.25,mirror
+2012,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,620,Portugal,5454,0.249,mirror
+2012,999999,Commodities not specified according to kind,251,França,52359,72.494,mirror
+2012,999999,Commodities not specified according to kind,842,EUA,13135,18.186,mirror
+2012,999999,Commodities not specified according to kind,710,África do Sul,5238,7.252,mirror
+2012,999999,Commodities not specified according to kind,748,Eswatini,1163,1.61,mirror
+2012,999999,Commodities not specified according to kind,208,Dinamarca,129,0.179,mirror
+2012,999999,Commodities not specified according to kind,484,México,116,0.161,mirror
+2012,999999,Commodities not specified according to kind,704,Vietname,82,0.114,mirror
+2012,999999,Commodities not specified according to kind,458,Malásia,4,0.006,mirror
+2013,030319,Peixe congelado,768,Togo,12860893,100.0,mirror
+2013,030353,Peixe congelado,288,Gana,8224070,81.414,mirror
+2013,030353,Peixe congelado,120,Camarões,1877474,18.586,mirror
+2013,030354,Peixe congelado,288,Gana,10205521,100.0,mirror
+2013,030355,Peixe congelado,288,Gana,16266444,81.031,mirror
+2013,030355,Peixe congelado,120,Camarões,3807904,18.969,mirror
+2013,030379,Peixe congelado,384,Costa do Marfim,2539479,31.754,mirror
+2013,030379,Peixe congelado,768,Togo,2176624,27.217,mirror
+2013,030379,Peixe congelado,204,Benim,1778789,22.242,mirror
+2013,030379,Peixe congelado,566,Nigéria,1475861,18.454,mirror
+2013,030379,Peixe congelado,686,Senegal,26681,0.334,mirror
+2013,030389,Peixe congelado,288,Gana,4251587,91.913,mirror
+2013,030389,Peixe congelado,120,Camarões,338237,7.312,mirror
+2013,030389,Peixe congelado,410,Coreia do Sul,35819,0.774,mirror
+2013,080131,"Cocos, castanhas de caju e nozes",699,Índia,136342263,69.066,mirror
+2013,080131,"Cocos, castanhas de caju e nozes",704,Vietname,61006921,30.904,mirror
+2013,080131,"Cocos, castanhas de caju e nozes",380,Itália,38751,0.02,mirror
+2013,080131,"Cocos, castanhas de caju e nozes",24,Angola,13181,0.007,mirror
+2013,080131,"Cocos, castanhas de caju e nozes",504,Marrocos,8189,0.004,mirror
+2013,080132,"Cocos, castanhas de caju e nozes",804,Ucrânia,241764,47.449,mirror
+2013,080132,"Cocos, castanhas de caju e nozes",842,EUA,105885,20.781,mirror
+2013,080132,"Cocos, castanhas de caju e nozes",792,Turquia,91934,18.043,mirror
+2013,080132,"Cocos, castanhas de caju e nozes",705,Eslovénia,61059,11.984,mirror
+2013,080132,"Cocos, castanhas de caju e nozes",642,Roménia,5589,1.097,mirror
+2013,080132,"Cocos, castanhas de caju e nozes",620,Portugal,3290,0.646,mirror
+2013,120740,"Oil seeds; sesamum seeds, whether or not broken",490,Taiwan (Prov. China),245276,100.0,mirror
+2013,230120,"Flours, meals and pellets; of fish or of crustaceans, molluscs or other aquatic invertebrates",288,Gana,6893834,100.0,mirror
+2013,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",724,Espanha,1328734,100.0,mirror
+2013,440349,Madeira em bruto,156,China,17392,54.565,mirror
+2013,440349,Madeira em bruto,643,Rússia,14482,45.435,mirror
+2013,440399,Madeira em bruto,156,China,10082152,100.0,mirror
+2013,440710,Madeira serrada,132,Cabo Verde,9546,100.0,mirror
+2013,440799,Madeira serrada,156,China,52754,42.008,mirror
+2013,440799,Madeira serrada,620,Portugal,42862,34.131,mirror
+2013,440799,Madeira serrada,704,Vietname,16975,13.517,mirror
+2013,440799,Madeira serrada,724,Espanha,12989,10.343,mirror
+2013,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,704,Vietname,1268898,63.438,mirror
+2013,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490,Taiwan (Prov. China),495893,24.792,mirror
+2013,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,102828,5.141,mirror
+2013,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,620,Portugal,98417,4.92,mirror
+2013,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,34178,1.709,mirror
+2013,999999,Commodities not specified according to kind,288,Gana,3915525,96.763,mirror
+2013,999999,Commodities not specified according to kind,450,Madagáscar,55885,1.381,mirror
+2013,999999,Commodities not specified according to kind,251,França,44994,1.112,mirror
+2013,999999,Commodities not specified according to kind,842,EUA,13488,0.333,mirror
+2013,999999,Commodities not specified according to kind,24,Angola,9743,0.241,mirror
+2013,999999,Commodities not specified according to kind,724,Espanha,5817,0.144,mirror
+2013,999999,Commodities not specified according to kind,68,Bolívia,493,0.012,mirror
+2013,999999,Commodities not specified according to kind,716,Zimbabué,460,0.011,mirror
+2014,080131,"Cocos, castanhas de caju e nozes",699,Índia,81585448,72.796,direct
+2014,080131,"Cocos, castanhas de caju e nozes",702,Singapura,10129980,9.039,direct
+2014,080131,"Cocos, castanhas de caju e nozes",784,Emirados Árabes Unidos,9942849,8.872,direct
+2014,080131,"Cocos, castanhas de caju e nozes",704,Vietname,5030759,4.489,direct
+2014,080131,"Cocos, castanhas de caju e nozes",344,Hong Kong (RAEHK),1910910,1.705,direct
+2014,080131,"Cocos, castanhas de caju e nozes",156,China,1733253,1.547,direct
+2014,080131,"Cocos, castanhas de caju e nozes",620,Portugal,1706998,1.523,direct
+2014,080131,"Cocos, castanhas de caju e nozes",528,Países Baixos,33640,0.03,direct
+2014,030319,Peixe congelado,768,Togo,12454890,100.0,mirror
+2014,030353,Peixe congelado,288,Gana,5814665,88.077,mirror
+2014,030353,Peixe congelado,120,Camarões,787122,11.923,mirror
+2014,030354,Peixe congelado,288,Gana,1023714,100.0,mirror
+2014,030355,Peixe congelado,288,Gana,1756826,56.0,mirror
+2014,030355,Peixe congelado,120,Camarões,1380384,44.0,mirror
+2014,030379,Peixe congelado,768,Togo,1223354,70.268,mirror
+2014,030379,Peixe congelado,204,Benim,517630,29.732,mirror
+2014,030389,Peixe congelado,288,Gana,1469696,61.167,mirror
+2014,030389,Peixe congelado,178,Congo,540968,22.514,mirror
+2014,030389,Peixe congelado,410,Coreia do Sul,266710,11.1,mirror
+2014,030389,Peixe congelado,120,Camarões,125379,5.218,mirror
+2014,080131,"Cocos, castanhas de caju e nozes",699,Índia,160221220,85.075,mirror
+2014,080131,"Cocos, castanhas de caju e nozes",704,Vietname,28108502,14.925,mirror
+2014,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,288949,41.036,mirror
+2014,080132,"Cocos, castanhas de caju e nozes",643,Rússia,104183,14.796,mirror
+2014,080132,"Cocos, castanhas de caju e nozes",422,Líbano,92953,13.201,mirror
+2014,080132,"Cocos, castanhas de caju e nozes",251,França,67056,9.523,mirror
+2014,080132,"Cocos, castanhas de caju e nozes",380,Itália,60403,8.578,mirror
+2014,080132,"Cocos, castanhas de caju e nozes",275,State of Palestine,48339,6.865,mirror
+2014,080132,"Cocos, castanhas de caju e nozes",792,Turquia,42232,5.998,mirror
+2014,080132,"Cocos, castanhas de caju e nozes",410,Coreia do Sul,15,0.002,mirror
+2014,120740,"Oil seeds; sesamum seeds, whether or not broken",490,Taiwan (Prov. China),692726,37.941,mirror
+2014,120740,"Oil seeds; sesamum seeds, whether or not broken",392,Japão,604016,33.083,mirror
+2014,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,529037,28.976,mirror
+2014,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",251,França,478548,86.087,mirror
+2014,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",76,Brasil,77339,13.913,mirror
+2014,440349,Madeira em bruto,156,China,118339,100.0,mirror
+2014,440399,Madeira em bruto,156,China,49810236,100.0,mirror
+2014,440799,Madeira serrada,156,China,27661,58.1,mirror
+2014,440799,Madeira serrada,132,Cabo Verde,13910,29.216,mirror
+2014,440799,Madeira serrada,504,Marrocos,6039,12.684,mirror
+2014,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490,Taiwan (Prov. China),731781,48.509,mirror
+2014,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,289430,19.186,mirror
+2014,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,620,Portugal,247132,16.382,mirror
+2014,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,704,Vietname,221526,14.685,mirror
+2014,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784,Emirados Árabes Unidos,18679,1.238,mirror
+2014,999999,Commodities not specified according to kind,24,Angola,34200,49.199,mirror
+2014,999999,Commodities not specified according to kind,842,EUA,32771,47.144,mirror
+2014,999999,Commodities not specified according to kind,251,França,1308,1.882,mirror
+2014,999999,Commodities not specified according to kind,484,México,1232,1.772,mirror
+2014,999999,Commodities not specified according to kind,208,Dinamarca,2,0.003,mirror
+2015,080131,"Cocos, castanhas de caju e nozes",699,Índia,171641622,59.756,direct
+2015,080131,"Cocos, castanhas de caju e nozes",702,Singapura,48104702,16.747,direct
+2015,080131,"Cocos, castanhas de caju e nozes",784,Emirados Árabes Unidos,35762400,12.45,direct
+2015,080131,"Cocos, castanhas de caju e nozes",704,Vietname,23827732,8.295,direct
+2015,080131,"Cocos, castanhas de caju e nozes",156,China,7360552,2.563,direct
+2015,080131,"Cocos, castanhas de caju e nozes",344,Hong Kong (RAEHK),540000,0.188,direct
+2015,440710,Madeira serrada,156,China,39452094,99.854,direct
+2015,440710,Madeira serrada,686,Senegal,42741,0.108,direct
+2015,440710,Madeira serrada,132,Cabo Verde,15062,0.038,direct
+2015,030319,Peixe congelado,768,Togo,11743512,99.46,mirror
+2015,030319,Peixe congelado,384,Costa do Marfim,63765,0.54,mirror
+2015,030353,Peixe congelado,288,Gana,6668022,84.123,mirror
+2015,030353,Peixe congelado,384,Costa do Marfim,1258456,15.877,mirror
+2015,030354,Peixe congelado,288,Gana,1895489,89.59,mirror
+2015,030354,Peixe congelado,384,Costa do Marfim,220245,10.41,mirror
+2015,030355,Peixe congelado,288,Gana,2894896,38.541,mirror
+2015,030355,Peixe congelado,24,Angola,2809110,37.399,mirror
+2015,030355,Peixe congelado,120,Camarões,1634996,21.767,mirror
+2015,030355,Peixe congelado,384,Costa do Marfim,172244,2.293,mirror
+2015,030389,Peixe congelado,768,Togo,1715702,40.834,mirror
+2015,030389,Peixe congelado,288,Gana,1150903,27.392,mirror
+2015,030389,Peixe congelado,204,Benim,958867,22.821,mirror
+2015,030389,Peixe congelado,410,Coreia do Sul,349975,8.329,mirror
+2015,030389,Peixe congelado,380,Itália,26213,0.624,mirror
+2015,080131,"Cocos, castanhas de caju e nozes",699,Índia,200650092,86.28,mirror
+2015,080131,"Cocos, castanhas de caju e nozes",704,Vietname,31907371,13.72,mirror
+2015,080132,"Cocos, castanhas de caju e nozes",400,Jordânia,913231,47.207,mirror
+2015,080132,"Cocos, castanhas de caju e nozes",76,Brasil,515516,26.648,mirror
+2015,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,385153,19.909,mirror
+2015,080132,"Cocos, castanhas de caju e nozes",792,Turquia,68461,3.539,mirror
+2015,080132,"Cocos, castanhas de caju e nozes",380,Itália,41114,2.125,mirror
+2015,080132,"Cocos, castanhas de caju e nozes",842,EUA,11061,0.572,mirror
+2015,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,1202076,45.024,mirror
+2015,120740,"Oil seeds; sesamum seeds, whether or not broken",702,Singapura,727126,27.235,mirror
+2015,120740,"Oil seeds; sesamum seeds, whether or not broken",392,Japão,580116,21.728,mirror
+2015,120740,"Oil seeds; sesamum seeds, whether or not broken",699,Índia,160539,6.013,mirror
+2015,440399,Madeira em bruto,156,China,17621229,100.0,mirror
+2015,440799,Madeira serrada,156,China,38359,77.159,mirror
+2015,440799,Madeira serrada,132,Cabo Verde,11355,22.841,mirror
+2015,710812,Ouro,784,Emirados Árabes Unidos,4057384,100.0,mirror
+2015,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,357115,68.958,mirror
+2015,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,620,Portugal,148983,28.768,mirror
+2015,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,764,Tailândia,11774,2.273,mirror
+2015,999999,Commodities not specified according to kind,24,Angola,40927,33.749,mirror
+2015,999999,Commodities not specified according to kind,251,França,37150,30.635,mirror
+2015,999999,Commodities not specified according to kind,842,EUA,31688,26.131,mirror
+2015,999999,Commodities not specified according to kind,724,Espanha,8872,7.316,mirror
+2015,999999,Commodities not specified according to kind,324,Guinea,2203,1.817,mirror
+2015,999999,Commodities not specified according to kind,704,Vietname,237,0.195,mirror
+2015,999999,Commodities not specified according to kind,682,Arábia Saudita,168,0.138,mirror
+2015,999999,Commodities not specified according to kind,414,Kuwait,23,0.019,mirror
+2016,080131,"Cocos, castanhas de caju e nozes",699,Índia,137829229,78.195,direct
+2016,080131,"Cocos, castanhas de caju e nozes",702,Singapura,21088046,11.964,direct
+2016,080131,"Cocos, castanhas de caju e nozes",704,Vietname,7416048,4.207,direct
+2016,080131,"Cocos, castanhas de caju e nozes",784,Emirados Árabes Unidos,5707069,3.238,direct
+2016,080131,"Cocos, castanhas de caju e nozes",288,Gana,3000000,1.702,direct
+2016,080131,"Cocos, castanhas de caju e nozes",156,China,1223115,0.694,direct
+2016,030319,Peixe congelado,768,Togo,3735324,100.0,mirror
+2016,030353,Peixe congelado,288,Gana,5907361,51.447,mirror
+2016,030353,Peixe congelado,384,Costa do Marfim,5422375,47.223,mirror
+2016,030353,Peixe congelado,120,Camarões,152638,1.329,mirror
+2016,030354,Peixe congelado,384,Costa do Marfim,1228878,64.34,mirror
+2016,030354,Peixe congelado,288,Gana,681090,35.66,mirror
+2016,030355,Peixe congelado,384,Costa do Marfim,2363032,43.842,mirror
+2016,030355,Peixe congelado,288,Gana,2061961,38.256,mirror
+2016,030355,Peixe congelado,120,Camarões,964922,17.902,mirror
+2016,030389,Peixe congelado,410,Coreia do Sul,1422841,30.265,mirror
+2016,030389,Peixe congelado,288,Gana,1353554,28.791,mirror
+2016,030389,Peixe congelado,384,Costa do Marfim,1253609,26.665,mirror
+2016,030389,Peixe congelado,204,Benim,569595,12.116,mirror
+2016,030389,Peixe congelado,120,Camarões,94217,2.004,mirror
+2016,030389,Peixe congelado,380,Itália,7533,0.16,mirror
+2016,080131,"Cocos, castanhas de caju e nozes",699,Índia,209389647,74.804,mirror
+2016,080131,"Cocos, castanhas de caju e nozes",704,Vietname,70526813,25.196,mirror
+2016,080132,"Cocos, castanhas de caju e nozes",76,Brasil,1324394,44.261,mirror
+2016,080132,"Cocos, castanhas de caju e nozes",400,Jordânia,1239135,41.412,mirror
+2016,080132,"Cocos, castanhas de caju e nozes",784,Emirados Árabes Unidos,181007,6.049,mirror
+2016,080132,"Cocos, castanhas de caju e nozes",704,Vietname,121320,4.055,mirror
+2016,080132,"Cocos, castanhas de caju e nozes",380,Itália,76297,2.55,mirror
+2016,080132,"Cocos, castanhas de caju e nozes",275,State of Palestine,48713,1.628,mirror
+2016,080132,"Cocos, castanhas de caju e nozes",478,Mauritânia,1363,0.046,mirror
+2016,080930,"Fruit, edible; peaches, including nectarines, fresh",112,Bielorrússia,11947100,100.0,mirror
+2016,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,1442990,53.764,mirror
+2016,120740,"Oil seeds; sesamum seeds, whether or not broken",490,Taiwan (Prov. China),691573,25.767,mirror
+2016,120740,"Oil seeds; sesamum seeds, whether or not broken",702,Singapura,549348,20.468,mirror
+2016,440399,Madeira em bruto,156,China,159910,100.0,mirror
+2016,710812,Ouro,784,Emirados Árabes Unidos,5163873,100.0,mirror
+2016,710813,Ouro,56,Bélgica,846212,100.0,mirror
+2016,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,620,Portugal,95539,94.308,mirror
+2016,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,5766,5.692,mirror
+2016,999999,Commodities not specified according to kind,842,EUA,73914,85.279,mirror
+2016,999999,Commodities not specified according to kind,170,Colômbia,5236,6.041,mirror
+2016,999999,Commodities not specified according to kind,724,Espanha,4426,5.106,mirror
+2016,999999,Commodities not specified according to kind,124,Canadá,1010,1.166,mirror
+2016,999999,Commodities not specified according to kind,484,México,633,0.73,mirror
+2016,999999,Commodities not specified according to kind,344,Hong Kong (RAEHK),516,0.596,mirror
+2016,999999,Commodities not specified according to kind,251,França,476,0.549,mirror
+2016,999999,Commodities not specified according to kind,156,China,211,0.243,mirror
+2017,080131,"Cocos, castanhas de caju e nozes",699,Índia,109472164,58.587,direct
+2017,080131,"Cocos, castanhas de caju e nozes",704,Vietname,37214847,19.917,direct
+2017,080131,"Cocos, castanhas de caju e nozes",702,Singapura,35386742,18.938,direct
+2017,080131,"Cocos, castanhas de caju e nozes",784,Emirados Árabes Unidos,2155087,1.153,direct
+2017,080131,"Cocos, castanhas de caju e nozes",528,Países Baixos,692300,0.371,direct
+2017,080131,"Cocos, castanhas de caju e nozes",344,Hong Kong (RAEHK),632500,0.338,direct
+2017,080131,"Cocos, castanhas de caju e nozes",156,China,575000,0.308,direct
+2017,080131,"Cocos, castanhas de caju e nozes",288,Gana,402500,0.215,direct
+2017,080132,"Cocos, castanhas de caju e nozes",699,Índia,2415000,100.0,direct
+2017,030319,Peixe congelado,768,Togo,7729623,95.564,mirror
+2017,030319,Peixe congelado,384,Costa do Marfim,358791,4.436,mirror
+2017,030353,Peixe congelado,288,Gana,3056808,55.618,mirror
+2017,030353,Peixe congelado,384,Costa do Marfim,2082100,37.884,mirror
+2017,030353,Peixe congelado,120,Camarões,357136,6.498,mirror
+2017,030354,Peixe congelado,384,Costa do Marfim,844389,85.434,mirror
+2017,030354,Peixe congelado,288,Gana,141496,14.316,mirror
+2017,030354,Peixe congelado,430,Liberia,2463,0.249,mirror
+2017,030355,Peixe congelado,384,Costa do Marfim,2679079,72.709,mirror
+2017,030355,Peixe congelado,120,Camarões,667168,18.107,mirror
+2017,030355,Peixe congelado,288,Gana,338408,9.184,mirror
+2017,030389,Peixe congelado,410,Coreia do Sul,1624096,49.732,mirror
+2017,030389,Peixe congelado,288,Gana,1199199,36.721,mirror
+2017,030389,Peixe congelado,120,Camarões,229161,7.017,mirror
+2017,030389,Peixe congelado,384,Costa do Marfim,213249,6.53,mirror
+2017,080131,"Cocos, castanhas de caju e nozes",699,Índia,252136394,79.29,mirror
+2017,080131,"Cocos, castanhas de caju e nozes",704,Vietname,65836734,20.704,mirror
+2017,080131,"Cocos, castanhas de caju e nozes",112,Bielorrússia,17800,0.006,mirror
+2017,080132,"Cocos, castanhas de caju e nozes",620,Portugal,167481,55.546,mirror
+2017,080132,"Cocos, castanhas de caju e nozes",792,Turquia,122911,40.764,mirror
+2017,080132,"Cocos, castanhas de caju e nozes",699,Índia,11124,3.689,mirror
+2017,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,815008,91.601,mirror
+2017,120740,"Oil seeds; sesamum seeds, whether or not broken",490,Taiwan (Prov. China),74733,8.399,mirror
+2017,440399,Madeira em bruto,156,China,190726,100.0,mirror
+2017,710813,Ouro,826,Reino Unido,225008,100.0,mirror
+2017,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,420928,91.787,mirror
+2017,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,620,Portugal,37664,8.213,mirror
+2017,999999,Commodities not specified according to kind,842,EUA,5875,46.206,mirror
+2017,999999,Commodities not specified according to kind,724,Espanha,4762,37.452,mirror
+2017,999999,Commodities not specified according to kind,208,Dinamarca,970,7.628,mirror
+2017,999999,Commodities not specified according to kind,458,Malásia,881,6.929,mirror
+2017,999999,Commodities not specified according to kind,156,China,194,1.526,mirror
+2017,999999,Commodities not specified according to kind,490,Taiwan (Prov. China),33,0.259,mirror
+2018,080131,"Cocos, castanhas de caju e nozes",699,Índia,100113912,59.662,direct
+2018,080131,"Cocos, castanhas de caju e nozes",702,Singapura,43691093,26.037,direct
+2018,080131,"Cocos, castanhas de caju e nozes",704,Vietname,14864774,8.858,direct
+2018,080131,"Cocos, castanhas de caju e nozes",784,Emirados Árabes Unidos,4173488,2.487,direct
+2018,080131,"Cocos, castanhas de caju e nozes",156,China,2499111,1.489,direct
+2018,080131,"Cocos, castanhas de caju e nozes",528,Países Baixos,1500000,0.894,direct
+2018,080131,"Cocos, castanhas de caju e nozes",344,Hong Kong (RAEHK),960250,0.572,direct
+2018,440799,Madeira serrada,156,China,12175481,100.0,direct
+2018,999999,Commodities not specified according to kind,156,China,54742354,87.013,direct
+2018,999999,Commodities not specified according to kind,699,Índia,8020080,12.748,direct
+2018,999999,Commodities not specified according to kind,704,Vietname,150244,0.239,direct
+2018,030314,Peixe congelado,430,Liberia,2984475,100.0,mirror
+2018,030353,Peixe congelado,288,Gana,2198817,52.477,mirror
+2018,030353,Peixe congelado,384,Costa do Marfim,1991219,47.523,mirror
+2018,030354,Peixe congelado,384,Costa do Marfim,432135,76.123,mirror
+2018,030354,Peixe congelado,288,Gana,135547,23.877,mirror
+2018,030355,Peixe congelado,384,Costa do Marfim,1093173,85.793,mirror
+2018,030355,Peixe congelado,288,Gana,181025,14.207,mirror
+2018,030389,Peixe congelado,410,Coreia do Sul,2534594,67.582,mirror
+2018,030389,Peixe congelado,288,Gana,711994,18.984,mirror
+2018,030389,Peixe congelado,384,Costa do Marfim,503812,13.434,mirror
+2018,080131,"Cocos, castanhas de caju e nozes",699,Índia,128611317,99.684,mirror
+2018,080131,"Cocos, castanhas de caju e nozes",620,Portugal,217095,0.168,mirror
+2018,080131,"Cocos, castanhas de caju e nozes",826,Reino Unido,156751,0.121,mirror
+2018,080131,"Cocos, castanhas de caju e nozes",112,Bielorrússia,33300,0.026,mirror
+2018,080131,"Cocos, castanhas de caju e nozes",410,Coreia do Sul,29,0.0,mirror
+2018,080132,"Cocos, castanhas de caju e nozes",76,Brasil,1797733,32.813,mirror
+2018,080132,"Cocos, castanhas de caju e nozes",724,Espanha,913082,16.666,mirror
+2018,080132,"Cocos, castanhas de caju e nozes",699,Índia,763134,13.929,mirror
+2018,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,725884,13.249,mirror
+2018,080132,"Cocos, castanhas de caju e nozes",710,África do Sul,569960,10.403,mirror
+2018,080132,"Cocos, castanhas de caju e nozes",422,Líbano,170444,3.111,mirror
+2018,080132,"Cocos, castanhas de caju e nozes",842,EUA,154200,2.815,mirror
+2018,080132,"Cocos, castanhas de caju e nozes",251,França,152254,2.779,mirror
+2018,120740,"Oil seeds; sesamum seeds, whether or not broken",490,Taiwan (Prov. China),86094,100.0,mirror
+2018,440349,Madeira em bruto,156,China,7622117,100.0,mirror
+2018,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,811210,100.0,mirror
+2018,999999,Commodities not specified according to kind,276,Alemanha,123453,46.421,mirror
+2018,999999,Commodities not specified according to kind,392,Japão,103305,38.845,mirror
+2018,999999,Commodities not specified according to kind,842,EUA,21862,8.221,mirror
+2018,999999,Commodities not specified according to kind,724,Espanha,7508,2.823,mirror
+2018,999999,Commodities not specified according to kind,251,França,2776,1.044,mirror
+2018,999999,Commodities not specified according to kind,344,Hong Kong (RAEHK),2552,0.959,mirror
+2018,999999,Commodities not specified according to kind,710,África do Sul,2482,0.933,mirror
+2018,999999,Commodities not specified according to kind,458,Malásia,859,0.323,mirror
+2019,030314,Peixe congelado,430,Liberia,3775083,100.0,mirror
+2019,030319,Peixe congelado,288,Gana,7977,100.0,mirror
+2019,030353,Peixe congelado,384,Costa do Marfim,15101547,71.332,mirror
+2019,030353,Peixe congelado,288,Gana,5185260,24.492,mirror
+2019,030353,Peixe congelado,430,Liberia,884090,4.176,mirror
+2019,030354,Peixe congelado,384,Costa do Marfim,1414593,65.796,mirror
+2019,030354,Peixe congelado,288,Gana,658572,30.632,mirror
+2019,030354,Peixe congelado,430,Liberia,76796,3.572,mirror
+2019,030355,Peixe congelado,384,Costa do Marfim,1568498,55.171,mirror
+2019,030355,Peixe congelado,120,Camarões,760980,26.767,mirror
+2019,030355,Peixe congelado,288,Gana,488421,17.18,mirror
+2019,030355,Peixe congelado,430,Liberia,25098,0.883,mirror
+2019,030389,Peixe congelado,410,Coreia do Sul,2436933,36.428,mirror
+2019,030389,Peixe congelado,384,Costa do Marfim,2426517,36.272,mirror
+2019,030389,Peixe congelado,430,Liberia,1243296,18.585,mirror
+2019,030389,Peixe congelado,288,Gana,581560,8.693,mirror
+2019,030389,Peixe congelado,686,Senegal,933,0.014,mirror
+2019,030389,Peixe congelado,120,Camarões,507,0.008,mirror
+2019,080131,"Cocos, castanhas de caju e nozes",699,Índia,122262864,99.6,mirror
+2019,080131,"Cocos, castanhas de caju e nozes",826,Reino Unido,368741,0.3,mirror
+2019,080131,"Cocos, castanhas de caju e nozes",710,África do Sul,117568,0.096,mirror
+2019,080131,"Cocos, castanhas de caju e nozes",112,Bielorrússia,3800,0.003,mirror
+2019,080131,"Cocos, castanhas de caju e nozes",276,Alemanha,593,0.0,mirror
+2019,080132,"Cocos, castanhas de caju e nozes",842,EUA,1721017,38.674,mirror
+2019,080132,"Cocos, castanhas de caju e nozes",76,Brasil,869510,19.539,mirror
+2019,080132,"Cocos, castanhas de caju e nozes",724,Espanha,589090,13.238,mirror
+2019,080132,"Cocos, castanhas de caju e nozes",620,Portugal,447995,10.067,mirror
+2019,080132,"Cocos, castanhas de caju e nozes",710,África do Sul,298063,6.698,mirror
+2019,080132,"Cocos, castanhas de caju e nozes",251,França,156152,3.509,mirror
+2019,080132,"Cocos, castanhas de caju e nozes",752,Suécia,125815,2.827,mirror
+2019,080132,"Cocos, castanhas de caju e nozes",300,Grécia,117775,2.647,mirror
+2019,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,651511,74.65,mirror
+2019,120740,"Oil seeds; sesamum seeds, whether or not broken",702,Singapura,221248,25.35,mirror
+2019,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",528,Países Baixos,26519,100.0,mirror
+2019,440349,Madeira em bruto,156,China,8231849,100.0,mirror
+2019,440799,Madeira serrada,132,Cabo Verde,7998,100.0,mirror
+2019,710813,Ouro,56,Bélgica,69229280,100.0,mirror
+2019,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,593885,100.0,mirror
+2019,999999,Commodities not specified according to kind,842,EUA,130393,76.3,mirror
+2019,999999,Commodities not specified according to kind,724,Espanha,19996,11.701,mirror
+2019,999999,Commodities not specified according to kind,484,México,18355,10.74,mirror
+2019,999999,Commodities not specified according to kind,156,China,725,0.424,mirror
+2019,999999,Commodities not specified according to kind,60,Bermuda,670,0.392,mirror
+2019,999999,Commodities not specified according to kind,344,Hong Kong (RAEHK),621,0.364,mirror
+2019,999999,Commodities not specified according to kind,132,Cabo Verde,135,0.079,mirror
+2020,030314,Peixe congelado,430,Liberia,4958202,100.0,mirror
+2020,030353,Peixe congelado,384,Costa do Marfim,11335348,62.737,mirror
+2020,030353,Peixe congelado,120,Camarões,3309088,18.315,mirror
+2020,030353,Peixe congelado,430,Liberia,2449696,13.558,mirror
+2020,030353,Peixe congelado,204,Benim,816079,4.517,mirror
+2020,030353,Peixe congelado,180,RD Congo,157836,0.874,mirror
+2020,030354,Peixe congelado,384,Costa do Marfim,2015617,81.912,mirror
+2020,030354,Peixe congelado,430,Liberia,445080,18.088,mirror
+2020,030355,Peixe congelado,180,RD Congo,2825709,42.107,mirror
+2020,030355,Peixe congelado,384,Costa do Marfim,1998648,29.782,mirror
+2020,030355,Peixe congelado,120,Camarões,1696738,25.284,mirror
+2020,030355,Peixe congelado,430,Liberia,103407,1.541,mirror
+2020,030355,Peixe congelado,204,Benim,86314,1.286,mirror
+2020,030389,Peixe congelado,384,Costa do Marfim,3279086,33.981,mirror
+2020,030389,Peixe congelado,180,RD Congo,2242728,23.241,mirror
+2020,030389,Peixe congelado,410,Coreia do Sul,2069514,21.446,mirror
+2020,030389,Peixe congelado,120,Camarões,1516483,15.715,mirror
+2020,030389,Peixe congelado,430,Liberia,434882,4.507,mirror
+2020,030389,Peixe congelado,204,Benim,107127,1.11,mirror
+2020,080131,"Cocos, castanhas de caju e nozes",699,Índia,128449064,99.93,mirror
+2020,080131,"Cocos, castanhas de caju e nozes",620,Portugal,89830,0.07,mirror
+2020,080132,"Cocos, castanhas de caju e nozes",380,Itália,672282,21.747,mirror
+2020,080132,"Cocos, castanhas de caju e nozes",76,Brasil,633599,20.495,mirror
+2020,080132,"Cocos, castanhas de caju e nozes",842,EUA,450528,14.573,mirror
+2020,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,401271,12.98,mirror
+2020,080132,"Cocos, castanhas de caju e nozes",710,África do Sul,231882,7.501,mirror
+2020,080132,"Cocos, castanhas de caju e nozes",616,Polónia,178431,5.772,mirror
+2020,080132,"Cocos, castanhas de caju e nozes",724,Espanha,141971,4.592,mirror
+2020,080132,"Cocos, castanhas de caju e nozes",196,Chipre,132400,4.283,mirror
+2020,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,1180499,100.0,mirror
+2020,150420,"Fats and oils and their fractions; of fish, (excluding liver-oils)",152,Chile,676435,100.0,mirror
+2020,710812,Ouro,784,Emirados Árabes Unidos,832525,100.0,mirror
+2020,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,117011,100.0,mirror
+2020,999999,Commodities not specified according to kind,251,França,51374,68.592,mirror
+2020,999999,Commodities not specified according to kind,222,El Salvador,11492,15.343,mirror
+2020,999999,Commodities not specified according to kind,60,Bermuda,9740,13.004,mirror
+2020,999999,Commodities not specified according to kind,458,Malásia,805,1.075,mirror
+2020,999999,Commodities not specified according to kind,842,EUA,442,0.59,mirror
+2020,999999,Commodities not specified according to kind,156,China,411,0.549,mirror
+2020,999999,Commodities not specified according to kind,484,México,348,0.465,mirror
+2020,999999,Commodities not specified according to kind,724,Espanha,219,0.292,mirror
+2021,030314,Peixe congelado,288,Gana,1075,100.0,mirror
+2021,030353,Peixe congelado,384,Costa do Marfim,7263327,58.968,mirror
+2021,030353,Peixe congelado,288,Gana,2899793,23.542,mirror
+2021,030353,Peixe congelado,430,Liberia,2154332,17.49,mirror
+2021,030354,Peixe congelado,768,Togo,3028191,49.292,mirror
+2021,030354,Peixe congelado,384,Costa do Marfim,2476997,40.319,mirror
+2021,030354,Peixe congelado,288,Gana,479317,7.802,mirror
+2021,030354,Peixe congelado,430,Liberia,158921,2.587,mirror
+2021,030355,Peixe congelado,288,Gana,2034446,61.94,mirror
+2021,030355,Peixe congelado,384,Costa do Marfim,1179353,35.906,mirror
+2021,030355,Peixe congelado,430,Liberia,70730,2.153,mirror
+2021,030389,Peixe congelado,384,Costa do Marfim,3016904,46.101,mirror
+2021,030389,Peixe congelado,410,Coreia do Sul,2288399,34.969,mirror
+2021,030389,Peixe congelado,288,Gana,752893,11.505,mirror
+2021,030389,Peixe congelado,686,Senegal,255897,3.91,mirror
+2021,030389,Peixe congelado,430,Liberia,154259,2.357,mirror
+2021,030389,Peixe congelado,528,Países Baixos,60013,0.917,mirror
+2021,030389,Peixe congelado,466,Mali,15787,0.241,mirror
+2021,080131,"Cocos, castanhas de caju e nozes",699,Índia,143464940,99.897,mirror
+2021,080131,"Cocos, castanhas de caju e nozes",251,França,122195,0.085,mirror
+2021,080131,"Cocos, castanhas de caju e nozes",724,Espanha,26256,0.018,mirror
+2021,080132,"Cocos, castanhas de caju e nozes",76,Brasil,486982,32.054,mirror
+2021,080132,"Cocos, castanhas de caju e nozes",616,Polónia,286502,18.858,mirror
+2021,080132,"Cocos, castanhas de caju e nozes",251,França,219216,14.429,mirror
+2021,080132,"Cocos, castanhas de caju e nozes",191,Croácia,161610,10.637,mirror
+2021,080132,"Cocos, castanhas de caju e nozes",724,Espanha,100430,6.61,mirror
+2021,080132,"Cocos, castanhas de caju e nozes",380,Itália,95671,6.297,mirror
+2021,080132,"Cocos, castanhas de caju e nozes",504,Marrocos,90257,5.941,mirror
+2021,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,65458,4.309,mirror
+2021,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,1737949,91.674,mirror
+2021,120740,"Oil seeds; sesamum seeds, whether or not broken",490,Taiwan (Prov. China),127187,6.709,mirror
+2021,120740,"Oil seeds; sesamum seeds, whether or not broken",752,Suécia,30665,1.618,mirror
+2021,150420,"Fats and oils and their fractions; of fish, (excluding liver-oils)",152,Chile,583437,100.0,mirror
+2021,260300,Minério de cobre,124,Canadá,1,100.0,mirror
+2021,271111,Gás natural e outros gases de petróleo,586,Paquistão,22047130,100.0,mirror
+2021,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,254174,100.0,mirror
+2021,999999,Commodities not specified according to kind,276,Alemanha,73734,76.597,mirror
+2021,999999,Commodities not specified according to kind,178,Congo,16263,16.894,mirror
+2021,999999,Commodities not specified according to kind,842,EUA,3284,3.412,mirror
+2021,999999,Commodities not specified according to kind,724,Espanha,1534,1.594,mirror
+2021,999999,Commodities not specified according to kind,156,China,1111,1.154,mirror
+2021,999999,Commodities not specified according to kind,484,México,172,0.179,mirror
+2021,999999,Commodities not specified according to kind,246,Finlândia,112,0.117,mirror
+2021,999999,Commodities not specified according to kind,414,Kuwait,40,0.042,mirror
+2022,030353,Peixe congelado,288,Gana,2383679,61.411,mirror
+2022,030353,Peixe congelado,384,Costa do Marfim,1376572,35.465,mirror
+2022,030353,Peixe congelado,430,Liberia,121267,3.124,mirror
+2022,030354,Peixe congelado,768,Togo,5401058,81.068,mirror
+2022,030354,Peixe congelado,384,Costa do Marfim,1133410,17.012,mirror
+2022,030354,Peixe congelado,430,Liberia,121264,1.82,mirror
+2022,030354,Peixe congelado,288,Gana,6615,0.099,mirror
+2022,030355,Peixe congelado,384,Costa do Marfim,362615,59.966,mirror
+2022,030355,Peixe congelado,180,RD Congo,108260,17.903,mirror
+2022,030355,Peixe congelado,120,Camarões,75432,12.474,mirror
+2022,030355,Peixe congelado,288,Gana,58392,9.656,mirror
+2022,030389,Peixe congelado,384,Costa do Marfim,2734209,63.786,mirror
+2022,030389,Peixe congelado,410,Coreia do Sul,1088902,25.403,mirror
+2022,030389,Peixe congelado,288,Gana,419633,9.789,mirror
+2022,030389,Peixe congelado,430,Liberia,43818,1.022,mirror
+2022,080131,"Cocos, castanhas de caju e nozes",699,Índia,202380069,100.0,mirror
+2022,080131,"Cocos, castanhas de caju e nozes",251,França,60,0.0,mirror
+2022,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,2233224,55.001,mirror
+2022,080132,"Cocos, castanhas de caju e nozes",276,Alemanha,750908,18.494,mirror
+2022,080132,"Cocos, castanhas de caju e nozes",40,Áustria,361671,8.907,mirror
+2022,080132,"Cocos, castanhas de caju e nozes",76,Brasil,344244,8.478,mirror
+2022,080132,"Cocos, castanhas de caju e nozes",705,Eslovénia,191484,4.716,mirror
+2022,080132,"Cocos, castanhas de caju e nozes",724,Espanha,89439,2.203,mirror
+2022,080132,"Cocos, castanhas de caju e nozes",380,Itália,45290,1.115,mirror
+2022,080132,"Cocos, castanhas de caju e nozes",251,França,29983,0.738,mirror
+2022,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,327254,100.0,mirror
+2022,150420,"Fats and oils and their fractions; of fish, (excluding liver-oils)",152,Chile,654018,100.0,mirror
+2022,999999,Commodities not specified according to kind,579,Noruega,50675,67.088,mirror
+2022,999999,Commodities not specified according to kind,251,França,21206,28.075,mirror
+2022,999999,Commodities not specified according to kind,842,EUA,1870,2.476,mirror
+2022,999999,Commodities not specified according to kind,490,Taiwan (Prov. China),839,1.111,mirror
+2022,999999,Commodities not specified according to kind,156,China,384,0.508,mirror
+2022,999999,Commodities not specified according to kind,724,Espanha,255,0.337,mirror
+2022,999999,Commodities not specified according to kind,414,Kuwait,206,0.272,mirror
+2022,999999,Commodities not specified according to kind,458,Malásia,45,0.059,mirror
+2023,030353,Peixe congelado,288,Gana,1691581,63.189,mirror
+2023,030353,Peixe congelado,430,Liberia,985436,36.811,mirror
+2023,030354,Peixe congelado,384,Costa do Marfim,4016369,65.638,mirror
+2023,030354,Peixe congelado,768,Togo,1208250,19.746,mirror
+2023,030354,Peixe congelado,288,Gana,674462,11.023,mirror
+2023,030354,Peixe congelado,430,Liberia,219861,3.593,mirror
+2023,030355,Peixe congelado,288,Gana,1674985,94.738,mirror
+2023,030355,Peixe congelado,430,Liberia,93042,5.262,mirror
+2023,030389,Peixe congelado,384,Costa do Marfim,1747576,55.751,mirror
+2023,030389,Peixe congelado,410,Coreia do Sul,1043588,33.292,mirror
+2023,030389,Peixe congelado,288,Gana,208389,6.648,mirror
+2023,030389,Peixe congelado,686,Senegal,87985,2.807,mirror
+2023,030389,Peixe congelado,818,Egito,34383,1.097,mirror
+2023,030389,Peixe congelado,430,Liberia,7176,0.229,mirror
+2023,030389,Peixe congelado,504,Marrocos,5536,0.177,mirror
+2023,080131,"Cocos, castanhas de caju e nozes",699,Índia,71654845,100.0,mirror
+2023,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,2352237,45.611,mirror
+2023,080132,"Cocos, castanhas de caju e nozes",842,EUA,611350,11.854,mirror
+2023,080132,"Cocos, castanhas de caju e nozes",76,Brasil,454371,8.81,mirror
+2023,080132,"Cocos, castanhas de caju e nozes",246,Finlândia,274984,5.332,mirror
+2023,080132,"Cocos, castanhas de caju e nozes",804,Ucrânia,252028,4.887,mirror
+2023,080132,"Cocos, castanhas de caju e nozes",40,Áustria,230672,4.473,mirror
+2023,080132,"Cocos, castanhas de caju e nozes",191,Croácia,174519,3.384,mirror
+2023,080132,"Cocos, castanhas de caju e nozes",705,Eslovénia,169613,3.289,mirror
+2023,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,580915,100.0,mirror
+2023,150420,"Fats and oils and their fractions; of fish, (excluding liver-oils)",152,Chile,10042683,74.38,mirror
+2023,150420,"Fats and oils and their fractions; of fish, (excluding liver-oils)",792,Turquia,1793333,13.282,mirror
+2023,150420,"Fats and oils and their fractions; of fish, (excluding liver-oils)",218,Equador,1665834,12.338,mirror
+2023,999999,Commodities not specified according to kind,251,França,23270,59.187,mirror
+2023,999999,Commodities not specified according to kind,842,EUA,10022,25.49,mirror
+2023,999999,Commodities not specified according to kind,579,Noruega,4810,12.233,mirror
+2023,999999,Commodities not specified according to kind,156,China,419,1.066,mirror
+2023,999999,Commodities not specified according to kind,724,Espanha,327,0.831,mirror
+2023,999999,Commodities not specified according to kind,484,México,205,0.521,mirror
+2023,999999,Commodities not specified according to kind,678,São Tomé e Príncipe,123,0.313,mirror
+2023,999999,Commodities not specified according to kind,8,Albania,87,0.22,mirror
+2024,030354,Peixe congelado,768,Togo,567403,100.0,mirror
+2024,030355,Peixe congelado,124,Canadá,32102,100.0,mirror
+2024,030389,Peixe congelado,410,Coreia do Sul,420070,89.225,mirror
+2024,030389,Peixe congelado,686,Senegal,37501,7.965,mirror
+2024,030389,Peixe congelado,124,Canadá,10740,2.281,mirror
+2024,030389,Peixe congelado,504,Marrocos,2490,0.529,mirror
+2024,080131,"Cocos, castanhas de caju e nozes",699,Índia,198363876,99.937,mirror
+2024,080131,"Cocos, castanhas de caju e nozes",620,Portugal,125662,0.063,mirror
+2024,080132,"Cocos, castanhas de caju e nozes",528,Países Baixos,1187549,29.195,mirror
+2024,080132,"Cocos, castanhas de caju e nozes",246,Finlândia,781748,19.219,mirror
+2024,080132,"Cocos, castanhas de caju e nozes",380,Itália,571307,14.045,mirror
+2024,080132,"Cocos, castanhas de caju e nozes",40,Áustria,439346,10.801,mirror
+2024,080132,"Cocos, castanhas de caju e nozes",276,Alemanha,428254,10.528,mirror
+2024,080132,"Cocos, castanhas de caju e nozes",203,Chéquia,185434,4.559,mirror
+2024,080132,"Cocos, castanhas de caju e nozes",792,Turquia,114096,2.805,mirror
+2024,080132,"Cocos, castanhas de caju e nozes",12,Argélia,103125,2.535,mirror
+2024,120740,"Oil seeds; sesamum seeds, whether or not broken",792,Turquia,1436310,100.0,mirror
+2024,150420,"Fats and oils and their fractions; of fish, (excluding liver-oils)",788,Tunisia,114376,100.0,mirror
+2024,230120,"Flours, meals and pellets; of fish or of crustaceans, molluscs or other aquatic invertebrates",792,Turquia,4625825,100.0,mirror
+2024,440349,Madeira em bruto,270,Gambia,760,83.482,mirror
+2024,440349,Madeira em bruto,251,França,150,16.518,mirror
+2024,440399,Madeira em bruto,686,Senegal,39693,99.037,mirror
+2024,440399,Madeira em bruto,270,Gambia,386,0.963,mirror
+2024,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,764,Tailândia,4030,100.0,mirror
+2024,999999,Commodities not specified according to kind,251,França,34681,66.576,mirror
+2024,999999,Commodities not specified according to kind,842,EUA,10684,20.51,mirror
+2024,999999,Commodities not specified according to kind,484,México,5111,9.811,mirror
+2024,999999,Commodities not specified according to kind,156,China,867,1.664,mirror
+2024,999999,Commodities not specified according to kind,490,Taiwan (Prov. China),374,0.718,mirror
+2024,999999,Commodities not specified according to kind,344,Hong Kong (RAEHK),241,0.463,mirror
+2024,999999,Commodities not specified according to kind,724,Espanha,85,0.163,mirror
+2024,999999,Commodities not specified according to kind,380,Itália,50,0.096,mirror

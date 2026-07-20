@@ -1,0 +1,431 @@
+year,partner_code,partner,value,share_pct,rank,basis
+2003,528,Países Baixos,2568398,38.745,1,direct
+2003,620,Portugal,2415750,36.443,2,direct
+2003,56,Bélgica,995681,15.02,3,direct
+2003,251,França,256443,3.869,4,direct
+2003,842,EUA,192448,2.903,5,direct
+2003,24,Angola,108781,1.641,6,direct
+2003,710,África do Sul,58215,0.878,7,direct
+2003,266,Gabão,18366,0.277,8,direct
+2003,392,Japão,10315,0.156,9,direct
+2003,566,Nigéria,4398,0.066,10,direct
+2003,528,Países Baixos,2971738,22.008,1,mirror
+2003,124,Canadá,1957476,14.497,2,mirror
+2003,251,França,1257640,9.314,3,mirror
+2003,704,Vietname,1235829,9.152,4,mirror
+2003,40,Áustria,1065647,7.892,5,mirror
+2003,276,Alemanha,1014000,7.509,6,mirror
+2003,608,Filipinas,926684,6.863,7,mirror
+2003,56,Bélgica,655747,4.856,8,mirror
+2003,620,Portugal,339071,2.511,9,mirror
+2003,231,Etiópia,323856,2.398,10,mirror
+2004,528,Países Baixos,1834384,51.628,1,direct
+2004,620,Portugal,910414,25.623,2,direct
+2004,56,Bélgica,335788,9.451,3,direct
+2004,266,Gabão,148353,4.175,4,direct
+2004,251,França,86317,2.429,5,direct
+2004,724,Espanha,68692,1.933,6,direct
+2004,24,Angola,63762,1.795,7,direct
+2004,566,Nigéria,38818,1.093,8,direct
+2004,328,Guyana,34950,0.984,9,direct
+2004,710,África do Sul,25265,0.711,10,direct
+2004,528,Países Baixos,2990185,23.036,1,mirror
+2004,251,França,2205504,16.991,2,mirror
+2004,156,China,1337546,10.304,3,mirror
+2004,56,Bélgica,782331,6.027,4,mirror
+2004,276,Alemanha,685000,5.277,5,mirror
+2004,616,Polónia,554223,4.27,6,mirror
+2004,231,Etiópia,485531,3.74,7,mirror
+2004,76,Brasil,428240,3.299,8,mirror
+2004,484,México,400130,3.083,9,mirror
+2004,620,Portugal,341857,2.634,10,mirror
+2005,620,Portugal,1332161,38.994,1,direct
+2005,528,Países Baixos,1315625,38.509,2,direct
+2005,56,Bélgica,369610,10.819,3,direct
+2005,24,Angola,137053,4.012,4,direct
+2005,392,Japão,80422,2.354,5,direct
+2005,251,França,63159,1.849,6,direct
+2005,566,Nigéria,51468,1.507,7,direct
+2005,226,Guiné Equatorial,26496,0.776,8,direct
+2005,276,Alemanha,22578,0.661,9,direct
+2005,266,Gabão,13991,0.41,10,direct
+2005,528,Países Baixos,2079823,17.166,1,mirror
+2005,251,França,1893783,15.63,2,mirror
+2005,56,Bélgica,1833563,15.133,3,mirror
+2005,792,Turquia,1105842,9.127,4,mirror
+2005,410,Coreia do Sul,807166,6.662,5,mirror
+2005,724,Espanha,734527,6.062,6,mirror
+2005,276,Alemanha,574000,4.738,7,mirror
+2005,214,República Dominicana,345186,2.849,8,mirror
+2005,484,México,342435,2.826,9,mirror
+2005,620,Portugal,317534,2.621,10,mirror
+2006,620,Portugal,1294746,33.422,1,direct
+2006,528,Países Baixos,1044054,26.951,2,direct
+2006,56,Bélgica,551613,14.239,3,direct
+2006,251,França,366940,9.472,4,direct
+2006,899,"Areas, nes",319636,8.251,5,direct
+2006,44,Bahamas,108917,2.812,6,direct
+2006,24,Angola,60480,1.561,7,direct
+2006,120,Camarões,56390,1.456,8,direct
+2006,566,Nigéria,36903,0.953,9,direct
+2006,258,French Polynesia,16991,0.439,10,direct
+2006,724,Espanha,6389671,30.056,1,mirror
+2006,528,Países Baixos,3349291,15.754,2,mirror
+2006,251,França,2144476,10.087,3,mirror
+2006,736,Sudan (...2011),2075571,9.763,4,mirror
+2006,484,México,1958578,9.213,5,mirror
+2006,56,Bélgica,1846468,8.685,6,mirror
+2006,620,Portugal,889090,4.182,7,mirror
+2006,40,Áustria,294438,1.385,8,mirror
+2006,616,Polónia,280879,1.321,9,mirror
+2006,752,Suécia,245092,1.153,10,mirror
+2007,620,Portugal,2310768,34.34,1,direct
+2007,24,Angola,2291432,34.053,2,direct
+2007,251,França,682042,10.136,3,direct
+2007,56,Bélgica,678298,10.08,4,direct
+2007,528,Países Baixos,512674,7.619,5,direct
+2007,266,Gabão,92331,1.372,6,direct
+2007,899,"Areas, nes",67832,1.008,7,direct
+2007,144,Sri Lanka,39130,0.582,8,direct
+2007,724,Espanha,20057,0.298,9,direct
+2007,226,Guiné Equatorial,11942,0.177,10,direct
+2007,251,França,3163671,26.463,1,mirror
+2007,56,Bélgica,2027702,16.961,2,mirror
+2007,214,República Dominicana,1907598,15.956,3,mirror
+2007,528,Países Baixos,936061,7.83,4,mirror
+2007,40,Áustria,714432,5.976,5,mirror
+2007,724,Espanha,441951,3.697,6,mirror
+2007,842,EUA,417442,3.492,7,mirror
+2007,620,Portugal,303229,2.536,8,mirror
+2007,410,Coreia do Sul,231926,1.94,9,mirror
+2007,203,Chéquia,192945,1.614,10,mirror
+2008,24,Angola,4999273,47.021,1,direct
+2008,620,Portugal,2825721,26.578,2,direct
+2008,528,Países Baixos,1584887,14.907,3,direct
+2008,56,Bélgica,445107,4.187,4,direct
+2008,251,França,385346,3.624,5,direct
+2008,44,Bahamas,167469,1.575,6,direct
+2008,266,Gabão,102032,0.96,7,direct
+2008,144,Sri Lanka,24944,0.235,8,direct
+2008,899,"Areas, nes",18196,0.171,9,direct
+2008,566,Nigéria,18175,0.171,10,direct
+2008,24,Angola,2844390,22.67,1,mirror
+2008,56,Bélgica,2508365,19.992,2,mirror
+2008,251,França,1825654,14.551,3,mirror
+2008,528,Países Baixos,1660620,13.235,4,mirror
+2008,214,República Dominicana,477714,3.807,5,mirror
+2008,620,Portugal,454616,3.623,6,mirror
+2008,736,Sudan (...2011),433132,3.452,7,mirror
+2008,276,Alemanha,235801,1.879,8,mirror
+2008,484,México,227858,1.816,9,mirror
+2008,554,Nova Zelândia,217959,1.737,10,mirror
+2009,620,Portugal,2053514,25.3,1,direct
+2009,24,Angola,1920086,23.656,2,direct
+2009,528,Países Baixos,1672103,20.601,3,direct
+2009,56,Bélgica,1174773,14.474,4,direct
+2009,899,"Areas, nes",406287,5.006,5,direct
+2009,258,French Polynesia,244711,3.015,6,direct
+2009,380,Itália,238527,2.939,7,direct
+2009,251,França,163404,2.013,8,direct
+2009,530,Netherlands Antilles (...2010),66917,0.824,9,direct
+2009,120,Camarões,41233,0.508,10,direct
+2009,533,Aruba,4603784,25.574,1,mirror
+2009,56,Bélgica,3247825,18.042,2,mirror
+2009,528,Países Baixos,3220762,17.891,3,mirror
+2009,251,França,2502486,13.901,4,mirror
+2009,710,África do Sul,1790490,9.946,5,mirror
+2009,620,Portugal,669291,3.718,6,mirror
+2009,276,Alemanha,252892,1.405,7,mirror
+2009,842,EUA,227021,1.261,8,mirror
+2009,380,Itália,178729,0.993,9,mirror
+2009,616,Polónia,138721,0.771,10,mirror
+2010,620,Portugal,2721916,42.655,1,direct
+2010,56,Bélgica,1352823,21.2,2,direct
+2010,528,Países Baixos,1012574,15.868,3,direct
+2010,899,"Areas, nes",419779,6.578,4,direct
+2010,579,Noruega,294054,4.608,5,direct
+2010,566,Nigéria,259481,4.066,6,direct
+2010,24,Angola,84001,1.316,7,direct
+2010,380,Itália,65683,1.029,8,direct
+2010,842,EUA,31680,0.496,9,direct
+2010,834,Tanzânia,29106,0.456,10,direct
+2010,533,Aruba,6554509,35.649,1,mirror
+2010,528,Países Baixos,4108558,22.346,2,mirror
+2010,818,Egito,2112868,11.492,3,mirror
+2010,251,França,1566713,8.521,4,mirror
+2010,764,Tailândia,536550,2.918,5,mirror
+2010,620,Portugal,390401,2.123,6,mirror
+2010,842,EUA,330476,1.797,7,mirror
+2010,498,Rep. of Moldova,240551,1.308,8,mirror
+2010,124,Canadá,230780,1.255,9,mirror
+2010,380,Itália,209509,1.14,10,mirror
+2011,899,"Areas, nes",4275137,38.719,1,direct
+2011,528,Países Baixos,2262294,20.489,2,direct
+2011,56,Bélgica,1720392,15.581,3,direct
+2011,24,Angola,886176,8.026,4,direct
+2011,620,Portugal,875067,7.925,5,direct
+2011,251,França,192968,1.748,6,direct
+2011,276,Alemanha,174095,1.577,7,direct
+2011,724,Espanha,102128,0.925,8,direct
+2011,380,Itália,91222,0.826,9,direct
+2011,702,Singapura,81854,0.741,10,direct
+2011,533,Aruba,8091794,49.2,1,mirror
+2011,528,Países Baixos,2021587,12.292,2,mirror
+2011,251,França,1108481,6.74,3,mirror
+2011,842,EUA,1000094,6.081,4,mirror
+2011,616,Polónia,642830,3.909,5,mirror
+2011,380,Itália,497758,3.026,6,mirror
+2011,620,Portugal,375867,2.285,7,mirror
+2011,132,Cabo Verde,194844,1.185,8,mirror
+2011,276,Alemanha,190288,1.157,9,mirror
+2011,484,México,183840,1.118,10,mirror
+2012,528,Países Baixos,2615493,43.252,1,direct
+2012,724,Espanha,615241,10.174,2,direct
+2012,792,Turquia,554378,9.168,3,direct
+2012,251,França,553983,9.161,4,direct
+2012,620,Portugal,428180,7.081,5,direct
+2012,56,Bélgica,357131,5.906,6,direct
+2012,768,Togo,211493,3.497,7,direct
+2012,276,Alemanha,154456,2.554,8,direct
+2012,120,Camarões,146166,2.417,9,direct
+2012,380,Itália,96623,1.598,10,direct
+2012,533,Aruba,3939336,27.676,1,mirror
+2012,528,Países Baixos,2006216,14.095,2,mirror
+2012,616,Polónia,1255986,8.824,3,mirror
+2012,724,Espanha,1110075,7.799,4,mirror
+2012,251,França,772955,5.43,5,mirror
+2012,842,EUA,591569,4.156,6,mirror
+2012,40,Áustria,589248,4.14,7,mirror
+2012,56,Bélgica,524517,3.685,8,mirror
+2012,120,Camarões,379325,2.665,9,mirror
+2012,484,México,343054,2.41,10,mirror
+2013,528,Países Baixos,2029391,29.249,1,direct
+2013,56,Bélgica,1426178,20.555,2,direct
+2013,251,França,829468,11.955,3,direct
+2013,724,Espanha,788887,11.37,4,direct
+2013,620,Portugal,435745,6.28,5,direct
+2013,792,Turquia,345545,4.98,6,direct
+2013,276,Alemanha,302792,4.364,7,direct
+2013,24,Angola,257388,3.71,8,direct
+2013,757,Suíça,122637,1.768,9,direct
+2013,76,Brasil,96555,1.392,10,direct
+2013,616,Polónia,1587596,15.427,1,mirror
+2013,854,Burkina Faso,1482903,14.41,2,mirror
+2013,528,Países Baixos,1073679,10.433,3,mirror
+2013,251,França,982480,9.547,4,mirror
+2013,276,Alemanha,862292,8.379,5,mirror
+2013,724,Espanha,787162,7.649,6,mirror
+2013,40,Áustria,414652,4.029,7,mirror
+2013,792,Turquia,378579,3.679,8,mirror
+2013,56,Bélgica,281775,2.738,9,mirror
+2013,842,EUA,265974,2.585,10,mirror
+2014,56,Bélgica,2518950,23.996,1,direct
+2014,528,Países Baixos,2224378,21.19,2,direct
+2014,724,Espanha,2089812,19.908,3,direct
+2014,251,França,1400587,13.342,4,direct
+2014,276,Alemanha,754943,7.192,5,direct
+2014,757,Suíça,433561,4.13,6,direct
+2014,120,Camarões,233106,2.221,7,direct
+2014,24,Angola,208049,1.982,8,direct
+2014,380,Itália,122761,1.169,9,direct
+2014,620,Portugal,113420,1.08,10,direct
+2014,616,Polónia,2757779,16.886,1,mirror
+2014,792,Turquia,2508934,15.362,2,mirror
+2014,251,França,2497750,15.293,3,mirror
+2014,24,Angola,1784625,10.927,4,mirror
+2014,724,Espanha,1399700,8.57,5,mirror
+2014,842,EUA,1011218,6.192,6,mirror
+2014,528,Países Baixos,827727,5.068,7,mirror
+2014,203,Chéquia,750248,4.594,8,mirror
+2014,276,Alemanha,483885,2.963,9,mirror
+2014,56,Bélgica,437440,2.678,10,mirror
+2015,528,Países Baixos,3329210,36.096,1,direct
+2015,56,Bélgica,2264512,24.552,2,direct
+2015,724,Espanha,880845,9.55,3,direct
+2015,251,França,479626,5.2,4,direct
+2015,620,Portugal,474578,5.145,5,direct
+2015,757,Suíça,424217,4.599,6,direct
+2015,380,Itália,401956,4.358,7,direct
+2015,276,Alemanha,379523,4.115,8,direct
+2015,24,Angola,187116,2.029,9,direct
+2015,84,Belize,128628,1.395,10,direct
+2015,616,Polónia,3359597,23.022,1,mirror
+2015,251,França,2587101,17.729,2,mirror
+2015,724,Espanha,1805635,12.374,3,mirror
+2015,56,Bélgica,1789530,12.263,4,mirror
+2015,842,EUA,807989,5.537,5,mirror
+2015,380,Itália,457350,3.134,6,mirror
+2015,24,Angola,409766,2.808,7,mirror
+2015,757,Suíça,381056,2.611,8,mirror
+2015,528,Países Baixos,332445,2.278,9,mirror
+2015,276,Alemanha,300419,2.059,10,mirror
+2016,838,Free Zones,9425473,89.99,1,direct
+2016,276,Alemanha,424942,4.057,2,direct
+2016,528,Países Baixos,251584,2.402,3,direct
+2016,620,Portugal,182449,1.742,4,direct
+2016,24,Angola,115991,1.107,5,direct
+2016,757,Suíça,32634,0.312,6,direct
+2016,266,Gabão,12485,0.119,7,direct
+2016,392,Japão,10398,0.099,8,direct
+2016,251,França,10184,0.097,9,direct
+2016,132,Cabo Verde,4280,0.041,10,direct
+2016,24,Angola,7163573,31.94,1,mirror
+2016,616,Polónia,4244174,18.923,2,mirror
+2016,724,Espanha,1980738,8.831,3,mirror
+2016,528,Países Baixos,1730355,7.715,4,mirror
+2016,56,Bélgica,1610433,7.18,5,mirror
+2016,251,França,1107972,4.94,6,mirror
+2016,372,Irlanda,1033385,4.608,7,mirror
+2016,380,Itália,501278,2.235,8,mirror
+2016,842,EUA,485701,2.166,9,mirror
+2016,620,Portugal,363769,1.622,10,mirror
+2017,528,Países Baixos,3126380,29.599,1,direct
+2017,724,Espanha,1756120,16.626,2,direct
+2017,251,França,1698520,16.081,3,direct
+2017,56,Bélgica,1462784,13.849,4,direct
+2017,276,Alemanha,605162,5.729,5,direct
+2017,620,Portugal,590047,5.586,6,direct
+2017,380,Itália,248449,2.352,7,direct
+2017,40,Áustria,209148,1.98,8,direct
+2017,24,Angola,187601,1.776,9,direct
+2017,156,China,122861,1.163,10,direct
+2017,616,Polónia,3779779,26.338,1,mirror
+2017,328,Guyana,1650639,11.502,2,mirror
+2017,528,Países Baixos,1529614,10.658,3,mirror
+2017,724,Espanha,1379608,9.613,4,mirror
+2017,251,França,1054137,7.345,5,mirror
+2017,56,Bélgica,985920,6.87,6,mirror
+2017,842,EUA,932948,6.501,7,mirror
+2017,620,Portugal,448653,3.126,8,mirror
+2017,380,Itália,341857,2.382,9,mirror
+2017,360,Indonésia,318328,2.218,10,mirror
+2018,528,Países Baixos,4563001,37.75,1,direct
+2018,620,Portugal,2915838,24.123,2,direct
+2018,56,Bélgica,2136397,17.675,3,direct
+2018,276,Alemanha,1145170,9.474,4,direct
+2018,251,França,597474,4.943,5,direct
+2018,24,Angola,226326,1.872,6,direct
+2018,724,Espanha,106504,0.881,7,direct
+2018,384,Costa do Marfim,106035,0.877,8,direct
+2018,380,Itália,99452,0.823,9,direct
+2018,842,EUA,48183,0.399,10,direct
+2018,616,Polónia,3319584,19.423,1,mirror
+2018,702,Singapura,3070735,17.967,2,mirror
+2018,251,França,2105538,12.32,3,mirror
+2018,56,Bélgica,2087896,12.217,4,mirror
+2018,528,Países Baixos,1029424,6.023,5,mirror
+2018,620,Portugal,814825,4.768,6,mirror
+2018,842,EUA,747283,4.372,7,mirror
+2018,554,Nova Zelândia,555676,3.251,8,mirror
+2018,203,Chéquia,525044,3.072,9,mirror
+2018,724,Espanha,511002,2.99,10,mirror
+2019,899,"Areas, nes",8937674,90.656,1,direct
+2019,620,Portugal,173776,1.763,2,direct
+2019,528,Países Baixos,166834,1.692,3,direct
+2019,705,Eslovénia,161945,1.643,4,direct
+2019,56,Bélgica,132988,1.349,5,direct
+2019,842,EUA,72177,0.732,6,direct
+2019,24,Angola,69253,0.702,7,direct
+2019,124,Canadá,68675,0.697,8,direct
+2019,251,França,34199,0.347,9,direct
+2019,76,Brasil,21672,0.22,10,direct
+2019,702,Singapura,6954904,29.193,1,mirror
+2019,757,Suíça,5426027,22.775,2,mirror
+2019,251,França,2664138,11.182,3,mirror
+2019,616,Polónia,1664101,6.985,4,mirror
+2019,842,EUA,1588974,6.67,5,mirror
+2019,528,Países Baixos,1384066,5.809,6,mirror
+2019,56,Bélgica,1040187,4.366,7,mirror
+2019,554,Nova Zelândia,711313,2.986,8,mirror
+2019,203,Chéquia,395354,1.659,9,mirror
+2019,24,Angola,374287,1.571,10,mirror
+2020,528,Países Baixos,5821431,46.798,1,direct
+2020,56,Bélgica,2015828,16.205,2,direct
+2020,620,Portugal,1296155,10.42,3,direct
+2020,276,Alemanha,1066325,8.572,4,direct
+2020,120,Camarões,665439,5.349,5,direct
+2020,251,França,619325,4.979,6,direct
+2020,24,Angola,553142,4.447,7,direct
+2020,226,Guiné Equatorial,187794,1.51,8,direct
+2020,266,Gabão,81670,0.657,9,direct
+2020,724,Espanha,61250,0.492,10,direct
+2020,702,Singapura,7163343,26.945,1,mirror
+2020,757,Suíça,6165671,23.192,2,mirror
+2020,251,França,1884233,7.088,3,mirror
+2020,528,Países Baixos,1749209,6.58,4,mirror
+2020,616,Polónia,1612603,6.066,5,mirror
+2020,620,Portugal,1339403,5.038,6,mirror
+2020,842,EUA,928210,3.491,7,mirror
+2020,554,Nova Zelândia,906402,3.409,8,mirror
+2020,120,Camarões,879534,3.308,9,mirror
+2020,24,Angola,516990,1.945,10,mirror
+2021,528,Países Baixos,8641396,45.066,1,direct
+2021,56,Bélgica,4077334,21.264,2,direct
+2021,620,Portugal,2511956,13.1,3,direct
+2021,276,Alemanha,1735757,9.052,4,direct
+2021,120,Camarões,812274,4.236,5,direct
+2021,686,Senegal,471298,2.458,6,direct
+2021,251,França,239179,1.247,7,direct
+2021,266,Gabão,142582,0.744,8,direct
+2021,724,Espanha,120629,0.629,9,direct
+2021,24,Angola,91311,0.476,10,direct
+2021,702,Singapura,5257697,17.389,1,mirror
+2021,251,França,4735252,15.661,2,mirror
+2021,528,Países Baixos,4280649,14.157,3,mirror
+2021,616,Polónia,3679535,12.169,4,mirror
+2021,620,Portugal,3040431,10.056,5,mirror
+2021,757,Suíça,2329667,7.705,6,mirror
+2021,842,EUA,1315772,4.352,7,mirror
+2021,686,Senegal,1060138,3.506,8,mirror
+2021,554,Nova Zelândia,732017,2.421,9,mirror
+2021,826,Reino Unido,448208,1.482,10,mirror
+2022,528,Países Baixos,8725795,38.629,1,direct
+2022,899,"Areas, nes",4987182,22.078,2,direct
+2022,56,Bélgica,3146489,13.929,3,direct
+2022,620,Portugal,2168832,9.601,4,direct
+2022,120,Camarões,801901,3.55,5,direct
+2022,24,Angola,694307,3.074,6,direct
+2022,276,Alemanha,584389,2.587,7,direct
+2022,724,Espanha,545199,2.414,8,direct
+2022,300,Grécia,336074,1.488,9,direct
+2022,251,França,197693,0.875,10,direct
+2022,251,França,4784007,19.669,1,mirror
+2022,528,Países Baixos,3811325,15.67,2,mirror
+2022,620,Portugal,2360754,9.706,3,mirror
+2022,616,Polónia,1830659,7.526,4,mirror
+2022,757,Suíça,1799206,7.397,5,mirror
+2022,24,Angola,1347937,5.542,6,mirror
+2022,702,Singapura,1304043,5.361,7,mirror
+2022,120,Camarões,1078280,4.433,8,mirror
+2022,724,Espanha,1035450,4.257,9,mirror
+2022,826,Reino Unido,917815,3.773,10,mirror
+2023,528,Países Baixos,9986441,60.324,1,direct
+2023,56,Bélgica,3420976,20.665,2,direct
+2023,620,Portugal,784422,4.738,3,direct
+2023,276,Alemanha,532378,3.216,4,direct
+2023,724,Espanha,521659,3.151,5,direct
+2023,120,Camarões,311228,1.88,6,direct
+2023,251,França,300485,1.815,7,direct
+2023,100,Bulgária,203524,1.229,8,direct
+2023,233,Estónia,125571,0.759,9,direct
+2023,842,EUA,87876,0.531,10,direct
+2023,586,Paquistão,30845640,52.406,1,mirror
+2023,276,Alemanha,6267227,10.648,2,mirror
+2023,251,França,4496277,7.639,3,mirror
+2023,528,Países Baixos,4195994,7.129,4,mirror
+2023,784,Emirados Árabes Unidos,1953368,3.319,5,mirror
+2023,616,Polónia,1929911,3.279,6,mirror
+2023,842,EUA,1801308,3.06,7,mirror
+2023,757,Suíça,1395172,2.37,8,mirror
+2023,328,Guyana,1363633,2.317,9,mirror
+2023,724,Espanha,1085426,1.844,10,mirror
+2024,586,Paquistão,10023356,20.444,1,mirror
+2024,528,Países Baixos,8492807,17.322,2,mirror
+2024,251,França,6837220,13.945,3,mirror
+2024,616,Polónia,6637291,13.537,4,mirror
+2024,276,Alemanha,4879630,9.953,5,mirror
+2024,757,Suíça,2273365,4.637,6,mirror
+2024,360,Indonésia,2143707,4.372,7,mirror
+2024,56,Bélgica,1140942,2.327,8,mirror
+2024,620,Portugal,963167,1.964,9,mirror
+2024,702,Singapura,949901,1.937,10,mirror

@@ -1,0 +1,441 @@
+year,hs6,description_pt,value,share_pct,rank,basis
+2003,270900,Petróleo bruto,3907511781,7.534,1,direct
+2003,100190,100190,1110985353,2.142,2,direct
+2003,271019,Combustíveis refinados,1068667464,2.06,3,direct
+2003,271600,Electrical energy,1037316941,2.0,4,direct
+2003,854221,854221,995002610,1.918,5,direct
+2003,271011,Combustíveis refinados,858409350,1.655,6,direct
+2003,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",733445209,1.414,7,direct
+2003,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",689281075,1.329,8,direct
+2003,850239,"Electric generating sets; (excluding those with spark-ignition or compression-ignition internal combustion piston engines), other than wind powered",641375662,1.237,9,direct
+2003,847330,"Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",615189813,1.186,10,direct
+2003,270900,Petróleo bruto,3012586503,6.255,1,mirror
+2003,271600,Electrical energy,1049600689,2.179,2,mirror
+2003,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",963560302,2.001,3,mirror
+2003,300490,Medicamentos,891813469,1.852,4,mirror
+2003,847330,"Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",782291972,1.624,5,mirror
+2003,271011,Combustíveis refinados,756792262,1.571,6,mirror
+2003,841112,Turbo-jets; of a thrust exceeding 25kN,614757185,1.276,7,mirror
+2003,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",543093039,1.128,8,mirror
+2003,271121,Gás natural e outros gases de petróleo,433038160,0.899,9,mirror
+2003,870323,Automóveis de passageiros,366659059,0.761,10,mirror
+2004,270900,Petróleo bruto,6944930086,10.295,1,direct
+2004,854221,854221,1330233135,1.972,2,direct
+2004,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",1159203582,1.718,3,direct
+2004,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",1136010169,1.684,4,direct
+2004,271019,Combustíveis refinados,1106725760,1.641,5,direct
+2004,271011,Combustíveis refinados,1094784898,1.623,6,direct
+2004,271600,Electrical energy,1069197731,1.585,7,direct
+2004,100190,100190,837375858,1.241,8,direct
+2004,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",788030879,1.168,9,direct
+2004,847330,"Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",779787807,1.156,10,direct
+2004,270900,Petróleo bruto,2277939973,3.783,1,mirror
+2004,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",1633596746,2.713,2,mirror
+2004,271600,Electrical energy,1083462115,1.799,3,mirror
+2004,847330,"Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",904993869,1.503,4,mirror
+2004,300490,Medicamentos,862533958,1.433,5,mirror
+2004,271011,Combustíveis refinados,751339711,1.248,6,mirror
+2004,271121,Gás natural e outros gases de petróleo,605836526,1.006,7,mirror
+2004,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",549966692,0.913,8,mirror
+2004,271019,Combustíveis refinados,482339260,0.801,9,mirror
+2004,740311,Cobre refinado,436228448,0.724,10,mirror
+2005,270900,Petróleo bruto,7838077462,9.959,1,direct
+2005,854221,854221,1701347072,2.162,2,direct
+2005,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",1573281149,1.999,3,direct
+2005,271019,Combustíveis refinados,1521130609,1.933,4,direct
+2005,271011,Combustíveis refinados,1495352681,1.9,5,direct
+2005,271600,Electrical energy,1224289840,1.556,6,direct
+2005,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",1181372928,1.501,7,direct
+2005,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",1081615392,1.374,8,direct
+2005,271121,Gás natural e outros gases de petróleo,1005138719,1.277,9,direct
+2005,847330,"Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",979798072,1.245,10,direct
+2005,270900,Petróleo bruto,3653952849,5.039,1,mirror
+2005,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",2544127025,3.508,2,mirror
+2005,847330,"Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",1389184999,1.916,3,mirror
+2005,271600,Electrical energy,1257958158,1.735,4,mirror
+2005,271011,Combustíveis refinados,1126234408,1.553,5,mirror
+2005,300490,Medicamentos,1087669916,1.5,6,mirror
+2005,271121,Gás natural e outros gases de petróleo,964497763,1.33,7,mirror
+2005,271019,Combustíveis refinados,908616254,1.253,8,mirror
+2005,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",889379462,1.226,9,mirror
+2005,740311,Cobre refinado,624371928,0.861,10,mirror
+2006,270900,Petróleo bruto,9227109605,9.509,1,direct
+2006,271019,Combustíveis refinados,2596972317,2.676,2,direct
+2006,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",2273728729,2.343,3,direct
+2006,854221,854221,2097713284,2.162,4,direct
+2006,271011,Combustíveis refinados,1862376698,1.919,5,direct
+2006,271121,Gás natural e outros gases de petróleo,1532202780,1.579,6,direct
+2006,870323,Automóveis de passageiros,1388217489,1.431,7,direct
+2006,271600,Electrical energy,1352471349,1.394,8,direct
+2006,847330,"Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",1316410204,1.357,9,direct
+2006,300490,Medicamentos,1281107057,1.32,10,direct
+2006,270900,Petróleo bruto,5710710191,6.216,1,mirror
+2006,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",3287094077,3.578,2,mirror
+2006,847330,"Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",1813518074,1.974,3,mirror
+2006,271019,Combustíveis refinados,1566196183,1.705,4,mirror
+2006,271121,Gás natural e outros gases de petróleo,1464540942,1.594,5,mirror
+2006,271600,Electrical energy,1354141376,1.474,6,mirror
+2006,300490,Medicamentos,1344680010,1.464,7,mirror
+2006,271011,Combustíveis refinados,1327105827,1.444,8,mirror
+2006,870323,Automóveis de passageiros,1222594579,1.331,9,mirror
+2006,740311,Cobre refinado,1220523620,1.328,10,mirror
+2007,270900,Petróleo bruto,12177813740,9.506,1,direct
+2007,271019,Combustíveis refinados,4104452928,3.204,2,direct
+2007,870323,Automóveis de passageiros,2105834806,1.644,3,direct
+2007,271011,Combustíveis refinados,2026707778,1.582,4,direct
+2007,851770,851770,1850775254,1.445,5,direct
+2007,271121,Gás natural e outros gases de petróleo,1805710441,1.409,6,direct
+2007,300490,Medicamentos,1719240498,1.342,7,direct
+2007,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",1660972219,1.297,8,direct
+2007,740311,Cobre refinado,1631792047,1.274,9,direct
+2007,271600,Electrical energy,1599936552,1.249,10,direct
+2007,270900,Petróleo bruto,7159776097,5.98,1,mirror
+2007,271019,Combustíveis refinados,2457017743,2.052,2,mirror
+2007,870323,Automóveis de passageiros,2254560249,1.883,3,mirror
+2007,851770,851770,1833922806,1.532,4,mirror
+2007,271121,Gás natural e outros gases de petróleo,1683185195,1.406,5,mirror
+2007,271011,Combustíveis refinados,1645478959,1.374,6,mirror
+2007,300490,Medicamentos,1618663376,1.352,7,mirror
+2007,271600,Electrical energy,1567272199,1.309,8,mirror
+2007,740311,Cobre refinado,1542445078,1.288,9,mirror
+2007,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",1535608293,1.283,10,mirror
+2008,270900,Petróleo bruto,16855785143,9.165,1,direct
+2008,271019,Combustíveis refinados,7558004270,4.109,2,direct
+2008,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",4108024803,2.234,3,direct
+2008,870323,Automóveis de passageiros,3346296902,1.819,4,direct
+2008,271121,Gás natural e outros gases de petróleo,3144853799,1.71,5,direct
+2008,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",2582291992,1.404,6,direct
+2008,851770,851770,2460013020,1.338,7,direct
+2008,271011,Combustíveis refinados,2451020480,1.333,8,direct
+2008,100190,100190,2161562862,1.175,9,direct
+2008,300490,Medicamentos,1988666047,1.081,10,direct
+2008,270900,Petróleo bruto,12060363041,7.047,1,mirror
+2008,271019,Combustíveis refinados,5422763335,3.169,2,mirror
+2008,870323,Automóveis de passageiros,3486260637,2.037,3,mirror
+2008,271121,Gás natural e outros gases de petróleo,2897035421,1.693,4,mirror
+2008,851770,851770,2766758425,1.617,5,mirror
+2008,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2506342661,1.465,6,mirror
+2008,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2381241312,1.391,7,mirror
+2008,271011,Combustíveis refinados,1963511168,1.147,8,mirror
+2008,300490,Medicamentos,1949008061,1.139,9,mirror
+2008,740311,Cobre refinado,1782627983,1.042,10,mirror
+2009,270900,Petróleo bruto,9437508868,6.971,1,direct
+2009,870323,Automóveis de passageiros,3541877084,2.616,2,direct
+2009,271019,Combustíveis refinados,2894503033,2.138,3,direct
+2009,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2183411574,1.613,4,direct
+2009,300490,Medicamentos,2002983308,1.48,5,direct
+2009,271011,Combustíveis refinados,1844677514,1.363,6,direct
+2009,271121,Gás natural e outros gases de petróleo,1808434096,1.336,7,direct
+2009,271600,Electrical energy,1642899922,1.214,8,direct
+2009,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",1562617040,1.154,9,direct
+2009,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",1430394991,1.057,10,direct
+2009,270900,Petróleo bruto,6058831505,4.778,1,mirror
+2009,870323,Automóveis de passageiros,3551600930,2.801,2,mirror
+2009,271019,Combustíveis refinados,2410725649,1.901,3,mirror
+2009,300490,Medicamentos,2041618278,1.61,4,mirror
+2009,851770,851770,1901908671,1.5,5,mirror
+2009,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",1692428571,1.335,6,mirror
+2009,271600,Electrical energy,1606884012,1.267,7,mirror
+2009,271121,Gás natural e outros gases de petróleo,1587761534,1.252,8,mirror
+2009,271011,Combustíveis refinados,1551936666,1.224,9,mirror
+2009,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",1521950264,1.2,10,mirror
+2010,270900,Petróleo bruto,10274488932,5.318,1,direct
+2010,271019,Combustíveis refinados,7499475872,3.882,2,direct
+2010,870323,Automóveis de passageiros,5190418157,2.687,3,direct
+2010,271011,Combustíveis refinados,4082013498,2.113,4,direct
+2010,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",3206812217,1.66,5,direct
+2010,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2441072571,1.264,6,direct
+2010,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2421288273,1.253,7,direct
+2010,300490,Medicamentos,2370140551,1.227,8,direct
+2010,271121,Gás natural e outros gases de petróleo,2287441855,1.184,9,direct
+2010,740311,Cobre refinado,1910085720,0.989,10,direct
+2010,271011,Combustíveis refinados,5506256370,3.008,1,mirror
+2010,270900,Petróleo bruto,5452932743,2.978,2,mirror
+2010,870323,Automóveis de passageiros,5221808215,2.852,3,mirror
+2010,271019,Combustíveis refinados,5049173621,2.758,4,mirror
+2010,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2646249634,1.445,5,mirror
+2010,300490,Medicamentos,2329917309,1.273,6,mirror
+2010,271121,Gás natural e outros gases de petróleo,2302023638,1.257,7,mirror
+2010,851770,851770,2018107533,1.102,8,mirror
+2010,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",1980643055,1.082,9,mirror
+2010,740311,Cobre refinado,1941279016,1.06,10,mirror
+2011,270900,Petróleo bruto,14264036248,5.976,1,direct
+2011,271019,Combustíveis refinados,10743738550,4.501,2,direct
+2011,870323,Automóveis de passageiros,7413428306,3.106,3,direct
+2011,271011,Combustíveis refinados,6683589834,2.8,4,direct
+2011,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",3734985847,1.565,5,direct
+2011,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",3647108467,1.528,6,direct
+2011,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",3523391058,1.476,7,direct
+2011,271121,Gás natural e outros gases de petróleo,2882540201,1.208,8,direct
+2011,300490,Medicamentos,2533874579,1.062,9,direct
+2011,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",2169766351,0.909,10,direct
+2011,270900,Petróleo bruto,10384715851,4.559,1,mirror
+2011,271019,Combustíveis refinados,7861339389,3.451,2,mirror
+2011,870323,Automóveis de passageiros,7536229065,3.309,3,mirror
+2011,271011,Combustíveis refinados,7064417561,3.102,4,mirror
+2011,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",3416653006,1.5,5,mirror
+2011,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",3006303783,1.32,6,mirror
+2011,271121,Gás natural e outros gases de petróleo,2897602526,1.272,7,mirror
+2011,300490,Medicamentos,2559959963,1.124,8,mirror
+2011,851770,851770,2476368765,1.087,9,mirror
+2011,740311,Cobre refinado,1966422687,0.863,10,mirror
+2012,270900,Petróleo bruto,13588696742,5.772,1,direct
+2012,271019,Combustíveis refinados,9382091266,3.986,2,direct
+2012,271012,Combustíveis refinados,7197723623,3.058,3,direct
+2012,870323,Automóveis de passageiros,6294657507,2.674,4,direct
+2012,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",3716759036,1.579,5,direct
+2012,271121,Gás natural e outros gases de petróleo,3587218322,1.524,6,direct
+2012,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",3567410221,1.515,7,direct
+2012,300490,Medicamentos,2611643742,1.109,8,direct
+2012,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2552644078,1.084,9,direct
+2012,847330,"Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",2464127235,1.047,10,direct
+2012,270900,Petróleo bruto,9904677034,4.312,1,mirror
+2012,271019,Combustíveis refinados,9551930584,4.159,2,mirror
+2012,271012,Combustíveis refinados,6814001661,2.967,3,mirror
+2012,870323,Automóveis de passageiros,5867231556,2.554,4,mirror
+2012,271121,Gás natural e outros gases de petróleo,3565747112,1.552,5,mirror
+2012,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",3041324967,1.324,6,mirror
+2012,300490,Medicamentos,2861461545,1.246,7,mirror
+2012,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2543291219,1.107,8,mirror
+2012,870421,Veículos de mercadorias,2327173980,1.013,9,mirror
+2012,740311,Cobre refinado,2047559358,0.891,10,mirror
+2013,270900,Petróleo bruto,16536508296,6.555,1,direct
+2013,271019,Combustíveis refinados,11242002910,4.456,2,direct
+2013,271012,Combustíveis refinados,7011078339,2.779,3,direct
+2013,870323,Automóveis de passageiros,5671910921,2.248,4,direct
+2013,271121,Gás natural e outros gases de petróleo,4181122894,1.657,5,direct
+2013,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",3604793310,1.429,6,direct
+2013,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",3558724038,1.411,7,direct
+2013,851770,851770,3063345959,1.214,8,direct
+2013,271111,Gás natural e outros gases de petróleo,2976983568,1.18,9,direct
+2013,300490,Medicamentos,2685080120,1.064,10,direct
+2013,270900,Petróleo bruto,9424292573,4.095,1,mirror
+2013,271019,Combustíveis refinados,7856222030,3.414,2,mirror
+2013,870323,Automóveis de passageiros,5536806954,2.406,3,mirror
+2013,271012,Combustíveis refinados,4015721480,1.745,4,mirror
+2013,271121,Gás natural e outros gases de petróleo,3928863915,1.707,5,mirror
+2013,300490,Medicamentos,2850369261,1.239,6,mirror
+2013,870421,Veículos de mercadorias,2595267320,1.128,7,mirror
+2013,851770,851770,2585001605,1.123,8,mirror
+2013,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2519484690,1.095,9,mirror
+2013,100199,"Cereals; wheat and meslin, other than durum wheat, other than seed",2241543682,0.974,10,mirror
+2014,270900,Petróleo bruto,15746647059,6.54,1,direct
+2014,271019,Combustíveis refinados,11320228195,4.702,2,direct
+2014,271012,Combustíveis refinados,6831221641,2.837,3,direct
+2014,870323,Automóveis de passageiros,4714339690,1.958,4,direct
+2014,271121,Gás natural e outros gases de petróleo,4027857551,1.673,5,direct
+2014,851770,851770,3669844237,1.524,6,direct
+2014,271111,Gás natural e outros gases de petróleo,3259725740,1.354,7,direct
+2014,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",3199682449,1.329,8,direct
+2014,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",3154541447,1.31,9,direct
+2014,300490,Medicamentos,2686618915,1.116,10,direct
+2014,270900,Petróleo bruto,9743875469,4.451,1,mirror
+2014,271019,Combustíveis refinados,9109984443,4.161,2,mirror
+2014,870323,Automóveis de passageiros,4450810451,2.033,3,mirror
+2014,271012,Combustíveis refinados,4305757597,1.967,4,mirror
+2014,271121,Gás natural e outros gases de petróleo,3775542883,1.725,5,mirror
+2014,851770,851770,2927990642,1.337,6,mirror
+2014,300490,Medicamentos,2822630749,1.289,7,mirror
+2014,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2408177183,1.1,8,mirror
+2014,870421,Veículos de mercadorias,2377169887,1.086,9,mirror
+2014,271111,Gás natural e outros gases de petróleo,2072532189,0.947,10,mirror
+2015,270900,Petróleo bruto,7598390319,4.211,1,direct
+2015,271019,Combustíveis refinados,5044320266,2.795,2,direct
+2015,271012,Combustíveis refinados,4104880942,2.275,3,direct
+2015,870323,Automóveis de passageiros,3227789860,1.789,4,direct
+2015,851770,851770,2900957637,1.608,5,direct
+2015,271111,Gás natural e outros gases de petróleo,2891395607,1.602,6,direct
+2015,271121,Gás natural e outros gases de petróleo,2752505498,1.525,7,direct
+2015,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2705252768,1.499,8,direct
+2015,300490,Medicamentos,2440823504,1.353,9,direct
+2015,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",2181542558,1.209,10,direct
+2015,270900,Petróleo bruto,3298622570,2.062,1,mirror
+2015,271019,Combustíveis refinados,3109462172,1.943,2,mirror
+2015,870323,Automóveis de passageiros,2950407350,1.844,3,mirror
+2015,300490,Medicamentos,2539554967,1.587,4,mirror
+2015,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2430006687,1.519,5,mirror
+2015,271012,Combustíveis refinados,2417012358,1.511,6,mirror
+2015,271121,Gás natural e outros gases de petróleo,2402632170,1.502,7,mirror
+2015,851770,851770,2242620378,1.402,8,mirror
+2015,271600,Electrical energy,1653660424,1.034,9,mirror
+2015,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",1598738096,0.999,10,mirror
+2016,271019,Combustíveis refinados,4081858933,2.81,1,direct
+2016,271012,Combustíveis refinados,3672750002,2.529,2,direct
+2016,270900,Petróleo bruto,3009306274,2.072,3,direct
+2016,300490,Medicamentos,2519870036,1.735,4,direct
+2016,851770,851770,2312331120,1.592,5,direct
+2016,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2154888228,1.484,6,direct
+2016,841191,Turbines; parts of turbo-jets and turbo-propellers,2112675164,1.455,7,direct
+2016,271600,Electrical energy,1772762760,1.221,8,direct
+2016,300210,300210,1754037474,1.208,9,direct
+2016,870323,Automóveis de passageiros,1612864842,1.11,10,direct
+2016,271012,Combustíveis refinados,3815935402,2.734,1,mirror
+2016,271019,Combustíveis refinados,3453066381,2.474,2,mirror
+2016,300490,Medicamentos,2607580617,1.868,3,mirror
+2016,851770,851770,2187079350,1.567,4,mirror
+2016,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",1926821628,1.38,5,mirror
+2016,271600,Electrical energy,1726630562,1.237,6,mirror
+2016,870323,Automóveis de passageiros,1655447893,1.186,7,mirror
+2016,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",1646273677,1.179,8,mirror
+2016,870421,Veículos de mercadorias,1358094867,0.973,9,mirror
+2016,870840,Vehicle parts; gear boxes and parts thereof,1338693129,0.959,10,mirror
+2017,271019,Combustíveis refinados,6693999098,4.036,1,direct
+2017,271012,Combustíveis refinados,5733169209,3.457,2,direct
+2017,270900,Petróleo bruto,3046182674,1.837,3,direct
+2017,851770,851770,3033796839,1.829,4,direct
+2017,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2983585569,1.799,5,direct
+2017,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2586312365,1.559,6,direct
+2017,841191,Turbines; parts of turbo-jets and turbo-propellers,2564165554,1.546,7,direct
+2017,300490,Medicamentos,2348355962,1.416,8,direct
+2017,870840,Vehicle parts; gear boxes and parts thereof,2051613487,1.237,9,direct
+2017,852990,"Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",2046862060,1.234,10,direct
+2017,271019,Combustíveis refinados,6459904775,3.972,1,mirror
+2017,271012,Combustíveis refinados,4407321769,2.71,2,mirror
+2017,851770,851770,2711534998,1.667,3,mirror
+2017,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2613799949,1.607,4,mirror
+2017,300490,Medicamentos,2292802752,1.41,5,mirror
+2017,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2245796800,1.381,6,mirror
+2017,870840,Vehicle parts; gear boxes and parts thereof,1861393895,1.145,7,mirror
+2017,271600,Electrical energy,1781344498,1.095,8,mirror
+2017,870421,Veículos de mercadorias,1726174174,1.061,9,mirror
+2017,870323,Automóveis de passageiros,1548496838,0.952,10,mirror
+2018,271019,Combustíveis refinados,7922525783,4.108,1,direct
+2018,271012,Combustíveis refinados,5485463011,2.845,2,direct
+2018,270900,Petróleo bruto,5162961311,2.677,3,direct
+2018,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",3335642087,1.73,4,direct
+2018,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",3077927024,1.596,5,direct
+2018,841191,Turbines; parts of turbo-jets and turbo-propellers,2784642650,1.444,6,direct
+2018,851770,851770,2776020090,1.44,7,direct
+2018,870421,Veículos de mercadorias,2643747227,1.371,8,direct
+2018,300490,Medicamentos,2467568939,1.28,9,direct
+2018,870840,Vehicle parts; gear boxes and parts thereof,2415860242,1.253,10,direct
+2018,271019,Combustíveis refinados,5582526564,3.133,1,mirror
+2018,271012,Combustíveis refinados,4044205425,2.27,2,mirror
+2018,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2721337536,1.527,3,mirror
+2018,870421,Veículos de mercadorias,2632330314,1.477,4,mirror
+2018,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2456095759,1.378,5,mirror
+2018,270900,Petróleo bruto,2401543317,1.348,6,mirror
+2018,851770,851770,2314244091,1.299,7,mirror
+2018,300490,Medicamentos,2290257835,1.285,8,mirror
+2018,870840,Vehicle parts; gear boxes and parts thereof,2200376273,1.235,9,mirror
+2018,870323,Automóveis de passageiros,1838892827,1.032,10,mirror
+2019,271019,Combustíveis refinados,8199987363,4.245,1,direct
+2019,271012,Combustíveis refinados,5359671698,2.775,2,direct
+2019,270900,Petróleo bruto,4813815110,2.492,3,direct
+2019,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",3650949218,1.89,4,direct
+2019,841191,Turbines; parts of turbo-jets and turbo-propellers,3307118728,1.712,5,direct
+2019,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2952881929,1.529,6,direct
+2019,870421,Veículos de mercadorias,2841849958,1.471,7,direct
+2019,851770,851770,2834623223,1.467,8,direct
+2019,300490,Medicamentos,2674364668,1.385,9,direct
+2019,890520,Floating or submersible drilling or production platforms,2505686192,1.297,10,direct
+2019,271019,Combustíveis refinados,7152542616,3.988,1,mirror
+2019,271012,Combustíveis refinados,4526474864,2.524,2,mirror
+2019,870421,Veículos de mercadorias,2657152044,1.482,3,mirror
+2019,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2608100956,1.454,4,mirror
+2019,300490,Medicamentos,2525309877,1.408,5,mirror
+2019,851770,851770,2400890940,1.339,6,mirror
+2019,870840,Vehicle parts; gear boxes and parts thereof,2235096974,1.246,7,mirror
+2019,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2086047652,1.163,8,mirror
+2019,270900,Petróleo bruto,2035028851,1.135,9,mirror
+2019,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",1830563625,1.021,10,mirror
+2020,271019,Combustíveis refinados,5155614447,3.1,1,direct
+2020,271012,Combustíveis refinados,2795404645,1.681,2,direct
+2020,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2781350653,1.672,3,direct
+2020,270900,Petróleo bruto,2761144320,1.66,4,direct
+2020,851770,851770,2668339775,1.604,5,direct
+2020,300490,Medicamentos,2479109140,1.49,6,direct
+2020,841191,Turbines; parts of turbo-jets and turbo-propellers,2458294238,1.478,7,direct
+2020,890520,Floating or submersible drilling or production platforms,2101054870,1.263,8,direct
+2020,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",2032444543,1.222,9,direct
+2020,310210,"Fertilizers, mineral or chemical; nitrogenous, urea, whether or not in aqueous solution",1851898991,1.113,10,direct
+2020,271019,Combustíveis refinados,4743206403,3.029,1,mirror
+2020,271012,Combustíveis refinados,3168577272,2.024,2,mirror
+2020,851770,851770,2491020333,1.591,3,mirror
+2020,300490,Medicamentos,2377472452,1.518,4,mirror
+2020,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2116189909,1.351,5,mirror
+2020,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",1797658962,1.148,6,mirror
+2020,870840,Vehicle parts; gear boxes and parts thereof,1764691404,1.127,7,mirror
+2020,870421,Veículos de mercadorias,1604116313,1.024,8,mirror
+2020,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",1553663895,0.992,9,mirror
+2020,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",1510968726,0.965,10,mirror
+2021,271019,Combustíveis refinados,8965035526,3.82,1,direct
+2021,271012,Combustíveis refinados,4952448197,2.11,2,direct
+2021,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",4634069207,1.975,3,direct
+2021,300220,300220,4317415136,1.84,4,direct
+2021,270900,Petróleo bruto,4093484412,1.744,5,direct
+2021,271111,Gás natural e outros gases de petróleo,3682105841,1.569,6,direct
+2021,310210,"Fertilizers, mineral or chemical; nitrogenous, urea, whether or not in aqueous solution",3279611294,1.397,7,direct
+2021,310540,"Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)",3056957690,1.303,8,direct
+2021,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2972997737,1.267,9,direct
+2021,271600,Electrical energy,2874958163,1.225,10,direct
+2021,271019,Combustíveis refinados,6365608117,2.89,1,mirror
+2021,271012,Combustíveis refinados,5042836418,2.289,2,mirror
+2021,310540,"Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)",3313574364,1.504,3,mirror
+2021,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2954635897,1.341,4,mirror
+2021,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2720794097,1.235,5,mirror
+2021,300490,Medicamentos,2630550968,1.194,6,mirror
+2021,271111,Gás natural e outros gases de petróleo,2519501946,1.144,7,mirror
+2021,870421,Veículos de mercadorias,2513513996,1.141,8,mirror
+2021,851770,851770,2366186619,1.074,9,mirror
+2021,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",2344568320,1.064,10,mirror
+2022,271019,Combustíveis refinados,17287343874,5.913,1,direct
+2022,270900,Petróleo bruto,10145098434,3.47,2,direct
+2022,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",9395244105,3.214,3,direct
+2022,271012,Combustíveis refinados,7395512628,2.53,4,direct
+2022,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",5379827714,1.84,5,direct
+2022,310210,"Fertilizers, mineral or chemical; nitrogenous, urea, whether or not in aqueous solution",4826460853,1.651,6,direct
+2022,999999,Commodities not specified according to kind,4356671098,1.49,7,direct
+2022,310540,"Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)",3986539292,1.364,8,direct
+2022,854143,"Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells assembled in modules or made up into panels",3942278645,1.349,9,direct
+2022,271111,Gás natural e outros gases de petróleo,3572716205,1.222,10,direct
+2022,271019,Combustíveis refinados,12437538598,5.054,1,mirror
+2022,270900,Petróleo bruto,5659301937,2.3,2,mirror
+2022,271012,Combustíveis refinados,4860650477,1.975,3,mirror
+2022,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",3786965301,1.539,4,mirror
+2022,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",3755911387,1.526,5,mirror
+2022,300490,Medicamentos,2792402000,1.135,6,mirror
+2022,870421,Veículos de mercadorias,2771060320,1.126,7,mirror
+2022,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",2587791354,1.051,8,mirror
+2022,310540,"Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)",2340198288,0.951,9,mirror
+2022,870840,Vehicle parts; gear boxes and parts thereof,2329314245,0.946,10,mirror
+2023,271019,Combustíveis refinados,12517301180,4.953,1,direct
+2023,270900,Petróleo bruto,9382113744,3.713,2,direct
+2023,271012,Combustíveis refinados,6007235623,2.377,3,direct
+2023,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",5528250993,2.188,4,direct
+2023,854143,"Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells assembled in modules or made up into panels",3965287104,1.569,5,direct
+2023,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",3883148724,1.537,6,direct
+2023,300490,Medicamentos,3533449593,1.398,7,direct
+2023,841191,Turbines; parts of turbo-jets and turbo-propellers,3524947447,1.395,8,direct
+2023,310540,"Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)",2946389836,1.166,9,direct
+2023,841112,Turbo-jets; of a thrust exceeding 25kN,2893129204,1.145,10,direct
+2023,271019,Combustíveis refinados,5029310678,2.229,1,mirror
+2023,270900,Petróleo bruto,4590337833,2.035,2,mirror
+2023,271012,Combustíveis refinados,3698734265,1.64,3,mirror
+2023,300490,Medicamentos,3391307548,1.503,4,mirror
+2023,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",3058848934,1.356,5,mirror
+2023,870421,Veículos de mercadorias,2733737794,1.212,6,mirror
+2023,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",2637060430,1.169,7,mirror
+2023,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",2385569494,1.057,8,mirror
+2023,870840,Vehicle parts; gear boxes and parts thereof,2223249781,0.986,9,mirror
+2023,740311,Cobre refinado,1994991997,0.884,10,mirror
+2024,271019,Combustíveis refinados,11176688095,4.027,1,direct
+2024,270900,Petróleo bruto,8943296861,3.222,2,direct
+2024,271012,Combustíveis refinados,5211472596,1.878,3,direct
+2024,841191,Turbines; parts of turbo-jets and turbo-propellers,4848646186,1.747,4,direct
+2024,300490,Medicamentos,4257941600,1.534,5,direct
+2024,310420,"Fertilizers, mineral or chemical; potassic, potassium chloride",4241518316,1.528,6,direct
+2024,300215,"Blood, human or animal, antisera, other blood fractions and immunological products; immunological products, put up in measured doses or in forms or packings for retail sale",3668904949,1.322,7,direct
+2024,870421,Veículos de mercadorias,3534573526,1.273,8,direct
+2024,841112,Turbo-jets; of a thrust exceeding 25kN,3459347105,1.246,9,direct
+2024,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",3131879379,1.128,10,direct
+2024,270900,Petróleo bruto,5209469609,2.09,1,mirror
+2024,300490,Medicamentos,4054300329,1.627,2,mirror
+2024,271019,Combustíveis refinados,3548264663,1.424,3,mirror
+2024,870421,Veículos de mercadorias,3512906272,1.409,4,mirror
+2024,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",2623308081,1.052,5,mirror
+2024,854231,"Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",2614444649,1.049,6,mirror
+2024,740311,Cobre refinado,2594702445,1.041,7,mirror
+2024,271012,Combustíveis refinados,2566520523,1.03,8,mirror
+2024,870840,Vehicle parts; gear boxes and parts thereof,2517955566,1.01,9,mirror
+2024,310540,"Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)",1931937950,0.775,10,mirror

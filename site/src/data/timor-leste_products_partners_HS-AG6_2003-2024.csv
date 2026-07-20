@@ -1,0 +1,1498 @@
+year,hs6,description_pt,partner_code,partner,value,share_pct,basis
+2003,090111,Café,842,EUA,3452223,59.476,mirror
+2003,090111,Café,360,Indonésia,851582,14.671,mirror
+2003,090111,Café,620,Portugal,565040,9.735,mirror
+2003,090111,Café,276,Alemanha,487000,8.39,mirror
+2003,090111,Café,36,Austrália,251089,4.326,mirror
+2003,090111,Café,554,Nova Zelândia,96198,1.657,mirror
+2003,090111,Café,392,Japão,60309,1.039,mirror
+2003,090111,Café,208,Dinamarca,20892,0.36,mirror
+2003,090112,Café,842,EUA,87243,100.0,mirror
+2003,090190,Café,36,Austrália,3207,100.0,mirror
+2003,271019,Combustíveis refinados,36,Austrália,92589,100.0,mirror
+2003,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",288,Gana,119,76.774,mirror
+2003,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,36,23.226,mirror
+2003,630900,"Clothing; worn, and other worn articles",586,Paquistão,16752,52.21,mirror
+2003,630900,"Clothing; worn, and other worn articles",288,Gana,14701,45.817,mirror
+2003,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,415,1.293,mirror
+2003,630900,"Clothing; worn, and other worn articles",620,Portugal,218,0.679,mirror
+2003,760200,Aluminium; waste and scrap,458,Malásia,2700,100.0,mirror
+2003,841391,Pumps; parts thereof,842,EUA,5630,100.0,mirror
+2003,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,842,EUA,9952,100.0,mirror
+2003,880330,880330,643,Rússia,150,100.0,mirror
+2003,999999,Commodities not specified according to kind,842,EUA,82192,58.161,mirror
+2003,999999,Commodities not specified according to kind,826,Reino Unido,37638,26.633,mirror
+2003,999999,Commodities not specified according to kind,242,Fiji,10570,7.48,mirror
+2003,999999,Commodities not specified according to kind,764,Tailândia,5103,3.611,mirror
+2003,999999,Commodities not specified according to kind,598,Papua New Guinea,3174,2.246,mirror
+2003,999999,Commodities not specified according to kind,276,Alemanha,2000,1.415,mirror
+2003,999999,Commodities not specified according to kind,699,Índia,351,0.248,mirror
+2003,999999,Commodities not specified according to kind,458,Malásia,291,0.206,mirror
+2004,090111,Café,842,EUA,3551238,53.77,direct
+2004,090111,Café,360,Indonésia,1265027,19.154,direct
+2004,090111,Café,620,Portugal,579423,8.773,direct
+2004,090111,Café,276,Alemanha,441135,6.679,direct
+2004,090111,Café,36,Austrália,289482,4.383,direct
+2004,090111,Café,702,Singapura,130400,1.974,direct
+2004,090111,Café,528,Países Baixos,93820,1.421,direct
+2004,090111,Café,579,Noruega,71410,1.081,direct
+2004,090112,Café,554,Nova Zelândia,19,100.0,direct
+2004,090121,Café,300,Grécia,61,100.0,direct
+2004,090190,Café,36,Austrália,221909,75.327,direct
+2004,090190,Café,392,Japão,45436,15.423,direct
+2004,090190,Café,702,Singapura,27250,9.25,direct
+2004,220300,Cerveja,36,Austrália,11305,100.0,direct
+2004,271019,Combustíveis refinados,702,Singapura,7171,94.034,direct
+2004,271019,Combustíveis refinados,608,Filipinas,318,4.17,direct
+2004,271019,Combustíveis refinados,36,Austrália,137,1.796,direct
+2004,271112,Gás natural e outros gases de petróleo,36,Austrália,203,100.0,direct
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",392,Japão,61589,75.024,direct
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,9922,12.086,direct
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,4198,5.114,direct
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",380,Itália,2338,2.848,direct
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",554,Nova Zelândia,648,0.789,direct
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,600,0.731,direct
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",716,Zimbabué,500,0.609,direct
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",842,EUA,500,0.609,direct
+2004,630900,"Clothing; worn, and other worn articles",620,Portugal,1266951,89.713,direct
+2004,630900,"Clothing; worn, and other worn articles",36,Austrália,71831,5.086,direct
+2004,630900,"Clothing; worn, and other worn articles",458,Malásia,28879,2.045,direct
+2004,630900,"Clothing; worn, and other worn articles",392,Japão,27309,1.934,direct
+2004,630900,"Clothing; worn, and other worn articles",380,Itália,6159,0.436,direct
+2004,630900,"Clothing; worn, and other worn articles",608,Filipinas,5000,0.354,direct
+2004,630900,"Clothing; worn, and other worn articles",360,Indonésia,3863,0.274,direct
+2004,630900,"Clothing; worn, and other worn articles",764,Tailândia,2240,0.159,direct
+2004,760200,Aluminium; waste and scrap,360,Indonésia,6636,76.619,direct
+2004,760200,Aluminium; waste and scrap,702,Singapura,2025,23.381,direct
+2004,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",36,Austrália,2057,97.074,direct
+2004,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",620,Portugal,62,2.926,direct
+2004,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,392,Japão,510502,68.387,direct
+2004,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,36,Austrália,202104,27.074,direct
+2004,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,620,Portugal,33881,4.539,direct
+2004,870333,Automóveis de passageiros,36,Austrália,1727672,100.0,direct
+2004,870422,Veículos de mercadorias,392,Japão,10286649,99.569,direct
+2004,870422,Veículos de mercadorias,586,Paquistão,28067,0.272,direct
+2004,870422,Veículos de mercadorias,36,Austrália,8495,0.082,direct
+2004,870422,Veículos de mercadorias,458,Malásia,8000,0.077,direct
+2004,880212,"Helicopters, except unmanned; of an unladen weight exceeding 2000kg",36,Austrália,7712000,66.601,direct
+2004,880212,"Helicopters, except unmanned; of an unladen weight exceeding 2000kg",50,Bangladesh,3867423,33.399,direct
+2004,880330,880330,36,Austrália,5803118,90.214,direct
+2004,880330,880330,50,Bangladesh,359042,5.582,direct
+2004,880330,880330,124,Canadá,264653,4.114,direct
+2004,880330,880330,643,Rússia,5750,0.089,direct
+2004,880330,880330,410,Coreia do Sul,20,0.0,direct
+2004,999999,Commodities not specified according to kind,702,Singapura,25,64.103,direct
+2004,999999,Commodities not specified according to kind,392,Japão,11,28.205,direct
+2004,999999,Commodities not specified according to kind,699,Índia,3,7.692,direct
+2004,090111,Café,620,Portugal,683603,24.619,mirror
+2004,090111,Café,360,Indonésia,559709,20.157,mirror
+2004,090111,Café,276,Alemanha,470000,16.926,mirror
+2004,090111,Café,36,Austrália,410574,14.786,mirror
+2004,090111,Café,124,Canadá,297559,10.716,mirror
+2004,090111,Café,56,Bélgica,125836,4.532,mirror
+2004,090111,Café,392,Japão,116522,4.196,mirror
+2004,090111,Café,490,Taiwan (Prov. China),46463,1.673,mirror
+2004,090112,Café,124,Canadá,7298,100.0,mirror
+2004,090121,Café,620,Portugal,1314,74.914,mirror
+2004,090121,Café,124,Canadá,440,25.086,mirror
+2004,270900,Petróleo bruto,410,Coreia do Sul,36334360,85.143,mirror
+2004,270900,Petróleo bruto,36,Austrália,6340296,14.857,mirror
+2004,271019,Combustíveis refinados,36,Austrália,50308,100.0,mirror
+2004,271112,Gás natural e outros gases de petróleo,608,Filipinas,1515553,100.0,mirror
+2004,271113,Gás natural e outros gases de petróleo,608,Filipinas,1885614,100.0,mirror
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",757,Suíça,2142,86.439,mirror
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",643,Rússia,180,7.265,mirror
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,97,3.915,mirror
+2004,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",124,Canadá,59,2.381,mirror
+2004,630900,"Clothing; worn, and other worn articles",586,Paquistão,16293,100.0,mirror
+2004,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,37224,100.0,mirror
+2004,841391,Pumps; parts thereof,616,Polónia,448,100.0,mirror
+2004,880330,880330,36,Austrália,6053,69.455,mirror
+2004,880330,880330,643,Rússia,2662,30.545,mirror
+2004,999999,Commodities not specified according to kind,392,Japão,34392,27.005,mirror
+2004,999999,Commodities not specified according to kind,842,EUA,28364,22.271,mirror
+2004,999999,Commodities not specified according to kind,384,Costa do Marfim,28211,22.151,mirror
+2004,999999,Commodities not specified according to kind,242,Fiji,14139,11.102,mirror
+2004,999999,Commodities not specified according to kind,764,Tailândia,7309,5.739,mirror
+2004,999999,Commodities not specified according to kind,826,Reino Unido,6315,4.959,mirror
+2004,999999,Commodities not specified according to kind,458,Malásia,3748,2.943,mirror
+2004,999999,Commodities not specified according to kind,699,Índia,2884,2.265,mirror
+2005,090111,Café,842,EUA,3977377,52.2,direct
+2005,090111,Café,276,Alemanha,1672038,21.944,direct
+2005,090111,Café,620,Portugal,965508,12.672,direct
+2005,090111,Café,360,Indonésia,399841,5.248,direct
+2005,090111,Café,36,Austrália,262263,3.442,direct
+2005,090111,Café,392,Japão,99487,1.306,direct
+2005,090111,Café,579,Noruega,71410,0.937,direct
+2005,090111,Café,702,Singapura,50525,0.663,direct
+2005,090121,Café,554,Nova Zelândia,21,100.0,direct
+2005,090190,Café,36,Austrália,10720,99.991,direct
+2005,090190,Café,702,Singapura,1,0.009,direct
+2005,220300,Cerveja,36,Austrália,95,100.0,direct
+2005,271019,Combustíveis refinados,36,Austrália,13,100.0,direct
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",392,Japão,7581,16.413,direct
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,6517,14.11,direct
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",842,EUA,2826,6.118,direct
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,2197,4.757,direct
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",76,Brasil,2118,4.586,direct
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",826,Reino Unido,1932,4.183,direct
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",360,Indonésia,1714,3.711,direct
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",56,Bélgica,1691,3.661,direct
+2005,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",842,EUA,6220000,100.0,direct
+2005,630900,"Clothing; worn, and other worn articles",242,Fiji,24530,78.059,direct
+2005,630900,"Clothing; worn, and other worn articles",76,Brasil,6625,21.082,direct
+2005,630900,"Clothing; worn, and other worn articles",104,Myanmar,200,0.636,direct
+2005,630900,"Clothing; worn, and other worn articles",360,Indonésia,50,0.159,direct
+2005,630900,"Clothing; worn, and other worn articles",736,Sudan (...2011),20,0.064,direct
+2005,760200,Aluminium; waste and scrap,702,Singapura,17429,82.096,direct
+2005,760200,Aluminium; waste and scrap,360,Indonésia,3466,16.326,direct
+2005,760200,Aluminium; waste and scrap,410,Coreia do Sul,336,1.583,direct
+2005,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",36,Austrália,717,100.0,direct
+2005,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,36,Austrália,4576,40.25,direct
+2005,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,554,Nova Zelândia,3423,30.108,direct
+2005,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,242,Fiji,2632,23.151,direct
+2005,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,76,Brasil,480,4.222,direct
+2005,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,360,Indonésia,190,1.671,direct
+2005,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,608,Filipinas,69,0.607,direct
+2005,870333,Automóveis de passageiros,36,Austrália,3164177,100.0,direct
+2005,870422,Veículos de mercadorias,36,Austrália,23400,100.0,direct
+2005,880330,880330,36,Austrália,11504133,92.621,direct
+2005,880330,880330,50,Bangladesh,898673,7.235,direct
+2005,880330,880330,124,Canadá,8900,0.072,direct
+2005,880330,880330,643,Rússia,6196,0.05,direct
+2005,880330,880330,710,África do Sul,2756,0.022,direct
+2005,880330,880330,332,Haiti,50,0.0,direct
+2005,090111,Café,620,Portugal,1149529,33.895,mirror
+2005,090111,Café,360,Indonésia,955319,28.168,mirror
+2005,090111,Café,124,Canadá,645286,19.027,mirror
+2005,090111,Café,36,Austrália,354316,10.447,mirror
+2005,090111,Café,392,Japão,149218,4.4,mirror
+2005,090111,Café,446,Macau (RAEM),38352,1.131,mirror
+2005,090111,Café,410,Coreia do Sul,30410,0.897,mirror
+2005,090111,Café,490,Taiwan (Prov. China),27479,0.81,mirror
+2005,090112,Café,124,Canadá,10679,100.0,mirror
+2005,090121,Café,392,Japão,229330,94.915,mirror
+2005,090121,Café,36,Austrália,12119,5.016,mirror
+2005,090121,Café,124,Canadá,168,0.07,mirror
+2005,220300,Cerveja,24,Angola,133075,100.0,mirror
+2005,270900,Petróleo bruto,554,Nova Zelândia,39779061,60.463,mirror
+2005,270900,Petróleo bruto,410,Coreia do Sul,26011628,39.537,mirror
+2005,271019,Combustíveis refinados,643,Rússia,349,100.0,mirror
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,721,63.636,mirror
+2005,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",508,Moçambique,412,36.364,mirror
+2005,630900,"Clothing; worn, and other worn articles",586,Paquistão,10372,46.536,mirror
+2005,630900,"Clothing; worn, and other worn articles",678,São Tomé e Príncipe,9352,41.96,mirror
+2005,630900,"Clothing; worn, and other worn articles",620,Portugal,2357,10.575,mirror
+2005,630900,"Clothing; worn, and other worn articles",288,Gana,207,0.929,mirror
+2005,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,5500,100.0,mirror
+2005,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",704,Vietname,283,100.0,mirror
+2005,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,196,Chipre,2510,98.277,mirror
+2005,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,643,Rússia,44,1.723,mirror
+2005,870333,Automóveis de passageiros,620,Portugal,124378,100.0,mirror
+2005,880330,880330,643,Rússia,3399,73.859,mirror
+2005,880330,880330,710,África do Sul,1203,26.141,mirror
+2005,999999,Commodities not specified according to kind,842,EUA,85373,32.675,mirror
+2005,999999,Commodities not specified according to kind,620,Portugal,78487,30.039,mirror
+2005,999999,Commodities not specified according to kind,392,Japão,67050,25.662,mirror
+2005,999999,Commodities not specified according to kind,458,Malásia,17217,6.589,mirror
+2005,999999,Commodities not specified according to kind,242,Fiji,5018,1.921,mirror
+2005,999999,Commodities not specified according to kind,826,Reino Unido,3862,1.478,mirror
+2005,999999,Commodities not specified according to kind,384,Costa do Marfim,3053,1.168,mirror
+2005,999999,Commodities not specified according to kind,699,Índia,777,0.297,mirror
+2006,090111,Café,276,Alemanha,4051000,45.62,mirror
+2006,090111,Café,360,Indonésia,1657156,18.662,mirror
+2006,090111,Café,620,Portugal,1495289,16.839,mirror
+2006,090111,Café,124,Canadá,905401,10.196,mirror
+2006,090111,Café,36,Austrália,376254,4.237,mirror
+2006,090111,Café,554,Nova Zelândia,177813,2.002,mirror
+2006,090111,Café,446,Macau (RAEM),76796,0.865,mirror
+2006,090111,Café,392,Japão,60783,0.685,mirror
+2006,090112,Café,124,Canadá,11633,100.0,mirror
+2006,090121,Café,392,Japão,191413,99.472,mirror
+2006,090121,Café,124,Canadá,1016,0.528,mirror
+2006,220300,Cerveja,24,Angola,12275,100.0,mirror
+2006,271019,Combustíveis refinados,586,Paquistão,9497,100.0,mirror
+2006,271112,Gás natural e outros gases de petróleo,392,Japão,6749569,56.052,mirror
+2006,271112,Gás natural e outros gases de petróleo,156,China,5292000,43.948,mirror
+2006,271113,Gás natural e outros gases de petróleo,392,Japão,6747015,55.015,mirror
+2006,271113,Gás natural e outros gases de petróleo,156,China,5517000,44.985,mirror
+2006,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",566,Nigéria,23194,96.397,mirror
+2006,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,867,3.603,mirror
+2006,630900,"Clothing; worn, and other worn articles",646,Rwanda,969,94.169,mirror
+2006,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,60,5.831,mirror
+2006,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,156,China,38435,60.12,mirror
+2006,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,18416,28.806,mirror
+2006,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,6240,9.761,mirror
+2006,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,410,Coreia do Sul,840,1.314,mirror
+2006,880330,880330,699,Índia,555496,100.0,mirror
+2006,999999,Commodities not specified according to kind,842,EUA,12140,39.123,mirror
+2006,999999,Commodities not specified according to kind,710,África do Sul,6526,21.031,mirror
+2006,999999,Commodities not specified according to kind,458,Malásia,4007,12.913,mirror
+2006,999999,Commodities not specified according to kind,826,Reino Unido,3988,12.852,mirror
+2006,999999,Commodities not specified according to kind,528,Países Baixos,2513,8.099,mirror
+2006,999999,Commodities not specified according to kind,699,Índia,1006,3.242,mirror
+2006,999999,Commodities not specified according to kind,490,Taiwan (Prov. China),491,1.582,mirror
+2006,999999,Commodities not specified according to kind,484,México,359,1.157,mirror
+2007,090111,Café,276,Alemanha,2154000,39.83,mirror
+2007,090111,Café,124,Canadá,1186911,21.948,mirror
+2007,090111,Café,36,Austrália,835323,15.446,mirror
+2007,090111,Café,446,Macau (RAEM),222524,4.115,mirror
+2007,090111,Café,360,Indonésia,167629,3.1,mirror
+2007,090111,Café,392,Japão,166128,3.072,mirror
+2007,090111,Café,620,Portugal,154121,2.85,mirror
+2007,090111,Café,724,Espanha,148972,2.755,mirror
+2007,090112,Café,36,Austrália,6514,100.0,mirror
+2007,090121,Café,392,Japão,31080,94.133,mirror
+2007,090121,Café,36,Austrália,1937,5.867,mirror
+2007,271112,Gás natural e outros gases de petróleo,392,Japão,14068367,100.0,mirror
+2007,271113,Gás natural e outros gases de petróleo,392,Japão,7341715,100.0,mirror
+2007,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,47383,100.0,mirror
+2007,841391,Pumps; parts thereof,586,Paquistão,273,100.0,mirror
+2007,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,24,Angola,2018,100.0,mirror
+2007,870422,Veículos de mercadorias,36,Austrália,13760,100.0,mirror
+2007,880330,880330,36,Austrália,189589,94.69,mirror
+2007,880330,880330,24,Angola,10059,5.024,mirror
+2007,880330,880330,710,África do Sul,572,0.286,mirror
+2007,999999,Commodities not specified according to kind,842,EUA,324643,84.185,mirror
+2007,999999,Commodities not specified according to kind,392,Japão,24307,6.303,mirror
+2007,999999,Commodities not specified according to kind,24,Angola,15260,3.957,mirror
+2007,999999,Commodities not specified according to kind,458,Malásia,12697,3.293,mirror
+2007,999999,Commodities not specified according to kind,484,México,4417,1.145,mirror
+2007,999999,Commodities not specified according to kind,548,Vanuatu,4036,1.047,mirror
+2007,999999,Commodities not specified according to kind,586,Paquistão,256,0.066,mirror
+2007,999999,Commodities not specified according to kind,699,Índia,13,0.003,mirror
+2008,090111,Café,276,Alemanha,3893041,33.578,mirror
+2008,090111,Café,360,Indonésia,2882579,24.862,mirror
+2008,090111,Café,124,Canadá,1353786,11.676,mirror
+2008,090111,Café,36,Austrália,1310803,11.306,mirror
+2008,090111,Café,620,Portugal,606320,5.23,mirror
+2008,090111,Café,554,Nova Zelândia,337933,2.915,mirror
+2008,090111,Café,208,Dinamarca,225054,1.941,mirror
+2008,090111,Café,392,Japão,201579,1.739,mirror
+2008,090112,Café,36,Austrália,109351,100.0,mirror
+2008,090121,Café,392,Japão,591274,98.929,mirror
+2008,090121,Café,36,Austrália,6402,1.071,mirror
+2008,271019,Combustíveis refinados,894,Zâmbia,41443,100.0,mirror
+2008,271112,Gás natural e outros gases de petróleo,392,Japão,63574254,100.0,mirror
+2008,271113,Gás natural e outros gases de petróleo,392,Japão,74701480,100.0,mirror
+2008,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",124,Canadá,5131107,98.197,mirror
+2008,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",566,Nigéria,84230,1.612,mirror
+2008,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,8283,0.159,mirror
+2008,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,718,0.014,mirror
+2008,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",40,Áustria,586,0.011,mirror
+2008,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",246,Finlândia,307,0.006,mirror
+2008,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",384,Costa do Marfim,96,0.002,mirror
+2008,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",710,África do Sul,3,100.0,mirror
+2008,630900,"Clothing; worn, and other worn articles",764,Tailândia,1601,43.317,mirror
+2008,630900,"Clothing; worn, and other worn articles",36,Austrália,1045,28.274,mirror
+2008,630900,"Clothing; worn, and other worn articles",800,Uganda,768,20.779,mirror
+2008,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,251,6.791,mirror
+2008,630900,"Clothing; worn, and other worn articles",246,Finlândia,31,0.839,mirror
+2008,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,55344,93.26,mirror
+2008,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,4000,6.74,mirror
+2008,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",704,Vietname,17284,99.354,mirror
+2008,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",24,Angola,112,0.646,mirror
+2008,841391,Pumps; parts thereof,704,Vietname,2895,100.0,mirror
+2008,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,360,Indonésia,1020,100.0,mirror
+2008,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",620,Portugal,55020,86.922,mirror
+2008,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",56,Bélgica,7422,11.725,mirror
+2008,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",36,Austrália,856,1.352,mirror
+2008,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,36,Austrália,3789,100.0,mirror
+2008,880330,880330,36,Austrália,2749916,100.0,mirror
+2008,999999,Commodities not specified according to kind,392,Japão,84439,33.845,mirror
+2008,999999,Commodities not specified according to kind,704,Vietname,73393,29.418,mirror
+2008,999999,Commodities not specified according to kind,24,Angola,35365,14.175,mirror
+2008,999999,Commodities not specified according to kind,842,EUA,24198,9.699,mirror
+2008,999999,Commodities not specified according to kind,724,Espanha,13274,5.32,mirror
+2008,999999,Commodities not specified according to kind,458,Malásia,7464,2.992,mirror
+2008,999999,Commodities not specified according to kind,384,Costa do Marfim,5494,2.202,mirror
+2008,999999,Commodities not specified according to kind,710,África do Sul,4721,1.892,mirror
+2009,090111,Café,276,Alemanha,2896238,40.057,mirror
+2009,090111,Café,620,Portugal,1242962,17.191,mirror
+2009,090111,Café,124,Canadá,631535,8.735,mirror
+2009,090111,Café,392,Japão,579741,8.018,mirror
+2009,090111,Café,360,Indonésia,532399,7.363,mirror
+2009,090111,Café,36,Austrália,302509,4.184,mirror
+2009,090111,Café,208,Dinamarca,248143,3.432,mirror
+2009,090111,Café,554,Nova Zelândia,218625,3.024,mirror
+2009,090112,Café,410,Coreia do Sul,600,100.0,mirror
+2009,090121,Café,392,Japão,1095494,98.782,mirror
+2009,090121,Café,36,Austrália,12009,1.083,mirror
+2009,090121,Café,124,Canadá,1498,0.135,mirror
+2009,090190,Café,124,Canadá,14232,84.173,mirror
+2009,090190,Café,36,Austrália,2676,15.827,mirror
+2009,271019,Combustíveis refinados,36,Austrália,1517296,100.0,mirror
+2009,271112,Gás natural e outros gases de petróleo,392,Japão,26163718,56.199,mirror
+2009,271112,Gás natural e outros gases de petróleo,410,Coreia do Sul,20391809,43.801,mirror
+2009,271113,Gás natural e outros gases de petróleo,392,Japão,22529664,62.003,mirror
+2009,271113,Gás natural e outros gases de petróleo,410,Coreia do Sul,13806744,37.997,mirror
+2009,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",124,Canadá,2925963,99.905,mirror
+2009,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,1284,0.044,mirror
+2009,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,1044,0.036,mirror
+2009,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",24,Angola,268,0.009,mirror
+2009,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",246,Finlândia,98,0.003,mirror
+2009,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,92,0.003,mirror
+2009,630900,"Clothing; worn, and other worn articles",764,Tailândia,4516,73.504,mirror
+2009,630900,"Clothing; worn, and other worn articles",24,Angola,1567,25.505,mirror
+2009,630900,"Clothing; worn, and other worn articles",894,Zâmbia,61,0.992,mirror
+2009,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,23756,100.0,mirror
+2009,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",36,Austrália,835,100.0,mirror
+2009,841391,Pumps; parts thereof,699,Índia,390,76.023,mirror
+2009,841391,Pumps; parts thereof,24,Angola,123,23.977,mirror
+2009,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",251,França,12492,58.852,mirror
+2009,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",620,Portugal,5174,24.376,mirror
+2009,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",422,Líbano,3560,16.772,mirror
+2009,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,36,Austrália,9215,93.156,mirror
+2009,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,699,Índia,652,6.591,mirror
+2009,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,24,Angola,25,0.253,mirror
+2009,999999,Commodities not specified according to kind,842,EUA,69071,57.939,mirror
+2009,999999,Commodities not specified according to kind,36,Austrália,24714,20.731,mirror
+2009,999999,Commodities not specified according to kind,90,Solomon Isds,8423,7.065,mirror
+2009,999999,Commodities not specified according to kind,392,Japão,4373,3.668,mirror
+2009,999999,Commodities not specified according to kind,826,Reino Unido,4317,3.621,mirror
+2009,999999,Commodities not specified according to kind,24,Angola,2788,2.339,mirror
+2009,999999,Commodities not specified according to kind,376,Israel,2000,1.678,mirror
+2009,999999,Commodities not specified according to kind,246,Finlândia,1308,1.097,mirror
+2010,090111,Café,276,Alemanha,7525218,54.449,mirror
+2010,090111,Café,620,Portugal,1351451,9.778,mirror
+2010,090111,Café,124,Canadá,1331402,9.633,mirror
+2010,090111,Café,56,Bélgica,1103650,7.986,mirror
+2010,090111,Café,36,Austrália,658737,4.766,mirror
+2010,090111,Café,392,Japão,577212,4.176,mirror
+2010,090111,Café,360,Indonésia,475005,3.437,mirror
+2010,090111,Café,490,Taiwan (Prov. China),193674,1.401,mirror
+2010,090121,Café,392,Japão,1103939,98.622,mirror
+2010,090121,Café,36,Austrália,14789,1.321,mirror
+2010,090121,Café,124,Canadá,632,0.056,mirror
+2010,090190,Café,124,Canadá,2680,100.0,mirror
+2010,270900,Petróleo bruto,392,Japão,23566309,100.0,mirror
+2010,271112,Gás natural e outros gases de petróleo,392,Japão,8404981,100.0,mirror
+2010,271113,Gás natural e outros gases de petróleo,392,Japão,10149467,100.0,mirror
+2010,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",124,Canadá,641604,99.865,mirror
+2010,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,867,0.135,mirror
+2010,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",710,África do Sul,2,0.0,mirror
+2010,630900,"Clothing; worn, and other worn articles",764,Tailândia,3430,79.297,mirror
+2010,630900,"Clothing; worn, and other worn articles",620,Portugal,570,13.178,mirror
+2010,630900,"Clothing; worn, and other worn articles",800,Uganda,282,6.519,mirror
+2010,630900,"Clothing; worn, and other worn articles",894,Zâmbia,44,1.006,mirror
+2010,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",566,Nigéria,96227,100.0,mirror
+2010,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",620,Portugal,106539,99.72,mirror
+2010,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",124,Canadá,299,0.28,mirror
+2010,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,566,Nigéria,126029,100.0,mirror
+2010,999999,Commodities not specified according to kind,458,Malásia,109648,66.535,mirror
+2010,999999,Commodities not specified according to kind,548,Vanuatu,45416,27.558,mirror
+2010,999999,Commodities not specified according to kind,392,Japão,6248,3.791,mirror
+2010,999999,Commodities not specified according to kind,484,México,1707,1.036,mirror
+2010,999999,Commodities not specified according to kind,894,Zâmbia,1557,0.945,mirror
+2010,999999,Commodities not specified according to kind,490,Taiwan (Prov. China),158,0.096,mirror
+2010,999999,Commodities not specified according to kind,246,Finlândia,65,0.039,mirror
+2011,090111,Café,276,Alemanha,19223542,74.066,mirror
+2011,090111,Café,360,Indonésia,1373837,5.293,mirror
+2011,090111,Café,620,Portugal,1321710,5.092,mirror
+2011,090111,Café,392,Japão,1144100,4.408,mirror
+2011,090111,Café,36,Austrália,821837,3.166,mirror
+2011,090111,Café,124,Canadá,381862,1.471,mirror
+2011,090111,Café,410,Coreia do Sul,369295,1.423,mirror
+2011,090111,Café,56,Bélgica,321719,1.24,mirror
+2011,090121,Café,392,Japão,1433450,100.0,mirror
+2011,090190,Café,36,Austrália,14055,88.219,mirror
+2011,090190,Café,124,Canadá,1877,11.781,mirror
+2011,220300,Cerveja,24,Angola,188833,100.0,mirror
+2011,270900,Petróleo bruto,702,Singapura,34536261,100.0,mirror
+2011,271019,Combustíveis refinados,24,Angola,679,58.562,mirror
+2011,271019,Combustíveis refinados,702,Singapura,480,41.438,mirror
+2011,271112,Gás natural e outros gases de petróleo,410,Coreia do Sul,20053155,74.868,mirror
+2011,271112,Gás natural e outros gases de petróleo,392,Japão,6731429,25.132,mirror
+2011,271113,Gás natural e outros gases de petróleo,410,Coreia do Sul,19256028,81.493,mirror
+2011,271113,Gás natural e outros gases de petróleo,392,Japão,4373102,18.507,mirror
+2011,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,2881,83.594,mirror
+2011,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,319,9.256,mirror
+2011,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",231,Etiópia,161,4.683,mirror
+2011,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",24,Angola,85,2.466,mirror
+2011,630900,"Clothing; worn, and other worn articles",800,Uganda,15222,57.576,mirror
+2011,630900,"Clothing; worn, and other worn articles",764,Tailândia,10959,41.452,mirror
+2011,630900,"Clothing; worn, and other worn articles",620,Portugal,213,0.806,mirror
+2011,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,44,0.166,mirror
+2011,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,341309,87.315,mirror
+2011,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,47584,12.173,mirror
+2011,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,2000,0.512,mirror
+2011,760200,Aluminium; waste and scrap,699,Índia,152292,52.259,mirror
+2011,760200,Aluminium; waste and scrap,702,Singapura,139128,47.741,mirror
+2011,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",643,Rússia,3192,100.0,mirror
+2011,841391,Pumps; parts thereof,24,Angola,679,100.0,mirror
+2011,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702,Singapura,10738812,100.0,mirror
+2011,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",702,Singapura,711324,87.843,mirror
+2011,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",620,Portugal,71628,8.845,mirror
+2011,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",156,China,24958,3.082,mirror
+2011,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",36,Austrália,1858,0.229,mirror
+2011,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,643,Rússia,52,100.0,mirror
+2011,999999,Commodities not specified according to kind,699,Índia,20932160,95.402,mirror
+2011,999999,Commodities not specified according to kind,702,Singapura,527951,2.406,mirror
+2011,999999,Commodities not specified according to kind,484,México,247664,1.129,mirror
+2011,999999,Commodities not specified according to kind,392,Japão,183192,0.835,mirror
+2011,999999,Commodities not specified according to kind,842,EUA,27152,0.124,mirror
+2011,999999,Commodities not specified according to kind,36,Austrália,9680,0.044,mirror
+2011,999999,Commodities not specified according to kind,724,Espanha,7458,0.034,mirror
+2011,999999,Commodities not specified according to kind,458,Malásia,3882,0.018,mirror
+2012,090111,Café,276,Alemanha,6910748,58.067,mirror
+2012,090111,Café,392,Japão,1624367,13.649,mirror
+2012,090111,Café,124,Canadá,1021721,8.585,mirror
+2012,090111,Café,360,Indonésia,598987,5.033,mirror
+2012,090111,Café,410,Coreia do Sul,413230,3.472,mirror
+2012,090111,Café,620,Portugal,288168,2.421,mirror
+2012,090111,Café,36,Austrália,213121,1.791,mirror
+2012,090111,Café,554,Nova Zelândia,197286,1.658,mirror
+2012,220300,Cerveja,24,Angola,72493,100.0,mirror
+2012,270900,Petróleo bruto,702,Singapura,430744229,71.232,mirror
+2012,270900,Petróleo bruto,410,Coreia do Sul,114013481,18.854,mirror
+2012,270900,Petróleo bruto,392,Japão,59949456,9.914,mirror
+2012,271019,Combustíveis refinados,36,Austrália,840063,99.55,mirror
+2012,271019,Combustíveis refinados,598,Papua New Guinea,3780,0.448,mirror
+2012,271019,Combustíveis refinados,702,Singapura,22,0.003,mirror
+2012,271112,Gás natural e outros gases de petróleo,392,Japão,13608205,100.0,mirror
+2012,271113,Gás natural e outros gases de petróleo,392,Japão,17096069,100.0,mirror
+2012,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,1651,96.076,mirror
+2012,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",757,Suíça,66,3.849,mirror
+2012,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",276,Alemanha,1,0.075,mirror
+2012,630900,"Clothing; worn, and other worn articles",24,Angola,18794,57.1,mirror
+2012,630900,"Clothing; worn, and other worn articles",764,Tailândia,8976,27.271,mirror
+2012,630900,"Clothing; worn, and other worn articles",800,Uganda,3173,9.64,mirror
+2012,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,1886,5.73,mirror
+2012,630900,"Clothing; worn, and other worn articles",524,Nepal,85,0.258,mirror
+2012,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,131986,66.714,mirror
+2012,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,296,Kiribati,65854,33.286,mirror
+2012,760200,Aluminium; waste and scrap,702,Singapura,383261,74.028,mirror
+2012,760200,Aluminium; waste and scrap,699,Índia,91355,17.645,mirror
+2012,760200,Aluminium; waste and scrap,458,Malásia,43110,8.327,mirror
+2012,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",643,Rússia,4076,59.151,mirror
+2012,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",702,Singapura,2799,40.619,mirror
+2012,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",710,África do Sul,16,0.23,mirror
+2012,841391,Pumps; parts thereof,702,Singapura,4073,66.259,mirror
+2012,841391,Pumps; parts thereof,124,Canadá,2074,33.741,mirror
+2012,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702,Singapura,610,100.0,mirror
+2012,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",702,Singapura,27468,61.672,mirror
+2012,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",392,Japão,9075,20.375,mirror
+2012,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",124,Canadá,3447,7.739,mirror
+2012,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",484,México,3199,7.182,mirror
+2012,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",528,Países Baixos,1261,2.831,mirror
+2012,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",764,Tailândia,89,0.2,mirror
+2012,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,643,Rússia,227,36.089,mirror
+2012,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,764,Tailândia,223,35.453,mirror
+2012,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,616,Polónia,179,28.458,mirror
+2012,870333,Automóveis de passageiros,275,State of Palestine,21087,100.0,mirror
+2012,880330,880330,702,Singapura,12454,91.878,mirror
+2012,880330,880330,710,África do Sul,1101,8.122,mirror
+2012,999999,Commodities not specified according to kind,702,Singapura,347357,29.505,mirror
+2012,999999,Commodities not specified according to kind,484,México,272242,23.124,mirror
+2012,999999,Commodities not specified according to kind,643,Rússia,185960,15.795,mirror
+2012,999999,Commodities not specified according to kind,276,Alemanha,134583,11.432,mirror
+2012,999999,Commodities not specified according to kind,842,EUA,94469,8.024,mirror
+2012,999999,Commodities not specified according to kind,392,Japão,55301,4.697,mirror
+2012,999999,Commodities not specified according to kind,296,Kiribati,24625,2.092,mirror
+2012,999999,Commodities not specified according to kind,458,Malásia,20582,1.748,mirror
+2013,090111,Café,392,Japão,833046,70.963,direct
+2013,090111,Café,276,Alemanha,255480,21.763,direct
+2013,090111,Café,410,Coreia do Sul,53040,4.518,direct
+2013,090111,Café,36,Austrália,32354,2.756,direct
+2013,090112,Café,276,Alemanha,219016,65.238,direct
+2013,090112,Café,392,Japão,49500,14.745,direct
+2013,090112,Café,56,Bélgica,48000,14.298,direct
+2013,090112,Café,490,Taiwan (Prov. China),19200,5.719,direct
+2013,090121,Café,842,EUA,5500174,64.491,direct
+2013,090121,Café,276,Alemanha,2363971,27.718,direct
+2013,090121,Café,36,Austrália,381919,4.478,direct
+2013,090121,Café,554,Nova Zelândia,127722,1.498,direct
+2013,090121,Café,392,Japão,89783,1.053,direct
+2013,090121,Café,410,Coreia do Sul,28800,0.338,direct
+2013,090121,Café,156,China,21870,0.256,direct
+2013,090121,Café,702,Singapura,14400,0.169,direct
+2013,090190,Café,276,Alemanha,4854840,84.584,direct
+2013,090190,Café,842,EUA,252693,4.403,direct
+2013,090190,Café,702,Singapura,153600,2.676,direct
+2013,090190,Café,36,Austrália,120576,2.101,direct
+2013,090190,Café,528,Países Baixos,86023,1.499,direct
+2013,090190,Café,490,Taiwan (Prov. China),81600,1.422,direct
+2013,090190,Café,410,Coreia do Sul,67200,1.171,direct
+2013,090190,Café,344,Hong Kong (RAEHK),43776,0.763,direct
+2013,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",842,EUA,435000,94.832,direct
+2013,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,23704,5.168,direct
+2013,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",842,EUA,34180,100.0,direct
+2013,630900,"Clothing; worn, and other worn articles",360,Indonésia,17173002,100.0,direct
+2013,760200,Aluminium; waste and scrap,702,Singapura,10458,54.35,direct
+2013,760200,Aluminium; waste and scrap,458,Malásia,8784,45.65,direct
+2013,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",360,Indonésia,4800,100.0,direct
+2013,841391,Pumps; parts thereof,702,Singapura,24375,100.0,direct
+2013,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,430,Liberia,1816599,37.966,direct
+2013,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,729,Sudan,1755205,36.683,direct
+2013,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,434,Libya,931921,19.477,direct
+2013,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,842,EUA,153750,3.213,direct
+2013,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,404,Quénia,127282,2.66,direct
+2013,870333,Automóveis de passageiros,380,Itália,37996,79.165,direct
+2013,870333,Automóveis de passageiros,458,Malásia,10000,20.835,direct
+2013,870422,Veículos de mercadorias,196,Chipre,390824,71.288,direct
+2013,870422,Veículos de mercadorias,702,Singapura,157407,28.712,direct
+2013,880330,880330,36,Austrália,3358824,98.67,direct
+2013,880330,880330,458,Malásia,30000,0.881,direct
+2013,880330,880330,702,Singapura,7040,0.207,direct
+2013,880330,880330,124,Canadá,7000,0.206,direct
+2013,880330,880330,332,Haiti,1250,0.037,direct
+2013,999999,Commodities not specified according to kind,392,Japão,51711,66.168,direct
+2013,999999,Commodities not specified according to kind,360,Indonésia,18451,23.609,direct
+2013,999999,Commodities not specified according to kind,410,Coreia do Sul,5250,6.718,direct
+2013,999999,Commodities not specified according to kind,242,Fiji,2740,3.506,direct
+2013,090111,Café,276,Alemanha,5123205,49.331,mirror
+2013,090111,Café,124,Canadá,1573098,15.147,mirror
+2013,090111,Café,392,Japão,949384,9.141,mirror
+2013,090111,Café,620,Portugal,925438,8.911,mirror
+2013,090111,Café,36,Austrália,492499,4.742,mirror
+2013,090111,Café,528,Países Baixos,422945,4.072,mirror
+2013,090111,Café,554,Nova Zelândia,337186,3.247,mirror
+2013,090111,Café,410,Coreia do Sul,316031,3.043,mirror
+2013,090112,Café,842,EUA,31629,100.0,mirror
+2013,090121,Café,36,Austrália,10481,95.793,mirror
+2013,090121,Café,702,Singapura,460,4.207,mirror
+2013,270900,Petróleo bruto,410,Coreia do Sul,185140436,34.117,mirror
+2013,270900,Petróleo bruto,764,Tailândia,181338042,33.416,mirror
+2013,270900,Petróleo bruto,702,Singapura,176187443,32.467,mirror
+2013,271019,Combustíveis refinados,702,Singapura,78,100.0,mirror
+2013,271113,Gás natural e outros gases de petróleo,392,Japão,6359101,100.0,mirror
+2013,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",586,Paquistão,2520,67.196,mirror
+2013,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",528,Países Baixos,1036,27.622,mirror
+2013,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,128,3.413,mirror
+2013,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,50,1.342,mirror
+2013,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",124,Canadá,16,0.427,mirror
+2013,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",702,Singapura,52,100.0,mirror
+2013,630900,"Clothing; worn, and other worn articles",764,Tailândia,3972,34.546,mirror
+2013,630900,"Clothing; worn, and other worn articles",702,Singapura,3182,27.677,mirror
+2013,630900,"Clothing; worn, and other worn articles",332,Haiti,2479,21.565,mirror
+2013,630900,"Clothing; worn, and other worn articles",360,Indonésia,1157,10.063,mirror
+2013,630900,"Clothing; worn, and other worn articles",800,Uganda,707,6.149,mirror
+2013,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,60042,100.0,mirror
+2013,760200,Aluminium; waste and scrap,458,Malásia,706971,66.855,mirror
+2013,760200,Aluminium; waste and scrap,702,Singapura,275716,26.073,mirror
+2013,760200,Aluminium; waste and scrap,699,Índia,74782,7.072,mirror
+2013,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",120,Camarões,1106,76.329,mirror
+2013,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",643,Rússia,343,23.671,mirror
+2013,841391,Pumps; parts thereof,364,Irão,304506273,99.976,mirror
+2013,841391,Pumps; parts thereof,682,Arábia Saudita,60267,0.02,mirror
+2013,841391,Pumps; parts thereof,702,Singapura,7497,0.002,mirror
+2013,841391,Pumps; parts thereof,528,Países Baixos,4003,0.001,mirror
+2013,841391,Pumps; parts thereof,36,Austrália,1930,0.001,mirror
+2013,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702,Singapura,579,100.0,mirror
+2013,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",620,Portugal,14950,90.228,mirror
+2013,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",414,Kuwait,811,4.895,mirror
+2013,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",554,Nova Zelândia,808,4.878,mirror
+2013,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,702,Singapura,56,100.0,mirror
+2013,880330,880330,702,Singapura,8871,100.0,mirror
+2013,999999,Commodities not specified according to kind,702,Singapura,417677,75.83,mirror
+2013,999999,Commodities not specified according to kind,724,Espanha,48916,8.881,mirror
+2013,999999,Commodities not specified according to kind,484,México,23348,4.239,mirror
+2013,999999,Commodities not specified according to kind,116,Cambodia,15492,2.813,mirror
+2013,999999,Commodities not specified according to kind,643,Rússia,12103,2.197,mirror
+2013,999999,Commodities not specified according to kind,208,Dinamarca,11835,2.149,mirror
+2013,999999,Commodities not specified according to kind,458,Malásia,6136,1.114,mirror
+2013,999999,Commodities not specified according to kind,716,Zimbabué,4071,0.739,mirror
+2014,090111,Café,276,Alemanha,9246433,53.205,mirror
+2014,090111,Café,124,Canadá,2525025,14.529,mirror
+2014,090111,Café,36,Austrália,1473372,8.478,mirror
+2014,090111,Café,620,Portugal,1159886,6.674,mirror
+2014,090111,Café,392,Japão,882162,5.076,mirror
+2014,090111,Café,410,Coreia do Sul,877037,5.047,mirror
+2014,090111,Café,554,Nova Zelândia,450452,2.592,mirror
+2014,090111,Café,251,França,366801,2.111,mirror
+2014,090112,Café,702,Singapura,677582,84.316,mirror
+2014,090112,Café,842,EUA,121946,15.174,mirror
+2014,090112,Café,124,Canadá,3734,0.465,mirror
+2014,090112,Café,490,Taiwan (Prov. China),363,0.045,mirror
+2014,090121,Café,156,China,3831,100.0,mirror
+2014,090190,Café,36,Austrália,9458,65.483,mirror
+2014,090190,Café,702,Singapura,4985,34.517,mirror
+2014,270900,Petróleo bruto,410,Coreia do Sul,54076314,100.0,mirror
+2014,270900,Petróleo bruto,702,Singapura,25,0.0,mirror
+2014,271019,Combustíveis refinados,702,Singapura,1,100.0,mirror
+2014,271112,Gás natural e outros gases de petróleo,392,Japão,17913657,100.0,mirror
+2014,271113,Gás natural e outros gases de petróleo,410,Coreia do Sul,33332144,100.0,mirror
+2014,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,536,100.0,mirror
+2014,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,208,75.636,mirror
+2014,630900,"Clothing; worn, and other worn articles",764,Tailândia,67,24.364,mirror
+2014,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699,Índia,208602,65.913,mirror
+2014,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,107881,34.087,mirror
+2014,760200,Aluminium; waste and scrap,458,Malásia,511030,84.014,mirror
+2014,760200,Aluminium; waste and scrap,702,Singapura,97238,15.986,mirror
+2014,841391,Pumps; parts thereof,702,Singapura,625,100.0,mirror
+2014,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702,Singapura,25,100.0,mirror
+2014,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",716,Zimbabué,707230,91.019,mirror
+2014,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",688,Sérvia,66698,8.584,mirror
+2014,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",752,Suécia,1899,0.244,mirror
+2014,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",699,Índia,1186,0.153,mirror
+2014,880330,880330,702,Singapura,12181,100.0,mirror
+2014,999999,Commodities not specified according to kind,528,Países Baixos,1547750,76.8,mirror
+2014,999999,Commodities not specified according to kind,702,Singapura,256095,12.708,mirror
+2014,999999,Commodities not specified according to kind,24,Angola,149152,7.401,mirror
+2014,999999,Commodities not specified according to kind,392,Japão,21262,1.055,mirror
+2014,999999,Commodities not specified according to kind,716,Zimbabué,17571,0.872,mirror
+2014,999999,Commodities not specified according to kind,380,Itália,9445,0.469,mirror
+2014,999999,Commodities not specified according to kind,458,Malásia,8787,0.436,mirror
+2014,999999,Commodities not specified according to kind,842,EUA,4293,0.213,mirror
+2015,090111,Café,842,EUA,3111727,26.12,mirror
+2015,090111,Café,124,Canadá,2210919,18.559,mirror
+2015,090111,Café,620,Portugal,1889744,15.863,mirror
+2015,090111,Café,276,Alemanha,1310687,11.002,mirror
+2015,090111,Café,36,Austrália,755205,6.339,mirror
+2015,090111,Café,554,Nova Zelândia,524522,4.403,mirror
+2015,090111,Café,410,Coreia do Sul,509282,4.275,mirror
+2015,090111,Café,392,Japão,501418,4.209,mirror
+2015,090121,Café,392,Japão,15693,78.037,mirror
+2015,090121,Café,156,China,2365,11.761,mirror
+2015,090121,Café,124,Canadá,2052,10.202,mirror
+2015,090190,Café,702,Singapura,1533,100.0,mirror
+2015,220300,Cerveja,659,Saint Kitts and Nevis,1168,100.0,mirror
+2015,270900,Petróleo bruto,702,Singapura,295452337,93.902,mirror
+2015,270900,Petróleo bruto,764,Tailândia,19186477,6.098,mirror
+2015,271019,Combustíveis refinados,458,Malásia,285,96.075,mirror
+2015,271019,Combustíveis refinados,702,Singapura,12,3.925,mirror
+2015,271112,Gás natural e outros gases de petróleo,392,Japão,2653438,100.0,mirror
+2015,271113,Gás natural e outros gases de petróleo,392,Japão,4392423,100.0,mirror
+2015,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,764,51.509,mirror
+2015,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",710,África do Sul,521,35.108,mirror
+2015,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",410,Coreia do Sul,186,12.538,mirror
+2015,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",554,Nova Zelândia,13,0.845,mirror
+2015,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",360,Indonésia,742,100.0,mirror
+2015,630900,"Clothing; worn, and other worn articles",764,Tailândia,4056,67.614,mirror
+2015,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,1943,32.386,mirror
+2015,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,133350,100.0,mirror
+2015,760200,Aluminium; waste and scrap,702,Singapura,117681,49.629,mirror
+2015,760200,Aluminium; waste and scrap,458,Malásia,97985,41.323,mirror
+2015,760200,Aluminium; waste and scrap,699,Índia,21453,9.047,mirror
+2015,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",702,Singapura,7277,100.0,mirror
+2015,841391,Pumps; parts thereof,702,Singapura,3292,80.549,mirror
+2015,841391,Pumps; parts thereof,616,Polónia,795,19.451,mirror
+2015,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702,Singapura,266345,100.0,mirror
+2015,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",826,Reino Unido,86438,93.432,mirror
+2015,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",710,África do Sul,1920,2.075,mirror
+2015,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",702,Singapura,1608,1.738,mirror
+2015,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",724,Espanha,915,0.989,mirror
+2015,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",208,Dinamarca,905,0.978,mirror
+2015,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",528,Países Baixos,728,0.787,mirror
+2015,880330,880330,528,Países Baixos,75855,90.163,mirror
+2015,880330,880330,702,Singapura,7509,8.925,mirror
+2015,880330,880330,124,Canadá,768,0.912,mirror
+2015,999999,Commodities not specified according to kind,702,Singapura,2245416,79.07,mirror
+2015,999999,Commodities not specified according to kind,24,Angola,503606,17.734,mirror
+2015,999999,Commodities not specified according to kind,682,Arábia Saudita,49802,1.754,mirror
+2015,999999,Commodities not specified according to kind,842,EUA,17585,0.619,mirror
+2015,999999,Commodities not specified according to kind,392,Japão,6719,0.237,mirror
+2015,999999,Commodities not specified according to kind,116,Cambodia,4864,0.171,mirror
+2015,999999,Commodities not specified according to kind,458,Malásia,3587,0.126,mirror
+2015,999999,Commodities not specified according to kind,826,Reino Unido,3185,0.112,mirror
+2016,090111,Café,842,EUA,5043717,35.724,mirror
+2016,090111,Café,124,Canadá,2391300,16.937,mirror
+2016,090111,Café,276,Alemanha,2253901,15.964,mirror
+2016,090111,Café,360,Indonésia,1046509,7.412,mirror
+2016,090111,Café,392,Japão,1024146,7.254,mirror
+2016,090111,Café,620,Portugal,937061,6.637,mirror
+2016,090111,Café,36,Austrália,691831,4.9,mirror
+2016,090111,Café,410,Coreia do Sul,249616,1.768,mirror
+2016,090112,Café,842,EUA,124460,90.537,mirror
+2016,090112,Café,490,Taiwan (Prov. China),13008,9.463,mirror
+2016,090121,Café,490,Taiwan (Prov. China),186,100.0,mirror
+2016,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,102627,100.0,mirror
+2016,270900,Petróleo bruto,764,Tailândia,37695729,91.472,mirror
+2016,270900,Petróleo bruto,702,Singapura,3514619,8.528,mirror
+2016,271019,Combustíveis refinados,826,Reino Unido,3042,100.0,mirror
+2016,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,4798,55.284,mirror
+2016,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",124,Canadá,1819,20.963,mirror
+2016,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,846,9.752,mirror
+2016,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,607,6.997,mirror
+2016,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",246,Finlândia,553,6.372,mirror
+2016,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",528,Países Baixos,30,0.344,mirror
+2016,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",410,Coreia do Sul,25,0.288,mirror
+2016,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",764,Tailândia,4,100.0,mirror
+2016,630900,"Clothing; worn, and other worn articles",702,Singapura,434479,91.799,mirror
+2016,630900,"Clothing; worn, and other worn articles",764,Tailândia,24186,5.11,mirror
+2016,630900,"Clothing; worn, and other worn articles",620,Portugal,11012,2.327,mirror
+2016,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,2873,0.607,mirror
+2016,630900,"Clothing; worn, and other worn articles",678,São Tomé e Príncipe,744,0.157,mirror
+2016,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,56399,100.0,mirror
+2016,760200,Aluminium; waste and scrap,458,Malásia,188928,63.728,mirror
+2016,760200,Aluminium; waste and scrap,702,Singapura,107531,36.272,mirror
+2016,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",752,Suécia,77884,99.511,mirror
+2016,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",764,Tailândia,174,0.222,mirror
+2016,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",266,Gabão,125,0.16,mirror
+2016,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",68,Bolívia,84,0.107,mirror
+2016,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",826,Reino Unido,134299,64.373,mirror
+2016,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",36,Austrália,55119,26.42,mirror
+2016,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",842,EUA,10951,5.249,mirror
+2016,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",702,Singapura,5271,2.527,mirror
+2016,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",360,Indonésia,2985,1.431,mirror
+2016,880330,880330,702,Singapura,2753,59.018,mirror
+2016,880330,880330,36,Austrália,756,16.209,mirror
+2016,880330,880330,528,Países Baixos,747,16.01,mirror
+2016,880330,880330,764,Tailândia,409,8.762,mirror
+2016,999999,Commodities not specified according to kind,702,Singapura,278976,76.8,mirror
+2016,999999,Commodities not specified according to kind,842,EUA,38144,10.501,mirror
+2016,999999,Commodities not specified according to kind,724,Espanha,13413,3.692,mirror
+2016,999999,Commodities not specified according to kind,826,Reino Unido,12312,3.389,mirror
+2016,999999,Commodities not specified according to kind,124,Canadá,5321,1.465,mirror
+2016,999999,Commodities not specified according to kind,458,Malásia,4328,1.191,mirror
+2016,999999,Commodities not specified according to kind,392,Japão,3294,0.907,mirror
+2016,999999,Commodities not specified according to kind,24,Angola,3209,0.883,mirror
+2017,090111,Café,276,Alemanha,567000,29.398,direct
+2017,090111,Café,392,Japão,462566,23.983,direct
+2017,090111,Café,360,Indonésia,201975,10.472,direct
+2017,090111,Café,842,EUA,201147,10.429,direct
+2017,090111,Café,704,Vietname,150562,7.806,direct
+2017,090111,Café,410,Coreia do Sul,102375,5.308,direct
+2017,090111,Café,36,Austrália,79250,4.109,direct
+2017,090111,Café,156,China,58464,3.031,direct
+2017,090112,Café,704,Vietname,28085,98.547,direct
+2017,090112,Café,36,Austrália,414,1.453,direct
+2017,090121,Café,36,Austrália,171800,83.481,direct
+2017,090121,Café,392,Japão,28853,14.02,direct
+2017,090121,Café,344,Hong Kong (RAEHK),4950,2.405,direct
+2017,090121,Café,702,Singapura,172,0.084,direct
+2017,090121,Café,410,Coreia do Sul,21,0.01,direct
+2017,090190,Café,842,EUA,4692379,39.719,direct
+2017,090190,Café,276,Alemanha,2729664,23.105,direct
+2017,090190,Café,620,Portugal,937320,7.934,direct
+2017,090190,Café,360,Indonésia,880597,7.454,direct
+2017,090190,Café,490,Taiwan (Prov. China),520740,4.408,direct
+2017,090190,Café,36,Austrália,406132,3.438,direct
+2017,090190,Café,56,Bélgica,378000,3.2,direct
+2017,090190,Café,410,Coreia do Sul,310629,2.629,direct
+2017,220300,Cerveja,702,Singapura,99,100.0,direct
+2017,271019,Combustíveis refinados,702,Singapura,270602,55.707,direct
+2017,271019,Combustíveis refinados,36,Austrália,215161,44.293,direct
+2017,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",360,Indonésia,1354,97.033,direct
+2017,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",410,Coreia do Sul,26,1.88,direct
+2017,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",458,Malásia,8,0.544,direct
+2017,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,8,0.543,direct
+2017,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",842,EUA,45,100.0,direct
+2017,630900,"Clothing; worn, and other worn articles",360,Indonésia,4564028,100.0,direct
+2017,760200,Aluminium; waste and scrap,702,Singapura,21189,55.393,direct
+2017,760200,Aluminium; waste and scrap,458,Malásia,17063,44.607,direct
+2017,841391,Pumps; parts thereof,36,Austrália,435,100.0,direct
+2017,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,360,Indonésia,1109,97.281,direct
+2017,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,392,Japão,21,1.842,direct
+2017,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,251,França,10,0.877,direct
+2017,880330,880330,36,Austrália,30261,66.3,direct
+2017,880330,880330,124,Canadá,15382,33.7,direct
+2017,090111,Café,842,EUA,4676403,27.53,mirror
+2017,090111,Café,124,Canadá,3512209,20.676,mirror
+2017,090111,Café,276,Alemanha,2668116,15.707,mirror
+2017,090111,Café,360,Indonésia,1444263,8.502,mirror
+2017,090111,Café,392,Japão,1112469,6.549,mirror
+2017,090111,Café,36,Austrália,864814,5.091,mirror
+2017,090111,Café,410,Coreia do Sul,839101,4.94,mirror
+2017,090111,Café,620,Portugal,543324,3.199,mirror
+2017,090112,Café,842,EUA,246980,98.328,mirror
+2017,090112,Café,124,Canadá,4200,1.672,mirror
+2017,090121,Café,392,Japão,25565,95.894,mirror
+2017,090121,Café,124,Canadá,1073,4.023,mirror
+2017,090121,Café,410,Coreia do Sul,22,0.083,mirror
+2017,090190,Café,360,Indonésia,69368,100.0,mirror
+2017,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,986907,100.0,mirror
+2017,220300,Cerveja,702,Singapura,193,64.478,mirror
+2017,220300,Cerveja,764,Tailândia,106,35.522,mirror
+2017,270900,Petróleo bruto,702,Singapura,72032089,100.0,mirror
+2017,271019,Combustíveis refinados,36,Austrália,611854,87.992,mirror
+2017,271019,Combustíveis refinados,458,Malásia,83494,12.008,mirror
+2017,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,975,80.667,mirror
+2017,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",246,Finlândia,206,17.016,mirror
+2017,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",410,Coreia do Sul,28,2.317,mirror
+2017,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,5890,44.537,mirror
+2017,630900,"Clothing; worn, and other worn articles",826,Reino Unido,4664,35.267,mirror
+2017,630900,"Clothing; worn, and other worn articles",620,Portugal,1164,8.801,mirror
+2017,630900,"Clothing; worn, and other worn articles",678,São Tomé e Príncipe,1037,7.839,mirror
+2017,630900,"Clothing; worn, and other worn articles",764,Tailândia,470,3.556,mirror
+2017,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,202887,100.0,mirror
+2017,760200,Aluminium; waste and scrap,458,Malásia,305773,73.937,mirror
+2017,760200,Aluminium; waste and scrap,702,Singapura,107784,26.063,mirror
+2017,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",752,Suécia,5642027,99.999,mirror
+2017,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",251,França,60,0.001,mirror
+2017,841391,Pumps; parts thereof,24,Angola,6441,99.338,mirror
+2017,841391,Pumps; parts thereof,604,Peru,43,0.662,mirror
+2017,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",826,Reino Unido,750510,95.592,mirror
+2017,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",842,EUA,32732,4.169,mirror
+2017,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",458,Malásia,1878,0.239,mirror
+2017,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,678,São Tomé e Príncipe,470,94.191,mirror
+2017,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,360,Indonésia,29,5.809,mirror
+2017,880330,880330,702,Singapura,19511,89.461,mirror
+2017,880330,880330,826,Reino Unido,2299,10.539,mirror
+2017,999999,Commodities not specified according to kind,842,EUA,126305,46.648,mirror
+2017,999999,Commodities not specified according to kind,826,Reino Unido,30516,11.27,mirror
+2017,999999,Commodities not specified according to kind,208,Dinamarca,30290,11.187,mirror
+2017,999999,Commodities not specified according to kind,682,Arábia Saudita,19442,7.181,mirror
+2017,999999,Commodities not specified according to kind,392,Japão,11740,4.336,mirror
+2017,999999,Commodities not specified according to kind,242,Fiji,11613,4.289,mirror
+2017,999999,Commodities not specified according to kind,156,China,11103,4.101,mirror
+2017,999999,Commodities not specified according to kind,894,Zâmbia,7951,2.936,mirror
+2018,090111,Café,360,Indonésia,1154217,27.406,direct
+2018,090111,Café,392,Japão,1047443,24.871,direct
+2018,090111,Café,620,Portugal,487872,11.584,direct
+2018,090111,Café,276,Alemanha,412398,9.792,direct
+2018,090111,Café,842,EUA,297730,7.069,direct
+2018,090111,Café,36,Austrália,233279,5.539,direct
+2018,090111,Café,410,Coreia do Sul,126294,2.999,direct
+2018,090111,Café,554,Nova Zelândia,105236,2.499,direct
+2018,090112,Café,410,Coreia do Sul,20475,99.1,direct
+2018,090112,Café,36,Austrália,186,0.9,direct
+2018,090121,Café,344,Hong Kong (RAEHK),987,52.809,direct
+2018,090121,Café,702,Singapura,882,47.191,direct
+2018,090190,Café,842,EUA,6013046,40.114,direct
+2018,090190,Café,124,Canadá,3880442,25.887,direct
+2018,090190,Café,276,Alemanha,1785974,11.915,direct
+2018,090190,Café,360,Indonésia,846887,5.65,direct
+2018,090190,Café,36,Austrália,564208,3.764,direct
+2018,090190,Café,620,Portugal,471744,3.147,direct
+2018,090190,Café,554,Nova Zelândia,364934,2.435,direct
+2018,090190,Café,490,Taiwan (Prov. China),311850,2.08,direct
+2018,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,22785,100.0,direct
+2018,220300,Cerveja,528,Países Baixos,43,57.444,direct
+2018,220300,Cerveja,702,Singapura,32,42.556,direct
+2018,271019,Combustíveis refinados,36,Austrália,1871,95.532,direct
+2018,271019,Combustíveis refinados,251,França,81,4.135,direct
+2018,271019,Combustíveis refinados,276,Alemanha,4,0.226,direct
+2018,271019,Combustíveis refinados,124,Canadá,2,0.107,direct
+2018,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,7140,100.0,direct
+2018,760200,Aluminium; waste and scrap,458,Malásia,18141,62.428,direct
+2018,760200,Aluminium; waste and scrap,702,Singapura,10918,37.572,direct
+2018,090111,Café,842,EUA,6409215,34.767,mirror
+2018,090111,Café,124,Canadá,3911856,21.22,mirror
+2018,090111,Café,360,Indonésia,2374129,12.879,mirror
+2018,090111,Café,276,Alemanha,1625784,8.819,mirror
+2018,090111,Café,620,Portugal,1005335,5.453,mirror
+2018,090111,Café,392,Japão,929302,5.041,mirror
+2018,090111,Café,554,Nova Zelândia,515169,2.795,mirror
+2018,090111,Café,36,Austrália,481279,2.611,mirror
+2018,090112,Café,842,EUA,286375,97.737,mirror
+2018,090112,Café,124,Canadá,4030,1.376,mirror
+2018,090112,Café,410,Coreia do Sul,2600,0.887,mirror
+2018,090121,Café,36,Austrália,1537,40.794,mirror
+2018,090121,Café,124,Canadá,1234,32.743,mirror
+2018,090121,Café,702,Singapura,957,25.402,mirror
+2018,090121,Café,410,Coreia do Sul,40,1.062,mirror
+2018,090190,Café,360,Indonésia,103579,100.0,mirror
+2018,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,2739649,100.0,mirror
+2018,220300,Cerveja,702,Singapura,128,100.0,mirror
+2018,270900,Petróleo bruto,702,Singapura,43705336,100.0,mirror
+2018,271019,Combustíveis refinados,251,França,61,100.0,mirror
+2018,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",360,Indonésia,5148,47.573,mirror
+2018,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,4850,44.819,mirror
+2018,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,411,3.796,mirror
+2018,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,319,2.943,mirror
+2018,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",410,Coreia do Sul,94,0.869,mirror
+2018,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",104,Myanmar,20,100.0,mirror
+2018,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,9607,47.809,mirror
+2018,630900,"Clothing; worn, and other worn articles",620,Portugal,4633,23.058,mirror
+2018,630900,"Clothing; worn, and other worn articles",826,Reino Unido,2803,13.949,mirror
+2018,630900,"Clothing; worn, and other worn articles",764,Tailândia,1613,8.028,mirror
+2018,630900,"Clothing; worn, and other worn articles",360,Indonésia,760,3.782,mirror
+2018,630900,"Clothing; worn, and other worn articles",678,São Tomé e Príncipe,678,3.373,mirror
+2018,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,540150,57.037,mirror
+2018,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,222141,23.457,mirror
+2018,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,184732,19.507,mirror
+2018,760200,Aluminium; waste and scrap,458,Malásia,407568,69.831,mirror
+2018,760200,Aluminium; waste and scrap,702,Singapura,176082,30.169,mirror
+2018,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",752,Suécia,5035596,99.938,mirror
+2018,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",24,Angola,3119,0.062,mirror
+2018,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",826,Reino Unido,1288311,93.623,mirror
+2018,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",842,EUA,76434,5.555,mirror
+2018,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",458,Malásia,11324,0.823,mirror
+2018,870333,Automóveis de passageiros,686,Senegal,16990,78.694,mirror
+2018,870333,Automóveis de passageiros,626,Timor-Leste,4600,21.306,mirror
+2018,880330,880330,24,Angola,383153,97.977,mirror
+2018,880330,880330,702,Singapura,7909,2.023,mirror
+2018,999999,Commodities not specified according to kind,702,Singapura,89369,36.461,mirror
+2018,999999,Commodities not specified according to kind,842,EUA,47845,19.52,mirror
+2018,999999,Commodities not specified according to kind,24,Angola,32232,13.15,mirror
+2018,999999,Commodities not specified according to kind,242,Fiji,28457,11.61,mirror
+2018,999999,Commodities not specified according to kind,104,Myanmar,23596,9.627,mirror
+2018,999999,Commodities not specified according to kind,156,China,8814,3.596,mirror
+2018,999999,Commodities not specified according to kind,458,Malásia,6074,2.478,mirror
+2018,999999,Commodities not specified according to kind,116,Cambodia,5299,2.162,mirror
+2019,090111,Café,360,Indonésia,4880385,58.465,direct
+2019,090111,Café,620,Portugal,627102,7.512,direct
+2019,090111,Café,392,Japão,561011,6.721,direct
+2019,090111,Café,276,Alemanha,526176,6.303,direct
+2019,090111,Café,490,Taiwan (Prov. China),320437,3.839,direct
+2019,090111,Café,36,Austrália,315161,3.776,direct
+2019,090111,Café,842,EUA,269203,3.225,direct
+2019,090111,Café,156,China,269111,3.224,direct
+2019,090112,Café,360,Indonésia,96390,100.0,direct
+2019,090121,Café,410,Coreia do Sul,34650,61.567,direct
+2019,090121,Café,116,Cambodia,19530,34.701,direct
+2019,090121,Café,344,Hong Kong (RAEHK),2100,3.731,direct
+2019,090190,Café,124,Canadá,4155138,42.3,direct
+2019,090190,Café,842,EUA,3632488,36.98,direct
+2019,090190,Café,36,Austrália,510663,5.199,direct
+2019,090190,Café,360,Indonésia,497157,5.061,direct
+2019,090190,Café,528,Países Baixos,419067,4.266,direct
+2019,090190,Café,276,Alemanha,310831,3.164,direct
+2019,090190,Café,554,Nova Zelândia,160834,1.637,direct
+2019,090190,Café,156,China,92240,0.939,direct
+2019,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,2505065,100.0,direct
+2019,220300,Cerveja,704,Vietname,588,52.238,direct
+2019,220300,Cerveja,702,Singapura,538,47.762,direct
+2019,270900,Petróleo bruto,702,Singapura,59521088,73.22,direct
+2019,270900,Petróleo bruto,458,Malásia,21762615,26.771,direct
+2019,270900,Petróleo bruto,36,Austrália,7219,0.009,direct
+2019,271019,Combustíveis refinados,36,Austrália,1586,99.732,direct
+2019,271019,Combustíveis refinados,276,Alemanha,4,0.268,direct
+2019,271112,Gás natural e outros gases de petróleo,392,Japão,10259983,54.214,direct
+2019,271112,Gás natural e outros gases de petróleo,156,China,8665117,45.786,direct
+2019,271113,Gás natural e outros gases de petróleo,392,Japão,9644857,55.357,direct
+2019,271113,Gás natural e outros gases de petróleo,156,China,7778127,44.643,direct
+2019,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",360,Indonésia,420,100.0,direct
+2019,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,6300,98.105,direct
+2019,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,36,Austrália,122,1.895,direct
+2019,760200,Aluminium; waste and scrap,458,Malásia,14917,90.017,direct
+2019,760200,Aluminium; waste and scrap,702,Singapura,1480,8.934,direct
+2019,760200,Aluminium; waste and scrap,96,Brunei Darussalam,174,1.049,direct
+2019,090111,Café,360,Indonésia,5293365,28.882,mirror
+2019,090111,Café,124,Canadá,4424012,24.139,mirror
+2019,090111,Café,842,EUA,3662660,19.985,mirror
+2019,090111,Café,620,Portugal,1096726,5.984,mirror
+2019,090111,Café,36,Austrália,873556,4.766,mirror
+2019,090111,Café,392,Japão,847620,4.625,mirror
+2019,090111,Café,490,Taiwan (Prov. China),468614,2.557,mirror
+2019,090111,Café,276,Alemanha,301012,1.642,mirror
+2019,090112,Café,842,EUA,187989,72.188,mirror
+2019,090112,Café,702,Singapura,66643,25.591,mirror
+2019,090112,Café,124,Canadá,5785,2.221,mirror
+2019,090121,Café,702,Singapura,7362,63.008,mirror
+2019,090121,Café,458,Malásia,2565,21.952,mirror
+2019,090121,Café,36,Austrália,1278,10.941,mirror
+2019,090121,Café,124,Canadá,340,2.909,mirror
+2019,090121,Café,410,Coreia do Sul,139,1.19,mirror
+2019,090190,Café,360,Indonésia,533877,100.0,mirror
+2019,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,2657984,99.861,mirror
+2019,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",392,Japão,3688,0.139,mirror
+2019,220300,Cerveja,212,Dominica,146,88.843,mirror
+2019,220300,Cerveja,702,Singapura,18,11.157,mirror
+2019,270900,Petróleo bruto,702,Singapura,60948682,100.0,mirror
+2019,271112,Gás natural e outros gases de petróleo,156,China,11207122,59.881,mirror
+2019,271112,Gás natural e outros gases de petróleo,392,Japão,7508389,40.119,mirror
+2019,271113,Gás natural e outros gases de petróleo,156,China,10044125,82.347,mirror
+2019,271113,Gás natural e outros gases de petróleo,392,Japão,2153163,17.653,mirror
+2019,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",360,Indonésia,15949,67.397,mirror
+2019,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",24,Angola,4232,17.883,mirror
+2019,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,2703,11.42,mirror
+2019,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,602,2.543,mirror
+2019,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",410,Coreia do Sul,179,0.756,mirror
+2019,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,7616,56.309,mirror
+2019,630900,"Clothing; worn, and other worn articles",418,Lao People's Dem. Rep.,3500,25.877,mirror
+2019,630900,"Clothing; worn, and other worn articles",764,Tailândia,893,6.601,mirror
+2019,630900,"Clothing; worn, and other worn articles",620,Portugal,861,6.366,mirror
+2019,630900,"Clothing; worn, and other worn articles",686,Senegal,532,3.933,mirror
+2019,630900,"Clothing; worn, and other worn articles",288,Gana,124,0.914,mirror
+2019,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,171040,35.877,mirror
+2019,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,170476,35.758,mirror
+2019,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,134799,28.275,mirror
+2019,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,96,Brunei Darussalam,430,0.09,mirror
+2019,760200,Aluminium; waste and scrap,458,Malásia,259863,75.873,mirror
+2019,760200,Aluminium; waste and scrap,702,Singapura,82634,24.127,mirror
+2019,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",36,Austrália,44669,100.0,mirror
+2019,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,36,Austrália,27015,100.0,mirror
+2019,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",826,Reino Unido,90371,25.904,mirror
+2019,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",36,Austrália,82724,23.712,mirror
+2019,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",842,EUA,76840,22.025,mirror
+2019,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",784,Emirados Árabes Unidos,49482,14.184,mirror
+2019,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",764,Tailândia,36245,10.389,mirror
+2019,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",608,Filipinas,6292,1.804,mirror
+2019,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",702,Singapura,5319,1.525,mirror
+2019,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",710,África do Sul,1447,0.415,mirror
+2019,880330,880330,251,França,145264,71.543,mirror
+2019,880330,880330,702,Singapura,45043,22.184,mirror
+2019,880330,880330,24,Angola,12738,6.274,mirror
+2019,999999,Commodities not specified according to kind,702,Singapura,145505,44.227,mirror
+2019,999999,Commodities not specified according to kind,842,EUA,82083,24.95,mirror
+2019,999999,Commodities not specified according to kind,598,Papua New Guinea,47117,14.321,mirror
+2019,999999,Commodities not specified according to kind,392,Japão,39219,11.921,mirror
+2019,999999,Commodities not specified according to kind,344,Hong Kong (RAEHK),3763,1.144,mirror
+2019,999999,Commodities not specified according to kind,156,China,3073,0.934,mirror
+2019,999999,Commodities not specified according to kind,458,Malásia,2543,0.773,mirror
+2019,999999,Commodities not specified according to kind,68,Bolívia,2038,0.619,mirror
+2020,090111,Café,392,Japão,657072,22.318,direct
+2020,090111,Café,490,Taiwan (Prov. China),334656,11.367,direct
+2020,090111,Café,704,Vietname,294840,10.014,direct
+2020,090111,Café,410,Coreia do Sul,292027,9.919,direct
+2020,090111,Café,36,Austrália,258467,8.779,direct
+2020,090111,Café,446,Macau (RAEM),230832,7.84,direct
+2020,090111,Café,360,Indonésia,225900,7.673,direct
+2020,090111,Café,276,Alemanha,171234,5.816,direct
+2020,090112,Café,360,Indonésia,37800,100.0,direct
+2020,090121,Café,36,Austrália,472,100.0,direct
+2020,090190,Café,124,Canadá,4436487,47.632,direct
+2020,090190,Café,842,EUA,3565156,38.277,direct
+2020,090190,Café,36,Austrália,429113,4.607,direct
+2020,090190,Café,156,China,253352,2.72,direct
+2020,090190,Café,392,Japão,250976,2.695,direct
+2020,090190,Café,554,Nova Zelândia,241668,2.595,direct
+2020,090190,Café,360,Indonésia,137341,1.475,direct
+2020,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,773250,75.695,direct
+2020,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",704,Vietname,232218,22.732,direct
+2020,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",360,Indonésia,16065,1.573,direct
+2020,220300,Cerveja,528,Países Baixos,124,100.0,direct
+2020,270900,Petróleo bruto,458,Malásia,54982032,33.648,direct
+2020,270900,Petróleo bruto,702,Singapura,48128703,29.454,direct
+2020,270900,Petróleo bruto,410,Coreia do Sul,26399100,16.156,direct
+2020,270900,Petróleo bruto,764,Tailândia,26352480,16.127,direct
+2020,270900,Petróleo bruto,784,Emirados Árabes Unidos,7538895,4.614,direct
+2020,270900,Petróleo bruto,36,Austrália,96,0.0,direct
+2020,271019,Combustíveis refinados,36,Austrália,9557,99.962,direct
+2020,271019,Combustíveis refinados,276,Alemanha,4,0.038,direct
+2020,271112,Gás natural e outros gases de petróleo,392,Japão,35420159,100.0,direct
+2020,271112,Gás natural e outros gases de petróleo,36,Austrália,7,0.0,direct
+2020,271113,Gás natural e outros gases de petróleo,392,Japão,34839805,100.0,direct
+2020,271113,Gás natural e outros gases de petróleo,36,Austrália,151,0.0,direct
+2020,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,84,100.0,direct
+2020,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,36,Austrália,124,100.0,direct
+2020,760200,Aluminium; waste and scrap,458,Malásia,10849,70.395,direct
+2020,760200,Aluminium; waste and scrap,702,Singapura,4494,29.161,direct
+2020,760200,Aluminium; waste and scrap,36,Austrália,68,0.444,direct
+2020,999999,Commodities not specified according to kind,344,Hong Kong (RAEHK),10290,99.262,direct
+2020,999999,Commodities not specified according to kind,36,Austrália,73,0.703,direct
+2020,999999,Commodities not specified according to kind,276,Alemanha,4,0.035,direct
+2020,090111,Café,124,Canadá,4665147,39.423,mirror
+2020,090111,Café,842,EUA,3555526,30.046,mirror
+2020,090111,Café,392,Japão,705004,5.958,mirror
+2020,090111,Café,360,Indonésia,513546,4.34,mirror
+2020,090111,Café,36,Austrália,480193,4.058,mirror
+2020,090111,Café,620,Portugal,412606,3.487,mirror
+2020,090111,Café,410,Coreia do Sul,360286,3.045,mirror
+2020,090111,Café,554,Nova Zelândia,302157,2.553,mirror
+2020,090112,Café,842,EUA,482594,98.371,mirror
+2020,090112,Café,124,Canadá,7992,1.629,mirror
+2020,090121,Café,344,Hong Kong (RAEHK),132221,88.507,mirror
+2020,090121,Café,702,Singapura,12743,8.53,mirror
+2020,090121,Café,490,Taiwan (Prov. China),2721,1.821,mirror
+2020,090121,Café,36,Austrália,1593,1.066,mirror
+2020,090121,Café,410,Coreia do Sul,112,0.075,mirror
+2020,090190,Café,360,Indonésia,21590,98.931,mirror
+2020,090190,Café,702,Singapura,233,1.069,mirror
+2020,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,842675,98.745,mirror
+2020,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",360,Indonésia,10710,1.255,mirror
+2020,220300,Cerveja,702,Singapura,10039,97.536,mirror
+2020,220300,Cerveja,528,Países Baixos,254,2.464,mirror
+2020,270900,Petróleo bruto,702,Singapura,43632389,61.522,mirror
+2020,270900,Petróleo bruto,410,Coreia do Sul,27289594,38.478,mirror
+2020,271019,Combustíveis refinados,458,Malásia,28115,97.53,mirror
+2020,271019,Combustíveis refinados,670,Saint Vincent and the Grenadines,673,2.335,mirror
+2020,271019,Combustíveis refinados,598,Papua New Guinea,39,0.135,mirror
+2020,271112,Gás natural e outros gases de petróleo,392,Japão,10539240,100.0,mirror
+2020,271113,Gás natural e outros gases de petróleo,392,Japão,6677901,100.0,mirror
+2020,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,1379,82.976,mirror
+2020,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",410,Coreia do Sul,283,17.024,mirror
+2020,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,20248,56.884,mirror
+2020,630900,"Clothing; worn, and other worn articles",702,Singapura,15051,42.284,mirror
+2020,630900,"Clothing; worn, and other worn articles",764,Tailândia,185,0.52,mirror
+2020,630900,"Clothing; worn, and other worn articles",626,Timor-Leste,111,0.312,mirror
+2020,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,186437,63.122,mirror
+2020,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,89460,30.289,mirror
+2020,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,19462,6.589,mirror
+2020,760200,Aluminium; waste and scrap,702,Singapura,107331,73.676,mirror
+2020,760200,Aluminium; waste and scrap,458,Malásia,38348,26.324,mirror
+2020,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",702,Singapura,69496,48.757,mirror
+2020,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",36,Austrália,53666,37.651,mirror
+2020,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",620,Portugal,18717,13.132,mirror
+2020,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",124,Canadá,656,0.46,mirror
+2020,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,218,Equador,403,100.0,mirror
+2020,870333,Automóveis de passageiros,598,Papua New Guinea,18497,60.962,mirror
+2020,870333,Automóveis de passageiros,686,Senegal,11845,39.038,mirror
+2020,999999,Commodities not specified according to kind,842,EUA,96232,80.293,mirror
+2020,999999,Commodities not specified according to kind,156,China,6831,5.7,mirror
+2020,999999,Commodities not specified according to kind,458,Malásia,4932,4.115,mirror
+2020,999999,Commodities not specified according to kind,116,Cambodia,4195,3.5,mirror
+2020,999999,Commodities not specified according to kind,392,Japão,3438,2.868,mirror
+2020,999999,Commodities not specified according to kind,104,Myanmar,1324,1.104,mirror
+2020,999999,Commodities not specified according to kind,276,Alemanha,856,0.714,mirror
+2020,999999,Commodities not specified according to kind,208,Dinamarca,564,0.471,mirror
+2021,090111,Café,276,Alemanha,4907955,44.924,direct
+2021,090111,Café,156,China,1011893,9.262,direct
+2021,090111,Café,620,Portugal,942480,8.627,direct
+2021,090111,Café,842,EUA,807650,7.393,direct
+2021,090111,Café,124,Canadá,696105,6.372,direct
+2021,090111,Café,392,Japão,600803,5.499,direct
+2021,090111,Café,360,Indonésia,483318,4.424,direct
+2021,090111,Café,504,Marrocos,407484,3.73,direct
+2021,090121,Café,702,Singapura,1660,56.85,direct
+2021,090121,Café,344,Hong Kong (RAEHK),1260,43.15,direct
+2021,090190,Café,842,EUA,8376743,50.209,direct
+2021,090190,Café,124,Canadá,6572632,39.396,direct
+2021,090190,Café,36,Austrália,583407,3.497,direct
+2021,090190,Café,554,Nova Zelândia,491670,2.947,direct
+2021,090190,Café,392,Japão,369084,2.212,direct
+2021,090190,Café,826,Reino Unido,130794,0.784,direct
+2021,090190,Café,360,Indonésia,92644,0.555,direct
+2021,090190,Café,276,Alemanha,35503,0.213,direct
+2021,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",764,Tailândia,170940,100.0,direct
+2021,270900,Petróleo bruto,702,Singapura,128918722,41.867,direct
+2021,270900,Petróleo bruto,156,China,107575650,34.936,direct
+2021,270900,Petróleo bruto,410,Coreia do Sul,42240608,13.718,direct
+2021,270900,Petróleo bruto,764,Tailândia,29190420,9.48,direct
+2021,270900,Petróleo bruto,36,Austrália,38,0.0,direct
+2021,271019,Combustíveis refinados,36,Austrália,3399,99.723,direct
+2021,271019,Combustíveis refinados,702,Singapura,8,0.246,direct
+2021,271019,Combustíveis refinados,344,Hong Kong (RAEHK),1,0.031,direct
+2021,271112,Gás natural e outros gases de petróleo,392,Japão,57368600,100.0,direct
+2021,271113,Gás natural e outros gases de petróleo,392,Japão,61530243,100.0,direct
+2021,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,51,92.953,direct
+2021,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,4,7.047,direct
+2021,630900,"Clothing; worn, and other worn articles",702,Singapura,672,100.0,direct
+2021,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,12403,93.726,direct
+2021,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,36,Austrália,830,6.274,direct
+2021,760200,Aluminium; waste and scrap,458,Malásia,14917,76.396,direct
+2021,760200,Aluminium; waste and scrap,702,Singapura,4594,23.526,direct
+2021,760200,Aluminium; waste and scrap,36,Austrália,15,0.078,direct
+2021,999999,Commodities not specified according to kind,36,Austrália,8,100.0,direct
+2021,090111,Café,124,Canadá,5597087,32.798,mirror
+2021,090111,Café,842,EUA,4743281,27.795,mirror
+2021,090111,Café,156,China,1644246,9.635,mirror
+2021,090111,Café,36,Austrália,1053406,6.173,mirror
+2021,090111,Café,392,Japão,944563,5.535,mirror
+2021,090111,Café,276,Alemanha,748335,4.385,mirror
+2021,090111,Café,554,Nova Zelândia,742021,4.348,mirror
+2021,090111,Café,360,Indonésia,566630,3.32,mirror
+2021,090112,Café,842,EUA,202811,99.866,mirror
+2021,090112,Café,682,Arábia Saudita,272,0.134,mirror
+2021,090121,Café,36,Austrália,21222,57.28,mirror
+2021,090121,Café,784,Emirados Árabes Unidos,10693,28.861,mirror
+2021,090121,Café,490,Taiwan (Prov. China),4727,12.757,mirror
+2021,090121,Café,410,Coreia do Sul,198,0.534,mirror
+2021,090121,Café,724,Espanha,102,0.275,mirror
+2021,090121,Café,360,Indonésia,61,0.165,mirror
+2021,090121,Café,616,Polónia,46,0.124,mirror
+2021,090121,Café,124,Canadá,2,0.004,mirror
+2021,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",392,Japão,2059,100.0,mirror
+2021,220300,Cerveja,620,Portugal,418,91.218,mirror
+2021,220300,Cerveja,702,Singapura,40,8.782,mirror
+2021,270900,Petróleo bruto,156,China,110901868,46.66,mirror
+2021,270900,Petróleo bruto,702,Singapura,102174002,42.988,mirror
+2021,270900,Petróleo bruto,458,Malásia,24603502,10.352,mirror
+2021,271019,Combustíveis refinados,710,África do Sul,94,94.013,mirror
+2021,271019,Combustíveis refinados,702,Singapura,6,5.987,mirror
+2021,271112,Gás natural e outros gases de petróleo,392,Japão,31097079,100.0,mirror
+2021,271113,Gás natural e outros gases de petróleo,392,Japão,34852053,100.0,mirror
+2021,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",784,Emirados Árabes Unidos,7611,83.202,mirror
+2021,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,1374,15.024,mirror
+2021,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,162,1.774,mirror
+2021,630900,"Clothing; worn, and other worn articles",764,Tailândia,773,49.262,mirror
+2021,630900,"Clothing; worn, and other worn articles",288,Gana,554,35.346,mirror
+2021,630900,"Clothing; worn, and other worn articles",24,Angola,241,15.392,mirror
+2021,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,1520437,88.615,mirror
+2021,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,195350,11.385,mirror
+2021,760200,Aluminium; waste and scrap,702,Singapura,122959,61.244,mirror
+2021,760200,Aluminium; waste and scrap,458,Malásia,77810,38.756,mirror
+2021,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",834,Tanzânia,2035,95.829,mirror
+2021,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",96,Brunei Darussalam,89,4.171,mirror
+2021,841391,Pumps; parts thereof,124,Canadá,1557,100.0,mirror
+2021,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",842,EUA,652046,99.095,mirror
+2021,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",826,Reino Unido,2758,0.419,mirror
+2021,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",702,Singapura,2035,0.309,mirror
+2021,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",764,Tailândia,1083,0.165,mirror
+2021,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",251,França,82,0.012,mirror
+2021,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,710,África do Sul,245,100.0,mirror
+2021,870333,Automóveis de passageiros,242,Fiji,39006,100.0,mirror
+2021,880330,880330,826,Reino Unido,1953,100.0,mirror
+2021,999999,Commodities not specified according to kind,702,Singapura,97115,31.84,mirror
+2021,999999,Commodities not specified according to kind,826,Reino Unido,83512,27.38,mirror
+2021,999999,Commodities not specified according to kind,842,EUA,61219,20.071,mirror
+2021,999999,Commodities not specified according to kind,392,Japão,35835,11.749,mirror
+2021,999999,Commodities not specified according to kind,68,Bolívia,15555,5.1,mirror
+2021,999999,Commodities not specified according to kind,156,China,4770,1.564,mirror
+2021,999999,Commodities not specified according to kind,458,Malásia,3810,1.249,mirror
+2021,999999,Commodities not specified according to kind,276,Alemanha,1566,0.513,mirror
+2022,090111,Café,842,EUA,5363879,31.793,direct
+2022,090111,Café,276,Alemanha,3347568,19.842,direct
+2022,090111,Café,360,Indonésia,2100298,12.449,direct
+2022,090111,Café,56,Bélgica,1652490,9.795,direct
+2022,090111,Café,36,Austrália,1034150,6.13,direct
+2022,090111,Café,392,Japão,722983,4.285,direct
+2022,090111,Café,620,Portugal,655452,3.885,direct
+2022,090111,Café,124,Canadá,482469,2.86,direct
+2022,090112,Café,392,Japão,126857,98.888,direct
+2022,090112,Café,360,Indonésia,1426,1.112,direct
+2022,090121,Café,842,EUA,208,60.147,direct
+2022,090121,Café,458,Malásia,138,39.853,direct
+2022,090190,Café,360,Indonésia,99398073,91.734,direct
+2022,090190,Café,124,Canadá,5644704,5.209,direct
+2022,090190,Café,842,EUA,2061783,1.903,direct
+2022,090190,Café,36,Austrália,641766,0.592,direct
+2022,090190,Café,554,Nova Zelândia,320627,0.296,direct
+2022,090190,Café,392,Japão,208225,0.192,direct
+2022,090190,Café,528,Países Baixos,79336,0.073,direct
+2022,270900,Petróleo bruto,156,China,117456885,51.956,direct
+2022,270900,Petróleo bruto,410,Coreia do Sul,99303750,43.926,direct
+2022,270900,Petróleo bruto,702,Singapura,9307200,4.117,direct
+2022,270900,Petróleo bruto,36,Austrália,293,0.0,direct
+2022,271019,Combustíveis refinados,490,Taiwan (Prov. China),1390190,74.867,direct
+2022,271019,Combustíveis refinados,36,Austrália,466689,25.133,direct
+2022,271112,Gás natural e outros gases de petróleo,392,Japão,44361155,100.0,direct
+2022,271113,Gás natural e outros gases de petróleo,392,Japão,51406531,99.998,direct
+2022,271113,Gás natural e outros gases de petróleo,36,Austrália,956,0.002,direct
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",56,Bélgica,6877,21.999,direct
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",120,Camarões,4515,14.443,direct
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,4374,13.993,direct
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",204,Benim,2440,7.806,direct
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",458,Malásia,2222,7.109,direct
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,2037,6.516,direct
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",192,Cuba,1929,6.17,direct
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",380,Itália,1870,5.982,direct
+2022,630900,"Clothing; worn, and other worn articles",120,Camarões,45832,47.878,direct
+2022,630900,"Clothing; worn, and other worn articles",620,Portugal,42883,44.797,direct
+2022,630900,"Clothing; worn, and other worn articles",752,Suécia,3832,4.004,direct
+2022,630900,"Clothing; worn, and other worn articles",36,Austrália,1370,1.431,direct
+2022,630900,"Clothing; worn, and other worn articles",116,Cambodia,821,0.858,direct
+2022,630900,"Clothing; worn, and other worn articles",276,Alemanha,737,0.77,direct
+2022,630900,"Clothing; worn, and other worn articles",360,Indonésia,230,0.24,direct
+2022,630900,"Clothing; worn, and other worn articles",826,Reino Unido,21,0.022,direct
+2022,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,36,Austrália,344,100.0,direct
+2022,760200,Aluminium; waste and scrap,458,Malásia,17629,79.962,direct
+2022,760200,Aluminium; waste and scrap,702,Singapura,4410,20.003,direct
+2022,760200,Aluminium; waste and scrap,36,Austrália,8,0.035,direct
+2022,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",36,Austrália,245606,100.0,direct
+2022,841391,Pumps; parts thereof,36,Austrália,3,100.0,direct
+2022,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,36,Austrália,142350,100.0,direct
+2022,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",702,Singapura,19206,94.595,direct
+2022,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",36,Austrália,1097,5.405,direct
+2022,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,842,EUA,21000,100.0,direct
+2022,870333,Automóveis de passageiros,156,China,8077,100.0,direct
+2022,880330,880330,36,Austrália,152948,96.362,direct
+2022,880330,880330,251,França,5775,3.638,direct
+2022,999999,Commodities not specified according to kind,36,Austrália,193,90.169,direct
+2022,999999,Commodities not specified according to kind,834,Tanzânia,21,9.831,direct
+2022,090111,Café,124,Canadá,10316148,32.765,mirror
+2022,090111,Café,842,EUA,8734524,27.742,mirror
+2022,090111,Café,276,Alemanha,3487637,11.077,mirror
+2022,090111,Café,360,Indonésia,2489053,7.906,mirror
+2022,090111,Café,36,Austrália,1784356,5.667,mirror
+2022,090111,Café,392,Japão,1083285,3.441,mirror
+2022,090111,Café,620,Portugal,1071728,3.404,mirror
+2022,090111,Café,554,Nova Zelândia,417081,1.325,mirror
+2022,090112,Café,842,EUA,563914,91.056,mirror
+2022,090112,Café,124,Canadá,55390,8.944,mirror
+2022,090121,Café,251,França,15019,36.988,mirror
+2022,090121,Café,702,Singapura,12911,31.796,mirror
+2022,090121,Café,554,Nova Zelândia,9436,23.238,mirror
+2022,090121,Café,490,Taiwan (Prov. China),2182,5.375,mirror
+2022,090121,Café,620,Portugal,536,1.319,mirror
+2022,090121,Café,124,Canadá,502,1.236,mirror
+2022,090121,Café,410,Coreia do Sul,20,0.049,mirror
+2022,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",392,Japão,2221,100.0,mirror
+2022,220300,Cerveja,626,Timor-Leste,12715337,100.0,mirror
+2022,270900,Petróleo bruto,156,China,144705393,50.403,mirror
+2022,270900,Petróleo bruto,410,Coreia do Sul,66351343,23.111,mirror
+2022,270900,Petróleo bruto,764,Tailândia,37554888,13.081,mirror
+2022,270900,Petróleo bruto,458,Malásia,21448094,7.471,mirror
+2022,270900,Petróleo bruto,702,Singapura,17036092,5.934,mirror
+2022,271019,Combustíveis refinados,702,Singapura,28158,99.442,mirror
+2022,271019,Combustíveis refinados,360,Indonésia,158,0.558,mirror
+2022,271112,Gás natural e outros gases de petróleo,392,Japão,36732290,100.0,mirror
+2022,271113,Gás natural e outros gases de petróleo,392,Japão,34393900,100.0,mirror
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,2940,64.12,mirror
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",800,Uganda,1580,34.46,mirror
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",360,Indonésia,40,0.872,mirror
+2022,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,25,0.548,mirror
+2022,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",52,Barbados,13858,100.0,mirror
+2022,630900,"Clothing; worn, and other worn articles",800,Uganda,19845,95.786,mirror
+2022,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,873,4.214,mirror
+2022,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,1028428,73.365,mirror
+2022,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,219371,15.649,mirror
+2022,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,154000,10.986,mirror
+2022,760200,Aluminium; waste and scrap,702,Singapura,163733,100.0,mirror
+2022,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",24,Angola,1835,88.087,mirror
+2022,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",96,Brunei Darussalam,215,10.337,mirror
+2022,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",251,França,33,1.575,mirror
+2022,841391,Pumps; parts thereof,616,Polónia,43201,99.587,mirror
+2022,841391,Pumps; parts thereof,724,Espanha,110,0.254,mirror
+2022,841391,Pumps; parts thereof,702,Singapura,69,0.159,mirror
+2022,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",208,Dinamarca,46853,40.996,mirror
+2022,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",251,França,30411,26.61,mirror
+2022,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",276,Alemanha,16174,14.153,mirror
+2022,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",702,Singapura,14897,13.035,mirror
+2022,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",710,África do Sul,3160,2.765,mirror
+2022,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",826,Reino Unido,2134,1.867,mirror
+2022,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",68,Bolívia,657,0.575,mirror
+2022,999999,Commodities not specified according to kind,842,EUA,54938,35.414,mirror
+2022,999999,Commodities not specified according to kind,458,Malásia,46528,29.993,mirror
+2022,999999,Commodities not specified according to kind,251,França,18536,11.949,mirror
+2022,999999,Commodities not specified according to kind,752,Suécia,16116,10.389,mirror
+2022,999999,Commodities not specified according to kind,490,Taiwan (Prov. China),4667,3.008,mirror
+2022,999999,Commodities not specified according to kind,242,Fiji,3877,2.499,mirror
+2022,999999,Commodities not specified according to kind,716,Zimbabué,3550,2.289,mirror
+2022,999999,Commodities not specified according to kind,702,Singapura,3370,2.172,mirror
+2023,090111,Café,360,Indonésia,4897873,38.956,direct
+2023,090111,Café,620,Portugal,1789563,14.233,direct
+2023,090111,Café,842,EUA,1546352,12.299,direct
+2023,090111,Café,392,Japão,876516,6.971,direct
+2023,090111,Café,36,Austrália,868347,6.906,direct
+2023,090111,Café,490,Taiwan (Prov. China),662609,5.27,direct
+2023,090111,Café,156,China,337806,2.687,direct
+2023,090111,Café,124,Canadá,330705,2.63,direct
+2023,090112,Café,392,Japão,98516,100.0,direct
+2023,090121,Café,344,Hong Kong (RAEHK),7644,93.095,direct
+2023,090121,Café,36,Austrália,567,6.905,direct
+2023,090190,Café,360,Indonésia,806107,42.595,direct
+2023,090190,Café,842,EUA,603349,31.881,direct
+2023,090190,Café,36,Austrália,285537,15.088,direct
+2023,090190,Café,554,Nova Zelândia,197505,10.436,direct
+2023,270900,Petróleo bruto,156,China,75627878,71.052,direct
+2023,270900,Petróleo bruto,702,Singapura,30812460,28.948,direct
+2023,270900,Petróleo bruto,36,Austrália,98,0.0,direct
+2023,271019,Combustíveis refinados,36,Austrália,1793,92.334,direct
+2023,271019,Combustíveis refinados,458,Malásia,126,6.516,direct
+2023,271019,Combustíveis refinados,702,Singapura,17,0.889,direct
+2023,271019,Combustíveis refinados,276,Alemanha,5,0.262,direct
+2023,271113,Gás natural e outros gases de petróleo,392,Japão,3856545,100.0,direct
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,6812,13.823,direct
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",242,Fiji,5075,10.299,direct
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",620,Portugal,4426,8.982,direct
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",32,Argentina,4235,8.594,direct
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,3925,7.965,direct
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",842,EUA,3401,6.902,direct
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",48,Barém,3214,6.522,direct
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",56,Bélgica,3076,6.242,direct
+2023,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",531,Curaçao,3872,98.411,direct
+2023,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",36,Austrália,63,1.589,direct
+2023,630900,"Clothing; worn, and other worn articles",174,Comores,16076,33.277,direct
+2023,630900,"Clothing; worn, and other worn articles",360,Indonésia,9818,20.322,direct
+2023,630900,"Clothing; worn, and other worn articles",100,Bulgária,7140,14.78,direct
+2023,630900,"Clothing; worn, and other worn articles",620,Portugal,6830,14.139,direct
+2023,630900,"Clothing; worn, and other worn articles",178,Congo,5565,11.52,direct
+2023,630900,"Clothing; worn, and other worn articles",764,Tailândia,2011,4.162,direct
+2023,630900,"Clothing; worn, and other worn articles",276,Alemanha,277,0.573,direct
+2023,630900,"Clothing; worn, and other worn articles",242,Fiji,270,0.56,direct
+2023,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,36,Austrália,8631,100.0,direct
+2023,760200,Aluminium; waste and scrap,458,Malásia,21245,60.408,direct
+2023,760200,Aluminium; waste and scrap,156,China,7836,22.28,direct
+2023,760200,Aluminium; waste and scrap,702,Singapura,6082,17.292,direct
+2023,760200,Aluminium; waste and scrap,36,Austrália,7,0.02,direct
+2023,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",144,Sri Lanka,2181,50.465,direct
+2023,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",36,Austrália,2141,49.535,direct
+2023,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,360,Indonésia,5061,38.161,direct
+2023,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702,Singapura,4331,32.657,direct
+2023,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,36,Austrália,3870,29.182,direct
+2023,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",36,Austrália,504,61.372,direct
+2023,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",842,EUA,282,34.408,direct
+2023,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",360,Indonésia,35,4.22,direct
+2023,870422,Veículos de mercadorias,144,Sri Lanka,73815,100.0,direct
+2023,880330,880330,36,Austrália,19101327,99.985,direct
+2023,880330,880330,360,Indonésia,2205,0.012,direct
+2023,880330,880330,842,EUA,630,0.003,direct
+2023,999999,Commodities not specified according to kind,36,Austrália,509,56.101,direct
+2023,999999,Commodities not specified according to kind,702,Singapura,236,26.024,direct
+2023,999999,Commodities not specified according to kind,104,Myanmar,83,9.149,direct
+2023,999999,Commodities not specified according to kind,764,Tailândia,61,6.671,direct
+2023,999999,Commodities not specified according to kind,380,Itália,19,2.055,direct
+2023,090111,Café,360,Indonésia,5856996,32.693,mirror
+2023,090111,Café,842,EUA,2579614,14.399,mirror
+2023,090111,Café,124,Canadá,2003519,11.184,mirror
+2023,090111,Café,620,Portugal,1633323,9.117,mirror
+2023,090111,Café,36,Austrália,1319804,7.367,mirror
+2023,090111,Café,392,Japão,1186259,6.622,mirror
+2023,090111,Café,276,Alemanha,629471,3.514,mirror
+2023,090111,Café,490,Taiwan (Prov. China),483120,2.697,mirror
+2023,090112,Café,842,EUA,1468742,100.0,mirror
+2023,090121,Café,36,Austrália,13458,83.38,mirror
+2023,090121,Café,414,Kuwait,2683,16.62,mirror
+2023,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,121400,97.843,mirror
+2023,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",392,Japão,2676,2.157,mirror
+2023,220300,Cerveja,626,Timor-Leste,12204406,100.0,mirror
+2023,220300,Cerveja,702,Singapura,12,0.0,mirror
+2023,220300,Cerveja,598,Papua New Guinea,3,0.0,mirror
+2023,270900,Petróleo bruto,156,China,74125501,65.681,mirror
+2023,270900,Petróleo bruto,702,Singapura,38730575,34.319,mirror
+2023,271019,Combustíveis refinados,598,Papua New Guinea,1723,92.413,mirror
+2023,271019,Combustíveis refinados,96,Brunei Darussalam,141,7.587,mirror
+2023,271112,Gás natural e outros gases de petróleo,392,Japão,4533520,100.0,mirror
+2023,271113,Gás natural e outros gases de petróleo,392,Japão,17917370,100.0,mirror
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",124,Canadá,1717,62.293,mirror
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,605,21.933,mirror
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",764,Tailândia,274,9.936,mirror
+2023,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",24,Angola,161,5.838,mirror
+2023,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",242,Fiji,155791,97.944,mirror
+2023,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",276,Alemanha,3270,2.056,mirror
+2023,630900,"Clothing; worn, and other worn articles",204,Benim,12199,54.695,mirror
+2023,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,6221,27.891,mirror
+2023,630900,"Clothing; worn, and other worn articles",620,Portugal,3238,14.519,mirror
+2023,630900,"Clothing; worn, and other worn articles",764,Tailândia,646,2.894,mirror
+2023,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,739324,81.339,mirror
+2023,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,99495,10.946,mirror
+2023,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,70119,7.714,mirror
+2023,760200,Aluminium; waste and scrap,702,Singapura,147100,100.0,mirror
+2023,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",251,França,29,100.0,mirror
+2023,841391,Pumps; parts thereof,616,Polónia,155,50.82,mirror
+2023,841391,Pumps; parts thereof,360,Indonésia,150,49.18,mirror
+2023,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,360,Indonésia,9652,100.0,mirror
+2023,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",842,EUA,179488,88.528,mirror
+2023,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",554,Nova Zelândia,17867,8.813,mirror
+2023,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",699,Índia,3953,1.95,mirror
+2023,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",826,Reino Unido,1109,0.547,mirror
+2023,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",124,Canadá,331,0.163,mirror
+2023,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,360,Indonésia,30,100.0,mirror
+2023,999999,Commodities not specified according to kind,842,EUA,307500,58.512,mirror
+2023,999999,Commodities not specified according to kind,598,Papua New Guinea,125334,23.849,mirror
+2023,999999,Commodities not specified according to kind,702,Singapura,78141,14.869,mirror
+2023,999999,Commodities not specified according to kind,490,Taiwan (Prov. China),2536,0.483,mirror
+2023,999999,Commodities not specified according to kind,96,Brunei Darussalam,2282,0.434,mirror
+2023,999999,Commodities not specified according to kind,276,Alemanha,2113,0.402,mirror
+2023,999999,Commodities not specified according to kind,392,Japão,2071,0.394,mirror
+2023,999999,Commodities not specified according to kind,242,Fiji,1993,0.379,mirror
+2024,090111,Café,842,EUA,3735400,26.567,mirror
+2024,090111,Café,360,Indonésia,2463185,17.518,mirror
+2024,090111,Café,620,Portugal,2048642,14.57,mirror
+2024,090111,Café,392,Japão,1621860,11.535,mirror
+2024,090111,Café,36,Austrália,964464,6.859,mirror
+2024,090111,Café,124,Canadá,734955,5.227,mirror
+2024,090111,Café,156,China,604062,4.296,mirror
+2024,090111,Café,490,Taiwan (Prov. China),589335,4.191,mirror
+2024,090112,Café,842,EUA,938442,99.761,mirror
+2024,090112,Café,826,Reino Unido,2246,0.239,mirror
+2024,090121,Café,36,Austrália,2830,58.77,mirror
+2024,090121,Café,414,Kuwait,1608,33.388,mirror
+2024,090121,Café,410,Coreia do Sul,377,7.828,mirror
+2024,090121,Café,124,Canadá,1,0.015,mirror
+2024,090190,Café,360,Indonésia,34263,100.0,mirror
+2024,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",156,China,377600,99.617,mirror
+2024,121299,"Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",392,Japão,1453,0.383,mirror
+2024,220300,Cerveja,56,Bélgica,31,57.626,mirror
+2024,220300,Cerveja,528,Países Baixos,23,42.374,mirror
+2024,270900,Petróleo bruto,764,Tailândia,64154680,100.0,mirror
+2024,271019,Combustíveis refinados,410,Coreia do Sul,6359,100.0,mirror
+2024,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",36,Austrália,1284,68.817,mirror
+2024,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",702,Singapura,510,27.32,mirror
+2024,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",233,Estónia,38,2.04,mirror
+2024,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",410,Coreia do Sul,18,0.965,mirror
+2024,490199,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",360,Indonésia,16,0.858,mirror
+2024,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",276,Alemanha,299,99.501,mirror
+2024,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",702,Singapura,1,0.499,mirror
+2024,630900,"Clothing; worn, and other worn articles",702,Singapura,32532,52.85,mirror
+2024,630900,"Clothing; worn, and other worn articles",764,Tailândia,17428,28.313,mirror
+2024,630900,"Clothing; worn, and other worn articles",410,Coreia do Sul,11595,18.837,mirror
+2024,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,702,Singapura,421358,50.38,mirror
+2024,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,360,Indonésia,319462,38.196,mirror
+2024,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458,Malásia,82180,9.826,mirror
+2024,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,764,Tailândia,13367,1.598,mirror
+2024,760200,Aluminium; waste and scrap,702,Singapura,103688,90.598,mirror
+2024,760200,Aluminium; waste and scrap,764,Tailândia,10760,9.402,mirror
+2024,841330,"Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",705,Eslovénia,83,100.0,mirror
+2024,841391,Pumps; parts thereof,616,Polónia,14250,77.869,mirror
+2024,841391,Pumps; parts thereof,842,EUA,4050,22.131,mirror
+2024,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",842,EUA,156056,62.293,mirror
+2024,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",710,África do Sul,80432,32.106,mirror
+2024,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",208,Dinamarca,5834,2.329,mirror
+2024,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",826,Reino Unido,4534,1.81,mirror
+2024,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",276,Alemanha,1638,0.654,mirror
+2024,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",360,Indonésia,725,0.289,mirror
+2024,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",372,Irlanda,568,0.227,mirror
+2024,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",251,França,475,0.19,mirror
+2024,870422,Veículos de mercadorias,360,Indonésia,10000,100.0,mirror
+2024,999999,Commodities not specified according to kind,842,EUA,77884,68.098,mirror
+2024,999999,Commodities not specified according to kind,116,Cambodia,18060,15.791,mirror
+2024,999999,Commodities not specified according to kind,458,Malásia,5548,4.851,mirror
+2024,999999,Commodities not specified according to kind,156,China,4825,4.219,mirror
+2024,999999,Commodities not specified according to kind,490,Taiwan (Prov. China),3209,2.805,mirror
+2024,999999,Commodities not specified according to kind,484,México,2332,2.039,mirror
+2024,999999,Commodities not specified according to kind,826,Reino Unido,1334,1.167,mirror
+2024,999999,Commodities not specified according to kind,124,Canadá,513,0.449,mirror

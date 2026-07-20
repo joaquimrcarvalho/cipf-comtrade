@@ -1,0 +1,321 @@
+year,hs6,description_pt,value,share_pct,rank,basis
+2003,271000,Combustíveis refinados,16263328,11.944,1,mirror
+2003,999999,Commodities not specified according to kind,12503534,9.183,2,mirror
+2003,880390,880390,7786420,5.718,3,mirror
+2003,100630,Arroz,5924445,4.351,4,mirror
+2003,271011,Combustíveis refinados,5915708,4.345,5,mirror
+2003,730429,"Iron or steel (excluding cast iron or stainless steel); seamless, casing and tubing, of a kind used in drilling for oil or gas",4048671,2.973,6,mirror
+2003,880330,880330,2185311,1.605,7,mirror
+2003,220110,"Waters; mineral and aerated, including natural or artificial, (not containing added sugar or other sweetening matter nor flavoured)",1712013,1.257,8,mirror
+2003,870421,Veículos de mercadorias,1630863,1.198,9,mirror
+2003,870899,Vehicle parts and accessories; n.e.c. in heading no. 8708,1626411,1.194,10,mirror
+2004,271019,Combustíveis refinados,27112787,23.89,1,direct
+2004,271011,Combustíveis refinados,8538808,7.524,2,direct
+2004,100610,Arroz,6322919,5.571,3,direct
+2004,853390,Resistors; parts of the resistors of heading no. 8533,2591362,2.283,4,direct
+2004,870323,Automóveis de passageiros,1987260,1.751,5,direct
+2004,240220,Cigarros,1847350,1.628,6,direct
+2004,870210,"Vehicles; public transport type (carries 10 or more persons, including driver), with only compression-ignition internal combustion piston engine (diesel or semi-diesel), new or used",1789408,1.577,7,direct
+2004,870422,Veículos de mercadorias,1710984,1.508,8,direct
+2004,870421,Veículos de mercadorias,1705072,1.502,9,direct
+2004,851790,851790,1608902,1.418,10,direct
+2004,999999,Commodities not specified according to kind,10496148,11.927,1,mirror
+2004,100630,Arroz,10430936,11.852,2,mirror
+2004,271011,Combustíveis refinados,4804025,5.459,3,mirror
+2004,271000,Combustíveis refinados,4700113,5.341,4,mirror
+2004,520300,Cotton; carded or combed,3742652,4.253,5,mirror
+2004,853710,"Boards, panels, consoles, desks and other bases; for electric control or the distribution of electricity, (other than switching apparatus of heading no. 8517), for a voltage not exceeding 1000 volts",1871666,2.127,6,mirror
+2004,151190,Óleo de palma,1365874,1.552,7,mirror
+2004,847160,"Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing",1181816,1.343,8,mirror
+2004,240220,Cigarros,1131750,1.286,9,mirror
+2004,870333,Automóveis de passageiros,1111932,1.263,10,mirror
+2005,271019,Combustíveis refinados,29583198,29.114,1,direct
+2005,100610,Arroz,4673780,4.6,2,direct
+2005,271011,Combustíveis refinados,4587116,4.514,3,direct
+2005,870323,Automóveis de passageiros,2240873,2.205,4,direct
+2005,840790,"Engines; rotary internal combustion piston engines, for other than aircraft or marine propulsion",1817248,1.788,5,direct
+2005,240220,Cigarros,1430516,1.408,6,direct
+2005,252329,"Cement; portland, other than white, whether or not artificially coloured",1376098,1.354,7,direct
+2005,300310,"Medicaments; containing penicillins, streptomycins or their derivatives, for therapeutic or prophylactic uses, (not in measured doses, not packaged for retail sale)",1243122,1.223,8,direct
+2005,170111,Açúcar de cana ou de beterraba,1024278,1.008,9,direct
+2005,391721,"Plastics; tubes, pipes and hoses thereof, rigid, of polymers of ethylene",992537,0.977,10,direct
+2005,100630,Arroz,12616731,13.815,1,mirror
+2005,271000,Combustíveis refinados,11399387,12.482,2,mirror
+2005,999999,Commodities not specified according to kind,8990262,9.844,3,mirror
+2005,520300,Cotton; carded or combed,4204079,4.603,4,mirror
+2005,392490,Plastics; household articles and hygienic or toilet articles,3370763,3.691,5,mirror
+2005,170199,Açúcar de cana ou de beterraba,2958803,3.24,6,mirror
+2005,271011,Combustíveis refinados,2392574,2.62,7,mirror
+2005,392310,"Plastics; boxes, cases, crates and similar articles for the conveyance or packing of goods",2385637,2.612,8,mirror
+2005,852812,852812,1711944,1.874,9,mirror
+2005,392410,Plastics; tableware and kitchenware,1395716,1.528,10,mirror
+2006,100630,Arroz,14517201,13.198,1,mirror
+2006,999999,Commodities not specified according to kind,14176175,12.888,2,mirror
+2006,852812,852812,9431447,8.574,3,mirror
+2006,271000,Combustíveis refinados,7620831,6.928,4,mirror
+2006,870333,Automóveis de passageiros,5397582,4.907,5,mirror
+2006,870421,Veículos de mercadorias,3463821,3.149,6,mirror
+2006,170199,Açúcar de cana ou de beterraba,2557363,2.325,7,mirror
+2006,392490,Plastics; household articles and hygienic or toilet articles,2208211,2.008,8,mirror
+2006,271011,Combustíveis refinados,1885825,1.714,9,mirror
+2006,300490,Medicamentos,1651496,1.501,10,mirror
+2007,100630,Arroz,20645806,18.329,1,mirror
+2007,999999,Commodities not specified according to kind,15844083,14.066,2,mirror
+2007,870421,Veículos de mercadorias,5935238,5.269,3,mirror
+2007,870333,Automóveis de passageiros,5601198,4.973,4,mirror
+2007,271011,Combustíveis refinados,3627111,3.22,5,mirror
+2007,852812,852812,2465035,2.188,6,mirror
+2007,170199,Açúcar de cana ou de beterraba,2127953,1.889,7,mirror
+2007,300490,Medicamentos,1413751,1.255,8,mirror
+2007,854270,854270,1355190,1.203,9,mirror
+2007,870210,"Vehicles; public transport type (carries 10 or more persons, including driver), with only compression-ignition internal combustion piston engine (diesel or semi-diesel), new or used",1168505,1.037,10,mirror
+2008,854270,854270,68406406,20.351,1,mirror
+2008,100630,Arroz,57403625,17.078,2,mirror
+2008,270900,Petróleo bruto,39486551,11.747,3,mirror
+2008,999999,Commodities not specified according to kind,8696619,2.587,4,mirror
+2008,271019,Combustíveis refinados,5943528,1.768,5,mirror
+2008,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",5067454,1.508,6,mirror
+2008,721491,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, n.e.c. in heading no. 7214, of rectangular (other than square) cross-section",4752100,1.414,7,mirror
+2008,870333,Automóveis de passageiros,4481213,1.333,8,mirror
+2008,271011,Combustíveis refinados,3793572,1.129,9,mirror
+2008,240220,Cigarros,3702324,1.101,10,mirror
+2009,100630,Arroz,97411330,26.683,1,mirror
+2009,721491,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, n.e.c. in heading no. 7214, of rectangular (other than square) cross-section",8409234,2.304,2,mirror
+2009,999999,Commodities not specified according to kind,7526750,2.062,3,mirror
+2009,271000,Combustíveis refinados,6866713,1.881,4,mirror
+2009,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",6353796,1.74,5,mirror
+2009,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",6146388,1.684,6,mirror
+2009,870421,Veículos de mercadorias,6024532,1.65,7,mirror
+2009,252329,"Cement; portland, other than white, whether or not artificially coloured",5684363,1.557,8,mirror
+2009,151190,Óleo de palma,5620615,1.54,9,mirror
+2009,271019,Combustíveis refinados,5595337,1.533,10,mirror
+2010,890520,Floating or submersible drilling or production platforms,395972118,43.602,1,mirror
+2010,890190,Navios,62329238,6.863,2,mirror
+2010,100630,Arroz,51895161,5.714,3,mirror
+2010,999999,Commodities not specified according to kind,35142873,3.87,4,mirror
+2010,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,16583923,1.826,5,mirror
+2010,843041,"Boring or sinking machinery; self-propelled, n.e.c. in heading no. 8430",15544672,1.712,6,mirror
+2010,271011,Combustíveis refinados,12026623,1.324,7,mirror
+2010,271019,Combustíveis refinados,11487785,1.265,8,mirror
+2010,252329,"Cement; portland, other than white, whether or not artificially coloured",7674177,0.845,9,mirror
+2010,240220,Cigarros,7636417,0.841,10,mirror
+2011,840890,"Engines; compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of a kind used for other than marine propulsion or the vehicles of chapter 87",53964098,8.925,1,mirror
+2011,999999,Commodities not specified according to kind,28237376,4.67,2,mirror
+2011,100630,Arroz,19589881,3.24,3,mirror
+2011,630900,"Clothing; worn, and other worn articles",17946961,2.968,4,mirror
+2011,151190,Óleo de palma,17238360,2.851,5,mirror
+2011,271019,Combustíveis refinados,15347291,2.538,6,mirror
+2011,830710,"Tubing; flexible, with or without fittings, of iron or steel",15069525,2.492,7,mirror
+2011,870323,Automóveis de passageiros,14581275,2.412,8,mirror
+2011,850300,Electric motors and generators; parts suitable for use solely or principally with the machines of heading no. 8501 or 8502,12562555,2.078,9,mirror
+2011,730820,"Iron or steel; structures and parts thereof, towers and lattice masts",11142186,1.843,10,mirror
+2012,840890,"Engines; compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of a kind used for other than marine propulsion or the vehicles of chapter 87",75175235,10.881,1,mirror
+2012,850300,Electric motors and generators; parts suitable for use solely or principally with the machines of heading no. 8501 or 8502,46084091,6.67,2,mirror
+2012,100630,Arroz,30764221,4.453,3,mirror
+2012,271019,Combustíveis refinados,30636727,4.434,4,mirror
+2012,630900,"Clothing; worn, and other worn articles",30023644,4.345,5,mirror
+2012,271012,Combustíveis refinados,23247379,3.365,6,mirror
+2012,890400,Tugs and pusher craft,16433757,2.379,7,mirror
+2012,252329,"Cement; portland, other than white, whether or not artificially coloured",11784331,1.706,8,mirror
+2012,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",11171110,1.617,9,mirror
+2012,240220,Cigarros,11103271,1.607,10,mirror
+2013,271019,Combustíveis refinados,119020580,23.168,1,direct
+2013,630900,"Clothing; worn, and other worn articles",31929551,6.215,2,direct
+2013,271011,Combustíveis refinados,22424943,4.365,3,direct
+2013,870323,Automóveis de passageiros,16455261,3.203,4,direct
+2013,870422,Veículos de mercadorias,16204389,3.154,5,direct
+2013,100630,Arroz,15789432,3.073,6,direct
+2013,252329,"Cement; portland, other than white, whether or not artificially coloured",15136017,2.946,7,direct
+2013,999999,Commodities not specified according to kind,14577384,2.838,8,direct
+2013,842959,"Mechanical shovels, excavators and shovel loaders; n.e.c. in item no. 8429.50",10611604,2.066,9,direct
+2013,852910,Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith,9086747,1.769,10,direct
+2013,100630,Arroz,37744780,7.219,1,mirror
+2013,630900,"Clothing; worn, and other worn articles",34396517,6.579,2,mirror
+2013,271019,Combustíveis refinados,23278721,4.452,3,mirror
+2013,271012,Combustíveis refinados,14356086,2.746,4,mirror
+2013,252329,"Cement; portland, other than white, whether or not artificially coloured",13053177,2.497,5,mirror
+2013,240220,Cigarros,11188270,2.14,6,mirror
+2013,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",10375531,1.984,7,mirror
+2013,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",10252889,1.961,8,mirror
+2013,151190,Óleo de palma,10009000,1.914,9,mirror
+2013,999999,Commodities not specified according to kind,9151956,1.75,10,mirror
+2014,271019,Combustíveis refinados,81323568,12.362,1,mirror
+2014,100630,Arroz,60715276,9.229,2,mirror
+2014,170199,Açúcar de cana ou de beterraba,32477471,4.937,3,mirror
+2014,630900,"Clothing; worn, and other worn articles",18901035,2.873,4,mirror
+2014,271012,Combustíveis refinados,17569557,2.671,5,mirror
+2014,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",13263404,2.016,6,mirror
+2014,890690,"Vessels; other, including lifeboats other than rowing boats, other than warships",13000000,1.976,7,mirror
+2014,240220,Cigarros,12749467,1.938,8,mirror
+2014,999999,Commodities not specified according to kind,12196844,1.854,9,mirror
+2014,151190,Óleo de palma,11347098,1.725,10,mirror
+2015,999999,Commodities not specified according to kind,84788125,14.062,1,mirror
+2015,271019,Combustíveis refinados,27487999,4.559,2,mirror
+2015,240220,Cigarros,16157804,2.68,3,mirror
+2015,630900,"Clothing; worn, and other worn articles",15305058,2.538,4,mirror
+2015,271012,Combustíveis refinados,13954526,2.314,5,mirror
+2015,170199,Açúcar de cana ou de beterraba,11625253,1.928,6,mirror
+2015,151190,Óleo de palma,10588883,1.756,7,mirror
+2015,252329,"Cement; portland, other than white, whether or not artificially coloured",10266518,1.703,8,mirror
+2015,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",9618103,1.595,9,mirror
+2015,850220,Electric generating sets; with spark-ignition internal combustion piston engines,8964856,1.487,10,mirror
+2016,100630,Arroz,34963691,5.977,1,mirror
+2016,240220,Cigarros,18339021,3.135,2,mirror
+2016,270900,Petróleo bruto,15871208,2.713,3,mirror
+2016,271019,Combustíveis refinados,13903427,2.377,4,mirror
+2016,851712,851712,11677810,1.996,5,mirror
+2016,252329,"Cement; portland, other than white, whether or not artificially coloured",11648489,1.991,6,mirror
+2016,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",10483311,1.792,7,mirror
+2016,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",10202162,1.744,8,mirror
+2016,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",10113326,1.729,9,mirror
+2016,880212,"Helicopters, except unmanned; of an unladen weight exceeding 2000kg",9641853,1.648,10,mirror
+2017,271019,Combustíveis refinados,95869857,16.303,1,direct
+2017,100630,Arroz,27891793,4.743,2,direct
+2017,252329,"Cement; portland, other than white, whether or not artificially coloured",23627106,4.018,3,direct
+2017,271011,Combustíveis refinados,17015576,2.894,4,direct
+2017,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",15211197,2.587,5,direct
+2017,220300,Cerveja,15043360,2.558,6,direct
+2017,240220,Cigarros,13544739,2.303,7,direct
+2017,870323,Automóveis de passageiros,12771445,2.172,8,direct
+2017,020712,"Meat and edible offal; of fowls of the species Gallus domesticus, not cut in pieces, frozen",11453242,1.948,9,direct
+2017,630900,"Clothing; worn, and other worn articles",10313776,1.754,10,direct
+2017,100630,Arroz,25977480,4.788,1,mirror
+2017,240220,Cigarros,18747068,3.455,2,mirror
+2017,252329,"Cement; portland, other than white, whether or not artificially coloured",15175601,2.797,3,mirror
+2017,151190,Óleo de palma,13474818,2.484,4,mirror
+2017,271019,Combustíveis refinados,12363059,2.279,5,mirror
+2017,630900,"Clothing; worn, and other worn articles",11896030,2.193,6,mirror
+2017,851712,851712,10727847,1.977,7,mirror
+2017,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",9702160,1.788,8,mirror
+2017,722830,"Steel, alloy; bars and rods, hot-rolled, hot-drawn or extruded",9620451,1.773,9,mirror
+2017,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",8904555,1.641,10,mirror
+2018,271019,Combustíveis refinados,113665657,21.883,1,direct
+2018,100630,Arroz,37958675,7.308,2,direct
+2018,271011,Combustíveis refinados,18638760,3.588,3,direct
+2018,252329,"Cement; portland, other than white, whether or not artificially coloured",15765460,3.035,4,direct
+2018,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",11071432,2.131,5,direct
+2018,020712,"Meat and edible offal; of fowls of the species Gallus domesticus, not cut in pieces, frozen",10685807,2.057,6,direct
+2018,870323,Automóveis de passageiros,9447813,1.819,7,direct
+2018,870422,Veículos de mercadorias,8971101,1.727,8,direct
+2018,630900,"Clothing; worn, and other worn articles",7887783,1.519,9,direct
+2018,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",7515441,1.447,10,direct
+2018,100630,Arroz,34478047,7.326,1,mirror
+2018,890510,Dredgers,31824314,6.762,2,mirror
+2018,240220,Cigarros,13990224,2.973,3,mirror
+2018,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",11397374,2.422,4,mirror
+2018,170199,Açúcar de cana ou de beterraba,10848130,2.305,5,mirror
+2018,151190,Óleo de palma,10370922,2.204,6,mirror
+2018,252329,"Cement; portland, other than white, whether or not artificially coloured",9830990,2.089,7,mirror
+2018,110100,Wheat or meslin flour,7303463,1.552,8,mirror
+2018,630900,"Clothing; worn, and other worn articles",7138696,1.517,9,mirror
+2018,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",6984758,1.484,10,mirror
+2019,271019,Combustíveis refinados,127679085,23.837,1,direct
+2019,100630,Arroz,35859412,6.695,2,direct
+2019,252329,"Cement; portland, other than white, whether or not artificially coloured",16720396,3.122,3,direct
+2019,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",15640716,2.92,4,direct
+2019,271011,Combustíveis refinados,15410001,2.877,5,direct
+2019,870323,Automóveis de passageiros,10481213,1.957,6,direct
+2019,870421,Veículos de mercadorias,9327636,1.741,7,direct
+2019,020712,"Meat and edible offal; of fowls of the species Gallus domesticus, not cut in pieces, frozen",8750147,1.634,8,direct
+2019,870322,Automóveis de passageiros,8487681,1.585,9,direct
+2019,870422,Veículos de mercadorias,7229695,1.35,10,direct
+2019,271019,Combustíveis refinados,48923697,9.079,1,mirror
+2019,271012,Combustíveis refinados,17296386,3.21,2,mirror
+2019,240220,Cigarros,13218742,2.453,3,mirror
+2019,151190,Óleo de palma,11939478,2.216,4,mirror
+2019,100630,Arroz,11920160,2.212,5,mirror
+2019,890590,"Vessels; light, fire-floats, floating cranes and other vessels, the navigability of which is subsidiary to their main function, floating docks",11496663,2.133,6,mirror
+2019,252329,"Cement; portland, other than white, whether or not artificially coloured",10184601,1.89,7,mirror
+2019,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",9407273,1.746,8,mirror
+2019,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",9380340,1.741,9,mirror
+2019,851712,851712,9038541,1.677,10,mirror
+2020,271019,Combustíveis refinados,93040194,18.724,1,direct
+2020,100640,Arroz,22197820,4.467,2,direct
+2020,252329,"Cement; portland, other than white, whether or not artificially coloured",15971127,3.214,3,direct
+2020,100630,Arroz,15325167,3.084,4,direct
+2020,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",14513470,2.921,5,direct
+2020,851712,851712,10651619,2.144,6,direct
+2020,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",10554337,2.124,7,direct
+2020,271012,Combustíveis refinados,9844251,1.981,8,direct
+2020,220299,"Non-alcoholic beverages; other than non-alcoholic beer, n.e.c. in item no. 2202.10, not including fruit, nut or vegetable juices of heading no. 2009",8186435,1.648,9,direct
+2020,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",7718954,1.553,10,direct
+2020,271019,Combustíveis refinados,63214132,10.185,1,mirror
+2020,100630,Arroz,25791853,4.155,2,mirror
+2020,240220,Cigarros,14532637,2.341,3,mirror
+2020,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,13868704,2.234,4,mirror
+2020,151190,Óleo de palma,13383870,2.156,5,mirror
+2020,252329,"Cement; portland, other than white, whether or not artificially coloured",12277512,1.978,6,mirror
+2020,271012,Combustíveis refinados,12198507,1.965,7,mirror
+2020,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",11680835,1.882,8,mirror
+2020,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",10102351,1.628,9,mirror
+2020,880330,880330,9537753,1.537,10,mirror
+2021,271019,Combustíveis refinados,104063075,19.189,1,direct
+2021,100630,Arroz,39833703,7.345,2,direct
+2021,271012,Combustíveis refinados,15693409,2.894,3,direct
+2021,252329,"Cement; portland, other than white, whether or not artificially coloured",15117980,2.788,4,direct
+2021,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",14010131,2.583,5,direct
+2021,100640,Arroz,13481131,2.486,6,direct
+2021,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",12030996,2.218,7,direct
+2021,151190,Óleo de palma,10256689,1.891,8,direct
+2021,851712,851712,10026643,1.849,9,direct
+2021,870332,Automóveis de passageiros,9240655,1.704,10,direct
+2021,271019,Combustíveis refinados,87466518,10.758,1,mirror
+2021,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",40362532,4.965,2,mirror
+2021,100630,Arroz,36739029,4.519,3,mirror
+2021,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",24606924,3.027,4,mirror
+2021,271012,Combustíveis refinados,22803991,2.805,5,mirror
+2021,240220,Cigarros,16661056,2.049,6,mirror
+2021,151190,Óleo de palma,14203275,1.747,7,mirror
+2021,890110,Navios,12992871,1.598,8,mirror
+2021,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",12451367,1.532,9,mirror
+2021,252329,"Cement; portland, other than white, whether or not artificially coloured",11931935,1.468,10,mirror
+2022,271019,Combustíveis refinados,180586793,19.346,1,direct
+2022,100640,Arroz,39208310,4.2,2,direct
+2022,271012,Combustíveis refinados,35567848,3.81,3,direct
+2022,100630,Arroz,30042863,3.218,4,direct
+2022,842619,"Cranes; transporter, gantry and bridge cranes",24595884,2.635,5,direct
+2022,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",19581863,2.098,6,direct
+2022,252329,"Cement; portland, other than white, whether or not artificially coloured",17277738,1.851,7,direct
+2022,240220,Cigarros,16187419,1.734,8,direct
+2022,220300,Cerveja,16151109,1.73,9,direct
+2022,151190,Óleo de palma,13275729,1.422,10,direct
+2022,271019,Combustíveis refinados,108450158,11.222,1,mirror
+2022,100630,Arroz,43552775,4.507,2,mirror
+2022,270112,"Coal; bituminous, whether or not pulverised, but not agglomerated",33598475,3.477,3,mirror
+2022,730661,"Iron or steel (excluding cast iron); tubes, pipes and hollow profiles (not seamless), welded, of square or rectangular cross-section, n.e.c. in chapter 73",25907249,2.681,4,mirror
+2022,271012,Combustíveis refinados,19839332,2.053,5,mirror
+2022,151190,Óleo de palma,18433758,1.907,6,mirror
+2022,252329,"Cement; portland, other than white, whether or not artificially coloured",16128125,1.669,7,mirror
+2022,842619,"Cranes; transporter, gantry and bridge cranes",15656050,1.62,8,mirror
+2022,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",15278460,1.581,9,mirror
+2022,721070,"Iron or non-alloy steel; flat-rolled, width 600mm or more, painted, varnished or coated with plastics",14522652,1.503,10,mirror
+2023,271019,Combustíveis refinados,143796128,15.812,1,direct
+2023,100640,Arroz,58157738,6.395,2,direct
+2023,271012,Combustíveis refinados,43861223,4.823,3,direct
+2023,252329,"Cement; portland, other than white, whether or not artificially coloured",21671082,2.383,4,direct
+2023,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",21552361,2.37,5,direct
+2023,100630,Arroz,19972117,2.196,6,direct
+2023,220300,Cerveja,16354997,1.798,7,direct
+2023,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",14897910,1.638,8,direct
+2023,151190,Óleo de palma,14032283,1.543,9,direct
+2023,721070,"Iron or non-alloy steel; flat-rolled, width 600mm or more, painted, varnished or coated with plastics",12886865,1.417,10,direct
+2023,271019,Combustíveis refinados,105658904,10.589,1,mirror
+2023,100630,Arroz,60440651,6.058,2,mirror
+2023,271012,Combustíveis refinados,32683181,3.276,3,mirror
+2023,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",26000000,2.606,4,mirror
+2023,151190,Óleo de palma,17946607,1.799,5,mirror
+2023,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",16679748,1.672,6,mirror
+2023,730661,"Iron or steel (excluding cast iron); tubes, pipes and hollow profiles (not seamless), welded, of square or rectangular cross-section, n.e.c. in chapter 73",15688341,1.572,7,mirror
+2023,721070,"Iron or non-alloy steel; flat-rolled, width 600mm or more, painted, varnished or coated with plastics",15248250,1.528,8,mirror
+2023,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",14930051,1.496,9,mirror
+2023,252329,"Cement; portland, other than white, whether or not artificially coloured",14368873,1.44,10,mirror
+2024,271019,Combustíveis refinados,81971206,7.936,1,mirror
+2024,100630,Arroz,73298893,7.097,2,mirror
+2024,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",27900220,2.701,3,mirror
+2024,271012,Combustíveis refinados,25151454,2.435,4,mirror
+2024,870421,Veículos de mercadorias,20394143,1.975,5,mirror
+2024,151190,Óleo de palma,18041800,1.747,6,mirror
+2024,190230,"Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",16429287,1.591,7,mirror
+2024,252329,"Cement; portland, other than white, whether or not artificially coloured",16374569,1.585,8,mirror
+2024,854470,Insulated electric conductors; optical fibre cables,13099476,1.268,9,mirror
+2024,240220,Cigarros,11900582,1.152,10,mirror
