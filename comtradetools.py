@@ -619,6 +619,7 @@ def getFinalData(*p, **kwp):
         hash_updater.update(call_string.encode("utf-8"))
         cache_file = f"{CACHE_DIR}/{hash_updater.hexdigest()}.pickle"
         used_cache = False
+        temp = None
 
         if cache and os.path.exists(cache_file):
             logging.debug("Getting data from cache for period %s", subperiod)
@@ -630,14 +631,14 @@ def getFinalData(*p, **kwp):
                     temp = pickle.load(f)
                     used_cache = True
                     logging.info("Using cached results for period %s", subperiod)
+                if temp is not None and temp.size == 0 and retry_if_empty:
+                    os.remove(cache_file)
+                    logging.info(
+                        "Empty result in cached result, retrying. Disable with retry_if_empty=False"
+                    )
+                    used_cache = False
             else:
                 os.remove(cache_file)
-                used_cache = False
-            if temp.size == 0 and retry_if_empty:
-                os.remove(cache_file)
-                logging.info(
-                    "Empty result in cached result, retrying. Disable with retry_if_empty=False"
-                )
                 used_cache = False
 
         if not used_cache:
