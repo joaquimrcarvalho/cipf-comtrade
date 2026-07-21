@@ -1,0 +1,224 @@
+#!/usr/bin/env python3
+"""cipf-comtrade — project CLI for the China ↔ PLP trade observatory.
+
+Run from anywhere; it always operates on the repository it lives in.
+
+Commands:
+  update-data   Fetch/export site data from UN Comtrade (honors the local
+                90-day cache; years beyond 2024 may trigger live API calls
+                and need the key in config.ini).
+  update-local  Regenerate generated pages and rebuild the static site.
+  local         Start the local preview server and open it in the browser.
+  commit        Commit pending changes on the dev branch.
+  publish       Merge dev into main, push, and monitor the Pages deploy.
+
+Typical release cycle:
+  ./cipf-comtrade update-data            # new UN Comtrade vintage
+  ./cipf-comtrade update-local           # rebuild with the new data
+  ./cipf-comtrade local                  # eyeball http://localhost:3000
+  ./cipf-comtrade commit -m "message"    # commit on dev
+  ./cipf-comtrade publish                # merge to main, push, watch deploy
+"""
+
+import argparse
+import subprocess
+import sys
+import threading
+import time
+from datetime import date
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent
+SITE_DIR = REPO_ROOT / "site"
+VENV_PY = REPO_ROOT / "venv" / "bin" / "python"
+PREVIEW_URL = "http://localhost:3000"
+DEPLOY_WORKFLOW = "deploy.yml"
+CO_AUTHOR = "Co-authored-by: Kimi <kimi@moonshot.ai>"
+
+
+def run(cmd, cwd=REPO_ROOT, **kw):
+    """Run a command, streaming output; die with its exit code on failure."""
+    print(f"$ {' '.join(str(c) for c in cmd)}", flush=True)
+    proc = subprocess.run([str(c) for c in cmd], cwd=cwd, **kw)
+    if proc.returncode != 0:
+        sys.exit(proc.returncode)
+    return proc
+
+
+def capture(cmd, cwd=REPO_ROOT):
+    """Run a command and return stdout stripped; empty string on failure."""
+    proc = subprocess.run([str(c) for c in cmd], cwd=cwd,
+                          capture_output=True, text=True)
+    return proc.stdout.strip() if proc.returncode == 0 else ""
+
+
+def current_branch():
+    return capture(["git", "rev-parse", "--abbrev-ref", "HEAD"])
+
+
+def tree_is_clean():
+    return not capture(["git", "status", "--porcelain"])
+
+
+def ensure_dev():
+    """Switch to the dev branch if not already on it."""
+    branch = current_branch()
+    if branch != "dev":
+        print(f"(on '{branch}' — switching to dev)")
+        run(["git", "checkout", "dev"])
+
+
+def cmd_update_data(args):
+    if not VENV_PY.exists():
+        sys.exit("venv not found — create it first (see AGENTS.md).")
+    if not args.skip_flows:
+        run([VENV_PY, "site/scripts/export_site_data.py",
+             "--reporters", *args.reporters,
+             "--start", args.start, "--end", args.end])
+    if not args.skip_profiles:
+        run([VENV_PY, "site/scripts/export_profiles.py",
+             "--countries", *args.countries,
+             "--start", args.start, "--end", args.end])
+    print("\nData export done. Next: ./cipf-comtrade update-local")
+
+
+def cmd_update_local(_args):
+    py = VENV_PY if VENV_PY.exists() else sys.executable
+    run([py, "site/scripts/gen_profile_pages.py"])
+    run([py, "site/scripts/gen_dados_page.py"])
+    run(["npm", "run", "build"], cwd=SITE_DIR)
+    print("\nSite rebuilt. Preview with: ./cipf-comtrade local")
+
+
+def cmd_local(_args):
+    def open_browser():
+        time.sleep(4)  # give the preview server a moment to come up
+        subprocess.run(["open", PREVIEW_URL],
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    threading.Thread(target=open_browser, daemon=True).start()
+    print(f"Starting preview at {PREVIEW_URL} — Ctrl+C to stop.")
+    run(["npm", "run", "dev"], cwd=SITE_DIR)
+
+
+def cmd_commit(args):
+    ensure_dev()
+    if tree_is_clean():
+        print("Nothing to commit — working tree is clean.")
+        return
+    message = args.message or f"chore(site): data and page updates ({date.today()})"
+    if args.dry_run:
+        print("Would stage and commit:")
+        print(capture(["git", "status", "--short"]))
+        print(f"Message: {message}")
+        return
+    run(["git", "add", "-A"])
+    run(["git", "commit", "-m", message, "-m", CO_AUTHOR])
+
+
+def gh_available():
+    return bool(capture(["gh", "--version"]))
+
+
+def watch_deploy(sha):
+    """Monitor the GitHub Actions deploy for the pushed commit."""
+    if not gh_available():
+        print("gh CLI not found — follow the deploy at "
+              "https://github.com/joaquimrcarvalho/cipf-comtrade/actions")
+        return
+    print("Waiting for the deploy run to appear…")
+    run_id = ""
+    for _ in range(12):  # up to ~1 minute for the run to be created
+        time.sleep(5)
+        out = capture(["gh", "run", "list", "--workflow", DEPLOY_WORKFLOW,
+                       "--branch", "main", "--limit", "5",
+                       "--json", "databaseId,headSha"])
+        if out:
+            import json
+            for run_info in json.loads(out):
+                if run_info.get("headSha") == sha:
+                    run_id = str(run_info["databaseId"])
+                    break
+        if run_id:
+            break
+    if not run_id:
+        print("Could not find the deploy run — check the Actions tab.")
+        return
+    proc = subprocess.run(["gh", "run", "watch", run_id, "--exit-status",
+                           "--interval", "15"], cwd=REPO_ROOT)
+    if proc.returncode == 0:
+        print("\nDeploy succeeded — https://joaquimrcarvalho.github.io/cipf-comtrade/")
+    else:
+        print("\nDeploy FAILED — inspect with: gh run view " + run_id)
+        sys.exit(proc.returncode)
+
+
+def cmd_publish(args):
+    steps = ["git checkout main", "git merge dev --no-edit",
+             "git push origin main dev", "git checkout dev",
+             "monitor deploy via gh"]
+    if args.dry_run:
+        print("Would run:\n  " + "\n  ".join(steps))
+        return
+    if not tree_is_clean():
+        sys.exit("Uncommitted changes — run ./cipf-comtrade commit first.")
+    ensure_dev()
+    run(["git", "checkout", "main"])
+    run(["git", "merge", "dev", "--no-edit"])
+    sha = capture(["git", "rev-parse", "HEAD"])
+    try:
+        run(["git", "push", "origin", "main", "dev"])
+    except SystemExit:
+        run(["git", "checkout", "dev"])
+        raise
+    run(["git", "checkout", "dev"])
+    if not args.no_wait:
+        watch_deploy(sha)
+
+
+def main():
+    ap = argparse.ArgumentParser(
+        prog="cipf-comtrade", description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = ap.add_subparsers(dest="command", required=True)
+
+    p = sub.add_parser("update-data",
+                       help="export site data from UN Comtrade (uses cache)")
+    p.add_argument("--reporters", nargs="+", choices=["cn", "mo", "hk"],
+                   default=["cn", "mo", "hk"])
+    p.add_argument("--countries", nargs="+",
+                   default=["angola", "brasil", "cabo-verde", "guine-bissau",
+                            "guine-equatorial", "mocambique", "portugal",
+                            "sao-tome-e-principe", "timor-leste"])
+    p.add_argument("--start", type=int, default=2003)
+    p.add_argument("--end", type=int, default=2024,
+                   help="years beyond the cache trigger live API calls")
+    p.add_argument("--skip-flows", action="store_true")
+    p.add_argument("--skip-profiles", action="store_true")
+    p.set_defaults(func=cmd_update_data)
+
+    p = sub.add_parser("update-local", help="regenerate pages and rebuild site")
+    p.set_defaults(func=cmd_update_local)
+
+    p = sub.add_parser("local", help="start preview server and open browser")
+    p.set_defaults(func=cmd_local)
+
+    p = sub.add_parser("commit", help="commit pending changes on dev")
+    p.add_argument("-m", "--message", help="commit message")
+    p.add_argument("--dry-run", action="store_true",
+                   help="show what would be committed, without committing")
+    p.set_defaults(func=cmd_commit)
+
+    p = sub.add_parser("publish",
+                       help="merge dev into main, push, monitor deploy")
+    p.add_argument("--dry-run", action="store_true",
+                   help="print the steps without executing")
+    p.add_argument("--no-wait", action="store_true",
+                   help="push without monitoring the deploy")
+    p.set_defaults(func=cmd_publish)
+
+    args = ap.parse_args()
+    args.func(args)
+
+
+if __name__ == "__main__":
+    main()
