@@ -296,8 +296,14 @@ def hs_label_pt(ctt, code: str) -> str:
     return en if isinstance(en, str) else code
 
 
-def fetch(ctt, label: str, period: str, period_size: int = 12, **kw) -> pd.DataFrame:
-    """getFinalData with logging; returns empty DataFrame (never None)."""
+def fetch(ctt, label: str, period: str, period_size: int = 1, **kw) -> pd.DataFrame:
+    """getFinalData with logging; returns empty DataFrame (never None).
+
+    Follows the notebooks' own parameter conventions (includeDesc=True,
+    period_size=1, single reporter/partner codes per call) so cache entries
+    are shared with the notebooks instead of duplicated under different keys
+    (cache keys are order-independent since 2026-07-21).
+    """
     log.info("getFinalData %s (%s…)", label, period[:18])
     df = ctt.getFinalData(
         ctt.APIKEY,
@@ -310,7 +316,7 @@ def fetch(ctt, label: str, period: str, period_size: int = 12, **kw) -> pd.DataF
         motCode=0,
         customsCode="C00",
         clCode="HS",
-        includeDesc=False,
+        includeDesc=True,
         **kw,
     )
     if df is None or df.empty:
@@ -318,18 +324,19 @@ def fetch(ctt, label: str, period: str, period_size: int = 12, **kw) -> pd.DataF
     return df
 
 
-def fetch_guarded(ctt, label: str, period: str, **kw) -> pd.DataFrame:
+def fetch_guarded(ctt, label: str, period: str, period_size: int = 1,
+                  **kw) -> pd.DataFrame:
     """fetch() + record-cap guard for the (rare) potentially-large queries.
 
-    getFinalData splits the period into <=12-period calls itself; the API
-    record cap applies PER CALL, so only a total within ROW_CAP of the
-    theoretical maximum (chunks x cap) can hide a truncated chunk. Anything
-    smaller is complete by construction. Above it, refetch year by year
-    (single-period calls can never hit the cap for these datasets).
+    getFinalData splits the period into <=period_size-period calls itself;
+    the API record cap applies PER CALL, so only a total within ROW_CAP of
+    the theoretical maximum (chunks x cap) can hide a truncated chunk.
+    Anything smaller is complete by construction. Above it, refetch year by
+    year (single-period calls can never hit the cap for these datasets).
     """
-    df = fetch(ctt, label, period, **kw)
+    df = fetch(ctt, label, period, period_size=period_size, **kw)
     n_periods = len(period.split(","))
-    n_chunks = -(-n_periods // 12)  # ceil
+    n_chunks = -(-n_periods // period_size)  # ceil
     if len(df) < n_chunks * ROW_CAP:
         return df
     log.warning("%s returned %d rows (>= %d chunks x %d) — possible per-call "
@@ -341,23 +348,35 @@ def fetch_guarded(ctt, label: str, period: str, **kw) -> pd.DataFrame:
 
 
 def fetch_shared_totals(ctt, start: int, end: int) -> dict:
-    """Q1–Q4: TOTAL flows for all 9 PLPs at once (direct and mirror sides)."""
+    """Q1–Q4: TOTAL flows per PLP (direct and mirror sides).
+
+    Fetched per country (single reporter/partner code per call) so the
+    cache entries are shared with the per-country queries of
+    country_trade_profile.ipynb — a batched PLP9 CSV call would be a
+    different cache key the notebooks can never reuse.
+    """
     period = year_list(start, end)
-    plp9 = ",".join(str(code) for code, _ in COUNTRIES.values())
-    return {
-        "x_direct": fetch(ctt, "Q1 reporter=PLP9 partner=all X TOTAL", period,
-                          reporterCode=plp9, partnerCode=None, flowCode="X",
-                          cmdCode="TOTAL"),
-        "m_direct": fetch(ctt, "Q2 reporter=PLP9 partner=all M TOTAL", period,
-                          reporterCode=plp9, partnerCode=None, flowCode="M",
-                          cmdCode="TOTAL"),
-        "x_mirror": fetch(ctt, "Q3 reporter=all partner=PLP9 M TOTAL", period,
-                          reporterCode=None, partnerCode=plp9, flowCode="M",
-                          cmdCode="TOTAL"),
-        "m_mirror": fetch(ctt, "Q4 reporter=all partner=PLP9 X TOTAL", period,
-                          reporterCode=None, partnerCode=plp9, flowCode="X",
-                          cmdCode="TOTAL"),
-    }
+    queries: dict[str, list] = {"x_direct": [], "m_direct": [],
+                                "x_mirror": [], "m_mirror": []}
+    for slug, (code, name) in COUNTRIES.items():
+        queries["x_direct"].append(fetch(
+            ctt, f"Q1 reporter={name} partner=all X TOTAL", period,
+            reporterCode=code, partnerCode=None, flowCode="X", cmdCode="TOTAL"))
+        queries["m_direct"].append(fetch(
+            ctt, f"Q2 reporter={name} partner=all M TOTAL", period,
+            reporterCode=code, partnerCode=None, flowCode="M", cmdCode="TOTAL"))
+        queries["x_mirror"].append(fetch(
+            ctt, f"Q3 reporter=all partner={name} M TOTAL", period,
+            reporterCode=None, partnerCode=code, flowCode="M", cmdCode="TOTAL"))
+        queries["m_mirror"].append(fetch(
+            ctt, f"Q4 reporter=all partner={name} X TOTAL", period,
+            reporterCode=None, partnerCode=code, flowCode="X", cmdCode="TOTAL"))
+    shared = {}
+    for key, frames in queries.items():
+        frames = [d for d in frames if not d.empty]
+        shared[key] = (pd.concat(frames, ignore_index=True)
+                       if frames else pd.DataFrame())
+    return shared
 
 
 def world_total(df: pd.DataFrame, country_code: int, side: str) -> pd.DataFrame:

@@ -226,7 +226,9 @@ Behavior, in order:
 1. Defaults `partner2Code` to `0` if not given — **this is load-bearing**, see §5.1.
 2. Requires `period`; raises `ValueError` otherwise.
 3. Splits `period` via `split_period(period, period_size)` and processes each chunk:
-   - Computes an `md5` of the parameter dict (+ `use_alternative`) → `cache/<hash>.pickle`.
+   - Computes an `md5` of the sorted parameter items (+ `use_alternative`) →
+     `cache/<hash>.pickle` (order-independent since 2026-07-21; older pickles
+     are unreachable).
    - Fresh-enough cache hit (≤ 90 days) → load; empty cached frame → re-fetch unless
      `retry_if_empty=False`; stale → delete and re-fetch.
    - Miss → call the rate-limited inner wrapper. On exception: one immediate retry.
@@ -382,12 +384,15 @@ the underlying package is retried and ultimately raises `IOError` — treat pers
 ### 5.5 Cache key sensitivity
 
 The cache hash covers the full forwarded parameter dict (after wrapper-only args are
-stripped) **plus the sub-period string**. Consequences:
+stripped) **plus the sub-period string**. Parameters are sorted before hashing, so the
+key is order-independent (since 2026-07-21; pickles written before that date use the
+old order-sensitive key and are unreachable). Consequences:
 
 - One pickle per period chunk — a 30-year query = 3 cache files at `period_size=12`,
   30 files at `period_size=1`. The same logical query with different `period_size`
   populates different cache entries.
-- Any parameter change (including cosmetic ones like `includeDesc`) yields a new entry.
+- Any parameter value change (including cosmetic ones like `includeDesc`) yields a
+  new entry — but parameter *order* no longer matters.
 - Cached frames are returned as pickled — column sets reflect the call that created them.
 
 ### 5.6 Rate limiting is import-time bound

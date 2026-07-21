@@ -87,8 +87,10 @@ notebooks ──► getFinalData() ────┘        (cache + period split)
   use `remove_world=True` before aggregating.
 - Mixing HS levels or `motCode`/`customsCode` aggregates with details double-counts;
   `checkAggregateValues()` flags HS parent codes (see `isaggregate_bug.ipynb`).
-- Any parameter change (even `includeDesc`) creates a new cache entry; `clean_cache()`
-  runs on every `init()` and deletes entries older than 90 days.
+- Any parameter value change (even `includeDesc`) creates a new cache entry (the key
+  is order-independent since 2026-07-21); `clean_cache()` runs on every `init()` and
+  deletes entries older than 90 days. Site exporters use the notebooks' own parameter
+  conventions so both share cache entries.
 - `encode_country`/`decode_country` pass unknown inputs through unchanged instead of
   failing — check outputs.
 

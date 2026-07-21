@@ -500,10 +500,13 @@ def getFinalData(*p, **kwp):
 
         Caching: one pickle per period chunk (``CACHE_DIR``, valid for
         ``CACHE_VALID_DAYS`` days); the cache key covers every API parameter
-        (including the chunk's period string), so any parameter change creates
-        a new entry. Empty results are cached too; on the next call they are
-        refetched live unless ``retry_if_empty=False`` (use False for
-        legitimately empty reporter/partner/flow combinations).
+        (including the chunk's period string) and is order-independent
+        (parameters are sorted before hashing — changed 2026-07-21; pickles
+        written before that date are unreachable). Any parameter value
+        change creates a new entry. Empty results are cached too; on the
+        next call they are refetched live unless ``retry_if_empty=False``
+        (use False for legitimately empty reporter/partner/flow
+        combinations).
 
         Rate limit: calls are spaced by the ``@limits(calls=CALLS_PER_PERIOD,
         period=PERIOD_SECONDS)`` decorator on ``comtradeapicall_getFinalData``
@@ -613,7 +616,7 @@ def getFinalData(*p, **kwp):
         pars_relevant_to_caching.pop('retry_if_empty', None)
         pars_relevant_to_caching.pop('remove_world', None)
 
-        call_string = f"{str(pars_relevant_to_caching)}{use_alternative}"
+        call_string = f"{repr(sorted(pars_relevant_to_caching.items()))}{use_alternative}"
 
         logging.debug("Call %s", call_string)
         hash_updater.update(call_string.encode("utf-8"))
@@ -1723,7 +1726,7 @@ def get_data(
 
     # make a hash of the parameters for caching
     hash = hashlib.md5()
-    hash.update(f"{base_url}{str(pars)}".encode("utf-8"))
+    hash.update(f"{base_url}{repr(sorted(pars.items()))}".encode("utf-8"))
 
     if cache and not os.path.exists(CACHE_DIR):
         Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
