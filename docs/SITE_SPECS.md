@@ -212,8 +212,25 @@ may not sum to TOTAL because of confidentiality suppressions);
 pre-filtered (§10): all-time top-25 products × top-8 partners per (year, hs6, basis);
 `share_pct` = partner's share of that product-year total (same basis).
 
+**`<slug>_competition_exports_HS-AG6_2003-YYYY.csv`** (D9, notebook §2.5; imports
+variant `<slug>_competition_imports_HS-AG6_...`, §3.5)
+
+`year, partner_code, partner, hs6, description_pt, competitor_code, competitor,
+value, share_pct, rank, is_country, market_total` — for the country's all-time
+top-5 direct partners × top-8 direct HS6 products, the country's position among
+each partner's counterparties (exports side: the customer's suppliers, from the
+customer's import report; imports side: the supplier's clients, from the
+supplier's export report). Per (year, partner, hs6): the country's own row
+(`is_country=1`, kept whenever reported) plus the top-5 counterparties.
+`share_pct` = counterparty's share of the partner's total trade in that
+product-year (`market_total`); `rank` computed with
+`comtradetools.total_rank_perc` — the same function the notebook uses — after
+excluding the World partner row and sub-USD fractional rows. Direct basis only;
+partners restricted to valid Comtrade reporters (pseudo-partners such as
+"Bunkers" excluded).
+
 **Per-country meta:** one `<slug>_profile_2003-YYYY.meta.json` per country listing the
-7 files with row counts (instead of 7 separate metas).
+9 files with row counts (instead of 9 separate metas).
 
 **Mirror-side aggregation rule (D5–D8):** mirror totals and share bases **sum the
 individual partner reports** — verified live (2026-07-19): `reporter=all` responses

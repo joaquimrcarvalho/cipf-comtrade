@@ -134,3 +134,28 @@ export function productPartnersChart(Plot, d3, rows, {usdAxis, formatUSD}) {
     ]
   });
 }
+
+// §2.4/§3.4 — competition analysis (D9/D10 rows already filtered to one
+// partner + one hs6): market-share evolution of the country of interest vs.
+// the other top counterparties. The country's line is emphasized (is_country).
+export function competitionChart(Plot, d3, rows, {pct}) {
+  const totals = d3.rollups(rows, (v) => d3.sum(v, (d) => d.share_pct),
+    (d) => d.competitor);
+  const order = totals.sort((a, b) => d3.descending(a[1], b[1])).map(([k]) => k);
+  const color = colorScale(d3, order);
+  return Plot.plot({
+    marginLeft: 75,
+    grid: true,
+    y: {label: "Quota no mercado (%)", tickFormat: (v) => `${v}%`},
+    x: {label: null, tickFormat: "d"},
+    color: {...color, legend: true},
+    marks: [
+      Plot.ruleY([0]),
+      Plot.line(rows, {x: "year", y: "share_pct", stroke: "competitor",
+        strokeWidth: (d) => (d.is_country ? 3 : 1.5),
+        tip: {format: {x: "d", y: (v) => pct(v)}}}),
+      Plot.dot(rows, {x: "year", y: "share_pct", fill: "competitor",
+        r: (d) => (d.is_country ? 2.6 : 1.6)})
+    ]
+  });
+}

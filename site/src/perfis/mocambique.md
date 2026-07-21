@@ -10,7 +10,7 @@ import {formatUSD, usdInt, usdAxis, pct} from "../components/format.js";
 import {L} from "../components/i18n.js";
 import {kpiCards} from "../components/cards.js";
 import {volumeCompareChart, balanceChart, rankBarChart, evolutionChart,
-        productPartnersChart, trunc} from "../components/profile.js";
+        productPartnersChart, competitionChart, trunc} from "../components/profile.js";
 
 const balance = await FileAttachment("../data/mocambique_trade_balance_2003-2024.csv").csv({typed: true});
 const topPartX = await FileAttachment("../data/mocambique_top_partners_exports_2003-2024.csv").csv({typed: true});
@@ -149,6 +149,55 @@ display(orEmpty(d8sel, productPartnersChart(Plot, d3, d8sel, {usdAxis, formatUSD
   cada ano, base ${basis === "direct" ? "direta" : "espelho"}).
 </div>
 
+
+### 2.4 Concorrência nos mercados dos clientes
+
+Para os principais clientes de Moçambique e os principais produtos exportados: a quota de Moçambique e dos outros principais fornecedores nas importações de cada cliente — a posição de Moçambique entre os fornecedores do cliente (bloco de notas §2.5; base direta).
+
+```js
+const compX = await FileAttachment("../data/mocambique_competition_exports_HS-AG6_2003-2024.csv").csv({typed: true});
+```
+
+```js
+const compPartnerOptionsX = new Map(
+  d3.rollups(compX.filter((d) => d.is_country), (v) => d3.sum(v, (d) => d.value), (d) => d.partner)
+    .sort((a, b) => d3.descending(a[1], b[1]))
+    .map(([k]) => [k, k])
+);
+const compPartnerX = view(Inputs.select(compPartnerOptionsX, {label: "Cliente"}));
+```
+
+```js
+const compProdOptionsX = new Map(
+  d3.rollups(compX.filter((d) => d.partner === compPartnerX), (v) => d3.sum(v, (d) => d.value), (d) => d.hs6)
+    .sort((a, b) => d3.descending(a[1], b[1]))
+    .map(([hs6]) => {
+      const desc = compX.find((d) => d.hs6 === hs6)?.description_pt ?? hs6;
+      return [`${hs6} — ${trunc(desc, 38)}`, hs6];
+    })
+);
+const compProdX = view(Inputs.select(compProdOptionsX, {label: "Produto (HS6)"}));
+```
+
+```js
+const compSelX = compX.filter((d) => d.partner === compPartnerX && d.hs6 === compProdX);
+display(orEmpty(compSelX, competitionChart(Plot, d3, compSelX, {pct})));
+```
+
+```js
+const compLatestX = compSelX.length ? Math.max(...compSelX.map((d) => d.year)) : null;
+display(orEmpty(compSelX, Inputs.table(
+  compSelX.filter((d) => d.year === compLatestX)
+    .map((d) => ({"Pos.": d.rank, "Fornecedor": d.competitor, "Quota (%)": d.share_pct, Valor: d.value})),
+  {rows: 8, format: {"Pos.": (v) => String(v), "Quota (%)": (v) => pct(v), Valor: usdInt}})));
+```
+
+<div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
+  Linha de Moçambique realçada; a tabela mostra a posição no último ano com dados deste
+  mercado. Cobertura: 5 principais clientes × 8 principais produtos exportados; até 5 concorrentes por mercado, além de Moçambique.
+</div>
+
+
 ## 3. Importações de Moçambique
 
 ### 3.1 Principais fornecedores — top 10 em ${year}
@@ -212,6 +261,55 @@ display(orEmpty(d8selM, productPartnersChart(Plot, d3, d8selM, {usdAxis, formatU
   (8 parceiros por produto/ano).
 </div>
 
+
+### 3.4 Outros clientes dos fornecedores
+
+Para os principais fornecedores de Moçambique e os principais produtos importados: a quota de Moçambique e dos outros principais clientes nas exportações de cada fornecedor — a posição de Moçambique entre os clientes do fornecedor (bloco de notas §3.5; base direta).
+
+```js
+const compM = await FileAttachment("../data/mocambique_competition_imports_HS-AG6_2003-2024.csv").csv({typed: true});
+```
+
+```js
+const compPartnerOptionsM = new Map(
+  d3.rollups(compM.filter((d) => d.is_country), (v) => d3.sum(v, (d) => d.value), (d) => d.partner)
+    .sort((a, b) => d3.descending(a[1], b[1]))
+    .map(([k]) => [k, k])
+);
+const compPartnerM = view(Inputs.select(compPartnerOptionsM, {label: "Fornecedor"}));
+```
+
+```js
+const compProdOptionsM = new Map(
+  d3.rollups(compM.filter((d) => d.partner === compPartnerM), (v) => d3.sum(v, (d) => d.value), (d) => d.hs6)
+    .sort((a, b) => d3.descending(a[1], b[1]))
+    .map(([hs6]) => {
+      const desc = compM.find((d) => d.hs6 === hs6)?.description_pt ?? hs6;
+      return [`${hs6} — ${trunc(desc, 38)}`, hs6];
+    })
+);
+const compProdM = view(Inputs.select(compProdOptionsM, {label: "Produto (HS6)"}));
+```
+
+```js
+const compSelM = compM.filter((d) => d.partner === compPartnerM && d.hs6 === compProdM);
+display(orEmpty(compSelM, competitionChart(Plot, d3, compSelM, {pct})));
+```
+
+```js
+const compLatestM = compSelM.length ? Math.max(...compSelM.map((d) => d.year)) : null;
+display(orEmpty(compSelM, Inputs.table(
+  compSelM.filter((d) => d.year === compLatestM)
+    .map((d) => ({"Pos.": d.rank, "Cliente": d.competitor, "Quota (%)": d.share_pct, Valor: d.value})),
+  {rows: 8, format: {"Pos.": (v) => String(v), "Quota (%)": (v) => pct(v), Valor: usdInt}})));
+```
+
+<div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
+  Linha de Moçambique realçada; a tabela mostra a posição no último ano com dados deste
+  mercado. Cobertura: 5 principais fornecedores × 8 principais produtos importados; até 5 outros clientes por mercado, além de Moçambique.
+</div>
+
+
 ## Descarregar
 
 ```js
@@ -223,6 +321,8 @@ display(html`<p>
   <a href="${FileAttachment("../data/mocambique_top_products_imports_HS-AG6_2003-2024.csv").href}" download>Produtos importados (CSV)</a> ·
   <a href="${FileAttachment("../data/mocambique_products_partners_HS-AG6_2003-2024.csv").href}" download>Produto × parceiro (CSV)</a> ·
   <a href="${FileAttachment("../data/mocambique_partners_products_HS-AG6_2003-2024.csv").href}" download>Parceiro × produto (CSV)</a> ·
+  <a href="${FileAttachment("../data/mocambique_competition_exports_HS-AG6_2003-2024.csv").href}" download>Concorrência nos clientes (CSV)</a> ·
+  <a href="${FileAttachment("../data/mocambique_competition_imports_HS-AG6_2003-2024.csv").href}" download>Concorrência pelos fornecedores (CSV)</a> ·
   <a href="${FileAttachment("../data/mocambique_profile_2003-2024.meta.json").href}" download>${L.downloadMeta}</a>
 </p>`);
 ```

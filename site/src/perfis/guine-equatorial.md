@@ -10,7 +10,7 @@ import {formatUSD, usdInt, usdAxis, pct} from "../components/format.js";
 import {L} from "../components/i18n.js";
 import {kpiCards} from "../components/cards.js";
 import {volumeCompareChart, balanceChart, rankBarChart, evolutionChart,
-        productPartnersChart, trunc} from "../components/profile.js";
+        productPartnersChart, competitionChart, trunc} from "../components/profile.js";
 
 const balance = await FileAttachment("../data/guine-equatorial_trade_balance_2003-2024.csv").csv({typed: true});
 const topPartX = await FileAttachment("../data/guine-equatorial_top_partners_exports_2003-2024.csv").csv({typed: true});
@@ -149,6 +149,8 @@ display(orEmpty(d8sel, productPartnersChart(Plot, d3, d8sel, {usdAxis, formatUSD
   cada ano, base ${basis === "direct" ? "direta" : "espelho"}).
 </div>
 
+
+
 ## 3. Importações de Guiné Equatorial
 
 ### 3.1 Principais fornecedores — top 10 em ${year}
@@ -212,6 +214,8 @@ display(orEmpty(d8selM, productPartnersChart(Plot, d3, d8selM, {usdAxis, formatU
   (8 parceiros por produto/ano).
 </div>
 
+
+
 ## Descarregar
 
 ```js
@@ -223,6 +227,8 @@ display(html`<p>
   <a href="${FileAttachment("../data/guine-equatorial_top_products_imports_HS-AG6_2003-2024.csv").href}" download>Produtos importados (CSV)</a> ·
   <a href="${FileAttachment("../data/guine-equatorial_products_partners_HS-AG6_2003-2024.csv").href}" download>Produto × parceiro (CSV)</a> ·
   <a href="${FileAttachment("../data/guine-equatorial_partners_products_HS-AG6_2003-2024.csv").href}" download>Parceiro × produto (CSV)</a> ·
+  <a href="${FileAttachment("../data/guine-equatorial_competition_exports_HS-AG6_2003-2024.csv").href}" download>Concorrência nos clientes (CSV)</a> ·
+  <a href="${FileAttachment("../data/guine-equatorial_competition_imports_HS-AG6_2003-2024.csv").href}" download>Concorrência pelos fornecedores (CSV)</a> ·
   <a href="${FileAttachment("../data/guine-equatorial_profile_2003-2024.meta.json").href}" download>${L.downloadMeta}</a>
 </p>`);
 ```

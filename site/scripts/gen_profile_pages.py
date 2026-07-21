@@ -44,7 +44,7 @@ import {formatUSD, usdInt, usdAxis, pct} from "../components/format.js";
 import {L} from "../components/i18n.js";
 import {kpiCards} from "../components/cards.js";
 import {volumeCompareChart, balanceChart, rankBarChart, evolutionChart,
-        productPartnersChart, trunc} from "../components/profile.js";
+        productPartnersChart, competitionChart, trunc} from "../components/profile.js";
 
 const balance = await FileAttachment("../data/__SLUG___trade_balance___SPAN__.csv").csv({typed: true});
 const topPartX = await FileAttachment("../data/__SLUG___top_partners_exports___SPAN__.csv").csv({typed: true});
@@ -183,6 +183,8 @@ display(orEmpty(d8sel, productPartnersChart(Plot, d3, d8sel, {usdAxis, formatUSD
   cada ano, base ${basis === "direct" ? "direta" : "espelho"}).
 </div>
 
+__COMP_X__
+
 ## 3. Importações de __NAME__
 
 ### 3.1 Principais fornecedores — top 10 em ${year}
@@ -246,6 +248,8 @@ display(orEmpty(d8selM, productPartnersChart(Plot, d3, d8selM, {usdAxis, formatU
   (8 parceiros por produto/ano).
 </div>
 
+__COMP_M__
+
 ## Descarregar
 
 ```js
@@ -257,7 +261,7 @@ display(html`<p>
   <a href="${FileAttachment("../data/__SLUG___top_products_imports_HS-AG6___SPAN__.csv").href}" download>Produtos importados (CSV)</a> ·
   <a href="${FileAttachment("../data/__SLUG___products_partners_HS-AG6___SPAN__.csv").href}" download>Produto × parceiro (CSV)</a> ·
   <a href="${FileAttachment("../data/__SLUG___partners_products_HS-AG6___SPAN__.csv").href}" download>Parceiro × produto (CSV)</a> ·
-  <a href="${FileAttachment("../data/__SLUG___profile___SPAN__.meta.json").href}" download>${L.downloadMeta}</a>
+__COMP_DOWNLOADS__  <a href="${FileAttachment("../data/__SLUG___profile___SPAN__.meta.json").href}" download>${L.downloadMeta}</a>
 </p>`);
 ```
 
@@ -269,11 +273,108 @@ secções 1–3 paralela à do bloco de notas). Metodologia completa em
 [Metodologia e fontes](/metodologia) · outros países em [Perfis por país](/perfis).
 """
 
+DATA_DIR = REPO_ROOT / "site" / "src" / "data"
+
+
+def competition_block(slug: str, name: str, side: str) -> str:
+    """Markdown for the §2.4/§3.4 competition explorer (D9/D10; notebook §2.5/§3.5).
+
+    Emitted only when the dataset exists on disk — FileAttachment paths are
+    statically checked at build time, so referencing a missing CSV would break
+    the build. `side` is "exports" (country's rank among the customer's
+    suppliers) or "imports" (rank among the supplier's clients).
+    """
+    path = DATA_DIR / f"{slug}_competition_{side}_HS-AG6_{SPAN}.csv"
+    if not path.exists() or path.stat().st_size < 200:
+        return ""  # missing or header-only (no reported data)
+    s = "X" if side == "exports" else "M"
+    if side == "exports":
+        heading = "### 2.4 Concorrência nos mercados dos clientes"
+        partner_label, table_head = "Cliente", "Fornecedor"
+        intro = (f"Para os principais clientes de {name} e os principais produtos "
+                 f"exportados: a quota de {name} e dos outros principais fornecedores "
+                 f"nas importações de cada cliente — a posição de {name} entre os "
+                 f"fornecedores do cliente (bloco de notas §2.5; base direta).")
+        note = (f"Cobertura: 5 principais clientes × 8 principais produtos "
+                f"exportados; até 5 concorrentes por mercado, além de {name}.")
+    else:
+        heading = "### 3.4 Outros clientes dos fornecedores"
+        partner_label, table_head = "Fornecedor", "Cliente"
+        intro = (f"Para os principais fornecedores de {name} e os principais produtos "
+                 f"importados: a quota de {name} e dos outros principais clientes "
+                 f"nas exportações de cada fornecedor — a posição de {name} entre os "
+                 f"clientes do fornecedor (bloco de notas §3.5; base direta).")
+        note = (f"Cobertura: 5 principais fornecedores × 8 principais produtos "
+                f"importados; até 5 outros clientes por mercado, além de {name}.")
+    return f"""
+{heading}
+
+{intro}
+
+```js
+const comp{s} = await FileAttachment("../data/{path.name}").csv({{typed: true}});
+```
+
+```js
+const compPartnerOptions{s} = new Map(
+  d3.rollups(comp{s}.filter((d) => d.is_country), (v) => d3.sum(v, (d) => d.value), (d) => d.partner)
+    .sort((a, b) => d3.descending(a[1], b[1]))
+    .map(([k]) => [k, k])
+);
+const compPartner{s} = view(Inputs.select(compPartnerOptions{s}, {{label: "{partner_label}"}}));
+```
+
+```js
+const compProdOptions{s} = new Map(
+  d3.rollups(comp{s}.filter((d) => d.partner === compPartner{s}), (v) => d3.sum(v, (d) => d.value), (d) => d.hs6)
+    .sort((a, b) => d3.descending(a[1], b[1]))
+    .map(([hs6]) => {{
+      const desc = comp{s}.find((d) => d.hs6 === hs6)?.description_pt ?? hs6;
+      return [`${{hs6}} — ${{trunc(desc, 38)}}`, hs6];
+    }})
+);
+const compProd{s} = view(Inputs.select(compProdOptions{s}, {{label: "Produto (HS6)"}}));
+```
+
+```js
+const compSel{s} = comp{s}.filter((d) => d.partner === compPartner{s} && d.hs6 === compProd{s});
+display(orEmpty(compSel{s}, competitionChart(Plot, d3, compSel{s}, {{pct}})));
+```
+
+```js
+const compLatest{s} = compSel{s}.length ? Math.max(...compSel{s}.map((d) => d.year)) : null;
+display(orEmpty(compSel{s}, Inputs.table(
+  compSel{s}.filter((d) => d.year === compLatest{s})
+    .map((d) => ({{"Pos.": d.rank, "{table_head}": d.competitor, "Quota (%)": d.share_pct, Valor: d.value}})),
+  {{rows: 8, format: {{"Pos.": (v) => String(v), "Quota (%)": (v) => pct(v), Valor: usdInt}}}})));
+```
+
+<div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
+  Linha de {name} realçada; a tabela mostra a posição no último ano com dados deste
+  mercado. {note}
+</div>
+"""
+
+
+def competition_downloads(slug: str) -> str:
+    """Extra download links for the Descarregar block, only for existing D9/D10."""
+    links = ""
+    for side, label in (("exports", "Concorrência nos clientes (CSV)"),
+                        ("imports", "Concorrência pelos fornecedores (CSV)")):
+        path = DATA_DIR / f"{slug}_competition_{side}_HS-AG6_{SPAN}.csv"
+        if path.exists():
+            links += ('  <a href="${FileAttachment("../data/' + path.name
+                      + '").href}" download>' + label + '</a> ·\n')
+    return links
+
 
 def main():
     PAGES_DIR.mkdir(parents=True, exist_ok=True)
     for slug, name in COUNTRIES.items():
         page = (TEMPLATE
+                .replace("__COMP_X__", competition_block(slug, name, "exports"))
+                .replace("__COMP_M__", competition_block(slug, name, "imports"))
+                .replace("__COMP_DOWNLOADS__", competition_downloads(slug))
                 .replace("__SLUG__", slug)
                 .replace("__NAME__", name)
                 .replace("__SPAN__", SPAN)

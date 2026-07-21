@@ -1,6 +1,6 @@
 {
   "dataset": "guine-equatorial_profile",
-  "generated_at": "2026-07-20T04:59:07+00:00",
+  "generated_at": "2026-07-21T00:58:40+00:00",
   "source_notebook": "country_trade_profile.ipynb",
   "country_code": 226,
   "country_name_pt": "Guiné Equatorial",
@@ -35,6 +35,14 @@
     "partners_products_HS-AG6": {
       "file": "guine-equatorial_partners_products_HS-AG6_2003-2024.csv",
       "rows": 3151
+    },
+    "competition_exports_HS-AG6": {
+      "file": "guine-equatorial_competition_exports_HS-AG6_2003-2024.csv",
+      "rows": 0
+    },
+    "competition_imports_HS-AG6": {
+      "file": "guine-equatorial_competition_imports_HS-AG6_2003-2024.csv",
+      "rows": 0
     }
   },
   "notes": "From the country's own perspective: exports = country -> partner. D6/D7 keep top-10 per (year, basis); D8 keeps all-time top-25 products x top-8 partners per (year, hs6, basis). share_pct of D6/D7 uses the year's world total of the same basis; D8 share_pct uses the product-year total. description_pt: curated PT label where available, else the English HS description. An unreported flow/year contributes 0 (see export_site_data.py notes)."

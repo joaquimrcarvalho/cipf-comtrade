@@ -1,6 +1,6 @@
 {
   "dataset": "mocambique_profile",
-  "generated_at": "2026-07-20T04:59:56+00:00",
+  "generated_at": "2026-07-21T00:58:52+00:00",
   "source_notebook": "country_trade_profile.ipynb",
   "country_code": 508,
   "country_name_pt": "Moçambique",
@@ -35,6 +35,14 @@
     "partners_products_HS-AG6": {
       "file": "mocambique_partners_products_HS-AG6_2003-2024.csv",
       "rows": 6274
+    },
+    "competition_exports_HS-AG6": {
+      "file": "mocambique_competition_exports_HS-AG6_2003-2024.csv",
+      "rows": 2989
+    },
+    "competition_imports_HS-AG6": {
+      "file": "mocambique_competition_imports_HS-AG6_2003-2024.csv",
+      "rows": 4233
     }
   },
   "notes": "From the country's own perspective: exports = country -> partner. D6/D7 keep top-10 per (year, basis); D8 keeps all-time top-25 products x top-8 partners per (year, hs6, basis). share_pct of D6/D7 uses the year's world total of the same basis; D8 share_pct uses the product-year total. description_pt: curated PT label where available, else the English HS description. An unreported flow/year contributes 0 (see export_site_data.py notes). NOTE: mirror product views (D7-mirror, D8-mirror) cover the country's all-time top-25 direct products; products outside that set are not shown on the mirror basis."
