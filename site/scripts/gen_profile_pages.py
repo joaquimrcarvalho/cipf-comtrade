@@ -277,7 +277,7 @@ DATA_DIR = REPO_ROOT / "site" / "src" / "data"
 
 
 def competition_block(slug: str, name: str, side: str) -> str:
-    """Markdown for the §2.4/§3.4 competition explorer (D9/D10; notebook §2.5/§3.5).
+    """Markdown for the §2.4/§3.4 competition explorer (D11/D12; notebook §2.5/§3.5).
 
     Emitted only when the dataset exists on disk — FileAttachment paths are
     statically checked at build time, so referencing a missing CSV would break
@@ -357,7 +357,7 @@ display(orEmpty(compSel{s}, Inputs.table(
 
 
 def competition_downloads(slug: str) -> str:
-    """Extra download links for the Descarregar block, only for existing D9/D10."""
+    """Extra download links for the Descarregar block, only for existing D11/D12."""
     links = ""
     for side, label in (("exports", "Concorrência nos clientes (CSV)"),
                         ("imports", "Concorrência pelos fornecedores (CSV)")):

@@ -1,7 +1,14 @@
 # Metodologia e fontes
 
-Documentação dos dados, convenções e validação deste observatório. O objetivo é que
-cada número apresentado no site seja reproduzível a partir da fonte primária.
+## Objectivo
+
+Acesso a dados da base `comtrade` da Organização das Nações Unidas
+através de `jupyter notebooks`com exposição dos dados em [joaquimrcarvalho.github.io/cipf-comtrade](https://joaquimrcarvalho.github.io/cipf-comtrade/) 
+
+Desenvolvido para estimular estudos sobre as relações comerciais
+da China com os países de língua portuguesa e o papel da
+Região Administrativa Especial de Macau como plataforma de serviços
+para essas relações.
 
 ## Fonte
 
@@ -50,11 +57,7 @@ dupla contagem). Do lado direto, os totais de produto usam a linha «Mundo»
   Verde, Guiné-Bissau, Guiné Equatorial, Moçambique, Portugal, São Tomé e Príncipe,
   Timor-Leste.
 - **Designações:** seguindo a prática do projeto, as regiões especiais da China
-  aparecem como **Macau (RAEM)** e **Hong Kong (RAEHK)**, e «Other Asia, nes» como
-  **Taiwan (Prov. China)**.
-- **Taiwan não faz parte dos dados públicos deste site.** Sobre o tratamento dos
-  dados de Taiwan na base UN Comtrade, ver a nota oficial:
-  <https://uncomtrade.org/docs/taiwan-province-of-china-trade-data/>.
+  aparecem como **Macau (RAEM)** e **Hong Kong (RAEHK)**. Sobre o tratament dos dados de Taiwan, província da China na base UN Comtrade, ver a nota oficial: [https://uncomtrade.org/docs/taiwan-province-of-china-trade-data/](https://uncomtrade.org/docs/taiwan-province-of-china-trade-data/).
 - Os nomes de parceiros aparecem em português (dicionário curado pelo projeto, com
   *fallback* para o nome inglês do Comtrade); os produtos usam rótulos curtos em
   português quando disponíveis, com o código HS6 sempre visível.
@@ -69,11 +72,11 @@ supressões por confidencialidade na fonte.
 
 ## Rankings, quotas e concorrência
 
-- **Principais parceiros/produtos (D6/D7):** top 10 por ano e base; a quota é
+- **Principais parceiros e produtos:** top 10 por ano e base; a quota é
   calculada sobre o total mundial do ano na mesma base.
-- **Produto × parceiro (D8):** os 25 produtos mais importantes do período × 8
+- **Produto × parceiro:** os 25 produtos mais importantes do período × 8
   parceiros por produto/ano; a quota é sobre o total desse produto-ano.
-- **Concorrência (D9/D10; secções 2.4/3.4 dos perfis):** para os 5 principais
+- **Concorrência (secções 2.4/3.4 dos perfis):** para os 5 principais
   parceiros diretos × 8 principais produtos diretos, a posição do país entre os
   fornecedores de cada cliente (2.4, a partir das importações do cliente) ou entre
   os clientes de cada fornecedor (3.4, a partir das exportações do fornecedor).
@@ -103,7 +106,7 @@ supressões por confidencialidade na fonte.
 - A base espelho não substitui a direta: são leituras complementares.
 - Países com reporte direto fraco (ex.: Timor-Leste, com vários anos sem reporte
   AG6) têm a vista espelho como referência principal nos respetivos perfis.
-- A cobertura da concorrência (D9/D10) limita-se aos principais parceiros/produtos
+- A cobertura da análise de concorrência limita-se aos principais parceiros/produtos
   diretos; mercados fora desse conjunto não aparecem.
 
 ## Atualização
@@ -119,10 +122,10 @@ Sugestão de citação:
 > Observatório China–PLP Comércio. Dados: United Nations Comtrade Database
 > (comtradeplus.un.org), extraídos via API em [ver `generated_at` de cada conjunto];
 > tratamento e visualização: projeto cipf-comtrade, Universidade Politécnica de
-> Macau. <https://joaquimrcarvalho.github.io/cipf-comtrade/> (acedido em …).
+> Macau. [https://joaquimrcarvalho.github.io/cipf-comtrade/](https://joaquimrcarvalho.github.io/cipf-comtrade/) (acedido em …).
 
 Cite também a fonte primária quando apropriado: *United Nations Comtrade Database*
-(<https://comtradeplus.un.org>).
+([https://comtradeplus.un.org](https://comtradeplus.un.org)).
 
 ## Reproduzir
 

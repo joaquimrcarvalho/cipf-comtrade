@@ -37,7 +37,7 @@ display(html`<ul>
 
 ## Perfis por país
 
-Os 9 conjuntos de cada perfil (D5–D10 na terminologia de [Metodologia](/metodologia)): balança, principais parceiros e produtos, detalhe produto × parceiro e análise de concorrência.
+Os 9 conjuntos de cada perfil: balança, principais parceiros e produtos, detalhe produto × parceiro e análise de concorrência.
 
 <details>
   <summary><strong>Angola</strong> — perfil completo (9 conjuntos + meta); extração de 2026-07-21 · <a href="./perfis/angola">ver perfil</a></summary>

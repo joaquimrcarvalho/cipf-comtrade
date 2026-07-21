@@ -93,7 +93,7 @@ D6_COLS = ["year", "partner_code", "partner", "value", "share_pct", "rank", "bas
 D7_COLS = ["year", "hs6", "description_pt", "value", "share_pct", "rank", "basis"]
 D8_COLS = ["year", "hs6", "description_pt", "partner_code", "partner", "value",
            "share_pct", "basis"]
-D9_COLS = ["year", "partner_code", "partner", "hs6", "description_pt",
+D11_COLS = ["year", "partner_code", "partner", "hs6", "description_pt",
            "competitor_code", "competitor", "value", "share_pct", "rank",
            "is_country", "market_total"]
 PROFILE_META_REQUIRED = {"dataset", "generated_at", "source_notebook", "country_code",
@@ -185,8 +185,8 @@ def test_d8_products_partners(slug, kind):
 @pytest.mark.parametrize("slug", sorted(PROFILE_SLUGS))
 @pytest.mark.parametrize("kind", ["competition_exports_HS-AG6",
                                   "competition_imports_HS-AG6"])
-def test_d9_competition(slug, kind):
-    """D9/D10 competition datasets (notebook §2.5/§3.5), spec §5.2.
+def test_d11_competition(slug, kind):
+    """D11/D12 competition datasets (notebook §2.5/§3.5), spec §5.2.
 
     Tolerates absence during the pilot rollout: countries not yet exported
     are skipped rather than failed.
@@ -194,7 +194,7 @@ def test_d9_competition(slug, kind):
     path = profile_csv(slug, kind)
     if path is None:
         pytest.skip(f"{slug} {kind}: competition dataset not exported yet")
-    df = read_profile(slug, kind, D9_COLS)
+    df = read_profile(slug, kind, D11_COLS)
     if df.empty:
         pytest.skip(f"{slug} {kind}: legitimately empty (no reported data)")
     assert not df.isna().any().any()
@@ -225,7 +225,7 @@ def test_profile_meta(slug):
     assert PROFILE_META_REQUIRED <= set(meta)
     assert meta["country_code"] == PROFILE_SLUGS[slug]
     assert meta["units"] == "USD (current)"
-    assert len(meta["files"]) >= 7, "D5–D8 always present; D9/D10 added by re-export"
+    assert len(meta["files"]) >= 7, "D5–D8 always present; D11/D12 added by re-export"
     for info in meta["files"].values():
         assert (DATA_DIR / info["file"]).exists(), f"missing {info['file']}"
 

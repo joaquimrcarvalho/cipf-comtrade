@@ -69,6 +69,8 @@ definitions** of each dataset; the site must not re-derive numbers differently.
 | D8 | Profile — product×partner decomposition (who buys the oil; what does China buy) | §2.3, §2.4, §3.3, §3.4 | year × product × partner | `<C>_2.3_*`, `<C>_2.4_*`, … |
 | D9 | China ↔ PLP top commodities | `cn_plp_commodities.ipynb` | year × HS chapter/heading × flow | `reports/cn_plp_*commod*` |
 | D10 | Reference dimensions | `support/` (REF COUNTRIES, harmonized-system) | country list, HS code→description | `support/*.csv`, `codebook.xlsx` |
+| D11 | Profile — competition: the country's position among each export customer's suppliers | `country_trade_profile.ipynb` §2.5 | year × partner × HS6 × competitor | `site/src/data/<slug>_competition_exports_HS-AG6_*.csv` |
+| D12 | Profile — competition: the country's position among each import supplier's clients | `country_trade_profile.ipynb` §3.5 | year × partner × HS6 × competitor | `site/src/data/<slug>_competition_imports_HS-AG6_*.csv` |
 
 **Terminology (must be consistent site-wide):**
 - *direct* = values reported by the country under analysis;
@@ -212,8 +214,8 @@ may not sum to TOTAL because of confidentiality suppressions);
 pre-filtered (§10): all-time top-25 products × top-8 partners per (year, hs6, basis);
 `share_pct` = partner's share of that product-year total (same basis).
 
-**`<slug>_competition_exports_HS-AG6_2003-YYYY.csv`** (D9, notebook §2.5; imports
-variant `<slug>_competition_imports_HS-AG6_...`, §3.5)
+**`<slug>_competition_exports_HS-AG6_2003-YYYY.csv`** (D11, notebook §2.5; imports
+variant `<slug>_competition_imports_HS-AG6_...`, D12, §3.5)
 
 `year, partner_code, partner, hs6, description_pt, competitor_code, competitor,
 value, share_pct, rank, is_country, market_total` — for the country's all-time

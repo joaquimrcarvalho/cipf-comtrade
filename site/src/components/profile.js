@@ -135,7 +135,7 @@ export function productPartnersChart(Plot, d3, rows, {usdAxis, formatUSD}) {
   });
 }
 
-// §2.4/§3.4 — competition analysis (D9/D10 rows already filtered to one
+// §2.4/§3.4 — competition analysis (D11/D12 rows already filtered to one
 // partner + one hs6): market-share evolution of the country of interest vs.
 // the other top counterparties. The country's line is emphasized (is_country).
 export function competitionChart(Plot, d3, rows, {pct}) {

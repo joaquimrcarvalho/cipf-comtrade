@@ -75,9 +75,9 @@ D8_COVERAGE = 25      # all-time top products whose product×partner detail is f
 D8_PARTNERS = 8       # partners kept per (year, hs6, basis) in D8
 STRONG_YEARS = 15     # direct AG6 covering >= this many years = "strong reporter"
 ROW_CAP = 99_000  # a single API call near the record cap is probably truncated
-D9_PARTNERS = 5       # all-time top direct partners in the competition analysis
-D9_PRODUCTS = 8       # all-time top direct HS6 products per direction
-D9_COMPETITORS = 5    # competitors kept per (year, partner, hs6), besides the country
+D11_PARTNERS = 5       # all-time top direct partners in the competition analysis
+D11_PRODUCTS = 8       # all-time top direct HS6 products per direction
+D11_COMPETITORS = 5    # competitors kept per (year, partner, hs6), besides the country
 
 # Portuguese names for frequent trade partners, keyed by Comtrade English
 # reporter/partner names. Resolved to M49 codes via comtradetools at runtime;
@@ -619,13 +619,13 @@ def competition_combos(d6: pd.DataFrame, d7: pd.DataFrame, ctt) -> tuple:
     if not d6.empty:
         d = d6[d6["basis"] == "direct"]
         partners = (d.groupby("partner_code")["value"].sum()
-                    .nlargest(D9_PARTNERS).index.tolist())
+                    .nlargest(D11_PARTNERS).index.tolist())
         valid = set(getattr(ctt, "REPORTER_CODES", {}) or {})
         partners = [int(c) for c in partners if int(c) in valid]
     if not d7.empty:
         d = d7[d7["basis"] == "direct"]
         products = [str(p) for p in (d.groupby("hs6")["value"].sum()
-                                     .nlargest(D9_PRODUCTS).index.tolist())]
+                                     .nlargest(D11_PRODUCTS).index.tolist())]
     return partners, products
 
 
@@ -653,7 +653,7 @@ def build_competition(df: pd.DataFrame, country_code: int, code2pt: dict,
                       ctt) -> pd.DataFrame:
     """Country's rank among each partner's counterparties (notebook §2.5/§3.5).
 
-    Per (year, partner, hs6): the country's own row plus the top-D9_COMPETITORS
+    Per (year, partner, hs6): the country's own row plus the top-D11_COMPETITORS
     counterparties. Ranking uses comtradetools.total_rank_perc — the same
     function as the notebook — so rank/share semantics are identical.
     share_pct is the counterparty's share of the partner's total trade in that
@@ -683,7 +683,7 @@ def build_competition(df: pd.DataFrame, country_code: int, code2pt: dict,
         ascending=[True, True, True, True, False, True])
     keep = pd.concat([
         ranked[ranked["partnerCode"] != country_code]
-        .groupby(["period", "reporterCode", "cmdCode"]).head(D9_COMPETITORS),
+        .groupby(["period", "reporterCode", "cmdCode"]).head(D11_COMPETITORS),
         ranked[ranked["partnerCode"] == country_code],
     ])
     rows = []
@@ -717,7 +717,7 @@ D6_COLS = ["year", "partner_code", "partner", "value", "share_pct", "rank", "bas
 D7_COLS = ["year", "hs6", "description_pt", "value", "share_pct", "rank", "basis"]
 D8_COLS = ["year", "hs6", "description_pt", "partner_code", "partner", "value",
            "share_pct", "basis"]
-D9_COLS = ["year", "partner_code", "partner", "hs6", "description_pt",
+D11_COLS = ["year", "partner_code", "partner", "hs6", "description_pt",
            "competitor_code", "competitor", "value", "share_pct", "rank",
            "is_country", "market_total"]
 
@@ -810,7 +810,7 @@ def export_country(ctt, slug: str, shared: dict, code2pt: dict,
         d8m = d8m.sort_values(["year", "basis", "hs6", "value"],
                               ascending=[True, True, True, False]).reset_index(drop=True)
 
-    # D9/D10: competition analysis (notebook §2.5/§3.5), direct basis only.
+    # D11/D12: competition analysis (notebook §2.5/§3.5), direct basis only.
     # Combos come from the D6/D7 frames built above (no extra discovery fetch).
     partners_x, products_x = competition_combos(d6x, d7x, ctt)
     partners_m, products_m = competition_combos(d6m, d7m_, ctt)
@@ -836,9 +836,9 @@ def export_country(ctt, slug: str, shared: dict, code2pt: dict,
     files["partners_products_HS-AG6"], n8m = write_csv(
         d8m, stem("partners_products_HS-AG6"), D8_COLS)
     files["competition_exports_HS-AG6"], n9 = write_csv(
-        d9, stem("competition_exports_HS-AG6"), D9_COLS)
+        d9, stem("competition_exports_HS-AG6"), D11_COLS)
     files["competition_imports_HS-AG6"], n10 = write_csv(
-        d10, stem("competition_imports_HS-AG6"), D9_COLS)
+        d10, stem("competition_imports_HS-AG6"), D11_COLS)
 
     if n5 == 0 or (n6x == 0 and n6m == 0) or (n7x == 0 and n7m == 0):
         log.error("%s: suspiciously empty datasets (D5=%d, D6=%d/%d, D7=%d/%d) — "

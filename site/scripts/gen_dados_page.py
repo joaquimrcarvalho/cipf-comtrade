@@ -169,9 +169,9 @@ display(html`
 def main() -> None:
     parts = [HEADER, flows_section(), reference_section(),
              "## Perfis por país\n\n",
-             "Os 9 conjuntos de cada perfil (D5–D10 na terminologia de "
-             "[Metodologia](/metodologia)): balança, principais parceiros e "
-             "produtos, detalhe produto × parceiro e análise de concorrência.\n\n"]
+             "Os 9 conjuntos de cada perfil: balança, principais parceiros "
+             "e produtos, detalhe produto × parceiro e análise de "
+             "concorrência.\n\n"]
     parts += [country_section(slug, name) for slug, name in COUNTRIES.items()]
     parts.append(FOOTER)
     PAGE.write_text("".join(parts))
