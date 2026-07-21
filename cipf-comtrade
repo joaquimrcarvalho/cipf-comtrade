@@ -21,6 +21,7 @@ Typical release cycle:
 """
 
 import argparse
+import os
 import subprocess
 import sys
 import threading
@@ -175,6 +176,72 @@ def cmd_publish(args):
         watch_deploy(sha)
 
 
+def _tty():
+    return sys.stdout.isatty() and not os.environ.get("NO_COLOR")
+
+
+def style(text, code):
+    """ANSI style when attached to a terminal; plain text otherwise."""
+    return f"\033[{code}m{text}\033[0m" if _tty() else text
+
+
+BOLD, CYAN, DIM = "1", "36", "2"
+
+
+def help_text():
+    c = lambda t: style(t, CYAN)     # noqa: E731
+    h = lambda t: style(t, BOLD)     # noqa: E731
+    d = lambda t: style(t, DIM)      # noqa: E731
+    return f"""
+{h('cipf-comtrade')} — China ↔ PLP trade observatory CLI
+{d('UN Comtrade · Observable Framework · GitHub Pages')}
+
+{h('USAGE')}
+  ./cipf-comtrade <command> [options]
+  ./cipf-comtrade help <command>      full options for one command
+
+{h('RELEASE CYCLE')}
+   1. {c('update-data')}    fetch new UN Comtrade data (honors the 90-day cache)
+   2. {c('update-local')}   regenerate pages and rebuild the static site
+   3. {c('local')}          preview at http://localhost:3000 — Ctrl+C to stop
+   4. {c('commit')}         commit pending changes on the dev branch
+   5. {c('publish')}        merge dev into main, push, and watch the deploy
+
+{h('COMMANDS')}
+  {c('update-data')}    Export flows (China, Macau (RAEM), Hong Kong (RAEHK))
+                  and the 9 country profiles from UN Comtrade.
+                  {d('options: --end YEAR --countries ... --reporters ...')}
+                  {d('         --skip-flows --skip-profiles')}
+  {c('update-local')}   Regenerate /perfis and /dados pages, then npm run build.
+  {c('local')}          Start the Observable preview server and open the browser.
+  {c('commit')}         Stage everything and commit on dev (auto-switches to dev).
+                  {d('options: -m "message" --dry-run')}
+  {c('publish')}        Requires a clean tree. Merges dev → main, pushes main
+                  and dev, returns to dev, monitors the deploy via gh.
+                  {d('options: --dry-run --no-wait')}
+  {c('help')}           This guide.
+
+{h('NOTES')}
+  · Data snapshots live in site/src/data and are committed with the site.
+  · The deploy workflow only fires on pushes to main — work on dev is safe.
+  · Live API calls (years beyond the cache) need the key in config.ini.
+"""
+
+
+SUBPARSERS = {}
+
+
+def cmd_help(args):
+    if args.topic:
+        parser = SUBPARSERS.get(args.topic)
+        if parser is None:
+            sys.exit(f"unknown command '{args.topic}' — "
+                     "see ./cipf-comtrade help")
+        parser.print_help()
+        return
+    print(help_text())
+
+
 def main():
     ap = argparse.ArgumentParser(
         prog="cipf-comtrade", description=__doc__,
@@ -215,6 +282,12 @@ def main():
     p.add_argument("--no-wait", action="store_true",
                    help="push without monitoring the deploy")
     p.set_defaults(func=cmd_publish)
+
+    p = sub.add_parser("help", help="show this guide (or options of a command)")
+    p.add_argument("topic", nargs="?", help="command to show full options for")
+    p.set_defaults(func=cmd_help)
+
+    SUBPARSERS.update(sub.choices)  # name -> subparser, for `help <cmd>`
 
     args = ap.parse_args()
     args.func(args)
