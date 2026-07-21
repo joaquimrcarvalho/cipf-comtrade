@@ -347,18 +347,21 @@ def fetch_guarded(ctt, label: str, period: str, period_size: int = 1,
     return pd.concat(yearly, ignore_index=True) if yearly else pd.DataFrame()
 
 
-def fetch_shared_totals(ctt, start: int, end: int) -> dict:
+def fetch_shared_totals(ctt, start: int, end: int, slugs: list = None) -> dict:
     """Q1–Q4: TOTAL flows per PLP (direct and mirror sides).
 
     Fetched per country (single reporter/partner code per call) so the
     cache entries are shared with the per-country queries of
     country_trade_profile.ipynb — a batched PLP9 CSV call would be a
-    different cache key the notebooks can never reuse.
+    different cache key the notebooks can never reuse. `slugs` limits the
+    fetch to the countries being exported (their rows are all a
+    single-country run uses).
     """
     period = year_list(start, end)
+    selected = {s: COUNTRIES[s] for s in (slugs or COUNTRIES.keys())}
     queries: dict[str, list] = {"x_direct": [], "m_direct": [],
                                 "x_mirror": [], "m_mirror": []}
-    for slug, (code, name) in COUNTRIES.items():
+    for slug, (code, name) in selected.items():
         queries["x_direct"].append(fetch(
             ctt, f"Q1 reporter={name} partner=all X TOTAL", period,
             reporterCode=code, partnerCode=None, flowCode="X", cmdCode="TOTAL"))
@@ -466,11 +469,11 @@ def fetch_d7_direct_frames(ctt, slug: str, country_code: int, start: int,
     period = year_list(start, end)
     return {
         "x": fetch_guarded(ctt, f"{slug} D7d reporter=C partner=World X AG6",
-                           period, reporterCode=str(country_code),
-                           partnerCode="0", flowCode="X", cmdCode="AG6"),
+                           period, reporterCode=country_code,
+                           partnerCode=0, flowCode="X", cmdCode="AG6"),
         "m": fetch_guarded(ctt, f"{slug} D7d reporter=C partner=World M AG6",
-                           period, reporterCode=str(country_code),
-                           partnerCode="0", flowCode="M", cmdCode="AG6"),
+                           period, reporterCode=country_code,
+                           partnerCode=0, flowCode="M", cmdCode="AG6"),
     }
 
 
@@ -484,10 +487,10 @@ def fetch_d7_mirror_full(ctt, slug: str, country_code: int, start: int,
     period = year_list(start, end)
     return {
         "x": fetch_guarded(ctt, f"{slug} D7m reporter=all partner=C M AG6 (full)",
-                           period, reporterCode=None, partnerCode=str(country_code),
+                           period, reporterCode=None, partnerCode=country_code,
                            flowCode="M", cmdCode="AG6"),
         "m": fetch_guarded(ctt, f"{slug} D7m reporter=all partner=C X AG6 (full)",
-                           period, reporterCode=None, partnerCode=str(country_code),
+                           period, reporterCode=None, partnerCode=country_code,
                            flowCode="X", cmdCode="AG6"),
     }
 
@@ -527,11 +530,11 @@ def fetch_d8_frames(ctt, slug: str, country_code: int, direction: str,
     return {
         "direct": fetch_guarded(
             ctt, f"{slug} D8d {direction} reporter=C partner=all AG6[{len(top_codes)}]",
-            period, reporterCode=str(country_code), partnerCode=None,
+            period, reporterCode=country_code, partnerCode=None,
             flowCode=direct_flow, cmdCode=codes),
         "mirror": fetch_guarded(
             ctt, f"{slug} D8m {direction} reporter=all partner=C AG6[{len(top_codes)}]",
-            period, reporterCode=None, partnerCode=str(country_code),
+            period, reporterCode=None, partnerCode=country_code,
             flowCode=mirror_flow, cmdCode=codes),
     }
 
@@ -937,7 +940,7 @@ def main():
     code2pt = build_partner_names_pt(ctt)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    shared = fetch_shared_totals(ctt, args.start, args.end)
+    shared = fetch_shared_totals(ctt, args.start, args.end, args.countries)
     if shared["x_direct"].empty and shared["x_mirror"].empty:
         log.error("shared TOTAL queries came back empty — aborting "
                       "(guard against partial API data)")
