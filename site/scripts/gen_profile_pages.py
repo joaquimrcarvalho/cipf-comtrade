@@ -12,9 +12,14 @@ build-time codegen hook for pages; keep them in sync through this script).
 """
 
 from pathlib import Path
+import sys
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 PAGES_DIR = REPO_ROOT / "site" / "src" / "perfis"
+
+# Coverage constants are single-sourced in export_profiles.py.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from export_profiles import D8_COVERAGE, D8_PARTNERS, TOP_N  # noqa: E402
 
 # slug -> Portuguese country name (must match export_profiles.COUNTRIES).
 COUNTRIES = {
@@ -44,7 +49,8 @@ import {formatUSD, usdInt, usdAxis, pct} from "../components/format.js";
 import {L} from "../components/i18n.js";
 import {kpiCards} from "../components/cards.js";
 import {volumeCompareChart, balanceChart, rankBarChart, evolutionChart,
-        productPartnersChart, competitionChart, trunc} from "../components/profile.js";
+        productPartnersChart, competitionChart, pseudoPartnerNote,
+        trunc} from "../components/profile.js";
 
 const balance = await FileAttachment("../data/__SLUG___trade_balance___SPAN__.csv").csv({typed: true});
 const topPartX = await FileAttachment("../data/__SLUG___top_partners_exports___SPAN__.csv").csv({typed: true});
@@ -66,11 +72,10 @@ const orEmpty = (rows, node) => rows.length
   ? node
   : html`<p style="font-size: 0.85rem; color: var(--theme-foreground-muted)"><em>Sem dados para esta seleção.</em></p>`;
 const rankTable = (rows, nameCol, nameLabel) => Inputs.table(
-  rows.map((d) => ({Ano: d.year,
-                    [nameLabel]: d.hs6 ? `${d.hs6} — ${trunc(d[nameCol], 40)}` : d[nameCol],
+  rows.map((d) => ({[nameLabel]: d.hs6 ? `${d.hs6} — ${trunc(d[nameCol], 60)}` : d[nameCol],
                     Valor: d.value,
                     "Quota (%)": d.share_pct, "Pos.": d.rank})),
-  {rows: 10, format: {Ano: (v) => String(v), Valor: usdInt,
+  {rows: 10, format: {Valor: usdInt,
                       "Quota (%)": (v) => pct(v), "Pos.": (v) => String(v)}});
 ```
 
@@ -134,6 +139,8 @@ display(orEmpty(partX, rankBarChart(Plot, d3, partX, "partner", {usdAxis, format
 display(orEmpty(partX, rankTable(partX, "partner", "Parceiro")));
 ```
 
+${pseudoPartnerNote(html, partX, "partner_code")}
+
 Evolução dos 5 maiores clientes no período (base ${basis === "direct" ? "direta" : "espelho"}):
 
 ```js
@@ -180,8 +187,12 @@ display(orEmpty(d8sel, productPartnersChart(Plot, d3, d8sel, {usdAxis, formatUSD
 
 <div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
   Linhas: principais compradores do produto selecionado (quota no total do produto em
-  cada ano, base ${basis === "direct" ? "direta" : "espelho"}).
+  cada ano, base ${basis === "direct" ? "direta" : "espelho"}). A lista cobre os
+  __D8_COVERAGE__ principais produtos de todo o período — por isso tem mais entradas
+  do que a tabela de §2.2, que mostra apenas o top __TOP_N__ de cada ano.
 </div>
+
+${pseudoPartnerNote(html, d8sel, "partner_code")}
 
 __COMP_X__
 
@@ -197,6 +208,8 @@ display(orEmpty(partM, rankBarChart(Plot, d3, partM, "partner", {usdAxis, format
 ```js
 display(orEmpty(partM, rankTable(partM, "partner", "Parceiro")));
 ```
+
+${pseudoPartnerNote(html, partM, "partner_code")}
 
 Evolução dos 5 maiores fornecedores no período (base ${basis === "direct" ? "direta" : "espelho"}):
 
@@ -244,9 +257,12 @@ display(orEmpty(d8selM, productPartnersChart(Plot, d3, d8selM, {usdAxis, formatU
 
 <div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
   ${L.fonte} · base: ${basis === "direct" ? "valores reportados por __NAME__" : "valores reportados pelos parceiros (espelho)"} ·
-  top 10 por ano; produto × parceiro limitado aos 15 principais produtos do período
-  (8 parceiros por produto/ano).
+  top __TOP_N__ por ano; produto × parceiro limitado aos __D8_COVERAGE__ principais
+  produtos de todo o período (__D8_PARTNERS__ parceiros por produto/ano) — daí a
+  lista de §3.3 ter mais entradas do que a tabela de §3.2.
 </div>
+
+${pseudoPartnerNote(html, d8selM, "partner_code")}
 
 __COMP_M__
 
@@ -349,6 +365,8 @@ display(orEmpty(compSel{s}, Inputs.table(
   {{rows: 8, format: {{"Pos.": (v) => String(v), "Quota (%)": (v) => pct(v), Valor: usdInt}}}})));
 ```
 
+${{pseudoPartnerNote(html, compSel{s}, "competitor_code")}}
+
 <div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
   Linha de {name} realçada; a tabela mostra a posição no último ano com dados deste
   mercado. {note}
@@ -379,7 +397,10 @@ def main():
                 .replace("__NAME__", name)
                 .replace("__SPAN__", SPAN)
                 .replace("__START__", str(START))
-                .replace("__END__", str(END)))
+                .replace("__END__", str(END))
+                .replace("__D8_COVERAGE__", str(D8_COVERAGE))
+                .replace("__D8_PARTNERS__", str(D8_PARTNERS))
+                .replace("__TOP_N__", str(TOP_N)))
         path = PAGES_DIR / f"{slug}.md"
         path.write_text(page)
         print(f"wrote {path.relative_to(REPO_ROOT)}")

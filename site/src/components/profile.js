@@ -8,6 +8,38 @@
 export const trunc = (s, n = 44) =>
   s == null ? "" : s.length > n ? `${s.slice(0, n - 1)}…` : s;
 
+// UN Comtrade pseudo-partners — special categories, not countries
+// (support/partner.csv). When one appears in a ranking, the page shows a
+// clarification note instead of removing the row (values stay in the totals).
+const PSEUDO_PARTNERS = new Map([
+  [536, {name: "Zona Neutra", gloss: "a antiga Zona Neutra"}],
+  [837, {name: "Bunkers", gloss: "combustível de abastecimento de navios e aeronaves"}],
+  [838, {name: "Zonas Francas", gloss: "zonas francas"}],
+  [899, {name: "Áreas, nes", gloss: "áreas não especificadas"}],
+]);
+
+// Clarification note for tables/charts that list pseudo-partners ("Bunkers"
+// &c.). `col` is the code column: "partner_code" (D6/D8) or "competitor_code"
+// (D11/D12). Returns "" when the selection contains none — renders nothing.
+export function pseudoPartnerNote(html, rows, col = "partner_code") {
+  const found = Array.from(new Map(
+    rows.filter((d) => PSEUDO_PARTNERS.has(Number(d[col])))
+        .map((d) => [Number(d[col]), PSEUDO_PARTNERS.get(Number(d[col]))])
+  ).values());
+  if (!found.length) return "";
+  const lista = found.map((f) => `«${f.name}» (${f.gloss})`).join(", ");
+  const texto = found.length === 1
+    ? `${lista} não é um país — é uma categoria especial do UN Comtrade
+       registada como parceiro; os valores incluem-se nos totais mas não
+       representam comércio com um país.`
+    : `${lista} não são países — são categorias especiais do UN Comtrade
+       registadas como parceiro; os valores incluem-se nos totais mas não
+       representam comércio com países.`;
+  return html`<div class="note" style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
+    Nota: ${texto}
+  </div>`;
+}
+
 const BASIS_LABEL = {direct: "Direto", mirror: "Espelho"};
 
 // Unique series identity + label. Different HS6 products can share the same

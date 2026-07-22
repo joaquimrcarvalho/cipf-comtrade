@@ -1,34 +1,34 @@
 year,hs6,description_pt,value,share_pct,rank,basis
 2003,080131,"Cocos, castanhas de caju e nozes",58315996,95.029,1,direct
-2003,842649,"Cranes; self-propelled derricks and cranes, not on tyres, n.e.c. in heading no. 8426",1031885,1.682,2,direct
-2003,140420,Vegetable products; cotton linters,453785,0.739,3,direct
-2003,844190,"Machinery; parts of machinery for making up paper pulp, paper or paperboard, including cutting machines of all kinds",343953,0.56,4,direct
-2003,844180,"Machinery; n.e.c. in heading no. 8441, for making up paper pulp, paper or paperboard",306778,0.5,5,direct
+2003,842649,Gruas e guindastes,1031885,1.682,2,direct
+2003,140420,Produtos vegetais diversos,453785,0.739,3,direct
+2003,844190,Máquinas para papel e cartão,343953,0.56,4,direct
+2003,844180,Máquinas para papel e cartão,306778,0.5,5,direct
 2003,440399,Madeira em bruto,223886,0.365,6,direct
-2003,200819,"Nuts and other seeds; whether or not containing added sugar, other sweetening matter or spirit (excluding ground-nuts except in mixtures)",187450,0.305,7,direct
-2003,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,175801,0.286,8,direct
-2003,841381,Pumps and liquid elevators; n.e.c. in heading no. 8413,83121,0.135,9,direct
-2003,848490,"Gasket sets or assortments of gaskets and similar joints; dissimilar in composition, put up in pouches, envelopes or similar packings",70117,0.114,10,direct
+2003,200819,Frutos e sementes preparados,187450,0.305,7,direct
+2003,843143,Partes de máquinas de terraplanagem,175801,0.286,8,direct
+2003,841381,Bombas para líquidos,83121,0.135,9,direct
+2003,848490,Juntas e gaxetas,70117,0.114,10,direct
 2003,080131,"Cocos, castanhas de caju e nozes",50911450,66.938,1,mirror
-2003,853210,"Electrical capacitors; fixed, designed for use in 50/60 Hz circuits and having a reactive power handling capacity of not less than 0.5 kvar (power capacitors)",3655985,4.807,2,mirror
+2003,853210,Condensadores elétricos,3655985,4.807,2,mirror
 2003,030379,Peixe congelado,2443484,3.213,3,mirror
 2003,271112,Gás natural e outros gases de petróleo,2008326,2.641,4,mirror
 2003,030749,Moluscos,1773996,2.332,5,mirror
 2003,520100,Algodão em fibra,1589608,2.09,6,mirror
 2003,030759,Moluscos,1246652,1.639,7,mirror
-2003,850211,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output not exceeding 75kVA",1203755,1.583,8,mirror
-2003,730820,"Iron or steel; structures and parts thereof, towers and lattice masts",1118086,1.47,9,mirror
-2003,930400,"Firearms; (e.g. spring, air or gas guns and pistols, truncheons), excluding those of heading no. 9307",1082435,1.423,10,mirror
+2003,850211,Grupos geradores,1203755,1.583,8,mirror
+2003,730820,Estruturas de ferro ou aço,1118086,1.47,9,mirror
+2003,930400,Outras armas de fogo,1082435,1.423,10,mirror
 2004,080131,"Cocos, castanhas de caju e nozes",53071355,98.054,1,direct
 2004,271000,Combustíveis refinados,438353,0.81,2,direct
 2004,100640,Arroz,141454,0.261,3,direct
 2004,170191,Açúcar de cana ou de beterraba,72972,0.135,4,direct
-2004,140420,Vegetable products; cotton linters,56132,0.104,5,direct
-2004,720410,Ferrous waste and scrap; of cast iron,43856,0.081,6,direct
-2004,110100,Wheat or meslin flour,39648,0.073,7,direct
+2004,140420,Produtos vegetais diversos,56132,0.104,5,direct
+2004,720410,Sucata ferrosa,43856,0.081,6,direct
+2004,110100,Farinha de trigo,39648,0.073,7,direct
 2004,080132,"Cocos, castanhas de caju e nozes",30190,0.056,8,direct
-2004,200820,"Fruit; pineapples, prepared or preserved in ways n.e.c. in heading no. 2007, whether or not containing added sugar, other sweetening matter or spirit",29790,0.055,9,direct
-2004,080222,"Nuts, edible; hazelnuts or filberts (corylus spp.), fresh or dried, shelled",28085,0.052,10,direct
+2004,200820,Frutos e sementes preparados,29790,0.055,9,direct
+2004,080222,Frutos de casca rija,28085,0.052,10,direct
 2004,080131,"Cocos, castanhas de caju e nozes",69440776,61.249,1,mirror
 2004,270900,Petróleo bruto,27556218,24.306,2,mirror
 2004,030749,Moluscos,1913477,1.688,3,mirror
@@ -37,74 +37,74 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2004,030339,Peixe congelado,1163930,1.027,6,mirror
 2004,080132,"Cocos, castanhas de caju e nozes",645272,0.569,7,mirror
 2004,440349,Madeira em bruto,614168,0.542,8,mirror
-2004,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,457350,0.403,9,mirror
+2004,720449,Sucata ferrosa,457350,0.403,9,mirror
 2004,030613,Crustáceos,425059,0.375,10,mirror
 2005,080131,"Cocos, castanhas de caju e nozes",22915273,98.582,1,direct
-2005,720410,Ferrous waste and scrap; of cast iron,130668,0.562,2,direct
-2005,999999,Commodities not specified according to kind,96513,0.415,3,direct
+2005,720410,Sucata ferrosa,130668,0.562,2,direct
+2005,999999,Mercadorias não especificadas,96513,0.415,3,direct
 2005,440399,Madeira em bruto,49769,0.214,4,direct
-2005,200820,"Fruit; pineapples, prepared or preserved in ways n.e.c. in heading no. 2007, whether or not containing added sugar, other sweetening matter or spirit",15265,0.066,5,direct
-2005,720429,Ferrous waste and scrap; of alloy steel (excluding stainless),13982,0.06,6,direct
-2005,842959,"Mechanical shovels, excavators and shovel loaders; n.e.c. in item no. 8429.50",7130,0.031,7,direct
-2005,392510,"Plastics; builders' ware, reservoirs, tanks, vats and similar containers of a capacity exceeding 300 litres",2852,0.012,8,direct
-2005,842919,"Bulldozers and angledozers; self-propelled, other than track laying",2282,0.01,9,direct
-2005,871190,"Motorcycles (including mopeds) and cycles; n.e.c. in heading no. 8711, fitted with auxiliary motor, with or without side-cars; side-cars",1521,0.007,10,direct
+2005,200820,Frutos e sementes preparados,15265,0.066,5,direct
+2005,720429,Sucata ferrosa,13982,0.06,6,direct
+2005,842959,Buldózeres e niveladoras,7130,0.031,7,direct
+2005,392510,Artigos de plástico para construção,2852,0.012,8,direct
+2005,842919,Buldózeres e niveladoras,2282,0.01,9,direct
+2005,871190,Motociclos,1521,0.007,10,direct
 2005,080131,"Cocos, castanhas de caju e nozes",92402831,89.254,1,mirror
 2005,030374,Peixe congelado,2087694,2.017,2,mirror
 2005,030339,Peixe congelado,1284621,1.241,3,mirror
 2005,030379,Peixe congelado,1021481,0.987,4,mirror
 2005,030749,Moluscos,943625,0.911,5,mirror
 2005,440349,Madeira em bruto,676472,0.653,6,mirror
-2005,720720,"Iron or non-alloy steel; semi-finished products of iron or non-alloy steel, containing by weight 0.25% or more of carbon",647538,0.625,7,mirror
+2005,720720,Produtos semi-acabados de ferro ou aço,647538,0.625,7,mirror
 2005,030613,Crustáceos,531535,0.513,8,mirror
 2005,030759,Moluscos,409378,0.395,9,mirror
-2005,720410,Ferrous waste and scrap; of cast iron,396228,0.383,10,mirror
+2005,720410,Sucata ferrosa,396228,0.383,10,mirror
 2006,080131,"Cocos, castanhas de caju e nozes",43933308,81.766,1,mirror
 2006,030339,Peixe congelado,1298750,2.417,2,mirror
 2006,030379,Peixe congelado,1224836,2.28,3,mirror
 2006,030749,Moluscos,676139,1.258,4,mirror
-2006,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,551351,1.026,5,mirror
+2006,720449,Sucata ferrosa,551351,1.026,5,mirror
 2006,030374,Peixe congelado,507769,0.945,6,mirror
 2006,030759,Moluscos,464592,0.865,7,mirror
-2006,870899,Vehicle parts and accessories; n.e.c. in heading no. 8708,351224,0.654,8,mirror
-2006,731600,"Iron or steel; anchors, grapnels and parts thereof",350966,0.653,9,mirror
+2006,870899,Partes e acessórios de veículos,351224,0.654,8,mirror
+2006,731600,Âncoras e ferros de amarração,350966,0.653,9,mirror
 2006,080132,"Cocos, castanhas de caju e nozes",328229,0.611,10,mirror
 2007,080131,"Cocos, castanhas de caju e nozes",71630299,84.291,1,mirror
 2007,030374,Peixe congelado,3592485,4.227,2,mirror
-2007,252329,"Cement; portland, other than white, whether or not artificially coloured",2466015,2.902,3,mirror
-2007,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,1813105,2.134,4,mirror
+2007,252329,Cimento,2466015,2.902,3,mirror
+2007,720449,Sucata ferrosa,1813105,2.134,4,mirror
 2007,030339,Peixe congelado,1169810,1.377,5,mirror
-2007,030559,"Fish; dried, whether or not salted but not smoked, other than edible fish offal, n.e.c. in item no. 0305.5",710044,0.836,6,mirror
+2007,030559,Peixe seco ou salgado,710044,0.836,6,mirror
 2007,030371,Peixe congelado,416822,0.49,7,mirror
 2007,080132,"Cocos, castanhas de caju e nozes",346282,0.407,8,mirror
 2007,090111,Café,295486,0.348,9,mirror
 2007,030379,Peixe congelado,276614,0.326,10,mirror
 2008,080131,"Cocos, castanhas de caju e nozes",124862667,87.407,1,mirror
 2008,030379,Peixe congelado,6798768,4.759,2,mirror
-2008,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,2306304,1.614,3,mirror
+2008,720449,Sucata ferrosa,2306304,1.614,3,mirror
 2008,440399,Madeira em bruto,1476624,1.034,4,mirror
 2008,030333,Peixe congelado,826105,0.578,5,mirror
 2008,080132,"Cocos, castanhas de caju e nozes",693248,0.485,6,mirror
-2008,400129,"Rubber; natural (excluding latex, technically specified natural rubber and smoked sheets), in primary forms or in plates, sheets or strip",623268,0.436,7,mirror
+2008,400129,Borracha natural,623268,0.436,7,mirror
 2008,180100,Cacau,454932,0.318,8,mirror
 2008,170199,Açúcar de cana ou de beterraba,452251,0.317,9,mirror
 2008,030339,Peixe congelado,390374,0.273,10,mirror
 2009,080131,"Cocos, castanhas de caju e nozes",92185578,84.785,1,mirror
 2009,030379,Peixe congelado,8086288,7.437,2,mirror
 2009,440399,Madeira em bruto,1564913,1.439,3,mirror
-2009,843149,"Machinery; parts of machines handling earth, minerals or ores and n.e.c. in heading no. 8431",465479,0.428,4,mirror
+2009,843149,Partes de máquinas de terraplanagem,465479,0.428,4,mirror
 2009,030371,Peixe congelado,433827,0.399,5,mirror
-2009,730840,"Iron or steel; structures and parts thereof, props and similar equipment for scaffolding, shuttering or pit-propping",380240,0.35,6,mirror
+2009,730840,Estruturas de ferro ou aço,380240,0.35,6,mirror
 2009,180100,Cacau,376906,0.347,7,mirror
-2009,100190,100190,318614,0.293,8,mirror
-2009,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,315704,0.29,9,mirror
+2009,100190,Trigo,318614,0.293,8,mirror
+2009,720449,Sucata ferrosa,315704,0.29,9,mirror
 2009,030339,Peixe congelado,296111,0.272,10,mirror
 2010,270900,Petróleo bruto,71021409,42.506,1,mirror
 2010,080131,"Cocos, castanhas de caju e nozes",65707518,39.326,2,mirror
 2010,030379,Peixe congelado,9881338,5.914,3,mirror
-2010,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",6405085,3.833,4,mirror
+2010,400122,Borracha natural,6405085,3.833,4,mirror
 2010,440399,Madeira em bruto,3852335,2.306,5,mirror
-2010,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,2030506,1.215,6,mirror
+2010,720449,Sucata ferrosa,2030506,1.215,6,mirror
 2010,090111,Café,1447827,0.867,7,mirror
 2010,030374,Peixe congelado,1350717,0.808,8,mirror
 2010,030371,Peixe congelado,1288636,0.771,9,mirror
@@ -113,22 +113,22 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2011,270900,Petróleo bruto,44401614,11.521,2,mirror
 2011,260300,Minério de cobre,21114355,5.479,3,mirror
 2011,030379,Peixe congelado,10907212,2.83,4,mirror
-2011,120510,"Oil seeds; low erucic acid rape or colza seeds, whether or not broken",10761783,2.792,5,mirror
-2011,270799,Oils and other products of the distillation of high temperature coal tar; n.e.c. in heading no. 2707,6013998,1.56,6,mirror
-2011,280920,Phosphoric acid and polyphosphoric acids,4883986,1.267,7,mirror
-2011,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",4325681,1.122,8,mirror
+2011,120510,Sementes de colza,10761783,2.792,5,mirror
+2011,270799,Produtos da destilação do alcatrão,6013998,1.56,6,mirror
+2011,280920,Ácido fosfórico,4883986,1.267,7,mirror
+2011,400122,Borracha natural,4325681,1.122,8,mirror
 2011,440399,Madeira em bruto,4029499,1.046,9,mirror
-2011,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,3215641,0.834,10,mirror
+2011,720449,Sucata ferrosa,3215641,0.834,10,mirror
 2012,080131,"Cocos, castanhas de caju e nozes",148479474,82.001,1,mirror
-2012,400122,"Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",6856897,3.787,2,mirror
+2012,400122,Borracha natural,6856897,3.787,2,mirror
 2012,030379,Peixe congelado,6169611,3.407,3,mirror
 2012,440399,Madeira em bruto,6015609,3.322,4,mirror
 2012,710812,Ouro,4244038,2.344,5,mirror
-2012,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,2193036,1.211,6,mirror
+2012,720449,Sucata ferrosa,2193036,1.211,6,mirror
 2012,080132,"Cocos, castanhas de caju e nozes",1631181,0.901,7,mirror
-2012,270119,"Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",678785,0.375,8,mirror
+2012,270119,Carvão mineral,678785,0.375,8,mirror
 2012,440729,Madeira serrada,503680,0.278,9,mirror
-2012,120740,"Oil seeds; sesamum seeds, whether or not broken",493630,0.273,10,mirror
+2012,120740,Outras sementes oleaginosas,493630,0.273,10,mirror
 2013,080131,"Cocos, castanhas de caju e nozes",197409305,65.04,1,mirror
 2013,030355,Peixe congelado,20074348,6.614,2,mirror
 2013,030319,Peixe congelado,12860893,4.237,3,mirror
@@ -136,7 +136,7 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2013,030353,Peixe congelado,10101544,3.328,5,mirror
 2013,440399,Madeira em bruto,10082152,3.322,6,mirror
 2013,030379,Peixe congelado,7997433,2.635,7,mirror
-2013,230120,"Flours, meals and pellets; of fish or of crustaceans, molluscs or other aquatic invertebrates",6893834,2.271,8,mirror
+2013,230120,Farinhas de carne ou de peixe,6893834,2.271,8,mirror
 2013,260111,Minério de ferro,6656436,2.193,9,mirror
 2013,030389,Peixe congelado,4625643,1.524,10,mirror
 2014,080131,"Cocos, castanhas de caju e nozes",112073838,100.0,1,direct
@@ -145,21 +145,21 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2014,030319,Peixe congelado,12454890,4.521,3,mirror
 2014,030353,Peixe congelado,6601787,2.397,4,mirror
 2014,030355,Peixe congelado,3137210,1.139,5,mirror
-2014,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",2961946,1.075,6,mirror
+2014,290511,Álcoois acíclicos,2961946,1.075,6,mirror
 2014,030389,Peixe congelado,2402753,0.872,7,mirror
-2014,120740,"Oil seeds; sesamum seeds, whether or not broken",1825779,0.663,8,mirror
+2014,120740,Outras sementes oleaginosas,1825779,0.663,8,mirror
 2014,030379,Peixe congelado,1740984,0.632,9,mirror
-2014,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,1508548,0.548,10,mirror
+2014,720449,Sucata ferrosa,1508548,0.548,10,mirror
 2015,080131,"Cocos, castanhas de caju e nozes",287237009,87.78,1,direct
 2015,440710,Madeira serrada,39509896,12.074,2,direct
 2015,440791,Madeira serrada,241410,0.074,3,direct
 2015,100640,Arroz,180200,0.055,4,direct
 2015,440792,Madeira serrada,48282,0.015,5,direct
 2015,271019,Combustíveis refinados,6800,0.002,6,direct
-2015,670210,"Flowers, foliage and fruit, artificial, and parts thereof; articles made of artificial flowers, foliage or fruit, of plastics",33,0.0,7,direct
-2015,621149,"Track suits and other garments n.e.c.; women's or girls', of textile materials n.e.c. in item no. 6211.4 (not knitted or crocheted)",22,0.0,8,direct
-2015,210210,Yeasts; active,21,0.0,9,direct
-2015,842129,"Machinery; for filtering or purifying liquids, n.e.c. in item no. 8421.2",19,0.0,10,direct
+2015,670210,Flores artificiais,33,0.0,7,direct
+2015,621149,Outro vestuário,22,0.0,8,direct
+2015,210210,Leveduras,21,0.0,9,direct
+2015,842129,Máquinas de filtrar líquidos,19,0.0,10,direct
 2015,080131,"Cocos, castanhas de caju e nozes",232557463,78.085,1,mirror
 2015,440399,Madeira em bruto,17621229,5.917,2,mirror
 2015,030319,Peixe congelado,11807277,3.965,3,mirror
@@ -167,20 +167,20 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2015,030355,Peixe congelado,7511246,2.522,5,mirror
 2015,030389,Peixe congelado,4201660,1.411,6,mirror
 2015,710812,Ouro,4057384,1.362,7,mirror
-2015,120740,"Oil seeds; sesamum seeds, whether or not broken",2669857,0.896,8,mirror
+2015,120740,Outras sementes oleaginosas,2669857,0.896,8,mirror
 2015,030354,Peixe congelado,2115735,0.71,9,mirror
 2015,080132,"Cocos, castanhas de caju e nozes",1934536,0.65,10,mirror
 2016,080131,"Cocos, castanhas de caju e nozes",176263506,100.0,1,direct
 2016,080131,"Cocos, castanhas de caju e nozes",279916460,77.747,1,mirror
-2016,080930,"Fruit, edible; peaches, including nectarines, fresh",11947100,3.318,2,mirror
+2016,080930,"Frutos frescos (pêssegos, etc.)",11947100,3.318,2,mirror
 2016,030353,Peixe congelado,11482374,3.189,3,mirror
 2016,030355,Peixe congelado,5389915,1.497,4,mirror
-2016,260600,Aluminium ores and concentrates,5168008,1.435,5,mirror
+2016,260600,Minério de alumínio,5168008,1.435,5,mirror
 2016,710812,Ouro,5163873,1.434,6,mirror
 2016,030389,Peixe congelado,4701349,1.306,7,mirror
 2016,030319,Peixe congelado,3735324,1.037,8,mirror
 2016,080132,"Cocos, castanhas de caju e nozes",2992229,0.831,9,mirror
-2016,070930,"Vegetables; aubergines, (e.g. plants), fresh or chilled",2765700,0.768,10,mirror
+2016,070930,Legumes frescos ou refrigerados,2765700,0.768,10,mirror
 2017,080131,"Cocos, castanhas de caju e nozes",186854290,98.724,1,direct
 2017,080132,"Cocos, castanhas de caju e nozes",2415000,1.276,2,direct
 2017,080131,"Cocos, castanhas de caju e nozes",317990928,91.89,1,mirror
@@ -188,13 +188,13 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2017,030353,Peixe congelado,5496044,1.588,3,mirror
 2017,030355,Peixe congelado,3684655,1.065,4,mirror
 2017,030389,Peixe congelado,3265706,0.944,5,mirror
-2017,890590,"Vessels; light, fire-floats, floating cranes and other vessels, the navigability of which is subsidiary to their main function, floating docks",2947144,0.852,6,mirror
+2017,890590,Plataformas e dragas,2947144,0.852,6,mirror
 2017,030354,Peixe congelado,988348,0.286,7,mirror
-2017,120740,"Oil seeds; sesamum seeds, whether or not broken",889741,0.257,8,mirror
-2017,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458592,0.133,9,mirror
+2017,120740,Outras sementes oleaginosas,889741,0.257,8,mirror
+2017,720449,Sucata ferrosa,458592,0.133,9,mirror
 2017,080132,"Cocos, castanhas de caju e nozes",301516,0.087,10,mirror
 2018,080131,"Cocos, castanhas de caju e nozes",167802627,68.547,1,direct
-2018,999999,Commodities not specified according to kind,62912678,25.7,2,direct
+2018,999999,Mercadorias não especificadas,62912678,25.7,2,direct
 2018,440799,Madeira serrada,12175481,4.974,3,direct
 2018,440791,Madeira serrada,1807791,0.738,4,direct
 2018,440729,Madeira serrada,100181,0.041,5,direct
@@ -205,9 +205,9 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2018,030389,Peixe congelado,3750400,2.379,5,mirror
 2018,030314,Peixe congelado,2984475,1.893,6,mirror
 2018,030355,Peixe congelado,1274198,0.808,7,mirror
-2018,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,811210,0.515,8,mirror
+2018,720449,Sucata ferrosa,811210,0.515,8,mirror
 2018,030354,Peixe congelado,567682,0.36,9,mirror
-2018,999999,Commodities not specified according to kind,265943,0.169,10,mirror
+2018,999999,Mercadorias não especificadas,265943,0.169,10,mirror
 2019,080131,"Cocos, castanhas de caju e nozes",122753566,49.023,1,mirror
 2019,710813,Ouro,69229280,27.647,2,mirror
 2019,030353,Peixe congelado,21170897,8.455,3,mirror
@@ -215,7 +215,7 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2019,030389,Peixe congelado,6689745,2.672,5,mirror
 2019,080132,"Cocos, castanhas de caju e nozes",4450038,1.777,6,mirror
 2019,030314,Peixe congelado,3775083,1.508,7,mirror
-2019,260600,Aluminium ores and concentrates,3645917,1.456,8,mirror
+2019,260600,Minério de alumínio,3645917,1.456,8,mirror
 2019,030355,Peixe congelado,2842997,1.135,9,mirror
 2019,030354,Peixe congelado,2149961,0.859,10,mirror
 2020,080131,"Cocos, castanhas de caju e nozes",128538894,70.896,1,mirror
@@ -226,7 +226,7 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2020,080132,"Cocos, castanhas de caju e nozes",3091436,1.705,6,mirror
 2020,030354,Peixe congelado,2460697,1.357,7,mirror
 2020,271019,Combustíveis refinados,1619513,0.893,8,mirror
-2020,120740,"Oil seeds; sesamum seeds, whether or not broken",1180499,0.651,9,mirror
+2020,120740,Outras sementes oleaginosas,1180499,0.651,9,mirror
 2020,710812,Ouro,832525,0.459,10,mirror
 2021,080131,"Cocos, castanhas de caju e nozes",143613391,69.689,1,mirror
 2021,271111,Gás natural e outros gases de petróleo,22047130,10.699,2,mirror
@@ -234,8 +234,8 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2021,030389,Peixe congelado,6544153,3.176,4,mirror
 2021,030354,Peixe congelado,6143426,2.981,5,mirror
 2021,030355,Peixe congelado,3284529,1.594,6,mirror
-2021,890800,Vessels and other floating structures; for breaking up,3127000,1.517,7,mirror
-2021,120740,"Oil seeds; sesamum seeds, whether or not broken",1895801,0.92,8,mirror
+2021,890800,Navios para demolição,3127000,1.517,7,mirror
+2021,120740,Outras sementes oleaginosas,1895801,0.92,8,mirror
 2021,030351,Peixe congelado,1822359,0.884,9,mirror
 2021,080132,"Cocos, castanhas de caju e nozes",1519266,0.737,10,mirror
 2022,080131,"Cocos, castanhas de caju e nozes",202380129,89.43,1,mirror
@@ -243,28 +243,28 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2022,030389,Peixe congelado,4286562,1.894,3,mirror
 2022,080132,"Cocos, castanhas de caju e nozes",4060356,1.794,4,mirror
 2022,030353,Peixe congelado,3881518,1.715,5,mirror
-2022,150420,"Fats and oils and their fractions; of fish, (excluding liver-oils)",654018,0.289,6,mirror
+2022,150420,Óleos de peixe,654018,0.289,6,mirror
 2022,030355,Peixe congelado,604699,0.267,7,mirror
 2022,151110,Óleo de palma,561782,0.248,8,mirror
 2022,030365,Peixe congelado,378096,0.167,9,mirror
-2022,081320,"Fruit, edible; prunes, dried",376064,0.166,10,mirror
+2022,081320,Frutos secos,376064,0.166,10,mirror
 2023,080131,"Cocos, castanhas de caju e nozes",71654845,64.614,1,mirror
-2023,150420,"Fats and oils and their fractions; of fish, (excluding liver-oils)",13501850,12.175,2,mirror
+2023,150420,Óleos de peixe,13501850,12.175,2,mirror
 2023,030354,Peixe congelado,6118942,5.518,3,mirror
 2023,080132,"Cocos, castanhas de caju e nozes",5157200,4.65,4,mirror
 2023,030389,Peixe congelado,3134633,2.827,5,mirror
 2023,030353,Peixe congelado,2677018,2.414,6,mirror
 2023,030355,Peixe congelado,1768027,1.594,7,mirror
 2023,030752,Moluscos,1293554,1.166,8,mirror
-2023,190190,"Food preparations; of flour, meal, starch, malt extract or milk products, for uses n.e.c. in heading no. 1901",673393,0.607,9,mirror
-2023,120740,"Oil seeds; sesamum seeds, whether or not broken",580915,0.524,10,mirror
+2023,190190,Preparações para alimentação infantil,673393,0.607,9,mirror
+2023,120740,Outras sementes oleaginosas,580915,0.524,10,mirror
 2024,080131,"Cocos, castanhas de caju e nozes",198489538,91.595,1,mirror
-2024,230120,"Flours, meals and pellets; of fish or of crustaceans, molluscs or other aquatic invertebrates",4625825,2.135,2,mirror
+2024,230120,Farinhas de carne ou de peixe,4625825,2.135,2,mirror
 2024,080132,"Cocos, castanhas de caju e nozes",4067603,1.877,3,mirror
 2024,180100,Cacau,1451933,0.67,4,mirror
-2024,120740,"Oil seeds; sesamum seeds, whether or not broken",1436310,0.663,5,mirror
+2024,120740,Outras sementes oleaginosas,1436310,0.663,5,mirror
 2024,030752,Moluscos,1205585,0.556,6,mirror
-2024,847180,"Units of automatic data processing machines; n.e.c. in item no. 8471.50, 8471.60 or 8471.70",654649,0.302,7,mirror
-2024,760200,Aluminium; waste and scrap,610897,0.282,8,mirror
+2024,847180,Computadores e unidades,654649,0.302,7,mirror
+2024,760200,Sucata de alumínio,610897,0.282,8,mirror
 2024,030354,Peixe congelado,567403,0.262,9,mirror
 2024,030389,Peixe congelado,470801,0.217,10,mirror

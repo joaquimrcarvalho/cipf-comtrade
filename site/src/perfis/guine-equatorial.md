@@ -10,7 +10,8 @@ import {formatUSD, usdInt, usdAxis, pct} from "../components/format.js";
 import {L} from "../components/i18n.js";
 import {kpiCards} from "../components/cards.js";
 import {volumeCompareChart, balanceChart, rankBarChart, evolutionChart,
-        productPartnersChart, competitionChart, trunc} from "../components/profile.js";
+        productPartnersChart, competitionChart, pseudoPartnerNote,
+        trunc} from "../components/profile.js";
 
 const balance = await FileAttachment("../data/guine-equatorial_trade_balance_2003-2024.csv").csv({typed: true});
 const topPartX = await FileAttachment("../data/guine-equatorial_top_partners_exports_2003-2024.csv").csv({typed: true});
@@ -32,11 +33,10 @@ const orEmpty = (rows, node) => rows.length
   ? node
   : html`<p style="font-size: 0.85rem; color: var(--theme-foreground-muted)"><em>Sem dados para esta seleção.</em></p>`;
 const rankTable = (rows, nameCol, nameLabel) => Inputs.table(
-  rows.map((d) => ({Ano: d.year,
-                    [nameLabel]: d.hs6 ? `${d.hs6} — ${trunc(d[nameCol], 40)}` : d[nameCol],
+  rows.map((d) => ({[nameLabel]: d.hs6 ? `${d.hs6} — ${trunc(d[nameCol], 60)}` : d[nameCol],
                     Valor: d.value,
                     "Quota (%)": d.share_pct, "Pos.": d.rank})),
-  {rows: 10, format: {Ano: (v) => String(v), Valor: usdInt,
+  {rows: 10, format: {Valor: usdInt,
                       "Quota (%)": (v) => pct(v), "Pos.": (v) => String(v)}});
 ```
 
@@ -100,6 +100,8 @@ display(orEmpty(partX, rankBarChart(Plot, d3, partX, "partner", {usdAxis, format
 display(orEmpty(partX, rankTable(partX, "partner", "Parceiro")));
 ```
 
+${pseudoPartnerNote(html, partX, "partner_code")}
+
 Evolução dos 5 maiores clientes no período (base ${basis === "direct" ? "direta" : "espelho"}):
 
 ```js
@@ -146,8 +148,12 @@ display(orEmpty(d8sel, productPartnersChart(Plot, d3, d8sel, {usdAxis, formatUSD
 
 <div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
   Linhas: principais compradores do produto selecionado (quota no total do produto em
-  cada ano, base ${basis === "direct" ? "direta" : "espelho"}).
+  cada ano, base ${basis === "direct" ? "direta" : "espelho"}). A lista cobre os
+  25 principais produtos de todo o período — por isso tem mais entradas
+  do que a tabela de §2.2, que mostra apenas o top 10 de cada ano.
 </div>
+
+${pseudoPartnerNote(html, d8sel, "partner_code")}
 
 
 
@@ -163,6 +169,8 @@ display(orEmpty(partM, rankBarChart(Plot, d3, partM, "partner", {usdAxis, format
 ```js
 display(orEmpty(partM, rankTable(partM, "partner", "Parceiro")));
 ```
+
+${pseudoPartnerNote(html, partM, "partner_code")}
 
 Evolução dos 5 maiores fornecedores no período (base ${basis === "direct" ? "direta" : "espelho"}):
 
@@ -210,9 +218,12 @@ display(orEmpty(d8selM, productPartnersChart(Plot, d3, d8selM, {usdAxis, formatU
 
 <div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
   ${L.fonte} · base: ${basis === "direct" ? "valores reportados por Guiné Equatorial" : "valores reportados pelos parceiros (espelho)"} ·
-  top 10 por ano; produto × parceiro limitado aos 15 principais produtos do período
-  (8 parceiros por produto/ano).
+  top 10 por ano; produto × parceiro limitado aos 25 principais
+  produtos de todo o período (8 parceiros por produto/ano) — daí a
+  lista de §3.3 ter mais entradas do que a tabela de §3.2.
 </div>
+
+${pseudoPartnerNote(html, d8selM, "partner_code")}
 
 
 

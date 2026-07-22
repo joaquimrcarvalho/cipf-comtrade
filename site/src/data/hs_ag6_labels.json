@@ -2,17 +2,17 @@
   {
     "hs6": "020230",
     "en": "Meat; of bovine animals, boneless cuts, frozen",
-    "pt": null
+    "pt": "Carne de bovino, congelada"
   },
   {
     "hs6": "020712",
     "en": "Meat and edible offal; of fowls of the species Gallus domesticus, not cut in pieces, frozen",
-    "pt": null
+    "pt": "Carne de aves"
   },
   {
     "hs6": "020714",
     "en": "Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",
-    "pt": null
+    "pt": "Carne de aves"
   },
   {
     "hs6": "030211",
@@ -142,7 +142,7 @@
   {
     "hs6": "030559",
     "en": "Fish; dried, whether or not salted but not smoked, other than edible fish offal, n.e.c. in item no. 0305.5",
-    "pt": null
+    "pt": "Peixe seco ou salgado"
   },
   {
     "hs6": "030613",
@@ -187,57 +187,57 @@
   {
     "hs6": "040120",
     "en": "Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%",
-    "pt": null
+    "pt": "Leite e natas, não concentrados"
   },
   {
     "hs6": "040221",
     "en": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
-    "pt": null
+    "pt": "Leite e natas, concentrados ou em pó"
   },
   {
     "hs6": "040229",
     "en": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
-    "pt": null
+    "pt": "Leite e natas, concentrados ou em pó"
   },
   {
     "hs6": "040299",
     "en": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
-    "pt": null
+    "pt": "Leite e natas, concentrados ou em pó"
   },
   {
     "hs6": "060290",
     "en": "Plants, live; n.e.c. in heading no. 0602",
-    "pt": null
+    "pt": "Plantas vivas"
   },
   {
     "hs6": "060310",
     "en": "060310",
-    "pt": null
+    "pt": "Flores cortadas"
   },
   {
     "hs6": "070930",
     "en": "Vegetables; aubergines, (e.g. plants), fresh or chilled",
-    "pt": null
+    "pt": "Legumes frescos ou refrigerados"
   },
   {
     "hs6": "071333",
     "en": "Vegetables, leguminous; kidney beans, including white pea beans (phaseolus vulgaris), shelled, whether or not skinned or split, dried",
-    "pt": null
+    "pt": "Leguminosas secas"
   },
   {
     "hs6": "071390",
     "en": "Vegetables, leguminous; n.e.c. in heading no. 0713, shelled, whether or not skinned or split, dried",
-    "pt": null
+    "pt": "Leguminosas secas"
   },
   {
     "hs6": "071410",
     "en": "Vegetable roots and tubers; manioc (cassava), with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets",
-    "pt": null
+    "pt": "Raízes e tubérculos (mandioca, etc.)"
   },
   {
     "hs6": "071490",
     "en": "Vegetable roots and tubers; arrowroot, salep, Jerusalem artichokes and similar roots and tubers (not manioc, sweet potatoes, yams, taro or yautia), high starch or inulin content, fresh, chilled, frozen, dried, sliced or not, or in pellet form; sago pith",
-    "pt": null
+    "pt": "Raízes e tubérculos (mandioca, etc.)"
   },
   {
     "hs6": "080111",
@@ -262,27 +262,27 @@
   {
     "hs6": "080221",
     "en": "Nuts, edible; hazelnuts or filberts (corylus spp.), fresh or dried, in shell",
-    "pt": null
+    "pt": "Frutos de casca rija"
   },
   {
     "hs6": "080222",
     "en": "Nuts, edible; hazelnuts or filberts (corylus spp.), fresh or dried, shelled",
-    "pt": null
+    "pt": "Frutos de casca rija"
   },
   {
     "hs6": "080300",
     "en": "080300",
-    "pt": null
+    "pt": "Bananas"
   },
   {
     "hs6": "080930",
     "en": "Fruit, edible; peaches, including nectarines, fresh",
-    "pt": null
+    "pt": "Frutos frescos (pêssegos, etc.)"
   },
   {
     "hs6": "081320",
     "en": "Fruit, edible; prunes, dried",
-    "pt": null
+    "pt": "Frutos secos"
   },
   {
     "hs6": "090111",
@@ -312,52 +312,52 @@
   {
     "hs6": "090411",
     "en": "Spices; pepper (of the genus piper), neither crushed nor ground",
-    "pt": null
+    "pt": "Pimenta e pimentão"
   },
   {
     "hs6": "090420",
     "en": "090420",
-    "pt": null
+    "pt": "Pimenta e pimentão"
   },
   {
     "hs6": "090421",
     "en": "Spices; fruits of the genus Capsicum or Pimenta, dried, neither crushed nor ground",
-    "pt": null
+    "pt": "Pimenta e pimentão"
   },
   {
     "hs6": "090500",
     "en": "090500",
-    "pt": null
+    "pt": "Baunilha"
   },
   {
     "hs6": "090510",
     "en": "Spices; vanilla, neither crushed nor ground",
-    "pt": null
+    "pt": "Baunilha"
   },
   {
     "hs6": "100110",
     "en": "100110",
-    "pt": null
+    "pt": "Trigo"
   },
   {
     "hs6": "100119",
     "en": "Cereals; wheat and meslin, durum wheat, other than seed",
-    "pt": null
+    "pt": "Trigo"
   },
   {
     "hs6": "100190",
     "en": "100190",
-    "pt": null
+    "pt": "Trigo"
   },
   {
     "hs6": "100199",
     "en": "Cereals; wheat and meslin, other than durum wheat, other than seed",
-    "pt": null
+    "pt": "Trigo"
   },
   {
     "hs6": "100590",
     "en": "Cereals; maize (corn), other than seed",
-    "pt": null
+    "pt": "Milho"
   },
   {
     "hs6": "100610",
@@ -382,7 +382,7 @@
   {
     "hs6": "110100",
     "en": "Wheat or meslin flour",
-    "pt": null
+    "pt": "Farinha de trigo"
   },
   {
     "hs6": "120100",
@@ -397,62 +397,62 @@
   {
     "hs6": "120300",
     "en": "Copra",
-    "pt": null
+    "pt": "Copra"
   },
   {
     "hs6": "120510",
     "en": "Oil seeds; low erucic acid rape or colza seeds, whether or not broken",
-    "pt": null
+    "pt": "Sementes de colza"
   },
   {
     "hs6": "120740",
     "en": "Oil seeds; sesamum seeds, whether or not broken",
-    "pt": null
+    "pt": "Outras sementes oleaginosas"
   },
   {
     "hs6": "120799",
     "en": "Oil seeds and oleaginous fruits; n.e.c. in heading no. 1207, whether or not broken",
-    "pt": null
+    "pt": "Outras sementes oleaginosas"
   },
   {
     "hs6": "121010",
     "en": "Hop cones; neither ground nor powdered nor in the form of pellets",
-    "pt": null
+    "pt": "Lúpulo"
   },
   {
     "hs6": "121190",
     "en": "Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",
-    "pt": null
+    "pt": "Plantas para farmácia e perfumaria"
   },
   {
     "hs6": "121220",
     "en": "121220",
-    "pt": null
+    "pt": "Algas e produtos vegetais para alimentação"
   },
   {
     "hs6": "121299",
     "en": "Vegetable products; fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",
-    "pt": null
+    "pt": "Algas e produtos vegetais para alimentação"
   },
   {
     "hs6": "130214",
     "en": "Vegetable saps and extracts; of ephedra",
-    "pt": null
+    "pt": "Seivas e extratos vegetais"
   },
   {
     "hs6": "130219",
     "en": "Vegetable saps and extracts; n.e.c. in item no. 1302.1",
-    "pt": null
+    "pt": "Seivas e extratos vegetais"
   },
   {
     "hs6": "140420",
     "en": "Vegetable products; cotton linters",
-    "pt": null
+    "pt": "Produtos vegetais diversos"
   },
   {
     "hs6": "150420",
     "en": "Fats and oils and their fractions; of fish, (excluding liver-oils)",
-    "pt": null
+    "pt": "Óleos de peixe"
   },
   {
     "hs6": "150710",
@@ -467,12 +467,12 @@
   {
     "hs6": "150890",
     "en": "Vegetable oils; ground-nut oil and its fractions, other than crude, whether or not refined, but not chemically modified",
-    "pt": null
+    "pt": "Óleo de amendoim"
   },
   {
     "hs6": "150920",
     "en": "Vegetable oils; olive oil and its fractions, extra virgin olive oil, whether or not refined, but not chemically modified",
-    "pt": null
+    "pt": "Azeite"
   },
   {
     "hs6": "151110",
@@ -487,47 +487,47 @@
   {
     "hs6": "151311",
     "en": "Vegetable oils; coconut (copra) oil and its fractions, crude, not chemically modified",
-    "pt": null
+    "pt": "Óleo de coco"
   },
   {
     "hs6": "151319",
     "en": "Vegetable oils; coconut (copra) oil and its fractions, other than crude, whether or not refined, but not chemically modified",
-    "pt": null
+    "pt": "Óleo de coco"
   },
   {
     "hs6": "151590",
     "en": "Fixed vegetable fats and oils and their fractions n.e.c. in heading 1515; other than linseed, maize (corn), castor, sesame, microbial oils, whether or not refined, but not chemically modified",
-    "pt": null
+    "pt": "Outros óleos vegetais fixos"
   },
   {
     "hs6": "160100",
     "en": "Meat preparations; sausages and similar products, of meat, meat offal, blood or insects, and food preparations based on these products",
-    "pt": null
+    "pt": "Enchidos e produtos semelhantes"
   },
   {
     "hs6": "160413",
     "en": "Fish preparations; sardines, sardinella and brisling or sprats, prepared or preserved, whole or in pieces (but not minced)",
-    "pt": null
+    "pt": "Peixe preparado ou conservado"
   },
   {
     "hs6": "160414",
     "en": "Fish preparations; tunas, skipjack tuna and bonito (Sarda spp.), prepared or preserved, whole or in pieces (but not minced)",
-    "pt": null
+    "pt": "Peixe preparado ou conservado"
   },
   {
     "hs6": "160415",
     "en": "Fish preparations; mackerel, prepared or preserved, whole or in pieces (but not minced)",
-    "pt": null
+    "pt": "Peixe preparado ou conservado"
   },
   {
     "hs6": "160419",
     "en": "Fish preparations; fish prepared or preserved, whole or in pieces (but not minced), n.e.c. in heading no. 1604",
-    "pt": null
+    "pt": "Peixe preparado ou conservado"
   },
   {
     "hs6": "160420",
     "en": "Fish preparations; fish minced or in forms n.e.c. in heading no. 1604, prepared or preserved",
-    "pt": null
+    "pt": "Peixe preparado ou conservado"
   },
   {
     "hs6": "170111",
@@ -557,127 +557,127 @@
   {
     "hs6": "180310",
     "en": "Cocoa; paste, not defatted",
-    "pt": null
+    "pt": "Pasta de cacau"
   },
   {
     "hs6": "180610",
     "en": "Cocoa; powder, containing added sugar or other sweetening matter",
-    "pt": null
+    "pt": "Chocolate e preparações com cacau"
   },
   {
     "hs6": "180620",
     "en": "Chocolate & other food preparations containing cocoa; in blocks, slabs or bars weighing more than 2kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, content exceeding 2kg",
-    "pt": null
+    "pt": "Chocolate e preparações com cacau"
   },
   {
     "hs6": "180631",
     "en": "Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, filled, weighing 2kg or less",
-    "pt": null
+    "pt": "Chocolate e preparações com cacau"
   },
   {
     "hs6": "180632",
     "en": "Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, (not filled), weighing 2kg or less",
-    "pt": null
+    "pt": "Chocolate e preparações com cacau"
   },
   {
     "hs6": "180690",
     "en": "Chocolate and other food preparations containing cocoa; n.e.c. in chapter 18",
-    "pt": null
+    "pt": "Chocolate e preparações com cacau"
   },
   {
     "hs6": "190110",
     "en": "Food preparations; of flour, meal, starch, malt extract or milk products, suitable for infants or young children, put up for retail sale",
-    "pt": null
+    "pt": "Preparações para alimentação infantil"
   },
   {
     "hs6": "190190",
     "en": "Food preparations; of flour, meal, starch, malt extract or milk products, for uses n.e.c. in heading no. 1901",
-    "pt": null
+    "pt": "Preparações para alimentação infantil"
   },
   {
     "hs6": "190220",
     "en": "Food preparations; pasta, stuffed (with meat or other substances), whether or not cooked or otherwise prepared",
-    "pt": null
+    "pt": "Massas alimentícias"
   },
   {
     "hs6": "190230",
     "en": "Food preparations; pasta (excluding stuffed), cooked or otherwise prepared",
-    "pt": null
+    "pt": "Massas alimentícias"
   },
   {
     "hs6": "190532",
     "en": "Food preparations; waffles and wafers, whether or not containing cocoa",
-    "pt": null
+    "pt": "Waffles e bolachas"
   },
   {
     "hs6": "200190",
     "en": "Vegetable preparations; vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid (excluding cucumbers and gherkins)",
-    "pt": null
+    "pt": "Preparações de legumes e frutos"
   },
   {
     "hs6": "200210",
     "en": "Vegetable preparations; tomatoes, whole or in pieces, prepared or preserved otherwise than by vinegar or acetic acid",
-    "pt": null
+    "pt": "Tomate preparado ou conservado"
   },
   {
     "hs6": "200819",
     "en": "Nuts and other seeds; whether or not containing added sugar, other sweetening matter or spirit (excluding ground-nuts except in mixtures)",
-    "pt": null
+    "pt": "Frutos e sementes preparados"
   },
   {
     "hs6": "200820",
     "en": "Fruit; pineapples, prepared or preserved in ways n.e.c. in heading no. 2007, whether or not containing added sugar, other sweetening matter or spirit",
-    "pt": null
+    "pt": "Frutos e sementes preparados"
   },
   {
     "hs6": "200980",
     "en": "200980",
-    "pt": null
+    "pt": "Sumos de frutos"
   },
   {
     "hs6": "210130",
     "en": "Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof",
-    "pt": null
+    "pt": "Extratos de café e chicória"
   },
   {
     "hs6": "210210",
     "en": "Yeasts; active",
-    "pt": null
+    "pt": "Leveduras"
   },
   {
     "hs6": "210390",
     "en": "Sauces and preparations therefor; mixed condiments and mixed seasonings",
-    "pt": null
+    "pt": "Molhos e condimentos"
   },
   {
     "hs6": "210410",
     "en": "Soups and broths and preparations therefor",
-    "pt": null
+    "pt": "Sopas e caldos"
   },
   {
     "hs6": "210690",
     "en": "Food preparations; n.e.c. in item no. 2106.10",
-    "pt": null
+    "pt": "Outras preparações alimentares"
   },
   {
     "hs6": "220110",
     "en": "Waters; mineral and aerated, including natural or artificial, (not containing added sugar or other sweetening matter nor flavoured)",
-    "pt": null
+    "pt": "Águas minerais e gaseificadas"
   },
   {
     "hs6": "220210",
     "en": "Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",
-    "pt": null
+    "pt": "Bebidas não alcoólicas"
   },
   {
     "hs6": "220290",
     "en": "220290",
-    "pt": null
+    "pt": "Bebidas não alcoólicas"
   },
   {
     "hs6": "220299",
     "en": "Non-alcoholic beverages; other than non-alcoholic beer, n.e.c. in item no. 2202.10, not including fruit, nut or vegetable juices of heading no. 2009",
-    "pt": null
+    "pt": "Bebidas não alcoólicas"
   },
   {
     "hs6": "220300",
@@ -707,47 +707,47 @@
   {
     "hs6": "220600",
     "en": "Beverages, fermented; (e.g. cider, perry, mead, sake)",
-    "pt": null
+    "pt": "Bebidas fermentadas (sidra, hidromel)"
   },
   {
     "hs6": "220830",
     "en": "Whiskies",
-    "pt": null
+    "pt": "Bebidas espirituosas"
   },
   {
     "hs6": "220840",
     "en": "Rum and other spirits obtained by distilling fermented sugar-cane products",
-    "pt": null
+    "pt": "Bebidas espirituosas"
   },
   {
     "hs6": "220850",
     "en": "Gin and geneva",
-    "pt": null
+    "pt": "Bebidas espirituosas"
   },
   {
     "hs6": "220890",
     "en": "Spirits, liqueurs and other spirituous beverages; n.e.c. in heading no. 2208",
-    "pt": null
+    "pt": "Bebidas espirituosas"
   },
   {
     "hs6": "230110",
     "en": "Flours, meals and pellets; of meat or meat offal, greaves",
-    "pt": null
+    "pt": "Farinhas de carne ou de peixe"
   },
   {
     "hs6": "230120",
     "en": "Flours, meals and pellets; of fish or of crustaceans, molluscs or other aquatic invertebrates",
-    "pt": null
+    "pt": "Farinhas de carne ou de peixe"
   },
   {
     "hs6": "230400",
     "en": "Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",
-    "pt": null
+    "pt": "Resíduos da extração de óleo de soja"
   },
   {
     "hs6": "230990",
     "en": "Dog or cat food; (not put up for retail sale), used in animal feeding",
-    "pt": null
+    "pt": "Alimentos para animais"
   },
   {
     "hs6": "240110",
@@ -767,27 +767,27 @@
   {
     "hs6": "250590",
     "en": "Sands; natural, (other than silica and quartz sands), whether or not coloured, (other than metal-bearing sands of chapter 26)",
-    "pt": null
+    "pt": "Areias naturais"
   },
   {
     "hs6": "251512",
     "en": "Marble and travertine; merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape, having a specific gravity of 2.5 or more",
-    "pt": null
+    "pt": "Mármore e travertino"
   },
   {
     "hs6": "251611",
     "en": "Granite; crude or roughly trimmed",
-    "pt": null
+    "pt": "Granito"
   },
   {
     "hs6": "252310",
     "en": "Cement clinkers (whether or not coloured)",
-    "pt": null
+    "pt": "Cimento"
   },
   {
     "hs6": "252329",
     "en": "Cement; portland, other than white, whether or not artificially coloured",
-    "pt": null
+    "pt": "Cimento"
   },
   {
     "hs6": "260111",
@@ -807,47 +807,47 @@
   {
     "hs6": "260600",
     "en": "Aluminium ores and concentrates",
-    "pt": null
+    "pt": "Minério de alumínio"
   },
   {
     "hs6": "261400",
     "en": "Titanium ores and concentrates",
-    "pt": null
+    "pt": "Minério de titânio"
   },
   {
     "hs6": "261510",
     "en": "Zirconium ores and concentrates",
-    "pt": null
+    "pt": "Minério de zircónio"
   },
   {
     "hs6": "270112",
     "en": "Coal; bituminous, whether or not pulverised, but not agglomerated",
-    "pt": null
+    "pt": "Carvão mineral"
   },
   {
     "hs6": "270119",
     "en": "Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated",
-    "pt": null
+    "pt": "Carvão mineral"
   },
   {
     "hs6": "270300",
     "en": "Peat; (including peat litter), whether or not agglomerated",
-    "pt": null
+    "pt": "Turfa"
   },
   {
     "hs6": "270400",
     "en": "Coke and semi-coke; of coal, lignite or peat, whether or not agglomerated; retort carbon",
-    "pt": null
+    "pt": "Coque"
   },
   {
     "hs6": "270740",
     "en": "Oils and products of the distillation of high temperature coal tar; naphthalene",
-    "pt": null
+    "pt": "Produtos da destilação do alcatrão"
   },
   {
     "hs6": "270799",
     "en": "Oils and other products of the distillation of high temperature coal tar; n.e.c. in heading no. 2707",
-    "pt": null
+    "pt": "Produtos da destilação do alcatrão"
   },
   {
     "hs6": "270900",
@@ -912,77 +912,77 @@
   {
     "hs6": "271600",
     "en": "Electrical energy",
-    "pt": null
+    "pt": "Energia elétrica"
   },
   {
     "hs6": "280920",
     "en": "Phosphoric acid and polyphosphoric acids",
-    "pt": null
+    "pt": "Ácido fosfórico"
   },
   {
     "hs6": "281820",
     "en": "Aluminium oxide; other than artificial corundum",
-    "pt": null
+    "pt": "Óxido de alumínio"
   },
   {
     "hs6": "282612",
     "en": "Fluorides; of aluminium",
-    "pt": null
+    "pt": "Fluoretos"
   },
   {
     "hs6": "282619",
     "en": "Fluorides; other than of aluminium",
-    "pt": null
+    "pt": "Fluoretos"
   },
   {
     "hs6": "290110",
     "en": "Acyclic hydrocarbons; saturated",
-    "pt": null
+    "pt": "Hidrocarbonetos acíclicos"
   },
   {
     "hs6": "290511",
     "en": "Alcohols; saturated monohydric, methanol (methyl alcohol)",
-    "pt": null
+    "pt": "Álcoois acíclicos"
   },
   {
     "hs6": "290943",
     "en": "Ether-alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives; monobutyl ethers of ethylene glycol or of diethylene glycol",
-    "pt": null
+    "pt": "Éteres e derivados"
   },
   {
     "hs6": "293319",
     "en": "Heterocyclic compounds; with nitrogen hetero-atom(s) only, containing an unfused pyrazole ring (whether or not hydrogenated) in the structure, other than henazone (antipyrin) and its derivatives",
-    "pt": null
+    "pt": "Compostos heterocíclicos"
   },
   {
     "hs6": "294200",
     "en": "Organic compounds; n.e.c. in chapter 29",
-    "pt": null
+    "pt": "Outros compostos orgânicos"
   },
   {
     "hs6": "300210",
     "en": "300210",
-    "pt": null
+    "pt": "Sangue, vacinas e produtos imunológicos"
   },
   {
     "hs6": "300215",
     "en": "Blood, human or animal, antisera, other blood fractions and immunological products; immunological products, put up in measured doses or in forms or packings for retail sale",
-    "pt": null
+    "pt": "Sangue, vacinas e produtos imunológicos"
   },
   {
     "hs6": "300220",
     "en": "300220",
-    "pt": null
+    "pt": "Sangue, vacinas e produtos imunológicos"
   },
   {
     "hs6": "300310",
     "en": "Medicaments; containing penicillins, streptomycins or their derivatives, for therapeutic or prophylactic uses, (not in measured doses, not packaged for retail sale)",
-    "pt": null
+    "pt": "Medicamentos (sem doses unitárias)"
   },
   {
     "hs6": "300390",
     "en": "Medicaments; (not containing antibiotics, hormones, alkaloids or their derivatives), for therapeutic or prophylactic uses, (not packaged for retail sale)",
-    "pt": null
+    "pt": "Medicamentos (sem doses unitárias)"
   },
   {
     "hs6": "300490",
@@ -992,132 +992,132 @@
   {
     "hs6": "310210",
     "en": "Fertilizers, mineral or chemical; nitrogenous, urea, whether or not in aqueous solution",
-    "pt": null
+    "pt": "Fertilizantes azotados"
   },
   {
     "hs6": "310420",
     "en": "Fertilizers, mineral or chemical; potassic, potassium chloride",
-    "pt": null
+    "pt": "Fertilizantes potássicos"
   },
   {
     "hs6": "310540",
     "en": "Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)",
-    "pt": null
+    "pt": "Outros fertilizantes"
   },
   {
     "hs6": "320890",
     "en": "Paints and varnishes; based on polymers n.e.c. in heading no. 3208, dispersed or dissolved in a non-aqueous medium",
-    "pt": null
+    "pt": "Tintas e vernizes"
   },
   {
     "hs6": "340119",
     "en": "Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",
-    "pt": null
+    "pt": "Sabão"
   },
   {
     "hs6": "340120",
     "en": "Soap; in forms n.e.c. in item no. 3401.11",
-    "pt": null
+    "pt": "Sabão"
   },
   {
     "hs6": "380290",
     "en": "Chemical products; activated natural mineral products, animal black, including spent animal black",
-    "pt": null
+    "pt": "Produtos minerais ativados"
   },
   {
     "hs6": "381512",
     "en": "Catalysts, supported; reaction initiators, reaction accelerators and catalytic preparations, with precious metal or precious metal compounds as the active substance, n.e.c. or included",
-    "pt": null
+    "pt": "Catalisadores"
   },
   {
     "hs6": "382319",
     "en": "Industrial monocarboxylic fatty acids; acid oils from refining; (other than stearic acid, oleic acid or tall oil fatty acids)",
-    "pt": null
+    "pt": "Ácidos gordos industriais"
   },
   {
     "hs6": "382490",
     "en": "382490",
-    "pt": null
+    "pt": "Outros produtos químicos"
   },
   {
     "hs6": "390210",
     "en": "Propylene, other olefin polymers; polypropylene in primary forms",
-    "pt": null
+    "pt": "Polímeros de propileno"
   },
   {
     "hs6": "390760",
     "en": "390760",
-    "pt": null
+    "pt": "Poliésteres em formas primárias"
   },
   {
     "hs6": "391721",
     "en": "Plastics; tubes, pipes and hoses thereof, rigid, of polymers of ethylene",
-    "pt": null
+    "pt": "Tubos de plástico"
   },
   {
     "hs6": "392310",
     "en": "Plastics; boxes, cases, crates and similar articles for the conveyance or packing of goods",
-    "pt": null
+    "pt": "Artigos de plástico para embalagem"
   },
   {
     "hs6": "392410",
     "en": "Plastics; tableware and kitchenware",
-    "pt": null
+    "pt": "Artigos de plástico domésticos"
   },
   {
     "hs6": "392490",
     "en": "Plastics; household articles and hygienic or toilet articles",
-    "pt": null
+    "pt": "Artigos de plástico domésticos"
   },
   {
     "hs6": "392510",
     "en": "Plastics; builders' ware, reservoirs, tanks, vats and similar containers of a capacity exceeding 300 litres",
-    "pt": null
+    "pt": "Artigos de plástico para construção"
   },
   {
     "hs6": "392690",
     "en": "Plastics; other articles n.e.c. in chapter 39",
-    "pt": null
+    "pt": "Outros artigos de plástico"
   },
   {
     "hs6": "400122",
     "en": "Rubber; technically specified natural rubber (TSNR), in primary forms or in plates, sheets or strip (excluding latex and smoked sheets)",
-    "pt": null
+    "pt": "Borracha natural"
   },
   {
     "hs6": "400129",
     "en": "Rubber; natural (excluding latex, technically specified natural rubber and smoked sheets), in primary forms or in plates, sheets or strip",
-    "pt": null
+    "pt": "Borracha natural"
   },
   {
     "hs6": "400510",
     "en": "Rubber; unvulcanised, compounded with carbon black or silica, in primary forms or in plates, sheets or strip",
-    "pt": null
+    "pt": "Borracha não vulcanizada composta"
   },
   {
     "hs6": "401110",
     "en": "Rubber; new pneumatic tyres, of a kind used on motor cars (including station wagons and racing cars)",
-    "pt": null
+    "pt": "Pneus novos"
   },
   {
     "hs6": "401511",
     "en": "401511",
-    "pt": null
+    "pt": "Luvas e vestuário de borracha"
   },
   {
     "hs6": "420229",
     "en": "Cases and containers; handbags (whether or not with shoulder strap and including those without handle), of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper",
-    "pt": null
+    "pt": "Malas, bolsas e carteiras"
   },
   {
     "hs6": "420231",
     "en": "Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of leather or of composition leather",
-    "pt": null
+    "pt": "Malas, bolsas e carteiras"
   },
   {
     "hs6": "440122",
     "en": "Wood; for fuel, in chips or particles, non-coniferous, whether or not agglomerated",
-    "pt": null
+    "pt": "Lenha e resíduos de madeira"
   },
   {
     "hs6": "440310",
@@ -1162,72 +1162,72 @@
   {
     "hs6": "440839",
     "en": "Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",
-    "pt": null
+    "pt": "Folhas de madeira para folheados"
   },
   {
     "hs6": "441300",
     "en": "Wood; densified wood, in blocks, plates, strips or profile shapes",
-    "pt": null
+    "pt": "Madeira densificada"
   },
   {
     "hs6": "441820",
     "en": "441820",
-    "pt": null
+    "pt": "Portas e artigos de carpintaria"
   },
   {
     "hs6": "450310",
     "en": "Cork; corks and stoppers, of natural cork",
-    "pt": null
+    "pt": "Rolhas de cortiça"
   },
   {
     "hs6": "450410",
     "en": "Cork; blocks, plates, sheets and strip, tiles of any shape, solid cylinders (including discs), of agglomerated cork (with or without a binding substance)",
-    "pt": null
+    "pt": "Cortiça aglomerada"
   },
   {
     "hs6": "460290",
     "en": "Basketwork, wickerwork and other articles; of non-vegetable materials, made directly to shape from plaiting materials or made up from goods of heading no. 4601",
-    "pt": null
+    "pt": "Artigos de cestaria"
   },
   {
     "hs6": "470329",
     "en": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",
-    "pt": null
+    "pt": "Pasta de madeira química"
   },
   {
     "hs6": "480100",
     "en": "Newsprint; made of fibres obtained essentially by a chemi-mechanical process or of a weight, per m2, of more than 57g but not more than 65g, in rolls or sheets",
-    "pt": null
+    "pt": "Papel de jornal"
   },
   {
     "hs6": "480256",
     "en": "Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weight 40-150g/m2, in sheets 435mm or less by 297mm or less (unfolded)",
-    "pt": null
+    "pt": "Papel para escrita e impressão"
   },
   {
     "hs6": "480510",
     "en": "480510",
-    "pt": null
+    "pt": "Outros papéis não revestidos"
   },
   {
     "hs6": "490199",
     "en": "Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",
-    "pt": null
+    "pt": "Livros e brochuras"
   },
   {
     "hs6": "490700",
     "en": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",
-    "pt": null
+    "pt": "Selos e títulos de valor"
   },
   {
     "hs6": "491199",
     "en": "Printed matter; n.e.c. in heading no. 4911",
-    "pt": null
+    "pt": "Outros impressos"
   },
   {
     "hs6": "500100",
     "en": "Silk; silk-worm cocoons suitable for reeling",
-    "pt": null
+    "pt": "Seda e casulos"
   },
   {
     "hs6": "520100",
@@ -1237,142 +1237,142 @@
   {
     "hs6": "520300",
     "en": "Cotton; carded or combed",
-    "pt": null
+    "pt": "Algodão cardado ou penteado"
   },
   {
     "hs6": "570239",
     "en": "Carpets and other textile floor coverings; woven, (not tufted or flocked), of textile materials (other than man-made, wool or fine animal hair), of pile construction, not made up, n.e.c. in item no. 5702.10 or 5702.20",
-    "pt": null
+    "pt": "Tapetes tecidos"
   },
   {
     "hs6": "570500",
     "en": "Carpets and other textile floor coverings; n.e.c. in chapter 57, whether or not made up",
-    "pt": null
+    "pt": "Outros tapetes"
   },
   {
     "hs6": "610711",
     "en": "Underpants and briefs; men's or boys', of cotton, knitted or crocheted",
-    "pt": null
+    "pt": "Roupa interior de malha (homem)"
   },
   {
     "hs6": "610712",
     "en": "Underpants and briefs; men's or boys', of man-made fibres, knitted or crocheted",
-    "pt": null
+    "pt": "Roupa interior de malha (homem)"
   },
   {
     "hs6": "610910",
     "en": "T-shirts, singlets and other vests; of cotton, knitted or crocheted",
-    "pt": null
+    "pt": "T-shirts e camisetas de malha"
   },
   {
     "hs6": "610990",
     "en": "T-shirts, singlets and other vests; of textile materials (other than cotton), knitted or crocheted",
-    "pt": null
+    "pt": "T-shirts e camisetas de malha"
   },
   {
     "hs6": "620342",
     "en": "Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton (not knitted or crocheted)",
-    "pt": null
+    "pt": "Calças e fatos (homem)"
   },
   {
     "hs6": "620349",
     "en": "Trousers, bib and brace overalls, breeches and shorts; men's or boys', of textile materials (other than wool, fine animal hair, cotton or synthetic fibres), (not knitted or crocheted)",
-    "pt": null
+    "pt": "Calças e fatos (homem)"
   },
   {
     "hs6": "620423",
     "en": "Ensembles; women's or girls', of synthetic fibres (not knitted or crocheted)",
-    "pt": null
+    "pt": "Calças, conjuntos e casacos (mulher)"
   },
   {
     "hs6": "620433",
     "en": "Jackets and blazers; women's or girls', of synthetic fibres (not knitted or crocheted)",
-    "pt": null
+    "pt": "Calças, conjuntos e casacos (mulher)"
   },
   {
     "hs6": "620520",
     "en": "Shirts; men's or boys', of cotton (not knitted or crocheted)",
-    "pt": null
+    "pt": "Camisas (homem)"
   },
   {
     "hs6": "621020",
     "en": "Garments; overcoats, raincoats, car-coats, capes, cloaks, anoraks (including ski-jackets) and similar articles, men's or boys', of the fabrics of heading no. 5602, 5603, 5903, 5906 or 5907 (not knitted or crocheted)",
-    "pt": null
+    "pt": "Vestuário de tecidos impermeáveis"
   },
   {
     "hs6": "621149",
     "en": "Track suits and other garments n.e.c.; women's or girls', of textile materials n.e.c. in item no. 6211.4 (not knitted or crocheted)",
-    "pt": null
+    "pt": "Outro vestuário"
   },
   {
     "hs6": "630491",
     "en": "Furnishing articles; excluding those of heading no. 9404, n.e.c. in heading 6304, knitted or crocheted",
-    "pt": null
+    "pt": "Artigos de decoração têxteis"
   },
   {
     "hs6": "630790",
     "en": "Textiles; made up articles (including dress patterns), n.e.c. in chapter 63, n.e.c. in heading no. 6307",
-    "pt": null
+    "pt": "Outros artigos têxteis confecionados"
   },
   {
     "hs6": "630900",
     "en": "Clothing; worn, and other worn articles",
-    "pt": null
+    "pt": "Vestuário usado"
   },
   {
     "hs6": "640391",
     "en": "Footwear; n.e.c. in heading no. 6403, covering the ankle, outer soles of rubber, plastics or composition leather, uppers of leather",
-    "pt": null
+    "pt": "Calçado de couro"
   },
   {
     "hs6": "640399",
     "en": "Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles of rubber, plastics or composition leather, uppers of leather",
-    "pt": null
+    "pt": "Calçado de couro"
   },
   {
     "hs6": "640610",
     "en": "Footwear; parts, uppers and parts thereof, other than stiffeners",
-    "pt": null
+    "pt": "Partes de calçado"
   },
   {
     "hs6": "670210",
     "en": "Flowers, foliage and fruit, artificial, and parts thereof; articles made of artificial flowers, foliage or fruit, of plastics",
-    "pt": null
+    "pt": "Flores artificiais"
   },
   {
     "hs6": "670490",
     "en": "Wigs, false beards, eyebrows and eyelashes, switches and the like and other articles n.e.c.; of animal hair or of textile materials other than synthetic",
-    "pt": null
+    "pt": "Perucas e artigos semelhantes"
   },
   {
     "hs6": "680710",
     "en": "Asphalt or similar material; articles (e.g. petroleum bitumen or coal tar pitch) in rolls",
-    "pt": null
+    "pt": "Artigos asfálticos em rolos"
   },
   {
     "hs6": "681099",
     "en": "Cement, concrete or artificial stone; articles (other than prefabricated structural components for building or civil engineering), whether or not reinforced, n.e.c. in heading no. 6810",
-    "pt": null
+    "pt": "Artigos de cimento e betão"
   },
   {
     "hs6": "690490",
     "en": "Ceramic flooring blocks, supports or filler tiles and the like (excluding building bricks)",
-    "pt": null
+    "pt": "Materiais cerâmicos de construção"
   },
   {
     "hs6": "690890",
     "en": "690890",
-    "pt": null
+    "pt": "Azulejos e ladrilhos cerâmicos"
   },
   {
     "hs6": "691110",
     "en": "Tableware and kitchenware; of porcelain or china",
-    "pt": null
+    "pt": "Louça de porcelana"
   },
   {
     "hs6": "702000",
     "en": "Glass; articles n.e.c. in chapter 70",
-    "pt": null
+    "pt": "Outros artigos de vidro"
   },
   {
     "hs6": "710221",
@@ -1387,7 +1387,7 @@
   {
     "hs6": "710391",
     "en": "Stones; rubies, sapphires and emeralds, worked (other than simply sawn or roughly shaped), not strung, mounted or set",
-    "pt": null
+    "pt": "Rubis, safiras e esmeraldas"
   },
   {
     "hs6": "710812",
@@ -1402,182 +1402,182 @@
   {
     "hs6": "720293",
     "en": "Ferro-alloys; ferro-niobium",
-    "pt": null
+    "pt": "Ferro-ligas"
   },
   {
     "hs6": "720410",
     "en": "Ferrous waste and scrap; of cast iron",
-    "pt": null
+    "pt": "Sucata ferrosa"
   },
   {
     "hs6": "720421",
     "en": "Ferrous waste and scrap; of stainless steel",
-    "pt": null
+    "pt": "Sucata ferrosa"
   },
   {
     "hs6": "720429",
     "en": "Ferrous waste and scrap; of alloy steel (excluding stainless)",
-    "pt": null
+    "pt": "Sucata ferrosa"
   },
   {
     "hs6": "720449",
     "en": "Ferrous waste and scrap; n.e.c. in heading no. 7204",
-    "pt": null
+    "pt": "Sucata ferrosa"
   },
   {
     "hs6": "720712",
     "en": "Iron or non-alloy steel; semi-finished products of iron or non-alloy steel; containing by weight less than 0.25% of carbon, of rectangular (other than square) cross-section",
-    "pt": null
+    "pt": "Produtos semi-acabados de ferro ou aço"
   },
   {
     "hs6": "720720",
     "en": "Iron or non-alloy steel; semi-finished products of iron or non-alloy steel, containing by weight 0.25% or more of carbon",
-    "pt": null
+    "pt": "Produtos semi-acabados de ferro ou aço"
   },
   {
     "hs6": "720918",
     "en": "Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm",
-    "pt": null
+    "pt": "Laminados planos a frio"
   },
   {
     "hs6": "721041",
     "en": "Iron or non-alloy steel; flat-rolled, width 600mm or more, corrugated, plated or coated with zinc (not electrolytically)",
-    "pt": null
+    "pt": "Laminados planos revestidos"
   },
   {
     "hs6": "721070",
     "en": "Iron or non-alloy steel; flat-rolled, width 600mm or more, painted, varnished or coated with plastics",
-    "pt": null
+    "pt": "Laminados planos revestidos"
   },
   {
     "hs6": "721420",
     "en": "Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",
-    "pt": null
+    "pt": "Varões de ferro ou aço"
   },
   {
     "hs6": "721491",
     "en": "Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, n.e.c. in heading no. 7214, of rectangular (other than square) cross-section",
-    "pt": null
+    "pt": "Varões de ferro ou aço"
   },
   {
     "hs6": "721499",
     "en": "Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, n.e.c. in heading no. 7214, other than of rectangular cross-section",
-    "pt": null
+    "pt": "Varões de ferro ou aço"
   },
   {
     "hs6": "721590",
     "en": "Iron or non-alloy steel; bars and rods, n.e.c. in chapter 72, n.e.c. in heading no. 7215",
-    "pt": null
+    "pt": "Outros varões de ferro ou aço"
   },
   {
     "hs6": "722519",
     "en": "Steel, alloy; flat-rolled, width 600mm or more, of silicon-electrical steel, (other than grain-oriented)",
-    "pt": null
+    "pt": "Laminados planos de aços-liga"
   },
   {
     "hs6": "722694",
     "en": "722694",
-    "pt": null
+    "pt": "Outros laminados de aços-liga"
   },
   {
     "hs6": "722830",
     "en": "Steel, alloy; bars and rods, hot-rolled, hot-drawn or extruded",
-    "pt": null
+    "pt": "Varões de aços-liga"
   },
   {
     "hs6": "722860",
     "en": "Steel, alloy; bars and rods n.e.c. in heading no. 7228",
-    "pt": null
+    "pt": "Varões de aços-liga"
   },
   {
     "hs6": "730120",
     "en": "Iron or steel; angles, shapes and sections, welded",
-    "pt": null
+    "pt": "Perfis de ferro ou aço soldados"
   },
   {
     "hs6": "730419",
     "en": "Iron or steel (excluding cast iron or stainless steel); seamless, line pipe of a kind used for oil or gas pipelines",
-    "pt": null
+    "pt": "Tubos sem costura (petróleo/gás)"
   },
   {
     "hs6": "730421",
     "en": "730421",
-    "pt": null
+    "pt": "Tubos sem costura (petróleo/gás)"
   },
   {
     "hs6": "730429",
     "en": "Iron or steel (excluding cast iron or stainless steel); seamless, casing and tubing, of a kind used in drilling for oil or gas",
-    "pt": null
+    "pt": "Tubos sem costura (petróleo/gás)"
   },
   {
     "hs6": "730511",
     "en": "Iron or steel (excluding cast iron); line pipe of a kind used for oil or gas pipelines (not seamless), longitudinally submerged arc welded, having circular cross-sections, external diameter exceeds 406.4mm",
-    "pt": null
+    "pt": "Tubos para oleodutos e gasodutos"
   },
   {
     "hs6": "730520",
     "en": "Iron or steel (excluding cast iron); casing of a kind used in drilling for oil or gas (not seamless), having circular cross-sections, external diameter exceeds 406.4mm",
-    "pt": null
+    "pt": "Tubos para oleodutos e gasodutos"
   },
   {
     "hs6": "730661",
     "en": "Iron or steel (excluding cast iron); tubes, pipes and hollow profiles (not seamless), welded, of square or rectangular cross-section, n.e.c. in chapter 73",
-    "pt": null
+    "pt": "Outros tubos de ferro ou aço"
   },
   {
     "hs6": "730799",
     "en": "Iron or steel; tube or pipe fittings, n.e.c. in item no. 7307.9, other than stainless steel",
-    "pt": null
+    "pt": "Acessórios para tubos"
   },
   {
     "hs6": "730820",
     "en": "Iron or steel; structures and parts thereof, towers and lattice masts",
-    "pt": null
+    "pt": "Estruturas de ferro ou aço"
   },
   {
     "hs6": "730840",
     "en": "Iron or steel; structures and parts thereof, props and similar equipment for scaffolding, shuttering or pit-propping",
-    "pt": null
+    "pt": "Estruturas de ferro ou aço"
   },
   {
     "hs6": "730890",
     "en": "Iron or steel; structures and parts thereof, n.e.c. in heading 7308",
-    "pt": null
+    "pt": "Estruturas de ferro ou aço"
   },
   {
     "hs6": "731100",
     "en": "Containers for compressed or liquefied gas, of iron or steel",
-    "pt": null
+    "pt": "Recipientes para gás comprimido"
   },
   {
     "hs6": "731512",
     "en": "Chain; articulated link, (other than roller), of iron or steel",
-    "pt": null
+    "pt": "Correntes de ferro ou aço"
   },
   {
     "hs6": "731600",
     "en": "Iron or steel; anchors, grapnels and parts thereof",
-    "pt": null
+    "pt": "Âncoras e ferros de amarração"
   },
   {
     "hs6": "732393",
     "en": "Steel, stainless; table, kitchen and other household articles and parts thereof",
-    "pt": null
+    "pt": "Artigos domésticos de aço inox"
   },
   {
     "hs6": "732619",
     "en": "Iron or steel; articles n.e.c. in item no. 7326.11, forged or stamped, but not further worked",
-    "pt": null
+    "pt": "Outros artigos de ferro ou aço"
   },
   {
     "hs6": "732620",
     "en": "Iron or steel; wire articles",
-    "pt": null
+    "pt": "Outros artigos de ferro ou aço"
   },
   {
     "hs6": "732690",
     "en": "Iron or steel; articles n.e.c. in heading 7326",
-    "pt": null
+    "pt": "Outros artigos de ferro ou aço"
   },
   {
     "hs6": "740311",
@@ -1587,7 +1587,7 @@
   {
     "hs6": "740811",
     "en": "Copper; wire, of refined copper, of which the maximum cross-sectional dimension exceeds 6mm",
-    "pt": null
+    "pt": "Fios de cobre"
   },
   {
     "hs6": "760110",
@@ -1602,597 +1602,597 @@
   {
     "hs6": "760200",
     "en": "Aluminium; waste and scrap",
-    "pt": null
+    "pt": "Sucata de alumínio"
   },
   {
     "hs6": "760410",
     "en": "Aluminium; (not alloyed), bars, rods and profiles",
-    "pt": null
+    "pt": "Varões e perfis de alumínio"
   },
   {
     "hs6": "760429",
     "en": "Aluminium; alloys, bars, rods and profiles, other than hollow",
-    "pt": null
+    "pt": "Varões e perfis de alumínio"
   },
   {
     "hs6": "760511",
     "en": "Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",
-    "pt": null
+    "pt": "Fios de alumínio"
   },
   {
     "hs6": "761410",
     "en": "Aluminium; stranded wire, cables, plaited bands and the like, (not electrically insulated), with steel core",
-    "pt": null
+    "pt": "Cabos de alumínio"
   },
   {
     "hs6": "780199",
     "en": "Lead; unwrought, unrefined, not containing by weight antimony as the principal other element",
-    "pt": null
+    "pt": "Chumbo em bruto"
   },
   {
     "hs6": "820130",
     "en": "Tools, hand; mattocks, picks, hoes and rakes",
-    "pt": null
+    "pt": "Ferramentas agrícolas manuais"
   },
   {
     "hs6": "820520",
     "en": "Tools, hand; hammers and sledge hammers",
-    "pt": null
+    "pt": "Martelos e ferramentas manuais"
   },
   {
     "hs6": "820559",
     "en": "Tools, hand; other hand tools (including glaziers diamonds), excluding household tools, drilling, threading or tapping tools, hammers and sledge hammers, planes, chisels, gouges and similar cutting tools for working wood, and screwdrivers",
-    "pt": null
+    "pt": "Martelos e ferramentas manuais"
   },
   {
     "hs6": "830710",
     "en": "Tubing; flexible, with or without fittings, of iron or steel",
-    "pt": null
+    "pt": "Tubos flexíveis de metal"
   },
   {
     "hs6": "840310",
     "en": "Boilers; central heating boilers (excluding those of heading no. 8402)",
-    "pt": null
+    "pt": "Caldeiras de aquecimento central"
   },
   {
     "hs6": "840710",
     "en": "Engines; for aircraft, spark-ignition reciprocating or rotary internal combustion piston engines",
-    "pt": null
+    "pt": "Motores de ignição por faísca"
   },
   {
     "hs6": "840790",
     "en": "Engines; rotary internal combustion piston engines, for other than aircraft or marine propulsion",
-    "pt": null
+    "pt": "Motores de ignição por faísca"
   },
   {
     "hs6": "840820",
     "en": "Engines; compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of a kind used for the propulsion of vehicles of chapter 87",
-    "pt": null
+    "pt": "Motores diesel"
   },
   {
     "hs6": "840890",
     "en": "Engines; compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of a kind used for other than marine propulsion or the vehicles of chapter 87",
-    "pt": null
+    "pt": "Motores diesel"
   },
   {
     "hs6": "840910",
     "en": "Engines; parts of aircraft engines (spark-ignition reciprocating or rotary internal combustion piston engines)",
-    "pt": null
+    "pt": "Partes de motores"
   },
   {
     "hs6": "840999",
     "en": "Engines; parts for internal combustion piston engines (excluding spark-ignition)",
-    "pt": null
+    "pt": "Partes de motores"
   },
   {
     "hs6": "841112",
     "en": "Turbo-jets; of a thrust exceeding 25kN",
-    "pt": null
+    "pt": "Turborreatores e turbinas a gás"
   },
   {
     "hs6": "841182",
     "en": "Turbines; gas-turbines (excluding turbo-jets and turbo-propellers), of a power exceeding 5000kW",
-    "pt": null
+    "pt": "Turborreatores e turbinas a gás"
   },
   {
     "hs6": "841191",
     "en": "Turbines; parts of turbo-jets and turbo-propellers",
-    "pt": null
+    "pt": "Turborreatores e turbinas a gás"
   },
   {
     "hs6": "841199",
     "en": "Turbines; parts of gas turbines (excluding turbo-jets and turbo-propellers)",
-    "pt": null
+    "pt": "Turborreatores e turbinas a gás"
   },
   {
     "hs6": "841330",
     "en": "Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines",
-    "pt": null
+    "pt": "Bombas para líquidos"
   },
   {
     "hs6": "841381",
     "en": "Pumps and liquid elevators; n.e.c. in heading no. 8413",
-    "pt": null
+    "pt": "Bombas para líquidos"
   },
   {
     "hs6": "841391",
     "en": "Pumps; parts thereof",
-    "pt": null
+    "pt": "Bombas para líquidos"
   },
   {
     "hs6": "841440",
     "en": "Compressors; air compressors mounted on a wheeled chassis for towing",
-    "pt": null
+    "pt": "Bombas e compressores de ar"
   },
   {
     "hs6": "841480",
     "en": "Pumps and compressors; for air, vacuum or gas, n.e.c. in heading no. 8414",
-    "pt": null
+    "pt": "Bombas e compressores de ar"
   },
   {
     "hs6": "841920",
     "en": "Sterilizers; for medical, surgical or laboratory use, not used for domestic purposes",
-    "pt": null
+    "pt": "Esterilizadores e autoclaves"
   },
   {
     "hs6": "842129",
     "en": "Machinery; for filtering or purifying liquids, n.e.c. in item no. 8421.2",
-    "pt": null
+    "pt": "Máquinas de filtrar líquidos"
   },
   {
     "hs6": "842240",
     "en": "Machinery; for packing or wrapping",
-    "pt": null
+    "pt": "Máquinas de embalar"
   },
   {
     "hs6": "842430",
     "en": "Mechanical appliances; steam or sand blasting machines and similar jet projecting machines",
-    "pt": null
+    "pt": "Máquinas de projeção de jatos"
   },
   {
     "hs6": "842619",
     "en": "Cranes; transporter, gantry and bridge cranes",
-    "pt": null
+    "pt": "Gruas e guindastes"
   },
   {
     "hs6": "842641",
     "en": "Cranes; self-propelled derricks and cranes, on tyres, n.e.c. in heading no. 8426",
-    "pt": null
+    "pt": "Gruas e guindastes"
   },
   {
     "hs6": "842649",
     "en": "Cranes; self-propelled derricks and cranes, not on tyres, n.e.c. in heading no. 8426",
-    "pt": null
+    "pt": "Gruas e guindastes"
   },
   {
     "hs6": "842890",
     "en": "Lifting, handling, loading or unloading machinery; n.e.c. in heading no. 8425, 8426, 8427 or 8428",
-    "pt": null
+    "pt": "Outras máquinas de elevação"
   },
   {
     "hs6": "842911",
     "en": "Bulldozers and angledozers; self-propelled, track laying",
-    "pt": null
+    "pt": "Buldózeres e niveladoras"
   },
   {
     "hs6": "842919",
     "en": "Bulldozers and angledozers; self-propelled, other than track laying",
-    "pt": null
+    "pt": "Buldózeres e niveladoras"
   },
   {
     "hs6": "842920",
     "en": "Graders and levellers",
-    "pt": null
+    "pt": "Buldózeres e niveladoras"
   },
   {
     "hs6": "842940",
     "en": "Tamping machines and road rollers; self-propelled",
-    "pt": null
+    "pt": "Buldózeres e niveladoras"
   },
   {
     "hs6": "842951",
     "en": "Front-end shovel loaders",
-    "pt": null
+    "pt": "Buldózeres e niveladoras"
   },
   {
     "hs6": "842952",
     "en": "Mechanical shovels, excavators and shovel loaders; with a 360 degree revolving super structure",
-    "pt": null
+    "pt": "Buldózeres e niveladoras"
   },
   {
     "hs6": "842959",
     "en": "Mechanical shovels, excavators and shovel loaders; n.e.c. in item no. 8429.50",
-    "pt": null
+    "pt": "Buldózeres e niveladoras"
   },
   {
     "hs6": "843010",
     "en": "Pile-drivers and pile-extractors",
-    "pt": null
+    "pt": "Máquinas de perfuração e escavação"
   },
   {
     "hs6": "843039",
     "en": "Coal or rock cutters and tunnelling machinery; not self-propelled",
-    "pt": null
+    "pt": "Máquinas de perfuração e escavação"
   },
   {
     "hs6": "843041",
     "en": "Boring or sinking machinery; self-propelled, n.e.c. in heading no. 8430",
-    "pt": null
+    "pt": "Máquinas de perfuração e escavação"
   },
   {
     "hs6": "843049",
     "en": "Boring and sinking machinery; not self-propelled",
-    "pt": null
+    "pt": "Máquinas de perfuração e escavação"
   },
   {
     "hs6": "843139",
     "en": "Machinery; parts of the machinery of heading no. 8428, (other than lifts, skip hoists or escalators)",
-    "pt": null
+    "pt": "Partes de máquinas de terraplanagem"
   },
   {
     "hs6": "843143",
     "en": "Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49",
-    "pt": null
+    "pt": "Partes de máquinas de terraplanagem"
   },
   {
     "hs6": "843149",
     "en": "Machinery; parts of machines handling earth, minerals or ores and n.e.c. in heading no. 8431",
-    "pt": null
+    "pt": "Partes de máquinas de terraplanagem"
   },
   {
     "hs6": "843319",
     "en": "Mowers; for lawns, parks or sports-grounds, other than with the cutting device rotating in a horizontal plane",
-    "pt": null
+    "pt": "Cortadores de relva"
   },
   {
     "hs6": "844180",
     "en": "Machinery; n.e.c. in heading no. 8441, for making up paper pulp, paper or paperboard",
-    "pt": null
+    "pt": "Máquinas para papel e cartão"
   },
   {
     "hs6": "844190",
     "en": "Machinery; parts of machinery for making up paper pulp, paper or paperboard, including cutting machines of all kinds",
-    "pt": null
+    "pt": "Máquinas para papel e cartão"
   },
   {
     "hs6": "846299",
     "en": "846299",
-    "pt": null
+    "pt": "Máquinas-ferramenta de forja e estampagem"
   },
   {
     "hs6": "846789",
     "en": "Tools; for working in the hand, (other than chain saws), hydraulic or with self-contained non-electric motor, (not pneumatic)",
-    "pt": null
+    "pt": "Ferramentas pneumáticas e portáteis"
   },
   {
     "hs6": "847110",
     "en": "847110",
-    "pt": null
+    "pt": "Computadores e unidades"
   },
   {
     "hs6": "847130",
     "en": "Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display",
-    "pt": null
+    "pt": "Computadores e unidades"
   },
   {
     "hs6": "847141",
     "en": "Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30",
-    "pt": null
+    "pt": "Computadores e unidades"
   },
   {
     "hs6": "847160",
     "en": "Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing",
-    "pt": null
+    "pt": "Computadores e unidades"
   },
   {
     "hs6": "847180",
     "en": "Units of automatic data processing machines; n.e.c. in item no. 8471.50, 8471.60 or 8471.70",
-    "pt": null
+    "pt": "Computadores e unidades"
   },
   {
     "hs6": "847330",
     "en": "Machinery; parts and accessories (other than covers, carrying cases and the like) of the machines of heading no. 8471",
-    "pt": null
+    "pt": "Partes de computadores"
   },
   {
     "hs6": "847490",
     "en": "Machines, for sorting, screening, separating, washing, crushing etc mineral substances, for agglomerating, shaping or moulding solid fuels, ceramic pastes etc, for forming foundry moulds of sand; parts",
-    "pt": null
+    "pt": "Máquinas de triagem de minerais"
   },
   {
     "hs6": "847920",
     "en": "Machinery; for the extraction or preparation of animal or fixed vegetable or microbial fats or oils",
-    "pt": null
+    "pt": "Máquinas de funções diversas"
   },
   {
     "hs6": "847989",
     "en": "Machines and mechanical appliances; having individual functions, n.e.c. or included in this chapter",
-    "pt": null
+    "pt": "Máquinas de funções diversas"
   },
   {
     "hs6": "847990",
     "en": "Machines and mechanical appliances; parts, of those having individual functions",
-    "pt": null
+    "pt": "Máquinas de funções diversas"
   },
   {
     "hs6": "848071",
     "en": "Moulds; for rubber or plastics, injection or compression types",
-    "pt": null
+    "pt": "Moldes para borracha ou plástico"
   },
   {
     "hs6": "848140",
     "en": "Valves; safety or relief valves, for pipes, boiler shells, tanks, vats or the like",
-    "pt": null
+    "pt": "Válvulas e torneiras"
   },
   {
     "hs6": "848180",
     "en": "Taps, cocks, valves and similar appliances; for pipes, boiler shells, tanks, vats or the like, including thermostatically controlled valves",
-    "pt": null
+    "pt": "Válvulas e torneiras"
   },
   {
     "hs6": "848190",
     "en": "Taps, cocks, valves and similar appliances; parts thereof",
-    "pt": null
+    "pt": "Válvulas e torneiras"
   },
   {
     "hs6": "848340",
     "en": "Gears and gearing; (not toothed wheels, chain sprockets and other transmission elements presented separately); ball or roller screws; gear boxes and other speed changers, including torque converters",
-    "pt": null
+    "pt": "Engrenagens e transmissões"
   },
   {
     "hs6": "848490",
     "en": "Gasket sets or assortments of gaskets and similar joints; dissimilar in composition, put up in pouches, envelopes or similar packings",
-    "pt": null
+    "pt": "Juntas e gaxetas"
   },
   {
     "hs6": "850131",
     "en": "Electric motors and generators; DC, of an output not exceeding 750W",
-    "pt": null
+    "pt": "Motores e geradores elétricos"
   },
   {
     "hs6": "850134",
     "en": "Electric motors and generators; DC, of an output exceeding 375kW",
-    "pt": null
+    "pt": "Motores e geradores elétricos"
   },
   {
     "hs6": "850161",
     "en": "Generators; AC generators, (alternators), other than photovoltaic generators, of an output not exceeding 75kVA",
-    "pt": null
+    "pt": "Motores e geradores elétricos"
   },
   {
     "hs6": "850164",
     "en": "Electric generators; AC generators, (alternators), other than photovoltaic generators, of an output exceeding 750kVA",
-    "pt": null
+    "pt": "Motores e geradores elétricos"
   },
   {
     "hs6": "850211",
     "en": "Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output not exceeding 75kVA",
-    "pt": null
+    "pt": "Grupos geradores"
   },
   {
     "hs6": "850213",
     "en": "Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",
-    "pt": null
+    "pt": "Grupos geradores"
   },
   {
     "hs6": "850220",
     "en": "Electric generating sets; with spark-ignition internal combustion piston engines",
-    "pt": null
+    "pt": "Grupos geradores"
   },
   {
     "hs6": "850239",
     "en": "Electric generating sets; (excluding those with spark-ignition or compression-ignition internal combustion piston engines), other than wind powered",
-    "pt": null
+    "pt": "Grupos geradores"
   },
   {
     "hs6": "850300",
     "en": "Electric motors and generators; parts suitable for use solely or principally with the machines of heading no. 8501 or 8502",
-    "pt": null
+    "pt": "Partes de máquinas elétricas"
   },
   {
     "hs6": "850440",
     "en": "Electrical static converters",
-    "pt": null
+    "pt": "Conversores elétricos estáticos"
   },
   {
     "hs6": "850710",
     "en": "Electric accumulators; lead-acid, of a kind used for starting piston engines, including separators, whether or not rectangular (including square)",
-    "pt": null
+    "pt": "Acumuladores elétricos"
   },
   {
     "hs6": "850940",
     "en": "Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor",
-    "pt": null
+    "pt": "Eletrodomésticos"
   },
   {
     "hs6": "851679",
     "en": "Electro-thermic appliances; n.e.c. in heading no. 8516, used for domestic purposes",
-    "pt": null
+    "pt": "Aparelhos eletrotérmicos"
   },
   {
     "hs6": "851712",
     "en": "851712",
-    "pt": null
+    "pt": "Aparelhos de telecomunicações"
   },
   {
     "hs6": "851730",
     "en": "851730",
-    "pt": null
+    "pt": "Aparelhos de telecomunicações"
   },
   {
     "hs6": "851762",
     "en": "Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",
-    "pt": null
+    "pt": "Aparelhos de telecomunicações"
   },
   {
     "hs6": "851770",
     "en": "851770",
-    "pt": null
+    "pt": "Aparelhos de telecomunicações"
   },
   {
     "hs6": "851779",
     "en": "Communication apparatus; parts, other than aerials and aerial reflectors of all kinds",
-    "pt": null
+    "pt": "Aparelhos de telecomunicações"
   },
   {
     "hs6": "851790",
     "en": "851790",
-    "pt": null
+    "pt": "Aparelhos de telecomunicações"
   },
   {
     "hs6": "852340",
     "en": "852340",
-    "pt": null
+    "pt": "Suportes de gravação"
   },
   {
     "hs6": "852520",
     "en": "852520",
-    "pt": null
+    "pt": "Aparelhos de transmissão e câmaras"
   },
   {
     "hs6": "852560",
     "en": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating sound recording or reproducing apparatus, incorporating reception apparatus",
-    "pt": null
+    "pt": "Aparelhos de transmissão e câmaras"
   },
   {
     "hs6": "852580",
     "en": "852580",
-    "pt": null
+    "pt": "Aparelhos de transmissão e câmaras"
   },
   {
     "hs6": "852721",
     "en": "Radio-broadcast receivers not capable of operating without an external source of power, of a kind used in motor vehicles; combined with sound recording or reproducing apparatus",
-    "pt": null
+    "pt": "Recetores de rádio"
   },
   {
     "hs6": "852790",
     "en": "852790",
-    "pt": null
+    "pt": "Recetores de rádio"
   },
   {
     "hs6": "852812",
     "en": "852812",
-    "pt": null
+    "pt": "Aparelhos de televisão"
   },
   {
     "hs6": "852910",
     "en": "Reception and transmission apparatus; aerials and aerial reflectors of all kinds and parts suitable for use therewith",
-    "pt": null
+    "pt": "Partes de aparelhos de rádio e TV"
   },
   {
     "hs6": "852990",
     "en": "Reception and transmission apparatus; for use with the apparatus of heading no. 8524 to 8528, excluding aerials and aerial reflectors",
-    "pt": null
+    "pt": "Partes de aparelhos de rádio e TV"
   },
   {
     "hs6": "853210",
     "en": "Electrical capacitors; fixed, designed for use in 50/60 Hz circuits and having a reactive power handling capacity of not less than 0.5 kvar (power capacitors)",
-    "pt": null
+    "pt": "Condensadores elétricos"
   },
   {
     "hs6": "853390",
     "en": "Resistors; parts of the resistors of heading no. 8533",
-    "pt": null
+    "pt": "Resistências elétricas"
   },
   {
     "hs6": "853400",
     "en": "Circuits; printed",
-    "pt": null
+    "pt": "Circuitos impressos"
   },
   {
     "hs6": "853630",
     "en": "Electrical apparatus; for protecting electrical circuits, n.e.c. in heading no. 8536, for a voltage not exceeding 1000 volts",
-    "pt": null
+    "pt": "Aparelhos de proteção de circuitos"
   },
   {
     "hs6": "853710",
     "en": "Boards, panels, consoles, desks and other bases; for electric control or the distribution of electricity, (other than switching apparatus of heading no. 8517), for a voltage not exceeding 1000 volts",
-    "pt": null
+    "pt": "Quadros de controlo e distribuição"
   },
   {
     "hs6": "853720",
     "en": "Boards, panels, consoles, desks and other bases; for electric control or the distribution of electricity, (other than switching apparatus of heading no. 8517), for a voltage exceeding 1000 volts",
-    "pt": null
+    "pt": "Quadros de controlo e distribuição"
   },
   {
     "hs6": "853890",
     "en": "Electrical apparatus; parts suitable for use solely or principally with the apparatus of heading no. 8535, 8536 or 8537",
-    "pt": null
+    "pt": "Partes de aparelhos elétricos"
   },
   {
     "hs6": "854140",
     "en": "854140",
-    "pt": null
+    "pt": "Díodos e células fotovoltaicas"
   },
   {
     "hs6": "854143",
     "en": "Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells assembled in modules or made up into panels",
-    "pt": null
+    "pt": "Díodos e células fotovoltaicas"
   },
   {
     "hs6": "854221",
     "en": "854221",
-    "pt": null
+    "pt": "Circuitos integrados"
   },
   {
     "hs6": "854231",
     "en": "Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",
-    "pt": null
+    "pt": "Circuitos integrados"
   },
   {
     "hs6": "854232",
     "en": "Electronic integrated circuits; memories",
-    "pt": null
+    "pt": "Circuitos integrados"
   },
   {
     "hs6": "854239",
     "en": "Electronic integrated circuits; n.e.c. in heading no. 8542",
-    "pt": null
+    "pt": "Circuitos integrados"
   },
   {
     "hs6": "854270",
     "en": "854270",
-    "pt": null
+    "pt": "Circuitos integrados"
   },
   {
     "hs6": "854430",
     "en": "Insulated electric conductors; ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships",
-    "pt": null
+    "pt": "Fios e cabos elétricos isolados"
   },
   {
     "hs6": "854449",
     "en": "Insulated electric conductors; for a voltage not exceeding 1000 volts, not fitted with connectors",
-    "pt": null
+    "pt": "Fios e cabos elétricos isolados"
   },
   {
     "hs6": "854470",
     "en": "Insulated electric conductors; optical fibre cables",
-    "pt": null
+    "pt": "Fios e cabos elétricos isolados"
   },
   {
     "hs6": "854800",
     "en": "Electrical parts of machinery or apparatus; not specified or elsewhere included in this chapter",
-    "pt": null
+    "pt": "Partes elétricas diversas"
   },
   {
     "hs6": "860210",
     "en": "Rail locomotives; diesel-electric powered",
-    "pt": null
+    "pt": "Locomotivas diesel-elétricas"
   },
   {
     "hs6": "860900",
     "en": "Containers; (including containers for transport of fluids) specially designed and equipped for carriage by one or more modes of transport",
-    "pt": null
+    "pt": "Contentores de transporte"
   },
   {
     "hs6": "870120",
     "en": "870120",
-    "pt": null
+    "pt": "Tratores rodoviários"
   },
   {
     "hs6": "870210",
     "en": "Vehicles; public transport type (carries 10 or more persons, including driver), with only compression-ignition internal combustion piston engine (diesel or semi-diesel), new or used",
-    "pt": null
+    "pt": "Autocarros"
   },
   {
     "hs6": "870321",
@@ -2262,102 +2262,102 @@
   {
     "hs6": "870510",
     "en": "Vehicles; crane lorries",
-    "pt": null
+    "pt": "Veículos especiais (gruas, oficinas)"
   },
   {
     "hs6": "870590",
     "en": "Vehicles; break-down lorries, road-sweepers, spraying lorries, mobile workshops, mobile radiological units, and other special purpose vehicles n.e.c. in heading no. 8705",
-    "pt": null
+    "pt": "Veículos especiais (gruas, oficinas)"
   },
   {
     "hs6": "870829",
     "en": "Vehicles; parts and accessories, of bodies, other than safety seat belts",
-    "pt": null
+    "pt": "Partes e acessórios de veículos"
   },
   {
     "hs6": "870840",
     "en": "Vehicle parts; gear boxes and parts thereof",
-    "pt": null
+    "pt": "Partes e acessórios de veículos"
   },
   {
     "hs6": "870892",
     "en": "Vehicle parts; silencers (mufflers) and exhaust pipes; parts thereof",
-    "pt": null
+    "pt": "Partes e acessórios de veículos"
   },
   {
     "hs6": "870899",
     "en": "Vehicle parts and accessories; n.e.c. in heading no. 8708",
-    "pt": null
+    "pt": "Partes e acessórios de veículos"
   },
   {
     "hs6": "871110",
     "en": "Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, with internal combustion piston engine of a cylinder capacity not exceeding 50cc, with or without side-cars; side-cars",
-    "pt": null
+    "pt": "Motociclos"
   },
   {
     "hs6": "871120",
     "en": "Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",
-    "pt": null
+    "pt": "Motociclos"
   },
   {
     "hs6": "871190",
     "en": "Motorcycles (including mopeds) and cycles; n.e.c. in heading no. 8711, fitted with auxiliary motor, with or without side-cars; side-cars",
-    "pt": null
+    "pt": "Motociclos"
   },
   {
     "hs6": "871680",
     "en": "Vehicles; n.e.c. in heading no. 8716",
-    "pt": null
+    "pt": "Reboques e outros veículos"
   },
   {
     "hs6": "880211",
     "en": "Helicopters, except unmanned; of an unladen weight not exceeding 2000kg",
-    "pt": null
+    "pt": "Helicópteros e aviões"
   },
   {
     "hs6": "880212",
     "en": "Helicopters, except unmanned; of an unladen weight exceeding 2000kg",
-    "pt": null
+    "pt": "Helicópteros e aviões"
   },
   {
     "hs6": "880220",
     "en": "Aeroplanes and other aircraft, except unmanned; of an unladen weight not exceeding 2000kg",
-    "pt": null
+    "pt": "Helicópteros e aviões"
   },
   {
     "hs6": "880230",
     "en": "Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 2000kg but not exceeding 15,000kg",
-    "pt": null
+    "pt": "Helicópteros e aviões"
   },
   {
     "hs6": "880240",
     "en": "Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",
-    "pt": null
+    "pt": "Helicópteros e aviões"
   },
   {
     "hs6": "880310",
     "en": "880310",
-    "pt": null
+    "pt": "Partes de aeronaves"
   },
   {
     "hs6": "880330",
     "en": "880330",
-    "pt": null
+    "pt": "Partes de aeronaves"
   },
   {
     "hs6": "880390",
     "en": "880390",
-    "pt": null
+    "pt": "Partes de aeronaves"
   },
   {
     "hs6": "880730",
     "en": "Aircraft and spacecraft; parts of aeroplanes, helicopters or unmanned aircraft n.e.c. in heading no. 8807",
-    "pt": null
+    "pt": "Partes de aviões e helicópteros"
   },
   {
     "hs6": "880790",
     "en": "Aircraft and spacecraft; parts thereof n.e.c. in chapter 88",
-    "pt": null
+    "pt": "Partes de aviões e helicópteros"
   },
   {
     "hs6": "890110",
@@ -2377,191 +2377,191 @@
   {
     "hs6": "890200",
     "en": "Fishing vessels, factory ships and other vessels; for processing or preserving fishery products",
-    "pt": null
+    "pt": "Navios de pesca"
   },
   {
     "hs6": "890391",
     "en": "890391",
-    "pt": null
+    "pt": "Iates e barcos de recreio"
   },
   {
     "hs6": "890399",
     "en": "Vessels; (other than sailboats and motorboats), for pleasure or sports, other than inflatable, of a length exceeding 7.5m",
-    "pt": null
+    "pt": "Iates e barcos de recreio"
   },
   {
     "hs6": "890400",
     "en": "Tugs and pusher craft",
-    "pt": null
+    "pt": "Rebocadores"
   },
   {
     "hs6": "890510",
     "en": "Dredgers",
-    "pt": null
+    "pt": "Plataformas e dragas"
   },
   {
     "hs6": "890520",
     "en": "Floating or submersible drilling or production platforms",
-    "pt": null
+    "pt": "Plataformas e dragas"
   },
   {
     "hs6": "890590",
     "en": "Vessels; light, fire-floats, floating cranes and other vessels, the navigability of which is subsidiary to their main function, floating docks",
-    "pt": null
+    "pt": "Plataformas e dragas"
   },
   {
     "hs6": "890610",
     "en": "Vessels; warships",
-    "pt": null
+    "pt": "Outros navios"
   },
   {
     "hs6": "890690",
     "en": "Vessels; other, including lifeboats other than rowing boats, other than warships",
-    "pt": null
+    "pt": "Outros navios"
   },
   {
     "hs6": "890800",
     "en": "Vessels and other floating structures; for breaking up",
-    "pt": null
+    "pt": "Navios para demolição"
   },
   {
     "hs6": "900490",
     "en": "Spectacles, goggles and the like; (other than sunglasses) corrective, protective or other",
-    "pt": null
+    "pt": "Óculos"
   },
   {
     "hs6": "900719",
     "en": "900719",
-    "pt": null
+    "pt": "Câmaras cinematográficas"
   },
   {
     "hs6": "901580",
     "en": "Surveying equipment; articles n.e.c. in heading no. 9015, including hydrographic, oceanographic, hydrological, meteorological or geophysical instruments and appliances (excluding compasses)",
-    "pt": null
+    "pt": "Instrumentos de topografia"
   },
   {
     "hs6": "901590",
     "en": "Surveying equipment; parts and accessories for articles of heading no. 9015",
-    "pt": null
+    "pt": "Instrumentos de topografia"
   },
   {
     "hs6": "901890",
     "en": "Medical, surgical or dental instruments and appliances; n.e.c. in heading no. 9018",
-    "pt": null
+    "pt": "Instrumentos médico-cirúrgicos"
   },
   {
     "hs6": "902610",
     "en": "Instruments and apparatus; for measuring or checking the flow or level of liquids",
-    "pt": null
+    "pt": "Instrumentos de medição de fluidos"
   },
   {
     "hs6": "902690",
     "en": "Instruments and apparatus; parts and accessories for those measuring or checking the flow, level, pressure or other variables of liquids or gases (excluding those of heading no. 9014, 9015, 9028 or 9032)",
-    "pt": null
+    "pt": "Instrumentos de medição de fluidos"
   },
   {
     "hs6": "902710",
     "en": "Instruments and apparatus; gas or smoke analysis apparatus, for physical or chemical analysis",
-    "pt": null
+    "pt": "Instrumentos de análise físico-química"
   },
   {
     "hs6": "902780",
     "en": "902780",
-    "pt": null
+    "pt": "Instrumentos de análise físico-química"
   },
   {
     "hs6": "902920",
     "en": "Meters; speed indicators and tachometers; stroboscopes",
-    "pt": null
+    "pt": "Contadores e tacómetros"
   },
   {
     "hs6": "903040",
     "en": "Instruments and apparatus; specially designed for telecommunications (e.g. cross-talk meters, gain measuring instruments, distortion factor meters, psophometers)",
-    "pt": null
+    "pt": "Instrumentos para telecomunicações"
   },
   {
     "hs6": "903180",
     "en": "Instruments, appliances and machines; for measuring or checking n.e.c. in chapter 90",
-    "pt": null
+    "pt": "Outros instrumentos de medição"
   },
   {
     "hs6": "903281",
     "en": "Regulating or controlling instruments and apparatus; automatic, hydraulic or pneumatic",
-    "pt": null
+    "pt": "Instrumentos de regulação automática"
   },
   {
     "hs6": "903300",
     "en": "Machines and appliances, instruments or apparatus of chapter 90; parts and accessories n.e.c. in chapter 90",
-    "pt": null
+    "pt": "Partes de instrumentos de precisão"
   },
   {
     "hs6": "920190",
     "en": "Musical instruments; harpsichords and other keyboard stringed instruments n.e.c. in heading no. 9201",
-    "pt": null
+    "pt": "Pianos e instrumentos de teclado"
   },
   {
     "hs6": "920790",
     "en": "Musical instruments; (other than keyboard), the sound of which is produced or must be amplified electrically",
-    "pt": null
+    "pt": "Instrumentos amplificados eletricamente"
   },
   {
     "hs6": "930120",
     "en": "Military weapons; rocket launchers, flame-throwers, grenade launchers, torpedo tubes and similar projectors",
-    "pt": null
+    "pt": "Armas militares"
   },
   {
     "hs6": "930400",
     "en": "Firearms; (e.g. spring, air or gas guns and pistols, truncheons), excluding those of heading no. 9307",
-    "pt": null
+    "pt": "Outras armas de fogo"
   },
   {
     "hs6": "930591",
     "en": "Firearms; parts and accessories, of military weapons of heading 9301",
-    "pt": null
+    "pt": "Partes de armas"
   },
   {
     "hs6": "930599",
     "en": "Firearms; parts and accessories, of firearms other than the military weapons of heading 9301",
-    "pt": null
+    "pt": "Partes de armas"
   },
   {
     "hs6": "930621",
     "en": "Ammunition; shotgun cartridges",
-    "pt": null
+    "pt": "Munições"
   },
   {
     "hs6": "940190",
     "en": "940190",
-    "pt": null
+    "pt": "Assentos e partes"
   },
   {
     "hs6": "940360",
     "en": "Furniture; wooden, other than for office, kitchen or bedroom use",
-    "pt": null
+    "pt": "Mobiliário"
   },
   {
     "hs6": "940380",
     "en": "940380",
-    "pt": null
+    "pt": "Mobiliário"
   },
   {
     "hs6": "940600",
     "en": "940600",
-    "pt": null
+    "pt": "Construções pré-fabricadas"
   },
   {
     "hs6": "950720",
     "en": "Fish-hooks; whether or not snelled",
-    "pt": null
+    "pt": "Anzóis"
   },
   {
     "hs6": "960500",
     "en": "Travel sets; for personal toilet, sewing, shoe or clothes cleaning",
-    "pt": null
+    "pt": "Estojos de viagem"
   },
   {
     "hs6": "999999",
     "en": "Commodities not specified according to kind",
-    "pt": null
+    "pt": "Mercadorias não especificadas"
   }
 ]

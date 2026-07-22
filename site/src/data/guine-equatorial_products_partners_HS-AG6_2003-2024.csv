@@ -14,10 +14,10 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2003.0,271112,Gás natural e outros gases de petróleo,842.0,EUA,1035407.0,18.833,mirror
 2003.0,271113,Gás natural e outros gases de petróleo,380.0,Itália,2049911.0,81.519,mirror
 2003.0,271113,Gás natural e outros gases de petróleo,558.0,Nicaragua,464741.0,18.481,mirror
-2003.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,105214765.0,83.737,mirror
-2003.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",251.0,França,13024266.0,10.366,mirror
-2003.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,6177641.0,4.917,mirror
-2003.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,1233000.0,0.981,mirror
+2003.0,290511,Álcoois acíclicos,842.0,EUA,105214765.0,83.737,mirror
+2003.0,290511,Álcoois acíclicos,251.0,França,13024266.0,10.366,mirror
+2003.0,290511,Álcoois acíclicos,528.0,Países Baixos,6177641.0,4.917,mirror
+2003.0,290511,Álcoois acíclicos,276.0,Alemanha,1233000.0,0.981,mirror
 2003.0,440349,Madeira em bruto,156.0,China,80182134.0,82.751,mirror
 2003.0,440349,Madeira em bruto,251.0,França,6665945.0,6.88,mirror
 2003.0,440349,Madeira em bruto,620.0,Portugal,2945466.0,3.04,mirror
@@ -38,31 +38,31 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2003.0,440729,Madeira serrada,842.0,EUA,49429.0,4.661,mirror
 2003.0,440729,Madeira serrada,620.0,Portugal,45143.0,4.256,mirror
 2003.0,440729,Madeira serrada,380.0,Itália,12657.0,1.193,mirror
-2003.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,5266590.0,49.09,mirror
-2003.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,4371204.0,40.744,mirror
-2003.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",620.0,Portugal,735089.0,6.852,mirror
-2003.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,183322.0,1.709,mirror
-2003.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",842.0,EUA,49025.0,0.457,mirror
-2003.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",276.0,Alemanha,41000.0,0.382,mirror
-2003.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",208.0,Dinamarca,36889.0,0.344,mirror
-2003.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",804.0,Ucrânia,24170.0,0.225,mirror
+2003.0,440839,Folhas de madeira para folheados,724.0,Espanha,5266590.0,49.09,mirror
+2003.0,440839,Folhas de madeira para folheados,251.0,França,4371204.0,40.744,mirror
+2003.0,440839,Folhas de madeira para folheados,620.0,Portugal,735089.0,6.852,mirror
+2003.0,440839,Folhas de madeira para folheados,156.0,China,183322.0,1.709,mirror
+2003.0,440839,Folhas de madeira para folheados,842.0,EUA,49025.0,0.457,mirror
+2003.0,440839,Folhas de madeira para folheados,276.0,Alemanha,41000.0,0.382,mirror
+2003.0,440839,Folhas de madeira para folheados,208.0,Dinamarca,36889.0,0.344,mirror
+2003.0,440839,Folhas de madeira para folheados,804.0,Ucrânia,24170.0,0.225,mirror
 2003.0,710812,Ouro,842.0,EUA,6060.0,100.0,mirror
-2003.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,2466.0,100.0,mirror
-2003.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,710.0,África do Sul,147720.0,52.451,mirror
-2003.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,120.0,Camarões,71393.0,25.349,mirror
-2003.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,528.0,Países Baixos,21493.0,7.631,mirror
-2003.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,19358.0,6.873,mirror
-2003.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,380.0,Itália,17852.0,6.339,mirror
-2003.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,384.0,Costa do Marfim,3371.0,1.197,mirror
-2003.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,579.0,Noruega,449.0,0.16,mirror
-2003.0,999999,Commodities not specified according to kind,826.0,Reino Unido,6950172.0,49.783,mirror
-2003.0,999999,Commodities not specified according to kind,842.0,EUA,6913244.0,49.518,mirror
-2003.0,999999,Commodities not specified according to kind,208.0,Dinamarca,49429.0,0.354,mirror
-2003.0,999999,Commodities not specified according to kind,120.0,Camarões,40065.0,0.287,mirror
-2003.0,999999,Commodities not specified according to kind,724.0,Espanha,6117.0,0.044,mirror
-2003.0,999999,Commodities not specified according to kind,384.0,Costa do Marfim,1491.0,0.011,mirror
-2003.0,999999,Commodities not specified according to kind,458.0,Malásia,301.0,0.002,mirror
-2003.0,999999,Commodities not specified according to kind,72.0,Botsuana,157.0,0.001,mirror
+2003.0,720449,Sucata ferrosa,699.0,Índia,2466.0,100.0,mirror
+2003.0,843143,Partes de máquinas de terraplanagem,710.0,África do Sul,147720.0,52.451,mirror
+2003.0,843143,Partes de máquinas de terraplanagem,120.0,Camarões,71393.0,25.349,mirror
+2003.0,843143,Partes de máquinas de terraplanagem,528.0,Países Baixos,21493.0,7.631,mirror
+2003.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,19358.0,6.873,mirror
+2003.0,843143,Partes de máquinas de terraplanagem,380.0,Itália,17852.0,6.339,mirror
+2003.0,843143,Partes de máquinas de terraplanagem,384.0,Costa do Marfim,3371.0,1.197,mirror
+2003.0,843143,Partes de máquinas de terraplanagem,579.0,Noruega,449.0,0.16,mirror
+2003.0,999999,Mercadorias não especificadas,826.0,Reino Unido,6950172.0,49.783,mirror
+2003.0,999999,Mercadorias não especificadas,842.0,EUA,6913244.0,49.518,mirror
+2003.0,999999,Mercadorias não especificadas,208.0,Dinamarca,49429.0,0.354,mirror
+2003.0,999999,Mercadorias não especificadas,120.0,Camarões,40065.0,0.287,mirror
+2003.0,999999,Mercadorias não especificadas,724.0,Espanha,6117.0,0.044,mirror
+2003.0,999999,Mercadorias não especificadas,384.0,Costa do Marfim,1491.0,0.011,mirror
+2003.0,999999,Mercadorias não especificadas,458.0,Malásia,301.0,0.002,mirror
+2003.0,999999,Mercadorias não especificadas,72.0,Botsuana,157.0,0.001,mirror
 2004.0,180100,Cacau,724.0,Espanha,4242758.0,65.703,mirror
 2004.0,180100,Cacau,56.0,Bélgica,1813359.0,28.081,mirror
 2004.0,180100,Cacau,124.0,Canadá,401406.0,6.216,mirror
@@ -80,11 +80,11 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2004.0,271113,Gás natural e outros gases de petróleo,558.0,Nicaragua,1223330.0,75.309,mirror
 2004.0,271113,Gás natural e outros gases de petróleo,380.0,Itália,401087.0,24.691,mirror
 2004.0,271129,Gás natural e outros gases de petróleo,24.0,Angola,1809.0,100.0,mirror
-2004.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,99073894.0,73.266,mirror
-2004.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,17428435.0,12.889,mirror
-2004.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",251.0,França,13062607.0,9.66,mirror
-2004.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,5063000.0,3.744,mirror
-2004.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",56.0,Bélgica,596497.0,0.441,mirror
+2004.0,290511,Álcoois acíclicos,842.0,EUA,99073894.0,73.266,mirror
+2004.0,290511,Álcoois acíclicos,528.0,Países Baixos,17428435.0,12.889,mirror
+2004.0,290511,Álcoois acíclicos,251.0,França,13062607.0,9.66,mirror
+2004.0,290511,Álcoois acíclicos,276.0,Alemanha,5063000.0,3.744,mirror
+2004.0,290511,Álcoois acíclicos,56.0,Bélgica,596497.0,0.441,mirror
 2004.0,440349,Madeira em bruto,156.0,China,63656269.0,78.491,mirror
 2004.0,440349,Madeira em bruto,251.0,França,4821509.0,5.945,mirror
 2004.0,440349,Madeira em bruto,724.0,Espanha,3397982.0,4.19,mirror
@@ -106,29 +106,29 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2004.0,440729,Madeira serrada,792.0,Turquia,53123.0,3.081,mirror
 2004.0,440729,Madeira serrada,686.0,Senegal,46951.0,2.723,mirror
 2004.0,440729,Madeira serrada,842.0,EUA,15932.0,0.924,mirror
-2004.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,11010393.0,57.799,mirror
-2004.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,6993427.0,36.712,mirror
-2004.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",620.0,Portugal,833580.0,4.376,mirror
-2004.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,185462.0,0.974,mirror
-2004.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",56.0,Bélgica,26522.0,0.139,mirror
-2004.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,12884.0,80.94,mirror
-2004.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,3034.0,19.06,mirror
-2004.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,890752.0,71.695,mirror
-2004.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,266.0,Gabão,285466.0,22.977,mirror
-2004.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,19051.0,1.533,mirror
-2004.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,484.0,México,18792.0,1.513,mirror
-2004.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,380.0,Itália,14126.0,1.137,mirror
-2004.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,710.0,África do Sul,8946.0,0.72,mirror
-2004.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,528.0,Países Baixos,4977.0,0.401,mirror
-2004.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,724.0,Espanha,214.0,0.017,mirror
-2004.0,999999,Commodities not specified according to kind,826.0,Reino Unido,22012463.0,72.784,mirror
-2004.0,999999,Commodities not specified according to kind,842.0,EUA,7954463.0,26.301,mirror
-2004.0,999999,Commodities not specified according to kind,208.0,Dinamarca,214757.0,0.71,mirror
-2004.0,999999,Commodities not specified according to kind,724.0,Espanha,51922.0,0.172,mirror
-2004.0,999999,Commodities not specified according to kind,120.0,Camarões,5066.0,0.017,mirror
-2004.0,999999,Commodities not specified according to kind,266.0,Gabão,3766.0,0.012,mirror
-2004.0,999999,Commodities not specified according to kind,324.0,Guinea,566.0,0.002,mirror
-2004.0,999999,Commodities not specified according to kind,68.0,Bolívia,415.0,0.001,mirror
+2004.0,440839,Folhas de madeira para folheados,724.0,Espanha,11010393.0,57.799,mirror
+2004.0,440839,Folhas de madeira para folheados,251.0,França,6993427.0,36.712,mirror
+2004.0,440839,Folhas de madeira para folheados,620.0,Portugal,833580.0,4.376,mirror
+2004.0,440839,Folhas de madeira para folheados,380.0,Itália,185462.0,0.974,mirror
+2004.0,440839,Folhas de madeira para folheados,56.0,Bélgica,26522.0,0.139,mirror
+2004.0,720449,Sucata ferrosa,699.0,Índia,12884.0,80.94,mirror
+2004.0,720449,Sucata ferrosa,120.0,Camarões,3034.0,19.06,mirror
+2004.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,890752.0,71.695,mirror
+2004.0,843143,Partes de máquinas de terraplanagem,266.0,Gabão,285466.0,22.977,mirror
+2004.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,19051.0,1.533,mirror
+2004.0,843143,Partes de máquinas de terraplanagem,484.0,México,18792.0,1.513,mirror
+2004.0,843143,Partes de máquinas de terraplanagem,380.0,Itália,14126.0,1.137,mirror
+2004.0,843143,Partes de máquinas de terraplanagem,710.0,África do Sul,8946.0,0.72,mirror
+2004.0,843143,Partes de máquinas de terraplanagem,528.0,Países Baixos,4977.0,0.401,mirror
+2004.0,843143,Partes de máquinas de terraplanagem,724.0,Espanha,214.0,0.017,mirror
+2004.0,999999,Mercadorias não especificadas,826.0,Reino Unido,22012463.0,72.784,mirror
+2004.0,999999,Mercadorias não especificadas,842.0,EUA,7954463.0,26.301,mirror
+2004.0,999999,Mercadorias não especificadas,208.0,Dinamarca,214757.0,0.71,mirror
+2004.0,999999,Mercadorias não especificadas,724.0,Espanha,51922.0,0.172,mirror
+2004.0,999999,Mercadorias não especificadas,120.0,Camarões,5066.0,0.017,mirror
+2004.0,999999,Mercadorias não especificadas,266.0,Gabão,3766.0,0.012,mirror
+2004.0,999999,Mercadorias não especificadas,324.0,Guinea,566.0,0.002,mirror
+2004.0,999999,Mercadorias não especificadas,68.0,Bolívia,415.0,0.001,mirror
 2005.0,180100,Cacau,724.0,Espanha,2288203.0,90.455,mirror
 2005.0,180100,Cacau,56.0,Bélgica,241460.0,9.545,mirror
 2005.0,270900,Petróleo bruto,842.0,EUA,1482831253.0,24.128,mirror
@@ -154,11 +154,11 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2005.0,271113,Gás natural e outros gases de petróleo,384.0,Costa do Marfim,1045240.0,2.319,mirror
 2005.0,271119,Gás natural e outros gases de petróleo,792.0,Turquia,3356368.0,66.747,mirror
 2005.0,271119,Gás natural e outros gases de petróleo,218.0,Equador,1672156.0,33.253,mirror
-2005.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,161561552.0,67.656,mirror
-2005.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,52962770.0,22.179,mirror
-2005.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,14949000.0,6.26,mirror
-2005.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",251.0,França,8709911.0,3.647,mirror
-2005.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",56.0,Bélgica,614716.0,0.257,mirror
+2005.0,290511,Álcoois acíclicos,842.0,EUA,161561552.0,67.656,mirror
+2005.0,290511,Álcoois acíclicos,528.0,Países Baixos,52962770.0,22.179,mirror
+2005.0,290511,Álcoois acíclicos,276.0,Alemanha,14949000.0,6.26,mirror
+2005.0,290511,Álcoois acíclicos,251.0,França,8709911.0,3.647,mirror
+2005.0,290511,Álcoois acíclicos,56.0,Bélgica,614716.0,0.257,mirror
 2005.0,440349,Madeira em bruto,156.0,China,52109903.0,72.233,mirror
 2005.0,440349,Madeira em bruto,276.0,Alemanha,6188000.0,8.578,mirror
 2005.0,440349,Madeira em bruto,251.0,França,4190711.0,5.809,mirror
@@ -181,28 +181,28 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2005.0,440729,Madeira serrada,620.0,Portugal,40085.0,6.387,mirror
 2005.0,440729,Madeira serrada,156.0,China,30378.0,4.841,mirror
 2005.0,440729,Madeira serrada,56.0,Bélgica,26251.0,4.183,mirror
-2005.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,10097275.0,49.057,mirror
-2005.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,9395582.0,45.648,mirror
-2005.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,501497.0,2.437,mirror
-2005.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",620.0,Portugal,426326.0,2.071,mirror
-2005.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",300.0,Grécia,161899.0,0.787,mirror
-2005.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,17704.0,100.0,mirror
-2005.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,2025058.0,83.636,mirror
-2005.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,266.0,Gabão,209898.0,8.669,mirror
-2005.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,101539.0,4.194,mirror
-2005.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,710.0,África do Sul,37858.0,1.564,mirror
-2005.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,579.0,Noruega,20272.0,0.837,mirror
-2005.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,380.0,Itália,12667.0,0.523,mirror
-2005.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,120.0,Camarões,7048.0,0.291,mirror
-2005.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,251.0,França,3733.0,0.154,mirror
-2005.0,999999,Commodities not specified according to kind,826.0,Reino Unido,20389647.0,76.08,mirror
-2005.0,999999,Commodities not specified according to kind,842.0,EUA,6209792.0,23.17,mirror
-2005.0,999999,Commodities not specified according to kind,208.0,Dinamarca,62843.0,0.234,mirror
-2005.0,999999,Commodities not specified according to kind,348.0,Hungria,59000.0,0.22,mirror
-2005.0,999999,Commodities not specified according to kind,450.0,Madagáscar,45838.0,0.171,mirror
-2005.0,999999,Commodities not specified according to kind,724.0,Espanha,26818.0,0.1,mirror
-2005.0,999999,Commodities not specified according to kind,24.0,Angola,4729.0,0.018,mirror
-2005.0,999999,Commodities not specified according to kind,266.0,Gabão,1000.0,0.004,mirror
+2005.0,440839,Folhas de madeira para folheados,251.0,França,10097275.0,49.057,mirror
+2005.0,440839,Folhas de madeira para folheados,724.0,Espanha,9395582.0,45.648,mirror
+2005.0,440839,Folhas de madeira para folheados,380.0,Itália,501497.0,2.437,mirror
+2005.0,440839,Folhas de madeira para folheados,620.0,Portugal,426326.0,2.071,mirror
+2005.0,440839,Folhas de madeira para folheados,300.0,Grécia,161899.0,0.787,mirror
+2005.0,720449,Sucata ferrosa,699.0,Índia,17704.0,100.0,mirror
+2005.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,2025058.0,83.636,mirror
+2005.0,843143,Partes de máquinas de terraplanagem,266.0,Gabão,209898.0,8.669,mirror
+2005.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,101539.0,4.194,mirror
+2005.0,843143,Partes de máquinas de terraplanagem,710.0,África do Sul,37858.0,1.564,mirror
+2005.0,843143,Partes de máquinas de terraplanagem,579.0,Noruega,20272.0,0.837,mirror
+2005.0,843143,Partes de máquinas de terraplanagem,380.0,Itália,12667.0,0.523,mirror
+2005.0,843143,Partes de máquinas de terraplanagem,120.0,Camarões,7048.0,0.291,mirror
+2005.0,843143,Partes de máquinas de terraplanagem,251.0,França,3733.0,0.154,mirror
+2005.0,999999,Mercadorias não especificadas,826.0,Reino Unido,20389647.0,76.08,mirror
+2005.0,999999,Mercadorias não especificadas,842.0,EUA,6209792.0,23.17,mirror
+2005.0,999999,Mercadorias não especificadas,208.0,Dinamarca,62843.0,0.234,mirror
+2005.0,999999,Mercadorias não especificadas,348.0,Hungria,59000.0,0.22,mirror
+2005.0,999999,Mercadorias não especificadas,450.0,Madagáscar,45838.0,0.171,mirror
+2005.0,999999,Mercadorias não especificadas,724.0,Espanha,26818.0,0.1,mirror
+2005.0,999999,Mercadorias não especificadas,24.0,Angola,4729.0,0.018,mirror
+2005.0,999999,Mercadorias não especificadas,266.0,Gabão,1000.0,0.004,mirror
 2006.0,180100,Cacau,724.0,Espanha,3110666.0,100.0,mirror
 2006.0,270900,Petróleo bruto,156.0,China,2444018703.0,31.606,mirror
 2006.0,270900,Petróleo bruto,842.0,EUA,1671912986.0,21.621,mirror
@@ -233,11 +233,11 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2006.0,271113,Gás natural e outros gases de petróleo,384.0,Costa do Marfim,3504496.0,3.929,mirror
 2006.0,271113,Gás natural e outros gases de petróleo,266.0,Gabão,2970870.0,3.331,mirror
 2006.0,271119,Gás natural e outros gases de petróleo,792.0,Turquia,30936385.0,100.0,mirror
-2006.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,102046602.0,46.063,mirror
-2006.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,95331116.0,43.032,mirror
-2006.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,21094000.0,9.522,mirror
-2006.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",251.0,França,1825566.0,0.824,mirror
-2006.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",56.0,Bélgica,1240213.0,0.56,mirror
+2006.0,290511,Álcoois acíclicos,528.0,Países Baixos,102046602.0,46.063,mirror
+2006.0,290511,Álcoois acíclicos,842.0,EUA,95331116.0,43.032,mirror
+2006.0,290511,Álcoois acíclicos,276.0,Alemanha,21094000.0,9.522,mirror
+2006.0,290511,Álcoois acíclicos,251.0,França,1825566.0,0.824,mirror
+2006.0,290511,Álcoois acíclicos,56.0,Bélgica,1240213.0,0.56,mirror
 2006.0,440349,Madeira em bruto,156.0,China,59159136.0,78.117,mirror
 2006.0,440349,Madeira em bruto,276.0,Alemanha,5940000.0,7.843,mirror
 2006.0,440349,Madeira em bruto,251.0,França,3502978.0,4.626,mirror
@@ -261,29 +261,29 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2006.0,440729,Madeira serrada,251.0,França,23855.0,5.434,mirror
 2006.0,440729,Madeira serrada,504.0,Marrocos,23808.0,5.423,mirror
 2006.0,440729,Madeira serrada,792.0,Turquia,8485.0,1.933,mirror
-2006.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,10613145.0,50.44,mirror
-2006.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,8955282.0,42.561,mirror
-2006.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,1436283.0,6.826,mirror
-2006.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",620.0,Portugal,30229.0,0.144,mirror
-2006.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",56.0,Bélgica,4614.0,0.022,mirror
-2006.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",484.0,México,1615.0,0.008,mirror
-2006.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,266.0,Gabão,1390.0,100.0,mirror
-2006.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,985494.0,68.504,mirror
-2006.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,250099.0,17.385,mirror
-2006.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,266.0,Gabão,146948.0,10.215,mirror
-2006.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,360.0,Indonésia,29765.0,2.069,mirror
-2006.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,380.0,Itália,11067.0,0.769,mirror
-2006.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,842.0,EUA,5818.0,0.404,mirror
-2006.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,384.0,Costa do Marfim,4388.0,0.305,mirror
-2006.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,251.0,França,3767.0,0.262,mirror
-2006.0,999999,Commodities not specified according to kind,826.0,Reino Unido,17707836.0,71.565,mirror
-2006.0,999999,Commodities not specified according to kind,842.0,EUA,6899317.0,27.883,mirror
-2006.0,999999,Commodities not specified according to kind,208.0,Dinamarca,48058.0,0.194,mirror
-2006.0,999999,Commodities not specified according to kind,24.0,Angola,47400.0,0.192,mirror
-2006.0,999999,Commodities not specified according to kind,724.0,Espanha,17920.0,0.072,mirror
-2006.0,999999,Commodities not specified according to kind,710.0,África do Sul,12629.0,0.051,mirror
-2006.0,999999,Commodities not specified according to kind,450.0,Madagáscar,8902.0,0.036,mirror
-2006.0,999999,Commodities not specified according to kind,458.0,Malásia,1091.0,0.004,mirror
+2006.0,440839,Folhas de madeira para folheados,251.0,França,10613145.0,50.44,mirror
+2006.0,440839,Folhas de madeira para folheados,724.0,Espanha,8955282.0,42.561,mirror
+2006.0,440839,Folhas de madeira para folheados,380.0,Itália,1436283.0,6.826,mirror
+2006.0,440839,Folhas de madeira para folheados,620.0,Portugal,30229.0,0.144,mirror
+2006.0,440839,Folhas de madeira para folheados,56.0,Bélgica,4614.0,0.022,mirror
+2006.0,440839,Folhas de madeira para folheados,484.0,México,1615.0,0.008,mirror
+2006.0,720449,Sucata ferrosa,266.0,Gabão,1390.0,100.0,mirror
+2006.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,985494.0,68.504,mirror
+2006.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,250099.0,17.385,mirror
+2006.0,843143,Partes de máquinas de terraplanagem,266.0,Gabão,146948.0,10.215,mirror
+2006.0,843143,Partes de máquinas de terraplanagem,360.0,Indonésia,29765.0,2.069,mirror
+2006.0,843143,Partes de máquinas de terraplanagem,380.0,Itália,11067.0,0.769,mirror
+2006.0,843143,Partes de máquinas de terraplanagem,842.0,EUA,5818.0,0.404,mirror
+2006.0,843143,Partes de máquinas de terraplanagem,384.0,Costa do Marfim,4388.0,0.305,mirror
+2006.0,843143,Partes de máquinas de terraplanagem,251.0,França,3767.0,0.262,mirror
+2006.0,999999,Mercadorias não especificadas,826.0,Reino Unido,17707836.0,71.565,mirror
+2006.0,999999,Mercadorias não especificadas,842.0,EUA,6899317.0,27.883,mirror
+2006.0,999999,Mercadorias não especificadas,208.0,Dinamarca,48058.0,0.194,mirror
+2006.0,999999,Mercadorias não especificadas,24.0,Angola,47400.0,0.192,mirror
+2006.0,999999,Mercadorias não especificadas,724.0,Espanha,17920.0,0.072,mirror
+2006.0,999999,Mercadorias não especificadas,710.0,África do Sul,12629.0,0.051,mirror
+2006.0,999999,Mercadorias não especificadas,450.0,Madagáscar,8902.0,0.036,mirror
+2006.0,999999,Mercadorias não especificadas,458.0,Malásia,1091.0,0.004,mirror
 2007.0,180100,Cacau,724.0,Espanha,4367215.0,100.0,mirror
 2007.0,270900,Petróleo bruto,156.0,China,1566216748.0,19.496,mirror
 2007.0,270900,Petróleo bruto,842.0,EUA,1434564522.0,17.857,mirror
@@ -324,13 +324,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2007.0,271119,Gás natural e outros gases de petróleo,218.0,Equador,25237377.0,35.184,mirror
 2007.0,271119,Gás natural e outros gases de petróleo,222.0,El Salvador,3068935.0,4.279,mirror
 2007.0,271129,Gás natural e outros gases de petróleo,24.0,Angola,5243.0,100.0,mirror
-2007.0,290110,Acyclic hydrocarbons; saturated,842.0,EUA,4700.0,100.0,mirror
-2007.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,223515690.0,62.557,mirror
-2007.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,103584293.0,28.991,mirror
-2007.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,22801000.0,6.381,mirror
-2007.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",56.0,Bélgica,3164882.0,0.886,mirror
-2007.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",251.0,França,2670934.0,0.748,mirror
-2007.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",24.0,Angola,1562003.0,0.437,mirror
+2007.0,290110,Hidrocarbonetos acíclicos,842.0,EUA,4700.0,100.0,mirror
+2007.0,290511,Álcoois acíclicos,842.0,EUA,223515690.0,62.557,mirror
+2007.0,290511,Álcoois acíclicos,528.0,Países Baixos,103584293.0,28.991,mirror
+2007.0,290511,Álcoois acíclicos,276.0,Alemanha,22801000.0,6.381,mirror
+2007.0,290511,Álcoois acíclicos,56.0,Bélgica,3164882.0,0.886,mirror
+2007.0,290511,Álcoois acíclicos,251.0,França,2670934.0,0.748,mirror
+2007.0,290511,Álcoois acíclicos,24.0,Angola,1562003.0,0.437,mirror
 2007.0,440349,Madeira em bruto,156.0,China,88085009.0,80.416,mirror
 2007.0,440349,Madeira em bruto,276.0,Alemanha,6487000.0,5.922,mirror
 2007.0,440349,Madeira em bruto,251.0,França,5318535.0,4.856,mirror
@@ -350,32 +350,32 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2007.0,440729,Madeira serrada,380.0,Itália,65243.0,18.476,mirror
 2007.0,440729,Madeira serrada,504.0,Marrocos,36226.0,10.258,mirror
 2007.0,440729,Madeira serrada,251.0,França,28823.0,8.162,mirror
-2007.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,12445515.0,50.649,mirror
-2007.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,8523382.0,34.687,mirror
-2007.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,3512447.0,14.295,mirror
-2007.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",276.0,Alemanha,52000.0,0.212,mirror
-2007.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",504.0,Marrocos,38656.0,0.157,mirror
-2007.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,251.0,França,20588.0,78.897,mirror
-2007.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,4882.0,18.708,mirror
-2007.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,266.0,Gabão,625.0,2.395,mirror
-2007.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,4300319.0,65.146,mirror
-2007.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,2087987.0,31.631,mirror
-2007.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,266.0,Gabão,101986.0,1.545,mirror
-2007.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,842.0,EUA,32839.0,0.497,mirror
-2007.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,20546.0,0.311,mirror
-2007.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,579.0,Noruega,20472.0,0.31,mirror
-2007.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,380.0,Itália,19945.0,0.302,mirror
-2007.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,360.0,Indonésia,8138.0,0.123,mirror
+2007.0,440839,Folhas de madeira para folheados,724.0,Espanha,12445515.0,50.649,mirror
+2007.0,440839,Folhas de madeira para folheados,251.0,França,8523382.0,34.687,mirror
+2007.0,440839,Folhas de madeira para folheados,380.0,Itália,3512447.0,14.295,mirror
+2007.0,440839,Folhas de madeira para folheados,276.0,Alemanha,52000.0,0.212,mirror
+2007.0,440839,Folhas de madeira para folheados,504.0,Marrocos,38656.0,0.157,mirror
+2007.0,720449,Sucata ferrosa,251.0,França,20588.0,78.897,mirror
+2007.0,720449,Sucata ferrosa,724.0,Espanha,4882.0,18.708,mirror
+2007.0,720449,Sucata ferrosa,266.0,Gabão,625.0,2.395,mirror
+2007.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,4300319.0,65.146,mirror
+2007.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,2087987.0,31.631,mirror
+2007.0,843143,Partes de máquinas de terraplanagem,266.0,Gabão,101986.0,1.545,mirror
+2007.0,843143,Partes de máquinas de terraplanagem,842.0,EUA,32839.0,0.497,mirror
+2007.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,20546.0,0.311,mirror
+2007.0,843143,Partes de máquinas de terraplanagem,579.0,Noruega,20472.0,0.31,mirror
+2007.0,843143,Partes de máquinas de terraplanagem,380.0,Itália,19945.0,0.302,mirror
+2007.0,843143,Partes de máquinas de terraplanagem,360.0,Indonésia,8138.0,0.123,mirror
 2007.0,890190,Navios,178.0,Congo,4645757.0,100.0,mirror
-2007.0,890520,Floating or submersible drilling or production platforms,178.0,Congo,31295236.0,100.0,mirror
-2007.0,999999,Commodities not specified according to kind,528.0,Países Baixos,189343634.0,85.819,mirror
-2007.0,999999,Commodities not specified according to kind,826.0,Reino Unido,17492947.0,7.929,mirror
-2007.0,999999,Commodities not specified according to kind,842.0,EUA,13640350.0,6.182,mirror
-2007.0,999999,Commodities not specified according to kind,348.0,Hungria,67000.0,0.03,mirror
-2007.0,999999,Commodities not specified according to kind,724.0,Espanha,34471.0,0.016,mirror
-2007.0,999999,Commodities not specified according to kind,266.0,Gabão,25835.0,0.012,mirror
-2007.0,999999,Commodities not specified according to kind,24.0,Angola,15260.0,0.007,mirror
-2007.0,999999,Commodities not specified according to kind,710.0,África do Sul,5893.0,0.003,mirror
+2007.0,890520,Plataformas e dragas,178.0,Congo,31295236.0,100.0,mirror
+2007.0,999999,Mercadorias não especificadas,528.0,Países Baixos,189343634.0,85.819,mirror
+2007.0,999999,Mercadorias não especificadas,826.0,Reino Unido,17492947.0,7.929,mirror
+2007.0,999999,Mercadorias não especificadas,842.0,EUA,13640350.0,6.182,mirror
+2007.0,999999,Mercadorias não especificadas,348.0,Hungria,67000.0,0.03,mirror
+2007.0,999999,Mercadorias não especificadas,724.0,Espanha,34471.0,0.016,mirror
+2007.0,999999,Mercadorias não especificadas,266.0,Gabão,25835.0,0.012,mirror
+2007.0,999999,Mercadorias não especificadas,24.0,Angola,15260.0,0.007,mirror
+2007.0,999999,Mercadorias não especificadas,710.0,África do Sul,5893.0,0.003,mirror
 2008.0,180100,Cacau,724.0,Espanha,3490957.0,100.0,mirror
 2008.0,270900,Petróleo bruto,842.0,EUA,3188041335.0,26.17,mirror
 2008.0,270900,Petróleo bruto,724.0,Espanha,2721109685.0,22.337,mirror
@@ -417,10 +417,10 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2008.0,271113,Gás natural e outros gases de petróleo,724.0,Espanha,8208545.0,7.299,mirror
 2008.0,271119,Gás natural e outros gases de petróleo,792.0,Turquia,821000.0,100.0,mirror
 2008.0,271129,Gás natural e outros gases de petróleo,24.0,Angola,5336.0,100.0,mirror
-2008.0,290110,Acyclic hydrocarbons; saturated,842.0,EUA,18182.0,100.0,mirror
-2008.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,203444481.0,60.421,mirror
-2008.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,121400573.0,36.055,mirror
-2008.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,11866892.0,3.524,mirror
+2008.0,290110,Hidrocarbonetos acíclicos,842.0,EUA,18182.0,100.0,mirror
+2008.0,290511,Álcoois acíclicos,842.0,EUA,203444481.0,60.421,mirror
+2008.0,290511,Álcoois acíclicos,528.0,Países Baixos,121400573.0,36.055,mirror
+2008.0,290511,Álcoois acíclicos,276.0,Alemanha,11866892.0,3.524,mirror
 2008.0,440349,Madeira em bruto,156.0,China,52985189.0,83.701,mirror
 2008.0,440349,Madeira em bruto,251.0,França,3543744.0,5.598,mirror
 2008.0,440349,Madeira em bruto,276.0,Alemanha,3401187.0,5.373,mirror
@@ -440,32 +440,32 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2008.0,440729,Madeira serrada,504.0,Marrocos,97503.0,13.092,mirror
 2008.0,440729,Madeira serrada,724.0,Espanha,62597.0,8.405,mirror
 2008.0,440729,Madeira serrada,380.0,Itália,23226.0,3.119,mirror
-2008.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,14250549.0,58.23,mirror
-2008.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,6391164.0,26.115,mirror
-2008.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,3726456.0,15.227,mirror
-2008.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",504.0,Marrocos,104817.0,0.428,mirror
+2008.0,440839,Folhas de madeira para folheados,724.0,Espanha,14250549.0,58.23,mirror
+2008.0,440839,Folhas de madeira para folheados,380.0,Itália,6391164.0,26.115,mirror
+2008.0,440839,Folhas de madeira para folheados,251.0,França,3726456.0,15.227,mirror
+2008.0,440839,Folhas de madeira para folheados,504.0,Marrocos,104817.0,0.428,mirror
 2008.0,710812,Ouro,784.0,Emirados Árabes Unidos,5850904.0,100.0,mirror
-2008.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,792.0,Turquia,622358.0,93.881,mirror
-2008.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,35806.0,5.401,mirror
-2008.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,4757.0,0.718,mirror
-2008.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,4867907.0,62.572,mirror
-2008.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,1168934.0,15.025,mirror
-2008.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,706192.0,9.077,mirror
-2008.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,266.0,Gabão,429341.0,5.519,mirror
-2008.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,566.0,Nigéria,313466.0,4.029,mirror
-2008.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,122881.0,1.58,mirror
-2008.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,710.0,África do Sul,49665.0,0.638,mirror
-2008.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,384.0,Costa do Marfim,39245.0,0.504,mirror
-2008.0,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",398.0,Cazaquistão,200000.0,100.0,mirror
+2008.0,720449,Sucata ferrosa,792.0,Turquia,622358.0,93.881,mirror
+2008.0,720449,Sucata ferrosa,699.0,Índia,35806.0,5.401,mirror
+2008.0,720449,Sucata ferrosa,120.0,Camarões,4757.0,0.718,mirror
+2008.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,4867907.0,62.572,mirror
+2008.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,1168934.0,15.025,mirror
+2008.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,706192.0,9.077,mirror
+2008.0,843143,Partes de máquinas de terraplanagem,266.0,Gabão,429341.0,5.519,mirror
+2008.0,843143,Partes de máquinas de terraplanagem,566.0,Nigéria,313466.0,4.029,mirror
+2008.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,122881.0,1.58,mirror
+2008.0,843143,Partes de máquinas de terraplanagem,710.0,África do Sul,49665.0,0.638,mirror
+2008.0,843143,Partes de máquinas de terraplanagem,384.0,Costa do Marfim,39245.0,0.504,mirror
+2008.0,880240,Helicópteros e aviões,398.0,Cazaquistão,200000.0,100.0,mirror
 2008.0,890190,Navios,178.0,Congo,43905844.0,100.0,mirror
-2008.0,999999,Commodities not specified according to kind,842.0,EUA,17116312.0,95.412,mirror
-2008.0,999999,Commodities not specified according to kind,24.0,Angola,471984.0,2.631,mirror
-2008.0,999999,Commodities not specified according to kind,276.0,Alemanha,176750.0,0.985,mirror
-2008.0,999999,Commodities not specified according to kind,826.0,Reino Unido,157376.0,0.877,mirror
-2008.0,999999,Commodities not specified according to kind,724.0,Espanha,14240.0,0.079,mirror
-2008.0,999999,Commodities not specified according to kind,458.0,Malásia,1253.0,0.007,mirror
-2008.0,999999,Commodities not specified according to kind,376.0,Israel,1000.0,0.006,mirror
-2008.0,999999,Commodities not specified according to kind,266.0,Gabão,480.0,0.003,mirror
+2008.0,999999,Mercadorias não especificadas,842.0,EUA,17116312.0,95.412,mirror
+2008.0,999999,Mercadorias não especificadas,24.0,Angola,471984.0,2.631,mirror
+2008.0,999999,Mercadorias não especificadas,276.0,Alemanha,176750.0,0.985,mirror
+2008.0,999999,Mercadorias não especificadas,826.0,Reino Unido,157376.0,0.877,mirror
+2008.0,999999,Mercadorias não especificadas,724.0,Espanha,14240.0,0.079,mirror
+2008.0,999999,Mercadorias não especificadas,458.0,Malásia,1253.0,0.007,mirror
+2008.0,999999,Mercadorias não especificadas,376.0,Israel,1000.0,0.006,mirror
+2008.0,999999,Mercadorias não especificadas,266.0,Gabão,480.0,0.003,mirror
 2009.0,180100,Cacau,724.0,Espanha,2753399.0,100.0,mirror
 2009.0,270900,Petróleo bruto,842.0,EUA,2460669115.0,38.542,mirror
 2009.0,270900,Petróleo bruto,156.0,China,1031637635.0,16.159,mirror
@@ -505,13 +505,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2009.0,271119,Gás natural e outros gases de petróleo,484.0,México,6093006.0,19.094,mirror
 2009.0,271119,Gás natural e outros gases de petróleo,340.0,Honduras,1513528.0,4.743,mirror
 2009.0,271119,Gás natural e outros gases de petróleo,84.0,Belize,11079.0,0.035,mirror
-2009.0,290110,Acyclic hydrocarbons; saturated,842.0,EUA,63426.0,100.0,mirror
-2009.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,89065449.0,49.986,mirror
-2009.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,79525857.0,44.632,mirror
-2009.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,4285238.0,2.405,mirror
-2009.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",24.0,Angola,2278989.0,1.279,mirror
-2009.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",616.0,Polónia,1653783.0,0.928,mirror
-2009.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,1372488.0,0.77,mirror
+2009.0,290110,Hidrocarbonetos acíclicos,842.0,EUA,63426.0,100.0,mirror
+2009.0,290511,Álcoois acíclicos,528.0,Países Baixos,89065449.0,49.986,mirror
+2009.0,290511,Álcoois acíclicos,842.0,EUA,79525857.0,44.632,mirror
+2009.0,290511,Álcoois acíclicos,276.0,Alemanha,4285238.0,2.405,mirror
+2009.0,290511,Álcoois acíclicos,24.0,Angola,2278989.0,1.279,mirror
+2009.0,290511,Álcoois acíclicos,616.0,Polónia,1653783.0,0.928,mirror
+2009.0,290511,Álcoois acíclicos,724.0,Espanha,1372488.0,0.77,mirror
 2009.0,440349,Madeira em bruto,156.0,China,2424593.0,64.387,mirror
 2009.0,440349,Madeira em bruto,251.0,França,717574.0,19.056,mirror
 2009.0,440349,Madeira em bruto,380.0,Itália,578722.0,15.368,mirror
@@ -529,34 +529,34 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2009.0,440729,Madeira serrada,380.0,Itália,58266.0,4.172,mirror
 2009.0,440729,Madeira serrada,620.0,Portugal,47309.0,3.387,mirror
 2009.0,440729,Madeira serrada,422.0,Líbano,7427.0,0.532,mirror
-2009.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,2714520.0,48.253,mirror
-2009.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,1819137.0,32.337,mirror
-2009.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,942423.0,16.752,mirror
-2009.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",620.0,Portugal,102160.0,1.816,mirror
-2009.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",842.0,EUA,47359.0,0.842,mirror
-2009.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,72380.0,43.786,mirror
-2009.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490.0,Taiwan (Prov. China),69590.0,42.098,mirror
-2009.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,410.0,Coreia do Sul,17800.0,10.768,mirror
-2009.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,5534.0,3.348,mirror
-2009.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,7687293.0,86.731,mirror
-2009.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,266.0,Gabão,720338.0,8.127,mirror
-2009.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,384.0,Costa do Marfim,323389.0,3.649,mirror
-2009.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,75421.0,0.851,mirror
-2009.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,31298.0,0.353,mirror
-2009.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,834.0,Tanzânia,16341.0,0.184,mirror
-2009.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,620.0,Portugal,7688.0,0.087,mirror
-2009.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,120.0,Camarões,1656.0,0.019,mirror
+2009.0,440839,Folhas de madeira para folheados,724.0,Espanha,2714520.0,48.253,mirror
+2009.0,440839,Folhas de madeira para folheados,380.0,Itália,1819137.0,32.337,mirror
+2009.0,440839,Folhas de madeira para folheados,251.0,França,942423.0,16.752,mirror
+2009.0,440839,Folhas de madeira para folheados,620.0,Portugal,102160.0,1.816,mirror
+2009.0,440839,Folhas de madeira para folheados,842.0,EUA,47359.0,0.842,mirror
+2009.0,720449,Sucata ferrosa,699.0,Índia,72380.0,43.786,mirror
+2009.0,720449,Sucata ferrosa,490.0,Taiwan (Prov. China),69590.0,42.098,mirror
+2009.0,720449,Sucata ferrosa,410.0,Coreia do Sul,17800.0,10.768,mirror
+2009.0,720449,Sucata ferrosa,120.0,Camarões,5534.0,3.348,mirror
+2009.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,7687293.0,86.731,mirror
+2009.0,843143,Partes de máquinas de terraplanagem,266.0,Gabão,720338.0,8.127,mirror
+2009.0,843143,Partes de máquinas de terraplanagem,384.0,Costa do Marfim,323389.0,3.649,mirror
+2009.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,75421.0,0.851,mirror
+2009.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,31298.0,0.353,mirror
+2009.0,843143,Partes de máquinas de terraplanagem,834.0,Tanzânia,16341.0,0.184,mirror
+2009.0,843143,Partes de máquinas de terraplanagem,620.0,Portugal,7688.0,0.087,mirror
+2009.0,843143,Partes de máquinas de terraplanagem,120.0,Camarões,1656.0,0.019,mirror
 2009.0,890190,Navios,178.0,Congo,277560.0,90.946,mirror
 2009.0,890190,Navios,24.0,Angola,27631.0,9.054,mirror
-2009.0,890520,Floating or submersible drilling or production platforms,178.0,Congo,281036856.0,100.0,mirror
-2009.0,999999,Commodities not specified according to kind,826.0,Reino Unido,15982073.0,49.038,mirror
-2009.0,999999,Commodities not specified according to kind,842.0,EUA,12530062.0,38.446,mirror
-2009.0,999999,Commodities not specified according to kind,528.0,Países Baixos,3192865.0,9.797,mirror
-2009.0,999999,Commodities not specified according to kind,276.0,Alemanha,364143.0,1.117,mirror
-2009.0,999999,Commodities not specified according to kind,208.0,Dinamarca,275313.0,0.845,mirror
-2009.0,999999,Commodities not specified according to kind,380.0,Itália,132144.0,0.405,mirror
-2009.0,999999,Commodities not specified according to kind,566.0,Nigéria,78313.0,0.24,mirror
-2009.0,999999,Commodities not specified according to kind,724.0,Espanha,21060.0,0.065,mirror
+2009.0,890520,Plataformas e dragas,178.0,Congo,281036856.0,100.0,mirror
+2009.0,999999,Mercadorias não especificadas,826.0,Reino Unido,15982073.0,49.038,mirror
+2009.0,999999,Mercadorias não especificadas,842.0,EUA,12530062.0,38.446,mirror
+2009.0,999999,Mercadorias não especificadas,528.0,Países Baixos,3192865.0,9.797,mirror
+2009.0,999999,Mercadorias não especificadas,276.0,Alemanha,364143.0,1.117,mirror
+2009.0,999999,Mercadorias não especificadas,208.0,Dinamarca,275313.0,0.845,mirror
+2009.0,999999,Mercadorias não especificadas,380.0,Itália,132144.0,0.405,mirror
+2009.0,999999,Mercadorias não especificadas,566.0,Nigéria,78313.0,0.24,mirror
+2009.0,999999,Mercadorias não especificadas,724.0,Espanha,21060.0,0.065,mirror
 2010.0,180100,Cacau,724.0,Espanha,2470312.0,100.0,mirror
 2010.0,270900,Petróleo bruto,842.0,EUA,2019019907.0,28.338,mirror
 2010.0,270900,Petróleo bruto,724.0,Espanha,943565327.0,13.243,mirror
@@ -593,11 +593,11 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2010.0,271113,Gás natural e outros gases de petróleo,854.0,Burkina Faso,834140.0,1.141,mirror
 2010.0,271113,Gás natural e outros gases de petróleo,266.0,Gabão,799766.0,1.094,mirror
 2010.0,271119,Gás natural e outros gases de petróleo,222.0,El Salvador,33091.0,100.0,mirror
-2010.0,290110,Acyclic hydrocarbons; saturated,842.0,EUA,26483755.0,100.0,mirror
-2010.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,120451126.0,94.108,mirror
-2010.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,3654995.0,2.856,mirror
-2010.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,3587778.0,2.803,mirror
-2010.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",24.0,Angola,298163.0,0.233,mirror
+2010.0,290110,Hidrocarbonetos acíclicos,842.0,EUA,26483755.0,100.0,mirror
+2010.0,290511,Álcoois acíclicos,842.0,EUA,120451126.0,94.108,mirror
+2010.0,290511,Álcoois acíclicos,276.0,Alemanha,3654995.0,2.856,mirror
+2010.0,290511,Álcoois acíclicos,724.0,Espanha,3587778.0,2.803,mirror
+2010.0,290511,Álcoois acíclicos,24.0,Angola,298163.0,0.233,mirror
 2010.0,440349,Madeira em bruto,156.0,China,59916283.0,95.169,mirror
 2010.0,440349,Madeira em bruto,251.0,França,1385123.0,2.2,mirror
 2010.0,440349,Madeira em bruto,276.0,Alemanha,1002599.0,1.592,mirror
@@ -617,34 +617,34 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2010.0,440729,Madeira serrada,276.0,Alemanha,46048.0,3.812,mirror
 2010.0,440729,Madeira serrada,504.0,Marrocos,36915.0,3.056,mirror
 2010.0,440729,Madeira serrada,724.0,Espanha,20799.0,1.722,mirror
-2010.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,6058535.0,52.52,mirror
-2010.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,3311040.0,28.703,mirror
-2010.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,2099670.0,18.202,mirror
-2010.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",620.0,Portugal,66411.0,0.576,mirror
+2010.0,440839,Folhas de madeira para folheados,724.0,Espanha,6058535.0,52.52,mirror
+2010.0,440839,Folhas de madeira para folheados,251.0,França,3311040.0,28.703,mirror
+2010.0,440839,Folhas de madeira para folheados,380.0,Itália,2099670.0,18.202,mirror
+2010.0,440839,Folhas de madeira para folheados,620.0,Portugal,66411.0,0.576,mirror
 2010.0,710812,Ouro,251.0,França,49672231.0,100.0,mirror
-2010.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,87623.0,82.632,mirror
-2010.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,504.0,Marrocos,10688.0,10.079,mirror
-2010.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,7729.0,7.289,mirror
-2010.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,266.0,Gabão,935336.0,36.436,mirror
-2010.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,871933.0,33.966,mirror
-2010.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,540970.0,21.074,mirror
-2010.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,834.0,Tanzânia,102542.0,3.995,mirror
-2010.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,579.0,Noruega,41992.0,1.636,mirror
-2010.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,35327.0,1.376,mirror
-2010.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,384.0,Costa do Marfim,24468.0,0.953,mirror
-2010.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,120.0,Camarões,10066.0,0.392,mirror
+2010.0,720449,Sucata ferrosa,699.0,Índia,87623.0,82.632,mirror
+2010.0,720449,Sucata ferrosa,504.0,Marrocos,10688.0,10.079,mirror
+2010.0,720449,Sucata ferrosa,120.0,Camarões,7729.0,7.289,mirror
+2010.0,843143,Partes de máquinas de terraplanagem,266.0,Gabão,935336.0,36.436,mirror
+2010.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,871933.0,33.966,mirror
+2010.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,540970.0,21.074,mirror
+2010.0,843143,Partes de máquinas de terraplanagem,834.0,Tanzânia,102542.0,3.995,mirror
+2010.0,843143,Partes de máquinas de terraplanagem,579.0,Noruega,41992.0,1.636,mirror
+2010.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,35327.0,1.376,mirror
+2010.0,843143,Partes de máquinas de terraplanagem,384.0,Costa do Marfim,24468.0,0.953,mirror
+2010.0,843143,Partes de máquinas de terraplanagem,120.0,Camarões,10066.0,0.392,mirror
 2010.0,890190,Navios,266.0,Gabão,2589664.0,90.711,mirror
 2010.0,890190,Navios,178.0,Congo,265184.0,9.289,mirror
-2010.0,890520,Floating or submersible drilling or production platforms,178.0,Congo,268505583.0,99.986,mirror
-2010.0,890520,Floating or submersible drilling or production platforms,288.0,Gana,37552.0,0.014,mirror
-2010.0,999999,Commodities not specified according to kind,528.0,Países Baixos,100179077.0,85.925,mirror
-2010.0,999999,Commodities not specified according to kind,826.0,Reino Unido,11924972.0,10.228,mirror
-2010.0,999999,Commodities not specified according to kind,842.0,EUA,4258835.0,3.653,mirror
-2010.0,999999,Commodities not specified according to kind,276.0,Alemanha,176184.0,0.151,mirror
-2010.0,999999,Commodities not specified according to kind,208.0,Dinamarca,21031.0,0.018,mirror
-2010.0,999999,Commodities not specified according to kind,392.0,Japão,20891.0,0.018,mirror
-2010.0,999999,Commodities not specified according to kind,724.0,Espanha,4639.0,0.004,mirror
-2010.0,999999,Commodities not specified according to kind,68.0,Bolívia,2675.0,0.002,mirror
+2010.0,890520,Plataformas e dragas,178.0,Congo,268505583.0,99.986,mirror
+2010.0,890520,Plataformas e dragas,288.0,Gana,37552.0,0.014,mirror
+2010.0,999999,Mercadorias não especificadas,528.0,Países Baixos,100179077.0,85.925,mirror
+2010.0,999999,Mercadorias não especificadas,826.0,Reino Unido,11924972.0,10.228,mirror
+2010.0,999999,Mercadorias não especificadas,842.0,EUA,4258835.0,3.653,mirror
+2010.0,999999,Mercadorias não especificadas,276.0,Alemanha,176184.0,0.151,mirror
+2010.0,999999,Mercadorias não especificadas,208.0,Dinamarca,21031.0,0.018,mirror
+2010.0,999999,Mercadorias não especificadas,392.0,Japão,20891.0,0.018,mirror
+2010.0,999999,Mercadorias não especificadas,724.0,Espanha,4639.0,0.004,mirror
+2010.0,999999,Mercadorias não especificadas,68.0,Bolívia,2675.0,0.002,mirror
 2011.0,180100,Cacau,724.0,Espanha,3005578.0,100.0,mirror
 2011.0,270900,Petróleo bruto,724.0,Espanha,1812897485.0,19.125,mirror
 2011.0,270900,Petróleo bruto,156.0,China,1448171363.0,15.277,mirror
@@ -681,12 +681,12 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2011.0,271113,Gás natural e outros gases de petróleo,854.0,Burkina Faso,3828462.0,3.815,mirror
 2011.0,271119,Gás natural e outros gases de petróleo,792.0,Turquia,348719.0,100.0,mirror
 2011.0,271129,Gás natural e outros gases de petróleo,842.0,EUA,10503.0,100.0,mirror
-2011.0,290110,Acyclic hydrocarbons; saturated,842.0,EUA,7198930.0,100.0,mirror
-2011.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,191520294.0,57.077,mirror
-2011.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,120699475.0,35.971,mirror
-2011.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,18271800.0,5.445,mirror
-2011.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,3816038.0,1.137,mirror
-2011.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",24.0,Angola,1242353.0,0.37,mirror
+2011.0,290110,Hidrocarbonetos acíclicos,842.0,EUA,7198930.0,100.0,mirror
+2011.0,290511,Álcoois acíclicos,528.0,Países Baixos,191520294.0,57.077,mirror
+2011.0,290511,Álcoois acíclicos,842.0,EUA,120699475.0,35.971,mirror
+2011.0,290511,Álcoois acíclicos,724.0,Espanha,18271800.0,5.445,mirror
+2011.0,290511,Álcoois acíclicos,276.0,Alemanha,3816038.0,1.137,mirror
+2011.0,290511,Álcoois acíclicos,24.0,Angola,1242353.0,0.37,mirror
 2011.0,440349,Madeira em bruto,156.0,China,93602769.0,93.429,mirror
 2011.0,440349,Madeira em bruto,380.0,Itália,3032203.0,3.027,mirror
 2011.0,440349,Madeira em bruto,724.0,Espanha,2121083.0,2.117,mirror
@@ -706,36 +706,36 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2011.0,440729,Madeira serrada,504.0,Marrocos,38890.0,2.631,mirror
 2011.0,440729,Madeira serrada,792.0,Turquia,33160.0,2.243,mirror
 2011.0,440729,Madeira serrada,276.0,Alemanha,31465.0,2.129,mirror
-2011.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,7898414.0,69.726,mirror
-2011.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,2558011.0,22.582,mirror
-2011.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,418510.0,3.695,mirror
-2011.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,239247.0,2.112,mirror
-2011.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",642.0,Roménia,149682.0,1.321,mirror
-2011.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",620.0,Portugal,63856.0,0.564,mirror
+2011.0,440839,Folhas de madeira para folheados,724.0,Espanha,7898414.0,69.726,mirror
+2011.0,440839,Folhas de madeira para folheados,251.0,França,2558011.0,22.582,mirror
+2011.0,440839,Folhas de madeira para folheados,156.0,China,418510.0,3.695,mirror
+2011.0,440839,Folhas de madeira para folheados,380.0,Itália,239247.0,2.112,mirror
+2011.0,440839,Folhas de madeira para folheados,642.0,Roménia,149682.0,1.321,mirror
+2011.0,440839,Folhas de madeira para folheados,620.0,Portugal,63856.0,0.564,mirror
 2011.0,710812,Ouro,251.0,França,31029794.0,100.0,mirror
-2011.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,260120.0,52.634,mirror
-2011.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,203.0,Chéquia,234083.0,47.366,mirror
-2011.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,1925997.0,41.147,mirror
-2011.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,266.0,Gabão,1086598.0,23.214,mirror
-2011.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,734281.0,15.687,mirror
-2011.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,638158.0,13.633,mirror
-2011.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,380.0,Itália,115113.0,2.459,mirror
-2011.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702.0,Singapura,49618.0,1.06,mirror
-2011.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,46288.0,0.989,mirror
-2011.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,376.0,Israel,46000.0,0.983,mirror
+2011.0,720449,Sucata ferrosa,699.0,Índia,260120.0,52.634,mirror
+2011.0,720449,Sucata ferrosa,203.0,Chéquia,234083.0,47.366,mirror
+2011.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,1925997.0,41.147,mirror
+2011.0,843143,Partes de máquinas de terraplanagem,266.0,Gabão,1086598.0,23.214,mirror
+2011.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,734281.0,15.687,mirror
+2011.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,638158.0,13.633,mirror
+2011.0,843143,Partes de máquinas de terraplanagem,380.0,Itália,115113.0,2.459,mirror
+2011.0,843143,Partes de máquinas de terraplanagem,702.0,Singapura,49618.0,1.06,mirror
+2011.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,46288.0,0.989,mirror
+2011.0,843143,Partes de máquinas de terraplanagem,376.0,Israel,46000.0,0.983,mirror
 2011.0,890190,Navios,178.0,Congo,120364252.0,99.549,mirror
 2011.0,890190,Navios,566.0,Nigéria,545434.0,0.451,mirror
-2011.0,890520,Floating or submersible drilling or production platforms,178.0,Congo,263863325.0,100.0,mirror
-2011.0,890590,"Vessels; light, fire-floats, floating cranes and other vessels, the navigability of which is subsidiary to their main function, floating docks",178.0,Congo,31995795.0,100.0,mirror
-2011.0,890690,"Vessels; other, including lifeboats other than rowing boats, other than warships",826.0,Reino Unido,5772.0,100.0,mirror
-2011.0,999999,Commodities not specified according to kind,826.0,Reino Unido,21711211.0,69.782,mirror
-2011.0,999999,Commodities not specified according to kind,842.0,EUA,7914054.0,25.437,mirror
-2011.0,999999,Commodities not specified according to kind,276.0,Alemanha,1200655.0,3.859,mirror
-2011.0,999999,Commodities not specified according to kind,251.0,França,235438.0,0.757,mirror
-2011.0,999999,Commodities not specified according to kind,724.0,Espanha,25248.0,0.081,mirror
-2011.0,999999,Commodities not specified according to kind,702.0,Singapura,9307.0,0.03,mirror
-2011.0,999999,Commodities not specified according to kind,208.0,Dinamarca,5604.0,0.018,mirror
-2011.0,999999,Commodities not specified according to kind,68.0,Bolívia,4484.0,0.014,mirror
+2011.0,890520,Plataformas e dragas,178.0,Congo,263863325.0,100.0,mirror
+2011.0,890590,Plataformas e dragas,178.0,Congo,31995795.0,100.0,mirror
+2011.0,890690,Outros navios,826.0,Reino Unido,5772.0,100.0,mirror
+2011.0,999999,Mercadorias não especificadas,826.0,Reino Unido,21711211.0,69.782,mirror
+2011.0,999999,Mercadorias não especificadas,842.0,EUA,7914054.0,25.437,mirror
+2011.0,999999,Mercadorias não especificadas,276.0,Alemanha,1200655.0,3.859,mirror
+2011.0,999999,Mercadorias não especificadas,251.0,França,235438.0,0.757,mirror
+2011.0,999999,Mercadorias não especificadas,724.0,Espanha,25248.0,0.081,mirror
+2011.0,999999,Mercadorias não especificadas,702.0,Singapura,9307.0,0.03,mirror
+2011.0,999999,Mercadorias não especificadas,208.0,Dinamarca,5604.0,0.018,mirror
+2011.0,999999,Mercadorias não especificadas,68.0,Bolívia,4484.0,0.014,mirror
 2012.0,180100,Cacau,724.0,Espanha,1356468.0,99.995,mirror
 2012.0,180100,Cacau,124.0,Canadá,67.0,0.005,mirror
 2012.0,270900,Petróleo bruto,251.0,França,2465679346.0,21.583,mirror
@@ -772,10 +772,10 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2012.0,271113,Gás natural e outros gases de petróleo,204.0,Benim,2141242.0,2.807,mirror
 2012.0,271113,Gás natural e outros gases de petróleo,132.0,Cabo Verde,685617.0,0.899,mirror
 2012.0,271129,Gás natural e outros gases de petróleo,826.0,Reino Unido,6337.0,100.0,mirror
-2012.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,220763381.0,59.919,mirror
-2012.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,111101172.0,30.155,mirror
-2012.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,21797635.0,5.916,mirror
-2012.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,14774180.0,4.01,mirror
+2012.0,290511,Álcoois acíclicos,528.0,Países Baixos,220763381.0,59.919,mirror
+2012.0,290511,Álcoois acíclicos,842.0,EUA,111101172.0,30.155,mirror
+2012.0,290511,Álcoois acíclicos,276.0,Alemanha,21797635.0,5.916,mirror
+2012.0,290511,Álcoois acíclicos,724.0,Espanha,14774180.0,4.01,mirror
 2012.0,440349,Madeira em bruto,156.0,China,94855165.0,98.203,mirror
 2012.0,440349,Madeira em bruto,724.0,Espanha,1264743.0,1.309,mirror
 2012.0,440349,Madeira em bruto,380.0,Itália,257718.0,0.267,mirror
@@ -794,37 +794,37 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2012.0,440729,Madeira serrada,504.0,Marrocos,184219.0,4.977,mirror
 2012.0,440729,Madeira serrada,251.0,França,156904.0,4.239,mirror
 2012.0,440729,Madeira serrada,380.0,Itália,83764.0,2.263,mirror
-2012.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,8372280.0,63.036,mirror
-2012.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,3454076.0,26.006,mirror
-2012.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,554836.0,4.177,mirror
-2012.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",504.0,Marrocos,383092.0,2.884,mirror
-2012.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",410.0,Coreia do Sul,163002.0,1.227,mirror
-2012.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",842.0,EUA,117757.0,0.887,mirror
-2012.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",642.0,Roménia,86081.0,0.648,mirror
-2012.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,77953.0,0.587,mirror
+2012.0,440839,Folhas de madeira para folheados,724.0,Espanha,8372280.0,63.036,mirror
+2012.0,440839,Folhas de madeira para folheados,251.0,França,3454076.0,26.006,mirror
+2012.0,440839,Folhas de madeira para folheados,380.0,Itália,554836.0,4.177,mirror
+2012.0,440839,Folhas de madeira para folheados,504.0,Marrocos,383092.0,2.884,mirror
+2012.0,440839,Folhas de madeira para folheados,410.0,Coreia do Sul,163002.0,1.227,mirror
+2012.0,440839,Folhas de madeira para folheados,842.0,EUA,117757.0,0.887,mirror
+2012.0,440839,Folhas de madeira para folheados,642.0,Roménia,86081.0,0.648,mirror
+2012.0,440839,Folhas de madeira para folheados,156.0,China,77953.0,0.587,mirror
 2012.0,710812,Ouro,251.0,França,12023473.0,100.0,mirror
-2012.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,4153719.0,98.532,mirror
-2012.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490.0,Taiwan (Prov. China),46805.0,1.11,mirror
-2012.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,14361.0,0.341,mirror
-2012.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,725.0,0.017,mirror
-2012.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702.0,Singapura,2102192.0,54.094,mirror
-2012.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,1348017.0,34.687,mirror
-2012.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,566.0,Nigéria,216724.0,5.577,mirror
-2012.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,380.0,Itália,65817.0,1.694,mirror
-2012.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,484.0,México,48544.0,1.249,mirror
-2012.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,120.0,Camarões,46354.0,1.193,mirror
-2012.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,834.0,Tanzânia,25721.0,0.662,mirror
-2012.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,842.0,EUA,12596.0,0.324,mirror
-2012.0,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",620.0,Portugal,194943489.0,100.0,mirror
+2012.0,720449,Sucata ferrosa,699.0,Índia,4153719.0,98.532,mirror
+2012.0,720449,Sucata ferrosa,490.0,Taiwan (Prov. China),46805.0,1.11,mirror
+2012.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,14361.0,0.341,mirror
+2012.0,720449,Sucata ferrosa,120.0,Camarões,725.0,0.017,mirror
+2012.0,843143,Partes de máquinas de terraplanagem,702.0,Singapura,2102192.0,54.094,mirror
+2012.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,1348017.0,34.687,mirror
+2012.0,843143,Partes de máquinas de terraplanagem,566.0,Nigéria,216724.0,5.577,mirror
+2012.0,843143,Partes de máquinas de terraplanagem,380.0,Itália,65817.0,1.694,mirror
+2012.0,843143,Partes de máquinas de terraplanagem,484.0,México,48544.0,1.249,mirror
+2012.0,843143,Partes de máquinas de terraplanagem,120.0,Camarões,46354.0,1.193,mirror
+2012.0,843143,Partes de máquinas de terraplanagem,834.0,Tanzânia,25721.0,0.662,mirror
+2012.0,843143,Partes de máquinas de terraplanagem,842.0,EUA,12596.0,0.324,mirror
+2012.0,880240,Helicópteros e aviões,620.0,Portugal,194943489.0,100.0,mirror
 2012.0,890190,Navios,178.0,Congo,52325071.0,100.0,mirror
-2012.0,999999,Commodities not specified according to kind,826.0,Reino Unido,21421097.0,71.577,mirror
-2012.0,999999,Commodities not specified according to kind,842.0,EUA,8017685.0,26.79,mirror
-2012.0,999999,Commodities not specified according to kind,251.0,França,247144.0,0.826,mirror
-2012.0,999999,Commodities not specified according to kind,276.0,Alemanha,124557.0,0.416,mirror
-2012.0,999999,Commodities not specified according to kind,702.0,Singapura,64843.0,0.217,mirror
-2012.0,999999,Commodities not specified according to kind,724.0,Espanha,16653.0,0.056,mirror
-2012.0,999999,Commodities not specified according to kind,266.0,Gabão,13075.0,0.044,mirror
-2012.0,999999,Commodities not specified according to kind,380.0,Itália,10997.0,0.037,mirror
+2012.0,999999,Mercadorias não especificadas,826.0,Reino Unido,21421097.0,71.577,mirror
+2012.0,999999,Mercadorias não especificadas,842.0,EUA,8017685.0,26.79,mirror
+2012.0,999999,Mercadorias não especificadas,251.0,França,247144.0,0.826,mirror
+2012.0,999999,Mercadorias não especificadas,276.0,Alemanha,124557.0,0.416,mirror
+2012.0,999999,Mercadorias não especificadas,702.0,Singapura,64843.0,0.217,mirror
+2012.0,999999,Mercadorias não especificadas,724.0,Espanha,16653.0,0.056,mirror
+2012.0,999999,Mercadorias não especificadas,266.0,Gabão,13075.0,0.044,mirror
+2012.0,999999,Mercadorias não especificadas,380.0,Itália,10997.0,0.037,mirror
 2013.0,180100,Cacau,724.0,Espanha,1407289.0,100.0,mirror
 2013.0,270900,Petróleo bruto,156.0,China,1962406823.0,20.002,mirror
 2013.0,270900,Petróleo bruto,826.0,Reino Unido,1830193048.0,18.655,mirror
@@ -858,11 +858,11 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2013.0,271113,Gás natural e outros gases de petróleo,266.0,Gabão,4170998.0,3.094,mirror
 2013.0,271113,Gás natural e outros gases de petróleo,686.0,Senegal,1592.0,0.001,mirror
 2013.0,271119,Gás natural e outros gases de petróleo,702.0,Singapura,470917730.0,100.0,mirror
-2013.0,290110,Acyclic hydrocarbons; saturated,842.0,EUA,74205.0,100.0,mirror
-2013.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,282603216.0,56.468,mirror
-2013.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,133418047.0,26.659,mirror
-2013.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,61393658.0,12.267,mirror
-2013.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,23046918.0,4.605,mirror
+2013.0,290110,Hidrocarbonetos acíclicos,842.0,EUA,74205.0,100.0,mirror
+2013.0,290511,Álcoois acíclicos,528.0,Países Baixos,282603216.0,56.468,mirror
+2013.0,290511,Álcoois acíclicos,842.0,EUA,133418047.0,26.659,mirror
+2013.0,290511,Álcoois acíclicos,276.0,Alemanha,61393658.0,12.267,mirror
+2013.0,290511,Álcoois acíclicos,724.0,Espanha,23046918.0,4.605,mirror
 2013.0,440349,Madeira em bruto,156.0,China,106036625.0,98.32,mirror
 2013.0,440349,Madeira em bruto,251.0,França,1292589.0,1.199,mirror
 2013.0,440349,Madeira em bruto,300.0,Grécia,258346.0,0.24,mirror
@@ -882,35 +882,35 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2013.0,440729,Madeira serrada,251.0,França,79497.0,7.98,mirror
 2013.0,440729,Madeira serrada,32.0,Argentina,30896.0,3.101,mirror
 2013.0,440729,Madeira serrada,724.0,Espanha,24266.0,2.436,mirror
-2013.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,10884149.0,78.208,mirror
-2013.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",410.0,Coreia do Sul,1175060.0,8.443,mirror
-2013.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",251.0,França,982185.0,7.058,mirror
-2013.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,731501.0,5.256,mirror
-2013.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",504.0,Marrocos,123425.0,0.887,mirror
-2013.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",528.0,Países Baixos,20535.0,0.148,mirror
+2013.0,440839,Folhas de madeira para folheados,724.0,Espanha,10884149.0,78.208,mirror
+2013.0,440839,Folhas de madeira para folheados,410.0,Coreia do Sul,1175060.0,8.443,mirror
+2013.0,440839,Folhas de madeira para folheados,251.0,França,982185.0,7.058,mirror
+2013.0,440839,Folhas de madeira para folheados,380.0,Itália,731501.0,5.256,mirror
+2013.0,440839,Folhas de madeira para folheados,504.0,Marrocos,123425.0,0.887,mirror
+2013.0,440839,Folhas de madeira para folheados,528.0,Países Baixos,20535.0,0.148,mirror
 2013.0,710812,Ouro,251.0,França,21963596.0,96.108,mirror
 2013.0,710812,Ouro,784.0,Emirados Árabes Unidos,889480.0,3.892,mirror
-2013.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,3268265.0,94.447,mirror
-2013.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,192167.0,5.553,mirror
-2013.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,733460.0,82.501,mirror
-2013.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,74209.0,8.347,mirror
-2013.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,53766.0,6.048,mirror
-2013.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702.0,Singapura,18218.0,2.049,mirror
-2013.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,251.0,França,6948.0,0.782,mirror
-2013.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,959.0,0.108,mirror
-2013.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,710.0,África do Sul,787.0,0.088,mirror
-2013.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,516.0,Namíbia,682.0,0.077,mirror
+2013.0,720449,Sucata ferrosa,699.0,Índia,3268265.0,94.447,mirror
+2013.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,192167.0,5.553,mirror
+2013.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,733460.0,82.501,mirror
+2013.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,74209.0,8.347,mirror
+2013.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,53766.0,6.048,mirror
+2013.0,843143,Partes de máquinas de terraplanagem,702.0,Singapura,18218.0,2.049,mirror
+2013.0,843143,Partes de máquinas de terraplanagem,251.0,França,6948.0,0.782,mirror
+2013.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,959.0,0.108,mirror
+2013.0,843143,Partes de máquinas de terraplanagem,710.0,África do Sul,787.0,0.088,mirror
+2013.0,843143,Partes de máquinas de terraplanagem,516.0,Namíbia,682.0,0.077,mirror
 2013.0,890190,Navios,178.0,Congo,9631925.0,100.0,mirror
-2013.0,890590,"Vessels; light, fire-floats, floating cranes and other vessels, the navigability of which is subsidiary to their main function, floating docks",251.0,França,645.0,100.0,mirror
-2013.0,890690,"Vessels; other, including lifeboats other than rowing boats, other than warships",178.0,Congo,209477780.0,100.0,mirror
-2013.0,999999,Commodities not specified according to kind,826.0,Reino Unido,13545766.0,51.154,mirror
-2013.0,999999,Commodities not specified according to kind,842.0,EUA,10475368.0,39.559,mirror
-2013.0,999999,Commodities not specified according to kind,288.0,Gana,2061240.0,7.784,mirror
-2013.0,999999,Commodities not specified according to kind,251.0,França,206896.0,0.781,mirror
-2013.0,999999,Commodities not specified according to kind,724.0,Espanha,70182.0,0.265,mirror
-2013.0,999999,Commodities not specified according to kind,540.0,New Caledonia,66703.0,0.252,mirror
-2013.0,999999,Commodities not specified according to kind,384.0,Costa do Marfim,17993.0,0.068,mirror
-2013.0,999999,Commodities not specified according to kind,276.0,Alemanha,12386.0,0.047,mirror
+2013.0,890590,Plataformas e dragas,251.0,França,645.0,100.0,mirror
+2013.0,890690,Outros navios,178.0,Congo,209477780.0,100.0,mirror
+2013.0,999999,Mercadorias não especificadas,826.0,Reino Unido,13545766.0,51.154,mirror
+2013.0,999999,Mercadorias não especificadas,842.0,EUA,10475368.0,39.559,mirror
+2013.0,999999,Mercadorias não especificadas,288.0,Gana,2061240.0,7.784,mirror
+2013.0,999999,Mercadorias não especificadas,251.0,França,206896.0,0.781,mirror
+2013.0,999999,Mercadorias não especificadas,724.0,Espanha,70182.0,0.265,mirror
+2013.0,999999,Mercadorias não especificadas,540.0,New Caledonia,66703.0,0.252,mirror
+2013.0,999999,Mercadorias não especificadas,384.0,Costa do Marfim,17993.0,0.068,mirror
+2013.0,999999,Mercadorias não especificadas,276.0,Alemanha,12386.0,0.047,mirror
 2014.0,180100,Cacau,724.0,Espanha,1747949.0,99.981,mirror
 2014.0,180100,Cacau,56.0,Bélgica,332.0,0.019,mirror
 2014.0,270900,Petróleo bruto,156.0,China,2463839213.0,27.73,mirror
@@ -948,10 +948,10 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2014.0,271113,Gás natural e outros gases de petróleo,686.0,Senegal,2194531.0,2.209,mirror
 2014.0,271113,Gás natural e outros gases de petróleo,710.0,África do Sul,2145629.0,2.159,mirror
 2014.0,271113,Gás natural e outros gases de petróleo,132.0,Cabo Verde,1174186.0,1.182,mirror
-2014.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,233487688.0,54.038,mirror
-2014.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,130616067.0,30.23,mirror
-2014.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,36972120.0,8.557,mirror
-2014.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,31002177.0,7.175,mirror
+2014.0,290511,Álcoois acíclicos,528.0,Países Baixos,233487688.0,54.038,mirror
+2014.0,290511,Álcoois acíclicos,842.0,EUA,130616067.0,30.23,mirror
+2014.0,290511,Álcoois acíclicos,276.0,Alemanha,36972120.0,8.557,mirror
+2014.0,290511,Álcoois acíclicos,724.0,Espanha,31002177.0,7.175,mirror
 2014.0,440349,Madeira em bruto,156.0,China,127848100.0,97.251,mirror
 2014.0,440349,Madeira em bruto,251.0,França,2562125.0,1.949,mirror
 2014.0,440349,Madeira em bruto,792.0,Turquia,329427.0,0.251,mirror
@@ -971,29 +971,29 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2014.0,440729,Madeira serrada,784.0,Emirados Árabes Unidos,71984.0,15.615,mirror
 2014.0,440729,Madeira serrada,380.0,Itália,13726.0,2.977,mirror
 2014.0,440729,Madeira serrada,724.0,Espanha,4848.0,1.052,mirror
-2014.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,10713468.0,85.229,mirror
-2014.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",410.0,Coreia do Sul,1591500.0,12.661,mirror
-2014.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,265186.0,2.11,mirror
+2014.0,440839,Folhas de madeira para folheados,724.0,Espanha,10713468.0,85.229,mirror
+2014.0,440839,Folhas de madeira para folheados,410.0,Coreia do Sul,1591500.0,12.661,mirror
+2014.0,440839,Folhas de madeira para folheados,380.0,Itália,265186.0,2.11,mirror
 2014.0,710812,Ouro,784.0,Emirados Árabes Unidos,108408.0,100.0,mirror
-2014.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,2249296.0,96.325,mirror
-2014.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,74685.0,3.198,mirror
-2014.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,5990.0,0.257,mirror
-2014.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,710.0,África do Sul,5151.0,0.221,mirror
-2014.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,256361.0,76.022,mirror
-2014.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,58377.0,17.311,mirror
-2014.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702.0,Singapura,11012.0,3.265,mirror
-2014.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,76.0,Brasil,6896.0,2.045,mirror
-2014.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,566.0,Nigéria,4575.0,1.357,mirror
-2014.0,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",620.0,Portugal,89000004.0,100.0,mirror
-2014.0,890590,"Vessels; light, fire-floats, floating cranes and other vessels, the navigability of which is subsidiary to their main function, floating docks",251.0,França,1328.0,100.0,mirror
-2014.0,999999,Commodities not specified according to kind,842.0,EUA,11969417.0,92.464,mirror
-2014.0,999999,Commodities not specified according to kind,208.0,Dinamarca,549886.0,4.248,mirror
-2014.0,999999,Commodities not specified according to kind,251.0,França,191679.0,1.481,mirror
-2014.0,999999,Commodities not specified according to kind,276.0,Alemanha,86307.0,0.667,mirror
-2014.0,999999,Commodities not specified according to kind,392.0,Japão,33760.0,0.261,mirror
-2014.0,999999,Commodities not specified according to kind,178.0,Congo,32827.0,0.254,mirror
-2014.0,999999,Commodities not specified according to kind,266.0,Gabão,23154.0,0.179,mirror
-2014.0,999999,Commodities not specified according to kind,450.0,Madagáscar,16147.0,0.125,mirror
+2014.0,720449,Sucata ferrosa,699.0,Índia,2249296.0,96.325,mirror
+2014.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,74685.0,3.198,mirror
+2014.0,720449,Sucata ferrosa,724.0,Espanha,5990.0,0.257,mirror
+2014.0,720449,Sucata ferrosa,710.0,África do Sul,5151.0,0.221,mirror
+2014.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,256361.0,76.022,mirror
+2014.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,58377.0,17.311,mirror
+2014.0,843143,Partes de máquinas de terraplanagem,702.0,Singapura,11012.0,3.265,mirror
+2014.0,843143,Partes de máquinas de terraplanagem,76.0,Brasil,6896.0,2.045,mirror
+2014.0,843143,Partes de máquinas de terraplanagem,566.0,Nigéria,4575.0,1.357,mirror
+2014.0,880240,Helicópteros e aviões,620.0,Portugal,89000004.0,100.0,mirror
+2014.0,890590,Plataformas e dragas,251.0,França,1328.0,100.0,mirror
+2014.0,999999,Mercadorias não especificadas,842.0,EUA,11969417.0,92.464,mirror
+2014.0,999999,Mercadorias não especificadas,208.0,Dinamarca,549886.0,4.248,mirror
+2014.0,999999,Mercadorias não especificadas,251.0,França,191679.0,1.481,mirror
+2014.0,999999,Mercadorias não especificadas,276.0,Alemanha,86307.0,0.667,mirror
+2014.0,999999,Mercadorias não especificadas,392.0,Japão,33760.0,0.261,mirror
+2014.0,999999,Mercadorias não especificadas,178.0,Congo,32827.0,0.254,mirror
+2014.0,999999,Mercadorias não especificadas,266.0,Gabão,23154.0,0.179,mirror
+2014.0,999999,Mercadorias não especificadas,450.0,Madagáscar,16147.0,0.125,mirror
 2015.0,180100,Cacau,724.0,Espanha,2398278.0,99.998,mirror
 2015.0,180100,Cacau,528.0,Países Baixos,38.0,0.002,mirror
 2015.0,270900,Petróleo bruto,156.0,China,866017860.0,18.82,mirror
@@ -1034,11 +1034,11 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2015.0,271113,Gás natural e outros gases de petróleo,204.0,Benim,1358178.0,2.153,mirror
 2015.0,271113,Gás natural e outros gases de petróleo,562.0,Niger,60152.0,0.095,mirror
 2015.0,271119,Gás natural e outros gases de petróleo,842.0,EUA,21137.0,100.0,mirror
-2015.0,290110,Acyclic hydrocarbons; saturated,528.0,Países Baixos,19.0,100.0,mirror
-2015.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,132720566.0,51.919,mirror
-2015.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,90531834.0,35.415,mirror
-2015.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,18968099.0,7.42,mirror
-2015.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,13411595.0,5.246,mirror
+2015.0,290110,Hidrocarbonetos acíclicos,528.0,Países Baixos,19.0,100.0,mirror
+2015.0,290511,Álcoois acíclicos,528.0,Países Baixos,132720566.0,51.919,mirror
+2015.0,290511,Álcoois acíclicos,842.0,EUA,90531834.0,35.415,mirror
+2015.0,290511,Álcoois acíclicos,276.0,Alemanha,18968099.0,7.42,mirror
+2015.0,290511,Álcoois acíclicos,724.0,Espanha,13411595.0,5.246,mirror
 2015.0,440349,Madeira em bruto,156.0,China,112626155.0,96.371,mirror
 2015.0,440349,Madeira em bruto,251.0,França,2573729.0,2.202,mirror
 2015.0,440349,Madeira em bruto,50.0,Bangladesh,737039.0,0.631,mirror
@@ -1061,33 +1061,33 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2015.0,440729,Madeira serrada,156.0,China,40245.0,6.261,mirror
 2015.0,440729,Madeira serrada,458.0,Malásia,1030.0,0.16,mirror
 2015.0,440729,Madeira serrada,528.0,Países Baixos,1.0,0.0,mirror
-2015.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,6904098.0,91.508,mirror
-2015.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,480254.0,6.365,mirror
-2015.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",842.0,EUA,105296.0,1.396,mirror
-2015.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",218.0,Equador,36556.0,0.485,mirror
-2015.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",410.0,Coreia do Sul,18584.0,0.246,mirror
+2015.0,440839,Folhas de madeira para folheados,724.0,Espanha,6904098.0,91.508,mirror
+2015.0,440839,Folhas de madeira para folheados,380.0,Itália,480254.0,6.365,mirror
+2015.0,440839,Folhas de madeira para folheados,842.0,EUA,105296.0,1.396,mirror
+2015.0,440839,Folhas de madeira para folheados,218.0,Equador,36556.0,0.485,mirror
+2015.0,440839,Folhas de madeira para folheados,410.0,Coreia do Sul,18584.0,0.246,mirror
 2015.0,710812,Ouro,784.0,Emirados Árabes Unidos,2812480.0,100.0,mirror
-2015.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,2014094.0,91.164,mirror
-2015.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,78237.0,3.541,mirror
-2015.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,61502.0,2.784,mirror
-2015.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,35741.0,1.618,mirror
-2015.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490.0,Taiwan (Prov. China),19735.0,0.893,mirror
-2015.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,528.0,Países Baixos,4.0,0.0,mirror
-2015.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,702.0,Singapura,3132987.0,87.981,mirror
-2015.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,329851.0,9.263,mirror
-2015.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,579.0,Noruega,77190.0,2.168,mirror
-2015.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,566.0,Nigéria,13288.0,0.373,mirror
-2015.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,7656.0,0.215,mirror
-2015.0,890690,"Vessels; other, including lifeboats other than rowing boats, other than warships",579.0,Noruega,47665.0,99.928,mirror
-2015.0,890690,"Vessels; other, including lifeboats other than rowing boats, other than warships",528.0,Países Baixos,34.0,0.072,mirror
-2015.0,999999,Commodities not specified according to kind,528.0,Países Baixos,194005726.0,97.777,mirror
-2015.0,999999,Commodities not specified according to kind,842.0,EUA,4164395.0,2.099,mirror
-2015.0,999999,Commodities not specified according to kind,251.0,França,102509.0,0.052,mirror
-2015.0,999999,Commodities not specified according to kind,392.0,Japão,45551.0,0.023,mirror
-2015.0,999999,Commodities not specified according to kind,276.0,Alemanha,45306.0,0.023,mirror
-2015.0,999999,Commodities not specified according to kind,682.0,Arábia Saudita,14232.0,0.007,mirror
-2015.0,999999,Commodities not specified according to kind,170.0,Colômbia,12892.0,0.006,mirror
-2015.0,999999,Commodities not specified according to kind,178.0,Congo,10294.0,0.005,mirror
+2015.0,720449,Sucata ferrosa,699.0,Índia,2014094.0,91.164,mirror
+2015.0,720449,Sucata ferrosa,724.0,Espanha,78237.0,3.541,mirror
+2015.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,61502.0,2.784,mirror
+2015.0,720449,Sucata ferrosa,120.0,Camarões,35741.0,1.618,mirror
+2015.0,720449,Sucata ferrosa,490.0,Taiwan (Prov. China),19735.0,0.893,mirror
+2015.0,720449,Sucata ferrosa,528.0,Países Baixos,4.0,0.0,mirror
+2015.0,843143,Partes de máquinas de terraplanagem,702.0,Singapura,3132987.0,87.981,mirror
+2015.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,329851.0,9.263,mirror
+2015.0,843143,Partes de máquinas de terraplanagem,579.0,Noruega,77190.0,2.168,mirror
+2015.0,843143,Partes de máquinas de terraplanagem,566.0,Nigéria,13288.0,0.373,mirror
+2015.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,7656.0,0.215,mirror
+2015.0,890690,Outros navios,579.0,Noruega,47665.0,99.928,mirror
+2015.0,890690,Outros navios,528.0,Países Baixos,34.0,0.072,mirror
+2015.0,999999,Mercadorias não especificadas,528.0,Países Baixos,194005726.0,97.777,mirror
+2015.0,999999,Mercadorias não especificadas,842.0,EUA,4164395.0,2.099,mirror
+2015.0,999999,Mercadorias não especificadas,251.0,França,102509.0,0.052,mirror
+2015.0,999999,Mercadorias não especificadas,392.0,Japão,45551.0,0.023,mirror
+2015.0,999999,Mercadorias não especificadas,276.0,Alemanha,45306.0,0.023,mirror
+2015.0,999999,Mercadorias não especificadas,682.0,Arábia Saudita,14232.0,0.007,mirror
+2015.0,999999,Mercadorias não especificadas,170.0,Colômbia,12892.0,0.006,mirror
+2015.0,999999,Mercadorias não especificadas,178.0,Congo,10294.0,0.005,mirror
 2016.0,180100,Cacau,724.0,Espanha,928186.0,100.0,mirror
 2016.0,270900,Petróleo bruto,410.0,Coreia do Sul,571203584.0,18.005,mirror
 2016.0,270900,Petróleo bruto,724.0,Espanha,547759971.0,17.266,mirror
@@ -1123,12 +1123,12 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2016.0,271113,Gás natural e outros gases de petróleo,266.0,Gabão,3092352.0,4.714,mirror
 2016.0,271113,Gás natural e outros gases de petróleo,710.0,África do Sul,2368290.0,3.61,mirror
 2016.0,271113,Gás natural e outros gases de petróleo,132.0,Cabo Verde,548898.0,0.837,mirror
-2016.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,147311254.0,58.925,mirror
-2016.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,71333491.0,28.534,mirror
-2016.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,14350682.0,5.74,mirror
-2016.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,8064848.0,3.226,mirror
-2016.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",392.0,Japão,8047797.0,3.219,mirror
-2016.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",566.0,Nigéria,890348.0,0.356,mirror
+2016.0,290511,Álcoois acíclicos,528.0,Países Baixos,147311254.0,58.925,mirror
+2016.0,290511,Álcoois acíclicos,842.0,EUA,71333491.0,28.534,mirror
+2016.0,290511,Álcoois acíclicos,276.0,Alemanha,14350682.0,5.74,mirror
+2016.0,290511,Álcoois acíclicos,724.0,Espanha,8064848.0,3.226,mirror
+2016.0,290511,Álcoois acíclicos,392.0,Japão,8047797.0,3.219,mirror
+2016.0,290511,Álcoois acíclicos,566.0,Nigéria,890348.0,0.356,mirror
 2016.0,440349,Madeira em bruto,156.0,China,173299210.0,98.25,mirror
 2016.0,440349,Madeira em bruto,251.0,França,2286553.0,1.296,mirror
 2016.0,440349,Madeira em bruto,792.0,Turquia,625462.0,0.355,mirror
@@ -1142,27 +1142,27 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2016.0,440729,Madeira serrada,56.0,Bélgica,128827.0,14.289,mirror
 2016.0,440729,Madeira serrada,842.0,EUA,31741.0,3.521,mirror
 2016.0,440729,Madeira serrada,458.0,Malásia,4422.0,0.49,mirror
-2016.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,6694085.0,75.758,mirror
-2016.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",842.0,EUA,1952834.0,22.101,mirror
-2016.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",504.0,Marrocos,153680.0,1.739,mirror
-2016.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",276.0,Alemanha,23016.0,0.26,mirror
-2016.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",422.0,Líbano,12512.0,0.142,mirror
+2016.0,440839,Folhas de madeira para folheados,724.0,Espanha,6694085.0,75.758,mirror
+2016.0,440839,Folhas de madeira para folheados,842.0,EUA,1952834.0,22.101,mirror
+2016.0,440839,Folhas de madeira para folheados,504.0,Marrocos,153680.0,1.739,mirror
+2016.0,440839,Folhas de madeira para folheados,276.0,Alemanha,23016.0,0.26,mirror
+2016.0,440839,Folhas de madeira para folheados,422.0,Líbano,12512.0,0.142,mirror
 2016.0,710812,Ouro,784.0,Emirados Árabes Unidos,2780833.0,100.0,mirror
-2016.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,3140313.0,74.564,mirror
-2016.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,974553.0,23.14,mirror
-2016.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,95911.0,2.277,mirror
-2016.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,808.0,0.019,mirror
-2016.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,528.0,Países Baixos,73669.0,99.075,mirror
-2016.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,360.0,Indonésia,688.0,0.925,mirror
-2016.0,890590,"Vessels; light, fire-floats, floating cranes and other vessels, the navigability of which is subsidiary to their main function, floating docks",24.0,Angola,4796550.0,100.0,mirror
-2016.0,999999,Commodities not specified according to kind,528.0,Países Baixos,33145070.0,71.208,mirror
-2016.0,999999,Commodities not specified according to kind,826.0,Reino Unido,8731695.0,18.759,mirror
-2016.0,999999,Commodities not specified according to kind,842.0,EUA,4431533.0,9.521,mirror
-2016.0,999999,Commodities not specified according to kind,251.0,França,159186.0,0.342,mirror
-2016.0,999999,Commodities not specified according to kind,276.0,Alemanha,29141.0,0.063,mirror
-2016.0,999999,Commodities not specified according to kind,724.0,Espanha,18955.0,0.041,mirror
-2016.0,999999,Commodities not specified according to kind,84.0,Belize,18000.0,0.039,mirror
-2016.0,999999,Commodities not specified according to kind,178.0,Congo,10738.0,0.023,mirror
+2016.0,720449,Sucata ferrosa,120.0,Camarões,3140313.0,74.564,mirror
+2016.0,720449,Sucata ferrosa,699.0,Índia,974553.0,23.14,mirror
+2016.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,95911.0,2.277,mirror
+2016.0,720449,Sucata ferrosa,724.0,Espanha,808.0,0.019,mirror
+2016.0,843143,Partes de máquinas de terraplanagem,528.0,Países Baixos,73669.0,99.075,mirror
+2016.0,843143,Partes de máquinas de terraplanagem,360.0,Indonésia,688.0,0.925,mirror
+2016.0,890590,Plataformas e dragas,24.0,Angola,4796550.0,100.0,mirror
+2016.0,999999,Mercadorias não especificadas,528.0,Países Baixos,33145070.0,71.208,mirror
+2016.0,999999,Mercadorias não especificadas,826.0,Reino Unido,8731695.0,18.759,mirror
+2016.0,999999,Mercadorias não especificadas,842.0,EUA,4431533.0,9.521,mirror
+2016.0,999999,Mercadorias não especificadas,251.0,França,159186.0,0.342,mirror
+2016.0,999999,Mercadorias não especificadas,276.0,Alemanha,29141.0,0.063,mirror
+2016.0,999999,Mercadorias não especificadas,724.0,Espanha,18955.0,0.041,mirror
+2016.0,999999,Mercadorias não especificadas,84.0,Belize,18000.0,0.039,mirror
+2016.0,999999,Mercadorias não especificadas,178.0,Congo,10738.0,0.023,mirror
 2017.0,180100,Cacau,724.0,Espanha,1876917.0,100.0,mirror
 2017.0,270900,Petróleo bruto,156.0,China,1029204411.0,29.279,mirror
 2017.0,270900,Petróleo bruto,410.0,Coreia do Sul,452924270.0,12.885,mirror
@@ -1203,12 +1203,12 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2017.0,271113,Gás natural e outros gases de petróleo,120.0,Camarões,3897354.0,4.533,mirror
 2017.0,271113,Gás natural e outros gases de petróleo,504.0,Marrocos,2930596.0,3.408,mirror
 2017.0,271119,Gás natural e outros gases de petróleo,710.0,África do Sul,1417005.0,100.0,mirror
-2017.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,121805619.0,63.488,mirror
-2017.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,34084732.0,17.766,mirror
-2017.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,23597358.0,12.3,mirror
-2017.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",156.0,China,10006189.0,5.215,mirror
-2017.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",76.0,Brasil,1747058.0,0.911,mirror
-2017.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",566.0,Nigéria,614470.0,0.32,mirror
+2017.0,290511,Álcoois acíclicos,842.0,EUA,121805619.0,63.488,mirror
+2017.0,290511,Álcoois acíclicos,276.0,Alemanha,34084732.0,17.766,mirror
+2017.0,290511,Álcoois acíclicos,724.0,Espanha,23597358.0,12.3,mirror
+2017.0,290511,Álcoois acíclicos,156.0,China,10006189.0,5.215,mirror
+2017.0,290511,Álcoois acíclicos,76.0,Brasil,1747058.0,0.911,mirror
+2017.0,290511,Álcoois acíclicos,566.0,Nigéria,614470.0,0.32,mirror
 2017.0,440349,Madeira em bruto,156.0,China,253574728.0,97.864,mirror
 2017.0,440349,Madeira em bruto,50.0,Bangladesh,2740177.0,1.058,mirror
 2017.0,440349,Madeira em bruto,251.0,França,2415785.0,0.932,mirror
@@ -1227,35 +1227,35 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2017.0,440729,Madeira serrada,586.0,Paquistão,65961.0,6.555,mirror
 2017.0,440729,Madeira serrada,380.0,Itália,14140.0,1.405,mirror
 2017.0,440729,Madeira serrada,643.0,Rússia,5643.0,0.561,mirror
-2017.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,6616229.0,85.985,mirror
-2017.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",842.0,EUA,439992.0,5.718,mirror
-2017.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",410.0,Coreia do Sul,374112.0,4.862,mirror
-2017.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,121333.0,1.577,mirror
-2017.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",504.0,Marrocos,54778.0,0.712,mirror
-2017.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",100.0,Bulgária,37203.0,0.483,mirror
-2017.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,35860.0,0.466,mirror
-2017.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",300.0,Grécia,15139.0,0.197,mirror
+2017.0,440839,Folhas de madeira para folheados,724.0,Espanha,6616229.0,85.985,mirror
+2017.0,440839,Folhas de madeira para folheados,842.0,EUA,439992.0,5.718,mirror
+2017.0,440839,Folhas de madeira para folheados,410.0,Coreia do Sul,374112.0,4.862,mirror
+2017.0,440839,Folhas de madeira para folheados,380.0,Itália,121333.0,1.577,mirror
+2017.0,440839,Folhas de madeira para folheados,504.0,Marrocos,54778.0,0.712,mirror
+2017.0,440839,Folhas de madeira para folheados,100.0,Bulgária,37203.0,0.483,mirror
+2017.0,440839,Folhas de madeira para folheados,156.0,China,35860.0,0.466,mirror
+2017.0,440839,Folhas de madeira para folheados,300.0,Grécia,15139.0,0.197,mirror
 2017.0,710812,Ouro,784.0,Emirados Árabes Unidos,12504468.0,83.372,mirror
 2017.0,710812,Ouro,251.0,França,2493992.0,16.628,mirror
-2017.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,1747843.0,93.007,mirror
-2017.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,704.0,Vietname,106524.0,5.668,mirror
-2017.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,11837.0,0.63,mirror
-2017.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,8197.0,0.436,mirror
-2017.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,76.0,Brasil,3000.0,0.16,mirror
-2017.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,1868.0,0.099,mirror
-2017.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,620.0,Portugal,24409.0,59.642,mirror
-2017.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,13580.0,33.183,mirror
-2017.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,1542.0,3.768,mirror
-2017.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,120.0,Camarões,812.0,1.985,mirror
-2017.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,360.0,Indonésia,582.0,1.422,mirror
-2017.0,999999,Commodities not specified according to kind,528.0,Países Baixos,177685073.0,94.136,mirror
-2017.0,999999,Commodities not specified according to kind,842.0,EUA,10889931.0,5.769,mirror
-2017.0,999999,Commodities not specified according to kind,251.0,França,71189.0,0.038,mirror
-2017.0,999999,Commodities not specified according to kind,72.0,Botsuana,70572.0,0.037,mirror
-2017.0,999999,Commodities not specified according to kind,208.0,Dinamarca,10228.0,0.005,mirror
-2017.0,999999,Commodities not specified according to kind,178.0,Congo,9613.0,0.005,mirror
-2017.0,999999,Commodities not specified according to kind,724.0,Espanha,9065.0,0.005,mirror
-2017.0,999999,Commodities not specified according to kind,276.0,Alemanha,2608.0,0.001,mirror
+2017.0,720449,Sucata ferrosa,699.0,Índia,1747843.0,93.007,mirror
+2017.0,720449,Sucata ferrosa,704.0,Vietname,106524.0,5.668,mirror
+2017.0,720449,Sucata ferrosa,724.0,Espanha,11837.0,0.63,mirror
+2017.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,8197.0,0.436,mirror
+2017.0,720449,Sucata ferrosa,76.0,Brasil,3000.0,0.16,mirror
+2017.0,720449,Sucata ferrosa,120.0,Camarões,1868.0,0.099,mirror
+2017.0,843143,Partes de máquinas de terraplanagem,620.0,Portugal,24409.0,59.642,mirror
+2017.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,13580.0,33.183,mirror
+2017.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,1542.0,3.768,mirror
+2017.0,843143,Partes de máquinas de terraplanagem,120.0,Camarões,812.0,1.985,mirror
+2017.0,843143,Partes de máquinas de terraplanagem,360.0,Indonésia,582.0,1.422,mirror
+2017.0,999999,Mercadorias não especificadas,528.0,Países Baixos,177685073.0,94.136,mirror
+2017.0,999999,Mercadorias não especificadas,842.0,EUA,10889931.0,5.769,mirror
+2017.0,999999,Mercadorias não especificadas,251.0,França,71189.0,0.038,mirror
+2017.0,999999,Mercadorias não especificadas,72.0,Botsuana,70572.0,0.037,mirror
+2017.0,999999,Mercadorias não especificadas,208.0,Dinamarca,10228.0,0.005,mirror
+2017.0,999999,Mercadorias não especificadas,178.0,Congo,9613.0,0.005,mirror
+2017.0,999999,Mercadorias não especificadas,724.0,Espanha,9065.0,0.005,mirror
+2017.0,999999,Mercadorias não especificadas,276.0,Alemanha,2608.0,0.001,mirror
 2018.0,180100,Cacau,724.0,Espanha,1787284.0,100.0,mirror
 2018.0,270900,Petróleo bruto,156.0,China,1348686491.0,32.275,mirror
 2018.0,270900,Petróleo bruto,620.0,Portugal,640576254.0,15.33,mirror
@@ -1288,12 +1288,12 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2018.0,271113,Gás natural e outros gases de petróleo,120.0,Camarões,2379650.0,3.326,mirror
 2018.0,271113,Gás natural e outros gases de petróleo,854.0,Burkina Faso,357761.0,0.5,mirror
 2018.0,271119,Gás natural e outros gases de petróleo,710.0,África do Sul,6528908.0,100.0,mirror
-2018.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,203335444.0,47.393,mirror
-2018.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,132705444.0,30.931,mirror
-2018.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,49215815.0,11.471,mirror
-2018.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,28400049.0,6.619,mirror
-2018.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",76.0,Brasil,9392906.0,2.189,mirror
-2018.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",566.0,Nigéria,5992012.0,1.397,mirror
+2018.0,290511,Álcoois acíclicos,528.0,Países Baixos,203335444.0,47.393,mirror
+2018.0,290511,Álcoois acíclicos,842.0,EUA,132705444.0,30.931,mirror
+2018.0,290511,Álcoois acíclicos,724.0,Espanha,49215815.0,11.471,mirror
+2018.0,290511,Álcoois acíclicos,276.0,Alemanha,28400049.0,6.619,mirror
+2018.0,290511,Álcoois acíclicos,76.0,Brasil,9392906.0,2.189,mirror
+2018.0,290511,Álcoois acíclicos,566.0,Nigéria,5992012.0,1.397,mirror
 2018.0,440349,Madeira em bruto,156.0,China,337608269.0,98.092,mirror
 2018.0,440349,Madeira em bruto,50.0,Bangladesh,4107701.0,1.193,mirror
 2018.0,440349,Madeira em bruto,251.0,França,2055993.0,0.597,mirror
@@ -1312,37 +1312,37 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2018.0,440729,Madeira serrada,724.0,Espanha,13709.0,0.411,mirror
 2018.0,440729,Madeira serrada,686.0,Senegal,8093.0,0.242,mirror
 2018.0,440729,Madeira serrada,804.0,Ucrânia,2993.0,0.09,mirror
-2018.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,6532840.0,60.994,mirror
-2018.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",410.0,Coreia do Sul,4004096.0,37.384,mirror
-2018.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,79218.0,0.74,mirror
-2018.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",842.0,EUA,67628.0,0.631,mirror
-2018.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",56.0,Bélgica,26897.0,0.251,mirror
+2018.0,440839,Folhas de madeira para folheados,724.0,Espanha,6532840.0,60.994,mirror
+2018.0,440839,Folhas de madeira para folheados,410.0,Coreia do Sul,4004096.0,37.384,mirror
+2018.0,440839,Folhas de madeira para folheados,156.0,China,79218.0,0.74,mirror
+2018.0,440839,Folhas de madeira para folheados,842.0,EUA,67628.0,0.631,mirror
+2018.0,440839,Folhas de madeira para folheados,56.0,Bélgica,26897.0,0.251,mirror
 2018.0,710812,Ouro,251.0,França,11756709.0,67.279,mirror
 2018.0,710812,Ouro,784.0,Emirados Árabes Unidos,5717924.0,32.721,mirror
-2018.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,3265619.0,77.127,mirror
-2018.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,50.0,Bangladesh,225968.0,5.337,mirror
-2018.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,165183.0,3.901,mirror
-2018.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,764.0,Tailândia,164827.0,3.893,mirror
-2018.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,792.0,Turquia,151907.0,3.588,mirror
-2018.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490.0,Taiwan (Prov. China),138341.0,3.267,mirror
-2018.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,586.0,Paquistão,90490.0,2.137,mirror
-2018.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,31729.0,0.749,mirror
-2018.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,826.0,Reino Unido,144941.0,60.881,mirror
-2018.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,40622.0,17.063,mirror
-2018.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,834.0,Tanzânia,26997.0,11.34,mirror
-2018.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,566.0,Nigéria,11513.0,4.836,mirror
-2018.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,699.0,Índia,5668.0,2.381,mirror
-2018.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,2995.0,1.258,mirror
-2018.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,682.0,Arábia Saudita,2098.0,0.881,mirror
-2018.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,120.0,Camarões,1834.0,0.77,mirror
-2018.0,999999,Commodities not specified according to kind,842.0,EUA,3994107.0,77.696,mirror
-2018.0,999999,Commodities not specified according to kind,528.0,Países Baixos,900395.0,17.515,mirror
-2018.0,999999,Commodities not specified according to kind,251.0,França,121388.0,2.361,mirror
-2018.0,999999,Commodities not specified according to kind,208.0,Dinamarca,73432.0,1.428,mirror
-2018.0,999999,Commodities not specified according to kind,178.0,Congo,32501.0,0.632,mirror
-2018.0,999999,Commodities not specified according to kind,724.0,Espanha,13548.0,0.264,mirror
-2018.0,999999,Commodities not specified according to kind,710.0,África do Sul,3040.0,0.059,mirror
-2018.0,999999,Commodities not specified according to kind,156.0,China,1094.0,0.021,mirror
+2018.0,720449,Sucata ferrosa,699.0,Índia,3265619.0,77.127,mirror
+2018.0,720449,Sucata ferrosa,50.0,Bangladesh,225968.0,5.337,mirror
+2018.0,720449,Sucata ferrosa,724.0,Espanha,165183.0,3.901,mirror
+2018.0,720449,Sucata ferrosa,764.0,Tailândia,164827.0,3.893,mirror
+2018.0,720449,Sucata ferrosa,792.0,Turquia,151907.0,3.588,mirror
+2018.0,720449,Sucata ferrosa,490.0,Taiwan (Prov. China),138341.0,3.267,mirror
+2018.0,720449,Sucata ferrosa,586.0,Paquistão,90490.0,2.137,mirror
+2018.0,720449,Sucata ferrosa,120.0,Camarões,31729.0,0.749,mirror
+2018.0,843143,Partes de máquinas de terraplanagem,826.0,Reino Unido,144941.0,60.881,mirror
+2018.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,40622.0,17.063,mirror
+2018.0,843143,Partes de máquinas de terraplanagem,834.0,Tanzânia,26997.0,11.34,mirror
+2018.0,843143,Partes de máquinas de terraplanagem,566.0,Nigéria,11513.0,4.836,mirror
+2018.0,843143,Partes de máquinas de terraplanagem,699.0,Índia,5668.0,2.381,mirror
+2018.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,2995.0,1.258,mirror
+2018.0,843143,Partes de máquinas de terraplanagem,682.0,Arábia Saudita,2098.0,0.881,mirror
+2018.0,843143,Partes de máquinas de terraplanagem,120.0,Camarões,1834.0,0.77,mirror
+2018.0,999999,Mercadorias não especificadas,842.0,EUA,3994107.0,77.696,mirror
+2018.0,999999,Mercadorias não especificadas,528.0,Países Baixos,900395.0,17.515,mirror
+2018.0,999999,Mercadorias não especificadas,251.0,França,121388.0,2.361,mirror
+2018.0,999999,Mercadorias não especificadas,208.0,Dinamarca,73432.0,1.428,mirror
+2018.0,999999,Mercadorias não especificadas,178.0,Congo,32501.0,0.632,mirror
+2018.0,999999,Mercadorias não especificadas,724.0,Espanha,13548.0,0.264,mirror
+2018.0,999999,Mercadorias não especificadas,710.0,África do Sul,3040.0,0.059,mirror
+2018.0,999999,Mercadorias não especificadas,156.0,China,1094.0,0.021,mirror
 2019.0,180100,Cacau,724.0,Espanha,1251288.0,100.0,mirror
 2019.0,270900,Petróleo bruto,156.0,China,1257734229.0,36.183,mirror
 2019.0,270900,Petróleo bruto,699.0,Índia,733663573.0,21.106,mirror
@@ -1382,14 +1382,14 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2019.0,271113,Gás natural e outros gases de petróleo,204.0,Benim,1995796.0,1.913,mirror
 2019.0,271113,Gás natural e outros gases de petróleo,132.0,Cabo Verde,1456070.0,1.396,mirror
 2019.0,271119,Gás natural e outros gases de petróleo,792.0,Turquia,2955800.0,100.0,mirror
-2019.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,108592297.0,36.516,mirror
-2019.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,99461622.0,33.445,mirror
-2019.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,33451675.0,11.249,mirror
-2019.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,31290608.0,10.522,mirror
-2019.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",566.0,Nigéria,12012398.0,4.039,mirror
-2019.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",76.0,Brasil,7091443.0,2.385,mirror
-2019.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",643.0,Rússia,3454897.0,1.162,mirror
-2019.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",124.0,Canadá,1964423.0,0.661,mirror
+2019.0,290511,Álcoois acíclicos,528.0,Países Baixos,108592297.0,36.516,mirror
+2019.0,290511,Álcoois acíclicos,842.0,EUA,99461622.0,33.445,mirror
+2019.0,290511,Álcoois acíclicos,724.0,Espanha,33451675.0,11.249,mirror
+2019.0,290511,Álcoois acíclicos,276.0,Alemanha,31290608.0,10.522,mirror
+2019.0,290511,Álcoois acíclicos,566.0,Nigéria,12012398.0,4.039,mirror
+2019.0,290511,Álcoois acíclicos,76.0,Brasil,7091443.0,2.385,mirror
+2019.0,290511,Álcoois acíclicos,643.0,Rússia,3454897.0,1.162,mirror
+2019.0,290511,Álcoois acíclicos,124.0,Canadá,1964423.0,0.661,mirror
 2019.0,440349,Madeira em bruto,156.0,China,185771252.0,99.563,mirror
 2019.0,440349,Madeira em bruto,251.0,França,588726.0,0.316,mirror
 2019.0,440349,Madeira em bruto,724.0,Espanha,189688.0,0.102,mirror
@@ -1402,32 +1402,32 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2019.0,440729,Madeira serrada,422.0,Líbano,173510.0,1.708,mirror
 2019.0,440729,Madeira serrada,784.0,Emirados Árabes Unidos,75334.0,0.741,mirror
 2019.0,440729,Madeira serrada,392.0,Japão,4174.0,0.041,mirror
-2019.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,5812630.0,60.1,mirror
-2019.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",410.0,Coreia do Sul,2720699.0,28.131,mirror
-2019.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,747161.0,7.725,mirror
-2019.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,391073.0,4.044,mirror
+2019.0,440839,Folhas de madeira para folheados,724.0,Espanha,5812630.0,60.1,mirror
+2019.0,440839,Folhas de madeira para folheados,410.0,Coreia do Sul,2720699.0,28.131,mirror
+2019.0,440839,Folhas de madeira para folheados,380.0,Itália,747161.0,7.725,mirror
+2019.0,440839,Folhas de madeira para folheados,156.0,China,391073.0,4.044,mirror
 2019.0,710812,Ouro,251.0,França,2333670.0,64.64,mirror
 2019.0,710812,Ouro,784.0,Emirados Árabes Unidos,1276576.0,35.36,mirror
-2019.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,7423863.0,92.648,mirror
-2019.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490.0,Taiwan (Prov. China),275602.0,3.439,mirror
-2019.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,165480.0,2.065,mirror
-2019.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,98774.0,1.233,mirror
-2019.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,49237.0,0.614,mirror
-2019.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,106070.0,74.269,mirror
-2019.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,288.0,Gana,28556.0,19.994,mirror
-2019.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,566.0,Nigéria,4181.0,2.928,mirror
-2019.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,686.0,Senegal,1858.0,1.301,mirror
-2019.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,1697.0,1.188,mirror
-2019.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,682.0,Arábia Saudita,380.0,0.266,mirror
-2019.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,266.0,Gabão,79.0,0.055,mirror
-2019.0,999999,Commodities not specified according to kind,842.0,EUA,5285716.0,95.738,mirror
-2019.0,999999,Commodities not specified according to kind,251.0,França,115697.0,2.096,mirror
-2019.0,999999,Commodities not specified according to kind,120.0,Camarões,46991.0,0.851,mirror
-2019.0,999999,Commodities not specified according to kind,724.0,Espanha,30600.0,0.554,mirror
-2019.0,999999,Commodities not specified according to kind,178.0,Congo,16625.0,0.301,mirror
-2019.0,999999,Commodities not specified according to kind,380.0,Itália,15299.0,0.277,mirror
-2019.0,999999,Commodities not specified according to kind,392.0,Japão,7890.0,0.143,mirror
-2019.0,999999,Commodities not specified according to kind,826.0,Reino Unido,1511.0,0.027,mirror
+2019.0,720449,Sucata ferrosa,699.0,Índia,7423863.0,92.648,mirror
+2019.0,720449,Sucata ferrosa,490.0,Taiwan (Prov. China),275602.0,3.439,mirror
+2019.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,165480.0,2.065,mirror
+2019.0,720449,Sucata ferrosa,724.0,Espanha,98774.0,1.233,mirror
+2019.0,720449,Sucata ferrosa,120.0,Camarões,49237.0,0.614,mirror
+2019.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,106070.0,74.269,mirror
+2019.0,843143,Partes de máquinas de terraplanagem,288.0,Gana,28556.0,19.994,mirror
+2019.0,843143,Partes de máquinas de terraplanagem,566.0,Nigéria,4181.0,2.928,mirror
+2019.0,843143,Partes de máquinas de terraplanagem,686.0,Senegal,1858.0,1.301,mirror
+2019.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,1697.0,1.188,mirror
+2019.0,843143,Partes de máquinas de terraplanagem,682.0,Arábia Saudita,380.0,0.266,mirror
+2019.0,843143,Partes de máquinas de terraplanagem,266.0,Gabão,79.0,0.055,mirror
+2019.0,999999,Mercadorias não especificadas,842.0,EUA,5285716.0,95.738,mirror
+2019.0,999999,Mercadorias não especificadas,251.0,França,115697.0,2.096,mirror
+2019.0,999999,Mercadorias não especificadas,120.0,Camarões,46991.0,0.851,mirror
+2019.0,999999,Mercadorias não especificadas,724.0,Espanha,30600.0,0.554,mirror
+2019.0,999999,Mercadorias não especificadas,178.0,Congo,16625.0,0.301,mirror
+2019.0,999999,Mercadorias não especificadas,380.0,Itália,15299.0,0.277,mirror
+2019.0,999999,Mercadorias não especificadas,392.0,Japão,7890.0,0.143,mirror
+2019.0,999999,Mercadorias não especificadas,826.0,Reino Unido,1511.0,0.027,mirror
 2020.0,180100,Cacau,724.0,Espanha,953858.0,87.915,mirror
 2020.0,180100,Cacau,233.0,Estónia,131114.0,12.085,mirror
 2020.0,270900,Petróleo bruto,156.0,China,1076006936.0,48.673,mirror
@@ -1463,12 +1463,12 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2020.0,271113,Gás natural e outros gases de petróleo,140.0,Central African Rep.,153596.0,0.656,mirror
 2020.0,271113,Gás natural e outros gases de petróleo,678.0,São Tomé e Príncipe,34385.0,0.147,mirror
 2020.0,271129,Gás natural e outros gases de petróleo,842.0,EUA,1905025.0,100.0,mirror
-2020.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,47729899.0,45.264,mirror
-2020.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,28051180.0,26.602,mirror
-2020.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,17043762.0,16.163,mirror
-2020.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",76.0,Brasil,4948787.0,4.693,mirror
-2020.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",566.0,Nigéria,4725579.0,4.481,mirror
-2020.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",124.0,Canadá,2949701.0,2.797,mirror
+2020.0,290511,Álcoois acíclicos,842.0,EUA,47729899.0,45.264,mirror
+2020.0,290511,Álcoois acíclicos,724.0,Espanha,28051180.0,26.602,mirror
+2020.0,290511,Álcoois acíclicos,276.0,Alemanha,17043762.0,16.163,mirror
+2020.0,290511,Álcoois acíclicos,76.0,Brasil,4948787.0,4.693,mirror
+2020.0,290511,Álcoois acíclicos,566.0,Nigéria,4725579.0,4.481,mirror
+2020.0,290511,Álcoois acíclicos,124.0,Canadá,2949701.0,2.797,mirror
 2020.0,440349,Madeira em bruto,156.0,China,67962922.0,99.979,mirror
 2020.0,440349,Madeira em bruto,784.0,Emirados Árabes Unidos,14030.0,0.021,mirror
 2020.0,440399,Madeira em bruto,156.0,China,531830.0,100.0,mirror
@@ -1480,31 +1480,31 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2020.0,440729,Madeira serrada,586.0,Paquistão,43009.0,0.73,mirror
 2020.0,440729,Madeira serrada,784.0,Emirados Árabes Unidos,24894.0,0.423,mirror
 2020.0,440729,Madeira serrada,643.0,Rússia,3067.0,0.052,mirror
-2020.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,3655397.0,49.737,mirror
-2020.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,2222458.0,30.24,mirror
-2020.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,1262142.0,17.173,mirror
-2020.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",608.0,Filipinas,112592.0,1.532,mirror
-2020.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",410.0,Coreia do Sul,68217.0,0.928,mirror
-2020.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",504.0,Marrocos,28656.0,0.39,mirror
-2020.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,7119791.0,95.319,mirror
-2020.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,170381.0,2.281,mirror
-2020.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,490.0,Taiwan (Prov. China),136354.0,1.825,mirror
-2020.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,34768.0,0.465,mirror
-2020.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,5025.0,0.067,mirror
-2020.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,458.0,Malásia,3136.0,0.042,mirror
-2020.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,579.0,Noruega,328694.0,67.433,mirror
-2020.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,75113.0,15.41,mirror
-2020.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,566.0,Nigéria,43958.0,9.018,mirror
-2020.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,39673.0,8.139,mirror
+2020.0,440839,Folhas de madeira para folheados,380.0,Itália,3655397.0,49.737,mirror
+2020.0,440839,Folhas de madeira para folheados,724.0,Espanha,2222458.0,30.24,mirror
+2020.0,440839,Folhas de madeira para folheados,156.0,China,1262142.0,17.173,mirror
+2020.0,440839,Folhas de madeira para folheados,608.0,Filipinas,112592.0,1.532,mirror
+2020.0,440839,Folhas de madeira para folheados,410.0,Coreia do Sul,68217.0,0.928,mirror
+2020.0,440839,Folhas de madeira para folheados,504.0,Marrocos,28656.0,0.39,mirror
+2020.0,720449,Sucata ferrosa,699.0,Índia,7119791.0,95.319,mirror
+2020.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,170381.0,2.281,mirror
+2020.0,720449,Sucata ferrosa,490.0,Taiwan (Prov. China),136354.0,1.825,mirror
+2020.0,720449,Sucata ferrosa,120.0,Camarões,34768.0,0.465,mirror
+2020.0,720449,Sucata ferrosa,724.0,Espanha,5025.0,0.067,mirror
+2020.0,720449,Sucata ferrosa,458.0,Malásia,3136.0,0.042,mirror
+2020.0,843143,Partes de máquinas de terraplanagem,579.0,Noruega,328694.0,67.433,mirror
+2020.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,75113.0,15.41,mirror
+2020.0,843143,Partes de máquinas de terraplanagem,566.0,Nigéria,43958.0,9.018,mirror
+2020.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,39673.0,8.139,mirror
 2020.0,890190,Navios,178.0,Congo,609363.0,100.0,mirror
-2020.0,999999,Commodities not specified according to kind,528.0,Países Baixos,82702378.0,83.402,mirror
-2020.0,999999,Commodities not specified according to kind,842.0,EUA,16200558.0,16.338,mirror
-2020.0,999999,Commodities not specified according to kind,251.0,França,78345.0,0.079,mirror
-2020.0,999999,Commodities not specified according to kind,120.0,Camarões,63318.0,0.064,mirror
-2020.0,999999,Commodities not specified according to kind,276.0,Alemanha,45387.0,0.046,mirror
-2020.0,999999,Commodities not specified according to kind,392.0,Japão,44548.0,0.045,mirror
-2020.0,999999,Commodities not specified according to kind,724.0,Espanha,20187.0,0.02,mirror
-2020.0,999999,Commodities not specified according to kind,156.0,China,5606.0,0.006,mirror
+2020.0,999999,Mercadorias não especificadas,528.0,Países Baixos,82702378.0,83.402,mirror
+2020.0,999999,Mercadorias não especificadas,842.0,EUA,16200558.0,16.338,mirror
+2020.0,999999,Mercadorias não especificadas,251.0,França,78345.0,0.079,mirror
+2020.0,999999,Mercadorias não especificadas,120.0,Camarões,63318.0,0.064,mirror
+2020.0,999999,Mercadorias não especificadas,276.0,Alemanha,45387.0,0.046,mirror
+2020.0,999999,Mercadorias não especificadas,392.0,Japão,44548.0,0.045,mirror
+2020.0,999999,Mercadorias não especificadas,724.0,Espanha,20187.0,0.02,mirror
+2020.0,999999,Mercadorias não especificadas,156.0,China,5606.0,0.006,mirror
 2021.0,180100,Cacau,724.0,Espanha,1305918.0,88.277,mirror
 2021.0,180100,Cacau,233.0,Estónia,112737.0,7.621,mirror
 2021.0,180100,Cacau,807.0,North Macedonia,60652.0,4.1,mirror
@@ -1548,14 +1548,14 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2021.0,271113,Gás natural e outros gases de petróleo,854.0,Burkina Faso,25149.0,0.02,mirror
 2021.0,271119,Gás natural e outros gases de petróleo,710.0,África do Sul,1421205.0,100.0,mirror
 2021.0,271129,Gás natural e outros gases de petróleo,842.0,EUA,88465714.0,100.0,mirror
-2021.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,179442681.0,46.514,mirror
-2021.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,102553260.0,26.583,mirror
-2021.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,49306332.0,12.781,mirror
-2021.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,33335177.0,8.641,mirror
-2021.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",124.0,Canadá,11216426.0,2.907,mirror
-2021.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",566.0,Nigéria,7952980.0,2.062,mirror
-2021.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",616.0,Polónia,1031716.0,0.267,mirror
-2021.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",266.0,Gabão,887202.0,0.23,mirror
+2021.0,290511,Álcoois acíclicos,528.0,Países Baixos,179442681.0,46.514,mirror
+2021.0,290511,Álcoois acíclicos,842.0,EUA,102553260.0,26.583,mirror
+2021.0,290511,Álcoois acíclicos,724.0,Espanha,49306332.0,12.781,mirror
+2021.0,290511,Álcoois acíclicos,276.0,Alemanha,33335177.0,8.641,mirror
+2021.0,290511,Álcoois acíclicos,124.0,Canadá,11216426.0,2.907,mirror
+2021.0,290511,Álcoois acíclicos,566.0,Nigéria,7952980.0,2.062,mirror
+2021.0,290511,Álcoois acíclicos,616.0,Polónia,1031716.0,0.267,mirror
+2021.0,290511,Álcoois acíclicos,266.0,Gabão,887202.0,0.23,mirror
 2021.0,440349,Madeira em bruto,156.0,China,82939785.0,99.975,mirror
 2021.0,440349,Madeira em bruto,784.0,Emirados Árabes Unidos,20817.0,0.025,mirror
 2021.0,440399,Madeira em bruto,156.0,China,280561.0,100.0,mirror
@@ -1565,27 +1565,27 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2021.0,440729,Madeira serrada,504.0,Marrocos,39570.0,0.759,mirror
 2021.0,440729,Madeira serrada,724.0,Espanha,38441.0,0.738,mirror
 2021.0,440729,Madeira serrada,643.0,Rússia,6190.0,0.119,mirror
-2021.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,3455353.0,49.235,mirror
-2021.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,2236699.0,31.871,mirror
-2021.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,646990.0,9.219,mirror
-2021.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",490.0,Taiwan (Prov. China),363551.0,5.18,mirror
-2021.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",608.0,Filipinas,298807.0,4.258,mirror
-2021.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",699.0,Índia,16639.0,0.237,mirror
-2021.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,8342964.0,98.715,mirror
-2021.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,65457.0,0.774,mirror
-2021.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,23039.0,0.273,mirror
-2021.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,20123.0,0.238,mirror
-2021.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,94008.0,72.729,mirror
-2021.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,33819.0,26.164,mirror
-2021.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,620.0,Portugal,1431.0,1.107,mirror
-2021.0,999999,Commodities not specified according to kind,842.0,EUA,903187.0,56.188,mirror
-2021.0,999999,Commodities not specified according to kind,380.0,Itália,405487.0,25.226,mirror
-2021.0,999999,Commodities not specified according to kind,120.0,Camarões,125873.0,7.831,mirror
-2021.0,999999,Commodities not specified according to kind,178.0,Congo,105646.0,6.572,mirror
-2021.0,999999,Commodities not specified according to kind,251.0,França,32986.0,2.052,mirror
-2021.0,999999,Commodities not specified according to kind,724.0,Espanha,17053.0,1.061,mirror
-2021.0,999999,Commodities not specified according to kind,710.0,África do Sul,11300.0,0.703,mirror
-2021.0,999999,Commodities not specified according to kind,196.0,Chipre,3217.0,0.2,mirror
+2021.0,440839,Folhas de madeira para folheados,380.0,Itália,3455353.0,49.235,mirror
+2021.0,440839,Folhas de madeira para folheados,156.0,China,2236699.0,31.871,mirror
+2021.0,440839,Folhas de madeira para folheados,724.0,Espanha,646990.0,9.219,mirror
+2021.0,440839,Folhas de madeira para folheados,490.0,Taiwan (Prov. China),363551.0,5.18,mirror
+2021.0,440839,Folhas de madeira para folheados,608.0,Filipinas,298807.0,4.258,mirror
+2021.0,440839,Folhas de madeira para folheados,699.0,Índia,16639.0,0.237,mirror
+2021.0,720449,Sucata ferrosa,699.0,Índia,8342964.0,98.715,mirror
+2021.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,65457.0,0.774,mirror
+2021.0,720449,Sucata ferrosa,120.0,Camarões,23039.0,0.273,mirror
+2021.0,720449,Sucata ferrosa,724.0,Espanha,20123.0,0.238,mirror
+2021.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,94008.0,72.729,mirror
+2021.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,33819.0,26.164,mirror
+2021.0,843143,Partes de máquinas de terraplanagem,620.0,Portugal,1431.0,1.107,mirror
+2021.0,999999,Mercadorias não especificadas,842.0,EUA,903187.0,56.188,mirror
+2021.0,999999,Mercadorias não especificadas,380.0,Itália,405487.0,25.226,mirror
+2021.0,999999,Mercadorias não especificadas,120.0,Camarões,125873.0,7.831,mirror
+2021.0,999999,Mercadorias não especificadas,178.0,Congo,105646.0,6.572,mirror
+2021.0,999999,Mercadorias não especificadas,251.0,França,32986.0,2.052,mirror
+2021.0,999999,Mercadorias não especificadas,724.0,Espanha,17053.0,1.061,mirror
+2021.0,999999,Mercadorias não especificadas,710.0,África do Sul,11300.0,0.703,mirror
+2021.0,999999,Mercadorias não especificadas,196.0,Chipre,3217.0,0.2,mirror
 2022.0,180100,Cacau,724.0,Espanha,1949256.0,99.998,mirror
 2022.0,180100,Cacau,124.0,Canadá,40.0,0.002,mirror
 2022.0,270900,Petróleo bruto,156.0,China,1061142816.0,25.04,mirror
@@ -1625,12 +1625,12 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2022.0,271113,Gás natural e outros gases de petróleo,678.0,São Tomé e Príncipe,139211.0,0.181,mirror
 2022.0,271119,Gás natural e outros gases de petróleo,508.0,Moçambique,4553862.0,100.0,mirror
 2022.0,271129,Gás natural e outros gases de petróleo,842.0,EUA,58100462.0,100.0,mirror
-2022.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,50345748.0,35.444,mirror
-2022.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,33233537.0,23.397,mirror
-2022.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,31277266.0,22.02,mirror
-2022.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",124.0,Canadá,18334521.0,12.908,mirror
-2022.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",566.0,Nigéria,8734372.0,6.149,mirror
-2022.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",372.0,Irlanda,117196.0,0.083,mirror
+2022.0,290511,Álcoois acíclicos,724.0,Espanha,50345748.0,35.444,mirror
+2022.0,290511,Álcoois acíclicos,842.0,EUA,33233537.0,23.397,mirror
+2022.0,290511,Álcoois acíclicos,276.0,Alemanha,31277266.0,22.02,mirror
+2022.0,290511,Álcoois acíclicos,124.0,Canadá,18334521.0,12.908,mirror
+2022.0,290511,Álcoois acíclicos,566.0,Nigéria,8734372.0,6.149,mirror
+2022.0,290511,Álcoois acíclicos,372.0,Irlanda,117196.0,0.083,mirror
 2022.0,440349,Madeira em bruto,156.0,China,118455254.0,99.836,mirror
 2022.0,440349,Madeira em bruto,784.0,Emirados Árabes Unidos,92242.0,0.078,mirror
 2022.0,440349,Madeira em bruto,792.0,Turquia,59064.0,0.05,mirror
@@ -1641,30 +1641,30 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2022.0,440729,Madeira serrada,422.0,Líbano,262404.0,2.015,mirror
 2022.0,440729,Madeira serrada,504.0,Marrocos,66506.0,0.511,mirror
 2022.0,440729,Madeira serrada,724.0,Espanha,38037.0,0.292,mirror
-2022.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,5983962.0,48.706,mirror
-2022.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,2914964.0,23.726,mirror
-2022.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,2198586.0,17.895,mirror
-2022.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",608.0,Filipinas,984682.0,8.015,mirror
-2022.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",490.0,Taiwan (Prov. China),152498.0,1.241,mirror
-2022.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",705.0,Eslovénia,36150.0,0.294,mirror
-2022.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",699.0,Índia,14967.0,0.122,mirror
-2022.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,15691763.0,92.515,mirror
-2022.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,504.0,Marrocos,1137945.0,6.709,mirror
-2022.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,72540.0,0.428,mirror
-2022.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,48164.0,0.284,mirror
-2022.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,10973.0,0.065,mirror
-2022.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,508.0,Moçambique,72659.0,58.281,mirror
-2022.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,47078.0,37.762,mirror
-2022.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,4932.0,3.956,mirror
-2022.0,890520,Floating or submersible drilling or production platforms,178.0,Congo,1048517.0,100.0,mirror
-2022.0,999999,Commodities not specified according to kind,528.0,Países Baixos,437529980.0,96.506,mirror
-2022.0,999999,Commodities not specified according to kind,826.0,Reino Unido,12334322.0,2.721,mirror
-2022.0,999999,Commodities not specified according to kind,842.0,EUA,3141592.0,0.693,mirror
-2022.0,999999,Commodities not specified according to kind,380.0,Itália,160087.0,0.035,mirror
-2022.0,999999,Commodities not specified according to kind,678.0,São Tomé e Príncipe,106899.0,0.024,mirror
-2022.0,999999,Commodities not specified according to kind,120.0,Camarões,39460.0,0.009,mirror
-2022.0,999999,Commodities not specified according to kind,251.0,França,22699.0,0.005,mirror
-2022.0,999999,Commodities not specified according to kind,724.0,Espanha,17154.0,0.004,mirror
+2022.0,440839,Folhas de madeira para folheados,156.0,China,5983962.0,48.706,mirror
+2022.0,440839,Folhas de madeira para folheados,380.0,Itália,2914964.0,23.726,mirror
+2022.0,440839,Folhas de madeira para folheados,724.0,Espanha,2198586.0,17.895,mirror
+2022.0,440839,Folhas de madeira para folheados,608.0,Filipinas,984682.0,8.015,mirror
+2022.0,440839,Folhas de madeira para folheados,490.0,Taiwan (Prov. China),152498.0,1.241,mirror
+2022.0,440839,Folhas de madeira para folheados,705.0,Eslovénia,36150.0,0.294,mirror
+2022.0,440839,Folhas de madeira para folheados,699.0,Índia,14967.0,0.122,mirror
+2022.0,720449,Sucata ferrosa,699.0,Índia,15691763.0,92.515,mirror
+2022.0,720449,Sucata ferrosa,504.0,Marrocos,1137945.0,6.709,mirror
+2022.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,72540.0,0.428,mirror
+2022.0,720449,Sucata ferrosa,120.0,Camarões,48164.0,0.284,mirror
+2022.0,720449,Sucata ferrosa,724.0,Espanha,10973.0,0.065,mirror
+2022.0,843143,Partes de máquinas de terraplanagem,508.0,Moçambique,72659.0,58.281,mirror
+2022.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,47078.0,37.762,mirror
+2022.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,4932.0,3.956,mirror
+2022.0,890520,Plataformas e dragas,178.0,Congo,1048517.0,100.0,mirror
+2022.0,999999,Mercadorias não especificadas,528.0,Países Baixos,437529980.0,96.506,mirror
+2022.0,999999,Mercadorias não especificadas,826.0,Reino Unido,12334322.0,2.721,mirror
+2022.0,999999,Mercadorias não especificadas,842.0,EUA,3141592.0,0.693,mirror
+2022.0,999999,Mercadorias não especificadas,380.0,Itália,160087.0,0.035,mirror
+2022.0,999999,Mercadorias não especificadas,678.0,São Tomé e Príncipe,106899.0,0.024,mirror
+2022.0,999999,Mercadorias não especificadas,120.0,Camarões,39460.0,0.009,mirror
+2022.0,999999,Mercadorias não especificadas,251.0,França,22699.0,0.005,mirror
+2022.0,999999,Mercadorias não especificadas,724.0,Espanha,17154.0,0.004,mirror
 2023.0,180100,Cacau,724.0,Espanha,1307805.0,96.953,mirror
 2023.0,180100,Cacau,528.0,Países Baixos,41099.0,3.047,mirror
 2023.0,270900,Petróleo bruto,156.0,China,1201369301.0,51.583,mirror
@@ -1708,14 +1708,14 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2023.0,271119,Gás natural e outros gases de petróleo,678.0,São Tomé e Príncipe,42.0,0.081,mirror
 2023.0,271129,Gás natural e outros gases de petróleo,842.0,EUA,3331992.0,51.907,mirror
 2023.0,271129,Gás natural e outros gases de petróleo,710.0,África do Sul,3087212.0,48.093,mirror
-2023.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,118657299.0,34.469,mirror
-2023.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,117030976.0,33.997,mirror
-2023.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,43480801.0,12.631,mirror
-2023.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",842.0,EUA,23409093.0,6.8,mirror
-2023.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",124.0,Canadá,15586290.0,4.528,mirror
-2023.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",566.0,Nigéria,13416034.0,3.897,mirror
-2023.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",699.0,Índia,8790148.0,2.553,mirror
-2023.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",642.0,Roménia,1948874.0,0.566,mirror
+2023.0,290511,Álcoois acíclicos,528.0,Países Baixos,118657299.0,34.469,mirror
+2023.0,290511,Álcoois acíclicos,276.0,Alemanha,117030976.0,33.997,mirror
+2023.0,290511,Álcoois acíclicos,724.0,Espanha,43480801.0,12.631,mirror
+2023.0,290511,Álcoois acíclicos,842.0,EUA,23409093.0,6.8,mirror
+2023.0,290511,Álcoois acíclicos,124.0,Canadá,15586290.0,4.528,mirror
+2023.0,290511,Álcoois acíclicos,566.0,Nigéria,13416034.0,3.897,mirror
+2023.0,290511,Álcoois acíclicos,699.0,Índia,8790148.0,2.553,mirror
+2023.0,290511,Álcoois acíclicos,642.0,Roménia,1948874.0,0.566,mirror
 2023.0,440349,Madeira em bruto,156.0,China,31717103.0,97.031,mirror
 2023.0,440349,Madeira em bruto,784.0,Emirados Árabes Unidos,822400.0,2.516,mirror
 2023.0,440349,Madeira em bruto,504.0,Marrocos,94805.0,0.29,mirror
@@ -1731,29 +1731,29 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2023.0,440729,Madeira serrada,276.0,Alemanha,67604.0,0.517,mirror
 2023.0,440729,Madeira serrada,380.0,Itália,60878.0,0.466,mirror
 2023.0,440729,Madeira serrada,620.0,Portugal,52895.0,0.405,mirror
-2023.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,3681740.0,32.028,mirror
-2023.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,3003883.0,26.131,mirror
-2023.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",608.0,Filipinas,2521427.0,21.934,mirror
-2023.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",490.0,Taiwan (Prov. China),1638613.0,14.254,mirror
-2023.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",724.0,Espanha,423066.0,3.68,mirror
-2023.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",699.0,Índia,116809.0,1.016,mirror
-2023.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",705.0,Eslovénia,109885.0,0.956,mirror
-2023.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,15952618.0,93.517,mirror
-2023.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,504.0,Marrocos,960350.0,5.63,mirror
-2023.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,784.0,Emirados Árabes Unidos,112184.0,0.658,mirror
-2023.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,120.0,Camarões,33305.0,0.195,mirror
-2023.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,60984.0,41.127,mirror
-2023.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,178.0,Congo,53472.0,36.06,mirror
-2023.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,579.0,Noruega,33828.0,22.813,mirror
+2023.0,440839,Folhas de madeira para folheados,156.0,China,3681740.0,32.028,mirror
+2023.0,440839,Folhas de madeira para folheados,380.0,Itália,3003883.0,26.131,mirror
+2023.0,440839,Folhas de madeira para folheados,608.0,Filipinas,2521427.0,21.934,mirror
+2023.0,440839,Folhas de madeira para folheados,490.0,Taiwan (Prov. China),1638613.0,14.254,mirror
+2023.0,440839,Folhas de madeira para folheados,724.0,Espanha,423066.0,3.68,mirror
+2023.0,440839,Folhas de madeira para folheados,699.0,Índia,116809.0,1.016,mirror
+2023.0,440839,Folhas de madeira para folheados,705.0,Eslovénia,109885.0,0.956,mirror
+2023.0,720449,Sucata ferrosa,699.0,Índia,15952618.0,93.517,mirror
+2023.0,720449,Sucata ferrosa,504.0,Marrocos,960350.0,5.63,mirror
+2023.0,720449,Sucata ferrosa,784.0,Emirados Árabes Unidos,112184.0,0.658,mirror
+2023.0,720449,Sucata ferrosa,120.0,Camarões,33305.0,0.195,mirror
+2023.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,60984.0,41.127,mirror
+2023.0,843143,Partes de máquinas de terraplanagem,178.0,Congo,53472.0,36.06,mirror
+2023.0,843143,Partes de máquinas de terraplanagem,579.0,Noruega,33828.0,22.813,mirror
 2023.0,890190,Navios,178.0,Congo,9408250.0,100.0,mirror
-2023.0,999999,Commodities not specified according to kind,826.0,Reino Unido,11261782.0,89.847,mirror
-2023.0,999999,Commodities not specified according to kind,842.0,EUA,874022.0,6.973,mirror
-2023.0,999999,Commodities not specified according to kind,380.0,Itália,185305.0,1.478,mirror
-2023.0,999999,Commodities not specified according to kind,678.0,São Tomé e Príncipe,66471.0,0.53,mirror
-2023.0,999999,Commodities not specified according to kind,178.0,Congo,57858.0,0.462,mirror
-2023.0,999999,Commodities not specified according to kind,251.0,França,43706.0,0.349,mirror
-2023.0,999999,Commodities not specified according to kind,688.0,Sérvia,17366.0,0.139,mirror
-2023.0,999999,Commodities not specified according to kind,276.0,Alemanha,13539.0,0.108,mirror
+2023.0,999999,Mercadorias não especificadas,826.0,Reino Unido,11261782.0,89.847,mirror
+2023.0,999999,Mercadorias não especificadas,842.0,EUA,874022.0,6.973,mirror
+2023.0,999999,Mercadorias não especificadas,380.0,Itália,185305.0,1.478,mirror
+2023.0,999999,Mercadorias não especificadas,678.0,São Tomé e Príncipe,66471.0,0.53,mirror
+2023.0,999999,Mercadorias não especificadas,178.0,Congo,57858.0,0.462,mirror
+2023.0,999999,Mercadorias não especificadas,251.0,França,43706.0,0.349,mirror
+2023.0,999999,Mercadorias não especificadas,688.0,Sérvia,17366.0,0.139,mirror
+2023.0,999999,Mercadorias não especificadas,276.0,Alemanha,13539.0,0.108,mirror
 2024.0,180100,Cacau,724.0,Espanha,2048066.0,99.91,mirror
 2024.0,180100,Cacau,380.0,Itália,1851.0,0.09,mirror
 2024.0,270900,Petróleo bruto,156.0,China,778867564.0,34.313,mirror
@@ -1796,13 +1796,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2024.0,271119,Gás natural e outros gases de petróleo,566.0,Nigéria,24216844.0,98.364,mirror
 2024.0,271119,Gás natural e outros gases de petróleo,804.0,Ucrânia,402702.0,1.636,mirror
 2024.0,271129,Gás natural e outros gases de petróleo,842.0,EUA,9405552.0,100.0,mirror
-2024.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",276.0,Alemanha,113702083.0,50.39,mirror
-2024.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",528.0,Países Baixos,44243909.0,19.608,mirror
-2024.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",724.0,Espanha,37696088.0,16.706,mirror
-2024.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",566.0,Nigéria,14344143.0,6.357,mirror
-2024.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",124.0,Canadá,13955999.0,6.185,mirror
-2024.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",616.0,Polónia,1699152.0,0.753,mirror
-2024.0,290511,"Alcohols; saturated monohydric, methanol (methyl alcohol)",372.0,Irlanda,3845.0,0.002,mirror
+2024.0,290511,Álcoois acíclicos,276.0,Alemanha,113702083.0,50.39,mirror
+2024.0,290511,Álcoois acíclicos,528.0,Países Baixos,44243909.0,19.608,mirror
+2024.0,290511,Álcoois acíclicos,724.0,Espanha,37696088.0,16.706,mirror
+2024.0,290511,Álcoois acíclicos,566.0,Nigéria,14344143.0,6.357,mirror
+2024.0,290511,Álcoois acíclicos,124.0,Canadá,13955999.0,6.185,mirror
+2024.0,290511,Álcoois acíclicos,616.0,Polónia,1699152.0,0.753,mirror
+2024.0,290511,Álcoois acíclicos,372.0,Irlanda,3845.0,0.002,mirror
 2024.0,440349,Madeira em bruto,156.0,China,34896197.0,99.936,mirror
 2024.0,440349,Madeira em bruto,504.0,Marrocos,22206.0,0.064,mirror
 2024.0,440399,Madeira em bruto,156.0,China,17503.0,100.0,mirror
@@ -1813,22 +1813,22 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2024.0,440729,Madeira serrada,724.0,Espanha,75067.0,0.564,mirror
 2024.0,440729,Madeira serrada,422.0,Líbano,62268.0,0.468,mirror
 2024.0,440729,Madeira serrada,380.0,Itália,51500.0,0.387,mirror
-2024.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",156.0,China,4955196.0,74.146,mirror
-2024.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",608.0,Filipinas,794988.0,11.896,mirror
-2024.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",380.0,Itália,690443.0,10.331,mirror
-2024.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",699.0,Índia,207296.0,3.102,mirror
-2024.0,440839,"Wood, of tropical wood; as in Subheading note 2 to this Chapter, n.e.c. in heading no. 4408.31, sheets for veneer or plywood, other wood sawn length wise, sliced or peeled, whether or not planed, sanded or end-jointed, not thicker than 6mm",705.0,Eslovénia,35103.0,0.525,mirror
-2024.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,699.0,Índia,14484632.0,94.332,mirror
-2024.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,504.0,Marrocos,573973.0,3.738,mirror
-2024.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,724.0,Espanha,197853.0,1.289,mirror
-2024.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,156.0,China,85374.0,0.556,mirror
-2024.0,720449,Ferrous waste and scrap; n.e.c. in heading no. 7204,764.0,Tailândia,13066.0,0.085,mirror
-2024.0,843143,Boring or sinking machinery; parts for boring or sinking machinery of subheading 8430.41 or 8430.49,24.0,Angola,2758.0,100.0,mirror
-2024.0,999999,Commodities not specified according to kind,826.0,Reino Unido,4889583.0,50.328,mirror
-2024.0,999999,Commodities not specified according to kind,842.0,EUA,4582739.0,47.17,mirror
-2024.0,999999,Commodities not specified according to kind,380.0,Itália,164372.0,1.692,mirror
-2024.0,999999,Commodities not specified according to kind,251.0,França,66578.0,0.685,mirror
-2024.0,999999,Commodities not specified according to kind,276.0,Alemanha,6817.0,0.07,mirror
-2024.0,999999,Commodities not specified according to kind,376.0,Israel,4000.0,0.041,mirror
-2024.0,999999,Commodities not specified according to kind,156.0,China,694.0,0.007,mirror
-2024.0,999999,Commodities not specified according to kind,40.0,Áustria,247.0,0.003,mirror
+2024.0,440839,Folhas de madeira para folheados,156.0,China,4955196.0,74.146,mirror
+2024.0,440839,Folhas de madeira para folheados,608.0,Filipinas,794988.0,11.896,mirror
+2024.0,440839,Folhas de madeira para folheados,380.0,Itália,690443.0,10.331,mirror
+2024.0,440839,Folhas de madeira para folheados,699.0,Índia,207296.0,3.102,mirror
+2024.0,440839,Folhas de madeira para folheados,705.0,Eslovénia,35103.0,0.525,mirror
+2024.0,720449,Sucata ferrosa,699.0,Índia,14484632.0,94.332,mirror
+2024.0,720449,Sucata ferrosa,504.0,Marrocos,573973.0,3.738,mirror
+2024.0,720449,Sucata ferrosa,724.0,Espanha,197853.0,1.289,mirror
+2024.0,720449,Sucata ferrosa,156.0,China,85374.0,0.556,mirror
+2024.0,720449,Sucata ferrosa,764.0,Tailândia,13066.0,0.085,mirror
+2024.0,843143,Partes de máquinas de terraplanagem,24.0,Angola,2758.0,100.0,mirror
+2024.0,999999,Mercadorias não especificadas,826.0,Reino Unido,4889583.0,50.328,mirror
+2024.0,999999,Mercadorias não especificadas,842.0,EUA,4582739.0,47.17,mirror
+2024.0,999999,Mercadorias não especificadas,380.0,Itália,164372.0,1.692,mirror
+2024.0,999999,Mercadorias não especificadas,251.0,França,66578.0,0.685,mirror
+2024.0,999999,Mercadorias não especificadas,276.0,Alemanha,6817.0,0.07,mirror
+2024.0,999999,Mercadorias não especificadas,376.0,Israel,4000.0,0.041,mirror
+2024.0,999999,Mercadorias não especificadas,156.0,China,694.0,0.007,mirror
+2024.0,999999,Mercadorias não especificadas,40.0,Áustria,247.0,0.003,mirror

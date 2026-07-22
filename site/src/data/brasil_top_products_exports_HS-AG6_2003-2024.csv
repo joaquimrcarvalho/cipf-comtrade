@@ -1,64 +1,64 @@
 year,hs6,description_pt,value,share_pct,rank,basis
 2003,120100,Soja,4286800347,5.891,1,direct
-2003,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",2602370500,3.576,2,direct
+2003,230400,Resíduos da extração de óleo de soja,2602370500,3.576,2,direct
 2003,260111,Minério de ferro,2282178667,3.136,3,direct
 2003,870323,Automóveis de passageiros,2222457612,3.054,4,direct
 2003,270900,Petróleo bruto,2121931508,2.916,5,direct
-2003,880230,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 2000kg but not exceeding 15,000kg",1879658372,2.583,6,direct
-2003,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",1684522073,2.315,7,direct
+2003,880230,Helicópteros e aviões,1879658372,2.583,6,direct
+2003,470329,Pasta de madeira química,1684522073,2.315,7,direct
 2003,170111,Açúcar de cana ou de beterraba,1350039100,1.855,8,direct
 2003,090111,Café,1301563428,1.789,9,direct
-2003,999999,Commodities not specified according to kind,1231888465,1.693,10,direct
+2003,999999,Mercadorias não especificadas,1231888465,1.693,10,direct
 2003,120100,Soja,5049637810,6.239,1,mirror
 2003,260111,Minério de ferro,3875621871,4.788,2,mirror
-2003,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",3061242818,3.782,3,mirror
+2003,230400,Resíduos da extração de óleo de soja,3061242818,3.782,3,mirror
 2003,870323,Automóveis de passageiros,2335262747,2.885,4,mirror
 2003,270900,Petróleo bruto,2050862180,2.534,5,mirror
-2003,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",1859176126,2.297,6,mirror
+2003,470329,Pasta de madeira química,1859176126,2.297,6,mirror
 2003,170111,Açúcar de cana ou de beterraba,1534010424,1.895,7,mirror
 2003,090111,Café,1518424529,1.876,8,mirror
-2003,999999,Commodities not specified according to kind,1475994750,1.824,9,mirror
+2003,999999,Mercadorias não especificadas,1475994750,1.824,9,mirror
 2003,260112,Minério de ferro,1314509766,1.624,10,mirror
 2004,120100,Soja,5372628651,5.649,1,direct
-2004,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",3263535664,3.431,2,direct
+2004,230400,Resíduos da extração de óleo de soja,3263535664,3.431,2,direct
 2004,260111,Minério de ferro,3042387419,3.199,3,direct
 2004,270900,Petróleo bruto,2527656409,2.657,4,direct
 2004,870323,Automóveis de passageiros,2488969168,2.617,5,direct
-2004,880230,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 2000kg but not exceeding 15,000kg",2055074419,2.161,6,direct
+2004,880230,Helicópteros e aviões,2055074419,2.161,6,direct
 2004,090111,Café,1748444933,1.838,7,direct
 2004,260112,Minério de ferro,1716487798,1.805,8,direct
-2004,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",1690091948,1.777,9,direct
-2004,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",1667336153,1.753,10,direct
+2004,020714,Carne de aves,1690091948,1.777,9,direct
+2004,470329,Pasta de madeira química,1667336153,1.753,10,direct
 2004,120100,Soja,6340885678,5.916,1,mirror
 2004,260111,Minério de ferro,6278346824,5.858,2,mirror
-2004,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",3733477811,3.483,3,mirror
+2004,230400,Resíduos da extração de óleo de soja,3733477811,3.483,3,mirror
 2004,270900,Petróleo bruto,2700444964,2.52,4,mirror
 2004,870323,Automóveis de passageiros,2545409805,2.375,5,mirror
-2004,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",2214635935,2.066,6,mirror
+2004,470329,Pasta de madeira química,2214635935,2.066,6,mirror
 2004,260112,Minério de ferro,1992843103,1.859,7,mirror
 2004,090111,Café,1906185828,1.779,8,mirror
-2004,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",1593494988,1.487,9,mirror
+2004,020714,Carne de aves,1593494988,1.487,9,mirror
 2004,170111,Açúcar de cana ou de beterraba,1527106138,1.425,10,mirror
 2005,120100,Soja,5311765923,4.479,1,direct
 2005,260111,Minério de ferro,4434980083,3.74,2,direct
 2005,270900,Petróleo bruto,4164752018,3.512,3,direct
 2005,870323,Automóveis de passageiros,2872883733,2.422,4,direct
 2005,260112,Minério de ferro,2861660019,2.413,5,direct
-2005,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",2858742913,2.411,6,direct
-2005,852520,852520,2552513099,2.152,7,direct
+2005,230400,Resíduos da extração de óleo de soja,2858742913,2.411,6,direct
+2005,852520,Aparelhos de transmissão e câmaras,2552513099,2.152,7,direct
 2005,090111,Café,2515420720,2.121,8,direct
 2005,170111,Açúcar de cana ou de beterraba,2382020681,2.009,9,direct
-2005,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2225056727,1.876,10,direct
+2005,020714,Carne de aves,2225056727,1.876,10,direct
 2005,260111,Minério de ferro,8894857796,6.908,1,mirror
 2005,120100,Soja,6212263521,4.824,2,mirror
 2005,270900,Petróleo bruto,4195737199,3.258,3,mirror
-2005,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",3263922661,2.535,4,mirror
+2005,230400,Resíduos da extração de óleo de soja,3263922661,2.535,4,mirror
 2005,170111,Açúcar de cana ou de beterraba,3149110879,2.446,5,mirror
 2005,870323,Automóveis de passageiros,3146016649,2.443,6,mirror
 2005,260112,Minério de ferro,2817506479,2.188,7,mirror
 2005,090111,Café,2678926825,2.08,8,mirror
-2005,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",2605924601,2.024,9,mirror
-2005,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2177158911,1.691,10,mirror
+2005,470329,Pasta de madeira química,2605924601,2.024,9,mirror
+2005,020714,Carne de aves,2177158911,1.691,10,mirror
 2006,270900,Petróleo bruto,6894527813,5.011,1,direct
 2006,260111,Minério de ferro,5750495851,4.18,2,direct
 2006,120100,Soja,5647357557,4.105,3,direct
@@ -66,77 +66,77 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2006,260112,Minério de ferro,3198375466,2.325,5,direct
 2006,870323,Automóveis de passageiros,3035936560,2.207,6,direct
 2006,090111,Café,2927563786,2.128,7,direct
-2006,852520,852520,2809761038,2.042,8,direct
-2006,999999,Commodities not specified according to kind,2615677487,1.901,9,direct
-2006,020230,"Meat; of bovine animals, boneless cuts, frozen",2451935575,1.782,10,direct
+2006,852520,Aparelhos de transmissão e câmaras,2809761038,2.042,8,direct
+2006,999999,Mercadorias não especificadas,2615677487,1.901,9,direct
+2006,020230,"Carne de bovino, congelada",2451935575,1.782,10,direct
 2006,260111,Minério de ferro,11583576496,7.875,1,mirror
 2006,270900,Petróleo bruto,7327936490,4.982,2,mirror
 2006,120100,Soja,6386880287,4.342,3,mirror
 2006,170111,Açúcar de cana ou de beterraba,3569961018,2.427,4,mirror
 2006,260112,Minério de ferro,3434820902,2.335,5,mirror
-2006,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",3394590538,2.308,6,mirror
+2006,470329,Pasta de madeira química,3394590538,2.308,6,mirror
 2006,870323,Automóveis de passageiros,3072586315,2.089,7,mirror
 2006,090111,Café,3015191090,2.05,8,mirror
-2006,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",2753667049,1.872,9,mirror
-2006,999999,Commodities not specified according to kind,2638056018,1.794,10,mirror
+2006,230400,Resíduos da extração de óleo de soja,2753667049,1.872,9,mirror
+2006,999999,Mercadorias não especificadas,2638056018,1.794,10,mirror
 2007,270900,Petróleo bruto,8905065606,5.572,1,direct
 2007,260111,Minério de ferro,7114106951,4.451,2,direct
 2007,120100,Soja,6683731589,4.182,3,direct
-2007,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",3755187578,2.35,4,direct
+2007,880240,Helicópteros e aviões,3755187578,2.35,4,direct
 2007,260112,Minério de ferro,3443804503,2.155,5,direct
-2007,999999,Commodities not specified according to kind,3408573866,2.133,6,direct
+2007,999999,Mercadorias não especificadas,3408573866,2.133,6,direct
 2007,090111,Café,3375966166,2.112,7,direct
 2007,870323,Automóveis de passageiros,3179636066,1.99,8,direct
 2007,170111,Açúcar de cana ou de beterraba,3129549269,1.958,9,direct
-2007,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",2957016563,1.85,10,direct
+2007,230400,Resíduos da extração de óleo de soja,2957016563,1.85,10,direct
 2007,260111,Minério de ferro,16797092201,9.548,1,mirror
 2007,120100,Soja,8581970006,4.878,2,mirror
 2007,270900,Petróleo bruto,8421151958,4.787,3,mirror
 2007,260112,Minério de ferro,4183006345,2.378,4,mirror
-2007,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",3895063372,2.214,5,mirror
+2007,470329,Pasta de madeira química,3895063372,2.214,5,mirror
 2007,170111,Açúcar de cana ou de beterraba,3828414679,2.176,6,mirror
-2007,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",3617353117,2.056,7,mirror
+2007,230400,Resíduos da extração de óleo de soja,3617353117,2.056,7,mirror
 2007,090111,Café,3537178506,2.011,8,mirror
-2007,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",3296323951,1.874,9,mirror
+2007,880240,Helicópteros e aviões,3296323951,1.874,9,mirror
 2007,870323,Automóveis de passageiros,3261446014,1.854,10,mirror
 2008,270900,Petróleo bruto,13682759497,6.989,1,direct
 2008,260111,Minério de ferro,11053596434,5.646,2,direct
 2008,120100,Soja,10952173105,5.595,3,direct
 2008,260112,Minério de ferro,5484825164,2.802,4,direct
-2008,999999,Commodities not specified according to kind,4825382062,2.465,5,direct
-2008,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",4394145785,2.245,6,direct
-2008,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",4361024917,2.228,7,direct
+2008,999999,Mercadorias não especificadas,4825382062,2.465,5,direct
+2008,880240,Helicópteros e aviões,4394145785,2.245,6,direct
+2008,230400,Resíduos da extração de óleo de soja,4361024917,2.228,7,direct
 2008,090111,Café,4130759350,2.11,8,direct
-2008,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",3773452864,1.928,9,direct
-2008,020230,"Meat; of bovine animals, boneless cuts, frozen",3669213800,1.874,10,direct
+2008,470329,Pasta de madeira química,3773452864,1.928,9,direct
+2008,020230,"Carne de bovino, congelada",3669213800,1.874,10,direct
 2008,260111,Minério de ferro,27077240769,12.24,1,mirror
 2008,270900,Petróleo bruto,15215083782,6.878,2,mirror
 2008,120100,Soja,14476827006,6.544,3,mirror
 2008,260112,Minério de ferro,6437456722,2.91,4,mirror
-2008,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5433121551,2.456,5,mirror
-2008,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",4697184079,2.123,6,mirror
+2008,230400,Resíduos da extração de óleo de soja,5433121551,2.456,5,mirror
+2008,470329,Pasta de madeira química,4697184079,2.123,6,mirror
 2008,090111,Café,4111747509,1.859,7,mirror
 2008,170111,Açúcar de cana ou de beterraba,4105751439,1.856,8,mirror
-2008,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",3637850948,1.644,9,mirror
+2008,880240,Helicópteros e aviões,3637850948,1.644,9,mirror
 2008,870323,Automóveis de passageiros,3592191516,1.624,10,mirror
 2009,120100,Soja,11424264951,7.526,1,direct
 2009,260111,Minério de ferro,10582192295,6.972,2,direct
 2009,270900,Petróleo bruto,9351031046,6.16,3,direct
 2009,170111,Açúcar de cana ou de beterraba,5978561559,3.939,4,direct
-2009,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",4591397119,3.025,5,direct
+2009,230400,Resíduos da extração de óleo de soja,4591397119,3.025,5,direct
 2009,090111,Café,3760549733,2.477,6,direct
-2009,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",3107866131,2.047,7,direct
-2009,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",3071052605,2.023,8,direct
-2009,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2883773816,1.9,9,direct
+2009,880240,Helicópteros e aviões,3107866131,2.047,7,direct
+2009,470329,Pasta de madeira química,3071052605,2.023,8,direct
+2009,020714,Carne de aves,2883773816,1.9,9,direct
 2009,240120,Tabaco não manufaturado,2852430793,1.879,10,direct
 2009,260111,Minério de ferro,19239176096,11.431,1,mirror
 2009,120100,Soja,13579375033,8.068,2,mirror
 2009,270900,Petróleo bruto,10896589207,6.474,3,mirror
 2009,170111,Açúcar de cana ou de beterraba,5308788170,3.154,4,mirror
-2009,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5200548993,3.09,5,mirror
+2009,230400,Resíduos da extração de óleo de soja,5200548993,3.09,5,mirror
 2009,090111,Café,4044185888,2.403,6,mirror
-2009,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",3842185920,2.283,7,mirror
-2009,999999,Commodities not specified according to kind,3725980634,2.214,8,mirror
+2009,470329,Pasta de madeira química,3842185920,2.283,7,mirror
+2009,999999,Mercadorias não especificadas,3725980634,2.214,8,mirror
 2009,260112,Minério de ferro,3425505247,2.035,9,mirror
 2009,240120,Tabaco não manufaturado,2794744045,1.66,10,mirror
 2010,260111,Minério de ferro,21353877790,10.654,1,direct
@@ -145,279 +145,279 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2010,170111,Açúcar de cana ou de beterraba,9306807034,4.643,4,direct
 2010,260112,Minério de ferro,7513841843,3.749,5,direct
 2010,090111,Café,5178814418,2.584,6,direct
-2010,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",4718533240,2.354,7,direct
-2010,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",4428180155,2.209,8,direct
-2010,999999,Commodities not specified according to kind,3783113177,1.887,9,direct
-2010,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3529251441,1.761,10,direct
+2010,230400,Resíduos da extração de óleo de soja,4718533240,2.354,7,direct
+2010,470329,Pasta de madeira química,4428180155,2.209,8,direct
+2010,999999,Mercadorias não especificadas,3783113177,1.887,9,direct
+2010,020714,Carne de aves,3529251441,1.761,10,direct
 2010,260111,Minério de ferro,31166347104,14.437,1,mirror
 2010,270900,Petróleo bruto,17651774589,8.177,2,mirror
 2010,120100,Soja,13169732231,6.101,3,mirror
 2010,170111,Açúcar de cana ou de beterraba,9113793769,4.222,4,mirror
 2010,260112,Minério de ferro,7268098435,3.367,5,mirror
-2010,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",5536010389,2.564,6,mirror
-2010,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5136078421,2.379,7,mirror
+2010,470329,Pasta de madeira química,5536010389,2.564,6,mirror
+2010,230400,Resíduos da extração de óleo de soja,5136078421,2.379,7,mirror
 2010,090111,Café,5044236564,2.337,8,mirror
-2010,999999,Commodities not specified according to kind,3814571948,1.767,9,mirror
-2010,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3670481591,1.7,10,mirror
+2010,999999,Mercadorias não especificadas,3814571948,1.767,9,mirror
+2010,020714,Carne de aves,3670481591,1.7,10,mirror
 2011,260111,Minério de ferro,31851759654,12.557,1,direct
 2011,270900,Petróleo bruto,21603315936,8.516,2,direct
 2011,120100,Soja,16322085276,6.434,3,direct
 2011,170111,Açúcar de cana ou de beterraba,11548468938,4.553,4,direct
 2011,260112,Minério de ferro,9965454201,3.929,5,direct
 2011,090111,Café,7998660490,3.153,6,direct
-2011,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5689413944,2.243,7,direct
-2011,999999,Commodities not specified according to kind,5067161255,1.998,8,direct
-2011,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",4605114799,1.815,9,direct
-2011,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4451430297,1.755,10,direct
+2011,230400,Resíduos da extração de óleo de soja,5689413944,2.243,7,direct
+2011,999999,Mercadorias não especificadas,5067161255,1.998,8,direct
+2011,470329,Pasta de madeira química,4605114799,1.815,9,direct
+2011,020714,Carne de aves,4451430297,1.755,10,direct
 2011,260111,Minério de ferro,41776899505,15.229,1,mirror
 2011,270900,Petróleo bruto,23075320348,8.412,2,mirror
 2011,120100,Soja,17620163681,6.423,3,mirror
 2011,170111,Açúcar de cana ou de beterraba,13025247239,4.748,4,mirror
 2011,260112,Minério de ferro,11675259891,4.256,5,mirror
 2011,090111,Café,8104307850,2.954,6,mirror
-2011,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5776706356,2.106,7,mirror
-2011,999999,Commodities not specified according to kind,5316899141,1.938,8,mirror
-2011,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",5309841829,1.936,9,mirror
-2011,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4412881718,1.609,10,mirror
+2011,230400,Resíduos da extração de óleo de soja,5776706356,2.106,7,mirror
+2011,999999,Mercadorias não especificadas,5316899141,1.938,8,mirror
+2011,470329,Pasta de madeira química,5309841829,1.936,9,mirror
+2011,020714,Carne de aves,4412881718,1.609,10,mirror
 2012,260111,Minério de ferro,23809804469,9.923,1,direct
 2012,270900,Petróleo bruto,20289442464,8.456,2,direct
 2012,120190,Soja,17235122472,7.183,3,direct
 2012,170114,Açúcar de cana ou de beterraba,9814267729,4.09,4,direct
 2012,260112,Minério de ferro,7179488036,2.992,5,direct
-2012,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",6595457488,2.749,6,direct
+2012,230400,Resíduos da extração de óleo de soja,6595457488,2.749,6,direct
 2012,090111,Café,5720081399,2.384,7,direct
-2012,999999,Commodities not specified according to kind,5635969147,2.349,8,direct
-2012,100590,"Cereals; maize (corn), other than seed",5287267448,2.203,9,direct
+2012,999999,Mercadorias não especificadas,5635969147,2.349,8,direct
+2012,100590,Milho,5287267448,2.203,9,direct
 2012,271019,Combustíveis refinados,5237430277,2.183,10,direct
 2012,260111,Minério de ferro,36094067748,13.687,1,mirror
 2012,270900,Petróleo bruto,21265247187,8.064,2,mirror
 2012,120190,Soja,20058454403,7.606,3,mirror
 2012,260112,Minério de ferro,9322108253,3.535,4,mirror
-2012,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",6324108063,2.398,5,mirror
+2012,230400,Resíduos da extração de óleo de soja,6324108063,2.398,5,mirror
 2012,090111,Café,6243020498,2.367,6,mirror
-2012,999999,Commodities not specified according to kind,5900342337,2.237,7,mirror
-2012,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",5103594221,1.935,8,mirror
+2012,999999,Mercadorias não especificadas,5900342337,2.237,7,mirror
+2012,470329,Pasta de madeira química,5103594221,1.935,8,mirror
 2012,170114,Açúcar de cana ou de beterraba,4907065073,1.861,9,mirror
-2012,100590,"Cereals; maize (corn), other than seed",4362929060,1.654,10,mirror
+2012,100590,Milho,4362929060,1.654,10,mirror
 2013,260111,Minério de ferro,25996245937,11.179,1,direct
 2013,120190,Soja,22805760010,9.807,2,direct
 2013,270900,Petróleo bruto,12956638294,5.572,3,direct
 2013,170114,Açúcar de cana ou de beterraba,9155514832,3.937,4,direct
-2013,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",6787272371,2.919,5,direct
+2013,230400,Resíduos da extração de óleo de soja,6787272371,2.919,5,direct
 2013,260112,Minério de ferro,6495284794,2.793,6,direct
-2013,100590,"Cereals; maize (corn), other than seed",6250332101,2.688,7,direct
-2013,999999,Commodities not specified according to kind,4837074220,2.08,8,direct
-2013,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",4820835707,2.073,9,direct
+2013,100590,Milho,6250332101,2.688,7,direct
+2013,999999,Mercadorias não especificadas,4837074220,2.08,8,direct
+2013,470329,Pasta de madeira química,4820835707,2.073,9,direct
 2013,090111,Café,4580007626,1.97,10,direct
 2013,260111,Minério de ferro,33784076180,13.593,1,mirror
 2013,120190,Soja,24961684357,10.044,2,mirror
 2013,270900,Petróleo bruto,13571834776,5.461,3,mirror
 2013,260112,Minério de ferro,7215243154,2.903,4,mirror
-2013,100590,"Cereals; maize (corn), other than seed",6836602528,2.751,5,mirror
-2013,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",6569352200,2.643,6,mirror
-2013,999999,Commodities not specified according to kind,5987124603,2.409,7,mirror
+2013,100590,Milho,6836602528,2.751,5,mirror
+2013,230400,Resíduos da extração de óleo de soja,6569352200,2.643,6,mirror
+2013,999999,Mercadorias não especificadas,5987124603,2.409,7,mirror
 2013,170114,Açúcar de cana ou de beterraba,5916335452,2.381,8,mirror
-2013,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",5480910042,2.205,9,mirror
+2013,470329,Pasta de madeira química,5480910042,2.205,9,mirror
 2013,090111,Café,5057333813,2.035,10,mirror
 2014,120190,Soja,23273062321,10.535,1,direct
 2014,260111,Minério de ferro,19982659631,9.045,2,direct
 2014,270900,Petróleo bruto,16356785878,7.404,3,direct
 2014,170114,Açúcar de cana ou de beterraba,7446112985,3.37,4,direct
-2014,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",7000584494,3.169,5,direct
+2014,230400,Resíduos da extração de óleo de soja,7000584494,3.169,5,direct
 2014,090111,Café,6040280372,2.734,6,direct
 2014,260112,Minério de ferro,5836430545,2.642,7,direct
-2014,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",4912606121,2.224,8,direct
-2014,020230,"Meat; of bovine animals, boneless cuts, frozen",4830607137,2.187,9,direct
-2014,999999,Commodities not specified according to kind,4797836591,2.172,10,direct
+2014,470329,Pasta de madeira química,4912606121,2.224,8,direct
+2014,020230,"Carne de bovino, congelada",4830607137,2.187,9,direct
+2014,999999,Mercadorias não especificadas,4797836591,2.172,10,direct
 2014,260111,Minério de ferro,29020214992,12.311,1,mirror
 2014,120190,Soja,26510157290,11.246,2,mirror
 2014,270900,Petróleo bruto,18511477217,7.853,3,mirror
-2014,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",7185794608,3.048,4,mirror
+2014,230400,Resíduos da extração de óleo de soja,7185794608,3.048,4,mirror
 2014,260112,Minério de ferro,6948620369,2.948,5,mirror
-2014,999999,Commodities not specified according to kind,5980245645,2.537,6,mirror
-2014,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",5782424437,2.453,7,mirror
+2014,999999,Mercadorias não especificadas,5980245645,2.537,6,mirror
+2014,470329,Pasta de madeira química,5782424437,2.453,7,mirror
 2014,090111,Café,5707775753,2.421,8,mirror
-2014,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4673279614,1.982,9,mirror
+2014,020714,Carne de aves,4673279614,1.982,9,mirror
 2014,170114,Açúcar de cana ou de beterraba,4278728856,1.815,10,mirror
 2015,120190,Soja,20981829291,11.234,1,direct
 2015,270900,Petróleo bruto,11781324149,6.308,2,direct
 2015,260111,Minério de ferro,10339928216,5.536,3,direct
 2015,170114,Açúcar de cana ou de beterraba,5899281601,3.158,4,direct
-2015,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5821009079,3.117,5,direct
+2015,230400,Resíduos da extração de óleo de soja,5821009079,3.117,5,direct
 2015,090111,Café,5554781737,2.974,6,direct
-2015,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",5342874857,2.861,7,direct
-2015,100590,"Cereals; maize (corn), other than seed",4937592604,2.644,8,direct
-2015,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3956833574,2.119,9,direct
-2015,020230,"Meat; of bovine animals, boneless cuts, frozen",3918622546,2.098,10,direct
+2015,470329,Pasta de madeira química,5342874857,2.861,7,direct
+2015,100590,Milho,4937592604,2.644,8,direct
+2015,020714,Carne de aves,3956833574,2.119,9,direct
+2015,020230,"Carne de bovino, congelada",3918622546,2.098,10,direct
 2015,120190,Soja,22633749758,10.932,1,mirror
 2015,260111,Minério de ferro,18324533377,8.851,2,mirror
 2015,270900,Petróleo bruto,13616833542,6.577,3,mirror
-2015,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",6497507801,3.138,4,mirror
-2015,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",6151436295,2.971,5,mirror
-2015,999999,Commodities not specified according to kind,5717355311,2.762,6,mirror
+2015,470329,Pasta de madeira química,6497507801,3.138,4,mirror
+2015,230400,Resíduos da extração de óleo de soja,6151436295,2.971,5,mirror
+2015,999999,Mercadorias não especificadas,5717355311,2.762,6,mirror
 2015,090111,Café,5701143222,2.754,7,mirror
 2015,260112,Minério de ferro,5228439982,2.525,8,mirror
 2015,170114,Açúcar de cana ou de beterraba,4915991900,2.375,9,mirror
-2015,100590,"Cereals; maize (corn), other than seed",4852702520,2.344,10,mirror
+2015,100590,Milho,4852702520,2.344,10,mirror
 2016,120190,Soja,19327390673,10.766,1,direct
 2016,260111,Minério de ferro,11575969998,6.448,2,direct
 2016,270900,Petróleo bruto,10073804866,5.611,3,direct
 2016,170114,Açúcar de cana ou de beterraba,8279525289,4.612,4,direct
-2016,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5192780725,2.892,5,direct
-2016,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",5128887312,2.857,6,direct
+2016,230400,Resíduos da extração de óleo de soja,5192780725,2.892,5,direct
+2016,470329,Pasta de madeira química,5128887312,2.857,6,direct
 2016,090111,Café,4842720072,2.698,7,direct
-2016,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3952227593,2.201,8,direct
-2016,100590,"Cereals; maize (corn), other than seed",3655162100,2.036,9,direct
-2016,020230,"Meat; of bovine animals, boneless cuts, frozen",3570668463,1.989,10,direct
+2016,020714,Carne de aves,3952227593,2.201,8,direct
+2016,100590,Milho,3655162100,2.036,9,direct
+2016,020230,"Carne de bovino, congelada",3570668463,1.989,10,direct
 2016,120190,Soja,20771911135,10.305,1,mirror
 2016,260111,Minério de ferro,18610723291,9.233,2,mirror
 2016,270900,Petróleo bruto,12467619483,6.185,3,mirror
 2016,170114,Açúcar de cana ou de beterraba,7172132612,3.558,4,mirror
-2016,999999,Commodities not specified according to kind,6648035970,3.298,5,mirror
-2016,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",6006894175,2.98,6,mirror
-2016,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",4972573369,2.467,7,mirror
+2016,999999,Mercadorias não especificadas,6648035970,3.298,5,mirror
+2016,470329,Pasta de madeira química,6006894175,2.98,6,mirror
+2016,230400,Resíduos da extração de óleo de soja,4972573369,2.467,7,mirror
 2016,090111,Café,4884459629,2.423,8,mirror
-2016,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",4652652924,2.308,9,mirror
-2016,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4285964859,2.126,10,mirror
+2016,880240,Helicópteros e aviões,4652652924,2.308,9,mirror
+2016,020714,Carne de aves,4285964859,2.126,10,mirror
 2017,120190,Soja,25712173321,11.96,1,direct
 2017,260111,Minério de ferro,16712952368,7.774,2,direct
 2017,270900,Petróleo bruto,16625024187,7.733,3,direct
 2017,170114,Açúcar de cana ou de beterraba,9040869388,4.205,4,direct
-2017,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",5803547691,2.699,5,direct
-2017,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",4973331368,2.313,6,direct
-2017,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4618280858,2.148,7,direct
+2017,470329,Pasta de madeira química,5803547691,2.699,5,direct
+2017,230400,Resíduos da extração de óleo de soja,4973331368,2.313,6,direct
+2017,020714,Carne de aves,4618280858,2.148,7,direct
 2017,090111,Café,4600238311,2.14,8,direct
-2017,100590,"Cereals; maize (corn), other than seed",4567018848,2.124,9,direct
-2017,020230,"Meat; of bovine animals, boneless cuts, frozen",4356057367,2.026,10,direct
+2017,100590,Milho,4567018848,2.124,9,direct
+2017,020230,"Carne de bovino, congelada",4356057367,2.026,10,direct
 2017,260111,Minério de ferro,25975227624,10.987,1,mirror
 2017,120190,Soja,25844936200,10.932,2,mirror
 2017,270900,Petróleo bruto,19799164459,8.375,3,mirror
 2017,170114,Açúcar de cana ou de beterraba,7238511316,3.062,4,mirror
-2017,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",7231019586,3.059,5,mirror
-2017,999999,Commodities not specified according to kind,6896455328,2.917,6,mirror
+2017,470329,Pasta de madeira química,7231019586,3.059,5,mirror
+2017,999999,Mercadorias não especificadas,6896455328,2.917,6,mirror
 2017,090111,Café,4876780316,2.063,7,mirror
-2017,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",4827821759,2.042,8,mirror
-2017,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4663217833,1.972,9,mirror
+2017,230400,Resíduos da extração de óleo de soja,4827821759,2.042,8,mirror
+2017,020714,Carne de aves,4663217833,1.972,9,mirror
 2017,870323,Automóveis de passageiros,3979692196,1.683,10,mirror
 2018,120190,Soja,33046704804,14.251,1,direct
 2018,270900,Petróleo bruto,25251318666,10.889,2,direct
 2018,260111,Minério de ferro,16718804465,7.21,3,direct
-2018,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",7757206347,3.345,4,direct
-2018,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",6624727789,2.857,5,direct
+2018,470329,Pasta de madeira química,7757206347,3.345,4,direct
+2018,230400,Resíduos da extração de óleo de soja,6624727789,2.857,5,direct
 2018,170114,Açúcar de cana ou de beterraba,5388975792,2.324,6,direct
-2018,020230,"Meat; of bovine animals, boneless cuts, frozen",4521185381,1.95,7,direct
+2018,020230,"Carne de bovino, congelada",4521185381,1.95,7,direct
 2018,090111,Café,4359997804,1.88,8,direct
-2018,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4355207442,1.878,9,direct
-2018,100590,"Cereals; maize (corn), other than seed",3918293120,1.69,10,direct
+2018,020714,Carne de aves,4355207442,1.878,9,direct
+2018,100590,Milho,3918293120,1.69,10,direct
 2018,120190,Soja,34270877531,13.283,1,mirror
 2018,260111,Minério de ferro,27115285510,10.51,2,mirror
 2018,270900,Petróleo bruto,26820164288,10.395,3,mirror
-2018,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",10300012692,3.992,4,mirror
-2018,999999,Commodities not specified according to kind,7492704204,2.904,5,mirror
-2018,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",6303868355,2.443,6,mirror
-2018,020230,"Meat; of bovine animals, boneless cuts, frozen",4815770043,1.867,7,mirror
+2018,470329,Pasta de madeira química,10300012692,3.992,4,mirror
+2018,999999,Mercadorias não especificadas,7492704204,2.904,5,mirror
+2018,230400,Resíduos da extração de óleo de soja,6303868355,2.443,6,mirror
+2018,020230,"Carne de bovino, congelada",4815770043,1.867,7,mirror
 2018,260112,Minério de ferro,4636504163,1.797,8,mirror
 2018,090111,Café,4578656379,1.775,9,mirror
-2018,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4554650928,1.765,10,mirror
+2018,020714,Carne de aves,4554650928,1.765,10,mirror
 2019,120190,Soja,26071755485,11.79,1,direct
 2019,270900,Petróleo bruto,24199539301,10.944,2,direct
 2019,260111,Minério de ferro,20237251009,9.152,3,direct
-2019,100590,"Cereals; maize (corn), other than seed",7212175043,3.262,4,direct
-2019,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",7010098968,3.17,5,direct
-2019,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5855001305,2.648,6,direct
-2019,020230,"Meat; of bovine animals, boneless cuts, frozen",5634817385,2.548,7,direct
-2019,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4850435594,2.194,8,direct
+2019,100590,Milho,7212175043,3.262,4,direct
+2019,470329,Pasta de madeira química,7010098968,3.17,5,direct
+2019,230400,Resíduos da extração de óleo de soja,5855001305,2.648,6,direct
+2019,020230,"Carne de bovino, congelada",5634817385,2.548,7,direct
+2019,020714,Carne de aves,4850435594,2.194,8,direct
 2019,090111,Café,4575001606,2.069,9,direct
 2019,170114,Açúcar de cana ou de beterraba,4482349042,2.027,10,direct
 2019,260111,Minério de ferro,31466579178,12.759,1,mirror
 2019,120190,Soja,27975773179,11.344,2,mirror
 2019,270900,Petróleo bruto,27840031205,11.289,3,mirror
-2019,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",8011056381,3.248,4,mirror
-2019,100590,"Cereals; maize (corn), other than seed",6552140343,2.657,5,mirror
-2019,999999,Commodities not specified according to kind,6226839099,2.525,6,mirror
-2019,020230,"Meat; of bovine animals, boneless cuts, frozen",5648054047,2.29,7,mirror
-2019,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5538825699,2.246,8,mirror
-2019,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4758253902,1.929,9,mirror
+2019,470329,Pasta de madeira química,8011056381,3.248,4,mirror
+2019,100590,Milho,6552140343,2.657,5,mirror
+2019,999999,Mercadorias não especificadas,6226839099,2.525,6,mirror
+2019,020230,"Carne de bovino, congelada",5648054047,2.29,7,mirror
+2019,230400,Resíduos da extração de óleo de soja,5538825699,2.246,8,mirror
+2019,020714,Carne de aves,4758253902,1.929,9,mirror
 2019,090111,Café,4715991219,1.912,10,mirror
 2020,120190,Soja,28560587573,13.654,1,direct
 2020,260111,Minério de ferro,24259114604,11.597,2,direct
 2020,270900,Petróleo bruto,19613857928,9.377,3,direct
 2020,170114,Açúcar de cana ou de beterraba,7378800412,3.527,4,direct
-2020,020230,"Meat; of bovine animals, boneless cuts, frozen",6662761097,3.185,5,direct
-2020,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5909219529,2.825,6,direct
-2020,100590,"Cereals; maize (corn), other than seed",5786083439,2.766,7,direct
-2020,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",5571085500,2.663,8,direct
+2020,020230,"Carne de bovino, congelada",6662761097,3.185,5,direct
+2020,230400,Resíduos da extração de óleo de soja,5909219529,2.825,6,direct
+2020,100590,Milho,5786083439,2.766,7,direct
+2020,470329,Pasta de madeira química,5571085500,2.663,8,direct
 2020,090111,Café,4973689488,2.378,9,direct
 2020,271019,Combustíveis refinados,4370883135,2.09,10,direct
 2020,260111,Minério de ferro,34719355372,14.621,1,mirror
 2020,120190,Soja,32231318402,13.573,2,mirror
 2020,270900,Petróleo bruto,22825283451,9.612,3,mirror
-2020,020230,"Meat; of bovine animals, boneless cuts, frozen",6994920358,2.946,4,mirror
-2020,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",6922420907,2.915,5,mirror
-2020,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",5982264885,2.519,6,mirror
-2020,100590,"Cereals; maize (corn), other than seed",5189058147,2.185,7,mirror
+2020,020230,"Carne de bovino, congelada",6994920358,2.946,4,mirror
+2020,470329,Pasta de madeira química,6922420907,2.915,5,mirror
+2020,230400,Resíduos da extração de óleo de soja,5982264885,2.519,6,mirror
+2020,100590,Milho,5189058147,2.185,7,mirror
 2020,170114,Açúcar de cana ou de beterraba,5000803975,2.106,8,mirror
 2020,090111,Café,4694416229,1.977,9,mirror
-2020,999999,Commodities not specified according to kind,4677201147,1.97,10,mirror
+2020,999999,Mercadorias não especificadas,4677201147,1.97,10,mirror
 2021,260111,Minério de ferro,40715560471,14.499,1,direct
 2021,120190,Soja,38628922513,13.756,2,direct
 2021,270900,Petróleo bruto,30608981810,10.9,3,direct
 2021,170114,Açúcar de cana ou de beterraba,7955407511,2.833,4,direct
-2021,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",7342744706,2.615,5,direct
-2021,020230,"Meat; of bovine animals, boneless cuts, frozen",6956072309,2.477,6,direct
+2021,230400,Resíduos da extração de óleo de soja,7342744706,2.615,5,direct
+2021,020230,"Carne de bovino, congelada",6956072309,2.477,6,direct
 2021,271019,Combustíveis refinados,6274325602,2.234,7,direct
-2021,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",6228939385,2.218,8,direct
+2021,470329,Pasta de madeira química,6228939385,2.218,8,direct
 2021,090111,Café,5804672814,2.067,9,direct
-2021,720712,"Iron or non-alloy steel; semi-finished products of iron or non-alloy steel; containing by weight less than 0.25% of carbon, of rectangular (other than square) cross-section",5334318284,1.9,10,direct
+2021,720712,Produtos semi-acabados de ferro ou aço,5334318284,1.9,10,direct
 2021,260111,Minério de ferro,55375876994,17.491,1,mirror
 2021,120190,Soja,44851745470,14.167,2,mirror
 2021,270900,Petróleo bruto,31987935237,10.104,3,mirror
-2021,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",8917473989,2.817,4,mirror
-2021,999999,Commodities not specified according to kind,8065302627,2.548,5,mirror
-2021,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",7338945507,2.318,6,mirror
-2021,020230,"Meat; of bovine animals, boneless cuts, frozen",7234625512,2.285,7,mirror
+2021,470329,Pasta de madeira química,8917473989,2.817,4,mirror
+2021,999999,Mercadorias não especificadas,8065302627,2.548,5,mirror
+2021,230400,Resíduos da extração de óleo de soja,7338945507,2.318,6,mirror
+2021,020230,"Carne de bovino, congelada",7234625512,2.285,7,mirror
 2021,170114,Açúcar de cana ou de beterraba,6212230400,1.962,8,mirror
 2021,090111,Café,5731760119,1.81,9,mirror
-2021,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4847274929,1.531,10,mirror
+2021,020714,Carne de aves,4847274929,1.531,10,mirror
 2022,120190,Soja,46659054057,13.95,1,direct
 2022,270900,Petróleo bruto,42688098560,12.763,2,direct
 2022,260111,Minério de ferro,25699015854,7.684,3,direct
 2022,271019,Combustíveis refinados,12323160855,3.684,4,direct
-2022,100590,"Cereals; maize (corn), other than seed",12154544668,3.634,5,direct
-2022,020230,"Meat; of bovine animals, boneless cuts, frozen",10917859253,3.264,6,direct
-2022,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",10339530458,3.091,7,direct
+2022,100590,Milho,12154544668,3.634,5,direct
+2022,020230,"Carne de bovino, congelada",10917859253,3.264,6,direct
+2022,230400,Resíduos da extração de óleo de soja,10339530458,3.091,7,direct
 2022,170114,Açúcar de cana ou de beterraba,9527259947,2.849,8,direct
 2022,090111,Café,8514137393,2.546,9,direct
-2022,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",7679247293,2.296,10,direct
+2022,470329,Pasta de madeira química,7679247293,2.296,10,direct
 2022,120190,Soja,48747497256,13.203,1,mirror
 2022,270900,Petróleo bruto,46903206110,12.703,2,mirror
 2022,260111,Minério de ferro,38988247364,10.56,3,mirror
-2022,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",13157840231,3.564,4,mirror
-2022,020230,"Meat; of bovine animals, boneless cuts, frozen",10543095519,2.856,5,mirror
-2022,100590,"Cereals; maize (corn), other than seed",9915433839,2.686,6,mirror
-2022,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",9890258161,2.679,7,mirror
-2022,999999,Commodities not specified according to kind,9638484334,2.611,8,mirror
+2022,470329,Pasta de madeira química,13157840231,3.564,4,mirror
+2022,020230,"Carne de bovino, congelada",10543095519,2.856,5,mirror
+2022,100590,Milho,9915433839,2.686,6,mirror
+2022,230400,Resíduos da extração de óleo de soja,9890258161,2.679,7,mirror
+2022,999999,Mercadorias não especificadas,9638484334,2.611,8,mirror
 2022,090111,Café,9052283922,2.452,9,mirror
 2022,170114,Açúcar de cana ou de beterraba,7241199058,1.961,10,mirror
 2023,120190,Soja,53238560791,15.672,1,direct
 2023,270900,Petróleo bruto,42611148597,12.544,2,direct
 2023,260111,Minério de ferro,27298053224,8.036,3,direct
-2023,100590,"Cereals; maize (corn), other than seed",13465452719,3.964,4,direct
+2023,100590,Milho,13465452719,3.964,4,direct
 2023,170114,Açúcar de cana ou de beterraba,13346415787,3.929,5,direct
-2023,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",11498517963,3.385,6,direct
+2023,230400,Resíduos da extração de óleo de soja,11498517963,3.385,6,direct
 2023,271019,Combustíveis refinados,10133217085,2.983,7,direct
-2023,020230,"Meat; of bovine animals, boneless cuts, frozen",8496512796,2.501,8,direct
+2023,020230,"Carne de bovino, congelada",8496512796,2.501,8,direct
 2023,090111,Café,7315353936,2.154,9,direct
-2023,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",6993474912,2.059,10,direct
+2023,470329,Pasta de madeira química,6993474912,2.059,10,direct
 2023,120190,Soja,52993090097,14.151,1,mirror
 2023,270900,Petróleo bruto,50291306041,13.43,2,mirror
 2023,260111,Minério de ferro,39515633472,10.552,3,mirror
-2023,100590,"Cereals; maize (corn), other than seed",13998890944,3.738,4,mirror
-2023,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",11500596363,3.071,5,mirror
-2023,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",10833569486,2.893,6,mirror
+2023,100590,Milho,13998890944,3.738,4,mirror
+2023,470329,Pasta de madeira química,11500596363,3.071,5,mirror
+2023,230400,Resíduos da extração de óleo de soja,10833569486,2.893,6,mirror
 2023,170114,Açúcar de cana ou de beterraba,9772485581,2.61,7,mirror
-2023,999999,Commodities not specified according to kind,9617876175,2.568,8,mirror
-2023,020230,"Meat; of bovine animals, boneless cuts, frozen",8188165003,2.187,9,mirror
+2023,999999,Mercadorias não especificadas,9617876175,2.568,8,mirror
+2023,020230,"Carne de bovino, congelada",8188165003,2.187,9,mirror
 2023,090111,Café,7662245588,2.046,10,mirror
 2024,270900,Petróleo bruto,44842761197,13.305,1,direct
 2024,120190,Soja,42933786344,12.739,2,direct
@@ -425,17 +425,17 @@ year,hs6,description_pt,value,share_pct,rank,basis
 2024,170114,Açúcar de cana ou de beterraba,15933024600,4.727,4,direct
 2024,090111,Café,11337471665,3.364,5,direct
 2024,271019,Combustíveis refinados,10467369888,3.106,6,direct
-2024,020230,"Meat; of bovine animals, boneless cuts, frozen",10047082840,2.981,7,direct
-2024,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",9690039839,2.875,8,direct
-2024,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",9588292091,2.845,9,direct
-2024,100590,"Cereals; maize (corn), other than seed",8056172009,2.39,10,direct
+2024,020230,"Carne de bovino, congelada",10047082840,2.981,7,direct
+2024,230400,Resíduos da extração de óleo de soja,9690039839,2.875,8,direct
+2024,470329,Pasta de madeira química,9588292091,2.845,9,direct
+2024,100590,Milho,8056172009,2.39,10,direct
 2024,270900,Petróleo bruto,50605704974,13.986,1,mirror
 2024,120190,Soja,45460986948,12.564,2,mirror
 2024,260111,Minério de ferro,39397574245,10.889,3,mirror
 2024,170114,Açúcar de cana ou de beterraba,13454044771,3.718,4,mirror
-2024,470329,"Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",11551153710,3.192,5,mirror
+2024,470329,Pasta de madeira química,11551153710,3.192,5,mirror
 2024,090111,Café,10497002137,2.901,6,mirror
-2024,999999,Commodities not specified according to kind,9196472903,2.542,7,mirror
-2024,020230,"Meat; of bovine animals, boneless cuts, frozen",9086116241,2.511,8,mirror
-2024,230400,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",8318836019,2.299,9,mirror
-2024,100590,"Cereals; maize (corn), other than seed",8125123400,2.246,10,mirror
+2024,999999,Mercadorias não especificadas,9196472903,2.542,7,mirror
+2024,020230,"Carne de bovino, congelada",9086116241,2.511,8,mirror
+2024,230400,Resíduos da extração de óleo de soja,8318836019,2.299,9,mirror
+2024,100590,Milho,8125123400,2.246,10,mirror

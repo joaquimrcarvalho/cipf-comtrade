@@ -614,12 +614,15 @@ def getFinalData(*p, **kwp):
         if isinstance(value, str) and "," in value:
             items = value.split(",")
             if len(items) > CSV_BATCH_MAX_ITEMS:
+                n_batches = (len(items) + CSV_BATCH_MAX_ITEMS - 1) // CSV_BATCH_MAX_ITEMS
                 logging.info(
-                    "Splitting %s (%d items) into batches of %d",
-                    list_param, len(items), CSV_BATCH_MAX_ITEMS)
+                    "Splitting %s (%d items) into %d batches of up to %d",
+                    list_param, len(items), n_batches, CSV_BATCH_MAX_ITEMS)
                 frames = []
-                for i in range(0, len(items), CSV_BATCH_MAX_ITEMS):
+                for b, i in enumerate(range(0, len(items), CSV_BATCH_MAX_ITEMS), start=1):
                     batch = ",".join(items[i:i + CSV_BATCH_MAX_ITEMS])
+                    logging.info("Batch %d/%d of %s (%d items)",
+                                 b, n_batches, list_param, len(batch.split(",")))
                     # wrapper-only kwargs were popped from kwp above;
                     # pass them explicitly so batches behave identically
                     child = {**kwp, list_param: batch,

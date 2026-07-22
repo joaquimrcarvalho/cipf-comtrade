@@ -1,431 +1,431 @@
 year,hs6,description_pt,value,share_pct,rank,basis
 2003,271000,Combustíveis refinados,4224204,10.345,1,direct
 2003,220421,Vinho,2245403,5.499,2,direct
-2003,252329,"Cement; portland, other than white, whether or not artificially coloured",1569828,3.844,3,direct
+2003,252329,Cimento,1569828,3.844,3,direct
 2003,150790,Óleo de soja,1234512,3.023,4,direct
 2003,100620,Arroz,1226904,3.005,5,direct
 2003,220300,Cerveja,1208468,2.959,6,direct
-2003,110100,Wheat or meslin flour,1071216,2.623,7,direct
+2003,110100,Farinha de trigo,1071216,2.623,7,direct
 2003,870321,Automóveis de passageiros,1009180,2.471,8,direct
-2003,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",787461,1.928,9,direct
+2003,220210,Bebidas não alcoólicas,787461,1.928,9,direct
 2003,870421,Veículos de mercadorias,567067,1.389,10,direct
 2003,271011,Combustíveis refinados,2447616,4.222,1,mirror
 2003,220421,Vinho,2051400,3.539,2,mirror
-2003,252329,"Cement; portland, other than white, whether or not artificially coloured",1232099,2.125,3,mirror
-2003,110100,Wheat or meslin flour,1196585,2.064,4,mirror
-2003,999999,Commodities not specified according to kind,1068703,1.844,5,mirror
+2003,252329,Cimento,1232099,2.125,3,mirror
+2003,110100,Farinha de trigo,1196585,2.064,4,mirror
+2003,999999,Mercadorias não especificadas,1068703,1.844,5,mirror
 2003,150790,Óleo de soja,919069,1.585,6,mirror
 2003,220300,Cerveja,756826,1.306,7,mirror
-2003,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",678736,1.171,8,mirror
-2003,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",530741,0.916,9,mirror
-2003,220290,220290,519915,0.897,10,mirror
+2003,340119,Sabão,678736,1.171,8,mirror
+2003,220210,Bebidas não alcoólicas,530741,0.916,9,mirror
+2003,220290,Bebidas não alcoólicas,519915,0.897,10,mirror
 2004,271000,Combustíveis refinados,6022211,14.535,1,direct
-2004,110100,Wheat or meslin flour,1949666,4.705,2,direct
+2004,110100,Farinha de trigo,1949666,4.705,2,direct
 2004,220421,Vinho,1821687,4.397,3,direct
-2004,252329,"Cement; portland, other than white, whether or not artificially coloured",1613916,3.895,4,direct
+2004,252329,Cimento,1613916,3.895,4,direct
 2004,100620,Arroz,1320857,3.188,5,direct
 2004,150790,Óleo de soja,1249410,3.015,6,direct
 2004,220300,Cerveja,1081148,2.609,7,direct
-2004,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",917270,2.214,8,direct
+2004,220210,Bebidas não alcoólicas,917270,2.214,8,direct
 2004,870321,Automóveis de passageiros,917130,2.213,9,direct
 2004,870323,Automóveis de passageiros,760064,1.834,10,direct
-2004,999999,Commodities not specified according to kind,1906279,3.157,1,mirror
+2004,999999,Mercadorias não especificadas,1906279,3.157,1,mirror
 2004,220421,Vinho,1839292,3.046,2,mirror
-2004,252329,"Cement; portland, other than white, whether or not artificially coloured",1685321,2.791,3,mirror
-2004,110100,Wheat or meslin flour,1539438,2.549,4,mirror
+2004,252329,Cimento,1685321,2.791,3,mirror
+2004,110100,Farinha de trigo,1539438,2.549,4,mirror
 2004,150790,Óleo de soja,1179049,1.952,5,mirror
-2004,220290,220290,773524,1.281,6,mirror
+2004,220290,Bebidas não alcoólicas,773524,1.281,6,mirror
 2004,220300,Cerveja,704766,1.167,7,mirror
-2004,630900,"Clothing; worn, and other worn articles",675754,1.119,8,mirror
-2004,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",611279,1.012,9,mirror
+2004,630900,Vestuário usado,675754,1.119,8,mirror
+2004,340119,Sabão,611279,1.012,9,mirror
 2004,100630,Arroz,611146,1.012,10,mirror
 2005,271000,Combustíveis refinados,9956948,19.97,1,direct
 2005,100620,Arroz,3375885,6.771,2,direct
 2005,220421,Vinho,2591736,5.198,3,direct
 2005,870321,Automóveis de passageiros,2363402,4.74,4,direct
-2005,110100,Wheat or meslin flour,1857656,3.726,5,direct
+2005,110100,Farinha de trigo,1857656,3.726,5,direct
 2005,150790,Óleo de soja,1496823,3.002,6,direct
 2005,220300,Cerveja,969577,1.945,7,direct
-2005,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",891269,1.788,8,direct
-2005,340120,Soap; in forms n.e.c. in item no. 3401.11,874204,1.753,9,direct
-2005,252310,Cement clinkers (whether or not coloured),732149,1.468,10,direct
+2005,220210,Bebidas não alcoólicas,891269,1.788,8,direct
+2005,340120,Sabão,874204,1.753,9,direct
+2005,252310,Cimento,732149,1.468,10,direct
 2005,271011,Combustíveis refinados,10635781,15.045,1,mirror
-2005,999999,Commodities not specified according to kind,6898759,9.759,2,mirror
+2005,999999,Mercadorias não especificadas,6898759,9.759,2,mirror
 2005,220421,Vinho,1709060,2.418,3,mirror
-2005,110100,Wheat or meslin flour,1549506,2.192,4,mirror
-2005,252329,"Cement; portland, other than white, whether or not artificially coloured",1203826,1.703,5,mirror
+2005,110100,Farinha de trigo,1549506,2.192,4,mirror
+2005,252329,Cimento,1203826,1.703,5,mirror
 2005,150790,Óleo de soja,1203340,1.702,6,mirror
-2005,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",789726,1.117,7,mirror
+2005,340119,Sabão,789726,1.117,7,mirror
 2005,220300,Cerveja,710088,1.004,8,mirror
-2005,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",634894,0.898,9,mirror
-2005,630900,"Clothing; worn, and other worn articles",574062,0.812,10,mirror
+2005,220210,Bebidas não alcoólicas,634894,0.898,9,mirror
+2005,630900,Vestuário usado,574062,0.812,10,mirror
 2006,271000,Combustíveis refinados,14155151,19.899,1,direct
 2006,220421,Vinho,3615557,5.083,2,direct
-2006,110100,Wheat or meslin flour,2131478,2.996,3,direct
+2006,110100,Farinha de trigo,2131478,2.996,3,direct
 2006,100620,Arroz,1574385,2.213,4,direct
 2006,220300,Cerveja,1550065,2.179,5,direct
-2006,252329,"Cement; portland, other than white, whether or not artificially coloured",1439004,2.023,6,direct
-2006,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",1388364,1.952,7,direct
+2006,252329,Cimento,1439004,2.023,6,direct
+2006,220210,Bebidas não alcoólicas,1388364,1.952,7,direct
 2006,150790,Óleo de soja,1261957,1.774,8,direct
 2006,870321,Automóveis de passageiros,1220112,1.715,9,direct
-2006,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",1159392,1.63,10,direct
-2006,999999,Commodities not specified according to kind,17541170,19.611,1,mirror
+2006,871120,Motociclos,1159392,1.63,10,direct
+2006,999999,Mercadorias não especificadas,17541170,19.611,1,mirror
 2006,271011,Combustíveis refinados,12958885,14.488,2,mirror
 2006,220421,Vinho,2156676,2.411,3,mirror
-2006,110100,Wheat or meslin flour,1829337,2.045,4,mirror
-2006,252329,"Cement; portland, other than white, whether or not artificially coloured",1746466,1.953,5,mirror
+2006,110100,Farinha de trigo,1829337,2.045,4,mirror
+2006,252329,Cimento,1746466,1.953,5,mirror
 2006,150790,Óleo de soja,1362617,1.523,6,mirror
 2006,220300,Cerveja,1077977,1.205,7,mirror
-2006,160100,"Meat preparations; sausages and similar products, of meat, meat offal, blood or insects, and food preparations based on these products",697224,0.779,8,mirror
+2006,160100,Enchidos e produtos semelhantes,697224,0.779,8,mirror
 2006,870332,Automóveis de passageiros,692895,0.775,9,mirror
-2006,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",686725,0.768,10,mirror
+2006,340119,Sabão,686725,0.768,10,mirror
 2007,271000,Combustíveis refinados,15900132,20.021,1,direct
-2007,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",3243486,4.084,2,direct
+2007,850213,Grupos geradores,3243486,4.084,2,direct
 2007,220421,Vinho,3216429,4.05,3,direct
-2007,110100,Wheat or meslin flour,3132654,3.945,4,direct
+2007,110100,Farinha de trigo,3132654,3.945,4,direct
 2007,150790,Óleo de soja,2000687,2.519,5,direct
 2007,100620,Arroz,1969325,2.48,6,direct
-2007,252329,"Cement; portland, other than white, whether or not artificially coloured",1876554,2.363,7,direct
+2007,252329,Cimento,1876554,2.363,7,direct
 2007,220300,Cerveja,1313089,1.653,8,direct
 2007,870333,Automóveis de passageiros,1300847,1.638,9,direct
-2007,252310,Cement clinkers (whether or not coloured),1155513,1.455,10,direct
-2007,110100,Wheat or meslin flour,3363080,3.125,1,mirror
-2007,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",2919562,2.713,2,mirror
+2007,252310,Cimento,1155513,1.455,10,direct
+2007,110100,Farinha de trigo,3363080,3.125,1,mirror
+2007,850213,Grupos geradores,2919562,2.713,2,mirror
 2007,150790,Óleo de soja,2023622,1.88,3,mirror
 2007,870323,Automóveis de passageiros,1883684,1.75,4,mirror
 2007,220421,Vinho,1744031,1.62,5,mirror
-2007,252329,"Cement; portland, other than white, whether or not artificially coloured",1481579,1.377,6,mirror
-2007,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",982785,0.913,7,mirror
+2007,252329,Cimento,1481579,1.377,6,mirror
+2007,340119,Sabão,982785,0.913,7,mirror
 2007,220300,Cerveja,865335,0.804,8,mirror
-2007,220290,220290,603417,0.561,9,mirror
-2007,160100,"Meat preparations; sausages and similar products, of meat, meat offal, blood or insects, and food preparations based on these products",580874,0.54,10,mirror
+2007,220290,Bebidas não alcoólicas,603417,0.561,9,mirror
+2007,160100,Enchidos e produtos semelhantes,580874,0.54,10,mirror
 2008,271000,Combustíveis refinados,26136441,22.918,1,direct
 2008,100620,Arroz,3938361,3.453,2,direct
-2008,110100,Wheat or meslin flour,3542186,3.106,3,direct
+2008,110100,Farinha de trigo,3542186,3.106,3,direct
 2008,150790,Óleo de soja,3520801,3.087,4,direct
-2008,252329,"Cement; portland, other than white, whether or not artificially coloured",3374993,2.959,5,direct
+2008,252329,Cimento,3374993,2.959,5,direct
 2008,220421,Vinho,3365108,2.951,6,direct
-2008,850134,"Electric motors and generators; DC, of an output exceeding 375kW",2352398,2.063,7,direct
+2008,850134,Motores e geradores elétricos,2352398,2.063,7,direct
 2008,870333,Automóveis de passageiros,2297231,2.014,8,direct
 2008,870323,Automóveis de passageiros,2102036,1.843,9,direct
-2008,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",1238542,1.086,10,direct
-2008,999999,Commodities not specified according to kind,9774553,7.996,1,mirror
-2008,110100,Wheat or meslin flour,3017529,2.468,2,mirror
+2008,220210,Bebidas não alcoólicas,1238542,1.086,10,direct
+2008,999999,Mercadorias não especificadas,9774553,7.996,1,mirror
+2008,110100,Farinha de trigo,3017529,2.468,2,mirror
 2008,150790,Óleo de soja,2934658,2.401,3,mirror
 2008,220421,Vinho,1768281,1.446,4,mirror
-2008,252329,"Cement; portland, other than white, whether or not artificially coloured",1644438,1.345,5,mirror
+2008,252329,Cimento,1644438,1.345,5,mirror
 2008,870323,Automóveis de passageiros,1210974,0.991,6,mirror
-2008,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",1168959,0.956,7,mirror
-2008,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",958649,0.784,8,mirror
-2008,220290,220290,892033,0.73,9,mirror
+2008,340119,Sabão,1168959,0.956,7,mirror
+2008,020714,Carne de aves,958649,0.784,8,mirror
+2008,220290,Bebidas não alcoólicas,892033,0.73,9,mirror
 2008,100630,Arroz,787846,0.644,10,mirror
 2009,271000,Combustíveis refinados,15301088,14.815,1,direct
 2009,150790,Óleo de soja,4929206,4.773,2,direct
 2009,100620,Arroz,4392361,4.253,3,direct
 2009,170199,Açúcar de cana ou de beterraba,3092135,2.994,4,direct
-2009,110100,Wheat or meslin flour,2892932,2.801,5,direct
-2009,252329,"Cement; portland, other than white, whether or not artificially coloured",2687530,2.602,6,direct
+2009,110100,Farinha de trigo,2892932,2.801,5,direct
+2009,252329,Cimento,2687530,2.602,6,direct
 2009,220421,Vinho,2556369,2.475,7,direct
-2009,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",2165345,2.097,8,direct
+2009,871120,Motociclos,2165345,2.097,8,direct
 2009,870323,Automóveis de passageiros,2060279,1.995,9,direct
-2009,040229,"Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",1968901,1.906,10,direct
-2009,999999,Commodities not specified according to kind,7106822,5.546,1,mirror
-2009,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",2671172,2.085,2,mirror
-2009,110100,Wheat or meslin flour,2461616,1.921,3,mirror
+2009,040229,"Leite e natas, concentrados ou em pó",1968901,1.906,10,direct
+2009,999999,Mercadorias não especificadas,7106822,5.546,1,mirror
+2009,850213,Grupos geradores,2671172,2.085,2,mirror
+2009,110100,Farinha de trigo,2461616,1.921,3,mirror
 2009,150790,Óleo de soja,2255180,1.76,4,mirror
 2009,220421,Vinho,1503442,1.173,5,mirror
-2009,252329,"Cement; portland, other than white, whether or not artificially coloured",1397799,1.091,6,mirror
-2009,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",1305134,1.019,7,mirror
-2009,630900,"Clothing; worn, and other worn articles",1195972,0.933,8,mirror
-2009,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",1184556,0.924,9,mirror
-2009,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",1161228,0.906,10,mirror
+2009,252329,Cimento,1397799,1.091,6,mirror
+2009,340119,Sabão,1305134,1.019,7,mirror
+2009,630900,Vestuário usado,1195972,0.933,8,mirror
+2009,020714,Carne de aves,1184556,0.924,9,mirror
+2009,220210,Bebidas não alcoólicas,1161228,0.906,10,mirror
 2010,271000,Combustíveis refinados,17650923,15.738,1,direct
 2010,100620,Arroz,4473436,3.989,2,direct
-2010,252329,"Cement; portland, other than white, whether or not artificially coloured",3843725,3.427,3,direct
-2010,110100,Wheat or meslin flour,3470930,3.095,4,direct
-2010,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",3381350,3.015,5,direct
+2010,252329,Cimento,3843725,3.427,3,direct
+2010,110100,Farinha de trigo,3470930,3.095,4,direct
+2010,871120,Motociclos,3381350,3.015,5,direct
 2010,870323,Automóveis de passageiros,2931515,2.614,6,direct
 2010,220421,Vinho,2639999,2.354,7,direct
 2010,150790,Óleo de soja,2128321,1.898,8,direct
 2010,220429,Vinho,1982642,1.768,9,direct
 2010,220300,Cerveja,1973763,1.76,10,direct
-2010,110100,Wheat or meslin flour,2566486,1.733,1,mirror
+2010,110100,Farinha de trigo,2566486,1.733,1,mirror
 2010,220421,Vinho,2497032,1.686,2,mirror
-2010,999999,Commodities not specified according to kind,2143972,1.448,3,mirror
-2010,252329,"Cement; portland, other than white, whether or not artificially coloured",2087054,1.409,4,mirror
+2010,999999,Mercadorias não especificadas,2143972,1.448,3,mirror
+2010,252329,Cimento,2087054,1.409,4,mirror
 2010,150790,Óleo de soja,2059133,1.39,5,mirror
-2010,220290,220290,1975195,1.334,6,mirror
+2010,220290,Bebidas não alcoólicas,1975195,1.334,6,mirror
 2010,220300,Cerveja,1894866,1.279,7,mirror
-2010,630900,"Clothing; worn, and other worn articles",1316410,0.889,8,mirror
-2010,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",1262791,0.853,9,mirror
+2010,630900,Vestuário usado,1316410,0.889,8,mirror
+2010,020714,Carne de aves,1262791,0.853,9,mirror
 2010,220429,Vinho,1079662,0.729,10,mirror
 2011,271011,Combustíveis refinados,19792997,14.803,1,direct
 2011,100620,Arroz,6174480,4.618,2,direct
-2011,110100,Wheat or meslin flour,3843549,2.874,3,direct
+2011,110100,Farinha de trigo,3843549,2.874,3,direct
 2011,220421,Vinho,3378267,2.527,4,direct
 2011,150790,Óleo de soja,3199530,2.393,5,direct
-2011,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",2817181,2.107,6,direct
-2011,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",2171093,1.624,7,direct
+2011,851762,Aparelhos de telecomunicações,2817181,2.107,6,direct
+2011,871120,Motociclos,2171093,1.624,7,direct
 2011,220300,Cerveja,1971206,1.474,8,direct
 2011,170111,Açúcar de cana ou de beterraba,1877958,1.404,9,direct
 2011,220429,Vinho,1749453,1.308,10,direct
-2011,110100,Wheat or meslin flour,3032902,1.838,1,mirror
+2011,110100,Farinha de trigo,3032902,1.838,1,mirror
 2011,220421,Vinho,2815184,1.706,2,mirror
 2011,150790,Óleo de soja,2428691,1.472,3,mirror
-2011,999999,Commodities not specified according to kind,2212780,1.341,4,mirror
-2011,220290,220290,2072794,1.256,5,mirror
+2011,999999,Mercadorias não especificadas,2212780,1.341,4,mirror
+2011,220290,Bebidas não alcoólicas,2072794,1.256,5,mirror
 2011,220300,Cerveja,1530020,0.927,6,mirror
 2011,100630,Arroz,1470521,0.891,7,mirror
 2011,220429,Vinho,1389563,0.842,8,mirror
-2011,252329,"Cement; portland, other than white, whether or not artificially coloured",1354882,0.821,9,mirror
-2011,630900,"Clothing; worn, and other worn articles",1284235,0.778,10,mirror
+2011,252329,Cimento,1354882,0.821,9,mirror
+2011,630900,Vestuário usado,1284235,0.778,10,mirror
 2012,271011,Combustíveis refinados,35167263,24.896,1,direct
-2012,110100,Wheat or meslin flour,4178752,2.958,2,direct
+2012,110100,Farinha de trigo,4178752,2.958,2,direct
 2012,100620,Arroz,3397052,2.405,3,direct
 2012,220421,Vinho,3047941,2.158,4,direct
 2012,150790,Óleo de soja,2914982,2.064,5,direct
 2012,870333,Automóveis de passageiros,2307639,1.634,6,direct
 2012,220429,Vinho,2081079,1.473,7,direct
-2012,252329,"Cement; portland, other than white, whether or not artificially coloured",1959974,1.388,8,direct
-2012,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",1805515,1.278,9,direct
+2012,252329,Cimento,1959974,1.388,8,direct
+2012,871120,Motociclos,1805515,1.278,9,direct
 2012,100630,Arroz,1777466,1.258,10,direct
-2012,110100,Wheat or meslin flour,3117774,2.396,1,mirror
+2012,110100,Farinha de trigo,3117774,2.396,1,mirror
 2012,220421,Vinho,2555366,1.964,2,mirror
-2012,999999,Commodities not specified according to kind,2109282,1.621,3,mirror
+2012,999999,Mercadorias não especificadas,2109282,1.621,3,mirror
 2012,150790,Óleo de soja,1842334,1.416,4,mirror
-2012,220290,220290,1801040,1.384,5,mirror
-2012,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",1756276,1.35,6,mirror
+2012,220290,Bebidas não alcoólicas,1801040,1.384,5,mirror
+2012,340119,Sabão,1756276,1.35,6,mirror
 2012,870333,Automóveis de passageiros,1605807,1.234,7,mirror
 2012,220429,Vinho,1546885,1.189,8,mirror
-2012,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",1419690,1.091,9,mirror
+2012,020714,Carne de aves,1419690,1.091,9,mirror
 2012,100630,Arroz,1272216,0.978,10,mirror
 2013,271011,Combustíveis refinados,39478531,25.957,1,direct
-2013,110100,Wheat or meslin flour,4348701,2.859,2,direct
+2013,110100,Farinha de trigo,4348701,2.859,2,direct
 2013,100630,Arroz,4125139,2.712,3,direct
-2013,252329,"Cement; portland, other than white, whether or not artificially coloured",3678707,2.419,4,direct
+2013,252329,Cimento,3678707,2.419,4,direct
 2013,220421,Vinho,2878975,1.893,5,direct
 2013,220429,Vinho,2422621,1.593,6,direct
-2013,851762,"Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",2383788,1.567,7,direct
+2013,851762,Aparelhos de telecomunicações,2383788,1.567,7,direct
 2013,150790,Óleo de soja,2276162,1.497,8,direct
-2013,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",2052435,1.349,9,direct
+2013,220210,Bebidas não alcoólicas,2052435,1.349,9,direct
 2013,220300,Cerveja,1856456,1.221,10,direct
 2013,100630,Arroz,4059800,3.001,1,mirror
-2013,110100,Wheat or meslin flour,3390414,2.506,2,mirror
+2013,110100,Farinha de trigo,3390414,2.506,2,mirror
 2013,220421,Vinho,2605564,1.926,3,mirror
 2013,150790,Óleo de soja,2446767,1.809,4,mirror
-2013,220290,220290,2348931,1.736,5,mirror
+2013,220290,Bebidas não alcoólicas,2348931,1.736,5,mirror
 2013,220429,Vinho,1835480,1.357,6,mirror
-2013,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",1647683,1.218,7,mirror
-2013,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",1487409,1.1,8,mirror
+2013,020714,Carne de aves,1647683,1.218,7,mirror
+2013,340119,Sabão,1487409,1.1,8,mirror
 2013,220300,Cerveja,1417471,1.048,9,mirror
-2013,252329,"Cement; portland, other than white, whether or not artificially coloured",1382235,1.022,10,mirror
+2013,252329,Cimento,1382235,1.022,10,mirror
 2014,271011,Combustíveis refinados,37898879,22.331,1,direct
 2014,100630,Arroz,5792016,3.413,2,direct
-2014,252329,"Cement; portland, other than white, whether or not artificially coloured",5032090,2.965,3,direct
-2014,110100,Wheat or meslin flour,4011329,2.364,4,direct
-2014,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3458237,2.038,5,direct
+2014,252329,Cimento,5032090,2.965,3,direct
+2014,110100,Farinha de trigo,4011329,2.364,4,direct
+2014,020714,Carne de aves,3458237,2.038,5,direct
 2014,220421,Vinho,3288184,1.937,6,direct
 2014,220300,Cerveja,2790112,1.644,7,direct
 2014,220429,Vinho,2653005,1.563,8,direct
-2014,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",2454569,1.446,9,direct
+2014,220210,Bebidas não alcoólicas,2454569,1.446,9,direct
 2014,870333,Automóveis de passageiros,2270406,1.338,10,direct
 2014,100630,Arroz,4375516,2.836,1,mirror
-2014,110100,Wheat or meslin flour,3149510,2.042,2,mirror
+2014,110100,Farinha de trigo,3149510,2.042,2,mirror
 2014,220421,Vinho,2784054,1.805,3,mirror
-2014,220290,220290,2409494,1.562,4,mirror
-2014,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2385758,1.546,5,mirror
+2014,220290,Bebidas não alcoólicas,2409494,1.562,4,mirror
+2014,020714,Carne de aves,2385758,1.546,5,mirror
 2014,220429,Vinho,2243465,1.454,6,mirror
 2014,150790,Óleo de soja,2225939,1.443,7,mirror
 2014,220300,Cerveja,1843129,1.195,8,mirror
-2014,252329,"Cement; portland, other than white, whether or not artificially coloured",1569233,1.017,9,mirror
-2014,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",1544348,1.001,10,mirror
-2015,999999,Commodities not specified according to kind,31360454,22.109,1,direct
+2014,252329,Cimento,1569233,1.017,9,mirror
+2014,340119,Sabão,1544348,1.001,10,mirror
+2015,999999,Mercadorias não especificadas,31360454,22.109,1,direct
 2015,100630,Arroz,4881057,3.441,2,direct
-2015,252329,"Cement; portland, other than white, whether or not artificially coloured",3312825,2.335,3,direct
-2015,691110,Tableware and kitchenware; of porcelain or china,3285931,2.317,4,direct
-2015,110100,Wheat or meslin flour,3221912,2.271,5,direct
-2015,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2738309,1.93,6,direct
+2015,252329,Cimento,3312825,2.335,3,direct
+2015,691110,Louça de porcelana,3285931,2.317,4,direct
+2015,110100,Farinha de trigo,3221912,2.271,5,direct
+2015,020714,Carne de aves,2738309,1.93,6,direct
 2015,150790,Óleo de soja,2472204,1.743,7,direct
-2015,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",2338326,1.648,8,direct
+2015,220210,Bebidas não alcoólicas,2338326,1.648,8,direct
 2015,220421,Vinho,2227522,1.57,9,direct
 2015,220429,Vinho,1848467,1.303,10,direct
 2015,100630,Arroz,3383580,2.517,1,mirror
-2015,110100,Wheat or meslin flour,2520002,1.875,2,mirror
+2015,110100,Farinha de trigo,2520002,1.875,2,mirror
 2015,150790,Óleo de soja,2331334,1.734,3,mirror
-2015,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2013383,1.498,4,mirror
+2015,020714,Carne de aves,2013383,1.498,4,mirror
 2015,220421,Vinho,2011213,1.496,5,mirror
 2015,220429,Vinho,1739130,1.294,6,mirror
-2015,220290,220290,1674603,1.246,7,mirror
-2015,252329,"Cement; portland, other than white, whether or not artificially coloured",1466371,1.091,8,mirror
-2015,630900,"Clothing; worn, and other worn articles",1210839,0.901,9,mirror
+2015,220290,Bebidas não alcoólicas,1674603,1.246,7,mirror
+2015,252329,Cimento,1466371,1.091,8,mirror
+2015,630900,Vestuário usado,1210839,0.901,9,mirror
 2015,220300,Cerveja,1202969,0.895,10,mirror
-2016,999999,Commodities not specified according to kind,21275422,15.267,1,direct
+2016,999999,Mercadorias não especificadas,21275422,15.267,1,direct
 2016,100630,Arroz,5437140,3.902,2,direct
-2016,252329,"Cement; portland, other than white, whether or not artificially coloured",3560720,2.555,3,direct
-2016,110100,Wheat or meslin flour,3333236,2.392,4,direct
-2016,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2553526,1.832,5,direct
+2016,252329,Cimento,3560720,2.555,3,direct
+2016,110100,Farinha de trigo,3333236,2.392,4,direct
+2016,020714,Carne de aves,2553526,1.832,5,direct
 2016,220421,Vinho,2348441,1.685,6,direct
 2016,870332,Automóveis de passageiros,2246409,1.612,7,direct
 2016,220429,Vinho,2113363,1.517,8,direct
-2016,871120,"Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars",2002008,1.437,9,direct
+2016,871120,Motociclos,2002008,1.437,9,direct
 2016,220300,Cerveja,1927014,1.383,10,direct
 2016,100630,Arroz,3100018,2.229,1,mirror
-2016,110100,Wheat or meslin flour,2453356,1.764,2,mirror
+2016,110100,Farinha de trigo,2453356,1.764,2,mirror
 2016,220421,Vinho,2019555,1.452,3,mirror
 2016,220429,Vinho,1768467,1.272,4,mirror
-2016,252329,"Cement; portland, other than white, whether or not artificially coloured",1681639,1.209,5,mirror
+2016,252329,Cimento,1681639,1.209,5,mirror
 2016,150790,Óleo de soja,1601003,1.151,6,mirror
-2016,630900,"Clothing; worn, and other worn articles",1582103,1.138,7,mirror
-2016,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",1575970,1.133,8,mirror
-2016,220290,220290,1530801,1.101,9,mirror
+2016,630900,Vestuário usado,1582103,1.138,7,mirror
+2016,020714,Carne de aves,1575970,1.133,8,mirror
+2016,220290,Bebidas não alcoólicas,1530801,1.101,9,mirror
 2016,220300,Cerveja,1295171,0.931,10,mirror
-2017,999999,Commodities not specified according to kind,27929147,18.993,1,direct
+2017,999999,Mercadorias não especificadas,27929147,18.993,1,direct
 2017,100630,Arroz,5967161,4.058,2,direct
-2017,850211,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output not exceeding 75kVA",5803784,3.947,3,direct
-2017,110100,Wheat or meslin flour,3205252,2.18,4,direct
-2017,252329,"Cement; portland, other than white, whether or not artificially coloured",3033735,2.063,5,direct
+2017,850211,Grupos geradores,5803784,3.947,3,direct
+2017,110100,Farinha de trigo,3205252,2.18,4,direct
+2017,252329,Cimento,3033735,2.063,5,direct
 2017,150790,Óleo de soja,3031165,2.061,6,direct
-2017,847920,Machinery; for the extraction or preparation of animal or fixed vegetable or microbial fats or oils,2571998,1.749,7,direct
-2017,220290,220290,2258961,1.536,8,direct
+2017,847920,Máquinas de funções diversas,2571998,1.749,7,direct
+2017,220290,Bebidas não alcoólicas,2258961,1.536,8,direct
 2017,220421,Vinho,2069981,1.408,9,direct
 2017,870332,Automóveis de passageiros,1930999,1.313,10,direct
 2017,100630,Arroz,4576704,3.373,1,mirror
-2017,110100,Wheat or meslin flour,2615117,1.927,2,mirror
+2017,110100,Farinha de trigo,2615117,1.927,2,mirror
 2017,150790,Óleo de soja,2128791,1.569,3,mirror
-2017,252329,"Cement; portland, other than white, whether or not artificially coloured",2049211,1.51,4,mirror
+2017,252329,Cimento,2049211,1.51,4,mirror
 2017,220421,Vinho,1866670,1.376,5,mirror
-2017,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",1666816,1.228,6,mirror
-2017,630900,"Clothing; worn, and other worn articles",1595371,1.176,7,mirror
-2017,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",1382636,1.019,8,mirror
+2017,340119,Sabão,1666816,1.228,6,mirror
+2017,630900,Vestuário usado,1595371,1.176,7,mirror
+2017,020714,Carne de aves,1382636,1.019,8,mirror
 2017,271011,Combustíveis refinados,1067904,0.787,9,mirror
-2017,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",1000443,0.737,10,mirror
-2018,999999,Commodities not specified according to kind,32297775,21.778,1,direct
+2017,220210,Bebidas não alcoólicas,1000443,0.737,10,mirror
+2018,999999,Mercadorias não especificadas,32297775,21.778,1,direct
 2018,100630,Arroz,4105794,2.768,2,direct
-2018,110100,Wheat or meslin flour,3658474,2.467,3,direct
-2018,220290,220290,2408150,1.624,4,direct
+2018,110100,Farinha de trigo,3658474,2.467,3,direct
+2018,220290,Bebidas não alcoólicas,2408150,1.624,4,direct
 2018,220421,Vinho,2187573,1.475,5,direct
-2018,252329,"Cement; portland, other than white, whether or not artificially coloured",2095913,1.413,6,direct
-2018,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2070235,1.396,7,direct
-2018,850300,Electric motors and generators; parts suitable for use solely or principally with the machines of heading no. 8501 or 8502,1891966,1.276,8,direct
-2018,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",1663810,1.122,9,direct
+2018,252329,Cimento,2095913,1.413,6,direct
+2018,020714,Carne de aves,2070235,1.396,7,direct
+2018,850300,Partes de máquinas elétricas,1891966,1.276,8,direct
+2018,340119,Sabão,1663810,1.122,9,direct
 2018,870332,Automóveis de passageiros,1610119,1.086,10,direct
 2018,100630,Arroz,4082488,2.858,1,mirror
-2018,110100,Wheat or meslin flour,3275197,2.293,2,mirror
-2018,252329,"Cement; portland, other than white, whether or not artificially coloured",2888570,2.022,3,mirror
+2018,110100,Farinha de trigo,3275197,2.293,2,mirror
+2018,252329,Cimento,2888570,2.022,3,mirror
 2018,150790,Óleo de soja,2653275,1.858,4,mirror
 2018,220421,Vinho,1981104,1.387,5,mirror
-2018,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",1927334,1.349,6,mirror
-2018,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",1811017,1.268,7,mirror
-2018,630900,"Clothing; worn, and other worn articles",1785543,1.25,8,mirror
-2018,160100,"Meat preparations; sausages and similar products, of meat, meat offal, blood or insects, and food preparations based on these products",1438512,1.007,9,mirror
-2018,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",1269942,0.889,10,mirror
-2019,999999,Commodities not specified according to kind,34723357,23.515,1,direct
+2018,020714,Carne de aves,1927334,1.349,6,mirror
+2018,340119,Sabão,1811017,1.268,7,mirror
+2018,630900,Vestuário usado,1785543,1.25,8,mirror
+2018,160100,Enchidos e produtos semelhantes,1438512,1.007,9,mirror
+2018,230990,Alimentos para animais,1269942,0.889,10,mirror
+2019,999999,Mercadorias não especificadas,34723357,23.515,1,direct
 2019,100630,Arroz,5936547,4.02,2,direct
-2019,490700,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",3978508,2.694,3,direct
-2019,110100,Wheat or meslin flour,3617305,2.45,4,direct
-2019,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2620262,1.774,5,direct
-2019,220290,220290,2617725,1.773,6,direct
-2019,630900,"Clothing; worn, and other worn articles",2113144,1.431,7,direct
+2019,490700,Selos e títulos de valor,3978508,2.694,3,direct
+2019,110100,Farinha de trigo,3617305,2.45,4,direct
+2019,020714,Carne de aves,2620262,1.774,5,direct
+2019,220290,Bebidas não alcoólicas,2617725,1.773,6,direct
+2019,630900,Vestuário usado,2113144,1.431,7,direct
 2019,870323,Automóveis de passageiros,2052167,1.39,8,direct
 2019,220421,Vinho,1970810,1.335,9,direct
 2019,870332,Automóveis de passageiros,1964584,1.33,10,direct
-2019,110100,Wheat or meslin flour,2947579,1.999,1,mirror
+2019,110100,Farinha de trigo,2947579,1.999,1,mirror
 2019,100630,Arroz,2675024,1.814,2,mirror
-2019,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2284900,1.549,3,mirror
-2019,252329,"Cement; portland, other than white, whether or not artificially coloured",1864214,1.264,4,mirror
-2019,630900,"Clothing; worn, and other worn articles",1819266,1.234,5,mirror
+2019,020714,Carne de aves,2284900,1.549,3,mirror
+2019,252329,Cimento,1864214,1.264,4,mirror
+2019,630900,Vestuário usado,1819266,1.234,5,mirror
 2019,220421,Vinho,1625177,1.102,6,mirror
 2019,150790,Óleo de soja,1443130,0.978,7,mirror
-2019,220210,"Waters; including mineral and aerated, containing added sugar or other sweetening matter or flavoured",1359328,0.922,8,mirror
-2019,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",1331540,0.903,9,mirror
-2019,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",1299509,0.881,10,mirror
-2020,999999,Commodities not specified according to kind,25802945,18.692,1,direct
+2019,220210,Bebidas não alcoólicas,1359328,0.922,8,mirror
+2019,850213,Grupos geradores,1331540,0.903,9,mirror
+2019,230990,Alimentos para animais,1299509,0.881,10,mirror
+2020,999999,Mercadorias não especificadas,25802945,18.692,1,direct
 2020,100630,Arroz,5668088,4.106,2,direct
-2020,110100,Wheat or meslin flour,3795944,2.75,3,direct
-2020,252329,"Cement; portland, other than white, whether or not artificially coloured",3777127,2.736,4,direct
-2020,732619,"Iron or steel; articles n.e.c. in item no. 7326.11, forged or stamped, but not further worked",3354594,2.43,5,direct
-2020,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2382206,1.726,6,direct
-2020,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",2331020,1.689,7,direct
-2020,220290,220290,2157561,1.563,8,direct
-2020,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",2051127,1.486,9,direct
+2020,110100,Farinha de trigo,3795944,2.75,3,direct
+2020,252329,Cimento,3777127,2.736,4,direct
+2020,732619,Outros artigos de ferro ou aço,3354594,2.43,5,direct
+2020,020714,Carne de aves,2382206,1.726,6,direct
+2020,850213,Grupos geradores,2331020,1.689,7,direct
+2020,220290,Bebidas não alcoólicas,2157561,1.563,8,direct
+2020,230990,Alimentos para animais,2051127,1.486,9,direct
 2020,220421,Vinho,1910462,1.384,10,direct
 2020,100630,Arroz,4901252,4.158,1,mirror
-2020,999999,Commodities not specified according to kind,3347507,2.84,2,mirror
-2020,110100,Wheat or meslin flour,2829218,2.4,3,mirror
-2020,252329,"Cement; portland, other than white, whether or not artificially coloured",2650695,2.249,4,mirror
-2020,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2430760,2.062,5,mirror
-2020,630900,"Clothing; worn, and other worn articles",1865932,1.583,6,mirror
+2020,999999,Mercadorias não especificadas,3347507,2.84,2,mirror
+2020,110100,Farinha de trigo,2829218,2.4,3,mirror
+2020,252329,Cimento,2650695,2.249,4,mirror
+2020,020714,Carne de aves,2430760,2.062,5,mirror
+2020,630900,Vestuário usado,1865932,1.583,6,mirror
 2020,150790,Óleo de soja,1810072,1.536,7,mirror
-2020,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",1717995,1.458,8,mirror
+2020,850213,Grupos geradores,1717995,1.458,8,mirror
 2020,220421,Vinho,1699064,1.441,9,mirror
-2020,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",1254914,1.065,10,mirror
-2021,999999,Commodities not specified according to kind,34147355,20.537,1,direct
+2020,230990,Alimentos para animais,1254914,1.065,10,mirror
+2021,999999,Mercadorias não especificadas,34147355,20.537,1,direct
 2021,100630,Arroz,7933592,4.771,2,direct
-2021,110100,Wheat or meslin flour,4306370,2.59,3,direct
-2021,252329,"Cement; portland, other than white, whether or not artificially coloured",3626435,2.181,4,direct
-2021,220290,220290,3317928,1.995,5,direct
-2021,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3218171,1.935,6,direct
-2021,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",2933549,1.764,7,direct
+2021,110100,Farinha de trigo,4306370,2.59,3,direct
+2021,252329,Cimento,3626435,2.181,4,direct
+2021,220290,Bebidas não alcoólicas,3317928,1.995,5,direct
+2021,020714,Carne de aves,3218171,1.935,6,direct
+2021,230990,Alimentos para animais,2933549,1.764,7,direct
 2021,220421,Vinho,2638513,1.587,8,direct
-2021,630900,"Clothing; worn, and other worn articles",2623629,1.578,9,direct
-2021,850300,Electric motors and generators; parts suitable for use solely or principally with the machines of heading no. 8501 or 8502,2295041,1.38,10,direct
-2021,110100,Wheat or meslin flour,3602856,2.715,1,mirror
-2021,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3093787,2.331,2,mirror
+2021,630900,Vestuário usado,2623629,1.578,9,direct
+2021,850300,Partes de máquinas elétricas,2295041,1.38,10,direct
+2021,110100,Farinha de trigo,3602856,2.715,1,mirror
+2021,020714,Carne de aves,3093787,2.331,2,mirror
 2021,100630,Arroz,3056236,2.303,3,mirror
 2021,220421,Vinho,2257750,1.701,4,mirror
-2021,252329,"Cement; portland, other than white, whether or not artificially coloured",2192713,1.652,5,mirror
-2021,630900,"Clothing; worn, and other worn articles",2062509,1.554,6,mirror
-2021,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",2033650,1.532,7,mirror
-2021,999999,Commodities not specified according to kind,1891264,1.425,8,mirror
+2021,252329,Cimento,2192713,1.652,5,mirror
+2021,630900,Vestuário usado,2062509,1.554,6,mirror
+2021,230990,Alimentos para animais,2033650,1.532,7,mirror
+2021,999999,Mercadorias não especificadas,1891264,1.425,8,mirror
 2021,150790,Óleo de soja,1792102,1.35,9,mirror
 2021,220300,Cerveja,1482886,1.117,10,mirror
 2022,271011,Combustíveis refinados,55461109,28.253,1,direct
 2022,100630,Arroz,7011624,3.572,2,direct
-2022,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",6777470,3.453,3,direct
-2022,999999,Commodities not specified according to kind,6621387,3.373,4,direct
-2022,110100,Wheat or meslin flour,5495718,2.8,5,direct
-2022,850300,Electric motors and generators; parts suitable for use solely or principally with the machines of heading no. 8501 or 8502,3875379,1.974,6,direct
-2022,252329,"Cement; portland, other than white, whether or not artificially coloured",3518192,1.792,7,direct
-2022,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",2898102,1.476,8,direct
+2022,850213,Grupos geradores,6777470,3.453,3,direct
+2022,999999,Mercadorias não especificadas,6621387,3.373,4,direct
+2022,110100,Farinha de trigo,5495718,2.8,5,direct
+2022,850300,Partes de máquinas elétricas,3875379,1.974,6,direct
+2022,252329,Cimento,3518192,1.792,7,direct
+2022,230990,Alimentos para animais,2898102,1.476,8,direct
 2022,220300,Cerveja,2492418,1.27,9,direct
 2022,220421,Vinho,2436289,1.241,10,direct
-2022,110100,Wheat or meslin flour,4703217,2.464,1,mirror
-2022,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",2981562,1.562,2,mirror
+2022,110100,Farinha de trigo,4703217,2.464,1,mirror
+2022,020714,Carne de aves,2981562,1.562,2,mirror
 2022,150790,Óleo de soja,2854955,1.496,3,mirror
 2022,100630,Arroz,2608104,1.367,4,mirror
-2022,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",2414947,1.265,5,mirror
+2022,340119,Sabão,2414947,1.265,5,mirror
 2022,220421,Vinho,2265641,1.187,6,mirror
-2022,630900,"Clothing; worn, and other worn articles",2164369,1.134,7,mirror
-2022,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",2146037,1.125,8,mirror
-2022,252329,"Cement; portland, other than white, whether or not artificially coloured",2054283,1.076,9,mirror
+2022,630900,Vestuário usado,2164369,1.134,7,mirror
+2022,230990,Alimentos para animais,2146037,1.125,8,mirror
+2022,252329,Cimento,2054283,1.076,9,mirror
 2022,220300,Cerveja,1970218,1.032,10,mirror
-2023,999999,Commodities not specified according to kind,48754032,26.56,1,direct
+2023,999999,Mercadorias não especificadas,48754032,26.56,1,direct
 2023,100630,Arroz,14978402,8.16,2,direct
-2023,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",5523452,3.009,3,direct
+2023,850213,Grupos geradores,5523452,3.009,3,direct
 2023,271019,Combustíveis refinados,5025257,2.738,4,direct
-2023,110100,Wheat or meslin flour,4342106,2.365,5,direct
-2023,252329,"Cement; portland, other than white, whether or not artificially coloured",3714745,2.024,6,direct
-2023,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3161264,1.722,7,direct
-2023,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",2242820,1.222,8,direct
+2023,110100,Farinha de trigo,4342106,2.365,5,direct
+2023,252329,Cimento,3714745,2.024,6,direct
+2023,020714,Carne de aves,3161264,1.722,7,direct
+2023,340119,Sabão,2242820,1.222,8,direct
 2023,870332,Automóveis de passageiros,2185069,1.19,9,direct
 2023,220422,Vinho,2171990,1.183,10,direct
-2023,999999,Commodities not specified according to kind,9793570,5.675,1,mirror
-2023,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3296944,1.91,2,mirror
-2023,110100,Wheat or meslin flour,3141399,1.82,3,mirror
+2023,999999,Mercadorias não especificadas,9793570,5.675,1,mirror
+2023,020714,Carne de aves,3296944,1.91,2,mirror
+2023,110100,Farinha de trigo,3141399,1.82,3,mirror
 2023,150790,Óleo de soja,2287298,1.325,4,mirror
 2023,100630,Arroz,1918779,1.112,5,mirror
-2023,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",1829332,1.06,6,mirror
-2023,252329,"Cement; portland, other than white, whether or not artificially coloured",1797213,1.041,7,mirror
-2023,630900,"Clothing; worn, and other worn articles",1542959,0.894,8,mirror
-2023,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",1456418,0.844,9,mirror
-2023,340119,"Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",1302439,0.755,10,mirror
-2024,999999,Commodities not specified according to kind,10740718,6.812,1,mirror
+2023,850213,Grupos geradores,1829332,1.06,6,mirror
+2023,252329,Cimento,1797213,1.041,7,mirror
+2023,630900,Vestuário usado,1542959,0.894,8,mirror
+2023,230990,Alimentos para animais,1456418,0.844,9,mirror
+2023,340119,Sabão,1302439,0.755,10,mirror
+2024,999999,Mercadorias não especificadas,10740718,6.812,1,mirror
 2024,100630,Arroz,3992781,2.532,2,mirror
-2024,110100,Wheat or meslin flour,3782020,2.399,3,mirror
-2024,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",3448878,2.187,4,mirror
-2024,630900,"Clothing; worn, and other worn articles",1846330,1.171,5,mirror
+2024,110100,Farinha de trigo,3782020,2.399,3,mirror
+2024,020714,Carne de aves,3448878,2.187,4,mirror
+2024,630900,Vestuário usado,1846330,1.171,5,mirror
 2024,150790,Óleo de soja,1813972,1.151,6,mirror
 2024,220421,Vinho,1569639,0.996,7,mirror
-2024,252329,"Cement; portland, other than white, whether or not artificially coloured",1509702,0.958,8,mirror
-2024,230990,"Dog or cat food; (not put up for retail sale), used in animal feeding",1493459,0.947,9,mirror
+2024,252329,Cimento,1509702,0.958,8,mirror
+2024,230990,Alimentos para animais,1493459,0.947,9,mirror
 2024,220300,Cerveja,1478818,0.938,10,mirror

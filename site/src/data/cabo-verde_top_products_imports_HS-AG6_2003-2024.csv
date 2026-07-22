@@ -1,441 +1,441 @@
 year,hs6,description_pt,value,share_pct,rank,basis
 2003,271000,Combustíveis refinados,34993412,9.862,1,direct
-2003,252329,"Cement; portland, other than white, whether or not artificially coloured",13098562,3.691,2,direct
+2003,252329,Cimento,13098562,3.691,2,direct
 2003,271113,Gás natural e outros gases de petróleo,10665667,3.006,3,direct
 2003,100630,Arroz,8378430,2.361,4,direct
 2003,220300,Cerveja,7786766,2.194,5,direct
 2003,870421,Veículos de mercadorias,7098276,2.0,6,direct
-2003,100590,"Cereals; maize (corn), other than seed",6525962,1.839,7,direct
-2003,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",6185198,1.743,8,direct
+2003,100590,Milho,6525962,1.839,7,direct
+2003,040221,"Leite e natas, concentrados ou em pó",6185198,1.743,8,direct
 2003,870332,Automóveis de passageiros,5132462,1.446,9,direct
-2003,690890,690890,4527630,1.276,10,direct
+2003,690890,Azulejos e ladrilhos cerâmicos,4527630,1.276,10,direct
 2003,271019,Combustíveis refinados,13237175,4.38,1,mirror
 2003,220300,Cerveja,7819244,2.587,2,mirror
-2003,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",6388865,2.114,3,mirror
-2003,252329,"Cement; portland, other than white, whether or not artificially coloured",6076498,2.011,4,mirror
+2003,040221,"Leite e natas, concentrados ou em pó",6388865,2.114,3,mirror
+2003,252329,Cimento,6076498,2.011,4,mirror
 2003,870421,Veículos de mercadorias,5086674,1.683,5,mirror
 2003,150790,Óleo de soja,4806499,1.59,6,mirror
 2003,870332,Automóveis de passageiros,4177937,1.382,7,mirror
 2003,271000,Combustíveis refinados,4116320,1.362,8,mirror
-2003,690890,690890,3810739,1.261,9,mirror
-2003,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",3800408,1.258,10,mirror
-2004,880230,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 2000kg but not exceeding 15,000kg",46799980,10.903,1,direct
+2003,690890,Azulejos e ladrilhos cerâmicos,3810739,1.261,9,mirror
+2003,721420,Varões de ferro ou aço,3800408,1.258,10,mirror
+2004,880230,Helicópteros e aviões,46799980,10.903,1,direct
 2004,271000,Combustíveis refinados,26298354,6.127,2,direct
-2004,252329,"Cement; portland, other than white, whether or not artificially coloured",16108574,3.753,3,direct
+2004,252329,Cimento,16108574,3.753,3,direct
 2004,100630,Arroz,9195550,2.142,4,direct
-2004,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",8263356,1.925,5,direct
+2004,040221,"Leite e natas, concentrados ou em pó",8263356,1.925,5,direct
 2004,220300,Cerveja,8024239,1.869,6,direct
-2004,100190,100190,8003274,1.865,7,direct
+2004,100190,Trigo,8003274,1.865,7,direct
 2004,150790,Óleo de soja,7161139,1.668,8,direct
 2004,870421,Veículos de mercadorias,5856146,1.364,9,direct
-2004,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",5743271,1.338,10,direct
+2004,020714,Carne de aves,5743271,1.338,10,direct
 2004,271019,Combustíveis refinados,14713312,3.848,1,mirror
-2004,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",8109693,2.121,2,mirror
-2004,252329,"Cement; portland, other than white, whether or not artificially coloured",7277487,1.903,3,mirror
+2004,040221,"Leite e natas, concentrados ou em pó",8109693,2.121,2,mirror
+2004,252329,Cimento,7277487,1.903,3,mirror
 2004,220300,Cerveja,7143682,1.868,4,mirror
 2004,150790,Óleo de soja,6623433,1.732,5,mirror
-2004,690890,690890,4683414,1.225,6,mirror
+2004,690890,Azulejos e ladrilhos cerâmicos,4683414,1.225,6,mirror
 2004,870421,Veículos de mercadorias,4154956,1.087,7,mirror
-2004,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4134019,1.081,8,mirror
+2004,020714,Carne de aves,4134019,1.081,8,mirror
 2004,870332,Automóveis de passageiros,3835788,1.003,9,mirror
-2004,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",3824712,1.0,10,mirror
+2004,721420,Varões de ferro ou aço,3824712,1.0,10,mirror
 2005,271000,Combustíveis refinados,33672465,7.685,1,direct
-2005,252329,"Cement; portland, other than white, whether or not artificially coloured",18367317,4.192,2,direct
+2005,252329,Cimento,18367317,4.192,2,direct
 2005,100630,Arroz,11372331,2.595,3,direct
-2005,890200,"Fishing vessels, factory ships and other vessels; for processing or preserving fishery products",9070769,2.07,4,direct
-2005,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",8359138,1.908,5,direct
+2005,890200,Navios de pesca,9070769,2.07,4,direct
+2005,040221,"Leite e natas, concentrados ou em pó",8359138,1.908,5,direct
 2005,220300,Cerveja,7895544,1.802,6,direct
-2005,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",6707495,1.531,7,direct
+2005,020714,Carne de aves,6707495,1.531,7,direct
 2005,870421,Veículos de mercadorias,6620206,1.511,8,direct
-2005,690890,690890,6240789,1.424,9,direct
+2005,690890,Azulejos e ladrilhos cerâmicos,6240789,1.424,9,direct
 2005,170199,Açúcar de cana ou de beterraba,5508500,1.257,10,direct
 2005,271019,Combustíveis refinados,48802989,11.907,1,mirror
-2005,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",9207016,2.246,2,mirror
-2005,252329,"Cement; portland, other than white, whether or not artificially coloured",8395510,2.048,3,mirror
-2005,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",7057354,1.722,4,mirror
+2005,040221,"Leite e natas, concentrados ou em pó",9207016,2.246,2,mirror
+2005,252329,Cimento,8395510,2.048,3,mirror
+2005,721420,Varões de ferro ou aço,7057354,1.722,4,mirror
 2005,220300,Cerveja,6422197,1.567,5,mirror
-2005,690890,690890,5448976,1.329,6,mirror
-2005,210690,Food preparations; n.e.c. in item no. 2106.10,5179839,1.264,7,mirror
+2005,690890,Azulejos e ladrilhos cerâmicos,5448976,1.329,6,mirror
+2005,210690,Outras preparações alimentares,5179839,1.264,7,mirror
 2005,150790,Óleo de soja,4847835,1.183,8,mirror
-2005,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4777626,1.166,9,mirror
+2005,020714,Carne de aves,4777626,1.166,9,mirror
 2005,870332,Automóveis de passageiros,3954954,0.965,10,mirror
 2006,271000,Combustíveis refinados,43974884,8.171,1,direct
-2006,252329,"Cement; portland, other than white, whether or not artificially coloured",22124163,4.111,2,direct
+2006,252329,Cimento,22124163,4.111,2,direct
 2006,100630,Arroz,11031945,2.05,3,direct
 2006,870421,Veículos de mercadorias,10788930,2.005,4,direct
 2006,220300,Cerveja,9232532,1.715,5,direct
-2006,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",9218246,1.713,6,direct
+2006,040221,"Leite e natas, concentrados ou em pó",9218246,1.713,6,direct
 2006,870332,Automóveis de passageiros,7674287,1.426,7,direct
-2006,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",7012732,1.303,8,direct
-2006,690890,690890,6896271,1.281,9,direct
+2006,721420,Varões de ferro ou aço,7012732,1.303,8,direct
+2006,690890,Azulejos e ladrilhos cerâmicos,6896271,1.281,9,direct
 2006,170199,Açúcar de cana ou de beterraba,6889922,1.28,10,direct
 2006,271019,Combustíveis refinados,74099365,13.573,1,mirror
-2006,252329,"Cement; portland, other than white, whether or not artificially coloured",11347655,2.079,2,mirror
-2006,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",10548965,1.932,3,mirror
-2006,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",9276555,1.699,4,mirror
+2006,252329,Cimento,11347655,2.079,2,mirror
+2006,721420,Varões de ferro ou aço,10548965,1.932,3,mirror
+2006,040221,"Leite e natas, concentrados ou em pó",9276555,1.699,4,mirror
 2006,220300,Cerveja,7576148,1.388,5,mirror
-2006,210690,Food preparations; n.e.c. in item no. 2106.10,6293297,1.153,6,mirror
+2006,210690,Outras preparações alimentares,6293297,1.153,6,mirror
 2006,870332,Automóveis de passageiros,5786940,1.06,7,mirror
 2006,150790,Óleo de soja,5654115,1.036,8,mirror
-2006,690890,690890,5603672,1.026,9,mirror
-2006,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",4542207,0.832,10,mirror
+2006,690890,Azulejos e ladrilhos cerâmicos,5603672,1.026,9,mirror
+2006,020714,Carne de aves,4542207,0.832,10,mirror
 2007,271011,Combustíveis refinados,50498443,6.852,1,direct
-2007,880230,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 2000kg but not exceeding 15,000kg",32056997,4.35,2,direct
-2007,252329,"Cement; portland, other than white, whether or not artificially coloured",29204034,3.963,3,direct
+2007,880230,Helicópteros e aviões,32056997,4.35,2,direct
+2007,252329,Cimento,29204034,3.963,3,direct
 2007,271019,Combustíveis refinados,18234970,2.474,4,direct
-2007,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",18214320,2.471,5,direct
-2007,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",16835722,2.284,6,direct
+2007,880240,Helicópteros e aviões,18214320,2.471,5,direct
+2007,040221,"Leite e natas, concentrados ou em pó",16835722,2.284,6,direct
 2007,100630,Arroz,15639695,2.122,7,direct
 2007,870421,Veículos de mercadorias,15135689,2.054,8,direct
 2007,271113,Gás natural e outros gases de petróleo,11799998,1.601,9,direct
 2007,220300,Cerveja,10363747,1.406,10,direct
 2007,271019,Combustíveis refinados,84261610,12.082,1,mirror
-2007,880230,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 2000kg but not exceeding 15,000kg",33532427,4.808,2,mirror
-2007,252329,"Cement; portland, other than white, whether or not artificially coloured",16619186,2.383,3,mirror
-2007,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",14819694,2.125,4,mirror
-2007,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",14773039,2.118,5,mirror
-2007,690890,690890,9899274,1.419,6,mirror
+2007,880230,Helicópteros e aviões,33532427,4.808,2,mirror
+2007,252329,Cimento,16619186,2.383,3,mirror
+2007,721420,Varões de ferro ou aço,14819694,2.125,4,mirror
+2007,040221,"Leite e natas, concentrados ou em pó",14773039,2.118,5,mirror
+2007,690890,Azulejos e ladrilhos cerâmicos,9899274,1.419,6,mirror
 2007,220300,Cerveja,8813594,1.264,7,mirror
-2007,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",6901803,0.99,8,mirror
+2007,020714,Carne de aves,6901803,0.99,8,mirror
 2007,870332,Automóveis de passageiros,6876853,0.986,9,mirror
-2007,210690,Food preparations; n.e.c. in item no. 2106.10,5357232,0.768,10,mirror
+2007,210690,Outras preparações alimentares,5357232,0.768,10,mirror
 2008,271019,Combustíveis refinados,72707364,8.822,1,direct
-2008,252329,"Cement; portland, other than white, whether or not artificially coloured",35682349,4.33,2,direct
+2008,252329,Cimento,35682349,4.33,2,direct
 2008,870421,Veículos de mercadorias,19181519,2.327,3,direct
 2008,100630,Arroz,17639830,2.14,4,direct
-2008,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",15033793,1.824,5,direct
-2008,690890,690890,13425399,1.629,6,direct
+2008,040221,"Leite e natas, concentrados ou em pó",15033793,1.824,5,direct
+2008,690890,Azulejos e ladrilhos cerâmicos,13425399,1.629,6,direct
 2008,220300,Cerveja,13275966,1.611,7,direct
-2008,721499,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, n.e.c. in heading no. 7214, other than of rectangular cross-section",12963253,1.573,8,direct
+2008,721499,Varões de ferro ou aço,12963253,1.573,8,direct
 2008,150790,Óleo de soja,12823310,1.556,9,direct
-2008,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",12608686,1.53,10,direct
+2008,721420,Varões de ferro ou aço,12608686,1.53,10,direct
 2008,271019,Combustíveis refinados,141847151,16.592,1,mirror
-2008,252329,"Cement; portland, other than white, whether or not artificially coloured",27538656,3.221,2,mirror
-2008,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",21874195,2.559,3,mirror
-2008,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",12970848,1.517,4,mirror
+2008,252329,Cimento,27538656,3.221,2,mirror
+2008,721420,Varões de ferro ou aço,21874195,2.559,3,mirror
+2008,040221,"Leite e natas, concentrados ou em pó",12970848,1.517,4,mirror
 2008,220300,Cerveja,10211208,1.194,5,mirror
-2008,690890,690890,9753955,1.141,6,mirror
-2008,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",9056887,1.059,7,mirror
-2008,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",8302902,0.971,8,mirror
+2008,690890,Azulejos e ladrilhos cerâmicos,9753955,1.141,6,mirror
+2008,730890,Estruturas de ferro ou aço,9056887,1.059,7,mirror
+2008,020714,Carne de aves,8302902,0.971,8,mirror
 2008,870332,Automóveis de passageiros,8302168,0.971,9,mirror
 2008,300490,Medicamentos,7458045,0.872,10,mirror
 2009,271019,Combustíveis refinados,63950428,9.53,1,direct
 2009,100630,Arroz,29137009,4.342,2,direct
-2009,252329,"Cement; portland, other than white, whether or not artificially coloured",27152937,4.046,3,direct
+2009,252329,Cimento,27152937,4.046,3,direct
 2009,870421,Veículos de mercadorias,10853612,1.617,4,direct
 2009,220300,Cerveja,10477601,1.561,5,direct
-2009,690890,690890,8730036,1.301,6,direct
-2009,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",8505396,1.268,7,direct
+2009,690890,Azulejos e ladrilhos cerâmicos,8730036,1.301,6,direct
+2009,040221,"Leite e natas, concentrados ou em pó",8505396,1.268,7,direct
 2009,271113,Gás natural e outros gases de petróleo,8456277,1.26,8,direct
 2009,300490,Medicamentos,7938678,1.183,9,direct
 2009,150790,Óleo de soja,7912699,1.179,10,direct
 2009,271019,Combustíveis refinados,84974548,12.646,1,mirror
-2009,252329,"Cement; portland, other than white, whether or not artificially coloured",19403189,2.888,2,mirror
+2009,252329,Cimento,19403189,2.888,2,mirror
 2009,100630,Arroz,10510179,1.564,3,mirror
-2009,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",10412216,1.55,4,mirror
+2009,040221,"Leite e natas, concentrados ou em pó",10412216,1.55,4,mirror
 2009,220300,Cerveja,9097270,1.354,5,mirror
-2009,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",8420914,1.253,6,mirror
-2009,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",7335814,1.092,7,mirror
+2009,730890,Estruturas de ferro ou aço,8420914,1.253,6,mirror
+2009,020714,Carne de aves,7335814,1.092,7,mirror
 2009,300490,Medicamentos,6556673,0.976,8,mirror
-2009,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",6458133,0.961,9,mirror
-2009,690890,690890,5853816,0.871,10,mirror
+2009,721420,Varões de ferro ou aço,6458133,0.961,9,mirror
+2009,690890,Azulejos e ladrilhos cerâmicos,5853816,0.871,10,mirror
 2010,271019,Combustíveis refinados,69762739,9.547,1,direct
-2010,252329,"Cement; portland, other than white, whether or not artificially coloured",26093163,3.571,2,direct
+2010,252329,Cimento,26093163,3.571,2,direct
 2010,100630,Arroz,24764094,3.389,3,direct
-2010,854140,854140,15585536,2.133,4,direct
-2010,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",12234751,1.674,5,direct
+2010,854140,Díodos e células fotovoltaicas,15585536,2.133,4,direct
+2010,040221,"Leite e natas, concentrados ou em pó",12234751,1.674,5,direct
 2010,220300,Cerveja,10771115,1.474,6,direct
-2010,847141,"Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30",10728445,1.468,7,direct
+2010,847141,Computadores e unidades,10728445,1.468,7,direct
 2010,870421,Veículos de mercadorias,10395741,1.423,8,direct
 2010,271113,Gás natural e outros gases de petróleo,9564083,1.309,9,direct
-2010,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",9343623,1.279,10,direct
+2010,020714,Carne de aves,9343623,1.279,10,direct
 2010,271019,Combustíveis refinados,114423720,14.397,1,mirror
-2010,252329,"Cement; portland, other than white, whether or not artificially coloured",20083686,2.527,2,mirror
+2010,252329,Cimento,20083686,2.527,2,mirror
 2010,100630,Arroz,15240961,1.918,3,mirror
-2010,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",12498485,1.573,4,mirror
-2010,730890,"Iron or steel; structures and parts thereof, n.e.c. in heading 7308",9915041,1.248,5,mirror
+2010,040221,"Leite e natas, concentrados ou em pó",12498485,1.573,4,mirror
+2010,730890,Estruturas de ferro ou aço,9915041,1.248,5,mirror
 2010,220300,Cerveja,9032592,1.137,6,mirror
-2010,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",8622433,1.085,7,mirror
+2010,020714,Carne de aves,8622433,1.085,7,mirror
 2010,150790,Óleo de soja,7768076,0.977,8,mirror
-2010,690890,690890,7220534,0.909,9,mirror
-2010,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",7134893,0.898,10,mirror
+2010,690890,Azulejos e ladrilhos cerâmicos,7220534,0.909,9,mirror
+2010,721420,Varões de ferro ou aço,7134893,0.898,10,mirror
 2011,271019,Combustíveis refinados,160049800,16.909,1,direct
-2011,252329,"Cement; portland, other than white, whether or not artificially coloured",28503793,3.011,2,direct
+2011,252329,Cimento,28503793,3.011,2,direct
 2011,100630,Arroz,24715866,2.611,3,direct
-2011,850300,Electric motors and generators; parts suitable for use solely or principally with the machines of heading no. 8501 or 8502,17091797,1.806,4,direct
-2011,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",14888836,1.573,5,direct
-2011,840710,"Engines; for aircraft, spark-ignition reciprocating or rotary internal combustion piston engines",14853930,1.569,6,direct
+2011,850300,Partes de máquinas elétricas,17091797,1.806,4,direct
+2011,040221,"Leite e natas, concentrados ou em pó",14888836,1.573,5,direct
+2011,840710,Motores de ignição por faísca,14853930,1.569,6,direct
 2011,170199,Açúcar de cana ou de beterraba,13958832,1.475,7,direct
 2011,870421,Veículos de mercadorias,12394606,1.309,8,direct
 2011,220300,Cerveja,12325286,1.302,9,direct
 2011,271113,Gás natural e outros gases de petróleo,11722966,1.238,10,direct
 2011,271019,Combustíveis refinados,166684477,17.458,1,mirror
-2011,252329,"Cement; portland, other than white, whether or not artificially coloured",17838237,1.868,2,mirror
-2011,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",15281221,1.601,3,mirror
-2011,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",13419127,1.405,4,mirror
+2011,252329,Cimento,17838237,1.868,2,mirror
+2011,040221,"Leite e natas, concentrados ou em pó",15281221,1.601,3,mirror
+2011,721420,Varões de ferro ou aço,13419127,1.405,4,mirror
 2011,150790,Óleo de soja,12696339,1.33,5,mirror
 2011,100630,Arroz,10748497,1.126,6,mirror
 2011,220300,Cerveja,10193183,1.068,7,mirror
 2011,170199,Açúcar de cana ou de beterraba,9281393,0.972,8,mirror
-2011,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",8875539,0.93,9,mirror
+2011,020714,Carne de aves,8875539,0.93,9,mirror
 2011,300490,Medicamentos,6946717,0.728,10,mirror
 2012,271019,Combustíveis refinados,89183480,11.816,1,direct
-2012,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",57615688,7.634,2,direct
-2012,252329,"Cement; portland, other than white, whether or not artificially coloured",22817998,3.023,3,direct
+2012,880240,Helicópteros e aviões,57615688,7.634,2,direct
+2012,252329,Cimento,22817998,3.023,3,direct
 2012,100630,Arroz,22302940,2.955,4,direct
-2012,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",12362905,1.638,5,direct
+2012,040221,"Leite e natas, concentrados ou em pó",12362905,1.638,5,direct
 2012,271113,Gás natural e outros gases de petróleo,12239348,1.622,6,direct
 2012,150790,Óleo de soja,10618996,1.407,7,direct
-2012,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",10554335,1.398,8,direct
-2012,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",9995325,1.324,9,direct
+2012,020714,Carne de aves,10554335,1.398,8,direct
+2012,721420,Varões de ferro ou aço,9995325,1.324,9,direct
 2012,170199,Açúcar de cana ou de beterraba,8894580,1.178,10,direct
 2012,271019,Combustíveis refinados,163113651,22.479,1,mirror
-2012,252329,"Cement; portland, other than white, whether or not artificially coloured",14062728,1.938,2,mirror
+2012,252329,Cimento,14062728,1.938,2,mirror
 2012,100630,Arroz,13313375,1.835,3,mirror
-2012,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",10614373,1.463,4,mirror
+2012,721420,Varões de ferro ou aço,10614373,1.463,4,mirror
 2012,170199,Açúcar de cana ou de beterraba,10092823,1.391,5,mirror
 2012,150790,Óleo de soja,10033485,1.383,6,mirror
-2012,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",8945857,1.233,7,mirror
-2012,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",8940868,1.232,8,mirror
+2012,040221,"Leite e natas, concentrados ou em pó",8945857,1.233,7,mirror
+2012,020714,Carne de aves,8940868,1.232,8,mirror
 2012,220300,Cerveja,6258060,0.862,9,mirror
-2012,690890,690890,5492060,0.757,10,mirror
+2012,690890,Azulejos e ladrilhos cerâmicos,5492060,0.757,10,mirror
 2013,271019,Combustíveis refinados,134431172,18.511,1,direct
 2013,100630,Arroz,27120806,3.734,2,direct
-2013,252329,"Cement; portland, other than white, whether or not artificially coloured",21999442,3.029,3,direct
-2013,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",11946917,1.645,4,direct
-2013,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",11832380,1.629,5,direct
+2013,252329,Cimento,21999442,3.029,3,direct
+2013,040221,"Leite e natas, concentrados ou em pó",11946917,1.645,4,direct
+2013,020714,Carne de aves,11832380,1.629,5,direct
 2013,271113,Gás natural e outros gases de petróleo,10988035,1.513,6,direct
 2013,170199,Açúcar de cana ou de beterraba,10514524,1.448,7,direct
-2013,100590,"Cereals; maize (corn), other than seed",9630465,1.326,8,direct
+2013,100590,Milho,9630465,1.326,8,direct
 2013,150790,Óleo de soja,9625814,1.325,9,direct
-2013,100119,"Cereals; wheat and meslin, durum wheat, other than seed",8732830,1.202,10,direct
+2013,100119,Trigo,8732830,1.202,10,direct
 2013,271019,Combustíveis refinados,150092148,19.826,1,mirror
 2013,271012,Combustíveis refinados,42408065,5.602,2,mirror
 2013,100630,Arroz,15509552,2.049,3,mirror
-2013,252329,"Cement; portland, other than white, whether or not artificially coloured",12836514,1.696,4,mirror
-2013,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",12412119,1.64,5,mirror
-2013,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",10046197,1.327,6,mirror
+2013,252329,Cimento,12836514,1.696,4,mirror
+2013,040221,"Leite e natas, concentrados ou em pó",12412119,1.64,5,mirror
+2013,020714,Carne de aves,10046197,1.327,6,mirror
 2013,150790,Óleo de soja,8367880,1.105,7,mirror
-2013,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",7471624,0.987,8,mirror
-2013,100590,"Cereals; maize (corn), other than seed",6645064,0.878,9,mirror
+2013,721420,Varões de ferro ou aço,7471624,0.987,8,mirror
+2013,100590,Milho,6645064,0.878,9,mirror
 2013,220300,Cerveja,6612270,0.873,10,mirror
 2014,271019,Combustíveis refinados,99802370,13.003,1,direct
-2014,252329,"Cement; portland, other than white, whether or not artificially coloured",23751332,3.094,2,direct
-2014,850300,Electric motors and generators; parts suitable for use solely or principally with the machines of heading no. 8501 or 8502,20707327,2.698,3,direct
+2014,252329,Cimento,23751332,3.094,2,direct
+2014,850300,Partes de máquinas elétricas,20707327,2.698,3,direct
 2014,100630,Arroz,20342993,2.65,4,direct
-2014,850213,"Electric generating sets; with compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of an output exceeding 375kVA",16235655,2.115,5,direct
-2014,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",11730184,1.528,6,direct
-2014,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",10931223,1.424,7,direct
-2014,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",10921496,1.423,8,direct
+2014,850213,Grupos geradores,16235655,2.115,5,direct
+2014,020714,Carne de aves,11730184,1.528,6,direct
+2014,721420,Varões de ferro ou aço,10931223,1.424,7,direct
+2014,040221,"Leite e natas, concentrados ou em pó",10921496,1.423,8,direct
 2014,890110,Navios,10705871,1.395,9,direct
 2014,271113,Gás natural e outros gases de petróleo,10179064,1.326,10,direct
 2014,271019,Combustíveis refinados,47531863,6.694,1,mirror
 2014,100630,Arroz,12920939,1.82,2,mirror
-2014,252329,"Cement; portland, other than white, whether or not artificially coloured",12519151,1.763,3,mirror
-2014,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",11280626,1.589,4,mirror
-2014,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",10379230,1.462,5,mirror
-2014,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",8922923,1.257,6,mirror
+2014,252329,Cimento,12519151,1.763,3,mirror
+2014,040221,"Leite e natas, concentrados ou em pó",11280626,1.589,4,mirror
+2014,721420,Varões de ferro ou aço,10379230,1.462,5,mirror
+2014,020714,Carne de aves,8922923,1.257,6,mirror
 2014,150790,Óleo de soja,8602310,1.212,7,mirror
 2014,220300,Cerveja,7092146,0.999,8,mirror
 2014,170199,Açúcar de cana ou de beterraba,6796039,0.957,9,mirror
-2014,040120,"Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%",6172123,0.869,10,mirror
+2014,040120,"Leite e natas, não concentrados",6172123,0.869,10,mirror
 2015,271019,Combustíveis refinados,64738531,10.728,1,direct
 2015,100630,Arroz,21441813,3.553,2,direct
-2015,252329,"Cement; portland, other than white, whether or not artificially coloured",18316844,3.035,3,direct
-2015,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",10587191,1.755,4,direct
-2015,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",9892268,1.639,5,direct
+2015,252329,Cimento,18316844,3.035,3,direct
+2015,040221,"Leite e natas, concentrados ou em pó",10587191,1.755,4,direct
+2015,020714,Carne de aves,9892268,1.639,5,direct
 2015,220300,Cerveja,8125563,1.347,6,direct
-2015,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",7590925,1.258,7,direct
-2015,851712,851712,7554776,1.252,8,direct
+2015,721420,Varões de ferro ou aço,7590925,1.258,7,direct
+2015,851712,Aparelhos de telecomunicações,7554776,1.252,8,direct
 2015,170199,Açúcar de cana ou de beterraba,6733774,1.116,9,direct
 2015,271113,Gás natural e outros gases de petróleo,6544658,1.085,10,direct
 2015,271019,Combustíveis refinados,63292293,11.187,1,mirror
 2015,100630,Arroz,19918740,3.521,2,mirror
-2015,252329,"Cement; portland, other than white, whether or not artificially coloured",10387489,1.836,3,mirror
-2015,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",9839954,1.739,4,mirror
-2015,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",9575355,1.692,5,mirror
-2015,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",7916303,1.399,6,mirror
+2015,252329,Cimento,10387489,1.836,3,mirror
+2015,721420,Varões de ferro ou aço,9839954,1.739,4,mirror
+2015,040221,"Leite e natas, concentrados ou em pó",9575355,1.692,5,mirror
+2015,020714,Carne de aves,7916303,1.399,6,mirror
 2015,150790,Óleo de soja,6406874,1.132,7,mirror
 2015,220300,Cerveja,6387156,1.129,8,mirror
 2015,271012,Combustíveis refinados,5782651,1.022,9,mirror
-2015,040120,"Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%",5577042,0.986,10,mirror
+2015,040120,"Leite e natas, não concentrados",5577042,0.986,10,mirror
 2016,271019,Combustíveis refinados,49451740,7.357,1,direct
-2016,252329,"Cement; portland, other than white, whether or not artificially coloured",21157608,3.148,2,direct
+2016,252329,Cimento,21157608,3.148,2,direct
 2016,100630,Arroz,16119035,2.398,3,direct
-2016,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",10928508,1.626,4,direct
+2016,020714,Carne de aves,10928508,1.626,4,direct
 2016,220300,Cerveja,9847750,1.465,5,direct
-2016,690890,690890,8992641,1.338,6,direct
-2016,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",8410824,1.251,7,direct
-2016,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",8406033,1.251,8,direct
-2016,210690,Food preparations; n.e.c. in item no. 2106.10,7712458,1.147,9,direct
+2016,690890,Azulejos e ladrilhos cerâmicos,8992641,1.338,6,direct
+2016,721420,Varões de ferro ou aço,8410824,1.251,7,direct
+2016,040221,"Leite e natas, concentrados ou em pó",8406033,1.251,8,direct
+2016,210690,Outras preparações alimentares,7712458,1.147,9,direct
 2016,170199,Açúcar de cana ou de beterraba,7659215,1.139,10,direct
 2016,271019,Combustíveis refinados,42441102,5.579,1,mirror
 2016,271012,Combustíveis refinados,26446105,3.476,2,mirror
 2016,100630,Arroz,11784766,1.549,3,mirror
-2016,252329,"Cement; portland, other than white, whether or not artificially coloured",11204497,1.473,4,mirror
-2016,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",9648358,1.268,5,mirror
-2016,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",9334880,1.227,6,mirror
+2016,252329,Cimento,11204497,1.473,4,mirror
+2016,040221,"Leite e natas, concentrados ou em pó",9648358,1.268,5,mirror
+2016,020714,Carne de aves,9334880,1.227,6,mirror
 2016,300490,Medicamentos,8996352,1.183,7,mirror
 2016,220300,Cerveja,7870807,1.035,8,mirror
-2016,690890,690890,7827100,1.029,9,mirror
+2016,690890,Azulejos e ladrilhos cerâmicos,7827100,1.029,9,mirror
 2016,170199,Açúcar de cana ou de beterraba,6921883,0.91,10,mirror
 2017,271019,Combustíveis refinados,64693216,8.152,1,direct
-2017,880230,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 2000kg but not exceeding 15,000kg",27550466,3.472,2,direct
+2017,880230,Helicópteros e aviões,27550466,3.472,2,direct
 2017,100630,Arroz,22447695,2.829,3,direct
-2017,252329,"Cement; portland, other than white, whether or not artificially coloured",19442563,2.45,4,direct
+2017,252329,Cimento,19442563,2.45,4,direct
 2017,170199,Açúcar de cana ou de beterraba,11664140,1.47,5,direct
-2017,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",11536865,1.454,6,direct
-2017,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",10589525,1.334,7,direct
+2017,020714,Carne de aves,11536865,1.454,6,direct
+2017,721420,Varões de ferro ou aço,10589525,1.334,7,direct
 2017,220300,Cerveja,9574662,1.206,8,direct
 2017,870421,Veículos de mercadorias,9518006,1.199,9,direct
-2017,040120,"Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%",8854113,1.116,10,direct
+2017,040120,"Leite e natas, não concentrados",8854113,1.116,10,direct
 2017,271019,Combustíveis refinados,64455232,8.641,1,mirror
 2017,100630,Arroz,13037410,1.748,2,mirror
-2017,252329,"Cement; portland, other than white, whether or not artificially coloured",11481781,1.539,3,mirror
-2017,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",11127183,1.492,4,mirror
+2017,252329,Cimento,11481781,1.539,3,mirror
+2017,721420,Varões de ferro ou aço,11127183,1.492,4,mirror
 2017,870421,Veículos de mercadorias,10232196,1.372,5,mirror
-2017,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",10115990,1.356,6,mirror
-2017,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",9799525,1.314,7,mirror
+2017,020714,Carne de aves,10115990,1.356,6,mirror
+2017,040221,"Leite e natas, concentrados ou em pó",9799525,1.314,7,mirror
 2017,170199,Açúcar de cana ou de beterraba,8705119,1.167,8,mirror
 2017,220300,Cerveja,8259079,1.107,9,mirror
 2017,150790,Óleo de soja,7863362,1.054,10,mirror
 2018,271019,Combustíveis refinados,81944255,10.059,1,direct
-2018,252329,"Cement; portland, other than white, whether or not artificially coloured",20725881,2.544,2,direct
+2018,252329,Cimento,20725881,2.544,2,direct
 2018,100630,Arroz,16157068,1.983,3,direct
-2018,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",13227472,1.624,4,direct
-2018,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",11914423,1.463,5,direct
-2018,100590,"Cereals; maize (corn), other than seed",10115063,1.242,6,direct
-2018,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",10019235,1.23,7,direct
+2018,020714,Carne de aves,13227472,1.624,4,direct
+2018,721420,Varões de ferro ou aço,11914423,1.463,5,direct
+2018,100590,Milho,10115063,1.242,6,direct
+2018,880240,Helicópteros e aviões,10019235,1.23,7,direct
 2018,870421,Veículos de mercadorias,9974441,1.224,8,direct
-2018,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",9918184,1.218,9,direct
+2018,040221,"Leite e natas, concentrados ou em pó",9918184,1.218,9,direct
 2018,220300,Cerveja,9527473,1.17,10,direct
 2018,271019,Combustíveis refinados,51635660,6.445,1,mirror
 2018,870421,Veículos de mercadorias,19386307,2.42,2,mirror
-2018,252329,"Cement; portland, other than white, whether or not artificially coloured",13437873,1.677,3,mirror
+2018,252329,Cimento,13437873,1.677,3,mirror
 2018,100630,Arroz,13365343,1.668,4,mirror
-2018,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",12697272,1.585,5,mirror
-2018,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",10627528,1.326,6,mirror
-2018,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",10101628,1.261,7,mirror
-2018,100590,"Cereals; maize (corn), other than seed",8254187,1.03,8,mirror
+2018,721420,Varões de ferro ou aço,12697272,1.585,5,mirror
+2018,020714,Carne de aves,10627528,1.326,6,mirror
+2018,040221,"Leite e natas, concentrados ou em pó",10101628,1.261,7,mirror
+2018,100590,Milho,8254187,1.03,8,mirror
 2018,220300,Cerveja,7972849,0.995,9,mirror
 2018,150790,Óleo de soja,7926314,0.989,10,mirror
 2019,271019,Combustíveis refinados,555912698,39.973,1,direct
-2019,860900,Containers; (including containers for transport of fluids) specially designed and equipped for carriage by one or more modes of transport,44214679,3.179,2,direct
-2019,252329,"Cement; portland, other than white, whether or not artificially coloured",31811723,2.287,3,direct
+2019,860900,Contentores de transporte,44214679,3.179,2,direct
+2019,252329,Cimento,31811723,2.287,3,direct
 2019,100630,Arroz,25635533,1.843,4,direct
 2019,271012,Combustíveis refinados,20573490,1.479,5,direct
-2019,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",13828173,0.994,6,direct
-2019,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",11499019,0.827,7,direct
+2019,020714,Carne de aves,13828173,0.994,6,direct
+2019,721420,Varões de ferro ou aço,11499019,0.827,7,direct
 2019,030489,Filetes de peixe,11370344,0.818,8,direct
 2019,220300,Cerveja,11283139,0.811,9,direct
 2019,870421,Veículos de mercadorias,11225702,0.807,10,direct
 2019,271019,Combustíveis refinados,130688468,14.634,1,mirror
 2019,870421,Veículos de mercadorias,41341553,4.629,2,mirror
-2019,252329,"Cement; portland, other than white, whether or not artificially coloured",13862304,1.552,3,mirror
-2019,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",12469674,1.396,4,mirror
-2019,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",11741537,1.315,5,mirror
+2019,252329,Cimento,13862304,1.552,3,mirror
+2019,020714,Carne de aves,12469674,1.396,4,mirror
+2019,721420,Varões de ferro ou aço,11741537,1.315,5,mirror
 2019,100630,Arroz,11171945,1.251,6,mirror
-2019,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",9996979,1.119,7,mirror
+2019,040221,"Leite e natas, concentrados ou em pó",9996979,1.119,7,mirror
 2019,220300,Cerveja,9397459,1.052,8,mirror
 2019,300490,Medicamentos,9051966,1.014,9,mirror
 2019,271012,Combustíveis refinados,6353874,0.712,10,mirror
 2020,271019,Combustíveis refinados,348383480,30.792,1,direct
-2020,860900,Containers; (including containers for transport of fluids) specially designed and equipped for carriage by one or more modes of transport,40699326,3.597,2,direct
-2020,252329,"Cement; portland, other than white, whether or not artificially coloured",29973188,2.649,3,direct
+2020,860900,Contentores de transporte,40699326,3.597,2,direct
+2020,252329,Cimento,29973188,2.649,3,direct
 2020,100630,Arroz,18213080,1.61,4,direct
 2020,271012,Combustíveis refinados,14837962,1.311,5,direct
-2020,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",13657454,1.207,6,direct
-2020,721499,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, n.e.c. in heading no. 7214, other than of rectangular cross-section",10936228,0.967,7,direct
+2020,020714,Carne de aves,13657454,1.207,6,direct
+2020,721499,Varões de ferro ou aço,10936228,0.967,7,direct
 2020,030489,Filetes de peixe,10664563,0.943,8,direct
 2020,890120,Navios,10195402,0.901,9,direct
-2020,210690,Food preparations; n.e.c. in item no. 2106.10,10162673,0.898,10,direct
+2020,210690,Outras preparações alimentares,10162673,0.898,10,direct
 2020,271019,Combustíveis refinados,110688652,13.567,1,mirror
 2020,870421,Veículos de mercadorias,61327954,7.517,2,mirror
-2020,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",15202397,1.863,3,mirror
-2020,252329,"Cement; portland, other than white, whether or not artificially coloured",15038232,1.843,4,mirror
-2020,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",14177675,1.738,5,mirror
-2020,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",11884268,1.457,6,mirror
+2020,020714,Carne de aves,15202397,1.863,3,mirror
+2020,252329,Cimento,15038232,1.843,4,mirror
+2020,040221,"Leite e natas, concentrados ou em pó",14177675,1.738,5,mirror
+2020,721420,Varões de ferro ou aço,11884268,1.457,6,mirror
 2020,100630,Arroz,11863072,1.454,7,mirror
 2020,150790,Óleo de soja,8606039,1.055,8,mirror
 2020,220300,Cerveja,7534317,0.923,9,mirror
 2020,300490,Medicamentos,6445949,0.79,10,mirror
 2021,271019,Combustíveis refinados,404293907,31.539,1,direct
-2021,860900,Containers; (including containers for transport of fluids) specially designed and equipped for carriage by one or more modes of transport,73468084,5.731,2,direct
-2021,252329,"Cement; portland, other than white, whether or not artificially coloured",36360257,2.836,3,direct
+2021,860900,Contentores de transporte,73468084,5.731,2,direct
+2021,252329,Cimento,36360257,2.836,3,direct
 2021,271012,Combustíveis refinados,27973537,2.182,4,direct
 2021,100630,Arroz,22148766,1.728,5,direct
-2021,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",14594440,1.139,6,direct
-2021,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",13240364,1.033,7,direct
-2021,100119,"Cereals; wheat and meslin, durum wheat, other than seed",13205901,1.03,8,direct
+2021,020714,Carne de aves,14594440,1.139,6,direct
+2021,721420,Varões de ferro ou aço,13240364,1.033,7,direct
+2021,100119,Trigo,13205901,1.03,8,direct
 2021,030489,Filetes de peixe,12763175,0.996,9,direct
-2021,210690,Food preparations; n.e.c. in item no. 2106.10,11700064,0.913,10,direct
+2021,210690,Outras preparações alimentares,11700064,0.913,10,direct
 2021,870421,Veículos de mercadorias,114900385,12.916,1,mirror
 2021,271019,Combustíveis refinados,87771462,9.867,2,mirror
-2021,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",18550936,2.085,3,mirror
-2021,252329,"Cement; portland, other than white, whether or not artificially coloured",15998834,1.798,4,mirror
+2021,721420,Varões de ferro ou aço,18550936,2.085,3,mirror
+2021,252329,Cimento,15998834,1.798,4,mirror
 2021,100630,Arroz,15112734,1.699,5,mirror
-2021,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",13060480,1.468,6,mirror
-2021,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",12346772,1.388,7,mirror
+2021,040221,"Leite e natas, concentrados ou em pó",13060480,1.468,6,mirror
+2021,020714,Carne de aves,12346772,1.388,7,mirror
 2021,220300,Cerveja,10367005,1.165,8,mirror
 2021,150790,Óleo de soja,9458600,1.063,9,mirror
 2021,300490,Medicamentos,7058813,0.793,10,mirror
 2022,271019,Combustíveis refinados,874556908,49.344,1,direct
 2022,271012,Combustíveis refinados,48019133,2.709,2,direct
-2022,252329,"Cement; portland, other than white, whether or not artificially coloured",38265102,2.159,3,direct
-2022,860900,Containers; (including containers for transport of fluids) specially designed and equipped for carriage by one or more modes of transport,35981724,2.03,4,direct
+2022,252329,Cimento,38265102,2.159,3,direct
+2022,860900,Contentores de transporte,35981724,2.03,4,direct
 2022,100630,Arroz,30447825,1.718,5,direct
-2022,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",18152799,1.024,6,direct
-2022,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",16417773,0.926,7,direct
-2022,100590,"Cereals; maize (corn), other than seed",14668514,0.828,8,direct
+2022,020714,Carne de aves,18152799,1.024,6,direct
+2022,721420,Varões de ferro ou aço,16417773,0.926,7,direct
+2022,100590,Milho,14668514,0.828,8,direct
 2022,271113,Gás natural e outros gases de petróleo,11241824,0.634,9,direct
 2022,220300,Cerveja,10761568,0.607,10,direct
 2022,271019,Combustíveis refinados,133324267,14.387,1,mirror
 2022,100630,Arroz,19857953,2.143,2,mirror
-2022,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",16580695,1.789,3,mirror
-2022,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",16557222,1.787,4,mirror
-2022,252329,"Cement; portland, other than white, whether or not artificially coloured",14350938,1.549,5,mirror
+2022,020714,Carne de aves,16580695,1.789,3,mirror
+2022,721420,Varões de ferro ou aço,16557222,1.787,4,mirror
+2022,252329,Cimento,14350938,1.549,5,mirror
 2022,271012,Combustíveis refinados,14232488,1.536,6,mirror
-2022,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",11914582,1.286,7,mirror
+2022,040221,"Leite e natas, concentrados ou em pó",11914582,1.286,7,mirror
 2022,150790,Óleo de soja,11032760,1.191,8,mirror
 2022,220300,Cerveja,8997513,0.971,9,mirror
 2022,300490,Medicamentos,8054731,0.869,10,mirror
 2023,271019,Combustíveis refinados,766690183,43.589,1,direct
-2023,880240,"Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg",49270330,2.801,2,direct
+2023,880240,Helicópteros e aviões,49270330,2.801,2,direct
 2023,271012,Combustíveis refinados,43967684,2.5,3,direct
-2023,860900,Containers; (including containers for transport of fluids) specially designed and equipped for carriage by one or more modes of transport,36262160,2.062,4,direct
-2023,252329,"Cement; portland, other than white, whether or not artificially coloured",33709451,1.917,5,direct
+2023,860900,Contentores de transporte,36262160,2.062,4,direct
+2023,252329,Cimento,33709451,1.917,5,direct
 2023,100630,Arroz,26769127,1.522,6,direct
-2023,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",16280142,0.926,7,direct
-2023,210690,Food preparations; n.e.c. in item no. 2106.10,14770619,0.84,8,direct
-2023,100590,"Cereals; maize (corn), other than seed",14757922,0.839,9,direct
-2023,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",12432160,0.707,10,direct
+2023,020714,Carne de aves,16280142,0.926,7,direct
+2023,210690,Outras preparações alimentares,14770619,0.84,8,direct
+2023,100590,Milho,14757922,0.839,9,direct
+2023,721420,Varões de ferro ou aço,12432160,0.707,10,direct
 2023,271019,Combustíveis refinados,122324843,12.562,1,mirror
-2023,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",15670826,1.609,2,mirror
+2023,020714,Carne de aves,15670826,1.609,2,mirror
 2023,100630,Arroz,14726069,1.512,3,mirror
-2023,252329,"Cement; portland, other than white, whether or not artificially coloured",14681575,1.508,4,mirror
+2023,252329,Cimento,14681575,1.508,4,mirror
 2023,870421,Veículos de mercadorias,12738279,1.308,5,mirror
-2023,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",11687402,1.2,6,mirror
+2023,721420,Varões de ferro ou aço,11687402,1.2,6,mirror
 2023,271012,Combustíveis refinados,11682729,1.2,7,mirror
-2023,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",11046582,1.134,8,mirror
-2023,100590,"Cereals; maize (corn), other than seed",10667220,1.095,9,mirror
+2023,040221,"Leite e natas, concentrados ou em pó",11046582,1.134,8,mirror
+2023,100590,Milho,10667220,1.095,9,mirror
 2023,220300,Cerveja,8817138,0.905,10,mirror
 2024,271019,Combustíveis refinados,108421451,11.841,1,direct
-2024,252329,"Cement; portland, other than white, whether or not artificially coloured",25683648,2.805,2,direct
+2024,252329,Cimento,25683648,2.805,2,direct
 2024,100630,Arroz,18633955,2.035,3,direct
-2024,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",18093251,1.976,4,direct
+2024,020714,Carne de aves,18093251,1.976,4,direct
 2024,870333,Automóveis de passageiros,16995501,1.856,5,direct
 2024,300490,Medicamentos,14525265,1.586,6,direct
 2024,271012,Combustíveis refinados,13382828,1.462,7,direct
-2024,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",11682017,1.276,8,direct
+2024,721420,Varões de ferro ou aço,11682017,1.276,8,direct
 2024,170199,Açúcar de cana ou de beterraba,11620587,1.269,9,direct
-2024,210690,Food preparations; n.e.c. in item no. 2106.10,11125204,1.215,10,direct
+2024,210690,Outras preparações alimentares,11125204,1.215,10,direct
 2024,271019,Combustíveis refinados,160072059,15.72,1,mirror
 2024,100630,Arroz,18278770,1.795,2,mirror
-2024,020714,"Meat and edible offal; of fowls of the species Gallus domesticus, cuts and offal, frozen",17543296,1.723,3,mirror
-2024,252329,"Cement; portland, other than white, whether or not artificially coloured",16624778,1.633,4,mirror
-2024,040221,"Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",13448922,1.321,5,mirror
+2024,020714,Carne de aves,17543296,1.723,3,mirror
+2024,252329,Cimento,16624778,1.633,4,mirror
+2024,040221,"Leite e natas, concentrados ou em pó",13448922,1.321,5,mirror
 2024,300490,Medicamentos,11965670,1.175,6,mirror
 2024,170199,Açúcar de cana ou de beterraba,10780748,1.059,7,mirror
-2024,721420,"Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",8903676,0.874,8,mirror
+2024,721420,Varões de ferro ou aço,8903676,0.874,8,mirror
 2024,220300,Cerveja,7942933,0.78,9,mirror
-2024,210690,Food preparations; n.e.c. in item no. 2106.10,7742188,0.76,10,mirror
+2024,210690,Outras preparações alimentares,7742188,0.76,10,mirror
