@@ -225,7 +225,13 @@ Behavior, in order:
 
 1. Defaults `partner2Code` to `0` if not given — **this is load-bearing**, see §5.1.
 2. Requires `period`; raises `ValueError` otherwise.
-3. Splits `period` via `split_period(period, period_size)` and processes each chunk:
+3. Splits oversized comma-separated `cmdCode`/`reporterCode`/`partnerCode` lists
+   (more than `CSV_BATCH_MAX_ITEMS` = 100 items) into batches — the API rejects
+   request URLs over ~2000 characters, and ~190 HS6 codes with a typical
+   reporter list already cross that (see §5.6). Each batch is a recursive call
+   with the same wrapper arguments and its own cache entries; batch results are
+   concatenated before returning.
+4. Splits `period` via `split_period(period, period_size)` and processes each chunk:
    - Computes an `md5` of the sorted parameter items (+ `use_alternative`) →
      `cache/<hash>.pickle` (order-independent since 2026-07-21; older pickles
      are unreachable).
@@ -235,7 +241,7 @@ Behavior, in order:
      On `None` result: up to `MAX_RETRIES` (5) attempts with linear backoff
      (`MAX_SLEEP * (RETRY+1)` seconds), then raises `IOError`.
    - Successful non-empty chunks are written to cache; all-NA frames are dropped with a warning.
-4. Concatenates chunks; applies `remove_world` if requested.
+5. Concatenates chunks; applies `remove_world` if requested.
 
 Returns an **empty DataFrame** (not `None`) when every chunk came back empty.
 Cached results are returned instantly — the rate limiter only guards live calls.
@@ -395,7 +401,23 @@ old order-sensitive key and are unreachable). Consequences:
   new entry — but parameter *order* no longer matters.
 - Cached frames are returned as pickled — column sets reflect the call that created them.
 
-### 5.6 Rate limiting is import-time bound
+### 5.6 Long CSV code lists hit the API's URL length limit
+
+The UN Comtrade server rejects request URLs longer than ~2000 characters with
+"Request URL exceeds maximum allowed length (2000 characters)" (a server-side
+message printed by `comtradeapicall`, followed by `getFinalData`'s empty-result
+retries). Long comma-separated `cmdCode`/`reporterCode`/`partnerCode` lists are
+what blows the budget: commas are URL-encoded as `%2C`, so a single HS6 code
+costs ~9 characters, and the `subscription-key` itself travels in the query
+string. Example (verified 2026-07-22): 104 HS6 codes + 24 reporters ≈ 1200
+chars — accepted; 178 HS6 codes + 23 reporters ≈ 1950+ chars — rejected.
+
+`getFinalData` prevents this by splitting any CSV list longer than
+`CSV_BATCH_MAX_ITEMS` (100) into batches (§4.3 step 3). If you ever see the
+error anyway, shorten the lists yourself — or split one of the *other*
+parameters, since the limit applies to the whole URL.
+
+### 5.7 Rate limiting is import-time bound
 
 `@limits(calls=CALLS_PER_PERIOD, period=PERIOD_SECONDS)` freezes `1 / 20 s` at import.
 Reassigning the constants later changes nothing (some notebooks do this — it is a no-op).
@@ -403,7 +425,7 @@ To actually change the limit, edit the constants at the top of the file before i
 Note also that premium Comtrade keys allow higher rates — the 20 s default is
 conservative; `comtradeapicall`'s own limiter may also apply.
 
-### 5.7 Misc quirks
+### 5.8 Misc quirks
 
 - `encode_country` / `decode_country` never fail loudly: unknown inputs pass through
   unchanged — check outputs rather than assuming failure.

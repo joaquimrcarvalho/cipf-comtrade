@@ -54,6 +54,9 @@ BASE_URL_API = "https://comtradeapi.un.org/data/v1/get/"
 # Parameters for rate limiting
 CALLS_PER_PERIOD = 1  # number of calls per period
 PERIOD_SECONDS = 20  # period in seconds
+# Max items per comma-separated cmdCode/reporterCode/partnerCode list in one
+# API call; longer lists are split into batches (API URL limit ~2000 chars).
+CSV_BATCH_MAX_ITEMS = 100
 MAX_RETRIES = 5  # max number of retries for a failed call
 RETRY = 0  # number of retries for a failed call
 MAX_SLEEP = 6  # maximum number of seconds to sleep between retries
@@ -474,7 +477,11 @@ def getFinalData(*p, **kwp):
 
     This wrapper is needed to avoid rate limit errors when calling the API.
     It also deals with requests that specify more than 12 periods by splitting
-        the request in multiple calls and concatenating the results.
+        the request in multiple calls and concatenating the results, and with
+        comma-separated cmdCode/reporterCode/partnerCode lists longer than
+        ``CSV_BATCH_MAX_ITEMS`` (100) by splitting them into batches (the API
+        rejects request URLs over ~2000 characters); each batch has its own
+        cache entries and results are concatenated.
 
     For information about the base function see https://github.com/uncomtrade/comtradeapicall.
 
@@ -597,6 +604,33 @@ def getFinalData(*p, **kwp):
     period = kwp.get("period", None)
     if period is None:
         raise ValueError("Period is required")
+
+    # Split oversized CSV parameter lists into batches: the API rejects
+    # request URLs over ~2000 characters, which a long cmdCode/reporterCode/
+    # partnerCode list easily produces (e.g. 178 HS6 codes). Each batch is a
+    # recursive call with its own cache entries; results are concatenated.
+    for list_param in ("cmdCode", "reporterCode", "partnerCode"):
+        value = kwp.get(list_param)
+        if isinstance(value, str) and "," in value:
+            items = value.split(",")
+            if len(items) > CSV_BATCH_MAX_ITEMS:
+                logging.info(
+                    "Splitting %s (%d items) into batches of %d",
+                    list_param, len(items), CSV_BATCH_MAX_ITEMS)
+                frames = []
+                for i in range(0, len(items), CSV_BATCH_MAX_ITEMS):
+                    batch = ",".join(items[i:i + CSV_BATCH_MAX_ITEMS])
+                    # wrapper-only kwargs were popped from kwp above;
+                    # pass them explicitly so batches behave identically
+                    child = {**kwp, list_param: batch,
+                             "cache": cache,
+                             "retry_if_empty": retry_if_empty,
+                             "remove_world": remove_world,
+                             "period_size": period_size}
+                    frames.append(getFinalData(*p, **child))
+                frames = [d for d in frames if d is not None and not d.empty]
+                return (pd.concat(frames, ignore_index=True)
+                        if frames else pd.DataFrame())
 
     if cache and not os.path.exists(CACHE_DIR):
         Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)

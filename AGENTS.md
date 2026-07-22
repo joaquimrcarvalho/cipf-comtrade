@@ -91,6 +91,10 @@ notebooks ──► getFinalData() ────┘        (cache + period split)
   is order-independent since 2026-07-21); `clean_cache()` runs on every `init()` and
   deletes entries older than 90 days. Site exporters use the notebooks' own parameter
   conventions so both share cache entries.
+- The API rejects request URLs over ~2000 characters ("Request URL exceeds maximum
+  allowed length"); `getFinalData()` automatically splits `cmdCode`/`reporterCode`/
+  `partnerCode` CSV lists longer than `CSV_BATCH_MAX_ITEMS` (100) into batches, each
+  with its own cache entries (manual §5.6).
 - `encode_country`/`decode_country` pass unknown inputs through unchanged instead of
   failing — check outputs.
 

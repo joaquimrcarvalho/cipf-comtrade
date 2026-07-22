@@ -220,6 +220,22 @@ class TestGetFinalData:
         comtradetools.getFinalData("TESTKEY", cache=False, **kwargs)
         assert len(fake_api.calls) == 2
 
+    def test_csv_list_splitting(self, fake_api):
+        """Oversized CSV lists are batched (API ~2000-char URL limit); each
+        batch has its own cache entries and results are concatenated."""
+        codes = ",".join(f"{100000 + i}" for i in range(178))
+        # period_size=1 as in country_trade_profile.ipynb §2.5/§3.5
+        kwargs = dict(self.NOTEBOOK_KWARGS, partnerCode=None,
+                      period="2020,2021", period_size=1, cmdCode=codes)
+        df = comtradetools.getFinalData("TESTKEY", **kwargs)
+        # 2 batches (100 + 78) x 2 yearly chunks = 4 inner calls
+        assert len(fake_api.calls) == 4
+        sizes = sorted(len(c["cmdCode"].split(",")) for c in fake_api.calls)
+        assert sizes == [78, 78, 100, 100]
+        assert len(df) == 8  # fake returns 2 rows per call
+        comtradetools.getFinalData("TESTKEY", **kwargs)
+        assert len(fake_api.calls) == 4  # repeat call fully served from cache
+
     def test_remove_world_drops_partnercode_zero(self, fake_api, monkeypatch):
         fake_api.next_result = make_api_df(partners=(0, 76, 24))
         df = comtradetools.getFinalData(
