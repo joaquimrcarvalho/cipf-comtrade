@@ -464,16 +464,29 @@ def build_d6(shared: dict, country_code: int, code2pt: dict, ctt,
 
 def fetch_d7_direct_frames(ctt, slug: str, country_code: int, start: int,
                            end: int) -> dict:
-    """D7 direct discovery — the country's own report with partner=World
-    (partnerCode=0), AG6. Small responses, no truncation risk."""
+    """D7 direct discovery — the country's own report with partner=all
+    (partnerCode=None), AG6, keeping only the World row in memory.
+
+    Matches the notebook's §2.2/§3.2 direct query shape
+    (country_trade_profile.ipynb uses partnerCode=None at AG6), so the cache
+    entry is shared; partnerCode==0 rows give exactly what a partnerCode=0
+    call would have returned."""
     period = year_list(start, end)
+
+    def world_only(df: pd.DataFrame) -> pd.DataFrame:
+        if df.empty:
+            return df
+        return df[df["partnerCode"] == 0].reset_index(drop=True)
+
     return {
-        "x": fetch_guarded(ctt, f"{slug} D7d reporter=C partner=World X AG6",
-                           period, reporterCode=country_code,
-                           partnerCode=0, flowCode="X", cmdCode="AG6"),
-        "m": fetch_guarded(ctt, f"{slug} D7d reporter=C partner=World M AG6",
-                           period, reporterCode=country_code,
-                           partnerCode=0, flowCode="M", cmdCode="AG6"),
+        "x": world_only(fetch_guarded(
+            ctt, f"{slug} D7d reporter=C partner=all X AG6",
+            period, reporterCode=country_code,
+            partnerCode=None, flowCode="X", cmdCode="AG6")),
+        "m": world_only(fetch_guarded(
+            ctt, f"{slug} D7d reporter=C partner=all M AG6",
+            period, reporterCode=country_code,
+            partnerCode=None, flowCode="M", cmdCode="AG6")),
     }
 
 

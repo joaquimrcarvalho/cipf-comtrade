@@ -1107,19 +1107,26 @@ def get_trade_flows(
                             and imports from partners exports; default True
         typeCode (str): C for commodities, S for Services, default C
         freqCode (str): A for annual and M for monthly, default A
-        partners (str): 0 for the world, None for all, code or CSV, default 0
+        partners (str): 0 for the world, None for all, code or CSV, default 0;
+                        with 0 the world totals are read from the World row of a
+                        partnerCode=None call (same values, shared cache entry)
 
     Returns:
         DataFrame: DataFrame with the totals for each year and flow indexed
                     by year and flow code"""
 
     logging.info("Fetching reported imports")
+    # When partners == 0 (world), query partnerCode=None and keep the
+    # partnerCode == 0 World row: identical results to a partnerCode=0 call,
+    # but the cache entry is shared with the all-partners queries used by the
+    # notebooks' partner sections and the site exporters.
+    direct_partner = None if partners == 0 else partners
     reported_imports = getFinalData(
         APIKEY,
         typeCode=typeCode,
         freqCode=freqCode,
         reporterCode=countryOfInterest,
-        partnerCode=partners,
+        partnerCode=direct_partner,
         partner2Code=0,
         flowCode="M",
         period=period,
@@ -1131,6 +1138,8 @@ def get_trade_flows(
         clCode="HS",
         includeDesc=True,
     )
+    if partners == 0 and reported_imports is not None and not reported_imports.empty:
+        reported_imports = reported_imports[reported_imports["partnerCode"] == 0]
 
     logging.info("Fetching reported exports")
     reported_exports = getFinalData(
@@ -1138,7 +1147,7 @@ def get_trade_flows(
         typeCode=typeCode,
         freqCode=freqCode,
         reporterCode=countryOfInterest,
-        partnerCode=partners,
+        partnerCode=direct_partner,
         partner2Code=0,
         flowCode="X",
         period=period,
@@ -1150,6 +1159,8 @@ def get_trade_flows(
         motCode=0,
         includeDesc=True,
     )
+    if partners == 0 and reported_exports is not None and not reported_exports.empty:
+        reported_exports = reported_exports[reported_exports["partnerCode"] == 0]
     if symmetric_values:
         logging.info("Fetching exports from partners imports")
 

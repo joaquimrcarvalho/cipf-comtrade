@@ -264,7 +264,17 @@ def trade_flows_fake(monkeypatch):
         flow = kwp["flowCode"]
         if kwp["reporterCode"] == 24:  # country of interest reports
             value = 100.0 if flow == "M" else 80.0
-            return make_api_df(periods, reporter=24, partners=(76,), flow=flow, value=value)
+            if kwp.get("partnerCode") is None:
+                # partnerCode=None response: World row (partnerCode=0) with the
+                # total alongside individual partner rows — get_trade_flows
+                # filters to the World row when partners == 0.
+                world = make_api_df(periods, reporter=24, partners=(0,),
+                                    flow=flow, value=value)
+                rest = make_api_df(periods, reporter=24, partners=(76,),
+                                   flow=flow, value=value / 2)
+                return pd.concat([world, rest], ignore_index=True)
+            return make_api_df(periods, reporter=24, partners=(76,), flow=flow,
+                               value=value)
         # partners report (mirror calls): partnerCode is the country of interest
         value = 90.0 if flow == "M" else 70.0
         return make_api_df(periods, reporter=76, partners=(24,), flow=flow, value=value)
