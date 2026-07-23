@@ -26,8 +26,6 @@ const meta = await FileAttachment("../data/cabo-verde_profile_2003-2024.meta.jso
 ```js
 const years = Array.from(new Set(balance.map((d) => d.year))).sort(d3.ascending);
 const latestYear = years.at(-1);
-const latest = balance.filter((d) => d.year === latestYear && d.basis === "direct");
-const latestMirror = balance.filter((d) => d.year === latestYear && d.basis === "mirror");
 const at = (rows, m) => rows.length ? rows[0][m] : null;
 const orEmpty = (rows, node) => rows.length
   ? node
@@ -57,22 +55,33 @@ const basis = view(Inputs.radio(
 const year = view(Inputs.range([2003, 2024], {step: 1, value: 2024, label: L.ano}));
 ```
 
-## ${latestYear} em síntese (base direta)
+## ${year} em síntese (base ${basis === "direct" ? "direta" : "espelho"})
 
 ```js
-display(kpiCards(html, [
-  {label: "Volume de trocas", value: formatUSD(at(latest, "trade_volume")),
-   sub: `Cabo Verde ↔ mundo, ${latestYear}`},
-  {label: "Exportações", value: formatUSD(at(latest, "exports")), sub: "Cabo Verde → mundo"},
-  {label: "Importações", value: formatUSD(at(latest, "imports")), sub: "mundo → Cabo Verde"},
-  {label: "Saldo comercial", value: formatUSD(at(latest, "balance")), sub: "perspetiva de Cabo Verde"}
-]));
+const selBalance = balance.filter((d) => d.year === year && d.basis === basis);
+const selOther = balance.filter((d) => d.year === year && d.basis !== basis);
+display(selBalance.length
+  ? kpiCards(html, [
+      {label: "Volume de trocas", value: formatUSD(at(selBalance, "trade_volume")),
+       sub: `Cabo Verde ↔ mundo, ${year}`},
+      {label: "Exportações", value: formatUSD(at(selBalance, "exports")),
+       sub: "Cabo Verde → mundo"},
+      {label: "Importações", value: formatUSD(at(selBalance, "imports")),
+       sub: "mundo → Cabo Verde"},
+      {label: "Saldo comercial", value: formatUSD(at(selBalance, "balance")),
+       sub: "perspetiva de Cabo Verde"}
+    ])
+  : html`<p style="font-size: 0.9rem; color: var(--theme-foreground-muted)"><em>Sem dados
+      ${basis === "direct" ? "reportados por Cabo Verde" : "de espelho (reportados pelos parceiros)"}
+      para ${year} — experimenta a outra base ou outro ano.</em></p>`);
 ```
 
 <div style="font-size: 0.85rem; color: var(--theme-foreground-muted)">
-  Em base espelho, o volume de ${latestYear} foi
-  ${formatUSD(at(latestMirror, "trade_volume"))} — divergências face à base direta são
-  esperadas (CIF/FOB, falhas de reporte) e visíveis no gráfico seguinte.
+  ${selOther.length
+    ? `Em base ${basis === "direct" ? "espelho" : "direta"}, o volume de ${year} foi
+       ${formatUSD(at(selOther, "trade_volume"))} — divergências entre bases são esperadas
+       (CIF/FOB, falhas de reporte) e visíveis no gráfico seguinte.`
+    : `Também não há dados em base ${basis === "direct" ? "espelho" : "direta"} para ${year}.`}
 </div>
 
 ## 1. Balança comercial — direto vs. espelho

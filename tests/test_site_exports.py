@@ -120,12 +120,16 @@ def read_profile(slug, kind, cols):
 def test_d5_trade_balance(slug):
     df = read_profile(slug, "trade_balance", D5_COLS)
     assert not df.isna().any().any()
-    assert set(df["basis"].unique()) == {"direct", "mirror"}
+    # a basis appears only when reported (e.g. Equatorial Guinea is mirror-only)
+    assert set(df["basis"].unique()) <= {"direct", "mirror"}
+    assert len(df) > 0
     assert df["year"].between(2003, 2100).all()
     assert (df["trade_volume"] == df["exports"] + df["imports"]).all()
     assert (df["balance"] == df["exports"] - df["imports"]).all()
     assert not df.duplicated(subset=["year", "basis"]).any()
-    assert df["year"].nunique() >= 20, "D5 covers the full period (zeros allowed)"
+    # no fabricated zeros: a row exists only if that basis was reported that year
+    assert not ((df["exports"] == 0) & (df["imports"] == 0)).any()
+    assert df["year"].nunique() >= 20, "D5 covers the period (>=1 basis per year)"
     ordered = df.sort_values(["year", "basis"]).reset_index(drop=True)
     pd.testing.assert_frame_equal(df.reset_index(drop=True), ordered)
 

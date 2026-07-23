@@ -1007,6 +1007,10 @@ def build_d5(shared: dict, country_code: int, start: int, end: int) -> pd.DataFr
     rows = []
     for year in range(start, end + 1):
         for basis, x, m in (("direct", xd, md), ("mirror", xm, mm)):
+            if year not in x.index and year not in m.index:
+                continue  # no report for this basis/year — omit the row;
+                # fabricated zeros would read as "no trade" (e.g. Guinea-Bissau
+                # stopped reporting direct data after 2019)
             e, i = int(x.get(year, 0)), int(m.get(year, 0))
             rows.append(dict(year=year, basis=basis, exports=e, imports=i,
                              trade_volume=e + i, balance=e - i))
