@@ -1,425 +1,425 @@
 year,hs6,description_pt,value,share_pct,rank,basis
 2003,180100,Cacau,6177326,93.188,1,direct
-2003,843039,Máquinas de perfuração e escavação,41065,0.619,2,direct
-2003,080119,"Cocos, castanhas de caju e nozes",40683,0.614,3,direct
-2003,842951,Buldózeres e niveladoras,37141,0.56,4,direct
-2003,842920,Buldózeres e niveladoras,34982,0.528,5,direct
-2003,870333,Automóveis de passageiros,24482,0.369,6,direct
+2003,843039,Máquinas de abertura de túneis,41065,0.619,2,direct
+2003,080119,"Coco fresco ou seco, outros",40683,0.614,3,direct
+2003,842951,Pás carregadoras frontais,37141,0.56,4,direct
+2003,842920,Niveladoras,34982,0.528,5,direct
+2003,870333,Automóveis diesel +2.500 cm³,24482,0.369,6,direct
 2003,392690,Outros artigos de plástico,23912,0.361,7,direct
-2003,151319,Óleo de coco,22468,0.339,8,direct
-2003,842940,Buldózeres e niveladoras,21293,0.321,9,direct
-2003,842919,Buldózeres e niveladoras,20787,0.314,10,direct
+2003,151319,Óleo de coco refinado,22468,0.339,8,direct
+2003,842940,Compactadores e cilindros,21293,0.321,9,direct
+2003,842919,Outros buldózeres,20787,0.314,10,direct
 2003,180100,Cacau,7679683,56.874,1,mirror
-2003,870332,Automóveis de passageiros,80678,0.597,2,mirror
-2003,151311,Óleo de coco,80451,0.596,3,mirror
-2003,870323,Automóveis de passageiros,57225,0.424,4,mirror
+2003,870332,Automóveis diesel 1.500–2.500 cm³,80678,0.597,2,mirror
+2003,151311,Óleo de coco em bruto,80451,0.596,3,mirror
+2003,870323,Automóveis a gasolina 1.500–3.000 cm³,57225,0.424,4,mirror
 2003,999999,Mercadorias não especificadas,46679,0.346,5,mirror
-2003,880330,Partes de aeronaves,2586,0.019,6,mirror
+2003,880330,Partes de aviões e helicópteros (ed. antiga),2586,0.019,6,mirror
 2003,903300,Partes de instrumentos de precisão,102,0.001,7,mirror
-2003,180610,Chocolate e preparações com cacau,10,0.0,8,mirror
+2003,180610,Cacau em pó com açúcar,10,0.0,8,mirror
 2004,180100,Cacau,3192216,89.844,1,direct
-2004,080119,"Cocos, castanhas de caju e nozes",83765,2.358,2,direct
+2004,080119,"Coco fresco ou seco, outros",83765,2.358,2,direct
 2004,730799,Acessórios para tubos,67640,1.904,3,direct
-2004,151319,Óleo de coco,28299,0.796,4,direct
-2004,820520,Martelos e ferramentas manuais,20162,0.567,5,direct
-2004,890399,Iates e barcos de recreio,15625,0.44,6,direct
-2004,820559,Martelos e ferramentas manuais,14667,0.413,7,direct
-2004,220830,Bebidas espirituosas,13246,0.373,8,direct
-2004,870323,Automóveis de passageiros,12588,0.354,9,direct
+2004,151319,Óleo de coco refinado,28299,0.796,4,direct
+2004,820520,Martelos e malhos,20162,0.567,5,direct
+2004,890399,Outros barcos de recreio,15625,0.44,6,direct
+2004,820559,Outras ferramentas manuais,14667,0.413,7,direct
+2004,220830,Whisky,13246,0.373,8,direct
+2004,870323,Automóveis a gasolina 1.500–3.000 cm³,12588,0.354,9,direct
 2004,391721,Tubos de plástico,11454,0.322,10,direct
 2004,180100,Cacau,5066014,39.028,1,mirror
-2004,870333,Automóveis de passageiros,150366,1.158,2,mirror
-2004,151311,Óleo de coco,88512,0.682,3,mirror
-2004,870323,Automóveis de passageiros,44288,0.341,4,mirror
+2004,870333,Automóveis diesel +2.500 cm³,150366,1.158,2,mirror
+2004,151311,Óleo de coco em bruto,88512,0.682,3,mirror
+2004,870323,Automóveis a gasolina 1.500–3.000 cm³,44288,0.341,4,mirror
 2004,999999,Mercadorias não especificadas,27041,0.208,5,mirror
-2004,180690,Chocolate e preparações com cacau,25133,0.194,6,mirror
-2004,870332,Automóveis de passageiros,10349,0.08,7,mirror
-2004,080119,"Cocos, castanhas de caju e nozes",3385,0.026,8,mirror
-2004,080111,"Cocos, castanhas de caju e nozes",2930,0.023,9,mirror
-2004,180610,Chocolate e preparações com cacau,2890,0.022,10,mirror
+2004,180690,Outras preparações de chocolate,25133,0.194,6,mirror
+2004,870332,Automóveis diesel 1.500–2.500 cm³,10349,0.08,7,mirror
+2004,080119,"Coco fresco ou seco, outros",3385,0.026,8,mirror
+2004,080111,Coco desidratado,2930,0.023,9,mirror
+2004,180610,Cacau em pó com açúcar,2890,0.022,10,mirror
 2005,180100,Cacau,3033139,88.783,1,direct
-2005,080119,"Cocos, castanhas de caju e nozes",95712,2.802,2,direct
-2005,870333,Automóveis de passageiros,54552,1.597,3,direct
-2005,151319,Óleo de coco,34222,1.002,4,direct
-2005,150790,Óleo de soja,26496,0.776,5,direct
+2005,080119,"Coco fresco ou seco, outros",95712,2.802,2,direct
+2005,870333,Automóveis diesel +2.500 cm³,54552,1.597,3,direct
+2005,151319,Óleo de coco refinado,34222,1.002,4,direct
+2005,150790,Óleo de soja refinado,26496,0.776,5,direct
 2005,850300,Partes de máquinas elétricas,24577,0.719,6,direct
-2005,180690,Chocolate e preparações com cacau,11593,0.339,7,direct
-2005,870332,Automóveis de passageiros,10929,0.32,8,direct
-2005,880310,Partes de aeronaves,10035,0.294,9,direct
-2005,090190,Café,9960,0.292,10,direct
+2005,180690,Outras preparações de chocolate,11593,0.339,7,direct
+2005,870332,Automóveis diesel 1.500–2.500 cm³,10929,0.32,8,direct
+2005,880310,Hélices e rotores de aeronaves,10035,0.294,9,direct
+2005,090190,Cascas de café e sucedâneos,9960,0.292,10,direct
 2005,180100,Cacau,5669402,46.792,1,mirror
 2005,999999,Mercadorias não especificadas,268755,2.218,2,mirror
-2005,151311,Óleo de coco,111335,0.919,3,mirror
-2005,870323,Automóveis de passageiros,85521,0.706,4,mirror
-2005,870332,Automóveis de passageiros,31818,0.263,5,mirror
-2005,180632,Chocolate e preparações com cacau,28292,0.234,6,mirror
-2005,080111,"Cocos, castanhas de caju e nozes",9003,0.074,7,mirror
-2005,180610,Chocolate e preparações com cacau,2500,0.021,8,mirror
+2005,151311,Óleo de coco em bruto,111335,0.919,3,mirror
+2005,870323,Automóveis a gasolina 1.500–3.000 cm³,85521,0.706,4,mirror
+2005,870332,Automóveis diesel 1.500–2.500 cm³,31818,0.263,5,mirror
+2005,180632,"Chocolate em tabletes, não recheado",28292,0.234,6,mirror
+2005,080111,Coco desidratado,9003,0.074,7,mirror
+2005,180610,Cacau em pó com açúcar,2500,0.021,8,mirror
 2006,180100,Cacau,3392892,87.582,1,direct
-2006,870899,Partes e acessórios de veículos,109560,2.828,2,direct
-2006,180631,Chocolate e preparações com cacau,56563,1.46,3,direct
+2006,870899,Outras partes de veículos,109560,2.828,2,direct
+2006,180631,"Chocolate em tabletes, recheado",56563,1.46,3,direct
 2006,220300,Cerveja,54077,1.396,4,direct
-2006,220410,Vinho,51411,1.327,5,direct
-2006,080119,"Cocos, castanhas de caju e nozes",35267,0.91,6,direct
-2006,180690,Chocolate e preparações com cacau,17975,0.464,7,direct
-2006,870332,Automóveis de passageiros,17201,0.444,8,direct
+2006,220410,Vinho espumante,51411,1.327,5,direct
+2006,080119,"Coco fresco ou seco, outros",35267,0.91,6,direct
+2006,180690,Outras preparações de chocolate,17975,0.464,7,direct
+2006,870332,Automóveis diesel 1.500–2.500 cm³,17201,0.444,8,direct
 2006,441820,Portas e artigos de carpintaria,16779,0.433,9,direct
 2006,060310,Flores cortadas,15934,0.411,10,direct
 2006,180100,Cacau,6796741,31.971,1,mirror
-2006,870333,Automóveis de passageiros,92478,0.435,2,mirror
-2006,151311,Óleo de coco,68560,0.322,3,mirror
-2006,870323,Automóveis de passageiros,33029,0.155,4,mirror
-2006,080111,"Cocos, castanhas de caju e nozes",25220,0.119,5,mirror
-2006,180632,Chocolate e preparações com cacau,23270,0.109,6,mirror
-2006,880330,Partes de aeronaves,23000,0.108,7,mirror
+2006,870333,Automóveis diesel +2.500 cm³,92478,0.435,2,mirror
+2006,151311,Óleo de coco em bruto,68560,0.322,3,mirror
+2006,870323,Automóveis a gasolina 1.500–3.000 cm³,33029,0.155,4,mirror
+2006,080111,Coco desidratado,25220,0.119,5,mirror
+2006,180632,"Chocolate em tabletes, não recheado",23270,0.109,6,mirror
+2006,880330,Partes de aviões e helicópteros (ed. antiga),23000,0.108,7,mirror
 2006,999999,Mercadorias não especificadas,21178,0.1,8,mirror
-2006,180690,Chocolate e preparações com cacau,17163,0.081,9,mirror
+2006,180690,Outras preparações de chocolate,17163,0.081,9,mirror
 2006,901580,Instrumentos de topografia,6569,0.031,10,mirror
 2007,180100,Cacau,3512592,52.201,1,direct
-2007,271000,Combustíveis refinados,2243883,33.346,2,direct
+2007,271000,Óleos de petróleo (ed. antiga),2243883,33.346,2,direct
 2007,840310,Caldeiras de aquecimento central,291476,4.332,3,direct
-2007,842940,Buldózeres e niveladoras,45891,0.682,4,direct
-2007,870333,Automóveis de passageiros,44729,0.665,5,direct
-2007,870332,Automóveis de passageiros,42861,0.637,6,direct
-2007,850239,Grupos geradores,35114,0.522,7,direct
-2007,180631,Chocolate e preparações com cacau,34780,0.517,8,direct
+2007,842940,Compactadores e cilindros,45891,0.682,4,direct
+2007,870333,Automóveis diesel +2.500 cm³,44729,0.665,5,direct
+2007,870332,Automóveis diesel 1.500–2.500 cm³,42861,0.637,6,direct
+2007,850239,Outros grupos geradores,35114,0.522,7,direct
+2007,180631,"Chocolate em tabletes, recheado",34780,0.517,8,direct
 2007,842890,Outras máquinas de elevação,34293,0.51,9,direct
-2007,180620,Chocolate e preparações com cacau,32520,0.483,10,direct
+2007,180620,Chocolate em tabletes +2 kg,32520,0.483,10,direct
 2007,180100,Cacau,4911485,41.082,1,mirror
-2007,180632,Chocolate e preparações com cacau,90661,0.758,2,mirror
-2007,870332,Automóveis de passageiros,74116,0.62,3,mirror
-2007,870323,Automóveis de passageiros,66927,0.56,4,mirror
+2007,180632,"Chocolate em tabletes, não recheado",90661,0.758,2,mirror
+2007,870332,Automóveis diesel 1.500–2.500 cm³,74116,0.62,3,mirror
+2007,870323,Automóveis a gasolina 1.500–3.000 cm³,66927,0.56,4,mirror
 2007,999999,Mercadorias não especificadas,50611,0.423,5,mirror
-2007,080119,"Cocos, castanhas de caju e nozes",46403,0.388,6,mirror
-2007,151311,Óleo de coco,44810,0.375,7,mirror
-2007,180690,Chocolate e preparações com cacau,34328,0.287,8,mirror
-2007,880330,Partes de aeronaves,9484,0.079,9,mirror
-2007,080111,"Cocos, castanhas de caju e nozes",4305,0.036,10,mirror
+2007,080119,"Coco fresco ou seco, outros",46403,0.388,6,mirror
+2007,151311,Óleo de coco em bruto,44810,0.375,7,mirror
+2007,180690,Outras preparações de chocolate,34328,0.287,8,mirror
+2007,880330,Partes de aviões e helicópteros (ed. antiga),9484,0.079,9,mirror
+2007,080111,Coco desidratado,4305,0.036,10,mirror
 2008,180100,Cacau,5040756,47.411,1,direct
-2008,271000,Combustíveis refinados,4945460,46.515,2,direct
-2008,870333,Automóveis de passageiros,109002,1.025,3,direct
-2008,180690,Chocolate e preparações com cacau,90726,0.853,4,direct
+2008,271000,Óleos de petróleo (ed. antiga),4945460,46.515,2,direct
+2008,870333,Automóveis diesel +2.500 cm³,109002,1.025,3,direct
+2008,180690,Outras preparações de chocolate,90726,0.853,4,direct
 2008,843319,Cortadores de relva,32506,0.306,5,direct
 2008,732690,Outros artigos de ferro ou aço,32493,0.306,6,direct
 2008,853630,Aparelhos de proteção de circuitos,30896,0.291,7,direct
-2008,841440,Bombas e compressores de ar,23889,0.225,8,direct
+2008,841440,Compressores de ar móveis,23889,0.225,8,direct
 2008,731100,Recipientes para gás comprimido,16956,0.159,9,direct
-2008,080111,"Cocos, castanhas de caju e nozes",15997,0.15,10,direct
+2008,080111,Coco desidratado,15997,0.15,10,direct
 2008,180100,Cacau,5981703,47.675,1,mirror
-2008,870323,Automóveis de passageiros,89682,0.715,2,mirror
-2008,180632,Chocolate e preparações com cacau,82752,0.66,3,mirror
+2008,870323,Automóveis a gasolina 1.500–3.000 cm³,89682,0.715,2,mirror
+2008,180632,"Chocolate em tabletes, não recheado",82752,0.66,3,mirror
 2008,999999,Mercadorias não especificadas,75950,0.605,4,mirror
-2008,720410,Sucata ferrosa,64042,0.51,5,mirror
-2008,180690,Chocolate e preparações com cacau,47458,0.378,6,mirror
-2008,151311,Óleo de coco,23789,0.19,7,mirror
-2008,870333,Automóveis de passageiros,11906,0.095,8,mirror
-2008,880330,Partes de aeronaves,10413,0.083,9,mirror
-2008,870332,Automóveis de passageiros,2697,0.021,10,mirror
+2008,720410,Sucata de ferro fundido,64042,0.51,5,mirror
+2008,180690,Outras preparações de chocolate,47458,0.378,6,mirror
+2008,151311,Óleo de coco em bruto,23789,0.19,7,mirror
+2008,870333,Automóveis diesel +2.500 cm³,11906,0.095,8,mirror
+2008,880330,Partes de aviões e helicópteros (ed. antiga),10413,0.083,9,mirror
+2008,870332,Automóveis diesel 1.500–2.500 cm³,2697,0.021,10,mirror
 2009,180100,Cacau,5494294,67.692,1,direct
-2009,271000,Combustíveis refinados,1850595,22.8,2,direct
+2009,271000,Óleos de petróleo (ed. antiga),1850595,22.8,2,direct
 2009,999999,Mercadorias não especificadas,238527,2.939,3,direct
-2009,180690,Chocolate e preparações com cacau,122891,1.514,4,direct
-2009,080111,"Cocos, castanhas de caju e nozes",81519,1.004,5,direct
-2009,870323,Automóveis de passageiros,32692,0.403,6,direct
-2009,940380,Mobiliário,25761,0.317,7,direct
+2009,180690,Outras preparações de chocolate,122891,1.514,4,direct
+2009,080111,Coco desidratado,81519,1.004,5,direct
+2009,870323,Automóveis a gasolina 1.500–3.000 cm³,32692,0.403,6,direct
+2009,940380,Mobiliário de outros materiais,25761,0.317,7,direct
 2009,180310,Pasta de cacau,24030,0.296,8,direct
 2009,060310,Flores cortadas,20683,0.255,9,direct
 2009,570239,Tapetes tecidos,16673,0.205,10,direct
 2009,180100,Cacau,8708082,48.374,1,mirror
-2009,180632,Chocolate e preparações com cacau,83567,0.464,2,mirror
-2009,870332,Automóveis de passageiros,82466,0.458,3,mirror
+2009,180632,"Chocolate em tabletes, não recheado",83567,0.464,2,mirror
+2009,870332,Automóveis diesel 1.500–2.500 cm³,82466,0.458,3,mirror
 2009,999999,Mercadorias não especificadas,55378,0.308,4,mirror
-2009,180690,Chocolate e preparações com cacau,35198,0.196,5,mirror
-2009,870333,Automóveis de passageiros,16108,0.089,6,mirror
-2009,870323,Automóveis de passageiros,14255,0.079,7,mirror
-2009,080111,"Cocos, castanhas de caju e nozes",8100,0.045,8,mirror
-2009,080119,"Cocos, castanhas de caju e nozes",1848,0.01,9,mirror
-2009,151110,Óleo de palma,451,0.003,10,mirror
+2009,180690,Outras preparações de chocolate,35198,0.196,5,mirror
+2009,870333,Automóveis diesel +2.500 cm³,16108,0.089,6,mirror
+2009,870323,Automóveis a gasolina 1.500–3.000 cm³,14255,0.079,7,mirror
+2009,080111,Coco desidratado,8100,0.045,8,mirror
+2009,080119,"Coco fresco ou seco, outros",1848,0.01,9,mirror
+2009,151110,Óleo de palma em bruto,451,0.003,10,mirror
 2010,180100,Cacau,5399935,84.622,1,direct
-2010,150710,Óleo de soja,226800,3.554,2,direct
-2010,180690,Chocolate e preparações com cacau,209391,3.281,3,direct
-2010,080119,"Cocos, castanhas de caju e nozes",80430,1.26,4,direct
-2010,870323,Automóveis de passageiros,50246,0.787,5,direct
+2010,150710,Óleo de soja em bruto,226800,3.554,2,direct
+2010,180690,Outras preparações de chocolate,209391,3.281,3,direct
+2010,080119,"Coco fresco ou seco, outros",80430,1.26,4,direct
+2010,870323,Automóveis a gasolina 1.500–3.000 cm³,50246,0.787,5,direct
 2010,190110,Preparações para alimentação infantil,40053,0.628,6,direct
-2010,940360,Mobiliário,38627,0.605,7,direct
+2010,940360,"Mobiliário de madeira, outros",38627,0.605,7,direct
 2010,060310,Flores cortadas,22741,0.356,8,direct
-2010,852790,Recetores de rádio,22212,0.348,9,direct
+2010,852790,Outros recetores de rádio,22212,0.348,9,direct
 2010,851679,Aparelhos eletrotérmicos,19845,0.311,10,direct
 2010,180100,Cacau,5635185,30.649,1,mirror
-2010,180632,Chocolate e preparações com cacau,129364,0.704,2,mirror
-2010,180690,Chocolate e preparações com cacau,68286,0.371,3,mirror
-2010,151311,Óleo de coco,51793,0.282,4,mirror
+2010,180632,"Chocolate em tabletes, não recheado",129364,0.704,2,mirror
+2010,180690,Outras preparações de chocolate,68286,0.371,3,mirror
+2010,151311,Óleo de coco em bruto,51793,0.282,4,mirror
 2010,999999,Mercadorias não especificadas,44680,0.243,5,mirror
-2010,090411,Pimenta e pimentão,15906,0.087,6,mirror
+2010,090411,Pimenta do reino,15906,0.087,6,mirror
 2010,490700,Selos e títulos de valor,12159,0.066,7,mirror
-2010,080111,"Cocos, castanhas de caju e nozes",9575,0.052,8,mirror
-2010,880330,Partes de aeronaves,4367,0.024,9,mirror
-2010,080119,"Cocos, castanhas de caju e nozes",1268,0.007,10,mirror
+2010,080111,Coco desidratado,9575,0.052,8,mirror
+2010,880330,Partes de aviões e helicópteros (ed. antiga),4367,0.024,9,mirror
+2010,080119,"Coco fresco ou seco, outros",1268,0.007,10,mirror
 2011,180100,Cacau,5227739,47.346,1,direct
-2011,271011,Combustíveis refinados,5097425,46.166,2,direct
-2011,080119,"Cocos, castanhas de caju e nozes",75654,0.685,3,direct
-2011,180610,Chocolate e preparações com cacau,61736,0.559,4,direct
-2011,180690,Chocolate e preparações com cacau,59735,0.541,5,direct
-2011,870323,Automóveis de passageiros,54593,0.494,6,direct
+2011,271011,Óleos leves de petróleo (ed. antiga),5097425,46.166,2,direct
+2011,080119,"Coco fresco ou seco, outros",75654,0.685,3,direct
+2011,180610,Cacau em pó com açúcar,61736,0.559,4,direct
+2011,180690,Outras preparações de chocolate,59735,0.541,5,direct
+2011,870323,Automóveis a gasolina 1.500–3.000 cm³,54593,0.494,6,direct
 2011,190532,Waffles e bolachas,41371,0.375,7,direct
-2011,220210,Bebidas não alcoólicas,39592,0.359,8,direct
-2011,151319,Óleo de coco,34648,0.314,9,direct
-2011,420229,"Malas, bolsas e carteiras",29224,0.265,10,direct
+2011,220210,Águas com açúcar ou gaseificadas,39592,0.359,8,direct
+2011,151319,Óleo de coco refinado,34648,0.314,9,direct
+2011,420229,Malas e bolsas de mão,29224,0.265,10,direct
 2011,180100,Cacau,4296705,26.125,1,mirror
 2011,999999,Mercadorias não especificadas,289716,1.762,2,mirror
-2011,180632,Chocolate e preparações com cacau,168511,1.025,3,mirror
-2011,880330,Partes de aeronaves,142796,0.868,4,mirror
-2011,180690,Chocolate e preparações com cacau,51931,0.316,5,mirror
-2011,870323,Automóveis de passageiros,47305,0.288,6,mirror
-2011,151311,Óleo de coco,44561,0.271,7,mirror
-2011,090411,Pimenta e pimentão,26835,0.163,8,mirror
-2011,870332,Automóveis de passageiros,16510,0.1,9,mirror
-2011,080119,"Cocos, castanhas de caju e nozes",6965,0.042,10,mirror
+2011,180632,"Chocolate em tabletes, não recheado",168511,1.025,3,mirror
+2011,880330,Partes de aviões e helicópteros (ed. antiga),142796,0.868,4,mirror
+2011,180690,Outras preparações de chocolate,51931,0.316,5,mirror
+2011,870323,Automóveis a gasolina 1.500–3.000 cm³,47305,0.288,6,mirror
+2011,151311,Óleo de coco em bruto,44561,0.271,7,mirror
+2011,090411,Pimenta do reino,26835,0.163,8,mirror
+2011,870332,Automóveis diesel 1.500–2.500 cm³,16510,0.1,9,mirror
+2011,080119,"Coco fresco ou seco, outros",6965,0.042,10,mirror
 2012,180100,Cacau,4829314,79.861,1,direct
-2012,180610,Chocolate e preparações com cacau,229509,3.795,2,direct
-2012,732620,Outros artigos de ferro ou aço,217703,3.6,3,direct
-2012,080111,"Cocos, castanhas de caju e nozes",85952,1.421,4,direct
+2012,180610,Cacau em pó com açúcar,229509,3.795,2,direct
+2012,732620,Artigos de arame de ferro ou aço,217703,3.6,3,direct
+2012,080111,Coco desidratado,85952,1.421,4,direct
 2012,490700,Selos e títulos de valor,79566,1.316,5,direct
-2012,870332,Automóveis de passageiros,67082,1.109,6,direct
-2012,090411,Pimenta e pimentão,64658,1.069,7,direct
+2012,870332,Automóveis diesel 1.500–2.500 cm³,67082,1.109,6,direct
+2012,090411,Pimenta do reino,64658,1.069,7,direct
 2012,903040,Instrumentos para telecomunicações,63740,1.054,8,direct
-2012,271011,Combustíveis refinados,45137,0.746,9,direct
-2012,870333,Automóveis de passageiros,33665,0.557,10,direct
+2012,271011,Óleos leves de petróleo (ed. antiga),45137,0.746,9,direct
+2012,870333,Automóveis diesel +2.500 cm³,33665,0.557,10,direct
 2012,180100,Cacau,5661950,39.778,1,mirror
-2012,870333,Automóveis de passageiros,272612,1.915,2,mirror
-2012,180632,Chocolate e preparações com cacau,108053,0.759,3,mirror
-2012,180690,Chocolate e preparações com cacau,82709,0.581,4,mirror
-2012,870332,Automóveis de passageiros,66828,0.469,5,mirror
+2012,870333,Automóveis diesel +2.500 cm³,272612,1.915,2,mirror
+2012,180632,"Chocolate em tabletes, não recheado",108053,0.759,3,mirror
+2012,180690,Outras preparações de chocolate,82709,0.581,4,mirror
+2012,870332,Automóveis diesel 1.500–2.500 cm³,66828,0.469,5,mirror
 2012,999999,Mercadorias não especificadas,52185,0.367,6,mirror
-2012,151311,Óleo de coco,43410,0.305,7,mirror
-2012,090411,Pimenta e pimentão,42739,0.3,8,mirror
+2012,151311,Óleo de coco em bruto,43410,0.305,7,mirror
+2012,090411,Pimenta do reino,42739,0.3,8,mirror
 2012,630900,Vestuário usado,35262,0.248,9,mirror
-2012,870323,Automóveis de passageiros,10681,0.075,10,mirror
+2012,870323,Automóveis a gasolina 1.500–3.000 cm³,10681,0.075,10,mirror
 2013,180100,Cacau,5415271,78.049,1,direct
 2013,842240,Máquinas de embalar,264338,3.81,2,direct
-2013,180610,Chocolate e preparações com cacau,229503,3.308,3,direct
+2013,180610,Cacau em pó com açúcar,229503,3.308,3,direct
 2013,630900,Vestuário usado,128259,1.849,4,direct
-2013,080111,"Cocos, castanhas de caju e nozes",127383,1.836,5,direct
-2013,847141,Computadores e unidades,97169,1.4,6,direct
+2013,080111,Coco desidratado,127383,1.836,5,direct
+2013,847141,Computadores com CPU e ecrã integrados,97169,1.4,6,direct
 2013,702000,Outros artigos de vidro,54280,0.782,7,direct
-2013,720429,Sucata ferrosa,52609,0.758,8,direct
-2013,870333,Automóveis de passageiros,48195,0.695,9,direct
-2013,842940,Buldózeres e niveladoras,44797,0.646,10,direct
+2013,720429,Sucata de aços-liga,52609,0.758,8,direct
+2013,870333,Automóveis diesel +2.500 cm³,48195,0.695,9,direct
+2013,842940,Compactadores e cilindros,44797,0.646,10,direct
 2013,180100,Cacau,5430677,52.771,1,mirror
-2013,180690,Chocolate e preparações com cacau,128823,1.252,2,mirror
-2013,180632,Chocolate e preparações com cacau,91578,0.89,3,mirror
+2013,180690,Outras preparações de chocolate,128823,1.252,2,mirror
+2013,180632,"Chocolate em tabletes, não recheado",91578,0.89,3,mirror
 2013,999999,Mercadorias não especificadas,56279,0.547,4,mirror
-2013,090411,Pimenta e pimentão,55011,0.535,5,mirror
-2013,080119,"Cocos, castanhas de caju e nozes",51292,0.498,6,mirror
-2013,870333,Automóveis de passageiros,19404,0.189,7,mirror
-2013,080111,"Cocos, castanhas de caju e nozes",17447,0.17,8,mirror
-2013,880330,Partes de aeronaves,12794,0.124,9,mirror
-2013,151311,Óleo de coco,10757,0.105,10,mirror
+2013,090411,Pimenta do reino,55011,0.535,5,mirror
+2013,080119,"Coco fresco ou seco, outros",51292,0.498,6,mirror
+2013,870333,Automóveis diesel +2.500 cm³,19404,0.189,7,mirror
+2013,080111,Coco desidratado,17447,0.17,8,mirror
+2013,880330,Partes de aviões e helicópteros (ed. antiga),12794,0.124,9,mirror
+2013,151311,Óleo de coco em bruto,10757,0.105,10,mirror
 2014,180100,Cacau,9334863,88.926,1,direct
-2014,100620,Arroz,198633,1.892,2,direct
-2014,180620,Chocolate e preparações com cacau,190514,1.815,3,direct
-2014,080111,"Cocos, castanhas de caju e nozes",157046,1.496,4,direct
-2014,090411,Pimenta e pimentão,141127,1.344,5,direct
-2014,843010,Máquinas de perfuração e escavação,39866,0.38,6,direct
-2014,870322,Automóveis de passageiros,33741,0.321,7,direct
-2014,090121,Café,33676,0.321,8,direct
+2014,100620,Arroz descascado (integral),198633,1.892,2,direct
+2014,180620,Chocolate em tabletes +2 kg,190514,1.815,3,direct
+2014,080111,Coco desidratado,157046,1.496,4,direct
+2014,090411,Pimenta do reino,141127,1.344,5,direct
+2014,843010,Bate-estacas,39866,0.38,6,direct
+2014,870322,Automóveis a gasolina 1.000–1.500 cm³,33741,0.321,7,direct
+2014,090121,Café torrado não descafeinado,33676,0.321,8,direct
 2014,920190,Pianos e instrumentos de teclado,30787,0.293,9,direct
-2014,180632,Chocolate e preparações com cacau,27077,0.258,10,direct
+2014,180632,"Chocolate em tabletes, não recheado",27077,0.258,10,direct
 2014,180100,Cacau,7297487,44.682,1,mirror
 2014,999999,Mercadorias não especificadas,158892,0.973,2,mirror
-2014,180690,Chocolate e preparações com cacau,121687,0.745,3,mirror
-2014,180632,Chocolate e preparações com cacau,98185,0.601,4,mirror
-2014,720410,Sucata ferrosa,89429,0.548,5,mirror
-2014,080119,"Cocos, castanhas de caju e nozes",18904,0.116,6,mirror
-2014,080111,"Cocos, castanhas de caju e nozes",13862,0.085,7,mirror
-2014,151311,Óleo de coco,3931,0.024,8,mirror
-2014,090411,Pimenta e pimentão,3305,0.02,9,mirror
+2014,180690,Outras preparações de chocolate,121687,0.745,3,mirror
+2014,180632,"Chocolate em tabletes, não recheado",98185,0.601,4,mirror
+2014,720410,Sucata de ferro fundido,89429,0.548,5,mirror
+2014,080119,"Coco fresco ou seco, outros",18904,0.116,6,mirror
+2014,080111,Coco desidratado,13862,0.085,7,mirror
+2014,151311,Óleo de coco em bruto,3931,0.024,8,mirror
+2014,090411,Pimenta do reino,3305,0.02,9,mirror
 2015,180100,Cacau,8000134,86.739,1,direct
-2015,852580,Aparelhos de transmissão e câmaras,189499,2.055,2,direct
-2015,180632,Chocolate e preparações com cacau,164244,1.781,3,direct
-2015,080111,"Cocos, castanhas de caju e nozes",134738,1.461,4,direct
-2015,720410,Sucata ferrosa,119998,1.301,5,direct
-2015,090420,Pimenta e pimentão,87655,0.95,6,direct
-2015,870332,Automóveis de passageiros,38818,0.421,7,direct
-2015,030729,Moluscos,35515,0.385,8,direct
-2015,220421,Vinho,35015,0.38,9,direct
-2015,180690,Chocolate e preparações com cacau,32387,0.351,10,direct
+2015,852580,Câmaras de televisão e câmaras digitais,189499,2.055,2,direct
+2015,180632,"Chocolate em tabletes, não recheado",164244,1.781,3,direct
+2015,080111,Coco desidratado,134738,1.461,4,direct
+2015,720410,Sucata de ferro fundido,119998,1.301,5,direct
+2015,090420,"Piri-piri e pimentão, secos (ed. antiga)",87655,0.95,6,direct
+2015,870332,Automóveis diesel 1.500–2.500 cm³,38818,0.421,7,direct
+2015,030729,Vieiras,35515,0.385,8,direct
+2015,220421,Vinho tranquilo até 2 L,35015,0.38,9,direct
+2015,180690,Outras preparações de chocolate,32387,0.351,10,direct
 2015,180100,Cacau,8603193,58.956,1,mirror
-2015,180690,Chocolate e preparações com cacau,369975,2.535,2,mirror
+2015,180690,Outras preparações de chocolate,369975,2.535,2,mirror
 2015,999999,Mercadorias não especificadas,308783,2.116,3,mirror
-2015,090411,Pimenta e pimentão,134025,0.918,4,mirror
-2015,720410,Sucata ferrosa,53113,0.364,5,mirror
-2015,180632,Chocolate e preparações com cacau,35889,0.246,6,mirror
-2015,080119,"Cocos, castanhas de caju e nozes",21194,0.145,7,mirror
-2015,880330,Partes de aeronaves,5673,0.039,8,mirror
-2015,080111,"Cocos, castanhas de caju e nozes",220,0.002,9,mirror
+2015,090411,Pimenta do reino,134025,0.918,4,mirror
+2015,720410,Sucata de ferro fundido,53113,0.364,5,mirror
+2015,180632,"Chocolate em tabletes, não recheado",35889,0.246,6,mirror
+2015,080119,"Coco fresco ou seco, outros",21194,0.145,7,mirror
+2015,880330,Partes de aviões e helicópteros (ed. antiga),5673,0.039,8,mirror
+2015,080111,Coco desidratado,220,0.002,9,mirror
 2016,180100,Cacau,8650983,82.595,1,direct
-2016,851712,Aparelhos de telecomunicações,676084,6.455,2,direct
-2016,080111,"Cocos, castanhas de caju e nozes",173774,1.659,3,direct
-2016,090411,Pimenta e pimentão,170557,1.628,4,direct
-2016,180632,Chocolate e preparações com cacau,148212,1.415,5,direct
+2016,851712,Telemóveis,676084,6.455,2,direct
+2016,080111,Coco desidratado,173774,1.659,3,direct
+2016,090411,Pimenta do reino,170557,1.628,4,direct
+2016,180632,"Chocolate em tabletes, não recheado",148212,1.415,5,direct
 2016,920790,Instrumentos amplificados eletricamente,54515,0.52,6,direct
-2016,870323,Automóveis de passageiros,52096,0.497,7,direct
-2016,720410,Sucata ferrosa,43379,0.414,8,direct
-2016,720429,Sucata ferrosa,40219,0.384,9,direct
-2016,730840,Estruturas de ferro ou aço,33700,0.322,10,direct
+2016,870323,Automóveis a gasolina 1.500–3.000 cm³,52096,0.497,7,direct
+2016,720410,Sucata de ferro fundido,43379,0.414,8,direct
+2016,720429,Sucata de aços-liga,40219,0.384,9,direct
+2016,730840,Andaimes e escoramentos,33700,0.322,10,direct
 2016,180100,Cacau,10695157,47.686,1,mirror
-2016,090411,Pimenta e pimentão,259392,1.157,2,mirror
+2016,090411,Pimenta do reino,259392,1.157,2,mirror
 2016,999999,Mercadorias não especificadas,201493,0.898,3,mirror
-2016,180690,Chocolate e preparações com cacau,149400,0.666,4,mirror
-2016,720410,Sucata ferrosa,76670,0.342,5,mirror
-2016,870333,Automóveis de passageiros,13276,0.059,6,mirror
-2016,880330,Partes de aeronaves,6813,0.03,7,mirror
+2016,180690,Outras preparações de chocolate,149400,0.666,4,mirror
+2016,720410,Sucata de ferro fundido,76670,0.342,5,mirror
+2016,870333,Automóveis diesel +2.500 cm³,13276,0.059,6,mirror
+2016,880330,Partes de aviões e helicópteros (ed. antiga),6813,0.03,7,mirror
 2016,901580,Instrumentos de topografia,5079,0.023,8,mirror
-2016,180632,Chocolate e preparações com cacau,2521,0.011,9,mirror
-2016,080111,"Cocos, castanhas de caju e nozes",778,0.003,10,mirror
+2016,180632,"Chocolate em tabletes, não recheado",2521,0.011,9,mirror
+2016,080111,Coco desidratado,778,0.003,10,mirror
 2017,180100,Cacau,8371473,79.256,1,direct
 2017,490700,Selos e títulos de valor,295591,2.798,2,direct
-2017,880220,Helicópteros e aviões,238559,2.259,3,direct
-2017,090411,Pimenta e pimentão,197506,1.87,4,direct
-2017,080111,"Cocos, castanhas de caju e nozes",185296,1.754,5,direct
-2017,720410,Sucata ferrosa,161783,1.532,6,direct
-2017,180632,Chocolate e preparações com cacau,161567,1.53,7,direct
+2017,880220,Aviões até 2.000 kg,238559,2.259,3,direct
+2017,090411,Pimenta do reino,197506,1.87,4,direct
+2017,080111,Coco desidratado,185296,1.754,5,direct
+2017,720410,Sucata de ferro fundido,161783,1.532,6,direct
+2017,180632,"Chocolate em tabletes, não recheado",161567,1.53,7,direct
 2017,630900,Vestuário usado,92108,0.872,8,direct
-2017,720449,Sucata ferrosa,90187,0.854,9,direct
-2017,870331,Automóveis de passageiros,88259,0.836,10,direct
+2017,720449,Outra sucata ferrosa,90187,0.854,9,direct
+2017,870331,Automóveis diesel até 1.500 cm³,88259,0.836,10,direct
 2017,180100,Cacau,8421106,58.678,1,mirror
 2017,999999,Mercadorias não especificadas,519533,3.62,2,mirror
-2017,720410,Sucata ferrosa,163775,1.141,3,mirror
-2017,180690,Chocolate e preparações com cacau,163617,1.14,4,mirror
-2017,090411,Pimenta e pimentão,58997,0.411,5,mirror
-2017,180632,Chocolate e preparações com cacau,17623,0.123,6,mirror
-2017,870333,Automóveis de passageiros,15335,0.107,7,mirror
-2017,080111,"Cocos, castanhas de caju e nozes",4710,0.033,8,mirror
-2017,151319,Óleo de coco,2304,0.016,9,mirror
-2017,851712,Aparelhos de telecomunicações,492,0.003,10,mirror
+2017,720410,Sucata de ferro fundido,163775,1.141,3,mirror
+2017,180690,Outras preparações de chocolate,163617,1.14,4,mirror
+2017,090411,Pimenta do reino,58997,0.411,5,mirror
+2017,180632,"Chocolate em tabletes, não recheado",17623,0.123,6,mirror
+2017,870333,Automóveis diesel +2.500 cm³,15335,0.107,7,mirror
+2017,080111,Coco desidratado,4710,0.033,8,mirror
+2017,151319,Óleo de coco refinado,2304,0.016,9,mirror
+2017,851712,Telemóveis,492,0.003,10,mirror
 2018,180100,Cacau,7974506,65.974,1,direct
 2018,903300,Partes de instrumentos de precisão,720277,5.959,2,direct
-2018,880330,Partes de aeronaves,522167,4.32,3,direct
+2018,880330,Partes de aviões e helicópteros (ed. antiga),522167,4.32,3,direct
 2018,901580,Instrumentos de topografia,478891,3.962,4,direct
-2018,180632,Chocolate e preparações com cacau,396094,3.277,5,direct
-2018,090411,Pimenta e pimentão,205337,1.699,6,direct
-2018,842952,Buldózeres e niveladoras,195591,1.618,7,direct
-2018,880390,Partes de aeronaves,182132,1.507,8,direct
-2018,870332,Automóveis de passageiros,123156,1.019,9,direct
-2018,151319,Óleo de coco,105252,0.871,10,direct
+2018,180632,"Chocolate em tabletes, não recheado",396094,3.277,5,direct
+2018,090411,Pimenta do reino,205337,1.699,6,direct
+2018,842952,Escavadoras de rotação 360°,195591,1.618,7,direct
+2018,880390,Partes de outras aeronaves (ed. antiga),182132,1.507,8,direct
+2018,870332,Automóveis diesel 1.500–2.500 cm³,123156,1.019,9,direct
+2018,151319,Óleo de coco refinado,105252,0.871,10,direct
 2018,180100,Cacau,6859245,40.134,1,mirror
 2018,999999,Mercadorias não especificadas,1032002,6.038,2,mirror
-2018,090411,Pimenta e pimentão,373578,2.186,3,mirror
-2018,720410,Sucata ferrosa,295290,1.728,4,mirror
-2018,180632,Chocolate e preparações com cacau,290578,1.7,5,mirror
-2018,880330,Partes de aeronaves,287660,1.683,6,mirror
-2018,180690,Chocolate e preparações com cacau,107237,0.627,7,mirror
+2018,090411,Pimenta do reino,373578,2.186,3,mirror
+2018,720410,Sucata de ferro fundido,295290,1.728,4,mirror
+2018,180632,"Chocolate em tabletes, não recheado",290578,1.7,5,mirror
+2018,880330,Partes de aviões e helicópteros (ed. antiga),287660,1.683,6,mirror
+2018,180690,Outras preparações de chocolate,107237,0.627,7,mirror
 2018,901580,Instrumentos de topografia,33010,0.193,8,mirror
-2018,870333,Automóveis de passageiros,8344,0.049,9,mirror
-2018,870323,Automóveis de passageiros,6813,0.04,10,mirror
+2018,870333,Automóveis diesel +2.500 cm³,8344,0.049,9,mirror
+2018,870323,Automóveis a gasolina 1.500–3.000 cm³,6813,0.04,10,mirror
 2019,180100,Cacau,6969740,70.695,1,direct
-2019,151110,Óleo de palma,532313,5.399,2,direct
-2019,890690,Outros navios,423473,4.295,3,direct
-2019,180632,Chocolate e preparações com cacau,364368,3.696,4,direct
-2019,090411,Pimenta e pimentão,268884,2.727,5,direct
-2019,151319,Óleo de coco,174266,1.768,6,direct
+2019,151110,Óleo de palma em bruto,532313,5.399,2,direct
+2019,890690,"Outros navios (botes salva-vidas, etc.)",423473,4.295,3,direct
+2019,180632,"Chocolate em tabletes, não recheado",364368,3.696,4,direct
+2019,090411,Pimenta do reino,268884,2.727,5,direct
+2019,151319,Óleo de coco refinado,174266,1.768,6,direct
 2019,490700,Selos e títulos de valor,161945,1.643,7,direct
 2019,901580,Instrumentos de topografia,152406,1.546,8,direct
-2019,080111,"Cocos, castanhas de caju e nozes",112492,1.141,9,direct
-2019,151311,Óleo de coco,79050,0.802,10,direct
+2019,080111,Coco desidratado,112492,1.141,9,direct
+2019,151311,Óleo de coco em bruto,79050,0.802,10,direct
 2019,180100,Cacau,6283809,26.376,1,mirror
-2019,880330,Partes de aeronaves,1947076,8.173,2,mirror
+2019,880330,Partes de aviões e helicópteros (ed. antiga),1947076,8.173,2,mirror
 2019,999999,Mercadorias não especificadas,667946,2.804,3,mirror
-2019,180632,Chocolate e preparações com cacau,370972,1.557,4,mirror
-2019,090411,Pimenta e pimentão,269611,1.132,5,mirror
-2019,720410,Sucata ferrosa,84725,0.356,6,mirror
-2019,180690,Chocolate e preparações com cacau,78692,0.33,7,mirror
-2019,870332,Automóveis de passageiros,32828,0.138,8,mirror
+2019,180632,"Chocolate em tabletes, não recheado",370972,1.557,4,mirror
+2019,090411,Pimenta do reino,269611,1.132,5,mirror
+2019,720410,Sucata de ferro fundido,84725,0.356,6,mirror
+2019,180690,Outras preparações de chocolate,78692,0.33,7,mirror
+2019,870332,Automóveis diesel 1.500–2.500 cm³,32828,0.138,8,mirror
 2019,490700,Selos e títulos de valor,23126,0.097,9,mirror
-2019,870323,Automóveis de passageiros,17457,0.073,10,mirror
+2019,870323,Automóveis a gasolina 1.500–3.000 cm³,17457,0.073,10,mirror
 2020,180100,Cacau,6381166,51.297,1,direct
-2020,151110,Óleo de palma,3672185,29.52,2,direct
-2020,880330,Partes de aeronaves,406994,3.272,3,direct
-2020,151311,Óleo de coco,264935,2.13,4,direct
-2020,180610,Chocolate e preparações com cacau,258911,2.081,5,direct
-2020,890190,Navios,192720,1.549,6,direct
-2020,880211,Helicópteros e aviões,136699,1.099,7,direct
-2020,090411,Pimenta e pimentão,132083,1.062,8,direct
-2020,180632,Chocolate e preparações com cacau,125869,1.012,9,direct
-2020,080111,"Cocos, castanhas de caju e nozes",117473,0.944,10,direct
-2020,151110,Óleo de palma,4303646,16.188,1,mirror
+2020,151110,Óleo de palma em bruto,3672185,29.52,2,direct
+2020,880330,Partes de aviões e helicópteros (ed. antiga),406994,3.272,3,direct
+2020,151311,Óleo de coco em bruto,264935,2.13,4,direct
+2020,180610,Cacau em pó com açúcar,258911,2.081,5,direct
+2020,890190,Navios de carga,192720,1.549,6,direct
+2020,880211,Helicópteros até 2.000 kg,136699,1.099,7,direct
+2020,090411,Pimenta do reino,132083,1.062,8,direct
+2020,180632,"Chocolate em tabletes, não recheado",125869,1.012,9,direct
+2020,080111,Coco desidratado,117473,0.944,10,direct
+2020,151110,Óleo de palma em bruto,4303646,16.188,1,mirror
 2020,180100,Cacau,4157006,15.637,2,mirror
-2020,880330,Partes de aeronaves,3512549,13.212,3,mirror
+2020,880330,Partes de aviões e helicópteros (ed. antiga),3512549,13.212,3,mirror
 2020,999999,Mercadorias não especificadas,396533,1.492,4,mirror
-2020,180632,Chocolate e preparações com cacau,89967,0.338,5,mirror
-2020,720410,Sucata ferrosa,55835,0.21,6,mirror
-2020,151311,Óleo de coco,20556,0.077,7,mirror
-2020,870323,Automóveis de passageiros,18933,0.071,8,mirror
-2020,180690,Chocolate e preparações com cacau,9225,0.035,9,mirror
-2020,090411,Pimenta e pimentão,3288,0.012,10,mirror
+2020,180632,"Chocolate em tabletes, não recheado",89967,0.338,5,mirror
+2020,720410,Sucata de ferro fundido,55835,0.21,6,mirror
+2020,151311,Óleo de coco em bruto,20556,0.077,7,mirror
+2020,870323,Automóveis a gasolina 1.500–3.000 cm³,18933,0.071,8,mirror
+2020,180690,Outras preparações de chocolate,9225,0.035,9,mirror
+2020,090411,Pimenta do reino,3288,0.012,10,mirror
 2021,180100,Cacau,11361994,59.255,1,direct
-2021,151110,Óleo de palma,5778524,30.136,2,direct
-2021,880330,Partes de aeronaves,449461,2.344,3,direct
-2021,151311,Óleo de coco,278389,1.452,4,direct
-2021,151319,Óleo de coco,255287,1.331,5,direct
-2021,180632,Chocolate e preparações com cacau,175835,0.917,6,direct
-2021,090420,Pimenta e pimentão,171155,0.893,7,direct
-2021,840910,Partes de motores,57195,0.298,8,direct
-2021,180690,Chocolate e preparações com cacau,53478,0.279,9,direct
+2021,151110,Óleo de palma em bruto,5778524,30.136,2,direct
+2021,880330,Partes de aviões e helicópteros (ed. antiga),449461,2.344,3,direct
+2021,151311,Óleo de coco em bruto,278389,1.452,4,direct
+2021,151319,Óleo de coco refinado,255287,1.331,5,direct
+2021,180632,"Chocolate em tabletes, não recheado",175835,0.917,6,direct
+2021,090420,"Piri-piri e pimentão, secos (ed. antiga)",171155,0.893,7,direct
+2021,840910,Partes de motores de aviação,57195,0.298,8,direct
+2021,180690,Outras preparações de chocolate,53478,0.279,9,direct
 2021,732393,Artigos domésticos de aço inox,51402,0.268,10,direct
 2021,180100,Cacau,9098290,30.091,1,mirror
-2021,151110,Óleo de palma,6566695,21.718,2,mirror
-2021,880330,Partes de aeronaves,1132918,3.747,3,mirror
-2021,090411,Pimenta e pimentão,297789,0.985,4,mirror
-2021,180632,Chocolate e preparações com cacau,143056,0.473,5,mirror
-2021,151311,Óleo de coco,126716,0.419,6,mirror
+2021,151110,Óleo de palma em bruto,6566695,21.718,2,mirror
+2021,880330,Partes de aviões e helicópteros (ed. antiga),1132918,3.747,3,mirror
+2021,090411,Pimenta do reino,297789,0.985,4,mirror
+2021,180632,"Chocolate em tabletes, não recheado",143056,0.473,5,mirror
+2021,151311,Óleo de coco em bruto,126716,0.419,6,mirror
 2021,999999,Mercadorias não especificadas,76136,0.252,7,mirror
-2021,720410,Sucata ferrosa,60575,0.2,8,mirror
-2021,180690,Chocolate e preparações com cacau,51331,0.17,9,mirror
+2021,720410,Sucata de ferro fundido,60575,0.2,8,mirror
+2021,180690,Outras preparações de chocolate,51331,0.17,9,mirror
 2021,901580,Instrumentos de topografia,51220,0.169,10,mirror
-2022,151110,Óleo de palma,8173908,36.185,1,direct
+2022,151110,Óleo de palma em bruto,8173908,36.185,1,direct
 2022,180100,Cacau,8091324,35.82,2,direct
-2022,271011,Combustíveis refinados,4987193,22.078,3,direct
-2022,151319,Óleo de coco,262876,1.164,4,direct
-2022,090420,Pimenta e pimentão,133170,0.59,5,direct
-2022,180632,Chocolate e preparações com cacau,101054,0.447,6,direct
-2022,080119,"Cocos, castanhas de caju e nozes",81015,0.359,7,direct
-2022,151311,Óleo de coco,61187,0.271,8,direct
-2022,871120,Motociclos,57324,0.254,9,direct
-2022,871110,Motociclos,57258,0.253,10,direct
+2022,271011,Óleos leves de petróleo (ed. antiga),4987193,22.078,3,direct
+2022,151319,Óleo de coco refinado,262876,1.164,4,direct
+2022,090420,"Piri-piri e pimentão, secos (ed. antiga)",133170,0.59,5,direct
+2022,180632,"Chocolate em tabletes, não recheado",101054,0.447,6,direct
+2022,080119,"Coco fresco ou seco, outros",81015,0.359,7,direct
+2022,151311,Óleo de coco em bruto,61187,0.271,8,direct
+2022,871120,Motociclos 50–250 cm³,57324,0.254,9,direct
+2022,871110,Motociclos até 50 cm³,57258,0.253,10,direct
 2022,180100,Cacau,8598544,35.351,1,mirror
-2022,151110,Óleo de palma,6548027,26.921,2,mirror
-2022,720410,Sucata ferrosa,214122,0.88,3,mirror
-2022,151319,Óleo de coco,148850,0.612,4,mirror
+2022,151110,Óleo de palma em bruto,6548027,26.921,2,mirror
+2022,720410,Sucata de ferro fundido,214122,0.88,3,mirror
+2022,151319,Óleo de coco refinado,148850,0.612,4,mirror
 2022,999999,Mercadorias não especificadas,111113,0.457,5,mirror
-2022,180690,Chocolate e preparações com cacau,69273,0.285,6,mirror
-2022,151311,Óleo de coco,47245,0.194,7,mirror
-2022,180632,Chocolate e preparações com cacau,42425,0.174,8,mirror
-2022,090411,Pimenta e pimentão,37979,0.156,9,mirror
-2022,080111,"Cocos, castanhas de caju e nozes",24166,0.099,10,mirror
+2022,180690,Outras preparações de chocolate,69273,0.285,6,mirror
+2022,151311,Óleo de coco em bruto,47245,0.194,7,mirror
+2022,180632,"Chocolate em tabletes, não recheado",42425,0.174,8,mirror
+2022,090411,Pimenta do reino,37979,0.156,9,mirror
+2022,080111,Coco desidratado,24166,0.099,10,mirror
 2023,180100,Cacau,10050764,60.713,1,direct
-2023,151110,Óleo de palma,5475621,33.076,2,direct
+2023,151110,Óleo de palma em bruto,5475621,33.076,2,direct
 2023,999999,Mercadorias não especificadas,181204,1.095,3,direct
-2023,090421,Pimenta e pimentão,118791,0.718,4,direct
-2023,180632,Chocolate e preparações com cacau,109835,0.663,5,direct
-2023,151311,Óleo de coco,100773,0.609,6,direct
-2023,880310,Partes de aeronaves,53996,0.326,7,direct
-2023,040299,"Leite e natas, concentrados ou em pó",46083,0.278,8,direct
-2023,080111,"Cocos, castanhas de caju e nozes",29637,0.179,9,direct
-2023,720410,Sucata ferrosa,26417,0.16,10,direct
+2023,090421,"Piri-piri e pimentão, secos não moídos",118791,0.718,4,direct
+2023,180632,"Chocolate em tabletes, não recheado",109835,0.663,5,direct
+2023,151311,Óleo de coco em bruto,100773,0.609,6,direct
+2023,880310,Hélices e rotores de aeronaves,53996,0.326,7,direct
+2023,040299,"Leite concentrado com açúcar, outros",46083,0.278,8,direct
+2023,080111,Coco desidratado,29637,0.179,9,direct
+2023,720410,Sucata de ferro fundido,26417,0.16,10,direct
 2023,180100,Cacau,9398451,15.968,1,mirror
-2023,151110,Óleo de palma,4795735,8.148,2,mirror
-2023,720410,Sucata ferrosa,266869,0.453,3,mirror
+2023,151110,Óleo de palma em bruto,4795735,8.148,2,mirror
+2023,720410,Sucata de ferro fundido,266869,0.453,3,mirror
 2023,999999,Mercadorias não especificadas,184406,0.313,4,mirror
-2023,090411,Pimenta e pimentão,101445,0.172,5,mirror
-2023,180632,Chocolate e preparações com cacau,59597,0.101,6,mirror
-2023,180690,Chocolate e preparações com cacau,51739,0.088,7,mirror
-2023,151311,Óleo de coco,35559,0.06,8,mirror
-2023,870332,Automóveis de passageiros,33509,0.057,9,mirror
-2023,080111,"Cocos, castanhas de caju e nozes",32985,0.056,10,mirror
+2023,090411,Pimenta do reino,101445,0.172,5,mirror
+2023,180632,"Chocolate em tabletes, não recheado",59597,0.101,6,mirror
+2023,180690,Outras preparações de chocolate,51739,0.088,7,mirror
+2023,151311,Óleo de coco em bruto,35559,0.06,8,mirror
+2023,870332,Automóveis diesel 1.500–2.500 cm³,33509,0.057,9,mirror
+2023,080111,Coco desidratado,32985,0.056,10,mirror
 2024,180100,Cacau,21018796,42.87,1,mirror
-2024,151110,Óleo de palma,6763699,13.795,2,mirror
-2024,090411,Pimenta e pimentão,256339,0.523,3,mirror
-2024,720410,Sucata ferrosa,177970,0.363,4,mirror
+2024,151110,Óleo de palma em bruto,6763699,13.795,2,mirror
+2024,090411,Pimenta do reino,256339,0.523,3,mirror
+2024,720410,Sucata de ferro fundido,177970,0.363,4,mirror
 2024,630900,Vestuário usado,136928,0.279,5,mirror
-2024,180690,Chocolate e preparações com cacau,84481,0.172,6,mirror
-2024,180632,Chocolate e preparações com cacau,82015,0.167,7,mirror
+2024,180690,Outras preparações de chocolate,84481,0.172,6,mirror
+2024,180632,"Chocolate em tabletes, não recheado",82015,0.167,7,mirror
 2024,999999,Mercadorias não especificadas,58436,0.119,8,mirror
-2024,080111,"Cocos, castanhas de caju e nozes",21372,0.044,9,mirror
-2024,151319,Óleo de coco,8990,0.018,10,mirror
+2024,080111,Coco desidratado,21372,0.044,9,mirror
+2024,151319,Óleo de coco refinado,8990,0.018,10,mirror

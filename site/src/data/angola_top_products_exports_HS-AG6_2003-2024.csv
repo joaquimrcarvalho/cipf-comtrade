@@ -1,406 +1,406 @@
 year,hs6,description_pt,value,share_pct,rank,basis
 2003,270900,Petróleo bruto,8804250597,94.445,1,mirror
-2003,271019,Combustíveis refinados,140536071,1.508,2,mirror
-2003,271011,Combustíveis refinados,16672610,0.179,3,mirror
+2003,271019,Gasóleo e combustíveis médios e pesados,140536071,1.508,2,mirror
+2003,271011,Óleos leves de petróleo (ed. antiga),16672610,0.179,3,mirror
 2003,251611,Granito,7338924,0.079,4,mirror
 2003,999999,Mercadorias não especificadas,5491358,0.059,5,mirror
-2003,843143,Partes de máquinas de terraplanagem,1343590,0.014,6,mirror
+2003,843143,Partes de máquinas de perfuração (8430),1343590,0.014,6,mirror
 2003,732690,Outros artigos de ferro ou aço,68191,0.001,7,mirror
-2003,440729,Madeira serrada,20104,0.0,8,mirror
-2003,710221,Diamantes,2349,0.0,9,mirror
-2003,030229,Peixe fresco ou refrigerado,36,0.0,10,mirror
+2003,440729,Madeira tropical serrada,20104,0.0,8,mirror
+2003,710221,Diamantes industriais em bruto,2349,0.0,9,mirror
+2003,030229,Peixes chatos frescos,36,0.0,10,mirror
 2004,270900,Petróleo bruto,12354817267,93.218,1,direct
-2004,710221,Diamantes,765215124,5.774,2,direct
-2004,843143,Partes de máquinas de terraplanagem,31174272,0.235,3,direct
-2004,270740,Produtos da destilação do alcatrão,30387671,0.229,4,direct
-2004,030619,Crustáceos,13588629,0.103,5,direct
-2004,030613,Crustáceos,6091346,0.046,6,direct
-2004,030211,Peixe fresco ou refrigerado,4166642,0.031,7,direct
-2004,030219,Peixe fresco ou refrigerado,2893140,0.022,8,direct
-2004,880330,Partes de aeronaves,2597687,0.02,9,direct
-2004,030420,Filetes de peixe,2178837,0.016,10,direct
+2004,710221,Diamantes industriais em bruto,765215124,5.774,2,direct
+2004,843143,Partes de máquinas de perfuração (8430),31174272,0.235,3,direct
+2004,270740,Naftaleno,30387671,0.229,4,direct
+2004,030619,Outros crustáceos congelados,13588629,0.103,5,direct
+2004,030613,Camarões congelados,6091346,0.046,6,direct
+2004,030211,Trutas frescas ou refrigeradas,4166642,0.031,7,direct
+2004,030219,Outros salmonídeos frescos,2893140,0.022,8,direct
+2004,880330,Partes de aviões e helicópteros (ed. antiga),2597687,0.02,9,direct
+2004,030420,Filetes de peixe congelados,2178837,0.016,10,direct
 2004,270900,Petróleo bruto,12338282330,96.583,1,mirror
-2004,271019,Combustíveis refinados,168682119,1.32,2,mirror
-2004,271011,Combustíveis refinados,24641587,0.193,3,mirror
+2004,271019,Gasóleo e combustíveis médios e pesados,168682119,1.32,2,mirror
+2004,271011,Óleos leves de petróleo (ed. antiga),24641587,0.193,3,mirror
 2004,251611,Granito,11612689,0.091,4,mirror
 2004,999999,Mercadorias não especificadas,9768011,0.076,5,mirror
-2004,271112,Gás natural e outros gases de petróleo,6739363,0.053,6,mirror
-2004,843143,Partes de máquinas de terraplanagem,1688700,0.013,7,mirror
+2004,271112,Propano liquefeito,6739363,0.053,6,mirror
+2004,843143,Partes de máquinas de perfuração (8430),1688700,0.013,7,mirror
 2004,732690,Outros artigos de ferro ou aço,205878,0.002,8,mirror
-2004,271113,Gás natural e outros gases de petróleo,9445,0.0,9,mirror
-2004,440729,Madeira serrada,3958,0.0,10,mirror
+2004,271113,Butano liquefeito,9445,0.0,9,mirror
+2004,440729,Madeira tropical serrada,3958,0.0,10,mirror
 2005,270900,Petróleo bruto,22217114076,93.869,1,direct
-2005,710221,Diamantes,965714476,4.08,2,direct
-2005,271011,Combustíveis refinados,250940703,1.06,3,direct
-2005,030619,Crustáceos,47521350,0.201,4,direct
-2005,270740,Produtos da destilação do alcatrão,38576026,0.163,5,direct
-2005,271112,Gás natural e outros gases de petróleo,36147562,0.153,6,direct
-2005,843143,Partes de máquinas de terraplanagem,26936080,0.114,7,direct
-2005,271113,Gás natural e outros gases de petróleo,15766321,0.067,8,direct
-2005,030229,Peixe fresco ou refrigerado,9643556,0.041,9,direct
-2005,880330,Partes de aeronaves,4362553,0.018,10,direct
+2005,710221,Diamantes industriais em bruto,965714476,4.08,2,direct
+2005,271011,Óleos leves de petróleo (ed. antiga),250940703,1.06,3,direct
+2005,030619,Outros crustáceos congelados,47521350,0.201,4,direct
+2005,270740,Naftaleno,38576026,0.163,5,direct
+2005,271112,Propano liquefeito,36147562,0.153,6,direct
+2005,843143,Partes de máquinas de perfuração (8430),26936080,0.114,7,direct
+2005,271113,Butano liquefeito,15766321,0.067,8,direct
+2005,030229,Peixes chatos frescos,9643556,0.041,9,direct
+2005,880330,Partes de aviões e helicópteros (ed. antiga),4362553,0.018,10,direct
 2005,270900,Petróleo bruto,20937685727,94.799,1,mirror
-2005,271019,Combustíveis refinados,199234112,0.902,2,mirror
-2005,271011,Combustíveis refinados,47981226,0.217,3,mirror
-2005,271112,Gás natural e outros gases de petróleo,37130851,0.168,4,mirror
+2005,271019,Gasóleo e combustíveis médios e pesados,199234112,0.902,2,mirror
+2005,271011,Óleos leves de petróleo (ed. antiga),47981226,0.217,3,mirror
+2005,271112,Propano liquefeito,37130851,0.168,4,mirror
 2005,251611,Granito,20358118,0.092,5,mirror
-2005,271113,Gás natural e outros gases de petróleo,12582271,0.057,6,mirror
+2005,271113,Butano liquefeito,12582271,0.057,6,mirror
 2005,999999,Mercadorias não especificadas,10018410,0.045,7,mirror
-2005,843143,Partes de máquinas de terraplanagem,1240118,0.006,8,mirror
+2005,843143,Partes de máquinas de perfuração (8430),1240118,0.006,8,mirror
 2005,732690,Outros artigos de ferro ou aço,264703,0.001,9,mirror
-2005,841182,Turborreatores e turbinas a gás,121338,0.001,10,mirror
+2005,841182,Turbinas a gás +5.000 kW,121338,0.001,10,mirror
 2006,270900,Petróleo bruto,29938967176,94.252,1,direct
-2006,710221,Diamantes,1140017606,3.589,2,direct
+2006,710221,Diamantes industriais em bruto,1140017606,3.589,2,direct
 2006,999999,Mercadorias não especificadas,223262020,0.703,3,direct
-2006,271112,Gás natural e outros gases de petróleo,194212170,0.611,4,direct
-2006,270740,Produtos da destilação do alcatrão,63207109,0.199,5,direct
-2006,271113,Gás natural e outros gases de petróleo,54106142,0.17,6,direct
-2006,843143,Partes de máquinas de terraplanagem,32248168,0.102,7,direct
-2006,030619,Crustáceos,11742846,0.037,8,direct
-2006,030229,Peixe fresco ou refrigerado,7515597,0.024,9,direct
-2006,730890,Estruturas de ferro ou aço,6598283,0.021,10,direct
+2006,271112,Propano liquefeito,194212170,0.611,4,direct
+2006,270740,Naftaleno,63207109,0.199,5,direct
+2006,271113,Butano liquefeito,54106142,0.17,6,direct
+2006,843143,Partes de máquinas de perfuração (8430),32248168,0.102,7,direct
+2006,030619,Outros crustáceos congelados,11742846,0.037,8,direct
+2006,030229,Peixes chatos frescos,7515597,0.024,9,direct
+2006,730890,Outras estruturas de ferro ou aço,6598283,0.021,10,direct
 2006,270900,Petróleo bruto,30669817185,95.701,1,mirror
-2006,271019,Combustíveis refinados,258742278,0.807,2,mirror
-2006,271112,Gás natural e outros gases de petróleo,137208332,0.428,3,mirror
-2006,271011,Combustíveis refinados,91686471,0.286,4,mirror
-2006,271113,Gás natural e outros gases de petróleo,67104055,0.209,5,mirror
+2006,271019,Gasóleo e combustíveis médios e pesados,258742278,0.807,2,mirror
+2006,271112,Propano liquefeito,137208332,0.428,3,mirror
+2006,271011,Óleos leves de petróleo (ed. antiga),91686471,0.286,4,mirror
+2006,271113,Butano liquefeito,67104055,0.209,5,mirror
 2006,999999,Mercadorias não especificadas,19267740,0.06,6,mirror
 2006,251611,Granito,18632263,0.058,7,mirror
-2006,843143,Partes de máquinas de terraplanagem,2463038,0.008,8,mirror
-2006,841182,Turborreatores e turbinas a gás,193000,0.001,9,mirror
-2006,440729,Madeira serrada,186814,0.001,10,mirror
+2006,843143,Partes de máquinas de perfuração (8430),2463038,0.008,8,mirror
+2006,841182,Turbinas a gás +5.000 kW,193000,0.001,9,mirror
+2006,440729,Madeira tropical serrada,186814,0.001,10,mirror
 2007,270900,Petróleo bruto,42286185649,95.375,1,direct
-2007,710221,Diamantes,1181943962,2.666,2,direct
-2007,271019,Combustíveis refinados,666333578,1.503,3,direct
-2007,030229,Peixe fresco ou refrigerado,42575361,0.096,4,direct
-2007,843143,Partes de máquinas de terraplanagem,38991472,0.088,5,direct
-2007,880330,Partes de aeronaves,8897788,0.02,6,direct
-2007,730890,Estruturas de ferro ou aço,7877468,0.018,7,direct
+2007,710221,Diamantes industriais em bruto,1181943962,2.666,2,direct
+2007,271019,Gasóleo e combustíveis médios e pesados,666333578,1.503,3,direct
+2007,030229,Peixes chatos frescos,42575361,0.096,4,direct
+2007,843143,Partes de máquinas de perfuração (8430),38991472,0.088,5,direct
+2007,880330,Partes de aviões e helicópteros (ed. antiga),8897788,0.02,6,direct
+2007,730890,Outras estruturas de ferro ou aço,7877468,0.018,7,direct
 2007,901580,Instrumentos de topografia,7182314,0.016,8,direct
 2007,732690,Outros artigos de ferro ou aço,6699973,0.015,9,direct
 2007,731100,Recipientes para gás comprimido,5266365,0.012,10,direct
 2007,270900,Petróleo bruto,38353255496,91.947,1,mirror
 2007,999999,Mercadorias não especificadas,756137431,1.813,2,mirror
-2007,890520,Plataformas e dragas,685462362,1.643,3,mirror
-2007,271019,Combustíveis refinados,305203368,0.732,4,mirror
-2007,271112,Gás natural e outros gases de petróleo,178500294,0.428,5,mirror
-2007,890190,Navios,159385183,0.382,6,mirror
-2007,271011,Combustíveis refinados,103522643,0.248,7,mirror
-2007,271113,Gás natural e outros gases de petróleo,62795113,0.151,8,mirror
+2007,890520,Plataformas de perfuração ou produção,685462362,1.643,3,mirror
+2007,271019,Gasóleo e combustíveis médios e pesados,305203368,0.732,4,mirror
+2007,271112,Propano liquefeito,178500294,0.428,5,mirror
+2007,890190,Navios de carga,159385183,0.382,6,mirror
+2007,271011,Óleos leves de petróleo (ed. antiga),103522643,0.248,7,mirror
+2007,271113,Butano liquefeito,62795113,0.151,8,mirror
 2007,251611,Granito,20730589,0.05,9,mirror
-2007,843143,Partes de máquinas de terraplanagem,4492104,0.011,10,mirror
+2007,843143,Partes de máquinas de perfuração (8430),4492104,0.011,10,mirror
 2008,270900,Petróleo bruto,62786729939,95.46,1,direct
-2008,710221,Diamantes,1238479371,1.883,2,direct
-2008,271019,Combustíveis refinados,784056215,1.192,3,direct
-2008,890520,Plataformas e dragas,384566425,0.585,4,direct
+2008,710221,Diamantes industriais em bruto,1238479371,1.883,2,direct
+2008,271019,Gasóleo e combustíveis médios e pesados,784056215,1.192,3,direct
+2008,890520,Plataformas de perfuração ou produção,384566425,0.585,4,direct
 2008,270300,Turfa,111363988,0.169,5,direct
-2008,843143,Partes de máquinas de terraplanagem,99307912,0.151,6,direct
-2008,890510,Plataformas e dragas,91562193,0.139,7,direct
-2008,030229,Peixe fresco ou refrigerado,45370005,0.069,8,direct
-2008,890590,Plataformas e dragas,10271225,0.016,9,direct
+2008,843143,Partes de máquinas de perfuração (8430),99307912,0.151,6,direct
+2008,890510,Dragas,91562193,0.139,7,direct
+2008,030229,Peixes chatos frescos,45370005,0.069,8,direct
+2008,890590,Navios-farol e outros auxiliares,10271225,0.016,9,direct
 2008,731100,Recipientes para gás comprimido,9400384,0.014,10,direct
 2008,270900,Petróleo bruto,65415688359,96.556,1,mirror
-2008,271019,Combustíveis refinados,354839645,0.524,2,mirror
-2008,890190,Navios,246317378,0.364,3,mirror
-2008,271112,Gás natural e outros gases de petróleo,159593424,0.236,4,mirror
-2008,271011,Combustíveis refinados,123192262,0.182,5,mirror
-2008,271113,Gás natural e outros gases de petróleo,48538420,0.072,6,mirror
+2008,271019,Gasóleo e combustíveis médios e pesados,354839645,0.524,2,mirror
+2008,890190,Navios de carga,246317378,0.364,3,mirror
+2008,271112,Propano liquefeito,159593424,0.236,4,mirror
+2008,271011,Óleos leves de petróleo (ed. antiga),123192262,0.182,5,mirror
+2008,271113,Butano liquefeito,48538420,0.072,6,mirror
 2008,251611,Granito,30267957,0.045,7,mirror
-2008,710221,Diamantes,23401531,0.035,8,mirror
+2008,710221,Diamantes industriais em bruto,23401531,0.035,8,mirror
 2008,999999,Mercadorias não especificadas,17075401,0.025,9,mirror
 2008,890400,Rebocadores,15805531,0.023,10,mirror
 2009,270900,Petróleo bruto,39262457163,96.612,1,direct
-2009,710221,Diamantes,813613812,2.002,2,direct
-2009,270740,Produtos da destilação do alcatrão,530171435,1.305,3,direct
-2009,030219,Peixe fresco ou refrigerado,32169994,0.079,4,direct
-2009,090111,Café,810420,0.002,5,direct
-2009,440310,Madeira em bruto,188908,0.0,6,direct
+2009,710221,Diamantes industriais em bruto,813613812,2.002,2,direct
+2009,270740,Naftaleno,530171435,1.305,3,direct
+2009,030219,Outros salmonídeos frescos,32169994,0.079,4,direct
+2009,090111,Café verde não descafeinado,810420,0.002,5,direct
+2009,440310,Madeira em bruto tratada,188908,0.0,6,direct
 2009,270900,Petróleo bruto,37663603855,94.308,1,mirror
-2009,890520,Plataformas e dragas,336726680,0.843,2,mirror
-2009,271019,Combustíveis refinados,290429924,0.727,3,mirror
-2009,890190,Navios,268921727,0.673,4,mirror
-2009,271112,Gás natural e outros gases de petróleo,161744150,0.405,5,mirror
-2009,271113,Gás natural e outros gases de petróleo,67130929,0.168,6,mirror
-2009,271011,Combustíveis refinados,64519078,0.162,7,mirror
-2009,890590,Plataformas e dragas,46198180,0.116,8,mirror
+2009,890520,Plataformas de perfuração ou produção,336726680,0.843,2,mirror
+2009,271019,Gasóleo e combustíveis médios e pesados,290429924,0.727,3,mirror
+2009,890190,Navios de carga,268921727,0.673,4,mirror
+2009,271112,Propano liquefeito,161744150,0.405,5,mirror
+2009,271113,Butano liquefeito,67130929,0.168,6,mirror
+2009,271011,Óleos leves de petróleo (ed. antiga),64519078,0.162,7,mirror
+2009,890590,Navios-farol e outros auxiliares,46198180,0.116,8,mirror
 2009,251611,Granito,29186331,0.073,9,mirror
 2009,999999,Mercadorias não especificadas,10364177,0.026,10,mirror
 2010,270900,Petróleo bruto,50788866848,96.535,1,direct
-2010,710221,Diamantes,1072039839,2.038,2,direct
-2010,270740,Produtos da destilação do alcatrão,722363805,1.373,3,direct
-2010,030219,Peixe fresco ou refrigerado,28075125,0.053,4,direct
-2010,090111,Café,569625,0.001,5,direct
-2010,440310,Madeira em bruto,199519,0.0,6,direct
+2010,710221,Diamantes industriais em bruto,1072039839,2.038,2,direct
+2010,270740,Naftaleno,722363805,1.373,3,direct
+2010,030219,Outros salmonídeos frescos,28075125,0.053,4,direct
+2010,090111,Café verde não descafeinado,569625,0.001,5,direct
+2010,440310,Madeira em bruto tratada,199519,0.0,6,direct
 2010,270900,Petróleo bruto,51232258920,95.831,1,mirror
-2010,271019,Combustíveis refinados,323441194,0.605,2,mirror
-2010,890520,Plataformas e dragas,321712229,0.602,3,mirror
-2010,890190,Navios,257843942,0.482,4,mirror
-2010,271112,Gás natural e outros gases de petróleo,236513064,0.442,5,mirror
-2010,271113,Gás natural e outros gases de petróleo,89582996,0.168,6,mirror
-2010,271011,Combustíveis refinados,74889136,0.14,7,mirror
-2010,890590,Plataformas e dragas,43553372,0.081,8,mirror
+2010,271019,Gasóleo e combustíveis médios e pesados,323441194,0.605,2,mirror
+2010,890520,Plataformas de perfuração ou produção,321712229,0.602,3,mirror
+2010,890190,Navios de carga,257843942,0.482,4,mirror
+2010,271112,Propano liquefeito,236513064,0.442,5,mirror
+2010,271113,Butano liquefeito,89582996,0.168,6,mirror
+2010,271011,Óleos leves de petróleo (ed. antiga),74889136,0.14,7,mirror
+2010,890590,Navios-farol e outros auxiliares,43553372,0.081,8,mirror
 2010,251611,Granito,28355286,0.053,9,mirror
-2010,843143,Partes de máquinas de terraplanagem,12811348,0.024,10,mirror
+2010,843143,Partes de máquinas de perfuração (8430),12811348,0.024,10,mirror
 2011,270900,Petróleo bruto,64140141220,96.557,1,direct
-2011,710221,Diamantes,1209184374,1.82,2,direct
-2011,270740,Produtos da destilação do alcatrão,1052354330,1.584,3,direct
-2011,030219,Peixe fresco ou refrigerado,24749315,0.037,4,direct
-2011,090111,Café,960981,0.001,5,direct
+2011,710221,Diamantes industriais em bruto,1209184374,1.82,2,direct
+2011,270740,Naftaleno,1052354330,1.584,3,direct
+2011,030219,Outros salmonídeos frescos,24749315,0.037,4,direct
+2011,090111,Café verde não descafeinado,960981,0.001,5,direct
 2011,270900,Petróleo bruto,63112713149,95.325,1,mirror
-2011,890190,Navios,750305508,1.133,2,mirror
-2011,271019,Combustíveis refinados,573755495,0.867,3,mirror
-2011,271112,Gás natural e outros gases de petróleo,254329874,0.384,4,mirror
-2011,271011,Combustíveis refinados,194845298,0.294,5,mirror
-2011,271113,Gás natural e outros gases de petróleo,68774504,0.104,6,mirror
-2011,890520,Plataformas e dragas,56769094,0.086,7,mirror
+2011,890190,Navios de carga,750305508,1.133,2,mirror
+2011,271019,Gasóleo e combustíveis médios e pesados,573755495,0.867,3,mirror
+2011,271112,Propano liquefeito,254329874,0.384,4,mirror
+2011,271011,Óleos leves de petróleo (ed. antiga),194845298,0.294,5,mirror
+2011,271113,Butano liquefeito,68774504,0.104,6,mirror
+2011,890520,Plataformas de perfuração ou produção,56769094,0.086,7,mirror
 2011,251611,Granito,29949933,0.045,8,mirror
 2011,890400,Rebocadores,26674807,0.04,9,mirror
-2011,843143,Partes de máquinas de terraplanagem,17476528,0.026,10,mirror
+2011,843143,Partes de máquinas de perfuração (8430),17476528,0.026,10,mirror
 2012,270900,Petróleo bruto,68863266749,97.178,1,direct
-2012,710221,Diamantes,1110222942,1.567,2,direct
-2012,270740,Produtos da destilação do alcatrão,844858002,1.192,3,direct
-2012,030219,Peixe fresco ou refrigerado,43681174,0.062,4,direct
-2012,090111,Café,1047546,0.001,5,direct
+2012,710221,Diamantes industriais em bruto,1110222942,1.567,2,direct
+2012,270740,Naftaleno,844858002,1.192,3,direct
+2012,030219,Outros salmonídeos frescos,43681174,0.062,4,direct
+2012,090111,Café verde não descafeinado,1047546,0.001,5,direct
 2012,270900,Petróleo bruto,70071287724,92.823,1,mirror
-2012,890190,Navios,909481828,1.205,2,mirror
-2012,890520,Plataformas e dragas,892751499,1.183,3,mirror
-2012,271019,Combustíveis refinados,490676644,0.65,4,mirror
-2012,271112,Gás natural e outros gases de petróleo,318401111,0.422,5,mirror
-2012,271012,Combustíveis refinados,104521015,0.138,6,mirror
-2012,271113,Gás natural e outros gases de petróleo,96865316,0.128,7,mirror
+2012,890190,Navios de carga,909481828,1.205,2,mirror
+2012,890520,Plataformas de perfuração ou produção,892751499,1.183,3,mirror
+2012,271019,Gasóleo e combustíveis médios e pesados,490676644,0.65,4,mirror
+2012,271112,Propano liquefeito,318401111,0.422,5,mirror
+2012,271012,Gasolinas e destilados leves,104521015,0.138,6,mirror
+2012,271113,Butano liquefeito,96865316,0.128,7,mirror
 2012,251611,Granito,39486514,0.052,8,mirror
-2012,890590,Plataformas e dragas,36886131,0.049,9,mirror
-2012,271011,Combustíveis refinados,31433363,0.042,10,mirror
+2012,890590,Navios-farol e outros auxiliares,36886131,0.049,9,mirror
+2012,271011,Óleos leves de petróleo (ed. antiga),31433363,0.042,10,mirror
 2013,270900,Petróleo bruto,65464178236,96.68,1,direct
-2013,710221,Diamantes,1156063734,1.707,2,direct
-2013,270740,Produtos da destilação do alcatrão,1041210067,1.538,3,direct
-2013,030219,Peixe fresco ou refrigerado,49146741,0.073,4,direct
-2013,440310,Madeira em bruto,1336889,0.002,5,direct
-2013,090111,Café,590880,0.001,6,direct
+2013,710221,Diamantes industriais em bruto,1156063734,1.707,2,direct
+2013,270740,Naftaleno,1041210067,1.538,3,direct
+2013,030219,Outros salmonídeos frescos,49146741,0.073,4,direct
+2013,440310,Madeira em bruto tratada,1336889,0.002,5,direct
+2013,090111,Café verde não descafeinado,590880,0.001,6,direct
 2013,270900,Petróleo bruto,67290277428,93.062,1,mirror
-2013,890520,Plataformas e dragas,786302637,1.087,2,mirror
-2013,271019,Combustíveis refinados,672496034,0.93,3,mirror
-2013,890190,Navios,549567516,0.76,4,mirror
-2013,271111,Gás natural e outros gases de petróleo,269688828,0.373,5,mirror
+2013,890520,Plataformas de perfuração ou produção,786302637,1.087,2,mirror
+2013,271019,Gasóleo e combustíveis médios e pesados,672496034,0.93,3,mirror
+2013,890190,Navios de carga,549567516,0.76,4,mirror
+2013,271111,Gás natural liquefeito (GNL),269688828,0.373,5,mirror
 2013,890400,Rebocadores,265484567,0.367,6,mirror
-2013,271112,Gás natural e outros gases de petróleo,231776791,0.321,7,mirror
-2013,271012,Combustíveis refinados,223465505,0.309,8,mirror
-2013,890590,Plataformas e dragas,96301185,0.133,9,mirror
-2013,890690,Outros navios,85809904,0.119,10,mirror
+2013,271112,Propano liquefeito,231776791,0.321,7,mirror
+2013,271012,Gasolinas e destilados leves,223465505,0.309,8,mirror
+2013,890590,Navios-farol e outros auxiliares,96301185,0.133,9,mirror
+2013,890690,"Outros navios (botes salva-vidas, etc.)",85809904,0.119,10,mirror
 2014,270900,Petróleo bruto,56439535479,96.194,1,direct
-2014,710221,Diamantes,1274009584,2.171,2,direct
-2014,270740,Produtos da destilação do alcatrão,896700136,1.528,3,direct
-2014,030219,Peixe fresco ou refrigerado,48757176,0.083,4,direct
+2014,710221,Diamantes industriais em bruto,1274009584,2.171,2,direct
+2014,270740,Naftaleno,896700136,1.528,3,direct
+2014,030219,Outros salmonídeos frescos,48757176,0.083,4,direct
 2014,251512,Mármore e travertino,7199794,0.012,5,direct
-2014,440310,Madeira em bruto,4952382,0.008,6,direct
-2014,090111,Café,1214640,0.002,7,direct
+2014,440310,Madeira em bruto tratada,4952382,0.008,6,direct
+2014,090111,Café verde não descafeinado,1214640,0.002,7,direct
 2014,270900,Petróleo bruto,61309316813,94.763,1,mirror
-2014,271019,Combustíveis refinados,549285040,0.849,2,mirror
-2014,271112,Gás natural e outros gases de petróleo,304466641,0.471,3,mirror
-2014,271111,Gás natural e outros gases de petróleo,297758063,0.46,4,mirror
-2014,271012,Combustíveis refinados,173311722,0.268,5,mirror
-2014,271113,Gás natural e outros gases de petróleo,78763852,0.122,6,mirror
-2014,271011,Combustíveis refinados,37041725,0.057,7,mirror
+2014,271019,Gasóleo e combustíveis médios e pesados,549285040,0.849,2,mirror
+2014,271112,Propano liquefeito,304466641,0.471,3,mirror
+2014,271111,Gás natural liquefeito (GNL),297758063,0.46,4,mirror
+2014,271012,Gasolinas e destilados leves,173311722,0.268,5,mirror
+2014,271113,Butano liquefeito,78763852,0.122,6,mirror
+2014,271011,Óleos leves de petróleo (ed. antiga),37041725,0.057,7,mirror
 2014,251611,Granito,27293070,0.042,8,mirror
-2014,841182,Turborreatores e turbinas a gás,12812698,0.02,9,mirror
+2014,841182,Turbinas a gás +5.000 kW,12812698,0.02,9,mirror
 2014,999999,Mercadorias não especificadas,9570364,0.015,10,mirror
 2015,270900,Petróleo bruto,31393669832,92.539,1,direct
-2015,710221,Diamantes,1087526357,3.206,2,direct
-2015,271012,Combustíveis refinados,282327063,0.832,3,direct
-2015,890520,Plataformas e dragas,236586402,0.697,4,direct
-2015,270740,Produtos da destilação do alcatrão,103267117,0.304,5,direct
-2015,271112,Gás natural e outros gases de petróleo,87560118,0.258,6,direct
-2015,843143,Partes de máquinas de terraplanagem,38385768,0.113,7,direct
+2015,710221,Diamantes industriais em bruto,1087526357,3.206,2,direct
+2015,271012,Gasolinas e destilados leves,282327063,0.832,3,direct
+2015,890520,Plataformas de perfuração ou produção,236586402,0.697,4,direct
+2015,270740,Naftaleno,103267117,0.304,5,direct
+2015,271112,Propano liquefeito,87560118,0.258,6,direct
+2015,843143,Partes de máquinas de perfuração (8430),38385768,0.113,7,direct
 2015,999999,Mercadorias não especificadas,36938628,0.109,8,direct
 2015,732690,Outros artigos de ferro ou aço,29954161,0.088,9,direct
-2015,271113,Gás natural e outros gases de petróleo,28014459,0.083,10,direct
+2015,271113,Butano liquefeito,28014459,0.083,10,direct
 2015,270900,Petróleo bruto,33142377501,89.967,1,mirror
-2015,271019,Combustíveis refinados,666488971,1.809,2,mirror
+2015,271019,Gasóleo e combustíveis médios e pesados,666488971,1.809,2,mirror
 2015,999999,Mercadorias não especificadas,547289662,1.486,3,mirror
-2015,271112,Gás natural e outros gases de petróleo,119217829,0.324,4,mirror
-2015,271012,Combustíveis refinados,103119597,0.28,5,mirror
-2015,271113,Gás natural e outros gases de petróleo,38436215,0.104,6,mirror
+2015,271112,Propano liquefeito,119217829,0.324,4,mirror
+2015,271012,Gasolinas e destilados leves,103119597,0.28,5,mirror
+2015,271113,Butano liquefeito,38436215,0.104,6,mirror
 2015,251611,Granito,27778823,0.075,7,mirror
-2015,890190,Navios,15639121,0.042,8,mirror
-2015,843143,Partes de máquinas de terraplanagem,9073149,0.025,9,mirror
-2015,890590,Plataformas e dragas,5670779,0.015,10,mirror
+2015,890190,Navios de carga,15639121,0.042,8,mirror
+2015,843143,Partes de máquinas de perfuração (8430),9073149,0.025,9,mirror
+2015,890590,Navios-farol e outros auxiliares,5670779,0.015,10,mirror
 2016,270900,Petróleo bruto,25577532561,91.161,1,direct
-2016,710221,Diamantes,978582621,3.488,2,direct
-2016,271012,Combustíveis refinados,237226736,0.846,3,direct
-2016,270740,Produtos da destilação do alcatrão,93752450,0.334,4,direct
-2016,890520,Plataformas e dragas,89420567,0.319,5,direct
-2016,730890,Estruturas de ferro ou aço,77388963,0.276,6,direct
-2016,271112,Gás natural e outros gases de petróleo,70763041,0.252,7,direct
-2016,252329,Cimento,56504423,0.201,8,direct
-2016,843143,Partes de máquinas de terraplanagem,55428320,0.198,9,direct
+2016,710221,Diamantes industriais em bruto,978582621,3.488,2,direct
+2016,271012,Gasolinas e destilados leves,237226736,0.846,3,direct
+2016,270740,Naftaleno,93752450,0.334,4,direct
+2016,890520,Plataformas de perfuração ou produção,89420567,0.319,5,direct
+2016,730890,Outras estruturas de ferro ou aço,77388963,0.276,6,direct
+2016,271112,Propano liquefeito,70763041,0.252,7,direct
+2016,252329,Cimento Portland,56504423,0.201,8,direct
+2016,843143,Partes de máquinas de perfuração (8430),55428320,0.198,9,direct
 2016,440122,Lenha e resíduos de madeira,54156208,0.193,10,direct
 2016,270900,Petróleo bruto,25303998320,89.39,1,mirror
-2016,271019,Combustíveis refinados,244885594,0.865,2,mirror
-2016,271111,Gás natural e outros gases de petróleo,162995050,0.576,3,mirror
-2016,271112,Gás natural e outros gases de petróleo,115389093,0.408,4,mirror
-2016,271012,Combustíveis refinados,94247444,0.333,5,mirror
+2016,271019,Gasóleo e combustíveis médios e pesados,244885594,0.865,2,mirror
+2016,271111,Gás natural liquefeito (GNL),162995050,0.576,3,mirror
+2016,271112,Propano liquefeito,115389093,0.408,4,mirror
+2016,271012,Gasolinas e destilados leves,94247444,0.333,5,mirror
 2016,999999,Mercadorias não especificadas,43393748,0.153,6,mirror
-2016,271113,Gás natural e outros gases de petróleo,28700722,0.101,7,mirror
+2016,271113,Butano liquefeito,28700722,0.101,7,mirror
 2016,251611,Granito,23257180,0.082,8,mirror
-2016,841182,Turborreatores e turbinas a gás,12513164,0.044,9,mirror
+2016,841182,Turbinas a gás +5.000 kW,12513164,0.044,9,mirror
 2016,890400,Rebocadores,9703711,0.034,10,mirror
 2017,270900,Petróleo bruto,31057101874,74.508,1,direct
-2017,890520,Plataformas e dragas,3478761678,8.346,2,direct
-2017,271019,Combustíveis refinados,1994755585,4.786,3,direct
-2017,890690,Outros navios,1591121584,3.817,4,direct
-2017,890190,Navios,1143527947,2.743,5,direct
-2017,710221,Diamantes,1131417345,2.714,6,direct
-2017,890590,Plataformas e dragas,218549328,0.524,7,direct
-2017,440729,Madeira serrada,91607152,0.22,8,direct
-2017,890120,Navios,91141202,0.219,9,direct
-2017,843143,Partes de máquinas de terraplanagem,63349654,0.152,10,direct
+2017,890520,Plataformas de perfuração ou produção,3478761678,8.346,2,direct
+2017,271019,Gasóleo e combustíveis médios e pesados,1994755585,4.786,3,direct
+2017,890690,"Outros navios (botes salva-vidas, etc.)",1591121584,3.817,4,direct
+2017,890190,Navios de carga,1143527947,2.743,5,direct
+2017,710221,Diamantes industriais em bruto,1131417345,2.714,6,direct
+2017,890590,Navios-farol e outros auxiliares,218549328,0.524,7,direct
+2017,440729,Madeira tropical serrada,91607152,0.22,8,direct
+2017,890120,Navios-tanque,91141202,0.219,9,direct
+2017,843143,Partes de máquinas de perfuração (8430),63349654,0.152,10,direct
 2017,270900,Petróleo bruto,31630754658,86.162,1,mirror
-2017,271111,Gás natural e outros gases de petróleo,1040977736,2.836,2,mirror
-2017,271112,Gás natural e outros gases de petróleo,351839753,0.958,3,mirror
-2017,271012,Combustíveis refinados,202151177,0.551,4,mirror
-2017,890190,Navios,181861682,0.495,5,mirror
-2017,890590,Plataformas e dragas,106322324,0.29,6,mirror
-2017,271113,Gás natural e outros gases de petróleo,104607138,0.285,7,mirror
-2017,271019,Combustíveis refinados,50162179,0.137,8,mirror
+2017,271111,Gás natural liquefeito (GNL),1040977736,2.836,2,mirror
+2017,271112,Propano liquefeito,351839753,0.958,3,mirror
+2017,271012,Gasolinas e destilados leves,202151177,0.551,4,mirror
+2017,890190,Navios de carga,181861682,0.495,5,mirror
+2017,890590,Navios-farol e outros auxiliares,106322324,0.29,6,mirror
+2017,271113,Butano liquefeito,104607138,0.285,7,mirror
+2017,271019,Gasóleo e combustíveis médios e pesados,50162179,0.137,8,mirror
 2017,999999,Mercadorias não especificadas,38140674,0.104,9,mirror
 2017,251611,Granito,20386573,0.056,10,mirror
 2018,270900,Petróleo bruto,36539448124,87.726,1,direct
-2018,271111,Gás natural e outros gases de petróleo,1387218267,3.331,2,direct
-2018,710221,Diamantes,1151925765,2.766,3,direct
-2018,271012,Combustíveis refinados,433297767,1.04,4,direct
-2018,271112,Gás natural e outros gases de petróleo,312130601,0.749,5,direct
-2018,890520,Plataformas e dragas,257439210,0.618,6,direct
-2018,890190,Navios,250610532,0.602,7,direct
-2018,890690,Outros navios,240091787,0.576,8,direct
-2018,890590,Plataformas e dragas,162276315,0.39,9,direct
-2018,271113,Gás natural e outros gases de petróleo,149523792,0.359,10,direct
+2018,271111,Gás natural liquefeito (GNL),1387218267,3.331,2,direct
+2018,710221,Diamantes industriais em bruto,1151925765,2.766,3,direct
+2018,271012,Gasolinas e destilados leves,433297767,1.04,4,direct
+2018,271112,Propano liquefeito,312130601,0.749,5,direct
+2018,890520,Plataformas de perfuração ou produção,257439210,0.618,6,direct
+2018,890190,Navios de carga,250610532,0.602,7,direct
+2018,890690,"Outros navios (botes salva-vidas, etc.)",240091787,0.576,8,direct
+2018,890590,Navios-farol e outros auxiliares,162276315,0.39,9,direct
+2018,271113,Butano liquefeito,149523792,0.359,10,direct
 2018,270900,Petróleo bruto,38649162649,87.458,1,mirror
-2018,271111,Gás natural e outros gases de petróleo,1520604099,3.441,2,mirror
-2018,271112,Gás natural e outros gases de petróleo,407918899,0.923,3,mirror
-2018,271012,Combustíveis refinados,252740987,0.572,4,mirror
-2018,890190,Navios,131604060,0.298,5,mirror
-2018,271113,Gás natural e outros gases de petróleo,109133110,0.247,6,mirror
+2018,271111,Gás natural liquefeito (GNL),1520604099,3.441,2,mirror
+2018,271112,Propano liquefeito,407918899,0.923,3,mirror
+2018,271012,Gasolinas e destilados leves,252740987,0.572,4,mirror
+2018,890190,Navios de carga,131604060,0.298,5,mirror
+2018,271113,Butano liquefeito,109133110,0.247,6,mirror
 2018,999999,Mercadorias não especificadas,40507306,0.092,7,mirror
 2018,251611,Granito,23461717,0.053,8,mirror
-2018,271019,Combustíveis refinados,17094205,0.039,9,mirror
-2018,890590,Plataformas e dragas,6281958,0.014,10,mirror
+2018,271019,Gasóleo e combustíveis médios e pesados,17094205,0.039,9,mirror
+2018,890590,Navios-farol e outros auxiliares,6281958,0.014,10,mirror
 2019,270900,Petróleo bruto,31334932288,89.024,1,direct
-2019,271111,Gás natural e outros gases de petróleo,1290004612,3.665,2,direct
-2019,710221,Diamantes,1214790963,3.451,3,direct
-2019,271012,Combustíveis refinados,374206451,1.063,4,direct
-2019,890690,Outros navios,146570728,0.416,5,direct
-2019,271112,Gás natural e outros gases de petróleo,108230812,0.307,6,direct
-2019,890190,Navios,102794558,0.292,7,direct
-2019,271113,Gás natural e outros gases de petróleo,55360534,0.157,8,direct
-2019,841182,Turborreatores e turbinas a gás,39119477,0.111,9,direct
-2019,890120,Navios,27175499,0.077,10,direct
+2019,271111,Gás natural liquefeito (GNL),1290004612,3.665,2,direct
+2019,710221,Diamantes industriais em bruto,1214790963,3.451,3,direct
+2019,271012,Gasolinas e destilados leves,374206451,1.063,4,direct
+2019,890690,"Outros navios (botes salva-vidas, etc.)",146570728,0.416,5,direct
+2019,271112,Propano liquefeito,108230812,0.307,6,direct
+2019,890190,Navios de carga,102794558,0.292,7,direct
+2019,271113,Butano liquefeito,55360534,0.157,8,direct
+2019,841182,Turbinas a gás +5.000 kW,39119477,0.111,9,direct
+2019,890120,Navios-tanque,27175499,0.077,10,direct
 2019,270900,Petróleo bruto,32819544545,87.485,1,mirror
-2019,271111,Gás natural e outros gases de petróleo,1306647522,3.483,2,mirror
-2019,271112,Gás natural e outros gases de petróleo,440201045,1.173,3,mirror
-2019,271012,Combustíveis refinados,229382277,0.611,4,mirror
-2019,271019,Combustíveis refinados,173632319,0.463,5,mirror
-2019,271113,Gás natural e outros gases de petróleo,157978614,0.421,6,mirror
-2019,890190,Navios,125346177,0.334,7,mirror
+2019,271111,Gás natural liquefeito (GNL),1306647522,3.483,2,mirror
+2019,271112,Propano liquefeito,440201045,1.173,3,mirror
+2019,271012,Gasolinas e destilados leves,229382277,0.611,4,mirror
+2019,271019,Gasóleo e combustíveis médios e pesados,173632319,0.463,5,mirror
+2019,271113,Butano liquefeito,157978614,0.421,6,mirror
+2019,890190,Navios de carga,125346177,0.334,7,mirror
 2019,999999,Mercadorias não especificadas,38250429,0.102,8,mirror
 2019,251611,Granito,20375583,0.054,9,mirror
-2019,890590,Plataformas e dragas,7902734,0.021,10,mirror
+2019,890590,Navios-farol e outros auxiliares,7902734,0.021,10,mirror
 2020,270900,Petróleo bruto,18296541436,83.15,1,direct
-2020,710221,Diamantes,1068141043,4.854,2,direct
-2020,271111,Gás natural e outros gases de petróleo,895394207,4.069,3,direct
-2020,890590,Plataformas e dragas,474507070,2.156,4,direct
-2020,271012,Combustíveis refinados,256203567,1.164,5,direct
-2020,890190,Navios,177403817,0.806,6,direct
-2020,890690,Outros navios,105425410,0.479,7,direct
-2020,890120,Navios,99260715,0.451,8,direct
-2020,271112,Gás natural e outros gases de petróleo,79972954,0.363,9,direct
-2020,271113,Gás natural e outros gases de petróleo,66287469,0.301,10,direct
+2020,710221,Diamantes industriais em bruto,1068141043,4.854,2,direct
+2020,271111,Gás natural liquefeito (GNL),895394207,4.069,3,direct
+2020,890590,Navios-farol e outros auxiliares,474507070,2.156,4,direct
+2020,271012,Gasolinas e destilados leves,256203567,1.164,5,direct
+2020,890190,Navios de carga,177403817,0.806,6,direct
+2020,890690,"Outros navios (botes salva-vidas, etc.)",105425410,0.479,7,direct
+2020,890120,Navios-tanque,99260715,0.451,8,direct
+2020,271112,Propano liquefeito,79972954,0.363,9,direct
+2020,271113,Butano liquefeito,66287469,0.301,10,direct
 2020,270900,Petróleo bruto,20416325533,85.386,1,mirror
-2020,271111,Gás natural e outros gases de petróleo,1024672836,4.285,2,mirror
-2020,271112,Gás natural e outros gases de petróleo,370373342,1.549,3,mirror
-2020,271012,Combustíveis refinados,207489567,0.868,4,mirror
-2020,271019,Combustíveis refinados,102046490,0.427,5,mirror
-2020,271113,Gás natural e outros gases de petróleo,98401996,0.412,6,mirror
+2020,271111,Gás natural liquefeito (GNL),1024672836,4.285,2,mirror
+2020,271112,Propano liquefeito,370373342,1.549,3,mirror
+2020,271012,Gasolinas e destilados leves,207489567,0.868,4,mirror
+2020,271019,Gasóleo e combustíveis médios e pesados,102046490,0.427,5,mirror
+2020,271113,Butano liquefeito,98401996,0.412,6,mirror
 2020,251611,Granito,25910615,0.108,7,mirror
 2020,999999,Mercadorias não especificadas,17053096,0.071,8,mirror
-2020,890190,Navios,9202797,0.038,9,mirror
-2020,440729,Madeira serrada,3372165,0.014,10,mirror
+2020,890190,Navios de carga,9202797,0.038,9,mirror
+2020,440729,Madeira tropical serrada,3372165,0.014,10,mirror
 2021,270900,Petróleo bruto,27810649163,79.494,1,direct
-2021,271111,Gás natural e outros gases de petróleo,3149945904,9.004,2,direct
-2021,710221,Diamantes,1550314858,4.431,3,direct
-2021,890190,Navios,391710103,1.12,4,direct
-2021,271012,Combustíveis refinados,346726679,0.991,5,direct
-2021,271112,Gás natural e outros gases de petróleo,343483219,0.982,6,direct
-2021,890690,Outros navios,286884046,0.82,7,direct
-2021,890590,Plataformas e dragas,186607516,0.533,8,direct
-2021,890120,Navios,176395386,0.504,9,direct
-2021,271113,Gás natural e outros gases de petróleo,111407094,0.318,10,direct
+2021,271111,Gás natural liquefeito (GNL),3149945904,9.004,2,direct
+2021,710221,Diamantes industriais em bruto,1550314858,4.431,3,direct
+2021,890190,Navios de carga,391710103,1.12,4,direct
+2021,271012,Gasolinas e destilados leves,346726679,0.991,5,direct
+2021,271112,Propano liquefeito,343483219,0.982,6,direct
+2021,890690,"Outros navios (botes salva-vidas, etc.)",286884046,0.82,7,direct
+2021,890590,Navios-farol e outros auxiliares,186607516,0.533,8,direct
+2021,890120,Navios-tanque,176395386,0.504,9,direct
+2021,271113,Butano liquefeito,111407094,0.318,10,direct
 2021,270900,Petróleo bruto,27291272882,81.512,1,mirror
-2021,271111,Gás natural e outros gases de petróleo,2317951677,6.923,2,mirror
-2021,271112,Gás natural e outros gases de petróleo,487987405,1.457,3,mirror
-2021,271012,Combustíveis refinados,127828057,0.382,4,mirror
-2021,271113,Gás natural e outros gases de petróleo,88871967,0.265,5,mirror
-2021,271019,Combustíveis refinados,46946477,0.14,6,mirror
+2021,271111,Gás natural liquefeito (GNL),2317951677,6.923,2,mirror
+2021,271112,Propano liquefeito,487987405,1.457,3,mirror
+2021,271012,Gasolinas e destilados leves,127828057,0.382,4,mirror
+2021,271113,Butano liquefeito,88871967,0.265,5,mirror
+2021,271019,Gasóleo e combustíveis médios e pesados,46946477,0.14,6,mirror
 2021,251611,Granito,29226037,0.087,7,mirror
 2021,999999,Mercadorias não especificadas,24616137,0.074,8,mirror
-2021,890190,Navios,24492427,0.073,9,mirror
-2021,843143,Partes de máquinas de terraplanagem,8493940,0.025,10,mirror
+2021,890190,Navios de carga,24492427,0.073,9,mirror
+2021,843143,Partes de máquinas de perfuração (8430),8493940,0.025,10,mirror
 2022,270900,Petróleo bruto,40311108897,78.618,1,direct
-2022,271111,Gás natural e outros gases de petróleo,6080727779,11.859,2,direct
-2022,710221,Diamantes,1981669951,3.865,3,direct
-2022,271012,Combustíveis refinados,480172847,0.936,4,direct
-2022,890520,Plataformas e dragas,440944058,0.86,5,direct
-2022,271112,Gás natural e outros gases de petróleo,397682259,0.776,6,direct
-2022,270740,Produtos da destilação do alcatrão,235564709,0.459,7,direct
-2022,890690,Outros navios,201466716,0.393,8,direct
-2022,890190,Navios,161887548,0.316,9,direct
-2022,890590,Plataformas e dragas,117634753,0.229,10,direct
+2022,271111,Gás natural liquefeito (GNL),6080727779,11.859,2,direct
+2022,710221,Diamantes industriais em bruto,1981669951,3.865,3,direct
+2022,271012,Gasolinas e destilados leves,480172847,0.936,4,direct
+2022,890520,Plataformas de perfuração ou produção,440944058,0.86,5,direct
+2022,271112,Propano liquefeito,397682259,0.776,6,direct
+2022,270740,Naftaleno,235564709,0.459,7,direct
+2022,890690,"Outros navios (botes salva-vidas, etc.)",201466716,0.393,8,direct
+2022,890190,Navios de carga,161887548,0.316,9,direct
+2022,890590,Navios-farol e outros auxiliares,117634753,0.229,10,direct
 2022,270900,Petróleo bruto,41059734423,77.209,1,mirror
-2022,271111,Gás natural e outros gases de petróleo,6837573412,12.857,2,mirror
-2022,271012,Combustíveis refinados,484710997,0.911,3,mirror
-2022,271112,Gás natural e outros gases de petróleo,479676252,0.902,4,mirror
-2022,890520,Plataformas e dragas,298425322,0.561,5,mirror
-2022,271113,Gás natural e outros gases de petróleo,121088095,0.228,6,mirror
-2022,890590,Plataformas e dragas,83596296,0.157,7,mirror
-2022,271019,Combustíveis refinados,80730717,0.152,8,mirror
+2022,271111,Gás natural liquefeito (GNL),6837573412,12.857,2,mirror
+2022,271012,Gasolinas e destilados leves,484710997,0.911,3,mirror
+2022,271112,Propano liquefeito,479676252,0.902,4,mirror
+2022,890520,Plataformas de perfuração ou produção,298425322,0.561,5,mirror
+2022,271113,Butano liquefeito,121088095,0.228,6,mirror
+2022,890590,Navios-farol e outros auxiliares,83596296,0.157,7,mirror
+2022,271019,Gasóleo e combustíveis médios e pesados,80730717,0.152,8,mirror
 2022,251611,Granito,60255337,0.113,9,mirror
-2022,271011,Combustíveis refinados,25265432,0.048,10,mirror
+2022,271011,Óleos leves de petróleo (ed. antiga),25265432,0.048,10,mirror
 2023,270900,Petróleo bruto,31419862878,81.122,1,direct
-2023,271111,Gás natural e outros gases de petróleo,2587018019,6.679,2,direct
-2023,710221,Diamantes,1571800491,4.058,3,direct
-2023,890190,Navios,1156835730,2.987,4,direct
-2023,271012,Combustíveis refinados,386532623,0.998,5,direct
-2023,890520,Plataformas e dragas,288502691,0.745,6,direct
-2023,890690,Outros navios,184135913,0.475,7,direct
-2023,271112,Gás natural e outros gases de petróleo,181744505,0.469,8,direct
+2023,271111,Gás natural liquefeito (GNL),2587018019,6.679,2,direct
+2023,710221,Diamantes industriais em bruto,1571800491,4.058,3,direct
+2023,890190,Navios de carga,1156835730,2.987,4,direct
+2023,271012,Gasolinas e destilados leves,386532623,0.998,5,direct
+2023,890520,Plataformas de perfuração ou produção,288502691,0.745,6,direct
+2023,890690,"Outros navios (botes salva-vidas, etc.)",184135913,0.475,7,direct
+2023,271112,Propano liquefeito,181744505,0.469,8,direct
 2023,890400,Rebocadores,95879518,0.248,9,direct
-2023,890120,Navios,60761718,0.157,10,direct
+2023,890120,Navios-tanque,60761718,0.157,10,direct
 2023,270900,Petróleo bruto,32600047626,81.18,1,mirror
-2023,271111,Gás natural e outros gases de petróleo,2734817902,6.81,2,mirror
-2023,271112,Gás natural e outros gases de petróleo,414996530,1.033,3,mirror
-2023,271012,Combustíveis refinados,149952567,0.373,4,mirror
-2023,271019,Combustíveis refinados,105302242,0.262,5,mirror
-2023,890520,Plataformas e dragas,81762390,0.204,6,mirror
-2023,271113,Gás natural e outros gases de petróleo,40670164,0.101,7,mirror
+2023,271111,Gás natural liquefeito (GNL),2734817902,6.81,2,mirror
+2023,271112,Propano liquefeito,414996530,1.033,3,mirror
+2023,271012,Gasolinas e destilados leves,149952567,0.373,4,mirror
+2023,271019,Gasóleo e combustíveis médios e pesados,105302242,0.262,5,mirror
+2023,890520,Plataformas de perfuração ou produção,81762390,0.204,6,mirror
+2023,271113,Butano liquefeito,40670164,0.101,7,mirror
 2023,251611,Granito,29988108,0.075,8,mirror
-2023,890590,Plataformas e dragas,20097675,0.05,9,mirror
+2023,890590,Navios-farol e outros auxiliares,20097675,0.05,9,mirror
 2023,999999,Mercadorias não especificadas,19227441,0.048,10,mirror
 2024,270900,Petróleo bruto,31397638565,79.747,1,direct
-2024,271111,Gás natural e outros gases de petróleo,2547101542,6.469,2,direct
-2024,710221,Diamantes,1531385918,3.89,3,direct
-2024,890520,Plataformas e dragas,1372269685,3.485,4,direct
-2024,890190,Navios,626754136,1.592,5,direct
-2024,271012,Combustíveis refinados,402454790,1.022,6,direct
+2024,271111,Gás natural liquefeito (GNL),2547101542,6.469,2,direct
+2024,710221,Diamantes industriais em bruto,1531385918,3.89,3,direct
+2024,890520,Plataformas de perfuração ou produção,1372269685,3.485,4,direct
+2024,890190,Navios de carga,626754136,1.592,5,direct
+2024,271012,Gasolinas e destilados leves,402454790,1.022,6,direct
 2024,890400,Rebocadores,279277830,0.709,7,direct
-2024,890690,Outros navios,225119706,0.572,8,direct
-2024,890120,Navios,157862983,0.401,9,direct
-2024,880212,Helicópteros e aviões,61877873,0.157,10,direct
+2024,890690,"Outros navios (botes salva-vidas, etc.)",225119706,0.572,8,direct
+2024,890120,Navios-tanque,157862983,0.401,9,direct
+2024,880212,Helicópteros +2.000 kg,61877873,0.157,10,direct
 2024,270900,Petróleo bruto,33055511956,86.908,1,mirror
-2024,271111,Gás natural e outros gases de petróleo,1831869793,4.816,2,mirror
-2024,271112,Gás natural e outros gases de petróleo,385835265,1.014,3,mirror
-2024,271012,Combustíveis refinados,140303644,0.369,4,mirror
-2024,271019,Combustíveis refinados,84437810,0.222,5,mirror
+2024,271111,Gás natural liquefeito (GNL),1831869793,4.816,2,mirror
+2024,271112,Propano liquefeito,385835265,1.014,3,mirror
+2024,271012,Gasolinas e destilados leves,140303644,0.369,4,mirror
+2024,271019,Gasóleo e combustíveis médios e pesados,84437810,0.222,5,mirror
 2024,251611,Granito,20870428,0.055,6,mirror
 2024,732690,Outros artigos de ferro ou aço,9073697,0.024,7,mirror
 2024,999999,Mercadorias não especificadas,3443875,0.009,8,mirror
-2024,440729,Madeira serrada,2174788,0.006,9,mirror
-2024,843143,Partes de máquinas de terraplanagem,860782,0.002,10,mirror
+2024,440729,Madeira tropical serrada,2174788,0.006,9,mirror
+2024,843143,Partes de máquinas de perfuração (8430),860782,0.002,10,mirror

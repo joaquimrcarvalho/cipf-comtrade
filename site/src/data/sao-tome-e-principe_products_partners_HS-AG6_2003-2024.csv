@@ -1,18 +1,18 @@
 year,hs6,description_pt,partner_code,partner,value,share_pct,basis
-2003,080119,"Cocos, castanhas de caju e nozes",24,Angola,38244,94.005,direct
-2003,080119,"Cocos, castanhas de caju e nozes",266,Gabão,1236,3.038,direct
-2003,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,1204,2.959,direct
-2003,151319,Óleo de coco,620,Portugal,22468,100.0,direct
+2003,080119,"Coco fresco ou seco, outros",24,Angola,38244,94.005,direct
+2003,080119,"Coco fresco ou seco, outros",266,Gabão,1236,3.038,direct
+2003,080119,"Coco fresco ou seco, outros",566,Nigéria,1204,2.959,direct
+2003,151319,Óleo de coco refinado,620,Portugal,22468,100.0,direct
 2003,180100,Cacau,528,Países Baixos,2568398,41.578,direct
 2003,180100,Cacau,620,Portugal,2165309,35.053,direct
 2003,180100,Cacau,56,Bélgica,995681,16.118,direct
 2003,180100,Cacau,251,França,256443,4.151,direct
 2003,180100,Cacau,842,EUA,191496,3.1,direct
-2003,180690,Chocolate e preparações com cacau,620,Portugal,11,100.0,direct
+2003,180690,Outras preparações de chocolate,620,Portugal,11,100.0,direct
 2003,630900,Vestuário usado,266,Gabão,1284,100.0,direct
-2003,870323,Automóveis de passageiros,392,Japão,5408,100.0,direct
-2003,870333,Automóveis de passageiros,24,Angola,24482,100.0,direct
-2003,151311,Óleo de coco,620,Portugal,80451,100.0,mirror
+2003,870323,Automóveis a gasolina 1.500–3.000 cm³,392,Japão,5408,100.0,direct
+2003,870333,Automóveis diesel +2.500 cm³,24,Angola,24482,100.0,direct
+2003,151311,Óleo de coco em bruto,620,Portugal,80451,100.0,mirror
 2003,180100,Cacau,528,Países Baixos,2970607,38.681,mirror
 2003,180100,Cacau,124,Canadá,1906203,24.821,mirror
 2003,180100,Cacau,40,Áustria,1038263,13.52,mirror
@@ -21,11 +21,11 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2003,180100,Cacau,757,Suíça,83267,1.084,mirror
 2003,180100,Cacau,724,Espanha,34049,0.443,mirror
 2003,180100,Cacau,380,Itália,12025,0.157,mirror
-2003,180610,Chocolate e preparações com cacau,204,Benim,10,100.0,mirror
-2003,870323,Automóveis de passageiros,608,Filipinas,57225,100.0,mirror
-2003,870332,Automóveis de passageiros,620,Portugal,80678,100.0,mirror
-2003,880330,Partes de aeronaves,620,Portugal,2107,81.477,mirror
-2003,880330,Partes de aeronaves,608,Filipinas,479,18.523,mirror
+2003,180610,Cacau em pó com açúcar,204,Benim,10,100.0,mirror
+2003,870323,Automóveis a gasolina 1.500–3.000 cm³,608,Filipinas,57225,100.0,mirror
+2003,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,80678,100.0,mirror
+2003,880330,Partes de aviões e helicópteros (ed. antiga),620,Portugal,2107,81.477,mirror
+2003,880330,Partes de aviões e helicópteros (ed. antiga),608,Filipinas,479,18.523,mirror
 2003,903300,Partes de instrumentos de precisão,764,Tailândia,102,100.0,mirror
 2003,999999,Mercadorias não especificadas,458,Malásia,11748,25.168,mirror
 2003,999999,Mercadorias não especificadas,826,Reino Unido,9562,20.484,mirror
@@ -35,11 +35,11 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2003,999999,Mercadorias não especificadas,392,Japão,4123,8.833,mirror
 2003,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),1700,3.642,mirror
 2003,999999,Mercadorias não especificadas,842,EUA,298,0.638,mirror
-2004,080119,"Cocos, castanhas de caju e nozes",24,Angola,45513,54.334,direct
-2004,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,33655,40.178,direct
-2004,080119,"Cocos, castanhas de caju e nozes",266,Gabão,4598,5.489,direct
-2004,090411,Pimenta e pimentão,724,Espanha,909,100.0,direct
-2004,151319,Óleo de coco,620,Portugal,28299,100.0,direct
+2004,080119,"Coco fresco ou seco, outros",24,Angola,45513,54.334,direct
+2004,080119,"Coco fresco ou seco, outros",566,Nigéria,33655,40.178,direct
+2004,080119,"Coco fresco ou seco, outros",266,Gabão,4598,5.489,direct
+2004,090411,Pimenta do reino,724,Espanha,909,100.0,direct
+2004,151319,Óleo de coco refinado,620,Portugal,28299,100.0,direct
 2004,180100,Cacau,528,Países Baixos,1834384,57.464,direct
 2004,180100,Cacau,620,Portugal,839902,26.311,direct
 2004,180100,Cacau,56,Bélgica,322542,10.104,direct
@@ -47,62 +47,62 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2004,180100,Cacau,724,Espanha,67783,2.123,direct
 2004,180100,Cacau,328,Guyana,34950,1.095,direct
 2004,180100,Cacau,380,Itália,6338,0.199,direct
-2004,180690,Chocolate e preparações com cacau,620,Portugal,6,100.0,direct
+2004,180690,Outras preparações de chocolate,620,Portugal,6,100.0,direct
 2004,630900,Vestuário usado,266,Gabão,1662,92.129,direct
 2004,630900,Vestuário usado,566,Nigéria,141,7.816,direct
-2004,720410,Sucata ferrosa,620,Portugal,3183,100.0,direct
-2004,870323,Automóveis de passageiros,24,Angola,12588,100.0,direct
-2004,080111,"Cocos, castanhas de caju e nozes",24,Angola,2843,97.031,mirror
-2004,080111,"Cocos, castanhas de caju e nozes",620,Portugal,87,2.969,mirror
-2004,080119,"Cocos, castanhas de caju e nozes",24,Angola,3385,100.0,mirror
-2004,090411,Pimenta e pimentão,724,Espanha,986,100.0,mirror
-2004,151311,Óleo de coco,620,Portugal,88512,100.0,mirror
+2004,720410,Sucata de ferro fundido,620,Portugal,3183,100.0,direct
+2004,870323,Automóveis a gasolina 1.500–3.000 cm³,24,Angola,12588,100.0,direct
+2004,080111,Coco desidratado,24,Angola,2843,97.031,mirror
+2004,080111,Coco desidratado,620,Portugal,87,2.969,mirror
+2004,080119,"Coco fresco ou seco, outros",24,Angola,3385,100.0,mirror
+2004,090411,Pimenta do reino,724,Espanha,986,100.0,mirror
+2004,151311,Óleo de coco em bruto,620,Portugal,88512,100.0,mirror
 2004,180100,Cacau,528,Países Baixos,2983963,58.902,mirror
 2004,180100,Cacau,251,França,1256379,24.8,mirror
 2004,180100,Cacau,56,Bélgica,782331,15.443,mirror
 2004,180100,Cacau,124,Canadá,43341,0.856,mirror
-2004,180610,Chocolate e preparações com cacau,233,Estónia,2890,100.0,mirror
-2004,180632,Chocolate e preparações com cacau,620,Portugal,635,100.0,mirror
-2004,180690,Chocolate e preparações com cacau,380,Itália,22618,89.993,mirror
-2004,180690,Chocolate e preparações com cacau,233,Estónia,1571,6.251,mirror
-2004,180690,Chocolate e preparações com cacau,620,Portugal,944,3.756,mirror
-2004,271000,Combustíveis refinados,214,República Dominicana,908,100.0,mirror
+2004,180610,Cacau em pó com açúcar,233,Estónia,2890,100.0,mirror
+2004,180632,"Chocolate em tabletes, não recheado",620,Portugal,635,100.0,mirror
+2004,180690,Outras preparações de chocolate,380,Itália,22618,89.993,mirror
+2004,180690,Outras preparações de chocolate,233,Estónia,1571,6.251,mirror
+2004,180690,Outras preparações de chocolate,620,Portugal,944,3.756,mirror
+2004,271000,Óleos de petróleo (ed. antiga),214,República Dominicana,908,100.0,mirror
 2004,630900,Vestuário usado,24,Angola,318,100.0,mirror
-2004,870323,Automóveis de passageiros,214,República Dominicana,20901,47.193,mirror
-2004,870323,Automóveis de passageiros,24,Angola,13442,30.352,mirror
-2004,870323,Automóveis de passageiros,620,Portugal,9945,22.456,mirror
-2004,870332,Automóveis de passageiros,203,Chéquia,10349,100.0,mirror
-2004,870333,Automóveis de passageiros,620,Portugal,62157,41.337,mirror
-2004,870333,Automóveis de passageiros,266,Gabão,50891,33.845,mirror
-2004,870333,Automóveis de passageiros,251,França,37318,24.818,mirror
+2004,870323,Automóveis a gasolina 1.500–3.000 cm³,214,República Dominicana,20901,47.193,mirror
+2004,870323,Automóveis a gasolina 1.500–3.000 cm³,24,Angola,13442,30.352,mirror
+2004,870323,Automóveis a gasolina 1.500–3.000 cm³,620,Portugal,9945,22.456,mirror
+2004,870332,Automóveis diesel 1.500–2.500 cm³,203,Chéquia,10349,100.0,mirror
+2004,870333,Automóveis diesel +2.500 cm³,620,Portugal,62157,41.337,mirror
+2004,870333,Automóveis diesel +2.500 cm³,266,Gabão,50891,33.845,mirror
+2004,870333,Automóveis diesel +2.500 cm³,251,França,37318,24.818,mirror
 2004,999999,Mercadorias não especificadas,826,Reino Unido,11871,43.9,mirror
 2004,999999,Mercadorias não especificadas,458,Malásia,11856,43.845,mirror
 2004,999999,Mercadorias não especificadas,842,EUA,3104,11.479,mirror
 2004,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),210,0.777,mirror
-2005,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,7707,84.396,direct
-2005,080111,"Cocos, castanhas de caju e nozes",24,Angola,1425,15.604,direct
-2005,080119,"Cocos, castanhas de caju e nozes",24,Angola,67447,70.469,direct
-2005,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,25928,27.09,direct
-2005,080119,"Cocos, castanhas de caju e nozes",266,Gabão,1482,1.548,direct
-2005,080119,"Cocos, castanhas de caju e nozes",620,Portugal,855,0.893,direct
-2005,151319,Óleo de coco,620,Portugal,34222,100.0,direct
+2005,080111,Coco desidratado,566,Nigéria,7707,84.396,direct
+2005,080111,Coco desidratado,24,Angola,1425,15.604,direct
+2005,080119,"Coco fresco ou seco, outros",24,Angola,67447,70.469,direct
+2005,080119,"Coco fresco ou seco, outros",566,Nigéria,25928,27.09,direct
+2005,080119,"Coco fresco ou seco, outros",266,Gabão,1482,1.548,direct
+2005,080119,"Coco fresco ou seco, outros",620,Portugal,855,0.893,direct
+2005,151319,Óleo de coco refinado,620,Portugal,34222,100.0,direct
 2005,180100,Cacau,528,Países Baixos,1315625,43.375,direct
 2005,180100,Cacau,620,Portugal,1191672,39.288,direct
 2005,180100,Cacau,56,Bélgica,369610,12.186,direct
 2005,180100,Cacau,392,Japão,70494,2.324,direct
 2005,180100,Cacau,251,França,63159,2.082,direct
 2005,180100,Cacau,276,Alemanha,22578,0.744,direct
-2005,180610,Chocolate e preparações com cacau,620,Portugal,1392,100.0,direct
-2005,180690,Chocolate e preparações com cacau,620,Portugal,11593,100.0,direct
+2005,180610,Cacau em pó com açúcar,620,Portugal,1392,100.0,direct
+2005,180690,Outras preparações de chocolate,620,Portugal,11593,100.0,direct
 2005,630900,Vestuário usado,566,Nigéria,487,100.0,direct
-2005,870323,Automóveis de passageiros,620,Portugal,1852,100.0,direct
-2005,870332,Automóveis de passageiros,620,Portugal,7147,65.395,direct
-2005,870332,Automóveis de passageiros,899,"Areas, nes",3782,34.605,direct
-2005,870333,Automóveis de passageiros,24,Angola,54552,100.0,direct
+2005,870323,Automóveis a gasolina 1.500–3.000 cm³,620,Portugal,1852,100.0,direct
+2005,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,7147,65.395,direct
+2005,870332,Automóveis diesel 1.500–2.500 cm³,899,"Areas, nes",3782,34.605,direct
+2005,870333,Automóveis diesel +2.500 cm³,24,Angola,54552,100.0,direct
 2005,999999,Mercadorias não especificadas,24,Angola,1616,73.925,direct
 2005,999999,Mercadorias não especificadas,566,Nigéria,570,26.075,direct
-2005,080111,"Cocos, castanhas de caju e nozes",24,Angola,9003,100.0,mirror
-2005,151311,Óleo de coco,620,Portugal,111335,100.0,mirror
+2005,080111,Coco desidratado,24,Angola,9003,100.0,mirror
+2005,151311,Óleo de coco em bruto,620,Portugal,111335,100.0,mirror
 2005,180100,Cacau,528,Países Baixos,2079823,36.685,mirror
 2005,180100,Cacau,56,Bélgica,1833563,32.341,mirror
 2005,180100,Cacau,251,França,1399807,24.691,mirror
@@ -111,13 +111,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2005,180100,Cacau,392,Japão,50328,0.888,mirror
 2005,180100,Cacau,620,Portugal,46784,0.825,mirror
 2005,180100,Cacau,380,Itália,14209,0.251,mirror
-2005,180610,Chocolate e preparações com cacau,380,Itália,2500,100.0,mirror
-2005,180632,Chocolate e preparações com cacau,620,Portugal,28292,100.0,mirror
-2005,870323,Automóveis de passageiros,231,Etiópia,44255,51.748,mirror
-2005,870323,Automóveis de passageiros,214,República Dominicana,37562,43.921,mirror
-2005,870323,Automóveis de passageiros,28,Antigua and Barbuda,3704,4.331,mirror
-2005,870332,Automóveis de passageiros,276,Alemanha,29000,91.143,mirror
-2005,870332,Automóveis de passageiros,24,Angola,2818,8.857,mirror
+2005,180610,Cacau em pó com açúcar,380,Itália,2500,100.0,mirror
+2005,180632,"Chocolate em tabletes, não recheado",620,Portugal,28292,100.0,mirror
+2005,870323,Automóveis a gasolina 1.500–3.000 cm³,231,Etiópia,44255,51.748,mirror
+2005,870323,Automóveis a gasolina 1.500–3.000 cm³,214,República Dominicana,37562,43.921,mirror
+2005,870323,Automóveis a gasolina 1.500–3.000 cm³,28,Antigua and Barbuda,3704,4.331,mirror
+2005,870332,Automóveis diesel 1.500–2.500 cm³,276,Alemanha,29000,91.143,mirror
+2005,870332,Automóveis diesel 1.500–2.500 cm³,24,Angola,2818,8.857,mirror
 2005,999999,Mercadorias não especificadas,208,Dinamarca,259941,96.72,mirror
 2005,999999,Mercadorias não especificadas,699,Índia,3804,1.415,mirror
 2005,999999,Mercadorias não especificadas,458,Malásia,2019,0.751,mirror
@@ -125,13 +125,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2005,999999,Mercadorias não especificadas,826,Reino Unido,1134,0.422,mirror
 2005,999999,Mercadorias não especificadas,842,EUA,685,0.255,mirror
 2005,999999,Mercadorias não especificadas,484,México,10,0.004,mirror
-2006,080111,"Cocos, castanhas de caju e nozes",24,Angola,201,100.0,direct
-2006,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,20643,58.533,direct
-2006,080119,"Cocos, castanhas de caju e nozes",24,Angola,13856,39.289,direct
-2006,080119,"Cocos, castanhas de caju e nozes",120,Camarões,402,1.14,direct
-2006,080119,"Cocos, castanhas de caju e nozes",266,Gabão,366,1.038,direct
-2006,090420,Pimenta e pimentão,620,Portugal,217,100.0,direct
-2006,151319,Óleo de coco,620,Portugal,9650,100.0,direct
+2006,080111,Coco desidratado,24,Angola,201,100.0,direct
+2006,080119,"Coco fresco ou seco, outros",566,Nigéria,20643,58.533,direct
+2006,080119,"Coco fresco ou seco, outros",24,Angola,13856,39.289,direct
+2006,080119,"Coco fresco ou seco, outros",120,Camarões,402,1.14,direct
+2006,080119,"Coco fresco ou seco, outros",266,Gabão,366,1.038,direct
+2006,090420,"Piri-piri e pimentão, secos (ed. antiga)",620,Portugal,217,100.0,direct
+2006,151319,Óleo de coco refinado,620,Portugal,9650,100.0,direct
 2006,180100,Cacau,620,Portugal,1096083,32.305,direct
 2006,180100,Cacau,528,Países Baixos,1044054,30.772,direct
 2006,180100,Cacau,56,Bélgica,551613,16.258,direct
@@ -139,14 +139,14 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2006,180100,Cacau,899,"Areas, nes",319636,9.421,direct
 2006,180100,Cacau,258,French Polynesia,16991,0.501,direct
 2006,180100,Cacau,842,EUA,3,0.0,direct
-2006,180610,Chocolate e preparações com cacau,620,Portugal,11706,100.0,direct
-2006,180690,Chocolate e preparações com cacau,620,Portugal,17975,100.0,direct
+2006,180610,Cacau em pó com açúcar,620,Portugal,11706,100.0,direct
+2006,180690,Outras preparações de chocolate,620,Portugal,17975,100.0,direct
 2006,630900,Vestuário usado,566,Nigéria,354,100.0,direct
-2006,870332,Automóveis de passageiros,24,Angola,17201,100.0,direct
-2006,080111,"Cocos, castanhas de caju e nozes",736,Sudan (...2011),22401,88.822,mirror
-2006,080111,"Cocos, castanhas de caju e nozes",24,Angola,2750,10.904,mirror
-2006,080111,"Cocos, castanhas de caju e nozes",642,Roménia,69,0.274,mirror
-2006,151311,Óleo de coco,620,Portugal,68560,100.0,mirror
+2006,870332,Automóveis diesel 1.500–2.500 cm³,24,Angola,17201,100.0,direct
+2006,080111,Coco desidratado,736,Sudan (...2011),22401,88.822,mirror
+2006,080111,Coco desidratado,24,Angola,2750,10.904,mirror
+2006,080111,Coco desidratado,642,Roménia,69,0.274,mirror
+2006,151311,Óleo de coco em bruto,620,Portugal,68560,100.0,mirror
 2006,180100,Cacau,528,Países Baixos,3337985,49.112,mirror
 2006,180100,Cacau,56,Bélgica,1823216,26.825,mirror
 2006,180100,Cacau,251,França,1539302,22.648,mirror
@@ -154,13 +154,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2006,180100,Cacau,392,Japão,25366,0.373,mirror
 2006,180100,Cacau,724,Espanha,11865,0.175,mirror
 2006,180100,Cacau,380,Itália,8007,0.118,mirror
-2006,180632,Chocolate e preparações com cacau,380,Itália,23270,100.0,mirror
-2006,180690,Chocolate e preparações com cacau,620,Portugal,17163,100.0,mirror
+2006,180632,"Chocolate em tabletes, não recheado",380,Itália,23270,100.0,mirror
+2006,180690,Outras preparações de chocolate,620,Portugal,17163,100.0,mirror
 2006,630900,Vestuário usado,24,Angola,219,53.499,mirror
 2006,630900,Vestuário usado,214,República Dominicana,190,46.501,mirror
-2006,870323,Automóveis de passageiros,214,República Dominicana,33029,100.0,mirror
-2006,870333,Automóveis de passageiros,620,Portugal,92478,100.0,mirror
-2006,880330,Partes de aeronaves,276,Alemanha,23000,100.0,mirror
+2006,870323,Automóveis a gasolina 1.500–3.000 cm³,214,República Dominicana,33029,100.0,mirror
+2006,870333,Automóveis diesel +2.500 cm³,620,Portugal,92478,100.0,mirror
+2006,880330,Partes de aviões e helicópteros (ed. antiga),276,Alemanha,23000,100.0,mirror
 2006,901580,Instrumentos de topografia,586,Paquistão,6569,100.0,mirror
 2006,999999,Mercadorias não especificadas,842,EUA,11457,54.099,mirror
 2006,999999,Mercadorias não especificadas,458,Malásia,3367,15.899,mirror
@@ -170,11 +170,11 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2006,999999,Mercadorias não especificadas,736,Sudan (...2011),768,3.625,mirror
 2006,999999,Mercadorias não especificadas,620,Portugal,470,2.219,mirror
 2006,999999,Mercadorias não especificadas,710,África do Sul,302,1.426,mirror
-2007,080111,"Cocos, castanhas de caju e nozes",266,Gabão,183,100.0,direct
-2007,080119,"Cocos, castanhas de caju e nozes",24,Angola,12115,55.612,direct
-2007,080119,"Cocos, castanhas de caju e nozes",266,Gabão,9670,44.388,direct
-2007,151110,Óleo de palma,620,Portugal,3519,100.0,direct
-2007,151319,Óleo de coco,620,Portugal,15835,100.0,direct
+2007,080111,Coco desidratado,266,Gabão,183,100.0,direct
+2007,080119,"Coco fresco ou seco, outros",24,Angola,12115,55.612,direct
+2007,080119,"Coco fresco ou seco, outros",266,Gabão,9670,44.388,direct
+2007,151110,Óleo de palma em bruto,620,Portugal,3519,100.0,direct
+2007,151319,Óleo de coco refinado,620,Portugal,15835,100.0,direct
 2007,180100,Cacau,620,Portugal,1512838,43.069,direct
 2007,180100,Cacau,251,França,682042,19.417,direct
 2007,180100,Cacau,56,Bélgica,678298,19.31,direct
@@ -182,19 +182,19 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2007,180100,Cacau,899,"Areas, nes",67832,1.931,direct
 2007,180100,Cacau,144,Sri Lanka,38851,1.106,direct
 2007,180100,Cacau,724,Espanha,20057,0.571,direct
-2007,180610,Chocolate e preparações com cacau,620,Portugal,1107,100.0,direct
-2007,180690,Chocolate e preparações com cacau,620,Portugal,14662,100.0,direct
-2007,271000,Combustíveis refinados,24,Angola,2243883,100.0,direct
+2007,180610,Cacau em pó com açúcar,620,Portugal,1107,100.0,direct
+2007,180690,Outras preparações de chocolate,620,Portugal,14662,100.0,direct
+2007,271000,Óleos de petróleo (ed. antiga),24,Angola,2243883,100.0,direct
 2007,630900,Vestuário usado,620,Portugal,13793,100.0,direct
-2007,870332,Automóveis de passageiros,620,Portugal,37683,87.919,direct
-2007,870332,Automóveis de passageiros,24,Angola,2978,6.948,direct
-2007,870332,Automóveis de passageiros,266,Gabão,2199,5.131,direct
-2007,870333,Automóveis de passageiros,266,Gabão,44729,100.0,direct
-2007,080111,"Cocos, castanhas de caju e nozes",24,Angola,3810,88.502,mirror
-2007,080111,"Cocos, castanhas de caju e nozes",120,Camarões,495,11.498,mirror
-2007,080119,"Cocos, castanhas de caju e nozes",24,Angola,45438,97.92,mirror
-2007,080119,"Cocos, castanhas de caju e nozes",120,Camarões,965,2.08,mirror
-2007,151311,Óleo de coco,620,Portugal,44810,100.0,mirror
+2007,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,37683,87.919,direct
+2007,870332,Automóveis diesel 1.500–2.500 cm³,24,Angola,2978,6.948,direct
+2007,870332,Automóveis diesel 1.500–2.500 cm³,266,Gabão,2199,5.131,direct
+2007,870333,Automóveis diesel +2.500 cm³,266,Gabão,44729,100.0,direct
+2007,080111,Coco desidratado,24,Angola,3810,88.502,mirror
+2007,080111,Coco desidratado,120,Camarões,495,11.498,mirror
+2007,080119,"Coco fresco ou seco, outros",24,Angola,45438,97.92,mirror
+2007,080119,"Coco fresco ou seco, outros",120,Camarões,965,2.08,mirror
+2007,151311,Óleo de coco em bruto,620,Portugal,44810,100.0,mirror
 2007,180100,Cacau,56,Bélgica,1969704,40.104,mirror
 2007,180100,Cacau,251,França,1889967,38.481,mirror
 2007,180100,Cacau,528,Países Baixos,922335,18.779,mirror
@@ -203,17 +203,17 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2007,180100,Cacau,380,Itália,23926,0.487,mirror
 2007,180100,Cacau,276,Alemanha,14000,0.285,mirror
 2007,180100,Cacau,842,EUA,2389,0.049,mirror
-2007,180632,Chocolate e preparações com cacau,380,Itália,58045,64.024,mirror
-2007,180632,Chocolate e preparações com cacau,842,EUA,32616,35.976,mirror
-2007,180690,Chocolate e preparações com cacau,620,Portugal,31173,90.809,mirror
-2007,180690,Chocolate e preparações com cacau,842,EUA,3155,9.191,mirror
+2007,180632,"Chocolate em tabletes, não recheado",380,Itália,58045,64.024,mirror
+2007,180632,"Chocolate em tabletes, não recheado",842,EUA,32616,35.976,mirror
+2007,180690,Outras preparações de chocolate,620,Portugal,31173,90.809,mirror
+2007,180690,Outras preparações de chocolate,842,EUA,3155,9.191,mirror
 2007,490700,Selos e títulos de valor,554,Nova Zelândia,504,100.0,mirror
 2007,630900,Vestuário usado,800,Uganda,11,100.0,mirror
-2007,870323,Automóveis de passageiros,214,República Dominicana,58553,87.488,mirror
-2007,870323,Automóveis de passageiros,620,Portugal,8374,12.512,mirror
-2007,870332,Automóveis de passageiros,251,França,74116,100.0,mirror
-2007,880330,Partes de aeronaves,784,Emirados Árabes Unidos,7484,78.912,mirror
-2007,880330,Partes de aeronaves,276,Alemanha,2000,21.088,mirror
+2007,870323,Automóveis a gasolina 1.500–3.000 cm³,214,República Dominicana,58553,87.488,mirror
+2007,870323,Automóveis a gasolina 1.500–3.000 cm³,620,Portugal,8374,12.512,mirror
+2007,870332,Automóveis diesel 1.500–2.500 cm³,251,França,74116,100.0,mirror
+2007,880330,Partes de aviões e helicópteros (ed. antiga),784,Emirados Árabes Unidos,7484,78.912,mirror
+2007,880330,Partes de aviões e helicópteros (ed. antiga),276,Alemanha,2000,21.088,mirror
 2007,999999,Mercadorias não especificadas,24,Angola,30520,60.303,mirror
 2007,999999,Mercadorias não especificadas,842,EUA,15716,31.052,mirror
 2007,999999,Mercadorias não especificadas,40,Áustria,1109,2.191,mirror
@@ -222,12 +222,12 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2007,999999,Mercadorias não especificadas,484,México,501,0.99,mirror
 2007,999999,Mercadorias não especificadas,344,Hong Kong (RAEHK),461,0.911,mirror
 2007,999999,Mercadorias não especificadas,72,Botsuana,205,0.405,mirror
-2008,080111,"Cocos, castanhas de caju e nozes",266,Gabão,10812,67.588,direct
-2008,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,4947,30.925,direct
-2008,080111,"Cocos, castanhas de caju e nozes",24,Angola,238,1.488,direct
-2008,080119,"Cocos, castanhas de caju e nozes",266,Gabão,5612,88.184,direct
-2008,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,752,11.816,direct
-2008,151319,Óleo de coco,620,Portugal,11900,100.0,direct
+2008,080111,Coco desidratado,266,Gabão,10812,67.588,direct
+2008,080111,Coco desidratado,566,Nigéria,4947,30.925,direct
+2008,080111,Coco desidratado,24,Angola,238,1.488,direct
+2008,080119,"Coco fresco ou seco, outros",266,Gabão,5612,88.184,direct
+2008,080119,"Coco fresco ou seco, outros",566,Nigéria,752,11.816,direct
+2008,151319,Óleo de coco refinado,620,Portugal,11900,100.0,direct
 2008,180100,Cacau,620,Portugal,2402389,47.659,direct
 2008,180100,Cacau,528,Países Baixos,1582738,31.399,direct
 2008,180100,Cacau,56,Bélgica,445001,8.828,direct
@@ -236,19 +236,19 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2008,180100,Cacau,144,Sri Lanka,24944,0.495,direct
 2008,180100,Cacau,899,"Areas, nes",18196,0.361,direct
 2008,180100,Cacau,24,Angola,14672,0.291,direct
-2008,180690,Chocolate e preparações com cacau,620,Portugal,88334,97.363,direct
-2008,180690,Chocolate e preparações com cacau,24,Angola,2393,2.638,direct
-2008,271000,Combustíveis refinados,24,Angola,4945460,100.0,direct
+2008,180690,Outras preparações de chocolate,620,Portugal,88334,97.363,direct
+2008,180690,Outras preparações de chocolate,24,Angola,2393,2.638,direct
+2008,271000,Óleos de petróleo (ed. antiga),24,Angola,4945460,100.0,direct
 2008,630900,Vestuário usado,266,Gabão,299,100.0,direct
-2008,720410,Sucata ferrosa,266,Gabão,544,100.0,direct
-2008,870323,Automóveis de passageiros,120,Camarões,10865,68.175,direct
-2008,870323,Automóveis de passageiros,566,Nigéria,5072,31.825,direct
-2008,870332,Automóveis de passageiros,24,Angola,5375,79.807,direct
-2008,870332,Automóveis de passageiros,620,Portugal,1360,20.193,direct
-2008,870333,Automóveis de passageiros,620,Portugal,109002,100.0,direct
-2008,080111,"Cocos, castanhas de caju e nozes",24,Angola,1705,100.0,mirror
-2008,080119,"Cocos, castanhas de caju e nozes",120,Camarões,1465,100.0,mirror
-2008,151311,Óleo de coco,620,Portugal,23789,100.0,mirror
+2008,720410,Sucata de ferro fundido,266,Gabão,544,100.0,direct
+2008,870323,Automóveis a gasolina 1.500–3.000 cm³,120,Camarões,10865,68.175,direct
+2008,870323,Automóveis a gasolina 1.500–3.000 cm³,566,Nigéria,5072,31.825,direct
+2008,870332,Automóveis diesel 1.500–2.500 cm³,24,Angola,5375,79.807,direct
+2008,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,1360,20.193,direct
+2008,870333,Automóveis diesel +2.500 cm³,620,Portugal,109002,100.0,direct
+2008,080111,Coco desidratado,24,Angola,1705,100.0,mirror
+2008,080119,"Coco fresco ou seco, outros",120,Camarões,1465,100.0,mirror
+2008,151311,Óleo de coco em bruto,620,Portugal,23789,100.0,mirror
 2008,180100,Cacau,56,Bélgica,2502672,41.839,mirror
 2008,180100,Cacau,528,Países Baixos,1650305,27.589,mirror
 2008,180100,Cacau,251,França,1473490,24.633,mirror
@@ -256,21 +256,21 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2008,180100,Cacau,724,Espanha,123618,2.067,mirror
 2008,180100,Cacau,380,Itália,12196,0.204,mirror
 2008,180100,Cacau,620,Portugal,5723,0.096,mirror
-2008,180632,Chocolate e preparações com cacau,380,Itália,48592,58.72,mirror
-2008,180632,Chocolate e preparações com cacau,842,EUA,33855,40.911,mirror
-2008,180632,Chocolate e preparações com cacau,124,Canadá,305,0.369,mirror
-2008,180690,Chocolate e preparações com cacau,620,Portugal,47458,100.0,mirror
-2008,720410,Sucata ferrosa,214,República Dominicana,64042,100.0,mirror
-2008,851712,Aparelhos de telecomunicações,620,Portugal,554,100.0,mirror
-2008,870323,Automóveis de passageiros,36,Austrália,77230,86.115,mirror
-2008,870323,Automóveis de passageiros,24,Angola,8647,9.642,mirror
-2008,870323,Automóveis de passageiros,204,Benim,2681,2.989,mirror
-2008,870323,Automóveis de passageiros,266,Gabão,1124,1.253,mirror
-2008,870332,Automóveis de passageiros,266,Gabão,2697,100.0,mirror
-2008,870333,Automóveis de passageiros,620,Portugal,8985,75.466,mirror
-2008,870333,Automóveis de passageiros,266,Gabão,2921,24.534,mirror
-2008,880330,Partes de aeronaves,276,Alemanha,6851,65.791,mirror
-2008,880330,Partes de aeronaves,124,Canadá,3562,34.209,mirror
+2008,180632,"Chocolate em tabletes, não recheado",380,Itália,48592,58.72,mirror
+2008,180632,"Chocolate em tabletes, não recheado",842,EUA,33855,40.911,mirror
+2008,180632,"Chocolate em tabletes, não recheado",124,Canadá,305,0.369,mirror
+2008,180690,Outras preparações de chocolate,620,Portugal,47458,100.0,mirror
+2008,720410,Sucata de ferro fundido,214,República Dominicana,64042,100.0,mirror
+2008,851712,Telemóveis,620,Portugal,554,100.0,mirror
+2008,870323,Automóveis a gasolina 1.500–3.000 cm³,36,Austrália,77230,86.115,mirror
+2008,870323,Automóveis a gasolina 1.500–3.000 cm³,24,Angola,8647,9.642,mirror
+2008,870323,Automóveis a gasolina 1.500–3.000 cm³,204,Benim,2681,2.989,mirror
+2008,870323,Automóveis a gasolina 1.500–3.000 cm³,266,Gabão,1124,1.253,mirror
+2008,870332,Automóveis diesel 1.500–2.500 cm³,266,Gabão,2697,100.0,mirror
+2008,870333,Automóveis diesel +2.500 cm³,620,Portugal,8985,75.466,mirror
+2008,870333,Automóveis diesel +2.500 cm³,266,Gabão,2921,24.534,mirror
+2008,880330,Partes de aviões e helicópteros (ed. antiga),276,Alemanha,6851,65.791,mirror
+2008,880330,Partes de aviões e helicópteros (ed. antiga),124,Canadá,3562,34.209,mirror
 2008,999999,Mercadorias não especificadas,894,Zâmbia,35114,46.233,mirror
 2008,999999,Mercadorias não especificadas,842,EUA,32880,43.292,mirror
 2008,999999,Mercadorias não especificadas,344,Hong Kong (RAEHK),4916,6.473,mirror
@@ -278,16 +278,16 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2008,999999,Mercadorias não especificadas,72,Botsuana,531,0.699,mirror
 2008,999999,Mercadorias não especificadas,484,México,80,0.105,mirror
 2008,999999,Mercadorias não especificadas,716,Zimbabué,30,0.039,mirror
-2009,080111,"Cocos, castanhas de caju e nozes",24,Angola,52994,65.008,direct
-2009,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,16268,19.956,direct
-2009,080111,"Cocos, castanhas de caju e nozes",120,Camarões,4909,6.022,direct
-2009,080111,"Cocos, castanhas de caju e nozes",266,Gabão,4749,5.826,direct
-2009,080111,"Cocos, castanhas de caju e nozes",170,Colômbia,1544,1.894,direct
-2009,080111,"Cocos, castanhas de caju e nozes",620,Portugal,1056,1.295,direct
-2009,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,3010,55.855,direct
-2009,080119,"Cocos, castanhas de caju e nozes",266,Gabão,1544,28.651,direct
-2009,080119,"Cocos, castanhas de caju e nozes",24,Angola,835,15.495,direct
-2009,151319,Óleo de coco,620,Portugal,12350,100.0,direct
+2009,080111,Coco desidratado,24,Angola,52994,65.008,direct
+2009,080111,Coco desidratado,566,Nigéria,16268,19.956,direct
+2009,080111,Coco desidratado,120,Camarões,4909,6.022,direct
+2009,080111,Coco desidratado,266,Gabão,4749,5.826,direct
+2009,080111,Coco desidratado,170,Colômbia,1544,1.894,direct
+2009,080111,Coco desidratado,620,Portugal,1056,1.295,direct
+2009,080119,"Coco fresco ou seco, outros",566,Nigéria,3010,55.855,direct
+2009,080119,"Coco fresco ou seco, outros",266,Gabão,1544,28.651,direct
+2009,080119,"Coco fresco ou seco, outros",24,Angola,835,15.495,direct
+2009,151319,Óleo de coco refinado,620,Portugal,12350,100.0,direct
 2009,180100,Cacau,620,Portugal,1736499,31.605,direct
 2009,180100,Cacau,528,Países Baixos,1672103,30.433,direct
 2009,180100,Cacau,56,Bélgica,1174773,21.382,direct
@@ -296,16 +296,16 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2009,180100,Cacau,251,França,163404,2.974,direct
 2009,180100,Cacau,530,Netherlands Antilles (...2010),66917,1.218,direct
 2009,180100,Cacau,44,Bahamas,29601,0.539,direct
-2009,180690,Chocolate e preparações com cacau,620,Portugal,121663,99.001,direct
-2009,180690,Chocolate e preparações com cacau,266,Gabão,1228,0.999,direct
-2009,271000,Combustíveis refinados,24,Angola,1850595,100.0,direct
+2009,180690,Outras preparações de chocolate,620,Portugal,121663,99.001,direct
+2009,180690,Outras preparações de chocolate,266,Gabão,1228,0.999,direct
+2009,271000,Óleos de petróleo (ed. antiga),24,Angola,1850595,100.0,direct
 2009,630900,Vestuário usado,566,Nigéria,108,100.0,direct
-2009,870323,Automóveis de passageiros,120,Camarões,32692,100.0,direct
-2009,870332,Automóveis de passageiros,24,Angola,1931,100.0,direct
+2009,870323,Automóveis a gasolina 1.500–3.000 cm³,120,Camarões,32692,100.0,direct
+2009,870332,Automóveis diesel 1.500–2.500 cm³,24,Angola,1931,100.0,direct
 2009,999999,Mercadorias não especificadas,380,Itália,238527,100.0,direct
-2009,080111,"Cocos, castanhas de caju e nozes",24,Angola,8100,100.0,mirror
-2009,080119,"Cocos, castanhas de caju e nozes",120,Camarões,1848,100.0,mirror
-2009,151110,Óleo de palma,620,Portugal,451,100.0,mirror
+2009,080111,Coco desidratado,24,Angola,8100,100.0,mirror
+2009,080119,"Coco fresco ou seco, outros",120,Camarões,1848,100.0,mirror
+2009,151110,Óleo de palma em bruto,620,Portugal,451,100.0,mirror
 2009,180100,Cacau,56,Bélgica,3247597,37.294,mirror
 2009,180100,Cacau,528,Países Baixos,3124516,35.881,mirror
 2009,180100,Cacau,251,França,2037521,23.398,mirror
@@ -314,13 +314,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2009,180100,Cacau,380,Itália,15047,0.173,mirror
 2009,180100,Cacau,724,Espanha,9415,0.108,mirror
 2009,180100,Cacau,392,Japão,3012,0.035,mirror
-2009,180632,Chocolate e preparações com cacau,380,Itália,58570,70.087,mirror
-2009,180632,Chocolate e preparações com cacau,842,EUA,24997,29.913,mirror
-2009,180690,Chocolate e preparações com cacau,620,Portugal,35198,100.0,mirror
+2009,180632,"Chocolate em tabletes, não recheado",380,Itália,58570,70.087,mirror
+2009,180632,"Chocolate em tabletes, não recheado",842,EUA,24997,29.913,mirror
+2009,180690,Outras preparações de chocolate,620,Portugal,35198,100.0,mirror
 2009,490700,Selos e títulos de valor,533,Aruba,123,100.0,mirror
-2009,870323,Automóveis de passageiros,214,República Dominicana,14255,100.0,mirror
-2009,870332,Automóveis de passageiros,620,Portugal,82466,100.0,mirror
-2009,870333,Automóveis de passageiros,266,Gabão,16108,100.0,mirror
+2009,870323,Automóveis a gasolina 1.500–3.000 cm³,214,República Dominicana,14255,100.0,mirror
+2009,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,82466,100.0,mirror
+2009,870333,Automóveis diesel +2.500 cm³,266,Gabão,16108,100.0,mirror
 2009,999999,Mercadorias não especificadas,842,EUA,42585,76.898,mirror
 2009,999999,Mercadorias não especificadas,24,Angola,5745,10.374,mirror
 2009,999999,Mercadorias não especificadas,826,Reino Unido,5662,10.224,mirror
@@ -329,18 +329,18 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2009,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),152,0.274,mirror
 2009,999999,Mercadorias não especificadas,736,Sudan (...2011),99,0.18,mirror
 2009,999999,Mercadorias não especificadas,344,Hong Kong (RAEHK),55,0.099,mirror
-2010,080111,"Cocos, castanhas de caju e nozes",24,Angola,8027,92.819,direct
-2010,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,621,7.181,direct
-2010,080119,"Cocos, castanhas de caju e nozes",24,Angola,47153,58.626,direct
-2010,080119,"Cocos, castanhas de caju e nozes",620,Portugal,11340,14.099,direct
-2010,080119,"Cocos, castanhas de caju e nozes",120,Camarões,7668,9.534,direct
-2010,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,7268,9.036,direct
-2010,080119,"Cocos, castanhas de caju e nozes",899,"Areas, nes",4468,5.555,direct
-2010,080119,"Cocos, castanhas de caju e nozes",266,Gabão,1485,1.846,direct
-2010,080119,"Cocos, castanhas de caju e nozes",562,Niger,540,0.671,direct
-2010,080119,"Cocos, castanhas de caju e nozes",56,Bélgica,508,0.632,direct
-2010,090411,Pimenta e pimentão,528,Países Baixos,15541,100.0,direct
-2010,151319,Óleo de coco,620,Portugal,16200,100.0,direct
+2010,080111,Coco desidratado,24,Angola,8027,92.819,direct
+2010,080111,Coco desidratado,566,Nigéria,621,7.181,direct
+2010,080119,"Coco fresco ou seco, outros",24,Angola,47153,58.626,direct
+2010,080119,"Coco fresco ou seco, outros",620,Portugal,11340,14.099,direct
+2010,080119,"Coco fresco ou seco, outros",120,Camarões,7668,9.534,direct
+2010,080119,"Coco fresco ou seco, outros",566,Nigéria,7268,9.036,direct
+2010,080119,"Coco fresco ou seco, outros",899,"Areas, nes",4468,5.555,direct
+2010,080119,"Coco fresco ou seco, outros",266,Gabão,1485,1.846,direct
+2010,080119,"Coco fresco ou seco, outros",562,Niger,540,0.671,direct
+2010,080119,"Coco fresco ou seco, outros",56,Bélgica,508,0.632,direct
+2010,090411,Pimenta do reino,528,Países Baixos,15541,100.0,direct
+2010,151319,Óleo de coco refinado,620,Portugal,16200,100.0,direct
 2010,180100,Cacau,620,Portugal,2243883,41.554,direct
 2010,180100,Cacau,56,Bélgica,1352316,25.043,direct
 2010,180100,Cacau,528,Países Baixos,994277,18.413,direct
@@ -349,19 +349,19 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2010,180100,Cacau,380,Itália,65683,1.216,direct
 2010,180100,Cacau,842,EUA,25204,0.467,direct
 2010,180100,Cacau,276,Alemanha,24192,0.448,direct
-2010,180690,Chocolate e preparações com cacau,620,Portugal,209391,100.0,direct
+2010,180690,Outras preparações de chocolate,620,Portugal,209391,100.0,direct
 2010,630900,Vestuário usado,620,Portugal,10647,82.56,direct
 2010,630900,Vestuário usado,24,Angola,2249,17.44,direct
-2010,720410,Sucata ferrosa,566,Nigéria,783,83.833,direct
-2010,720410,Sucata ferrosa,266,Gabão,151,16.167,direct
-2010,870323,Automóveis de passageiros,620,Portugal,50246,100.0,direct
+2010,720410,Sucata de ferro fundido,566,Nigéria,783,83.833,direct
+2010,720410,Sucata de ferro fundido,266,Gabão,151,16.167,direct
+2010,870323,Automóveis a gasolina 1.500–3.000 cm³,620,Portugal,50246,100.0,direct
 2010,999999,Mercadorias não especificadas,566,Nigéria,1350,60.976,direct
 2010,999999,Mercadorias não especificadas,24,Angola,864,39.024,direct
-2010,080111,"Cocos, castanhas de caju e nozes",24,Angola,9575,100.0,mirror
-2010,080119,"Cocos, castanhas de caju e nozes",120,Camarões,1268,100.0,mirror
-2010,090411,Pimenta e pimentão,251,França,15906,100.0,mirror
-2010,090420,Pimenta e pimentão,616,Polónia,658,100.0,mirror
-2010,151311,Óleo de coco,620,Portugal,51793,100.0,mirror
+2010,080111,Coco desidratado,24,Angola,9575,100.0,mirror
+2010,080119,"Coco fresco ou seco, outros",120,Camarões,1268,100.0,mirror
+2010,090411,Pimenta do reino,251,França,15906,100.0,mirror
+2010,090420,"Piri-piri e pimentão, secos (ed. antiga)",616,Polónia,658,100.0,mirror
+2010,151311,Óleo de coco em bruto,620,Portugal,51793,100.0,mirror
 2010,180100,Cacau,528,Países Baixos,3991890,70.839,mirror
 2010,180100,Cacau,251,França,1424887,25.286,mirror
 2010,180100,Cacau,56,Bélgica,121314,2.153,mirror
@@ -370,13 +370,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2010,180100,Cacau,392,Japão,6533,0.116,mirror
 2010,180100,Cacau,724,Espanha,5372,0.095,mirror
 2010,180100,Cacau,710,África do Sul,5350,0.095,mirror
-2010,180632,Chocolate e preparações com cacau,380,Itália,76967,59.496,mirror
-2010,180632,Chocolate e preparações com cacau,842,EUA,49746,38.454,mirror
-2010,180632,Chocolate e preparações com cacau,251,França,2651,2.049,mirror
-2010,180690,Chocolate e preparações com cacau,620,Portugal,68286,100.0,mirror
+2010,180632,"Chocolate em tabletes, não recheado",380,Itália,76967,59.496,mirror
+2010,180632,"Chocolate em tabletes, não recheado",842,EUA,49746,38.454,mirror
+2010,180632,"Chocolate em tabletes, não recheado",251,França,2651,2.049,mirror
+2010,180690,Outras preparações de chocolate,620,Portugal,68286,100.0,mirror
 2010,490700,Selos e títulos de valor,36,Austrália,12157,99.982,mirror
 2010,490700,Selos e títulos de valor,710,África do Sul,2,0.018,mirror
-2010,880330,Partes de aeronaves,276,Alemanha,4367,100.0,mirror
+2010,880330,Partes de aviões e helicópteros (ed. antiga),276,Alemanha,4367,100.0,mirror
 2010,901580,Instrumentos de topografia,498,Rep. of Moldova,655,100.0,mirror
 2010,999999,Mercadorias não especificadas,842,EUA,23679,52.996,mirror
 2010,999999,Mercadorias não especificadas,450,Madagáscar,14580,32.632,mirror
@@ -386,15 +386,15 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2010,999999,Mercadorias não especificadas,724,Espanha,598,1.339,mirror
 2010,999999,Mercadorias não especificadas,246,Finlândia,326,0.73,mirror
 2010,999999,Mercadorias não especificadas,24,Angola,288,0.645,mirror
-2011,080111,"Cocos, castanhas de caju e nozes",266,Gabão,9230,52.082,direct
-2011,080111,"Cocos, castanhas de caju e nozes",24,Angola,6248,35.256,direct
-2011,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,2244,12.662,direct
-2011,080119,"Cocos, castanhas de caju e nozes",120,Camarões,43168,57.06,direct
-2011,080119,"Cocos, castanhas de caju e nozes",24,Angola,25954,34.306,direct
-2011,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,3692,4.88,direct
-2011,080119,"Cocos, castanhas de caju e nozes",266,Gabão,2840,3.754,direct
-2011,090411,Pimenta e pimentão,620,Portugal,26838,100.0,direct
-2011,151319,Óleo de coco,620,Portugal,34648,100.0,direct
+2011,080111,Coco desidratado,266,Gabão,9230,52.082,direct
+2011,080111,Coco desidratado,24,Angola,6248,35.256,direct
+2011,080111,Coco desidratado,566,Nigéria,2244,12.662,direct
+2011,080119,"Coco fresco ou seco, outros",120,Camarões,43168,57.06,direct
+2011,080119,"Coco fresco ou seco, outros",24,Angola,25954,34.306,direct
+2011,080119,"Coco fresco ou seco, outros",566,Nigéria,3692,4.88,direct
+2011,080119,"Coco fresco ou seco, outros",266,Gabão,2840,3.754,direct
+2011,090411,Pimenta do reino,620,Portugal,26838,100.0,direct
+2011,151319,Óleo de coco refinado,620,Portugal,34648,100.0,direct
 2011,180100,Cacau,528,Países Baixos,2262294,43.275,direct
 2011,180100,Cacau,56,Bélgica,1720392,32.909,direct
 2011,180100,Cacau,620,Portugal,532635,10.189,direct
@@ -403,25 +403,25 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2011,180100,Cacau,724,Espanha,102128,1.954,direct
 2011,180100,Cacau,702,Singapura,81854,1.566,direct
 2011,180100,Cacau,36,Austrália,72697,1.391,direct
-2011,180610,Chocolate e preparações com cacau,380,Itália,34096,55.229,direct
-2011,180610,Chocolate e preparações com cacau,842,EUA,9584,15.524,direct
-2011,180610,Chocolate e preparações com cacau,266,Gabão,7689,12.455,direct
-2011,180610,Chocolate e preparações com cacau,251,França,5106,8.271,direct
-2011,180610,Chocolate e preparações com cacau,620,Portugal,3244,5.255,direct
-2011,180610,Chocolate e preparações com cacau,757,Suíça,2018,3.269,direct
-2011,180690,Chocolate e preparações com cacau,380,Itália,41141,68.873,direct
-2011,180690,Chocolate e preparações com cacau,620,Portugal,18595,31.129,direct
-2011,271011,Combustíveis refinados,899,"Areas, nes",4275137,83.869,direct
-2011,271011,Combustíveis refinados,24,Angola,748145,14.677,direct
-2011,271011,Combustíveis refinados,620,Portugal,74143,1.455,direct
+2011,180610,Cacau em pó com açúcar,380,Itália,34096,55.229,direct
+2011,180610,Cacau em pó com açúcar,842,EUA,9584,15.524,direct
+2011,180610,Cacau em pó com açúcar,266,Gabão,7689,12.455,direct
+2011,180610,Cacau em pó com açúcar,251,França,5106,8.271,direct
+2011,180610,Cacau em pó com açúcar,620,Portugal,3244,5.255,direct
+2011,180610,Cacau em pó com açúcar,757,Suíça,2018,3.269,direct
+2011,180690,Outras preparações de chocolate,380,Itália,41141,68.873,direct
+2011,180690,Outras preparações de chocolate,620,Portugal,18595,31.129,direct
+2011,271011,Óleos leves de petróleo (ed. antiga),899,"Areas, nes",4275137,83.869,direct
+2011,271011,Óleos leves de petróleo (ed. antiga),24,Angola,748145,14.677,direct
+2011,271011,Óleos leves de petróleo (ed. antiga),620,Portugal,74143,1.455,direct
 2011,630900,Vestuário usado,266,Gabão,4592,100.0,direct
-2011,870323,Automóveis de passageiros,24,Angola,47902,87.744,direct
-2011,870323,Automóveis de passageiros,620,Portugal,6691,12.256,direct
-2011,870333,Automóveis de passageiros,566,Nigéria,6118,100.0,direct
+2011,870323,Automóveis a gasolina 1.500–3.000 cm³,24,Angola,47902,87.744,direct
+2011,870323,Automóveis a gasolina 1.500–3.000 cm³,620,Portugal,6691,12.256,direct
+2011,870333,Automóveis diesel +2.500 cm³,566,Nigéria,6118,100.0,direct
 2011,999999,Mercadorias não especificadas,620,Portugal,5395,100.0,direct
-2011,080119,"Cocos, castanhas de caju e nozes",120,Camarões,6965,100.0,mirror
-2011,090411,Pimenta e pimentão,251,França,26835,100.0,mirror
-2011,151311,Óleo de coco,620,Portugal,44561,100.0,mirror
+2011,080119,"Coco fresco ou seco, outros",120,Camarões,6965,100.0,mirror
+2011,090411,Pimenta do reino,251,França,26835,100.0,mirror
+2011,151311,Óleo de coco em bruto,620,Portugal,44561,100.0,mirror
 2011,180100,Cacau,528,Países Baixos,2000029,46.548,mirror
 2011,180100,Cacau,251,França,956637,22.264,mirror
 2011,180100,Cacau,616,Polónia,632753,14.726,mirror
@@ -430,19 +430,19 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2011,180100,Cacau,643,Rússia,122616,2.854,mirror
 2011,180100,Cacau,124,Canadá,95823,2.23,mirror
 2011,180100,Cacau,56,Bélgica,75718,1.762,mirror
-2011,180632,Chocolate e preparações com cacau,380,Itália,104746,62.16,mirror
-2011,180632,Chocolate e preparações com cacau,842,EUA,20423,12.12,mirror
-2011,180632,Chocolate e preparações com cacau,251,França,19991,11.863,mirror
-2011,180632,Chocolate e preparações com cacau,757,Suíça,15157,8.995,mirror
-2011,180632,Chocolate e preparações com cacau,203,Chéquia,4708,2.794,mirror
-2011,180632,Chocolate e preparações com cacau,372,Irlanda,3389,2.011,mirror
-2011,180632,Chocolate e preparações com cacau,124,Canadá,97,0.058,mirror
-2011,180690,Chocolate e preparações com cacau,620,Portugal,44095,84.911,mirror
-2011,180690,Chocolate e preparações com cacau,842,EUA,7302,14.061,mirror
-2011,180690,Chocolate e preparações com cacau,251,França,534,1.028,mirror
-2011,870323,Automóveis de passageiros,214,República Dominicana,47305,100.0,mirror
-2011,870332,Automóveis de passageiros,266,Gabão,16510,100.0,mirror
-2011,880330,Partes de aeronaves,276,Alemanha,142796,100.0,mirror
+2011,180632,"Chocolate em tabletes, não recheado",380,Itália,104746,62.16,mirror
+2011,180632,"Chocolate em tabletes, não recheado",842,EUA,20423,12.12,mirror
+2011,180632,"Chocolate em tabletes, não recheado",251,França,19991,11.863,mirror
+2011,180632,"Chocolate em tabletes, não recheado",757,Suíça,15157,8.995,mirror
+2011,180632,"Chocolate em tabletes, não recheado",203,Chéquia,4708,2.794,mirror
+2011,180632,"Chocolate em tabletes, não recheado",372,Irlanda,3389,2.011,mirror
+2011,180632,"Chocolate em tabletes, não recheado",124,Canadá,97,0.058,mirror
+2011,180690,Outras preparações de chocolate,620,Portugal,44095,84.911,mirror
+2011,180690,Outras preparações de chocolate,842,EUA,7302,14.061,mirror
+2011,180690,Outras preparações de chocolate,251,França,534,1.028,mirror
+2011,870323,Automóveis a gasolina 1.500–3.000 cm³,214,República Dominicana,47305,100.0,mirror
+2011,870332,Automóveis diesel 1.500–2.500 cm³,266,Gabão,16510,100.0,mirror
+2011,880330,Partes de aviões e helicópteros (ed. antiga),276,Alemanha,142796,100.0,mirror
 2011,901580,Instrumentos de topografia,842,EUA,3288,100.0,mirror
 2011,999999,Mercadorias não especificadas,842,EUA,239246,82.58,mirror
 2011,999999,Mercadorias não especificadas,24,Angola,18244,6.297,mirror
@@ -452,15 +452,15 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2011,999999,Mercadorias não especificadas,344,Hong Kong (RAEHK),244,0.084,mirror
 2011,999999,Mercadorias não especificadas,208,Dinamarca,101,0.035,mirror
 2011,999999,Mercadorias não especificadas,716,Zimbabué,58,0.02,mirror
-2012,080111,"Cocos, castanhas de caju e nozes",120,Camarões,62702,72.95,direct
-2012,080111,"Cocos, castanhas de caju e nozes",24,Angola,15197,17.681,direct
-2012,080111,"Cocos, castanhas de caju e nozes",266,Gabão,5247,6.105,direct
-2012,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,2807,3.266,direct
-2012,080119,"Cocos, castanhas de caju e nozes",24,Angola,4470,46.5,direct
-2012,080119,"Cocos, castanhas de caju e nozes",266,Gabão,3673,38.209,direct
-2012,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,1469,15.281,direct
-2012,090411,Pimenta e pimentão,251,França,64658,100.0,direct
-2012,151319,Óleo de coco,620,Portugal,10494,100.0,direct
+2012,080111,Coco desidratado,120,Camarões,62702,72.95,direct
+2012,080111,Coco desidratado,24,Angola,15197,17.681,direct
+2012,080111,Coco desidratado,266,Gabão,5247,6.105,direct
+2012,080111,Coco desidratado,566,Nigéria,2807,3.266,direct
+2012,080119,"Coco fresco ou seco, outros",24,Angola,4470,46.5,direct
+2012,080119,"Coco fresco ou seco, outros",266,Gabão,3673,38.209,direct
+2012,080119,"Coco fresco ou seco, outros",566,Nigéria,1469,15.281,direct
+2012,090411,Pimenta do reino,251,França,64658,100.0,direct
+2012,151319,Óleo de coco refinado,620,Portugal,10494,100.0,direct
 2012,180100,Cacau,528,Países Baixos,2615493,54.159,direct
 2012,180100,Cacau,724,Espanha,615241,12.74,direct
 2012,180100,Cacau,792,Turquia,554378,11.479,direct
@@ -469,31 +469,31 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2012,180100,Cacau,276,Alemanha,151813,3.144,direct
 2012,180100,Cacau,620,Portugal,133394,2.762,direct
 2012,180100,Cacau,380,Itália,20112,0.416,direct
-2012,180610,Chocolate e preparações com cacau,380,Itália,76509,33.336,direct
-2012,180610,Chocolate e preparações com cacau,620,Portugal,45275,19.727,direct
-2012,180610,Chocolate e preparações com cacau,842,EUA,36818,16.042,direct
-2012,180610,Chocolate e preparações com cacau,251,França,29036,12.651,direct
-2012,180610,Chocolate e preparações com cacau,757,Suíça,23569,10.269,direct
-2012,180610,Chocolate e preparações com cacau,203,Chéquia,8711,3.795,direct
-2012,180610,Chocolate e preparações com cacau,266,Gabão,6949,3.028,direct
-2012,180610,Chocolate e preparações com cacau,276,Alemanha,2643,1.152,direct
-2012,271011,Combustíveis refinados,620,Portugal,45137,100.0,direct
+2012,180610,Cacau em pó com açúcar,380,Itália,76509,33.336,direct
+2012,180610,Cacau em pó com açúcar,620,Portugal,45275,19.727,direct
+2012,180610,Cacau em pó com açúcar,842,EUA,36818,16.042,direct
+2012,180610,Cacau em pó com açúcar,251,França,29036,12.651,direct
+2012,180610,Cacau em pó com açúcar,757,Suíça,23569,10.269,direct
+2012,180610,Cacau em pó com açúcar,203,Chéquia,8711,3.795,direct
+2012,180610,Cacau em pó com açúcar,266,Gabão,6949,3.028,direct
+2012,180610,Cacau em pó com açúcar,276,Alemanha,2643,1.152,direct
+2012,271011,Óleos leves de petróleo (ed. antiga),620,Portugal,45137,100.0,direct
 2012,490700,Selos e títulos de valor,120,Camarões,79566,100.0,direct
 2012,630900,Vestuário usado,76,Brasil,5019,41.018,direct
 2012,630900,Vestuário usado,620,Portugal,4127,33.728,direct
 2012,630900,Vestuário usado,266,Gabão,3090,25.253,direct
-2012,720410,Sucata ferrosa,566,Nigéria,3673,100.0,direct
-2012,870323,Automóveis de passageiros,226,Guiné Equatorial,7686,72.128,direct
-2012,870323,Automóveis de passageiros,120,Camarões,2970,27.872,direct
-2012,870332,Automóveis de passageiros,620,Portugal,53349,79.528,direct
-2012,870332,Automóveis de passageiros,226,Guiné Equatorial,9536,14.215,direct
-2012,870332,Automóveis de passageiros,566,Nigéria,4198,6.258,direct
-2012,870333,Automóveis de passageiros,24,Angola,33665,100.0,direct
+2012,720410,Sucata de ferro fundido,566,Nigéria,3673,100.0,direct
+2012,870323,Automóveis a gasolina 1.500–3.000 cm³,226,Guiné Equatorial,7686,72.128,direct
+2012,870323,Automóveis a gasolina 1.500–3.000 cm³,120,Camarões,2970,27.872,direct
+2012,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,53349,79.528,direct
+2012,870332,Automóveis diesel 1.500–2.500 cm³,226,Guiné Equatorial,9536,14.215,direct
+2012,870332,Automóveis diesel 1.500–2.500 cm³,566,Nigéria,4198,6.258,direct
+2012,870333,Automóveis diesel +2.500 cm³,24,Angola,33665,100.0,direct
 2012,901580,Instrumentos de topografia,620,Portugal,31420,100.0,direct
 2012,999999,Mercadorias não especificadas,620,Portugal,2442,100.0,direct
-2012,080119,"Cocos, castanhas de caju e nozes",120,Camarões,6224,100.0,mirror
-2012,090411,Pimenta e pimentão,251,França,42739,100.0,mirror
-2012,151311,Óleo de coco,620,Portugal,43410,100.0,mirror
+2012,080119,"Coco fresco ou seco, outros",120,Camarões,6224,100.0,mirror
+2012,090411,Pimenta do reino,251,França,42739,100.0,mirror
+2012,151311,Óleo de coco em bruto,620,Portugal,43410,100.0,mirror
 2012,180100,Cacau,528,Países Baixos,1978996,34.953,mirror
 2012,180100,Cacau,616,Polónia,1250491,22.086,mirror
 2012,180100,Cacau,724,Espanha,1086234,19.185,mirror
@@ -502,20 +502,20 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2012,180100,Cacau,380,Itália,152579,2.695,mirror
 2012,180100,Cacau,276,Alemanha,115483,2.04,mirror
 2012,180100,Cacau,124,Canadá,4012,0.071,mirror
-2012,180632,Chocolate e preparações com cacau,380,Itália,59188,54.777,mirror
-2012,180632,Chocolate e preparações com cacau,757,Suíça,23123,21.4,mirror
-2012,180632,Chocolate e preparações com cacau,203,Chéquia,10549,9.763,mirror
-2012,180632,Chocolate e preparações com cacau,842,EUA,10521,9.737,mirror
-2012,180632,Chocolate e preparações com cacau,251,França,4672,4.324,mirror
-2012,180690,Chocolate e preparações com cacau,620,Portugal,41971,50.745,mirror
-2012,180690,Chocolate e preparações com cacau,251,França,20443,24.717,mirror
-2012,180690,Chocolate e preparações com cacau,842,EUA,20295,24.538,mirror
+2012,180632,"Chocolate em tabletes, não recheado",380,Itália,59188,54.777,mirror
+2012,180632,"Chocolate em tabletes, não recheado",757,Suíça,23123,21.4,mirror
+2012,180632,"Chocolate em tabletes, não recheado",203,Chéquia,10549,9.763,mirror
+2012,180632,"Chocolate em tabletes, não recheado",842,EUA,10521,9.737,mirror
+2012,180632,"Chocolate em tabletes, não recheado",251,França,4672,4.324,mirror
+2012,180690,Outras preparações de chocolate,620,Portugal,41971,50.745,mirror
+2012,180690,Outras preparações de chocolate,251,França,20443,24.717,mirror
+2012,180690,Outras preparações de chocolate,842,EUA,20295,24.538,mirror
 2012,630900,Vestuário usado,562,Niger,35262,100.0,mirror
-2012,870323,Automóveis de passageiros,620,Portugal,10681,100.0,mirror
-2012,870332,Automóveis de passageiros,620,Portugal,66828,100.0,mirror
-2012,870333,Automóveis de passageiros,266,Gabão,272612,100.0,mirror
-2012,880330,Partes de aeronaves,276,Alemanha,2166,55.989,mirror
-2012,880330,Partes de aeronaves,702,Singapura,1703,44.011,mirror
+2012,870323,Automóveis a gasolina 1.500–3.000 cm³,620,Portugal,10681,100.0,mirror
+2012,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,66828,100.0,mirror
+2012,870333,Automóveis diesel +2.500 cm³,266,Gabão,272612,100.0,mirror
+2012,880330,Partes de aviões e helicópteros (ed. antiga),276,Alemanha,2166,55.989,mirror
+2012,880330,Partes de aviões e helicópteros (ed. antiga),702,Singapura,1703,44.011,mirror
 2012,901580,Instrumentos de topografia,620,Portugal,502,100.0,mirror
 2012,903300,Partes de instrumentos de precisão,484,México,1989,100.0,mirror
 2012,999999,Mercadorias não especificadas,842,EUA,26091,49.997,mirror
@@ -526,15 +526,15 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2012,999999,Mercadorias não especificadas,214,República Dominicana,1021,1.957,mirror
 2012,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),169,0.324,mirror
 2012,999999,Mercadorias não especificadas,72,Botsuana,108,0.206,mirror
-2013,080111,"Cocos, castanhas de caju e nozes",24,Angola,101102,79.369,direct
-2013,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,11995,9.416,direct
-2013,080111,"Cocos, castanhas de caju e nozes",120,Camarões,11522,9.045,direct
-2013,080111,"Cocos, castanhas de caju e nozes",266,Gabão,1464,1.149,direct
-2013,080111,"Cocos, castanhas de caju e nozes",132,Cabo Verde,1301,1.021,direct
-2013,080119,"Cocos, castanhas de caju e nozes",24,Angola,12159,98.358,direct
-2013,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,203,1.642,direct
-2013,090411,Pimenta e pimentão,251,França,30860,100.0,direct
-2013,151319,Óleo de coco,620,Portugal,7591,100.0,direct
+2013,080111,Coco desidratado,24,Angola,101102,79.369,direct
+2013,080111,Coco desidratado,566,Nigéria,11995,9.416,direct
+2013,080111,Coco desidratado,120,Camarões,11522,9.045,direct
+2013,080111,Coco desidratado,266,Gabão,1464,1.149,direct
+2013,080111,Coco desidratado,132,Cabo Verde,1301,1.021,direct
+2013,080119,"Coco fresco ou seco, outros",24,Angola,12159,98.358,direct
+2013,080119,"Coco fresco ou seco, outros",566,Nigéria,203,1.642,direct
+2013,090411,Pimenta do reino,251,França,30860,100.0,direct
+2013,151319,Óleo de coco refinado,620,Portugal,7591,100.0,direct
 2013,180100,Cacau,528,Países Baixos,1945418,35.925,direct
 2013,180100,Cacau,56,Bélgica,1105083,20.407,direct
 2013,180100,Cacau,724,Espanha,733206,13.54,direct
@@ -543,29 +543,29 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2013,180100,Cacau,276,Alemanha,293555,5.421,direct
 2013,180100,Cacau,620,Portugal,239785,4.428,direct
 2013,180100,Cacau,380,Itália,25194,0.465,direct
-2013,180610,Chocolate e preparações com cacau,842,EUA,64148,27.951,direct
-2013,180610,Chocolate e preparações com cacau,380,Itália,52012,22.663,direct
-2013,180610,Chocolate e preparações com cacau,251,França,29080,12.671,direct
-2013,180610,Chocolate e preparações com cacau,620,Portugal,21090,9.189,direct
-2013,180610,Chocolate e preparações com cacau,266,Gabão,19873,8.659,direct
-2013,180610,Chocolate e preparações com cacau,757,Suíça,17595,7.667,direct
-2013,180610,Chocolate e preparações com cacau,203,Chéquia,12656,5.515,direct
-2013,180610,Chocolate e preparações com cacau,276,Alemanha,8528,3.716,direct
+2013,180610,Cacau em pó com açúcar,842,EUA,64148,27.951,direct
+2013,180610,Cacau em pó com açúcar,380,Itália,52012,22.663,direct
+2013,180610,Cacau em pó com açúcar,251,França,29080,12.671,direct
+2013,180610,Cacau em pó com açúcar,620,Portugal,21090,9.189,direct
+2013,180610,Cacau em pó com açúcar,266,Gabão,19873,8.659,direct
+2013,180610,Cacau em pó com açúcar,757,Suíça,17595,7.667,direct
+2013,180610,Cacau em pó com açúcar,203,Chéquia,12656,5.515,direct
+2013,180610,Cacau em pó com açúcar,276,Alemanha,8528,3.716,direct
 2013,630900,Vestuário usado,757,Suíça,103626,80.794,direct
 2013,630900,Vestuário usado,620,Portugal,20218,15.763,direct
 2013,630900,Vestuário usado,251,França,3401,2.652,direct
 2013,630900,Vestuário usado,490,Taiwan (Prov. China),542,0.423,direct
 2013,630900,Vestuário usado,710,África do Sul,473,0.369,direct
-2013,720410,Sucata ferrosa,566,Nigéria,2440,100.0,direct
-2013,870333,Automóveis de passageiros,24,Angola,37945,78.732,direct
-2013,870333,Automóveis de passageiros,266,Gabão,10250,21.268,direct
-2013,080111,"Cocos, castanhas de caju e nozes",24,Angola,16254,93.164,mirror
-2013,080111,"Cocos, castanhas de caju e nozes",132,Cabo Verde,1165,6.675,mirror
-2013,080111,"Cocos, castanhas de caju e nozes",120,Camarões,28,0.16,mirror
-2013,080119,"Cocos, castanhas de caju e nozes",24,Angola,48859,95.257,mirror
-2013,080119,"Cocos, castanhas de caju e nozes",120,Camarões,2433,4.743,mirror
-2013,090411,Pimenta e pimentão,251,França,55011,100.0,mirror
-2013,151311,Óleo de coco,620,Portugal,10757,100.0,mirror
+2013,720410,Sucata de ferro fundido,566,Nigéria,2440,100.0,direct
+2013,870333,Automóveis diesel +2.500 cm³,24,Angola,37945,78.732,direct
+2013,870333,Automóveis diesel +2.500 cm³,266,Gabão,10250,21.268,direct
+2013,080111,Coco desidratado,24,Angola,16254,93.164,mirror
+2013,080111,Coco desidratado,132,Cabo Verde,1165,6.675,mirror
+2013,080111,Coco desidratado,120,Camarões,28,0.16,mirror
+2013,080119,"Coco fresco ou seco, outros",24,Angola,48859,95.257,mirror
+2013,080119,"Coco fresco ou seco, outros",120,Camarões,2433,4.743,mirror
+2013,090411,Pimenta do reino,251,França,55011,100.0,mirror
+2013,151311,Óleo de coco em bruto,620,Portugal,10757,100.0,mirror
 2013,180100,Cacau,616,Polónia,1578821,29.072,mirror
 2013,180100,Cacau,528,Países Baixos,1073297,19.764,mirror
 2013,180100,Cacau,251,França,809673,14.909,mirror
@@ -574,20 +574,20 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2013,180100,Cacau,792,Turquia,374677,6.899,mirror
 2013,180100,Cacau,56,Bélgica,175547,3.233,mirror
 2013,180100,Cacau,380,Itália,31898,0.587,mirror
-2013,180632,Chocolate e preparações com cacau,380,Itália,68200,74.472,mirror
-2013,180632,Chocolate e preparações com cacau,757,Suíça,14466,15.797,mirror
-2013,180632,Chocolate e preparações com cacau,276,Alemanha,8874,9.69,mirror
-2013,180632,Chocolate e preparações com cacau,748,Eswatini,38,0.042,mirror
-2013,180690,Chocolate e preparações com cacau,842,EUA,71346,55.383,mirror
-2013,180690,Chocolate e preparações com cacau,251,França,28266,21.942,mirror
-2013,180690,Chocolate e preparações com cacau,620,Portugal,17387,13.497,mirror
-2013,180690,Chocolate e preparações com cacau,203,Chéquia,11824,9.178,mirror
+2013,180632,"Chocolate em tabletes, não recheado",380,Itália,68200,74.472,mirror
+2013,180632,"Chocolate em tabletes, não recheado",757,Suíça,14466,15.797,mirror
+2013,180632,"Chocolate em tabletes, não recheado",276,Alemanha,8874,9.69,mirror
+2013,180632,"Chocolate em tabletes, não recheado",748,Eswatini,38,0.042,mirror
+2013,180690,Outras preparações de chocolate,842,EUA,71346,55.383,mirror
+2013,180690,Outras preparações de chocolate,251,França,28266,21.942,mirror
+2013,180690,Outras preparações de chocolate,620,Portugal,17387,13.497,mirror
+2013,180690,Outras preparações de chocolate,203,Chéquia,11824,9.178,mirror
 2013,630900,Vestuário usado,620,Portugal,133,73.077,mirror
 2013,630900,Vestuário usado,288,Gana,49,26.923,mirror
-2013,870333,Automóveis de passageiros,24,Angola,19404,100.0,mirror
-2013,880330,Partes de aeronaves,276,Alemanha,6678,52.198,mirror
-2013,880330,Partes de aeronaves,764,Tailândia,5405,42.245,mirror
-2013,880330,Partes de aeronaves,124,Canadá,711,5.557,mirror
+2013,870333,Automóveis diesel +2.500 cm³,24,Angola,19404,100.0,mirror
+2013,880330,Partes de aviões e helicópteros (ed. antiga),276,Alemanha,6678,52.198,mirror
+2013,880330,Partes de aviões e helicópteros (ed. antiga),764,Tailândia,5405,42.245,mirror
+2013,880330,Partes de aviões e helicópteros (ed. antiga),124,Canadá,711,5.557,mirror
 2013,903300,Partes de instrumentos de precisão,484,México,3824,100.0,mirror
 2013,999999,Mercadorias não especificadas,251,França,18601,33.051,mirror
 2013,999999,Mercadorias não especificadas,842,EUA,15860,28.181,mirror
@@ -597,18 +597,18 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2013,999999,Mercadorias não especificadas,724,Espanha,1672,2.971,mirror
 2013,999999,Mercadorias não especificadas,214,República Dominicana,824,1.464,mirror
 2013,999999,Mercadorias não especificadas,586,Paquistão,122,0.217,mirror
-2014,080111,"Cocos, castanhas de caju e nozes",24,Angola,133620,85.083,direct
-2014,080111,"Cocos, castanhas de caju e nozes",120,Camarões,11390,7.253,direct
-2014,080111,"Cocos, castanhas de caju e nozes",724,Espanha,5662,3.605,direct
-2014,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,2848,1.813,direct
-2014,080111,"Cocos, castanhas de caju e nozes",132,Cabo Verde,2441,1.554,direct
-2014,080111,"Cocos, castanhas de caju e nozes",266,Gabão,1085,0.691,direct
-2014,080119,"Cocos, castanhas de caju e nozes",24,Angola,4339,63.242,direct
-2014,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,2305,33.596,direct
-2014,080119,"Cocos, castanhas de caju e nozes",132,Cabo Verde,217,3.163,direct
-2014,090411,Pimenta e pimentão,251,França,140694,99.693,direct
-2014,090411,Pimenta e pimentão,266,Gabão,433,0.307,direct
-2014,151311,Óleo de coco,24,Angola,3037,100.0,direct
+2014,080111,Coco desidratado,24,Angola,133620,85.083,direct
+2014,080111,Coco desidratado,120,Camarões,11390,7.253,direct
+2014,080111,Coco desidratado,724,Espanha,5662,3.605,direct
+2014,080111,Coco desidratado,566,Nigéria,2848,1.813,direct
+2014,080111,Coco desidratado,132,Cabo Verde,2441,1.554,direct
+2014,080111,Coco desidratado,266,Gabão,1085,0.691,direct
+2014,080119,"Coco fresco ou seco, outros",24,Angola,4339,63.242,direct
+2014,080119,"Coco fresco ou seco, outros",566,Nigéria,2305,33.596,direct
+2014,080119,"Coco fresco ou seco, outros",132,Cabo Verde,217,3.163,direct
+2014,090411,Pimenta do reino,251,França,140694,99.693,direct
+2014,090411,Pimenta do reino,266,Gabão,433,0.307,direct
+2014,151311,Óleo de coco em bruto,24,Angola,3037,100.0,direct
 2014,180100,Cacau,56,Bélgica,2518950,26.984,direct
 2014,180100,Cacau,528,Países Baixos,2203931,23.61,direct
 2014,180100,Cacau,724,Espanha,2084149,22.327,direct
@@ -617,38 +617,38 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2014,180100,Cacau,757,Suíça,424379,4.546,direct
 2014,180100,Cacau,531,Curaçao,63814,0.684,direct
 2014,180100,Cacau,12,Argélia,43292,0.464,direct
-2014,180610,Chocolate e preparações com cacau,380,Itália,7981,45.129,direct
-2014,180610,Chocolate e preparações com cacau,266,Gabão,4335,24.512,direct
-2014,180610,Chocolate e preparações com cacau,757,Suíça,2872,16.24,direct
-2014,180610,Chocolate e preparações com cacau,276,Alemanha,2497,14.119,direct
-2014,180632,Chocolate e preparações com cacau,842,EUA,19387,71.6,direct
-2014,180632,Chocolate e preparações com cacau,757,Suíça,3010,11.116,direct
-2014,180632,Chocolate e preparações com cacau,276,Alemanha,2343,8.653,direct
-2014,180632,Chocolate e preparações com cacau,266,Gabão,2337,8.631,direct
-2014,180690,Chocolate e preparações com cacau,380,Itália,9288,37.759,direct
-2014,180690,Chocolate e preparações com cacau,842,EUA,4432,18.018,direct
-2014,180690,Chocolate e preparações com cacau,276,Alemanha,3084,12.538,direct
-2014,180690,Chocolate e preparações com cacau,251,França,2573,10.46,direct
-2014,180690,Chocolate e preparações com cacau,528,Países Baixos,2420,9.838,direct
-2014,180690,Chocolate e preparações com cacau,757,Suíça,1185,4.817,direct
-2014,180690,Chocolate e preparações com cacau,266,Gabão,811,3.297,direct
-2014,180690,Chocolate e preparações com cacau,203,Chéquia,805,3.273,direct
+2014,180610,Cacau em pó com açúcar,380,Itália,7981,45.129,direct
+2014,180610,Cacau em pó com açúcar,266,Gabão,4335,24.512,direct
+2014,180610,Cacau em pó com açúcar,757,Suíça,2872,16.24,direct
+2014,180610,Cacau em pó com açúcar,276,Alemanha,2497,14.119,direct
+2014,180632,"Chocolate em tabletes, não recheado",842,EUA,19387,71.6,direct
+2014,180632,"Chocolate em tabletes, não recheado",757,Suíça,3010,11.116,direct
+2014,180632,"Chocolate em tabletes, não recheado",276,Alemanha,2343,8.653,direct
+2014,180632,"Chocolate em tabletes, não recheado",266,Gabão,2337,8.631,direct
+2014,180690,Outras preparações de chocolate,380,Itália,9288,37.759,direct
+2014,180690,Outras preparações de chocolate,842,EUA,4432,18.018,direct
+2014,180690,Outras preparações de chocolate,276,Alemanha,3084,12.538,direct
+2014,180690,Outras preparações de chocolate,251,França,2573,10.46,direct
+2014,180690,Outras preparações de chocolate,528,Países Baixos,2420,9.838,direct
+2014,180690,Outras preparações de chocolate,757,Suíça,1185,4.817,direct
+2014,180690,Outras preparações de chocolate,266,Gabão,811,3.297,direct
+2014,180690,Outras preparações de chocolate,203,Chéquia,805,3.273,direct
 2014,630900,Vestuário usado,120,Camarões,2206,84.814,direct
 2014,630900,Vestuário usado,76,Brasil,296,11.38,direct
 2014,630900,Vestuário usado,620,Portugal,100,3.845,direct
-2014,720410,Sucata ferrosa,120,Camarões,4339,72.729,direct
-2014,720410,Sucata ferrosa,566,Nigéria,1627,27.271,direct
-2014,870323,Automóveis de passageiros,120,Camarões,13235,71.129,direct
-2014,870323,Automóveis de passageiros,24,Angola,5373,28.876,direct
-2014,870333,Automóveis de passageiros,566,Nigéria,6623,100.0,direct
+2014,720410,Sucata de ferro fundido,120,Camarões,4339,72.729,direct
+2014,720410,Sucata de ferro fundido,566,Nigéria,1627,27.271,direct
+2014,870323,Automóveis a gasolina 1.500–3.000 cm³,120,Camarões,13235,71.129,direct
+2014,870323,Automóveis a gasolina 1.500–3.000 cm³,24,Angola,5373,28.876,direct
+2014,870333,Automóveis diesel +2.500 cm³,566,Nigéria,6623,100.0,direct
 2014,999999,Mercadorias não especificadas,251,França,146,90.683,direct
 2014,999999,Mercadorias não especificadas,76,Brasil,15,9.317,direct
-2014,080111,"Cocos, castanhas de caju e nozes",24,Angola,13125,94.683,mirror
-2014,080111,"Cocos, castanhas de caju e nozes",120,Camarões,737,5.317,mirror
-2014,080119,"Cocos, castanhas de caju e nozes",24,Angola,18525,97.995,mirror
-2014,080119,"Cocos, castanhas de caju e nozes",120,Camarões,379,2.005,mirror
-2014,090411,Pimenta e pimentão,251,França,3305,100.0,mirror
-2014,151311,Óleo de coco,620,Portugal,3931,100.0,mirror
+2014,080111,Coco desidratado,24,Angola,13125,94.683,mirror
+2014,080111,Coco desidratado,120,Camarões,737,5.317,mirror
+2014,080119,"Coco fresco ou seco, outros",24,Angola,18525,97.995,mirror
+2014,080119,"Coco fresco ou seco, outros",120,Camarões,379,2.005,mirror
+2014,090411,Pimenta do reino,251,França,3305,100.0,mirror
+2014,151311,Óleo de coco em bruto,620,Portugal,3931,100.0,mirror
 2014,180100,Cacau,616,Polónia,2731885,37.436,mirror
 2014,180100,Cacau,251,França,1397875,19.156,mirror
 2014,180100,Cacau,724,Espanha,1353856,18.552,mirror
@@ -657,13 +657,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2014,180100,Cacau,56,Bélgica,437106,5.99,mirror
 2014,180100,Cacau,12,Argélia,46130,0.632,mirror
 2014,180100,Cacau,380,Itália,40476,0.555,mirror
-2014,180632,Chocolate e preparações com cacau,380,Itália,69743,71.032,mirror
-2014,180632,Chocolate e preparações com cacau,528,Países Baixos,17575,17.9,mirror
-2014,180632,Chocolate e preparações com cacau,757,Suíça,10867,11.068,mirror
-2014,180690,Chocolate e preparações com cacau,842,EUA,84261,69.244,mirror
-2014,180690,Chocolate e preparações com cacau,251,França,31379,25.787,mirror
-2014,180690,Chocolate e preparações com cacau,203,Chéquia,6047,4.969,mirror
-2014,720410,Sucata ferrosa,620,Portugal,89429,100.0,mirror
+2014,180632,"Chocolate em tabletes, não recheado",380,Itália,69743,71.032,mirror
+2014,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,17575,17.9,mirror
+2014,180632,"Chocolate em tabletes, não recheado",757,Suíça,10867,11.068,mirror
+2014,180690,Outras preparações de chocolate,842,EUA,84261,69.244,mirror
+2014,180690,Outras preparações de chocolate,251,França,31379,25.787,mirror
+2014,180690,Outras preparações de chocolate,203,Chéquia,6047,4.969,mirror
+2014,720410,Sucata de ferro fundido,620,Portugal,89429,100.0,mirror
 2014,999999,Mercadorias não especificadas,842,EUA,126486,79.605,mirror
 2014,999999,Mercadorias não especificadas,484,México,26145,16.455,mirror
 2014,999999,Mercadorias não especificadas,251,França,1855,1.167,mirror
@@ -671,20 +671,20 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2014,999999,Mercadorias não especificadas,214,República Dominicana,1203,0.757,mirror
 2014,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),991,0.624,mirror
 2014,999999,Mercadorias não especificadas,218,Equador,574,0.361,mirror
-2015,080111,"Cocos, castanhas de caju e nozes",24,Angola,121422,90.117,direct
-2015,080111,"Cocos, castanhas de caju e nozes",120,Camarões,9760,7.244,direct
-2015,080111,"Cocos, castanhas de caju e nozes",266,Gabão,1812,1.345,direct
-2015,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,1381,1.025,direct
-2015,080111,"Cocos, castanhas de caju e nozes",620,Portugal,272,0.202,direct
-2015,080111,"Cocos, castanhas de caju e nozes",132,Cabo Verde,91,0.068,direct
-2015,080119,"Cocos, castanhas de caju e nozes",24,Angola,1947,82.675,direct
-2015,080119,"Cocos, castanhas de caju e nozes",620,Portugal,272,11.55,direct
-2015,080119,"Cocos, castanhas de caju e nozes",132,Cabo Verde,136,5.775,direct
-2015,090411,Pimenta e pimentão,380,Itália,14818,92.734,direct
-2015,090411,Pimenta e pimentão,251,França,1162,7.272,direct
-2015,090420,Pimenta e pimentão,251,França,87293,99.587,direct
-2015,090420,Pimenta e pimentão,266,Gabão,363,0.414,direct
-2015,151319,Óleo de coco,266,Gabão,217,100.0,direct
+2015,080111,Coco desidratado,24,Angola,121422,90.117,direct
+2015,080111,Coco desidratado,120,Camarões,9760,7.244,direct
+2015,080111,Coco desidratado,266,Gabão,1812,1.345,direct
+2015,080111,Coco desidratado,566,Nigéria,1381,1.025,direct
+2015,080111,Coco desidratado,620,Portugal,272,0.202,direct
+2015,080111,Coco desidratado,132,Cabo Verde,91,0.068,direct
+2015,080119,"Coco fresco ou seco, outros",24,Angola,1947,82.675,direct
+2015,080119,"Coco fresco ou seco, outros",620,Portugal,272,11.55,direct
+2015,080119,"Coco fresco ou seco, outros",132,Cabo Verde,136,5.775,direct
+2015,090411,Pimenta do reino,380,Itália,14818,92.734,direct
+2015,090411,Pimenta do reino,251,França,1162,7.272,direct
+2015,090420,"Piri-piri e pimentão, secos (ed. antiga)",251,França,87293,99.587,direct
+2015,090420,"Piri-piri e pimentão, secos (ed. antiga)",266,Gabão,363,0.414,direct
+2015,151319,Óleo de coco refinado,266,Gabão,217,100.0,direct
 2015,180100,Cacau,528,Países Baixos,3286872,41.085,direct
 2015,180100,Cacau,56,Bélgica,2264512,28.306,direct
 2015,180100,Cacau,724,Espanha,693010,8.662,direct
@@ -693,35 +693,35 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2015,180100,Cacau,251,França,340037,4.25,direct
 2015,180100,Cacau,380,Itália,328231,4.103,direct
 2015,180100,Cacau,620,Portugal,170442,2.13,direct
-2015,180610,Chocolate e preparações com cacau,266,Gabão,111,100.0,direct
-2015,180632,Chocolate e preparações com cacau,842,EUA,58195,35.432,direct
-2015,180632,Chocolate e preparações com cacau,380,Itália,46551,28.343,direct
-2015,180632,Chocolate e preparações com cacau,251,França,28284,17.221,direct
-2015,180632,Chocolate e preparações com cacau,276,Alemanha,14686,8.942,direct
-2015,180632,Chocolate e preparações com cacau,528,Países Baixos,13294,8.094,direct
-2015,180632,Chocolate e preparações com cacau,266,Gabão,3233,1.968,direct
-2015,180690,Chocolate e preparações com cacau,842,EUA,7975,24.624,direct
-2015,180690,Chocolate e preparações com cacau,251,França,6762,20.879,direct
-2015,180690,Chocolate e preparações com cacau,380,Itália,6493,20.048,direct
-2015,180690,Chocolate e preparações com cacau,266,Gabão,5781,17.85,direct
-2015,180690,Chocolate e preparações com cacau,276,Alemanha,3350,10.344,direct
-2015,180690,Chocolate e preparações com cacau,528,Países Baixos,2026,6.256,direct
+2015,180610,Cacau em pó com açúcar,266,Gabão,111,100.0,direct
+2015,180632,"Chocolate em tabletes, não recheado",842,EUA,58195,35.432,direct
+2015,180632,"Chocolate em tabletes, não recheado",380,Itália,46551,28.343,direct
+2015,180632,"Chocolate em tabletes, não recheado",251,França,28284,17.221,direct
+2015,180632,"Chocolate em tabletes, não recheado",276,Alemanha,14686,8.942,direct
+2015,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,13294,8.094,direct
+2015,180632,"Chocolate em tabletes, não recheado",266,Gabão,3233,1.968,direct
+2015,180690,Outras preparações de chocolate,842,EUA,7975,24.624,direct
+2015,180690,Outras preparações de chocolate,251,França,6762,20.879,direct
+2015,180690,Outras preparações de chocolate,380,Itália,6493,20.048,direct
+2015,180690,Outras preparações de chocolate,266,Gabão,5781,17.85,direct
+2015,180690,Outras preparações de chocolate,276,Alemanha,3350,10.344,direct
+2015,180690,Outras preparações de chocolate,528,Países Baixos,2026,6.256,direct
 2015,630900,Vestuário usado,620,Portugal,13863,55.697,direct
 2015,630900,Vestuário usado,508,Moçambique,8877,35.665,direct
 2015,630900,Vestuário usado,566,Nigéria,1792,7.2,direct
 2015,630900,Vestuário usado,710,África do Sul,222,0.892,direct
 2015,630900,Vestuário usado,132,Cabo Verde,136,0.546,direct
-2015,720410,Sucata ferrosa,620,Portugal,117960,98.302,direct
-2015,720410,Sucata ferrosa,566,Nigéria,2038,1.698,direct
-2015,870323,Automóveis de passageiros,24,Angola,5074,50.447,direct
-2015,870323,Automóveis de passageiros,266,Gabão,4984,49.553,direct
-2015,870332,Automóveis de passageiros,620,Portugal,33288,85.754,direct
-2015,870332,Automóveis de passageiros,566,Nigéria,5530,14.246,direct
-2015,080111,"Cocos, castanhas de caju e nozes",120,Camarões,220,100.0,mirror
-2015,080119,"Cocos, castanhas de caju e nozes",24,Angola,21042,99.283,mirror
-2015,080119,"Cocos, castanhas de caju e nozes",120,Camarões,152,0.717,mirror
-2015,090411,Pimenta e pimentão,251,França,118722,88.582,mirror
-2015,090411,Pimenta e pimentão,380,Itália,15303,11.418,mirror
+2015,720410,Sucata de ferro fundido,620,Portugal,117960,98.302,direct
+2015,720410,Sucata de ferro fundido,566,Nigéria,2038,1.698,direct
+2015,870323,Automóveis a gasolina 1.500–3.000 cm³,24,Angola,5074,50.447,direct
+2015,870323,Automóveis a gasolina 1.500–3.000 cm³,266,Gabão,4984,49.553,direct
+2015,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,33288,85.754,direct
+2015,870332,Automóveis diesel 1.500–2.500 cm³,566,Nigéria,5530,14.246,direct
+2015,080111,Coco desidratado,120,Camarões,220,100.0,mirror
+2015,080119,"Coco fresco ou seco, outros",24,Angola,21042,99.283,mirror
+2015,080119,"Coco fresco ou seco, outros",120,Camarões,152,0.717,mirror
+2015,090411,Pimenta do reino,251,França,118722,88.582,mirror
+2015,090411,Pimenta do reino,380,Itália,15303,11.418,mirror
 2015,180100,Cacau,616,Polónia,3038868,35.323,mirror
 2015,180100,Cacau,724,Espanha,1805094,20.982,mirror
 2015,180100,Cacau,56,Bélgica,1789530,20.801,mirror
@@ -730,17 +730,17 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2015,180100,Cacau,380,Itália,335896,3.904,mirror
 2015,180100,Cacau,276,Alemanha,296436,3.446,mirror
 2015,180100,Cacau,528,Países Baixos,287718,3.344,mirror
-2015,180632,Chocolate e preparações com cacau,528,Países Baixos,18504,51.559,mirror
-2015,180632,Chocolate e preparações com cacau,320,Guatemala,13257,36.939,mirror
-2015,180632,Chocolate e preparações com cacau,380,Itália,3930,10.95,mirror
-2015,180632,Chocolate e preparações com cacau,540,New Caledonia,198,0.552,mirror
-2015,180690,Chocolate e preparações com cacau,251,França,233260,63.048,mirror
-2015,180690,Chocolate e preparações com cacau,842,EUA,73704,19.921,mirror
-2015,180690,Chocolate e preparações com cacau,380,Itália,58122,15.71,mirror
-2015,180690,Chocolate e preparações com cacau,203,Chéquia,4889,1.321,mirror
-2015,720410,Sucata ferrosa,620,Portugal,53113,100.0,mirror
-2015,880330,Partes de aeronaves,608,Filipinas,5313,93.648,mirror
-2015,880330,Partes de aeronaves,528,Países Baixos,360,6.352,mirror
+2015,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,18504,51.559,mirror
+2015,180632,"Chocolate em tabletes, não recheado",320,Guatemala,13257,36.939,mirror
+2015,180632,"Chocolate em tabletes, não recheado",380,Itália,3930,10.95,mirror
+2015,180632,"Chocolate em tabletes, não recheado",540,New Caledonia,198,0.552,mirror
+2015,180690,Outras preparações de chocolate,251,França,233260,63.048,mirror
+2015,180690,Outras preparações de chocolate,842,EUA,73704,19.921,mirror
+2015,180690,Outras preparações de chocolate,380,Itália,58122,15.71,mirror
+2015,180690,Outras preparações de chocolate,203,Chéquia,4889,1.321,mirror
+2015,720410,Sucata de ferro fundido,620,Portugal,53113,100.0,mirror
+2015,880330,Partes de aviões e helicópteros (ed. antiga),608,Filipinas,5313,93.648,mirror
+2015,880330,Partes de aviões e helicópteros (ed. antiga),528,Países Baixos,360,6.352,mirror
 2015,999999,Mercadorias não especificadas,842,EUA,139753,45.259,mirror
 2015,999999,Mercadorias não especificadas,208,Dinamarca,109346,35.412,mirror
 2015,999999,Mercadorias não especificadas,484,México,24811,8.035,mirror
@@ -749,16 +749,16 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2015,999999,Mercadorias não especificadas,214,República Dominicana,1549,0.502,mirror
 2015,999999,Mercadorias não especificadas,344,Hong Kong (RAEHK),1361,0.441,mirror
 2015,999999,Mercadorias não especificadas,710,África do Sul,258,0.083,mirror
-2016,080111,"Cocos, castanhas de caju e nozes",838,Free Zones,170962,98.382,direct
-2016,080111,"Cocos, castanhas de caju e nozes",24,Angola,2813,1.619,direct
-2016,080119,"Cocos, castanhas de caju e nozes",838,Free Zones,6300,100.0,direct
-2016,090411,Pimenta e pimentão,838,Free Zones,170405,99.911,direct
-2016,090411,Pimenta e pimentão,266,Gabão,152,0.089,direct
-2016,151311,Óleo de coco,132,Cabo Verde,203,60.059,direct
-2016,151311,Óleo de coco,838,Free Zones,135,39.941,direct
-2016,151319,Óleo de coco,266,Gabão,821,58.559,direct
-2016,151319,Óleo de coco,838,Free Zones,360,25.678,direct
-2016,151319,Óleo de coco,24,Angola,221,15.763,direct
+2016,080111,Coco desidratado,838,Free Zones,170962,98.382,direct
+2016,080111,Coco desidratado,24,Angola,2813,1.619,direct
+2016,080119,"Coco fresco ou seco, outros",838,Free Zones,6300,100.0,direct
+2016,090411,Pimenta do reino,838,Free Zones,170405,99.911,direct
+2016,090411,Pimenta do reino,266,Gabão,152,0.089,direct
+2016,151311,Óleo de coco em bruto,132,Cabo Verde,203,60.059,direct
+2016,151311,Óleo de coco em bruto,838,Free Zones,135,39.941,direct
+2016,151319,Óleo de coco refinado,266,Gabão,821,58.559,direct
+2016,151319,Óleo de coco refinado,838,Free Zones,360,25.678,direct
+2016,151319,Óleo de coco refinado,24,Angola,221,15.763,direct
 2016,180100,Cacau,838,Free Zones,7943756,91.825,direct
 2016,180100,Cacau,276,Alemanha,422043,4.879,direct
 2016,180100,Cacau,528,Países Baixos,251363,2.906,direct
@@ -766,35 +766,35 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2016,180100,Cacau,899,"Areas, nes",440,0.005,direct
 2016,180100,Cacau,620,Portugal,379,0.004,direct
 2016,180100,Cacau,266,Gabão,367,0.004,direct
-2016,180632,Chocolate e preparações com cacau,838,Free Zones,124368,83.912,direct
-2016,180632,Chocolate e preparações com cacau,620,Portugal,14901,10.054,direct
-2016,180632,Chocolate e preparações com cacau,251,França,6383,4.307,direct
-2016,180632,Chocolate e preparações com cacau,899,"Areas, nes",1559,1.052,direct
-2016,180632,Chocolate e preparações com cacau,276,Alemanha,902,0.609,direct
-2016,180632,Chocolate e preparações com cacau,266,Gabão,99,0.067,direct
-2016,180690,Chocolate e preparações com cacau,838,Free Zones,21115,76.523,direct
-2016,180690,Chocolate e preparações com cacau,276,Alemanha,1997,7.237,direct
-2016,180690,Chocolate e preparações com cacau,266,Gabão,1686,6.11,direct
-2016,180690,Chocolate e preparações com cacau,620,Portugal,1165,4.222,direct
-2016,180690,Chocolate e preparações com cacau,899,"Areas, nes",810,2.936,direct
-2016,180690,Chocolate e preparações com cacau,251,França,732,2.653,direct
-2016,180690,Chocolate e preparações com cacau,528,Países Baixos,88,0.319,direct
+2016,180632,"Chocolate em tabletes, não recheado",838,Free Zones,124368,83.912,direct
+2016,180632,"Chocolate em tabletes, não recheado",620,Portugal,14901,10.054,direct
+2016,180632,"Chocolate em tabletes, não recheado",251,França,6383,4.307,direct
+2016,180632,"Chocolate em tabletes, não recheado",899,"Areas, nes",1559,1.052,direct
+2016,180632,"Chocolate em tabletes, não recheado",276,Alemanha,902,0.609,direct
+2016,180632,"Chocolate em tabletes, não recheado",266,Gabão,99,0.067,direct
+2016,180690,Outras preparações de chocolate,838,Free Zones,21115,76.523,direct
+2016,180690,Outras preparações de chocolate,276,Alemanha,1997,7.237,direct
+2016,180690,Outras preparações de chocolate,266,Gabão,1686,6.11,direct
+2016,180690,Outras preparações de chocolate,620,Portugal,1165,4.222,direct
+2016,180690,Outras preparações de chocolate,899,"Areas, nes",810,2.936,direct
+2016,180690,Outras preparações de chocolate,251,França,732,2.653,direct
+2016,180690,Outras preparações de chocolate,528,Países Baixos,88,0.319,direct
 2016,630900,Vestuário usado,838,Free Zones,6161,77.312,direct
 2016,630900,Vestuário usado,24,Angola,1076,13.502,direct
 2016,630900,Vestuário usado,620,Portugal,619,7.768,direct
 2016,630900,Vestuário usado,266,Gabão,113,1.418,direct
-2016,720410,Sucata ferrosa,838,Free Zones,39245,90.47,direct
-2016,720410,Sucata ferrosa,620,Portugal,4134,9.53,direct
-2016,851712,Aparelhos de telecomunicações,838,Free Zones,676084,100.0,direct
-2016,870323,Automóveis de passageiros,838,Free Zones,41719,80.081,direct
-2016,870323,Automóveis de passageiros,392,Japão,10377,19.919,direct
-2016,870333,Automóveis de passageiros,620,Portugal,16538,73.112,direct
-2016,870333,Automóveis de passageiros,838,Free Zones,6083,26.892,direct
-2016,880330,Partes de aeronaves,620,Portugal,1378,100.0,direct
-2016,080111,"Cocos, castanhas de caju e nozes",120,Camarões,778,100.0,mirror
-2016,080119,"Cocos, castanhas de caju e nozes",120,Camarões,499,64.139,mirror
-2016,080119,"Cocos, castanhas de caju e nozes",132,Cabo Verde,279,35.861,mirror
-2016,090411,Pimenta e pimentão,251,França,259392,100.0,mirror
+2016,720410,Sucata de ferro fundido,838,Free Zones,39245,90.47,direct
+2016,720410,Sucata de ferro fundido,620,Portugal,4134,9.53,direct
+2016,851712,Telemóveis,838,Free Zones,676084,100.0,direct
+2016,870323,Automóveis a gasolina 1.500–3.000 cm³,838,Free Zones,41719,80.081,direct
+2016,870323,Automóveis a gasolina 1.500–3.000 cm³,392,Japão,10377,19.919,direct
+2016,870333,Automóveis diesel +2.500 cm³,620,Portugal,16538,73.112,direct
+2016,870333,Automóveis diesel +2.500 cm³,838,Free Zones,6083,26.892,direct
+2016,880330,Partes de aviões e helicópteros (ed. antiga),620,Portugal,1378,100.0,direct
+2016,080111,Coco desidratado,120,Camarões,778,100.0,mirror
+2016,080119,"Coco fresco ou seco, outros",120,Camarões,499,64.139,mirror
+2016,080119,"Coco fresco ou seco, outros",132,Cabo Verde,279,35.861,mirror
+2016,090411,Pimenta do reino,251,França,259392,100.0,mirror
 2016,180100,Cacau,616,Polónia,3948942,36.923,mirror
 2016,180100,Cacau,724,Espanha,1980640,18.519,mirror
 2016,180100,Cacau,528,Países Baixos,1701356,15.908,mirror
@@ -803,17 +803,17 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2016,180100,Cacau,380,Itália,412866,3.86,mirror
 2016,180100,Cacau,757,Suíça,321474,3.006,mirror
 2016,180100,Cacau,392,Japão,50251,0.47,mirror
-2016,180632,Chocolate e preparações com cacau,528,Países Baixos,2521,100.0,mirror
-2016,180690,Chocolate e preparações com cacau,380,Itália,71559,47.898,mirror
-2016,180690,Chocolate e preparações com cacau,842,EUA,59098,39.557,mirror
-2016,180690,Chocolate e preparações com cacau,251,França,14144,9.467,mirror
-2016,180690,Chocolate e preparações com cacau,203,Chéquia,4599,3.078,mirror
+2016,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,2521,100.0,mirror
+2016,180690,Outras preparações de chocolate,380,Itália,71559,47.898,mirror
+2016,180690,Outras preparações de chocolate,842,EUA,59098,39.557,mirror
+2016,180690,Outras preparações de chocolate,251,França,14144,9.467,mirror
+2016,180690,Outras preparações de chocolate,203,Chéquia,4599,3.078,mirror
 2016,630900,Vestuário usado,24,Angola,268,100.0,mirror
-2016,720410,Sucata ferrosa,620,Portugal,76670,100.0,mirror
-2016,851712,Aparelhos de telecomunicações,251,França,97,100.0,mirror
-2016,870333,Automóveis de passageiros,620,Portugal,13276,100.0,mirror
-2016,880330,Partes de aeronaves,380,Itália,6046,88.742,mirror
-2016,880330,Partes de aeronaves,360,Indonésia,767,11.258,mirror
+2016,720410,Sucata de ferro fundido,620,Portugal,76670,100.0,mirror
+2016,851712,Telemóveis,251,França,97,100.0,mirror
+2016,870333,Automóveis diesel +2.500 cm³,620,Portugal,13276,100.0,mirror
+2016,880330,Partes de aviões e helicópteros (ed. antiga),380,Itália,6046,88.742,mirror
+2016,880330,Partes de aviões e helicópteros (ed. antiga),360,Indonésia,767,11.258,mirror
 2016,901580,Instrumentos de topografia,251,França,5079,100.0,mirror
 2016,999999,Mercadorias não especificadas,842,EUA,81440,40.418,mirror
 2016,999999,Mercadorias não especificadas,484,México,59118,29.34,mirror
@@ -823,14 +823,14 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2016,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),1707,0.847,mirror
 2016,999999,Mercadorias não especificadas,276,Alemanha,515,0.255,mirror
 2016,999999,Mercadorias não especificadas,214,República Dominicana,314,0.156,mirror
-2017,080111,"Cocos, castanhas de caju e nozes",24,Angola,138375,74.678,direct
-2017,080111,"Cocos, castanhas de caju e nozes",120,Camarões,22388,12.082,direct
-2017,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,17559,9.476,direct
-2017,080111,"Cocos, castanhas de caju e nozes",124,Canadá,6480,3.497,direct
-2017,080111,"Cocos, castanhas de caju e nozes",620,Portugal,495,0.267,direct
-2017,080119,"Cocos, castanhas de caju e nozes",120,Camarões,1350,100.0,direct
-2017,090411,Pimenta e pimentão,251,França,197506,100.0,direct
-2017,090420,Pimenta e pimentão,266,Gabão,189,100.0,direct
+2017,080111,Coco desidratado,24,Angola,138375,74.678,direct
+2017,080111,Coco desidratado,120,Camarões,22388,12.082,direct
+2017,080111,Coco desidratado,566,Nigéria,17559,9.476,direct
+2017,080111,Coco desidratado,124,Canadá,6480,3.497,direct
+2017,080111,Coco desidratado,620,Portugal,495,0.267,direct
+2017,080119,"Coco fresco ou seco, outros",120,Camarões,1350,100.0,direct
+2017,090411,Pimenta do reino,251,França,197506,100.0,direct
+2017,090420,"Piri-piri e pimentão, secos (ed. antiga)",266,Gabão,189,100.0,direct
 2017,180100,Cacau,528,Países Baixos,3100551,37.037,direct
 2017,180100,Cacau,724,Espanha,1488027,17.775,direct
 2017,180100,Cacau,56,Bélgica,1462744,17.473,direct
@@ -839,22 +839,22 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2017,180100,Cacau,380,Itália,197129,2.355,direct
 2017,180100,Cacau,757,Suíça,75489,0.902,direct
 2017,180100,Cacau,842,EUA,2080,0.025,direct
-2017,180632,Chocolate e preparações com cacau,842,EUA,64311,39.805,direct
-2017,180632,Chocolate e preparações com cacau,380,Itália,48260,29.87,direct
-2017,180632,Chocolate e preparações com cacau,528,Países Baixos,21153,13.092,direct
-2017,180632,Chocolate e preparações com cacau,276,Alemanha,8529,5.279,direct
-2017,180632,Chocolate e preparações com cacau,24,Angola,5995,3.711,direct
-2017,180632,Chocolate e preparações com cacau,203,Chéquia,5732,3.548,direct
-2017,180632,Chocolate e preparações com cacau,757,Suíça,4586,2.839,direct
-2017,180632,Chocolate e preparações com cacau,251,França,3001,1.857,direct
-2017,180690,Chocolate e preparações com cacau,842,EUA,5886,25.693,direct
-2017,180690,Chocolate e preparações com cacau,266,Gabão,4917,21.463,direct
-2017,180690,Chocolate e preparações com cacau,528,Países Baixos,3113,13.59,direct
-2017,180690,Chocolate e preparações com cacau,380,Itália,2616,11.42,direct
-2017,180690,Chocolate e preparações com cacau,276,Alemanha,2309,10.077,direct
-2017,180690,Chocolate e preparações com cacau,251,França,2171,9.475,direct
-2017,180690,Chocolate e preparações com cacau,620,Portugal,847,3.696,direct
-2017,180690,Chocolate e preparações com cacau,203,Chéquia,603,2.632,direct
+2017,180632,"Chocolate em tabletes, não recheado",842,EUA,64311,39.805,direct
+2017,180632,"Chocolate em tabletes, não recheado",380,Itália,48260,29.87,direct
+2017,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,21153,13.092,direct
+2017,180632,"Chocolate em tabletes, não recheado",276,Alemanha,8529,5.279,direct
+2017,180632,"Chocolate em tabletes, não recheado",24,Angola,5995,3.711,direct
+2017,180632,"Chocolate em tabletes, não recheado",203,Chéquia,5732,3.548,direct
+2017,180632,"Chocolate em tabletes, não recheado",757,Suíça,4586,2.839,direct
+2017,180632,"Chocolate em tabletes, não recheado",251,França,3001,1.857,direct
+2017,180690,Outras preparações de chocolate,842,EUA,5886,25.693,direct
+2017,180690,Outras preparações de chocolate,266,Gabão,4917,21.463,direct
+2017,180690,Outras preparações de chocolate,528,Países Baixos,3113,13.59,direct
+2017,180690,Outras preparações de chocolate,380,Itália,2616,11.42,direct
+2017,180690,Outras preparações de chocolate,276,Alemanha,2309,10.077,direct
+2017,180690,Outras preparações de chocolate,251,França,2171,9.475,direct
+2017,180690,Outras preparações de chocolate,620,Portugal,847,3.696,direct
+2017,180690,Outras preparações de chocolate,203,Chéquia,603,2.632,direct
 2017,490700,Selos e títulos de valor,40,Áustria,209148,70.756,direct
 2017,490700,Selos e títulos de valor,826,Reino Unido,86443,29.244,direct
 2017,630900,Vestuário usado,76,Brasil,73623,79.931,direct
@@ -864,20 +864,20 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2017,630900,Vestuário usado,24,Angola,660,0.717,direct
 2017,630900,Vestuário usado,508,Moçambique,40,0.044,direct
 2017,630900,Vestuário usado,624,Guiné-Bissau,33,0.036,direct
-2017,720410,Sucata ferrosa,620,Portugal,144863,89.541,direct
-2017,720410,Sucata ferrosa,372,Irlanda,15374,9.503,direct
-2017,720410,Sucata ferrosa,566,Nigéria,1546,0.955,direct
-2017,870323,Automóveis de passageiros,620,Portugal,19845,86.126,direct
-2017,870323,Automóveis de passageiros,120,Camarões,3197,13.874,direct
-2017,870332,Automóveis de passageiros,624,Guiné-Bissau,1746,100.0,direct
-2017,870333,Automóveis de passageiros,620,Portugal,22028,61.533,direct
-2017,870333,Automóveis de passageiros,24,Angola,13771,38.467,direct
+2017,720410,Sucata de ferro fundido,620,Portugal,144863,89.541,direct
+2017,720410,Sucata de ferro fundido,372,Irlanda,15374,9.503,direct
+2017,720410,Sucata de ferro fundido,566,Nigéria,1546,0.955,direct
+2017,870323,Automóveis a gasolina 1.500–3.000 cm³,620,Portugal,19845,86.126,direct
+2017,870323,Automóveis a gasolina 1.500–3.000 cm³,120,Camarões,3197,13.874,direct
+2017,870332,Automóveis diesel 1.500–2.500 cm³,624,Guiné-Bissau,1746,100.0,direct
+2017,870333,Automóveis diesel +2.500 cm³,620,Portugal,22028,61.533,direct
+2017,870333,Automóveis diesel +2.500 cm³,24,Angola,13771,38.467,direct
 2017,999999,Mercadorias não especificadas,620,Portugal,171,98.843,direct
 2017,999999,Mercadorias não especificadas,842,EUA,2,1.157,direct
-2017,080111,"Cocos, castanhas de caju e nozes",24,Angola,3971,84.314,mirror
-2017,080111,"Cocos, castanhas de caju e nozes",120,Camarões,739,15.686,mirror
-2017,090411,Pimenta e pimentão,251,França,58997,100.0,mirror
-2017,151319,Óleo de coco,24,Angola,2304,100.0,mirror
+2017,080111,Coco desidratado,24,Angola,3971,84.314,mirror
+2017,080111,Coco desidratado,120,Camarões,739,15.686,mirror
+2017,090411,Pimenta do reino,251,França,58997,100.0,mirror
+2017,151319,Óleo de coco refinado,24,Angola,2304,100.0,mirror
 2017,180100,Cacau,616,Polónia,3264785,38.769,mirror
 2017,180100,Cacau,528,Países Baixos,1506309,17.887,mirror
 2017,180100,Cacau,724,Espanha,1377827,16.362,mirror
@@ -886,17 +886,17 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2017,180100,Cacau,380,Itália,218536,2.595,mirror
 2017,180100,Cacau,757,Suíça,86525,1.027,mirror
 2017,180100,Cacau,392,Japão,44890,0.533,mirror
-2017,180632,Chocolate e preparações com cacau,203,Chéquia,9783,55.513,mirror
-2017,180632,Chocolate e preparações com cacau,528,Países Baixos,7840,44.487,mirror
-2017,180690,Chocolate e preparações com cacau,842,EUA,81463,49.789,mirror
-2017,180690,Chocolate e preparações com cacau,380,Itália,75314,46.03,mirror
-2017,180690,Chocolate e preparações com cacau,251,França,3264,1.995,mirror
-2017,180690,Chocolate e preparações com cacau,203,Chéquia,2070,1.265,mirror
-2017,180690,Chocolate e preparações com cacau,24,Angola,1506,0.92,mirror
+2017,180632,"Chocolate em tabletes, não recheado",203,Chéquia,9783,55.513,mirror
+2017,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,7840,44.487,mirror
+2017,180690,Outras preparações de chocolate,842,EUA,81463,49.789,mirror
+2017,180690,Outras preparações de chocolate,380,Itália,75314,46.03,mirror
+2017,180690,Outras preparações de chocolate,251,França,3264,1.995,mirror
+2017,180690,Outras preparações de chocolate,203,Chéquia,2070,1.265,mirror
+2017,180690,Outras preparações de chocolate,24,Angola,1506,0.92,mirror
 2017,630900,Vestuário usado,620,Portugal,251,100.0,mirror
-2017,720410,Sucata ferrosa,620,Portugal,163775,100.0,mirror
-2017,851712,Aparelhos de telecomunicações,620,Portugal,492,100.0,mirror
-2017,870333,Automóveis de passageiros,24,Angola,15335,100.0,mirror
+2017,720410,Sucata de ferro fundido,620,Portugal,163775,100.0,mirror
+2017,851712,Telemóveis,620,Portugal,492,100.0,mirror
+2017,870333,Automóveis diesel +2.500 cm³,24,Angola,15335,100.0,mirror
 2017,999999,Mercadorias não especificadas,842,EUA,441592,84.998,mirror
 2017,999999,Mercadorias não especificadas,484,México,39319,7.568,mirror
 2017,999999,Mercadorias não especificadas,251,França,12501,2.406,mirror
@@ -905,18 +905,18 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2017,999999,Mercadorias não especificadas,24,Angola,6234,1.2,mirror
 2017,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),1973,0.38,mirror
 2017,999999,Mercadorias não especificadas,710,África do Sul,1656,0.319,mirror
-2018,080111,"Cocos, castanhas de caju e nozes",24,Angola,48928,68.013,direct
-2018,080111,"Cocos, castanhas de caju e nozes",120,Camarões,13810,19.197,direct
-2018,080111,"Cocos, castanhas de caju e nozes",566,Nigéria,8865,12.322,direct
-2018,080111,"Cocos, castanhas de caju e nozes",528,Países Baixos,336,0.467,direct
-2018,080119,"Cocos, castanhas de caju e nozes",24,Angola,83466,90.485,direct
-2018,080119,"Cocos, castanhas de caju e nozes",251,França,7050,7.643,direct
-2018,080119,"Cocos, castanhas de caju e nozes",566,Nigéria,1727,1.872,direct
-2018,090411,Pimenta e pimentão,251,França,205337,100.0,direct
-2018,151311,Óleo de coco,56,Bélgica,34975,100.0,direct
-2018,151319,Óleo de coco,620,Portugal,56177,53.373,direct
-2018,151319,Óleo de coco,56,Bélgica,48965,46.522,direct
-2018,151319,Óleo de coco,24,Angola,111,0.105,direct
+2018,080111,Coco desidratado,24,Angola,48928,68.013,direct
+2018,080111,Coco desidratado,120,Camarões,13810,19.197,direct
+2018,080111,Coco desidratado,566,Nigéria,8865,12.322,direct
+2018,080111,Coco desidratado,528,Países Baixos,336,0.467,direct
+2018,080119,"Coco fresco ou seco, outros",24,Angola,83466,90.485,direct
+2018,080119,"Coco fresco ou seco, outros",251,França,7050,7.643,direct
+2018,080119,"Coco fresco ou seco, outros",566,Nigéria,1727,1.872,direct
+2018,090411,Pimenta do reino,251,França,205337,100.0,direct
+2018,151311,Óleo de coco em bruto,56,Bélgica,34975,100.0,direct
+2018,151319,Óleo de coco refinado,620,Portugal,56177,53.373,direct
+2018,151319,Óleo de coco refinado,56,Bélgica,48965,46.522,direct
+2018,151319,Óleo de coco refinado,24,Angola,111,0.105,direct
 2018,180100,Cacau,528,Países Baixos,4516995,56.643,direct
 2018,180100,Cacau,56,Bélgica,2052457,25.738,direct
 2018,180100,Cacau,276,Alemanha,1064144,13.344,direct
@@ -925,42 +925,42 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2018,180100,Cacau,620,Portugal,31139,0.39,direct
 2018,180100,Cacau,380,Itália,27780,0.348,direct
 2018,180100,Cacau,757,Suíça,23018,0.289,direct
-2018,180632,Chocolate e preparações com cacau,251,França,222047,56.059,direct
-2018,180632,Chocolate e preparações com cacau,380,Itália,65210,16.463,direct
-2018,180632,Chocolate e preparações com cacau,842,EUA,40377,10.194,direct
-2018,180632,Chocolate e preparações com cacau,528,Países Baixos,34337,8.669,direct
-2018,180632,Chocolate e preparações com cacau,276,Alemanha,17944,4.53,direct
-2018,180632,Chocolate e preparações com cacau,203,Chéquia,11102,2.803,direct
-2018,180632,Chocolate e preparações com cacau,784,Emirados Árabes Unidos,5077,1.282,direct
-2018,180690,Chocolate e preparações com cacau,842,EUA,7291,23.772,direct
-2018,180690,Chocolate e preparações com cacau,528,Países Baixos,7146,23.302,direct
-2018,180690,Chocolate e preparações com cacau,24,Angola,5319,17.343,direct
-2018,180690,Chocolate e preparações com cacau,380,Itália,5154,16.806,direct
-2018,180690,Chocolate e preparações com cacau,276,Alemanha,2826,9.215,direct
-2018,180690,Chocolate e preparações com cacau,251,França,2350,7.663,direct
-2018,180690,Chocolate e preparações com cacau,203,Chéquia,352,1.148,direct
-2018,180690,Chocolate e preparações com cacau,620,Portugal,230,0.751,direct
+2018,180632,"Chocolate em tabletes, não recheado",251,França,222047,56.059,direct
+2018,180632,"Chocolate em tabletes, não recheado",380,Itália,65210,16.463,direct
+2018,180632,"Chocolate em tabletes, não recheado",842,EUA,40377,10.194,direct
+2018,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,34337,8.669,direct
+2018,180632,"Chocolate em tabletes, não recheado",276,Alemanha,17944,4.53,direct
+2018,180632,"Chocolate em tabletes, não recheado",203,Chéquia,11102,2.803,direct
+2018,180632,"Chocolate em tabletes, não recheado",784,Emirados Árabes Unidos,5077,1.282,direct
+2018,180690,Outras preparações de chocolate,842,EUA,7291,23.772,direct
+2018,180690,Outras preparações de chocolate,528,Países Baixos,7146,23.302,direct
+2018,180690,Outras preparações de chocolate,24,Angola,5319,17.343,direct
+2018,180690,Outras preparações de chocolate,380,Itália,5154,16.806,direct
+2018,180690,Outras preparações de chocolate,276,Alemanha,2826,9.215,direct
+2018,180690,Outras preparações de chocolate,251,França,2350,7.663,direct
+2018,180690,Outras preparações de chocolate,203,Chéquia,352,1.148,direct
+2018,180690,Outras preparações de chocolate,620,Portugal,230,0.751,direct
 2018,630900,Vestuário usado,76,Brasil,3252,80.462,direct
 2018,630900,Vestuário usado,620,Portugal,790,19.538,direct
-2018,720410,Sucata ferrosa,620,Portugal,98667,98.801,direct
-2018,720410,Sucata ferrosa,566,Nigéria,967,0.968,direct
-2018,720410,Sucata ferrosa,120,Camarões,230,0.231,direct
-2018,870323,Automóveis de passageiros,768,Togo,5077,60.814,direct
-2018,870323,Automóveis de passageiros,226,Guiné Equatorial,3271,39.186,direct
-2018,870332,Automóveis de passageiros,620,Portugal,66384,53.902,direct
-2018,870332,Automóveis de passageiros,384,Costa do Marfim,56772,46.098,direct
-2018,870333,Automóveis de passageiros,620,Portugal,34163,85.988,direct
-2018,870333,Automóveis de passageiros,24,Angola,5567,14.012,direct
-2018,880330,Partes de aeronaves,620,Portugal,492039,94.23,direct
-2018,880330,Partes de aeronaves,276,Alemanha,30128,5.77,direct
+2018,720410,Sucata de ferro fundido,620,Portugal,98667,98.801,direct
+2018,720410,Sucata de ferro fundido,566,Nigéria,967,0.968,direct
+2018,720410,Sucata de ferro fundido,120,Camarões,230,0.231,direct
+2018,870323,Automóveis a gasolina 1.500–3.000 cm³,768,Togo,5077,60.814,direct
+2018,870323,Automóveis a gasolina 1.500–3.000 cm³,226,Guiné Equatorial,3271,39.186,direct
+2018,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,66384,53.902,direct
+2018,870332,Automóveis diesel 1.500–2.500 cm³,384,Costa do Marfim,56772,46.098,direct
+2018,870333,Automóveis diesel +2.500 cm³,620,Portugal,34163,85.988,direct
+2018,870333,Automóveis diesel +2.500 cm³,24,Angola,5567,14.012,direct
+2018,880330,Partes de aviões e helicópteros (ed. antiga),620,Portugal,492039,94.23,direct
+2018,880330,Partes de aviões e helicópteros (ed. antiga),276,Alemanha,30128,5.77,direct
 2018,901580,Instrumentos de topografia,620,Portugal,478891,100.0,direct
 2018,903300,Partes de instrumentos de precisão,620,Portugal,720277,100.0,direct
 2018,999999,Mercadorias não especificadas,620,Portugal,5767,100.0,direct
-2018,080111,"Cocos, castanhas de caju e nozes",120,Camarões,244,100.0,mirror
-2018,090411,Pimenta e pimentão,251,França,373578,100.0,mirror
-2018,151311,Óleo de coco,620,Portugal,432,60.677,mirror
-2018,151311,Óleo de coco,24,Angola,280,39.323,mirror
-2018,151319,Óleo de coco,24,Angola,3936,100.0,mirror
+2018,080111,Coco desidratado,120,Camarões,244,100.0,mirror
+2018,090411,Pimenta do reino,251,França,373578,100.0,mirror
+2018,151311,Óleo de coco em bruto,620,Portugal,432,60.677,mirror
+2018,151311,Óleo de coco em bruto,24,Angola,280,39.323,mirror
+2018,151319,Óleo de coco refinado,24,Angola,3936,100.0,mirror
 2018,180100,Cacau,616,Polónia,3200787,46.664,mirror
 2018,180100,Cacau,56,Bélgica,2070354,30.183,mirror
 2018,180100,Cacau,251,França,1179312,17.193,mirror
@@ -969,26 +969,26 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2018,180100,Cacau,380,Itália,36663,0.535,mirror
 2018,180100,Cacau,70,Bosnia Herzegovina,5440,0.079,mirror
 2018,180100,Cacau,410,Coreia do Sul,3363,0.049,mirror
-2018,180610,Chocolate e preparações com cacau,380,Itália,1326,100.0,mirror
-2018,180632,Chocolate e preparações com cacau,251,França,235973,81.208,mirror
-2018,180632,Chocolate e preparações com cacau,528,Países Baixos,35247,12.13,mirror
-2018,180632,Chocolate e preparações com cacau,203,Chéquia,10258,3.53,mirror
-2018,180632,Chocolate e preparações com cacau,380,Itália,9100,3.132,mirror
-2018,180690,Chocolate e preparações com cacau,842,EUA,67306,62.764,mirror
-2018,180690,Chocolate e preparações com cacau,380,Itália,22811,21.272,mirror
-2018,180690,Chocolate e preparações com cacau,251,França,14546,13.565,mirror
-2018,180690,Chocolate e preparações com cacau,203,Chéquia,1345,1.254,mirror
-2018,180690,Chocolate e preparações com cacau,528,Países Baixos,966,0.901,mirror
-2018,180690,Chocolate e preparações com cacau,24,Angola,263,0.245,mirror
+2018,180610,Cacau em pó com açúcar,380,Itália,1326,100.0,mirror
+2018,180632,"Chocolate em tabletes, não recheado",251,França,235973,81.208,mirror
+2018,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,35247,12.13,mirror
+2018,180632,"Chocolate em tabletes, não recheado",203,Chéquia,10258,3.53,mirror
+2018,180632,"Chocolate em tabletes, não recheado",380,Itália,9100,3.132,mirror
+2018,180690,Outras preparações de chocolate,842,EUA,67306,62.764,mirror
+2018,180690,Outras preparações de chocolate,380,Itália,22811,21.272,mirror
+2018,180690,Outras preparações de chocolate,251,França,14546,13.565,mirror
+2018,180690,Outras preparações de chocolate,203,Chéquia,1345,1.254,mirror
+2018,180690,Outras preparações de chocolate,528,Países Baixos,966,0.901,mirror
+2018,180690,Outras preparações de chocolate,24,Angola,263,0.245,mirror
 2018,630900,Vestuário usado,620,Portugal,3187,69.1,mirror
 2018,630900,Vestuário usado,404,Quénia,1425,30.9,mirror
-2018,720410,Sucata ferrosa,620,Portugal,295290,100.0,mirror
-2018,851712,Aparelhos de telecomunicações,620,Portugal,224,100.0,mirror
-2018,870323,Automóveis de passageiros,24,Angola,6813,100.0,mirror
-2018,870333,Automóveis de passageiros,24,Angola,8344,100.0,mirror
-2018,880330,Partes de aeronaves,702,Singapura,113831,39.571,mirror
-2018,880330,Partes de aeronaves,490,Taiwan (Prov. China),88779,30.863,mirror
-2018,880330,Partes de aeronaves,392,Japão,85050,29.566,mirror
+2018,720410,Sucata de ferro fundido,620,Portugal,295290,100.0,mirror
+2018,851712,Telemóveis,620,Portugal,224,100.0,mirror
+2018,870323,Automóveis a gasolina 1.500–3.000 cm³,24,Angola,6813,100.0,mirror
+2018,870333,Automóveis diesel +2.500 cm³,24,Angola,8344,100.0,mirror
+2018,880330,Partes de aviões e helicópteros (ed. antiga),702,Singapura,113831,39.571,mirror
+2018,880330,Partes de aviões e helicópteros (ed. antiga),490,Taiwan (Prov. China),88779,30.863,mirror
+2018,880330,Partes de aviões e helicópteros (ed. antiga),392,Japão,85050,29.566,mirror
 2018,901580,Instrumentos de topografia,842,EUA,16573,50.206,mirror
 2018,901580,Instrumentos de topografia,620,Portugal,16437,49.794,mirror
 2018,999999,Mercadorias não especificadas,528,Países Baixos,931898,90.3,mirror
@@ -999,31 +999,31 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2018,999999,Mercadorias não especificadas,251,França,2605,0.252,mirror
 2018,999999,Mercadorias não especificadas,826,Reino Unido,1316,0.128,mirror
 2018,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),1227,0.119,mirror
-2019,080111,"Cocos, castanhas de caju e nozes",899,"Areas, nes",98212,87.306,direct
-2019,080111,"Cocos, castanhas de caju e nozes",620,Portugal,14279,12.694,direct
-2019,080119,"Cocos, castanhas de caju e nozes",899,"Areas, nes",17233,54.292,direct
-2019,080119,"Cocos, castanhas de caju e nozes",620,Portugal,14279,44.988,direct
-2019,080119,"Cocos, castanhas de caju e nozes",24,Angola,219,0.691,direct
-2019,080119,"Cocos, castanhas de caju e nozes",132,Cabo Verde,9,0.029,direct
-2019,090411,Pimenta e pimentão,899,"Areas, nes",268884,100.0,direct
-2019,090420,Pimenta e pimentão,899,"Areas, nes",640,100.0,direct
-2019,151110,Óleo de palma,899,"Areas, nes",532313,100.0,direct
-2019,151311,Óleo de coco,899,"Areas, nes",78241,98.977,direct
-2019,151311,Óleo de coco,24,Angola,795,1.006,direct
-2019,151311,Óleo de coco,132,Cabo Verde,14,0.017,direct
-2019,151319,Óleo de coco,899,"Areas, nes",171058,98.159,direct
-2019,151319,Óleo de coco,24,Angola,3208,1.841,direct
+2019,080111,Coco desidratado,899,"Areas, nes",98212,87.306,direct
+2019,080111,Coco desidratado,620,Portugal,14279,12.694,direct
+2019,080119,"Coco fresco ou seco, outros",899,"Areas, nes",17233,54.292,direct
+2019,080119,"Coco fresco ou seco, outros",620,Portugal,14279,44.988,direct
+2019,080119,"Coco fresco ou seco, outros",24,Angola,219,0.691,direct
+2019,080119,"Coco fresco ou seco, outros",132,Cabo Verde,9,0.029,direct
+2019,090411,Pimenta do reino,899,"Areas, nes",268884,100.0,direct
+2019,090420,"Piri-piri e pimentão, secos (ed. antiga)",899,"Areas, nes",640,100.0,direct
+2019,151110,Óleo de palma em bruto,899,"Areas, nes",532313,100.0,direct
+2019,151311,Óleo de coco em bruto,899,"Areas, nes",78241,98.977,direct
+2019,151311,Óleo de coco em bruto,24,Angola,795,1.006,direct
+2019,151311,Óleo de coco em bruto,132,Cabo Verde,14,0.017,direct
+2019,151319,Óleo de coco refinado,899,"Areas, nes",171058,98.159,direct
+2019,151319,Óleo de coco refinado,24,Angola,3208,1.841,direct
 2019,180100,Cacau,899,"Areas, nes",6565361,94.198,direct
 2019,180100,Cacau,528,Países Baixos,166834,2.394,direct
 2019,180100,Cacau,56,Bélgica,132988,1.908,direct
 2019,180100,Cacau,620,Portugal,104230,1.495,direct
 2019,180100,Cacau,24,Angola,303,0.004,direct
 2019,180100,Cacau,132,Cabo Verde,23,0.0,direct
-2019,180610,Chocolate e preparações com cacau,899,"Areas, nes",2286,99.01,direct
-2019,180610,Chocolate e preparações com cacau,132,Cabo Verde,23,0.99,direct
-2019,180632,Chocolate e preparações com cacau,899,"Areas, nes",364368,100.0,direct
-2019,180690,Chocolate e preparações com cacau,899,"Areas, nes",21753,82.086,direct
-2019,180690,Chocolate e preparações com cacau,266,Gabão,4747,17.914,direct
+2019,180610,Cacau em pó com açúcar,899,"Areas, nes",2286,99.01,direct
+2019,180610,Cacau em pó com açúcar,132,Cabo Verde,23,0.99,direct
+2019,180632,"Chocolate em tabletes, não recheado",899,"Areas, nes",364368,100.0,direct
+2019,180690,Outras preparações de chocolate,899,"Areas, nes",21753,82.086,direct
+2019,180690,Outras preparações de chocolate,266,Gabão,4747,17.914,direct
 2019,490700,Selos e títulos de valor,705,Eslovénia,161945,100.0,direct
 2019,630900,Vestuário usado,76,Brasil,10438,66.073,direct
 2019,630900,Vestuário usado,842,EUA,2925,18.514,direct
@@ -1032,20 +1032,20 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2019,630900,Vestuário usado,251,França,616,3.898,direct
 2019,630900,Vestuário usado,24,Angola,280,1.772,direct
 2019,630900,Vestuário usado,899,"Areas, nes",56,0.354,direct
-2019,720410,Sucata ferrosa,899,"Areas, nes",32072,76.813,direct
-2019,720410,Sucata ferrosa,620,Portugal,9681,23.187,direct
-2019,870323,Automóveis de passageiros,842,EUA,2478,100.0,direct
-2019,870332,Automóveis de passageiros,24,Angola,32466,100.0,direct
-2019,880330,Partes de aeronaves,899,"Areas, nes",49505,100.0,direct
-2019,890690,Outros navios,899,"Areas, nes",423473,100.0,direct
+2019,720410,Sucata de ferro fundido,899,"Areas, nes",32072,76.813,direct
+2019,720410,Sucata de ferro fundido,620,Portugal,9681,23.187,direct
+2019,870323,Automóveis a gasolina 1.500–3.000 cm³,842,EUA,2478,100.0,direct
+2019,870332,Automóveis diesel 1.500–2.500 cm³,24,Angola,32466,100.0,direct
+2019,880330,Partes de aviões e helicópteros (ed. antiga),899,"Areas, nes",49505,100.0,direct
+2019,890690,"Outros navios (botes salva-vidas, etc.)",899,"Areas, nes",423473,100.0,direct
 2019,901580,Instrumentos de topografia,899,"Areas, nes",91495,60.034,direct
 2019,901580,Instrumentos de topografia,124,Canadá,60911,39.966,direct
-2019,080111,"Cocos, castanhas de caju e nozes",56,Bélgica,6,100.0,mirror
-2019,080119,"Cocos, castanhas de caju e nozes",56,Bélgica,21,100.0,mirror
-2019,090411,Pimenta e pimentão,251,França,269611,100.0,mirror
-2019,151311,Óleo de coco,56,Bélgica,1931,55.987,mirror
-2019,151311,Óleo de coco,24,Angola,1518,44.013,mirror
-2019,151319,Óleo de coco,24,Angola,7605,100.0,mirror
+2019,080111,Coco desidratado,56,Bélgica,6,100.0,mirror
+2019,080119,"Coco fresco ou seco, outros",56,Bélgica,21,100.0,mirror
+2019,090411,Pimenta do reino,251,França,269611,100.0,mirror
+2019,151311,Óleo de coco em bruto,56,Bélgica,1931,55.987,mirror
+2019,151311,Óleo de coco em bruto,24,Angola,1518,44.013,mirror
+2019,151319,Óleo de coco refinado,24,Angola,7605,100.0,mirror
 2019,180100,Cacau,251,França,1976138,31.448,mirror
 2019,180100,Cacau,616,Polónia,1617870,25.747,mirror
 2019,180100,Cacau,528,Países Baixos,1343515,21.381,mirror
@@ -1054,26 +1054,26 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2019,180100,Cacau,724,Espanha,84858,1.35,mirror
 2019,180100,Cacau,620,Portugal,14880,0.237,mirror
 2019,180100,Cacau,380,Itália,10463,0.167,mirror
-2019,180632,Chocolate e preparações com cacau,251,França,281212,75.804,mirror
-2019,180632,Chocolate e preparações com cacau,380,Itália,40687,10.968,mirror
-2019,180632,Chocolate e preparações com cacau,528,Países Baixos,34722,9.36,mirror
-2019,180632,Chocolate e preparações com cacau,203,Chéquia,10561,2.847,mirror
-2019,180632,Chocolate e preparações com cacau,724,Espanha,3790,1.022,mirror
-2019,180690,Chocolate e preparações com cacau,842,EUA,51745,65.757,mirror
-2019,180690,Chocolate e preparações com cacau,251,França,14287,18.155,mirror
-2019,180690,Chocolate e preparações com cacau,320,Guatemala,4346,5.523,mirror
-2019,180690,Chocolate e preparações com cacau,528,Países Baixos,4251,5.402,mirror
-2019,180690,Chocolate e preparações com cacau,380,Itália,2311,2.937,mirror
-2019,180690,Chocolate e preparações com cacau,203,Chéquia,1695,2.154,mirror
-2019,180690,Chocolate e preparações com cacau,724,Espanha,57,0.073,mirror
+2019,180632,"Chocolate em tabletes, não recheado",251,França,281212,75.804,mirror
+2019,180632,"Chocolate em tabletes, não recheado",380,Itália,40687,10.968,mirror
+2019,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,34722,9.36,mirror
+2019,180632,"Chocolate em tabletes, não recheado",203,Chéquia,10561,2.847,mirror
+2019,180632,"Chocolate em tabletes, não recheado",724,Espanha,3790,1.022,mirror
+2019,180690,Outras preparações de chocolate,842,EUA,51745,65.757,mirror
+2019,180690,Outras preparações de chocolate,251,França,14287,18.155,mirror
+2019,180690,Outras preparações de chocolate,320,Guatemala,4346,5.523,mirror
+2019,180690,Outras preparações de chocolate,528,Países Baixos,4251,5.402,mirror
+2019,180690,Outras preparações de chocolate,380,Itália,2311,2.937,mirror
+2019,180690,Outras preparações de chocolate,203,Chéquia,1695,2.154,mirror
+2019,180690,Outras preparações de chocolate,724,Espanha,57,0.073,mirror
 2019,490700,Selos e títulos de valor,705,Eslovénia,22670,98.025,mirror
 2019,490700,Selos e títulos de valor,620,Portugal,457,1.975,mirror
-2019,720410,Sucata ferrosa,620,Portugal,84725,100.0,mirror
-2019,870323,Automóveis de passageiros,203,Chéquia,17457,100.0,mirror
-2019,870332,Automóveis de passageiros,24,Angola,32828,100.0,mirror
-2019,880330,Partes de aeronaves,757,Suíça,1333297,68.477,mirror
-2019,880330,Partes de aeronaves,702,Singapura,569280,29.238,mirror
-2019,880330,Partes de aeronaves,490,Taiwan (Prov. China),44499,2.285,mirror
+2019,720410,Sucata de ferro fundido,620,Portugal,84725,100.0,mirror
+2019,870323,Automóveis a gasolina 1.500–3.000 cm³,203,Chéquia,17457,100.0,mirror
+2019,870332,Automóveis diesel 1.500–2.500 cm³,24,Angola,32828,100.0,mirror
+2019,880330,Partes de aviões e helicópteros (ed. antiga),757,Suíça,1333297,68.477,mirror
+2019,880330,Partes de aviões e helicópteros (ed. antiga),702,Singapura,569280,29.238,mirror
+2019,880330,Partes de aviões e helicópteros (ed. antiga),490,Taiwan (Prov. China),44499,2.285,mirror
 2019,999999,Mercadorias não especificadas,842,EUA,599060,89.687,mirror
 2019,999999,Mercadorias não especificadas,484,México,50998,7.635,mirror
 2019,999999,Mercadorias não especificadas,710,África do Sul,5355,0.802,mirror
@@ -1082,18 +1082,18 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2019,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),3333,0.499,mirror
 2019,999999,Mercadorias não especificadas,414,Kuwait,346,0.052,mirror
 2019,999999,Mercadorias não especificadas,156,China,169,0.025,mirror
-2020,080111,"Cocos, castanhas de caju e nozes",24,Angola,98805,84.108,direct
-2020,080111,"Cocos, castanhas de caju e nozes",120,Camarões,18668,15.892,direct
-2020,080119,"Cocos, castanhas de caju e nozes",24,Angola,1744,100.0,direct
-2020,090411,Pimenta e pimentão,251,França,131152,99.295,direct
-2020,090411,Pimenta e pimentão,620,Portugal,932,0.705,direct
-2020,151110,Óleo de palma,528,Países Baixos,1958023,53.32,direct
-2020,151110,Óleo de palma,620,Portugal,1070169,29.143,direct
-2020,151110,Óleo de palma,120,Camarões,643993,17.537,direct
-2020,151311,Óleo de coco,56,Bélgica,264935,100.0,direct
-2020,151319,Óleo de coco,24,Angola,1767,76.81,direct
-2020,151319,Óleo de coco,620,Portugal,289,12.579,direct
-2020,151319,Óleo de coco,120,Camarões,244,10.612,direct
+2020,080111,Coco desidratado,24,Angola,98805,84.108,direct
+2020,080111,Coco desidratado,120,Camarões,18668,15.892,direct
+2020,080119,"Coco fresco ou seco, outros",24,Angola,1744,100.0,direct
+2020,090411,Pimenta do reino,251,França,131152,99.295,direct
+2020,090411,Pimenta do reino,620,Portugal,932,0.705,direct
+2020,151110,Óleo de palma em bruto,528,Países Baixos,1958023,53.32,direct
+2020,151110,Óleo de palma em bruto,620,Portugal,1070169,29.143,direct
+2020,151110,Óleo de palma em bruto,120,Camarões,643993,17.537,direct
+2020,151311,Óleo de coco em bruto,56,Bélgica,264935,100.0,direct
+2020,151319,Óleo de coco refinado,24,Angola,1767,76.81,direct
+2020,151319,Óleo de coco refinado,620,Portugal,289,12.579,direct
+2020,151319,Óleo de coco refinado,120,Camarões,244,10.612,direct
 2020,180100,Cacau,528,Países Baixos,3726709,58.402,direct
 2020,180100,Cacau,56,Bélgica,1717590,26.917,direct
 2020,180100,Cacau,276,Alemanha,795977,12.474,direct
@@ -1101,43 +1101,43 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2020,180100,Cacau,724,Espanha,56569,0.886,direct
 2020,180100,Cacau,266,Gabão,23994,0.376,direct
 2020,180100,Cacau,842,EUA,1080,0.017,direct
-2020,180610,Chocolate e preparações com cacau,276,Alemanha,258911,100.0,direct
-2020,180632,Chocolate e preparações com cacau,251,França,77763,61.78,direct
-2020,180632,Chocolate e preparações com cacau,620,Portugal,38986,30.973,direct
-2020,180632,Chocolate e preparações com cacau,842,EUA,6677,5.304,direct
-2020,180632,Chocolate e preparações com cacau,276,Alemanha,2084,1.655,direct
-2020,180632,Chocolate e preparações com cacau,724,Espanha,361,0.287,direct
-2020,180690,Chocolate e preparações com cacau,724,Espanha,4320,61.749,direct
-2020,180690,Chocolate e preparações com cacau,842,EUA,2093,29.913,direct
-2020,180690,Chocolate e preparações com cacau,276,Alemanha,583,8.337,direct
+2020,180610,Cacau em pó com açúcar,276,Alemanha,258911,100.0,direct
+2020,180632,"Chocolate em tabletes, não recheado",251,França,77763,61.78,direct
+2020,180632,"Chocolate em tabletes, não recheado",620,Portugal,38986,30.973,direct
+2020,180632,"Chocolate em tabletes, não recheado",842,EUA,6677,5.304,direct
+2020,180632,"Chocolate em tabletes, não recheado",276,Alemanha,2084,1.655,direct
+2020,180632,"Chocolate em tabletes, não recheado",724,Espanha,361,0.287,direct
+2020,180690,Outras preparações de chocolate,724,Espanha,4320,61.749,direct
+2020,180690,Outras preparações de chocolate,842,EUA,2093,29.913,direct
+2020,180690,Outras preparações de chocolate,276,Alemanha,583,8.337,direct
 2020,630900,Vestuário usado,24,Angola,2354,45.508,direct
 2020,630900,Vestuário usado,620,Portugal,2190,42.34,direct
 2020,630900,Vestuário usado,76,Brasil,387,7.489,direct
 2020,630900,Vestuário usado,686,Senegal,214,4.135,direct
 2020,630900,Vestuário usado,56,Bélgica,27,0.529,direct
-2020,720410,Sucata ferrosa,620,Portugal,12154,80.026,direct
-2020,720410,Sucata ferrosa,562,Niger,2894,19.055,direct
-2020,720410,Sucata ferrosa,120,Camarões,139,0.918,direct
-2020,870323,Automóveis de passageiros,24,Angola,24551,100.0,direct
-2020,870332,Automóveis de passageiros,132,Cabo Verde,13484,100.0,direct
-2020,870333,Automóveis de passageiros,620,Portugal,42354,100.0,direct
-2020,880330,Partes de aeronaves,251,França,406994,100.0,direct
+2020,720410,Sucata de ferro fundido,620,Portugal,12154,80.026,direct
+2020,720410,Sucata de ferro fundido,562,Niger,2894,19.055,direct
+2020,720410,Sucata de ferro fundido,120,Camarões,139,0.918,direct
+2020,870323,Automóveis a gasolina 1.500–3.000 cm³,24,Angola,24551,100.0,direct
+2020,870332,Automóveis diesel 1.500–2.500 cm³,132,Cabo Verde,13484,100.0,direct
+2020,870333,Automóveis diesel +2.500 cm³,620,Portugal,42354,100.0,direct
+2020,880330,Partes de aviões e helicópteros (ed. antiga),251,França,406994,100.0,direct
 2020,999999,Mercadorias não especificadas,76,Brasil,3,100.0,direct
-2020,080111,"Cocos, castanhas de caju e nozes",56,Bélgica,48,100.0,mirror
-2020,080119,"Cocos, castanhas de caju e nozes",120,Camarões,390,67.493,mirror
-2020,080119,"Cocos, castanhas de caju e nozes",24,Angola,112,19.309,mirror
-2020,080119,"Cocos, castanhas de caju e nozes",620,Portugal,57,9.881,mirror
-2020,080119,"Cocos, castanhas de caju e nozes",56,Bélgica,19,3.316,mirror
-2020,090411,Pimenta e pimentão,620,Portugal,3288,100.0,mirror
-2020,151110,Óleo de palma,528,Países Baixos,1383398,32.145,mirror
-2020,151110,Óleo de palma,620,Portugal,1099767,25.554,mirror
-2020,151110,Óleo de palma,757,Suíça,941573,21.878,mirror
-2020,151110,Óleo de palma,120,Camarões,878908,20.422,mirror
-2020,151311,Óleo de coco,757,Suíça,17060,82.99,mirror
-2020,151311,Óleo de coco,56,Bélgica,3304,16.076,mirror
-2020,151311,Óleo de coco,24,Angola,135,0.657,mirror
-2020,151311,Óleo de coco,620,Portugal,57,0.278,mirror
-2020,151319,Óleo de coco,24,Angola,1289,100.0,mirror
+2020,080111,Coco desidratado,56,Bélgica,48,100.0,mirror
+2020,080119,"Coco fresco ou seco, outros",120,Camarões,390,67.493,mirror
+2020,080119,"Coco fresco ou seco, outros",24,Angola,112,19.309,mirror
+2020,080119,"Coco fresco ou seco, outros",620,Portugal,57,9.881,mirror
+2020,080119,"Coco fresco ou seco, outros",56,Bélgica,19,3.316,mirror
+2020,090411,Pimenta do reino,620,Portugal,3288,100.0,mirror
+2020,151110,Óleo de palma em bruto,528,Países Baixos,1383398,32.145,mirror
+2020,151110,Óleo de palma em bruto,620,Portugal,1099767,25.554,mirror
+2020,151110,Óleo de palma em bruto,757,Suíça,941573,21.878,mirror
+2020,151110,Óleo de palma em bruto,120,Camarões,878908,20.422,mirror
+2020,151311,Óleo de coco em bruto,757,Suíça,17060,82.99,mirror
+2020,151311,Óleo de coco em bruto,56,Bélgica,3304,16.076,mirror
+2020,151311,Óleo de coco em bruto,24,Angola,135,0.657,mirror
+2020,151311,Óleo de coco em bruto,620,Portugal,57,0.278,mirror
+2020,151319,Óleo de coco refinado,24,Angola,1289,100.0,mirror
 2020,180100,Cacau,251,França,1592183,38.301,mirror
 2020,180100,Cacau,616,Polónia,1590817,38.268,mirror
 2020,180100,Cacau,56,Bélgica,473813,11.398,mirror
@@ -1146,20 +1146,20 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2020,180100,Cacau,276,Alemanha,96883,2.331,mirror
 2020,180100,Cacau,724,Espanha,63478,1.527,mirror
 2020,180100,Cacau,792,Turquia,25843,0.622,mirror
-2020,180632,Chocolate e preparações com cacau,251,França,57680,64.113,mirror
-2020,180632,Chocolate e preparações com cacau,392,Japão,15942,17.72,mirror
-2020,180632,Chocolate e preparações com cacau,380,Itália,8942,9.94,mirror
-2020,180632,Chocolate e preparações com cacau,724,Espanha,4345,4.829,mirror
-2020,180632,Chocolate e preparações com cacau,276,Alemanha,3058,3.399,mirror
-2020,180690,Chocolate e preparações com cacau,842,EUA,7416,80.388,mirror
-2020,180690,Chocolate e preparações com cacau,380,Itália,1809,19.612,mirror
+2020,180632,"Chocolate em tabletes, não recheado",251,França,57680,64.113,mirror
+2020,180632,"Chocolate em tabletes, não recheado",392,Japão,15942,17.72,mirror
+2020,180632,"Chocolate em tabletes, não recheado",380,Itália,8942,9.94,mirror
+2020,180632,"Chocolate em tabletes, não recheado",724,Espanha,4345,4.829,mirror
+2020,180632,"Chocolate em tabletes, não recheado",276,Alemanha,3058,3.399,mirror
+2020,180690,Outras preparações de chocolate,842,EUA,7416,80.388,mirror
+2020,180690,Outras preparações de chocolate,380,Itália,1809,19.612,mirror
 2020,490700,Selos e títulos de valor,276,Alemanha,691,100.0,mirror
 2020,630900,Vestuário usado,620,Portugal,385,100.0,mirror
-2020,720410,Sucata ferrosa,620,Portugal,55835,100.0,mirror
-2020,870323,Automóveis de passageiros,24,Angola,18933,100.0,mirror
-2020,880330,Partes de aeronaves,757,Suíça,2672253,76.077,mirror
-2020,880330,Partes de aeronaves,702,Singapura,839749,23.907,mirror
-2020,880330,Partes de aeronaves,56,Bélgica,547,0.016,mirror
+2020,720410,Sucata de ferro fundido,620,Portugal,55835,100.0,mirror
+2020,870323,Automóveis a gasolina 1.500–3.000 cm³,24,Angola,18933,100.0,mirror
+2020,880330,Partes de aviões e helicópteros (ed. antiga),757,Suíça,2672253,76.077,mirror
+2020,880330,Partes de aviões e helicópteros (ed. antiga),702,Singapura,839749,23.907,mirror
+2020,880330,Partes de aviões e helicópteros (ed. antiga),56,Bélgica,547,0.016,mirror
 2020,903300,Partes de instrumentos de precisão,804,Ucrânia,126,100.0,mirror
 2020,999999,Mercadorias não especificadas,842,EUA,285210,71.926,mirror
 2020,999999,Mercadorias não especificadas,484,México,83780,21.128,mirror
@@ -1169,21 +1169,21 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2020,999999,Mercadorias não especificadas,710,África do Sul,211,0.053,mirror
 2020,999999,Mercadorias não especificadas,414,Kuwait,203,0.051,mirror
 2020,999999,Mercadorias não especificadas,156,China,57,0.014,mirror
-2021,080111,"Cocos, castanhas de caju e nozes",24,Angola,28940,57.223,direct
-2021,080111,"Cocos, castanhas de caju e nozes",56,Bélgica,21391,42.296,direct
-2021,080111,"Cocos, castanhas de caju e nozes",132,Cabo Verde,243,0.481,direct
-2021,090411,Pimenta e pimentão,620,Portugal,96,100.0,direct
-2021,090420,Pimenta e pimentão,251,França,171155,100.0,direct
-2021,151110,Óleo de palma,528,Países Baixos,2819497,48.793,direct
-2021,151110,Óleo de palma,620,Portugal,2197031,38.021,direct
-2021,151110,Óleo de palma,120,Camarões,761996,13.187,direct
-2021,151311,Óleo de coco,56,Bélgica,275749,99.052,direct
-2021,151311,Óleo de coco,24,Angola,2494,0.896,direct
-2021,151311,Óleo de coco,132,Cabo Verde,146,0.052,direct
-2021,151319,Óleo de coco,56,Bélgica,250393,98.083,direct
-2021,151319,Óleo de coco,24,Angola,4214,1.651,direct
-2021,151319,Óleo de coco,620,Portugal,437,0.171,direct
-2021,151319,Óleo de coco,120,Camarões,243,0.095,direct
+2021,080111,Coco desidratado,24,Angola,28940,57.223,direct
+2021,080111,Coco desidratado,56,Bélgica,21391,42.296,direct
+2021,080111,Coco desidratado,132,Cabo Verde,243,0.481,direct
+2021,090411,Pimenta do reino,620,Portugal,96,100.0,direct
+2021,090420,"Piri-piri e pimentão, secos (ed. antiga)",251,França,171155,100.0,direct
+2021,151110,Óleo de palma em bruto,528,Países Baixos,2819497,48.793,direct
+2021,151110,Óleo de palma em bruto,620,Portugal,2197031,38.021,direct
+2021,151110,Óleo de palma em bruto,120,Camarões,761996,13.187,direct
+2021,151311,Óleo de coco em bruto,56,Bélgica,275749,99.052,direct
+2021,151311,Óleo de coco em bruto,24,Angola,2494,0.896,direct
+2021,151311,Óleo de coco em bruto,132,Cabo Verde,146,0.052,direct
+2021,151319,Óleo de coco refinado,56,Bélgica,250393,98.083,direct
+2021,151319,Óleo de coco refinado,24,Angola,4214,1.651,direct
+2021,151319,Óleo de coco refinado,620,Portugal,437,0.171,direct
+2021,151319,Óleo de coco refinado,120,Camarões,243,0.095,direct
 2021,180100,Cacau,528,Países Baixos,5797672,51.027,direct
 2021,180100,Cacau,56,Bélgica,3498666,30.793,direct
 2021,180100,Cacau,276,Alemanha,1713315,15.079,direct
@@ -1192,23 +1192,23 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2021,180100,Cacau,266,Gabão,56661,0.499,direct
 2021,180100,Cacau,251,França,45354,0.399,direct
 2021,180100,Cacau,620,Portugal,42182,0.371,direct
-2021,180610,Chocolate e preparações com cacau,24,Angola,827,100.0,direct
-2021,180632,Chocolate e preparações com cacau,620,Portugal,61329,34.879,direct
-2021,180632,Chocolate e preparações com cacau,380,Itália,34761,19.769,direct
-2021,180632,Chocolate e preparações com cacau,842,EUA,32895,18.708,direct
-2021,180632,Chocolate e preparações com cacau,528,Países Baixos,19887,11.31,direct
-2021,180632,Chocolate e preparações com cacau,276,Alemanha,16734,9.517,direct
-2021,180632,Chocolate e preparações com cacau,203,Chéquia,6016,3.421,direct
-2021,180632,Chocolate e preparações com cacau,251,França,2457,1.397,direct
-2021,180632,Chocolate e preparações com cacau,724,Espanha,1749,0.995,direct
-2021,180690,Chocolate e preparações com cacau,620,Portugal,23164,43.315,direct
-2021,180690,Chocolate e preparações com cacau,266,Gabão,7832,14.646,direct
-2021,180690,Chocolate e preparações com cacau,380,Itália,5435,10.162,direct
-2021,180690,Chocolate e preparações com cacau,276,Alemanha,5416,10.127,direct
-2021,180690,Chocolate e preparações com cacau,528,Países Baixos,4340,8.115,direct
-2021,180690,Chocolate e preparações com cacau,842,EUA,3338,6.241,direct
-2021,180690,Chocolate e preparações com cacau,203,Chéquia,1555,2.908,direct
-2021,180690,Chocolate e preparações com cacau,724,Espanha,1336,2.498,direct
+2021,180610,Cacau em pó com açúcar,24,Angola,827,100.0,direct
+2021,180632,"Chocolate em tabletes, não recheado",620,Portugal,61329,34.879,direct
+2021,180632,"Chocolate em tabletes, não recheado",380,Itália,34761,19.769,direct
+2021,180632,"Chocolate em tabletes, não recheado",842,EUA,32895,18.708,direct
+2021,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,19887,11.31,direct
+2021,180632,"Chocolate em tabletes, não recheado",276,Alemanha,16734,9.517,direct
+2021,180632,"Chocolate em tabletes, não recheado",203,Chéquia,6016,3.421,direct
+2021,180632,"Chocolate em tabletes, não recheado",251,França,2457,1.397,direct
+2021,180632,"Chocolate em tabletes, não recheado",724,Espanha,1749,0.995,direct
+2021,180690,Outras preparações de chocolate,620,Portugal,23164,43.315,direct
+2021,180690,Outras preparações de chocolate,266,Gabão,7832,14.646,direct
+2021,180690,Outras preparações de chocolate,380,Itália,5435,10.162,direct
+2021,180690,Outras preparações de chocolate,276,Alemanha,5416,10.127,direct
+2021,180690,Outras preparações de chocolate,528,Países Baixos,4340,8.115,direct
+2021,180690,Outras preparações de chocolate,842,EUA,3338,6.241,direct
+2021,180690,Outras preparações de chocolate,203,Chéquia,1555,2.908,direct
+2021,180690,Outras preparações de chocolate,724,Espanha,1336,2.498,direct
 2021,630900,Vestuário usado,76,Brasil,10143,71.476,direct
 2021,630900,Vestuário usado,620,Portugal,1895,13.353,direct
 2021,630900,Vestuário usado,56,Bélgica,661,4.66,direct
@@ -1216,24 +1216,24 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2021,630900,Vestuário usado,686,Senegal,389,2.742,direct
 2021,630900,Vestuário usado,24,Angola,360,2.536,direct
 2021,630900,Vestuário usado,422,Líbano,266,1.874,direct
-2021,720410,Sucata ferrosa,620,Portugal,17575,100.0,direct
-2021,870332,Automóveis de passageiros,686,Senegal,14299,100.0,direct
-2021,880330,Partes de aeronaves,686,Senegal,449461,100.0,direct
+2021,720410,Sucata de ferro fundido,620,Portugal,17575,100.0,direct
+2021,870332,Automóveis diesel 1.500–2.500 cm³,686,Senegal,14299,100.0,direct
+2021,880330,Partes de aviões e helicópteros (ed. antiga),686,Senegal,449461,100.0,direct
 2021,901580,Instrumentos de topografia,620,Portugal,33367,100.0,direct
 2021,999999,Mercadorias não especificadas,226,Guiné Equatorial,4086,99.796,direct
 2021,999999,Mercadorias não especificadas,620,Portugal,8,0.204,direct
-2021,080111,"Cocos, castanhas de caju e nozes",266,Gabão,180,100.0,mirror
-2021,080119,"Cocos, castanhas de caju e nozes",24,Angola,2232,100.0,mirror
-2021,090411,Pimenta e pimentão,251,França,296145,99.448,mirror
-2021,090411,Pimenta e pimentão,620,Portugal,1644,0.552,mirror
-2021,151110,Óleo de palma,528,Países Baixos,3134178,47.728,mirror
-2021,151110,Óleo de palma,620,Portugal,2797669,42.604,mirror
-2021,151110,Óleo de palma,120,Camarões,299260,4.557,mirror
-2021,151110,Óleo de palma,757,Suíça,265105,4.037,mirror
-2021,151110,Óleo de palma,686,Senegal,70483,1.073,mirror
-2021,151311,Óleo de coco,251,França,125951,99.397,mirror
-2021,151311,Óleo de coco,24,Angola,764,0.603,mirror
-2021,151319,Óleo de coco,24,Angola,3980,100.0,mirror
+2021,080111,Coco desidratado,266,Gabão,180,100.0,mirror
+2021,080119,"Coco fresco ou seco, outros",24,Angola,2232,100.0,mirror
+2021,090411,Pimenta do reino,251,França,296145,99.448,mirror
+2021,090411,Pimenta do reino,620,Portugal,1644,0.552,mirror
+2021,151110,Óleo de palma em bruto,528,Países Baixos,3134178,47.728,mirror
+2021,151110,Óleo de palma em bruto,620,Portugal,2797669,42.604,mirror
+2021,151110,Óleo de palma em bruto,120,Camarões,299260,4.557,mirror
+2021,151110,Óleo de palma em bruto,757,Suíça,265105,4.037,mirror
+2021,151110,Óleo de palma em bruto,686,Senegal,70483,1.073,mirror
+2021,151311,Óleo de coco em bruto,251,França,125951,99.397,mirror
+2021,151311,Óleo de coco em bruto,24,Angola,764,0.603,mirror
+2021,151319,Óleo de coco refinado,24,Angola,3980,100.0,mirror
 2021,180100,Cacau,251,França,3816672,41.949,mirror
 2021,180100,Cacau,616,Polónia,3299005,36.26,mirror
 2021,180100,Cacau,528,Países Baixos,1106283,12.159,mirror
@@ -1242,22 +1242,22 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2021,180100,Cacau,724,Espanha,190459,2.093,mirror
 2021,180100,Cacau,392,Japão,86420,0.95,mirror
 2021,180100,Cacau,643,Rússia,14870,0.163,mirror
-2021,180632,Chocolate e preparações com cacau,251,França,70918,49.574,mirror
-2021,180632,Chocolate e preparações com cacau,380,Itália,40761,28.493,mirror
-2021,180632,Chocolate e preparações com cacau,528,Países Baixos,25516,17.837,mirror
-2021,180632,Chocolate e preparações com cacau,203,Chéquia,5860,4.096,mirror
-2021,180632,Chocolate e preparações com cacau,56,Bélgica,1,0.001,mirror
-2021,180690,Chocolate e preparações com cacau,842,EUA,46807,91.186,mirror
-2021,180690,Chocolate e preparações com cacau,251,França,2686,5.232,mirror
-2021,180690,Chocolate e preparações com cacau,203,Chéquia,1247,2.429,mirror
-2021,180690,Chocolate e preparações com cacau,528,Países Baixos,591,1.152,mirror
+2021,180632,"Chocolate em tabletes, não recheado",251,França,70918,49.574,mirror
+2021,180632,"Chocolate em tabletes, não recheado",380,Itália,40761,28.493,mirror
+2021,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,25516,17.837,mirror
+2021,180632,"Chocolate em tabletes, não recheado",203,Chéquia,5860,4.096,mirror
+2021,180632,"Chocolate em tabletes, não recheado",56,Bélgica,1,0.001,mirror
+2021,180690,Outras preparações de chocolate,842,EUA,46807,91.186,mirror
+2021,180690,Outras preparações de chocolate,251,França,2686,5.232,mirror
+2021,180690,Outras preparações de chocolate,203,Chéquia,1247,2.429,mirror
+2021,180690,Outras preparações de chocolate,528,Países Baixos,591,1.152,mirror
 2021,490700,Selos e títulos de valor,604,Peru,779,100.0,mirror
 2021,630900,Vestuário usado,620,Portugal,1666,100.0,mirror
-2021,720410,Sucata ferrosa,620,Portugal,60575,100.0,mirror
-2021,851712,Aparelhos de telecomunicações,620,Portugal,8635,98.638,mirror
-2021,851712,Aparelhos de telecomunicações,466,Mali,119,1.362,mirror
-2021,880330,Partes de aeronaves,757,Suíça,778983,68.759,mirror
-2021,880330,Partes de aeronaves,702,Singapura,353936,31.241,mirror
+2021,720410,Sucata de ferro fundido,620,Portugal,60575,100.0,mirror
+2021,851712,Telemóveis,620,Portugal,8635,98.638,mirror
+2021,851712,Telemóveis,466,Mali,119,1.362,mirror
+2021,880330,Partes de aviões e helicópteros (ed. antiga),757,Suíça,778983,68.759,mirror
+2021,880330,Partes de aviões e helicópteros (ed. antiga),702,Singapura,353936,31.241,mirror
 2021,901580,Instrumentos de topografia,842,EUA,51220,100.0,mirror
 2021,999999,Mercadorias não especificadas,842,EUA,71583,94.02,mirror
 2021,999999,Mercadorias não especificadas,826,Reino Unido,1633,2.144,mirror
@@ -1267,23 +1267,23 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2021,999999,Mercadorias não especificadas,710,África do Sul,268,0.352,mirror
 2021,999999,Mercadorias não especificadas,246,Finlândia,73,0.096,mirror
 2021,999999,Mercadorias não especificadas,724,Espanha,39,0.051,mirror
-2022,080111,"Cocos, castanhas de caju e nozes",24,Angola,10869,85.863,direct
-2022,080111,"Cocos, castanhas de caju e nozes",56,Bélgica,1790,14.137,direct
-2022,080119,"Cocos, castanhas de caju e nozes",24,Angola,75084,92.679,direct
-2022,080119,"Cocos, castanhas de caju e nozes",56,Bélgica,5931,7.321,direct
-2022,090411,Pimenta e pimentão,56,Bélgica,1312,100.0,direct
-2022,090420,Pimenta e pimentão,251,França,133170,100.0,direct
-2022,151110,Óleo de palma,528,Países Baixos,4345902,53.168,direct
-2022,151110,Óleo de palma,620,Portugal,1844972,22.571,direct
-2022,151110,Óleo de palma,120,Camarões,781554,9.562,direct
-2022,151110,Óleo de palma,724,Espanha,460523,5.634,direct
-2022,151110,Óleo de palma,24,Angola,404883,4.953,direct
-2022,151110,Óleo de palma,300,Grécia,336074,4.112,direct
-2022,151311,Óleo de coco,56,Bélgica,60109,98.238,direct
-2022,151311,Óleo de coco,24,Angola,1078,1.762,direct
-2022,151319,Óleo de coco,56,Bélgica,120521,45.847,direct
-2022,151319,Óleo de coco,842,EUA,97145,36.955,direct
-2022,151319,Óleo de coco,24,Angola,45211,17.198,direct
+2022,080111,Coco desidratado,24,Angola,10869,85.863,direct
+2022,080111,Coco desidratado,56,Bélgica,1790,14.137,direct
+2022,080119,"Coco fresco ou seco, outros",24,Angola,75084,92.679,direct
+2022,080119,"Coco fresco ou seco, outros",56,Bélgica,5931,7.321,direct
+2022,090411,Pimenta do reino,56,Bélgica,1312,100.0,direct
+2022,090420,"Piri-piri e pimentão, secos (ed. antiga)",251,França,133170,100.0,direct
+2022,151110,Óleo de palma em bruto,528,Países Baixos,4345902,53.168,direct
+2022,151110,Óleo de palma em bruto,620,Portugal,1844972,22.571,direct
+2022,151110,Óleo de palma em bruto,120,Camarões,781554,9.562,direct
+2022,151110,Óleo de palma em bruto,724,Espanha,460523,5.634,direct
+2022,151110,Óleo de palma em bruto,24,Angola,404883,4.953,direct
+2022,151110,Óleo de palma em bruto,300,Grécia,336074,4.112,direct
+2022,151311,Óleo de coco em bruto,56,Bélgica,60109,98.238,direct
+2022,151311,Óleo de coco em bruto,24,Angola,1078,1.762,direct
+2022,151319,Óleo de coco refinado,56,Bélgica,120521,45.847,direct
+2022,151319,Óleo de coco refinado,842,EUA,97145,36.955,direct
+2022,151319,Óleo de coco refinado,24,Angola,45211,17.198,direct
 2022,180100,Cacau,528,Países Baixos,4356119,53.837,direct
 2022,180100,Cacau,56,Bélgica,2888821,35.703,direct
 2022,180100,Cacau,276,Alemanha,568113,7.021,direct
@@ -1292,49 +1292,49 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2022,180100,Cacau,757,Suíça,78808,0.974,direct
 2022,180100,Cacau,251,França,10843,0.134,direct
 2022,180100,Cacau,380,Itália,9651,0.119,direct
-2022,180632,Chocolate e preparações com cacau,842,EUA,30442,30.124,direct
-2022,180632,Chocolate e preparações com cacau,380,Itália,29562,29.254,direct
-2022,180632,Chocolate e preparações com cacau,528,Países Baixos,19766,19.559,direct
-2022,180632,Chocolate e preparações com cacau,276,Alemanha,13937,13.792,direct
-2022,180632,Chocolate e preparações com cacau,251,França,5883,5.822,direct
-2022,180632,Chocolate e preparações com cacau,620,Portugal,1465,1.449,direct
-2022,180690,Chocolate e preparações com cacau,380,Itália,1842,24.971,direct
-2022,180690,Chocolate e preparações com cacau,842,EUA,1778,24.104,direct
-2022,180690,Chocolate e preparações com cacau,528,Países Baixos,1617,21.924,direct
-2022,180690,Chocolate e preparações com cacau,251,França,1233,16.724,direct
-2022,180690,Chocolate e preparações com cacau,620,Portugal,507,6.875,direct
-2022,180690,Chocolate e preparações com cacau,276,Alemanha,398,5.401,direct
-2022,271011,Combustíveis refinados,899,"Areas, nes",4987182,100.0,direct
-2022,271011,Combustíveis refinados,620,Portugal,11,0.0,direct
+2022,180632,"Chocolate em tabletes, não recheado",842,EUA,30442,30.124,direct
+2022,180632,"Chocolate em tabletes, não recheado",380,Itália,29562,29.254,direct
+2022,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,19766,19.559,direct
+2022,180632,"Chocolate em tabletes, não recheado",276,Alemanha,13937,13.792,direct
+2022,180632,"Chocolate em tabletes, não recheado",251,França,5883,5.822,direct
+2022,180632,"Chocolate em tabletes, não recheado",620,Portugal,1465,1.449,direct
+2022,180690,Outras preparações de chocolate,380,Itália,1842,24.971,direct
+2022,180690,Outras preparações de chocolate,842,EUA,1778,24.104,direct
+2022,180690,Outras preparações de chocolate,528,Países Baixos,1617,21.924,direct
+2022,180690,Outras preparações de chocolate,251,França,1233,16.724,direct
+2022,180690,Outras preparações de chocolate,620,Portugal,507,6.875,direct
+2022,180690,Outras preparações de chocolate,276,Alemanha,398,5.401,direct
+2022,271011,Óleos leves de petróleo (ed. antiga),899,"Areas, nes",4987182,100.0,direct
+2022,271011,Óleos leves de petróleo (ed. antiga),620,Portugal,11,0.0,direct
 2022,630900,Vestuário usado,620,Portugal,12941,67.447,direct
 2022,630900,Vestuário usado,710,África do Sul,3396,17.7,direct
 2022,630900,Vestuário usado,76,Brasil,1279,6.664,direct
 2022,630900,Vestuário usado,24,Angola,653,3.404,direct
 2022,630900,Vestuário usado,516,Namíbia,583,3.036,direct
 2022,630900,Vestuário usado,716,Zimbabué,336,1.749,direct
-2022,720410,Sucata ferrosa,620,Portugal,40165,93.553,direct
-2022,720410,Sucata ferrosa,724,Espanha,2159,5.029,direct
-2022,720410,Sucata ferrosa,562,Niger,609,1.418,direct
-2022,870332,Automóveis de passageiros,120,Camarões,4261,80.0,direct
-2022,870332,Automóveis de passageiros,620,Portugal,1065,20.0,direct
-2022,870333,Automóveis de passageiros,24,Angola,11184,100.0,direct
-2022,880330,Partes de aeronaves,251,França,16489,100.0,direct
+2022,720410,Sucata de ferro fundido,620,Portugal,40165,93.553,direct
+2022,720410,Sucata de ferro fundido,724,Espanha,2159,5.029,direct
+2022,720410,Sucata de ferro fundido,562,Niger,609,1.418,direct
+2022,870332,Automóveis diesel 1.500–2.500 cm³,120,Camarões,4261,80.0,direct
+2022,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,1065,20.0,direct
+2022,870333,Automóveis diesel +2.500 cm³,24,Angola,11184,100.0,direct
+2022,880330,Partes de aviões e helicópteros (ed. antiga),251,França,16489,100.0,direct
 2022,901580,Instrumentos de topografia,620,Portugal,833,100.0,direct
-2022,080111,"Cocos, castanhas de caju e nozes",24,Angola,24166,100.0,mirror
-2022,080119,"Cocos, castanhas de caju e nozes",24,Angola,3947,94.308,mirror
-2022,080119,"Cocos, castanhas de caju e nozes",620,Portugal,238,5.692,mirror
-2022,090411,Pimenta e pimentão,251,França,37979,100.0,mirror
-2022,151110,Óleo de palma,528,Países Baixos,3016002,46.06,mirror
-2022,151110,Óleo de palma,620,Portugal,1892666,28.904,mirror
-2022,151110,Óleo de palma,120,Camarões,1078280,16.467,mirror
-2022,151110,Óleo de palma,724,Espanha,538256,8.22,mirror
-2022,151110,Óleo de palma,56,Bélgica,22823,0.349,mirror
-2022,151311,Óleo de coco,757,Suíça,47123,99.743,mirror
-2022,151311,Óleo de coco,24,Angola,122,0.257,mirror
-2022,151319,Óleo de coco,842,EUA,86050,57.81,mirror
-2022,151319,Óleo de coco,24,Angola,62514,41.998,mirror
-2022,151319,Óleo de coco,757,Suíça,209,0.141,mirror
-2022,151319,Óleo de coco,258,French Polynesia,77,0.052,mirror
+2022,080111,Coco desidratado,24,Angola,24166,100.0,mirror
+2022,080119,"Coco fresco ou seco, outros",24,Angola,3947,94.308,mirror
+2022,080119,"Coco fresco ou seco, outros",620,Portugal,238,5.692,mirror
+2022,090411,Pimenta do reino,251,França,37979,100.0,mirror
+2022,151110,Óleo de palma em bruto,528,Países Baixos,3016002,46.06,mirror
+2022,151110,Óleo de palma em bruto,620,Portugal,1892666,28.904,mirror
+2022,151110,Óleo de palma em bruto,120,Camarões,1078280,16.467,mirror
+2022,151110,Óleo de palma em bruto,724,Espanha,538256,8.22,mirror
+2022,151110,Óleo de palma em bruto,56,Bélgica,22823,0.349,mirror
+2022,151311,Óleo de coco em bruto,757,Suíça,47123,99.743,mirror
+2022,151311,Óleo de coco em bruto,24,Angola,122,0.257,mirror
+2022,151319,Óleo de coco refinado,842,EUA,86050,57.81,mirror
+2022,151319,Óleo de coco refinado,24,Angola,62514,41.998,mirror
+2022,151319,Óleo de coco refinado,757,Suíça,209,0.141,mirror
+2022,151319,Óleo de coco refinado,258,French Polynesia,77,0.052,mirror
 2022,180100,Cacau,251,França,4515957,52.52,mirror
 2022,180100,Cacau,616,Polónia,1827930,21.259,mirror
 2022,180100,Cacau,528,Países Baixos,779573,9.066,mirror
@@ -1343,23 +1343,23 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2022,180100,Cacau,724,Espanha,245754,2.858,mirror
 2022,180100,Cacau,276,Alemanha,219075,2.548,mirror
 2022,180100,Cacau,620,Portugal,41082,0.478,mirror
-2022,180632,Chocolate e preparações com cacau,380,Itália,32471,76.537,mirror
-2022,180632,Chocolate e preparações com cacau,528,Países Baixos,4728,11.145,mirror
-2022,180632,Chocolate e preparações com cacau,276,Alemanha,3247,7.652,mirror
-2022,180632,Chocolate e preparações com cacau,620,Portugal,1245,2.935,mirror
-2022,180632,Chocolate e preparações com cacau,446,Macau (RAEM),734,1.73,mirror
-2022,180690,Chocolate e preparações com cacau,842,EUA,53341,77.002,mirror
-2022,180690,Chocolate e preparações com cacau,251,França,6944,10.024,mirror
-2022,180690,Chocolate e preparações com cacau,380,Itália,3491,5.039,mirror
-2022,180690,Chocolate e preparações com cacau,554,Nova Zelândia,2726,3.935,mirror
-2022,180690,Chocolate e preparações com cacau,620,Portugal,2595,3.747,mirror
-2022,180690,Chocolate e preparações com cacau,276,Alemanha,133,0.193,mirror
-2022,180690,Chocolate e preparações com cacau,528,Países Baixos,42,0.061,mirror
-2022,720410,Sucata ferrosa,620,Portugal,214122,100.0,mirror
-2022,870323,Automóveis de passageiros,500,Montserrat,3824,78.313,mirror
-2022,870323,Automóveis de passageiros,620,Portugal,1059,21.687,mirror
-2022,870333,Automóveis de passageiros,686,Senegal,5709,100.0,mirror
-2022,880330,Partes de aeronaves,608,Filipinas,4340,100.0,mirror
+2022,180632,"Chocolate em tabletes, não recheado",380,Itália,32471,76.537,mirror
+2022,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,4728,11.145,mirror
+2022,180632,"Chocolate em tabletes, não recheado",276,Alemanha,3247,7.652,mirror
+2022,180632,"Chocolate em tabletes, não recheado",620,Portugal,1245,2.935,mirror
+2022,180632,"Chocolate em tabletes, não recheado",446,Macau (RAEM),734,1.73,mirror
+2022,180690,Outras preparações de chocolate,842,EUA,53341,77.002,mirror
+2022,180690,Outras preparações de chocolate,251,França,6944,10.024,mirror
+2022,180690,Outras preparações de chocolate,380,Itália,3491,5.039,mirror
+2022,180690,Outras preparações de chocolate,554,Nova Zelândia,2726,3.935,mirror
+2022,180690,Outras preparações de chocolate,620,Portugal,2595,3.747,mirror
+2022,180690,Outras preparações de chocolate,276,Alemanha,133,0.193,mirror
+2022,180690,Outras preparações de chocolate,528,Países Baixos,42,0.061,mirror
+2022,720410,Sucata de ferro fundido,620,Portugal,214122,100.0,mirror
+2022,870323,Automóveis a gasolina 1.500–3.000 cm³,500,Montserrat,3824,78.313,mirror
+2022,870323,Automóveis a gasolina 1.500–3.000 cm³,620,Portugal,1059,21.687,mirror
+2022,870333,Automóveis diesel +2.500 cm³,686,Senegal,5709,100.0,mirror
+2022,880330,Partes de aviões e helicópteros (ed. antiga),608,Filipinas,4340,100.0,mirror
 2022,903300,Partes de instrumentos de precisão,360,Indonésia,118,80.822,mirror
 2022,903300,Partes de instrumentos de precisão,792,Turquia,28,19.178,mirror
 2022,999999,Mercadorias não especificadas,842,EUA,62301,56.07,mirror
@@ -1370,22 +1370,22 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2022,999999,Mercadorias não especificadas,490,Taiwan (Prov. China),638,0.574,mirror
 2022,999999,Mercadorias não especificadas,156,China,457,0.411,mirror
 2022,999999,Mercadorias não especificadas,682,Arábia Saudita,69,0.062,mirror
-2023,080111,"Cocos, castanhas de caju e nozes",56,Bélgica,19406,65.48,direct
-2023,080111,"Cocos, castanhas de caju e nozes",24,Angola,10231,34.52,direct
-2023,080119,"Cocos, castanhas de caju e nozes",24,Angola,1509,96.545,direct
-2023,080119,"Cocos, castanhas de caju e nozes",620,Portugal,54,3.455,direct
-2023,090411,Pimenta e pimentão,56,Bélgica,54,100.0,direct
-2023,151110,Óleo de palma,528,Países Baixos,4370700,79.821,direct
-2023,151110,Óleo de palma,620,Portugal,423614,7.736,direct
-2023,151110,Óleo de palma,724,Espanha,370077,6.759,direct
-2023,151110,Óleo de palma,120,Camarões,311228,5.684,direct
-2023,151311,Óleo de coco,56,Bélgica,66812,66.3,direct
-2023,151311,Óleo de coco,620,Portugal,33594,33.336,direct
-2023,151311,Óleo de coco,24,Angola,367,0.364,direct
-2023,151319,Óleo de coco,100,Bulgária,20864,93.329,direct
-2023,151319,Óleo de coco,620,Portugal,962,4.304,direct
-2023,151319,Óleo de coco,24,Angola,423,1.893,direct
-2023,151319,Óleo de coco,826,Reino Unido,106,0.473,direct
+2023,080111,Coco desidratado,56,Bélgica,19406,65.48,direct
+2023,080111,Coco desidratado,24,Angola,10231,34.52,direct
+2023,080119,"Coco fresco ou seco, outros",24,Angola,1509,96.545,direct
+2023,080119,"Coco fresco ou seco, outros",620,Portugal,54,3.455,direct
+2023,090411,Pimenta do reino,56,Bélgica,54,100.0,direct
+2023,151110,Óleo de palma em bruto,528,Países Baixos,4370700,79.821,direct
+2023,151110,Óleo de palma em bruto,620,Portugal,423614,7.736,direct
+2023,151110,Óleo de palma em bruto,724,Espanha,370077,6.759,direct
+2023,151110,Óleo de palma em bruto,120,Camarões,311228,5.684,direct
+2023,151311,Óleo de coco em bruto,56,Bélgica,66812,66.3,direct
+2023,151311,Óleo de coco em bruto,620,Portugal,33594,33.336,direct
+2023,151311,Óleo de coco em bruto,24,Angola,367,0.364,direct
+2023,151319,Óleo de coco refinado,100,Bulgária,20864,93.329,direct
+2023,151319,Óleo de coco refinado,620,Portugal,962,4.304,direct
+2023,151319,Óleo de coco refinado,24,Angola,423,1.893,direct
+2023,151319,Óleo de coco refinado,826,Reino Unido,106,0.473,direct
 2023,180100,Cacau,528,Países Baixos,5611893,55.835,direct
 2023,180100,Cacau,56,Bélgica,3327107,33.103,direct
 2023,180100,Cacau,276,Alemanha,529827,5.272,direct
@@ -1394,14 +1394,14 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2023,180100,Cacau,233,Estónia,125571,1.249,direct
 2023,180100,Cacau,620,Portugal,73512,0.731,direct
 2023,180100,Cacau,251,França,32678,0.325,direct
-2023,180632,Chocolate e preparações com cacau,842,EUA,40857,37.199,direct
-2023,180632,Chocolate e preparações com cacau,380,Itália,30552,27.816,direct
-2023,180632,Chocolate e preparações com cacau,620,Portugal,26374,24.012,direct
-2023,180632,Chocolate e preparações com cacau,251,França,6402,5.829,direct
-2023,180632,Chocolate e preparações com cacau,528,Países Baixos,3427,3.12,direct
-2023,180632,Chocolate e preparações com cacau,276,Alemanha,2224,2.024,direct
-2023,180690,Chocolate e preparações com cacau,266,Gabão,1968,60.491,direct
-2023,180690,Chocolate e preparações com cacau,842,EUA,1285,39.509,direct
+2023,180632,"Chocolate em tabletes, não recheado",842,EUA,40857,37.199,direct
+2023,180632,"Chocolate em tabletes, não recheado",380,Itália,30552,27.816,direct
+2023,180632,"Chocolate em tabletes, não recheado",620,Portugal,26374,24.012,direct
+2023,180632,"Chocolate em tabletes, não recheado",251,França,6402,5.829,direct
+2023,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,3427,3.12,direct
+2023,180632,"Chocolate em tabletes, não recheado",276,Alemanha,2224,2.024,direct
+2023,180690,Outras preparações de chocolate,266,Gabão,1968,60.491,direct
+2023,180690,Outras preparações de chocolate,842,EUA,1285,39.509,direct
 2023,630900,Vestuário usado,842,EUA,5123,26.711,direct
 2023,630900,Vestuário usado,757,Suíça,4266,22.241,direct
 2023,630900,Vestuário usado,76,Brasil,3077,16.042,direct
@@ -1410,13 +1410,13 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2023,630900,Vestuário usado,710,África do Sul,1223,6.375,direct
 2023,630900,Vestuário usado,480,Maurícias,308,1.605,direct
 2023,630900,Vestuário usado,699,Índia,62,0.325,direct
-2023,720410,Sucata ferrosa,620,Portugal,19698,74.563,direct
-2023,720410,Sucata ferrosa,566,Nigéria,3747,14.183,direct
-2023,720410,Sucata ferrosa,724,Espanha,2268,8.585,direct
-2023,720410,Sucata ferrosa,768,Togo,705,2.67,direct
-2023,851712,Aparelhos de telecomunicações,266,Gabão,108,100.0,direct
-2023,870323,Automóveis de passageiros,566,Nigéria,441,100.0,direct
-2023,870333,Automóveis de passageiros,842,EUA,18443,100.0,direct
+2023,720410,Sucata de ferro fundido,620,Portugal,19698,74.563,direct
+2023,720410,Sucata de ferro fundido,566,Nigéria,3747,14.183,direct
+2023,720410,Sucata de ferro fundido,724,Espanha,2268,8.585,direct
+2023,720410,Sucata de ferro fundido,768,Togo,705,2.67,direct
+2023,851712,Telemóveis,266,Gabão,108,100.0,direct
+2023,870323,Automóveis a gasolina 1.500–3.000 cm³,566,Nigéria,441,100.0,direct
+2023,870333,Automóveis diesel +2.500 cm³,842,EUA,18443,100.0,direct
 2023,999999,Mercadorias não especificadas,251,França,136069,75.092,direct
 2023,999999,Mercadorias não especificadas,620,Portugal,31370,17.312,direct
 2023,999999,Mercadorias não especificadas,24,Angola,11080,6.115,direct
@@ -1424,18 +1424,18 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2023,999999,Mercadorias não especificadas,56,Bélgica,1080,0.596,direct
 2023,999999,Mercadorias não especificadas,480,Maurícias,81,0.045,direct
 2023,999999,Mercadorias não especificadas,699,Índia,19,0.01,direct
-2023,080111,"Cocos, castanhas de caju e nozes",24,Angola,32985,100.0,mirror
-2023,090411,Pimenta e pimentão,251,França,98149,96.752,mirror
-2023,090411,Pimenta e pimentão,757,Suíça,3295,3.248,mirror
-2023,151110,Óleo de palma,528,Países Baixos,3582161,74.695,mirror
-2023,151110,Óleo de palma,724,Espanha,759526,15.838,mirror
-2023,151110,Óleo de palma,120,Camarões,287295,5.991,mirror
-2023,151110,Óleo de palma,40,Áustria,165819,3.458,mirror
-2023,151110,Óleo de palma,620,Portugal,933,0.019,mirror
-2023,151311,Óleo de coco,251,França,35532,99.924,mirror
-2023,151311,Óleo de coco,24,Angola,22,0.061,mirror
-2023,151311,Óleo de coco,528,Países Baixos,5,0.015,mirror
-2023,151319,Óleo de coco,24,Angola,2510,100.0,mirror
+2023,080111,Coco desidratado,24,Angola,32985,100.0,mirror
+2023,090411,Pimenta do reino,251,França,98149,96.752,mirror
+2023,090411,Pimenta do reino,757,Suíça,3295,3.248,mirror
+2023,151110,Óleo de palma em bruto,528,Países Baixos,3582161,74.695,mirror
+2023,151110,Óleo de palma em bruto,724,Espanha,759526,15.838,mirror
+2023,151110,Óleo de palma em bruto,120,Camarões,287295,5.991,mirror
+2023,151110,Óleo de palma em bruto,40,Áustria,165819,3.458,mirror
+2023,151110,Óleo de palma em bruto,620,Portugal,933,0.019,mirror
+2023,151311,Óleo de coco em bruto,251,França,35532,99.924,mirror
+2023,151311,Óleo de coco em bruto,24,Angola,22,0.061,mirror
+2023,151311,Óleo de coco em bruto,528,Países Baixos,5,0.015,mirror
+2023,151319,Óleo de coco refinado,24,Angola,2510,100.0,mirror
 2023,180100,Cacau,251,França,3822252,40.669,mirror
 2023,180100,Cacau,616,Polónia,1878862,19.991,mirror
 2023,180100,Cacau,276,Alemanha,1576830,16.778,mirror
@@ -1444,18 +1444,18 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2023,180100,Cacau,724,Espanha,277603,2.954,mirror
 2023,180100,Cacau,56,Bélgica,216521,2.304,mirror
 2023,180100,Cacau,620,Portugal,91687,0.976,mirror
-2023,180610,Chocolate e preparações com cacau,56,Bélgica,122,100.0,mirror
-2023,180632,Chocolate e preparações com cacau,380,Itália,35422,59.436,mirror
-2023,180632,Chocolate e preparações com cacau,620,Portugal,20036,33.619,mirror
-2023,180632,Chocolate e preparações com cacau,392,Japão,4014,6.736,mirror
-2023,180632,Chocolate e preparações com cacau,528,Países Baixos,124,0.209,mirror
-2023,180690,Chocolate e preparações com cacau,842,EUA,42390,81.931,mirror
-2023,180690,Chocolate e preparações com cacau,251,França,7712,14.905,mirror
-2023,180690,Chocolate e preparações com cacau,392,Japão,1637,3.164,mirror
+2023,180610,Cacau em pó com açúcar,56,Bélgica,122,100.0,mirror
+2023,180632,"Chocolate em tabletes, não recheado",380,Itália,35422,59.436,mirror
+2023,180632,"Chocolate em tabletes, não recheado",620,Portugal,20036,33.619,mirror
+2023,180632,"Chocolate em tabletes, não recheado",392,Japão,4014,6.736,mirror
+2023,180632,"Chocolate em tabletes, não recheado",528,Países Baixos,124,0.209,mirror
+2023,180690,Outras preparações de chocolate,842,EUA,42390,81.931,mirror
+2023,180690,Outras preparações de chocolate,251,França,7712,14.905,mirror
+2023,180690,Outras preparações de chocolate,392,Japão,1637,3.164,mirror
 2023,490700,Selos e títulos de valor,156,China,11000,87.39,mirror
 2023,490700,Selos e títulos de valor,392,Japão,1587,12.61,mirror
-2023,720410,Sucata ferrosa,620,Portugal,266869,100.0,mirror
-2023,870332,Automóveis de passageiros,620,Portugal,33509,100.0,mirror
+2023,720410,Sucata de ferro fundido,620,Portugal,266869,100.0,mirror
+2023,870332,Automóveis diesel 1.500–2.500 cm³,620,Portugal,33509,100.0,mirror
 2023,999999,Mercadorias não especificadas,842,EUA,124610,67.574,mirror
 2023,999999,Mercadorias não especificadas,484,México,47796,25.919,mirror
 2023,999999,Mercadorias não especificadas,710,África do Sul,7757,4.207,mirror
@@ -1464,16 +1464,16 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2023,999999,Mercadorias não especificadas,724,Espanha,196,0.106,mirror
 2023,999999,Mercadorias não especificadas,682,Arábia Saudita,70,0.038,mirror
 2023,999999,Mercadorias não especificadas,458,Malásia,39,0.021,mirror
-2024,080111,"Cocos, castanhas de caju e nozes",24,Angola,21372,100.0,mirror
-2024,090411,Pimenta e pimentão,251,França,254495,99.281,mirror
-2024,090411,Pimenta e pimentão,442,Luxemburgo,1705,0.665,mirror
-2024,090411,Pimenta e pimentão,100,Bulgária,139,0.054,mirror
-2024,151110,Óleo de palma,528,Países Baixos,6288030,92.967,mirror
-2024,151110,Óleo de palma,620,Portugal,442859,6.548,mirror
-2024,151110,Óleo de palma,380,Itália,32794,0.485,mirror
-2024,151110,Óleo de palma,757,Suíça,16,0.0,mirror
-2024,151311,Óleo de coco,24,Angola,919,100.0,mirror
-2024,151319,Óleo de coco,24,Angola,8990,100.0,mirror
+2024,080111,Coco desidratado,24,Angola,21372,100.0,mirror
+2024,090411,Pimenta do reino,251,França,254495,99.281,mirror
+2024,090411,Pimenta do reino,442,Luxemburgo,1705,0.665,mirror
+2024,090411,Pimenta do reino,100,Bulgária,139,0.054,mirror
+2024,151110,Óleo de palma em bruto,528,Países Baixos,6288030,92.967,mirror
+2024,151110,Óleo de palma em bruto,620,Portugal,442859,6.548,mirror
+2024,151110,Óleo de palma em bruto,380,Itália,32794,0.485,mirror
+2024,151110,Óleo de palma em bruto,757,Suíça,16,0.0,mirror
+2024,151311,Óleo de coco em bruto,24,Angola,919,100.0,mirror
+2024,151319,Óleo de coco refinado,24,Angola,8990,100.0,mirror
 2024,180100,Cacau,616,Polónia,6479593,30.828,mirror
 2024,180100,Cacau,251,França,4865139,23.147,mirror
 2024,180100,Cacau,360,Indonésia,2142512,10.193,mirror
@@ -1482,16 +1482,16 @@ year,hs6,description_pt,partner_code,partner,value,share_pct,basis
 2024,180100,Cacau,757,Suíça,1375736,6.545,mirror
 2024,180100,Cacau,56,Bélgica,1138364,5.416,mirror
 2024,180100,Cacau,724,Espanha,447563,2.129,mirror
-2024,180632,Chocolate e preparações com cacau,380,Itália,45890,55.953,mirror
-2024,180632,Chocolate e preparações com cacau,620,Portugal,28575,34.84,mirror
-2024,180632,Chocolate e preparações com cacau,392,Japão,7551,9.207,mirror
-2024,180690,Chocolate e preparações com cacau,842,EUA,82585,97.756,mirror
-2024,180690,Chocolate e preparações com cacau,380,Itália,1690,2.0,mirror
-2024,180690,Chocolate e preparações com cacau,757,Suíça,206,0.244,mirror
+2024,180632,"Chocolate em tabletes, não recheado",380,Itália,45890,55.953,mirror
+2024,180632,"Chocolate em tabletes, não recheado",620,Portugal,28575,34.84,mirror
+2024,180632,"Chocolate em tabletes, não recheado",392,Japão,7551,9.207,mirror
+2024,180690,Outras preparações de chocolate,842,EUA,82585,97.756,mirror
+2024,180690,Outras preparações de chocolate,380,Itália,1690,2.0,mirror
+2024,180690,Outras preparações de chocolate,757,Suíça,206,0.244,mirror
 2024,490700,Selos e títulos de valor,842,EUA,4502,85.307,mirror
 2024,490700,Selos e títulos de valor,276,Alemanha,775,14.693,mirror
 2024,630900,Vestuário usado,620,Portugal,136928,100.0,mirror
-2024,720410,Sucata ferrosa,620,Portugal,177970,100.0,mirror
+2024,720410,Sucata de ferro fundido,620,Portugal,177970,100.0,mirror
 2024,901580,Instrumentos de topografia,516,Namíbia,183,100.0,mirror
 2024,903300,Partes de instrumentos de precisão,757,Suíça,194,100.0,mirror
 2024,999999,Mercadorias não especificadas,842,EUA,52415,89.696,mirror

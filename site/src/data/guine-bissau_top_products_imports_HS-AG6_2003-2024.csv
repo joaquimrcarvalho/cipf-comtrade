@@ -1,301 +1,301 @@
 year,hs6,description_pt,value,share_pct,rank,basis
-2003,100630,Arroz,22264067,34.86,1,direct
-2003,100640,Arroz,5334606,8.353,2,direct
+2003,100630,Arroz semibranqueado ou branqueado,22264067,34.86,1,direct
+2003,100640,Arroz partido,5334606,8.353,2,direct
 2003,110100,Farinha de trigo,2384004,3.733,3,direct
-2003,252329,Cimento,2082691,3.261,4,direct
-2003,870323,Automóveis de passageiros,1954994,3.061,5,direct
-2003,850164,Motores e geradores elétricos,1790505,2.803,6,direct
+2003,252329,Cimento Portland,2082691,3.261,4,direct
+2003,870323,Automóveis a gasolina 1.500–3.000 cm³,1954994,3.061,5,direct
+2003,850164,Alternadores +750 kVA,1790505,2.803,6,direct
 2003,220600,"Bebidas fermentadas (sidra, hidromel)",1507546,2.36,7,direct
-2003,100620,Arroz,1377481,2.157,8,direct
-2003,220421,Vinho,1299491,2.035,9,direct
-2003,150790,Óleo de soja,1005421,1.574,10,direct
-2003,271019,Combustíveis refinados,12590395,11.918,1,mirror
-2003,100630,Arroz,5097429,4.825,2,mirror
+2003,100620,Arroz descascado (integral),1377481,2.157,8,direct
+2003,220421,Vinho tranquilo até 2 L,1299491,2.035,9,direct
+2003,150790,Óleo de soja refinado,1005421,1.574,10,direct
+2003,271019,Gasóleo e combustíveis médios e pesados,12590395,11.918,1,mirror
+2003,100630,Arroz semibranqueado ou branqueado,5097429,4.825,2,mirror
 2003,890200,Navios de pesca,4013889,3.799,3,mirror
 2003,110100,Farinha de trigo,3297245,3.121,4,mirror
 2003,681099,Artigos de cimento e betão,3218960,3.047,5,mirror
-2003,252329,Cimento,3078905,2.914,6,mirror
-2003,340119,Sabão,2802248,2.653,7,mirror
-2003,100640,Arroz,2110145,1.997,8,mirror
-2003,271011,Combustíveis refinados,1817045,1.72,9,mirror
+2003,252329,Cimento Portland,3078905,2.914,6,mirror
+2003,340119,Sabão em barras e pastilhas,2802248,2.653,7,mirror
+2003,100640,Arroz partido,2110145,1.997,8,mirror
+2003,271011,Óleos leves de petróleo (ed. antiga),1817045,1.72,9,mirror
 2003,220300,Cerveja,1742088,1.649,10,mirror
-2004,850211,Grupos geradores,6839464,11.968,1,direct
-2004,271000,Combustíveis refinados,6765615,11.839,2,direct
-2004,220290,Bebidas não alcoólicas,4741023,8.296,3,direct
-2004,100630,Arroz,4149876,7.262,4,direct
+2004,850211,Grupos geradores diesel até 75 kVA,6839464,11.968,1,direct
+2004,271000,Óleos de petróleo (ed. antiga),6765615,11.839,2,direct
+2004,220290,Bebidas não alcoólicas (ed. antiga),4741023,8.296,3,direct
+2004,100630,Arroz semibranqueado ou branqueado,4149876,7.262,4,direct
 2004,220600,"Bebidas fermentadas (sidra, hidromel)",2843917,4.977,5,direct
-2004,100620,Arroz,2344580,4.103,6,direct
-2004,100640,Arroz,1754023,3.069,7,direct
-2004,870323,Automóveis de passageiros,1570802,2.749,8,direct
-2004,220421,Vinho,1450488,2.538,9,direct
+2004,100620,Arroz descascado (integral),2344580,4.103,6,direct
+2004,100640,Arroz partido,1754023,3.069,7,direct
+2004,870323,Automóveis a gasolina 1.500–3.000 cm³,1570802,2.749,8,direct
+2004,220421,Vinho tranquilo até 2 L,1450488,2.538,9,direct
 2004,722694,Outros laminados de aços-liga,1273876,2.229,10,direct
-2004,271019,Combustíveis refinados,9701904,8.687,1,mirror
-2004,100640,Arroz,9631517,8.624,2,mirror
-2004,340119,Sabão,3286401,2.943,3,mirror
+2004,271019,Gasóleo e combustíveis médios e pesados,9701904,8.687,1,mirror
+2004,100640,Arroz partido,9631517,8.624,2,mirror
+2004,340119,Sabão em barras e pastilhas,3286401,2.943,3,mirror
 2004,999999,Mercadorias não especificadas,3158945,2.829,4,mirror
 2004,220300,Cerveja,2952457,2.644,5,mirror
-2004,271011,Combustíveis refinados,2396987,2.146,6,mirror
-2004,721420,Varões de ferro ou aço,2200796,1.971,7,mirror
-2004,190190,Preparações para alimentação infantil,1974238,1.768,8,mirror
-2004,252329,Cimento,1794359,1.607,9,mirror
-2004,220421,Vinho,1792339,1.605,10,mirror
-2005,220290,Bebidas não alcoólicas,26219372,23.476,1,direct
-2005,271000,Combustíveis refinados,18443084,16.514,2,direct
-2005,100640,Arroz,7064390,6.325,3,direct
-2005,100630,Arroz,7038402,6.302,4,direct
-2005,252329,Cimento,4773226,4.274,5,direct
+2004,271011,Óleos leves de petróleo (ed. antiga),2396987,2.146,6,mirror
+2004,721420,Varões de ferro com saliências (betão armado),2200796,1.971,7,mirror
+2004,190190,Preparações à base de farinha ou leite,1974238,1.768,8,mirror
+2004,252329,Cimento Portland,1794359,1.607,9,mirror
+2004,220421,Vinho tranquilo até 2 L,1792339,1.605,10,mirror
+2005,220290,Bebidas não alcoólicas (ed. antiga),26219372,23.476,1,direct
+2005,271000,Óleos de petróleo (ed. antiga),18443084,16.514,2,direct
+2005,100640,Arroz partido,7064390,6.325,3,direct
+2005,100630,Arroz semibranqueado ou branqueado,7038402,6.302,4,direct
+2005,252329,Cimento Portland,4773226,4.274,5,direct
 2005,110100,Farinha de trigo,2631339,2.356,6,direct
 2005,220600,"Bebidas fermentadas (sidra, hidromel)",2546962,2.28,7,direct
 2005,853890,Partes de aparelhos elétricos,2436253,2.181,8,direct
-2005,340119,Sabão,2203851,1.973,9,direct
-2005,100620,Arroz,2137310,1.914,10,direct
-2005,271019,Combustíveis refinados,46020014,24.594,1,mirror
-2005,271011,Combustíveis refinados,22246824,11.889,2,mirror
-2005,100640,Arroz,9304451,4.973,3,mirror
-2005,100630,Arroz,6751349,3.608,4,mirror
-2005,190190,Preparações para alimentação infantil,4927063,2.633,5,mirror
+2005,340119,Sabão em barras e pastilhas,2203851,1.973,9,direct
+2005,100620,Arroz descascado (integral),2137310,1.914,10,direct
+2005,271019,Gasóleo e combustíveis médios e pesados,46020014,24.594,1,mirror
+2005,271011,Óleos leves de petróleo (ed. antiga),22246824,11.889,2,mirror
+2005,100640,Arroz partido,9304451,4.973,3,mirror
+2005,100630,Arroz semibranqueado ou branqueado,6751349,3.608,4,mirror
+2005,190190,Preparações à base de farinha ou leite,4927063,2.633,5,mirror
 2005,999999,Mercadorias não especificadas,3695244,1.975,6,mirror
 2005,220300,Cerveja,3662054,1.957,7,mirror
 2005,110100,Farinha de trigo,3435663,1.836,8,mirror
-2005,170199,Açúcar de cana ou de beterraba,3352920,1.792,9,mirror
-2005,340119,Sabão,3336554,1.783,10,mirror
-2006,271019,Combustíveis refinados,26492429,16.871,1,mirror
-2006,100640,Arroz,8649851,5.508,2,mirror
-2006,170199,Açúcar de cana ou de beterraba,7891241,5.025,3,mirror
-2006,271011,Combustíveis refinados,4117553,2.622,4,mirror
+2005,170199,Açúcar refinado,3352920,1.792,9,mirror
+2005,340119,Sabão em barras e pastilhas,3336554,1.783,10,mirror
+2006,271019,Gasóleo e combustíveis médios e pesados,26492429,16.871,1,mirror
+2006,100640,Arroz partido,8649851,5.508,2,mirror
+2006,170199,Açúcar refinado,7891241,5.025,3,mirror
+2006,271011,Óleos leves de petróleo (ed. antiga),4117553,2.622,4,mirror
 2006,110100,Farinha de trigo,3841341,2.446,5,mirror
-2006,190190,Preparações para alimentação infantil,3744029,2.384,6,mirror
-2006,340119,Sabão,3287344,2.093,7,mirror
+2006,190190,Preparações à base de farinha ou leite,3744029,2.384,6,mirror
+2006,340119,Sabão em barras e pastilhas,3287344,2.093,7,mirror
 2006,220300,Cerveja,3201792,2.039,8,mirror
 2006,999999,Mercadorias não especificadas,2597526,1.654,9,mirror
-2006,870421,Veículos de mercadorias,2038634,1.298,10,mirror
-2007,271019,Combustíveis refinados,16731549,8.127,1,mirror
-2007,170199,Açúcar de cana ou de beterraba,9318125,4.526,2,mirror
-2007,851762,Aparelhos de telecomunicações,7932915,3.853,3,mirror
-2007,252329,Cimento,6778771,3.293,4,mirror
+2006,870421,Camiões diesel até 5 t,2038634,1.298,10,mirror
+2007,271019,Gasóleo e combustíveis médios e pesados,16731549,8.127,1,mirror
+2007,170199,Açúcar refinado,9318125,4.526,2,mirror
+2007,851762,Routers e aparelhos de dados,7932915,3.853,3,mirror
+2007,252329,Cimento Portland,6778771,3.293,4,mirror
 2007,999999,Mercadorias não especificadas,5976697,2.903,5,mirror
-2007,151190,Óleo de palma,5863434,2.848,6,mirror
-2007,100640,Arroz,5633218,2.736,7,mirror
-2007,271011,Combustíveis refinados,4467252,2.17,8,mirror
+2007,151190,Óleo de palma refinado,5863434,2.848,6,mirror
+2007,100640,Arroz partido,5633218,2.736,7,mirror
+2007,271011,Óleos leves de petróleo (ed. antiga),4467252,2.17,8,mirror
 2007,220300,Cerveja,3914882,1.902,9,mirror
-2007,340119,Sabão,3883904,1.886,10,mirror
-2008,271019,Combustíveis refinados,31236975,12.964,1,mirror
-2008,100640,Arroz,14745087,6.12,2,mirror
-2008,252329,Cimento,9713899,4.032,3,mirror
-2008,100630,Arroz,7741004,3.213,4,mirror
-2008,151190,Óleo de palma,6929630,2.876,5,mirror
-2008,271011,Combustíveis refinados,5510523,2.287,6,mirror
+2007,340119,Sabão em barras e pastilhas,3883904,1.886,10,mirror
+2008,271019,Gasóleo e combustíveis médios e pesados,31236975,12.964,1,mirror
+2008,100640,Arroz partido,14745087,6.12,2,mirror
+2008,252329,Cimento Portland,9713899,4.032,3,mirror
+2008,100630,Arroz semibranqueado ou branqueado,7741004,3.213,4,mirror
+2008,151190,Óleo de palma refinado,6929630,2.876,5,mirror
+2008,271011,Óleos leves de petróleo (ed. antiga),5510523,2.287,6,mirror
 2008,460290,Artigos de cestaria,4670247,1.938,7,mirror
-2008,170199,Açúcar de cana ou de beterraba,4463819,1.853,8,mirror
+2008,170199,Açúcar refinado,4463819,1.853,8,mirror
 2008,210410,Sopas e caldos,4087323,1.696,9,mirror
 2008,110100,Farinha de trigo,3764611,1.562,10,mirror
-2009,271019,Combustíveis refinados,50296313,17.352,1,mirror
-2009,100640,Arroz,25408397,8.766,2,mirror
-2009,271011,Combustíveis refinados,25142592,8.674,3,mirror
+2009,271019,Gasóleo e combustíveis médios e pesados,50296313,17.352,1,mirror
+2009,100640,Arroz partido,25408397,8.766,2,mirror
+2009,271011,Óleos leves de petróleo (ed. antiga),25142592,8.674,3,mirror
 2009,890200,Navios de pesca,13024746,4.494,4,mirror
-2009,100630,Arroz,8545385,2.948,5,mirror
-2009,170199,Açúcar de cana ou de beterraba,6920124,2.387,6,mirror
-2009,851770,Aparelhos de telecomunicações,6537345,2.255,7,mirror
-2009,252329,Cimento,5675556,1.958,8,mirror
+2009,100630,Arroz semibranqueado ou branqueado,8545385,2.948,5,mirror
+2009,170199,Açúcar refinado,6920124,2.387,6,mirror
+2009,851770,Partes de telemóveis e telefones,6537345,2.255,7,mirror
+2009,252329,Cimento Portland,5675556,1.958,8,mirror
 2009,220300,Cerveja,5230368,1.804,9,mirror
 2009,210410,Sopas e caldos,4007974,1.383,10,mirror
-2010,100640,Arroz,15064216,6.476,1,mirror
-2010,271019,Combustíveis refinados,14683426,6.312,2,mirror
-2010,170199,Açúcar de cana ou de beterraba,13032678,5.602,3,mirror
-2010,100630,Arroz,12458176,5.355,4,mirror
-2010,252329,Cimento,8202599,3.526,5,mirror
+2010,100640,Arroz partido,15064216,6.476,1,mirror
+2010,271019,Gasóleo e combustíveis médios e pesados,14683426,6.312,2,mirror
+2010,170199,Açúcar refinado,13032678,5.602,3,mirror
+2010,100630,Arroz semibranqueado ou branqueado,12458176,5.355,4,mirror
+2010,252329,Cimento Portland,8202599,3.526,5,mirror
 2010,220300,Cerveja,5195542,2.233,6,mirror
-2010,271011,Combustíveis refinados,4918344,2.114,7,mirror
-2010,190190,Preparações para alimentação infantil,3635455,1.563,8,mirror
-2010,151190,Óleo de palma,3271236,1.406,9,mirror
+2010,271011,Óleos leves de petróleo (ed. antiga),4918344,2.114,7,mirror
+2010,190190,Preparações à base de farinha ou leite,3635455,1.563,8,mirror
+2010,151190,Óleo de palma refinado,3271236,1.406,9,mirror
 2010,210410,Sopas e caldos,3047468,1.31,10,mirror
-2011,271019,Combustíveis refinados,32475609,9.979,1,mirror
-2011,100640,Arroz,21350279,6.561,2,mirror
-2011,100630,Arroz,18326326,5.631,3,mirror
-2011,252329,Cimento,12388952,3.807,4,mirror
-2011,271011,Combustíveis refinados,9398649,2.888,5,mirror
-2011,170199,Açúcar de cana ou de beterraba,7336689,2.254,6,mirror
+2011,271019,Gasóleo e combustíveis médios e pesados,32475609,9.979,1,mirror
+2011,100640,Arroz partido,21350279,6.561,2,mirror
+2011,100630,Arroz semibranqueado ou branqueado,18326326,5.631,3,mirror
+2011,252329,Cimento Portland,12388952,3.807,4,mirror
+2011,271011,Óleos leves de petróleo (ed. antiga),9398649,2.888,5,mirror
+2011,170199,Açúcar refinado,7336689,2.254,6,mirror
 2011,220300,Cerveja,6763827,2.078,7,mirror
-2011,721590,Outros varões de ferro ou aço,5720958,1.758,8,mirror
-2011,220421,Vinho,5454467,1.676,9,mirror
-2011,721041,Laminados planos revestidos,4873065,1.497,10,mirror
-2012,271019,Combustíveis refinados,45230782,14.613,1,mirror
-2012,100640,Arroz,22312864,7.209,2,mirror
-2012,730419,Tubos sem costura (petróleo/gás),13651809,4.411,3,mirror
-2012,252329,Cimento,11185670,3.614,4,mirror
-2012,271012,Combustíveis refinados,7846128,2.535,5,mirror
-2012,100630,Arroz,7351540,2.375,6,mirror
+2011,721590,"Outros varões de ferro ou aço, n.e. (pos. 7215)",5720958,1.758,8,mirror
+2011,220421,Vinho tranquilo até 2 L,5454467,1.676,9,mirror
+2011,721041,Laminados ondulados zincados,4873065,1.497,10,mirror
+2012,271019,Gasóleo e combustíveis médios e pesados,45230782,14.613,1,mirror
+2012,100640,Arroz partido,22312864,7.209,2,mirror
+2012,730419,Tubos sem costura para oleodutos,13651809,4.411,3,mirror
+2012,252329,Cimento Portland,11185670,3.614,4,mirror
+2012,271012,Gasolinas e destilados leves,7846128,2.535,5,mirror
+2012,100630,Arroz semibranqueado ou branqueado,7351540,2.375,6,mirror
 2012,220300,Cerveja,5652587,1.826,7,mirror
-2012,721590,Outros varões de ferro ou aço,5188441,1.676,8,mirror
-2012,151190,Óleo de palma,5131923,1.658,9,mirror
-2012,220421,Vinho,5111299,1.651,10,mirror
-2013,271019,Combustíveis refinados,48009421,14.946,1,mirror
-2013,100640,Arroz,16193052,5.041,2,mirror
-2013,190190,Preparações para alimentação infantil,14615307,4.55,3,mirror
-2013,040221,"Leite e natas, concentrados ou em pó",12338016,3.841,4,mirror
-2013,252329,Cimento,12159112,3.785,5,mirror
-2013,271012,Combustíveis refinados,9980827,3.107,6,mirror
-2013,100630,Arroz,9122290,2.84,7,mirror
-2013,151190,Óleo de palma,8954329,2.788,8,mirror
-2013,721420,Varões de ferro ou aço,6875251,2.14,9,mirror
+2012,721590,"Outros varões de ferro ou aço, n.e. (pos. 7215)",5188441,1.676,8,mirror
+2012,151190,Óleo de palma refinado,5131923,1.658,9,mirror
+2012,220421,Vinho tranquilo até 2 L,5111299,1.651,10,mirror
+2013,271019,Gasóleo e combustíveis médios e pesados,48009421,14.946,1,mirror
+2013,100640,Arroz partido,16193052,5.041,2,mirror
+2013,190190,Preparações à base de farinha ou leite,14615307,4.55,3,mirror
+2013,040221,Leite em pó sem açúcar,12338016,3.841,4,mirror
+2013,252329,Cimento Portland,12159112,3.785,5,mirror
+2013,271012,Gasolinas e destilados leves,9980827,3.107,6,mirror
+2013,100630,Arroz semibranqueado ou branqueado,9122290,2.84,7,mirror
+2013,151190,Óleo de palma refinado,8954329,2.788,8,mirror
+2013,721420,Varões de ferro com saliências (betão armado),6875251,2.14,9,mirror
 2013,220300,Cerveja,6639831,2.067,10,mirror
-2014,271019,Combustíveis refinados,18737605,13.815,1,direct
-2014,100640,Arroz,9621561,7.094,2,direct
-2014,100630,Arroz,7319462,5.397,3,direct
+2014,271019,Gasóleo e combustíveis médios e pesados,18737605,13.815,1,direct
+2014,100640,Arroz partido,9621561,7.094,2,direct
+2014,100630,Arroz semibranqueado ou branqueado,7319462,5.397,3,direct
 2014,630491,Artigos de decoração têxteis,7194427,5.304,4,direct
 2014,110100,Farinha de trigo,6598428,4.865,5,direct
-2014,100620,Arroz,5784791,4.265,6,direct
+2014,100620,Arroz descascado (integral),5784791,4.265,6,direct
 2014,220600,"Bebidas fermentadas (sidra, hidromel)",5622549,4.145,7,direct
-2014,271011,Combustíveis refinados,5394760,3.978,8,direct
-2014,252329,Cimento,3685320,2.717,9,direct
+2014,271011,Óleos leves de petróleo (ed. antiga),5394760,3.978,8,direct
+2014,252329,Cimento Portland,3685320,2.717,9,direct
 2014,901890,Instrumentos médico-cirúrgicos,2828648,2.086,10,direct
-2014,271019,Combustíveis refinados,78709579,19.239,1,mirror
-2014,271012,Combustíveis refinados,40756246,9.962,2,mirror
-2014,100640,Arroz,17196524,4.203,3,mirror
+2014,271019,Gasóleo e combustíveis médios e pesados,78709579,19.239,1,mirror
+2014,271012,Gasolinas e destilados leves,40756246,9.962,2,mirror
+2014,100640,Arroz partido,17196524,4.203,3,mirror
 2014,210410,Sopas e caldos,11627624,2.842,4,mirror
-2014,190190,Preparações para alimentação infantil,10415099,2.546,5,mirror
+2014,190190,Preparações à base de farinha ou leite,10415099,2.546,5,mirror
 2014,220300,Cerveja,9000092,2.2,6,mirror
-2014,252329,Cimento,8961805,2.191,7,mirror
-2014,721420,Varões de ferro ou aço,8342317,2.039,8,mirror
-2014,151190,Óleo de palma,6609864,1.616,9,mirror
-2014,220421,Vinho,6306389,1.541,10,mirror
-2015,271019,Combustíveis refinados,20473687,13.403,1,direct
-2015,100640,Arroz,19723929,12.912,2,direct
-2015,080131,"Cocos, castanhas de caju e nozes",18980437,12.426,3,direct
-2015,271011,Combustíveis refinados,6836623,4.476,4,direct
+2014,252329,Cimento Portland,8961805,2.191,7,mirror
+2014,721420,Varões de ferro com saliências (betão armado),8342317,2.039,8,mirror
+2014,151190,Óleo de palma refinado,6609864,1.616,9,mirror
+2014,220421,Vinho tranquilo até 2 L,6306389,1.541,10,mirror
+2015,271019,Gasóleo e combustíveis médios e pesados,20473687,13.403,1,direct
+2015,100640,Arroz partido,19723929,12.912,2,direct
+2015,080131,Castanha de caju com casca,18980437,12.426,3,direct
+2015,271011,Óleos leves de petróleo (ed. antiga),6836623,4.476,4,direct
 2015,110100,Farinha de trigo,4186843,2.741,5,direct
 2015,220600,"Bebidas fermentadas (sidra, hidromel)",3883549,2.542,6,direct
-2015,100620,Arroz,3759454,2.461,7,direct
-2015,252329,Cimento,3366412,2.204,8,direct
-2015,220421,Vinho,3203582,2.097,9,direct
-2015,150790,Óleo de soja,2912494,1.907,10,direct
-2015,271019,Combustíveis refinados,35004048,11.837,1,mirror
-2015,100640,Arroz,17834559,6.031,2,mirror
-2015,190190,Preparações para alimentação infantil,12302593,4.16,3,mirror
+2015,100620,Arroz descascado (integral),3759454,2.461,7,direct
+2015,252329,Cimento Portland,3366412,2.204,8,direct
+2015,220421,Vinho tranquilo até 2 L,3203582,2.097,9,direct
+2015,150790,Óleo de soja refinado,2912494,1.907,10,direct
+2015,271019,Gasóleo e combustíveis médios e pesados,35004048,11.837,1,mirror
+2015,100640,Arroz partido,17834559,6.031,2,mirror
+2015,190190,Preparações à base de farinha ou leite,12302593,4.16,3,mirror
 2015,210410,Sopas e caldos,10131088,3.426,4,mirror
-2015,151190,Óleo de palma,9797508,3.313,5,mirror
+2015,151190,Óleo de palma refinado,9797508,3.313,5,mirror
 2015,390210,Polímeros de propileno,7932365,2.683,6,mirror
-2015,252329,Cimento,7709061,2.607,7,mirror
-2015,271012,Combustíveis refinados,7021716,2.375,8,mirror
+2015,252329,Cimento Portland,7709061,2.607,7,mirror
+2015,271012,Gasolinas e destilados leves,7021716,2.375,8,mirror
 2015,220300,Cerveja,5558004,1.88,9,mirror
-2015,100630,Arroz,5114113,1.729,10,mirror
-2016,100640,Arroz,14572125,12.046,1,direct
-2016,271019,Combustíveis refinados,14134965,11.685,2,direct
+2015,100630,Arroz semibranqueado ou branqueado,5114113,1.729,10,mirror
+2016,100640,Arroz partido,14572125,12.046,1,direct
+2016,271019,Gasóleo e combustíveis médios e pesados,14134965,11.685,2,direct
 2016,110100,Farinha de trigo,6500503,5.374,3,direct
-2016,271011,Combustíveis refinados,5852141,4.838,4,direct
-2016,100630,Arroz,4513627,3.731,5,direct
+2016,271011,Óleos leves de petróleo (ed. antiga),5852141,4.838,4,direct
+2016,100630,Arroz semibranqueado ou branqueado,4513627,3.731,5,direct
 2016,220600,"Bebidas fermentadas (sidra, hidromel)",4476896,3.701,6,direct
-2016,252329,Cimento,3860272,3.191,7,direct
-2016,220421,Vinho,3442814,2.846,8,direct
-2016,100620,Arroz,2909465,2.405,9,direct
-2016,220210,Bebidas não alcoólicas,2065849,1.708,10,direct
-2016,271019,Combustíveis refinados,27727301,9.066,1,mirror
-2016,100640,Arroz,18574518,6.073,2,mirror
-2016,190190,Preparações para alimentação infantil,10086639,3.298,3,mirror
+2016,252329,Cimento Portland,3860272,3.191,7,direct
+2016,220421,Vinho tranquilo até 2 L,3442814,2.846,8,direct
+2016,100620,Arroz descascado (integral),2909465,2.405,9,direct
+2016,220210,Águas com açúcar ou gaseificadas,2065849,1.708,10,direct
+2016,271019,Gasóleo e combustíveis médios e pesados,27727301,9.066,1,mirror
+2016,100640,Arroz partido,18574518,6.073,2,mirror
+2016,190190,Preparações à base de farinha ou leite,10086639,3.298,3,mirror
 2016,210410,Sopas e caldos,9951844,3.254,4,mirror
-2016,271012,Combustíveis refinados,7459505,2.439,5,mirror
-2016,252329,Cimento,7393482,2.417,6,mirror
+2016,271012,Gasolinas e destilados leves,7459505,2.439,5,mirror
+2016,252329,Cimento Portland,7393482,2.417,6,mirror
 2016,220300,Cerveja,5897234,1.928,7,mirror
-2016,100630,Arroz,5759922,1.883,8,mirror
-2016,721420,Varões de ferro ou aço,5629222,1.841,9,mirror
-2016,220421,Vinho,5272529,1.724,10,mirror
-2017,100640,Arroz,36371627,20.559,1,direct
-2017,271019,Combustíveis refinados,19404720,10.968,2,direct
-2017,730890,Estruturas de ferro ou aço,11666525,6.594,3,direct
-2017,252329,Cimento,8322726,4.704,4,direct
+2016,100630,Arroz semibranqueado ou branqueado,5759922,1.883,8,mirror
+2016,721420,Varões de ferro com saliências (betão armado),5629222,1.841,9,mirror
+2016,220421,Vinho tranquilo até 2 L,5272529,1.724,10,mirror
+2017,100640,Arroz partido,36371627,20.559,1,direct
+2017,271019,Gasóleo e combustíveis médios e pesados,19404720,10.968,2,direct
+2017,730890,Outras estruturas de ferro ou aço,11666525,6.594,3,direct
+2017,252329,Cimento Portland,8322726,4.704,4,direct
 2017,110100,Farinha de trigo,6995412,3.954,5,direct
-2017,271012,Combustíveis refinados,6766293,3.825,6,direct
+2017,271012,Gasolinas e destilados leves,6766293,3.825,6,direct
 2017,220600,"Bebidas fermentadas (sidra, hidromel)",4775204,2.699,7,direct
-2017,220210,Bebidas não alcoólicas,3822632,2.161,8,direct
-2017,100630,Arroz,3361914,1.9,9,direct
-2017,100620,Arroz,3252074,1.838,10,direct
-2017,271019,Combustíveis refinados,54151447,14.859,1,mirror
-2017,100630,Arroz,33872181,9.294,2,mirror
-2017,100640,Arroz,14757189,4.049,3,mirror
-2017,271012,Combustíveis refinados,10687669,2.933,4,mirror
-2017,252329,Cimento,10051884,2.758,5,mirror
+2017,220210,Águas com açúcar ou gaseificadas,3822632,2.161,8,direct
+2017,100630,Arroz semibranqueado ou branqueado,3361914,1.9,9,direct
+2017,100620,Arroz descascado (integral),3252074,1.838,10,direct
+2017,271019,Gasóleo e combustíveis médios e pesados,54151447,14.859,1,mirror
+2017,100630,Arroz semibranqueado ou branqueado,33872181,9.294,2,mirror
+2017,100640,Arroz partido,14757189,4.049,3,mirror
+2017,271012,Gasolinas e destilados leves,10687669,2.933,4,mirror
+2017,252329,Cimento Portland,10051884,2.758,5,mirror
 2017,300490,Medicamentos,8257298,2.266,6,mirror
 2017,110100,Farinha de trigo,8139683,2.233,7,mirror
-2017,190190,Preparações para alimentação infantil,7051471,1.935,8,mirror
+2017,190190,Preparações à base de farinha ou leite,7051471,1.935,8,mirror
 2017,210410,Sopas e caldos,6646767,1.824,9,mirror
-2017,151190,Óleo de palma,6587867,1.808,10,mirror
-2018,100640,Arroz,28961201,17.474,1,direct
-2018,271019,Combustíveis refinados,20100751,12.128,2,direct
-2018,252329,Cimento,7856692,4.74,3,direct
-2018,271012,Combustíveis refinados,7670844,4.628,4,direct
+2017,151190,Óleo de palma refinado,6587867,1.808,10,mirror
+2018,100640,Arroz partido,28961201,17.474,1,direct
+2018,271019,Gasóleo e combustíveis médios e pesados,20100751,12.128,2,direct
+2018,252329,Cimento Portland,7856692,4.74,3,direct
+2018,271012,Gasolinas e destilados leves,7670844,4.628,4,direct
 2018,110100,Farinha de trigo,6923089,4.177,5,direct
 2018,220600,"Bebidas fermentadas (sidra, hidromel)",5110255,3.083,6,direct
 2018,847490,Máquinas de triagem de minerais,2583007,1.558,7,direct
-2018,220210,Bebidas não alcoólicas,2523953,1.523,8,direct
+2018,220210,Águas com açúcar ou gaseificadas,2523953,1.523,8,direct
 2018,999999,Mercadorias não especificadas,2479273,1.496,9,direct
-2018,870323,Automóveis de passageiros,2305358,1.391,10,direct
-2018,271019,Combustíveis refinados,49371185,14.058,1,mirror
-2018,100630,Arroz,23643155,6.732,2,mirror
-2018,100640,Arroz,17642474,5.024,3,mirror
+2018,870323,Automóveis a gasolina 1.500–3.000 cm³,2305358,1.391,10,direct
+2018,271019,Gasóleo e combustíveis médios e pesados,49371185,14.058,1,mirror
+2018,100630,Arroz semibranqueado ou branqueado,23643155,6.732,2,mirror
+2018,100640,Arroz partido,17642474,5.024,3,mirror
 2018,100590,Milho,14845309,4.227,4,mirror
-2018,190190,Preparações para alimentação infantil,12123581,3.452,5,mirror
-2018,271012,Combustíveis refinados,10863036,3.093,6,mirror
+2018,190190,Preparações à base de farinha ou leite,12123581,3.452,5,mirror
+2018,271012,Gasolinas e destilados leves,10863036,3.093,6,mirror
 2018,110100,Farinha de trigo,8507260,2.422,7,mirror
-2018,252329,Cimento,7573998,2.157,8,mirror
+2018,252329,Cimento Portland,7573998,2.157,8,mirror
 2018,210410,Sopas e caldos,7130527,2.03,9,mirror
 2018,220300,Cerveja,6277823,1.788,10,mirror
-2019,271019,Combustíveis refinados,37824086,11.254,1,mirror
-2019,100640,Arroz,26643396,7.927,2,mirror
-2019,100630,Arroz,14498423,4.314,3,mirror
-2019,271012,Combustíveis refinados,11947325,3.555,4,mirror
+2019,271019,Gasóleo e combustíveis médios e pesados,37824086,11.254,1,mirror
+2019,100640,Arroz partido,26643396,7.927,2,mirror
+2019,100630,Arroz semibranqueado ou branqueado,14498423,4.314,3,mirror
+2019,271012,Gasolinas e destilados leves,11947325,3.555,4,mirror
 2019,110100,Farinha de trigo,10429850,3.103,5,mirror
 2019,210410,Sopas e caldos,8710718,2.592,6,mirror
 2019,220300,Cerveja,8026144,2.388,7,mirror
-2019,190190,Preparações para alimentação infantil,7768132,2.311,8,mirror
+2019,190190,Preparações à base de farinha ou leite,7768132,2.311,8,mirror
 2019,300490,Medicamentos,7420752,2.208,9,mirror
-2019,252329,Cimento,5750691,1.711,10,mirror
-2020,100640,Arroz,32081577,9.693,1,mirror
-2020,271019,Combustíveis refinados,24910719,7.526,2,mirror
-2020,100630,Arroz,19899696,6.012,3,mirror
-2020,271012,Combustíveis refinados,10324933,3.119,4,mirror
+2019,252329,Cimento Portland,5750691,1.711,10,mirror
+2020,100640,Arroz partido,32081577,9.693,1,mirror
+2020,271019,Gasóleo e combustíveis médios e pesados,24910719,7.526,2,mirror
+2020,100630,Arroz semibranqueado ou branqueado,19899696,6.012,3,mirror
+2020,271012,Gasolinas e destilados leves,10324933,3.119,4,mirror
 2020,110100,Farinha de trigo,9950714,3.006,5,mirror
 2020,210410,Sopas e caldos,8569859,2.589,6,mirror
 2020,220300,Cerveja,7319283,2.211,7,mirror
 2020,390210,Polímeros de propileno,7128250,2.154,8,mirror
-2020,190190,Preparações para alimentação infantil,5869782,1.773,9,mirror
+2020,190190,Preparações à base de farinha ou leite,5869782,1.773,9,mirror
 2020,240220,Cigarros,5743546,1.735,10,mirror
-2021,271019,Combustíveis refinados,37047383,8.742,1,mirror
+2021,271019,Gasóleo e combustíveis médios e pesados,37047383,8.742,1,mirror
 2021,890200,Navios de pesca,32786897,7.737,2,mirror
-2021,100630,Arroz,22800937,5.38,3,mirror
-2021,271012,Combustíveis refinados,16240750,3.832,4,mirror
-2021,100640,Arroz,11746564,2.772,5,mirror
+2021,100630,Arroz semibranqueado ou branqueado,22800937,5.38,3,mirror
+2021,271012,Gasolinas e destilados leves,16240750,3.832,4,mirror
+2021,100640,Arroz partido,11746564,2.772,5,mirror
 2021,110100,Farinha de trigo,10659630,2.515,6,mirror
 2021,220300,Cerveja,10126030,2.389,7,mirror
 2021,390210,Polímeros de propileno,10104911,2.384,8,mirror
 2021,210410,Sopas e caldos,9679920,2.284,9,mirror
-2021,220299,Bebidas não alcoólicas,9440639,2.228,10,mirror
-2022,271019,Combustíveis refinados,55159728,12.972,1,mirror
-2022,722860,Varões de aços-liga,24668823,5.802,2,mirror
-2022,271012,Combustíveis refinados,19001421,4.469,3,mirror
-2022,100630,Arroz,14106721,3.318,4,mirror
+2021,220299,Outras bebidas não alcoólicas,9440639,2.228,10,mirror
+2022,271019,Gasóleo e combustíveis médios e pesados,55159728,12.972,1,mirror
+2022,722860,Outros varões de aços-liga,24668823,5.802,2,mirror
+2022,271012,Gasolinas e destilados leves,19001421,4.469,3,mirror
+2022,100630,Arroz semibranqueado ou branqueado,14106721,3.318,4,mirror
 2022,220300,Cerveja,11832511,2.783,5,mirror
 2022,110100,Farinha de trigo,11623369,2.734,6,mirror
-2022,220299,Bebidas não alcoólicas,9741884,2.291,7,mirror
+2022,220299,Outras bebidas não alcoólicas,9741884,2.291,7,mirror
 2022,210410,Sopas e caldos,9267275,2.179,8,mirror
-2022,220421,Vinho,8141293,1.915,9,mirror
+2022,220421,Vinho tranquilo até 2 L,8141293,1.915,9,mirror
 2022,240220,Cigarros,7951157,1.87,10,mirror
-2023,721420,Varões de ferro ou aço,81635266,14.284,1,mirror
-2023,271012,Combustíveis refinados,76952238,13.465,2,mirror
-2023,271019,Combustíveis refinados,62144942,10.874,3,mirror
-2023,100640,Arroz,25261865,4.42,4,mirror
-2023,100630,Arroz,20210507,3.536,5,mirror
+2023,721420,Varões de ferro com saliências (betão armado),81635266,14.284,1,mirror
+2023,271012,Gasolinas e destilados leves,76952238,13.465,2,mirror
+2023,271019,Gasóleo e combustíveis médios e pesados,62144942,10.874,3,mirror
+2023,100640,Arroz partido,25261865,4.42,4,mirror
+2023,100630,Arroz semibranqueado ou branqueado,20210507,3.536,5,mirror
 2023,220300,Cerveja,10805848,1.891,6,mirror
 2023,210410,Sopas e caldos,9825048,1.719,7,mirror
-2023,220421,Vinho,8997995,1.574,8,mirror
+2023,220421,Vinho tranquilo até 2 L,8997995,1.574,8,mirror
 2023,110100,Farinha de trigo,8933278,1.563,9,mirror
-2023,220299,Bebidas não alcoólicas,8186419,1.432,10,mirror
-2024,271019,Combustíveis refinados,55598809,10.402,1,mirror
-2024,100640,Arroz,55355489,10.357,2,mirror
-2024,890190,Navios,27048630,5.061,3,mirror
-2024,100630,Arroz,22270448,4.167,4,mirror
-2024,271012,Combustíveis refinados,20972354,3.924,5,mirror
-2024,721590,Outros varões de ferro ou aço,18942562,3.544,6,mirror
+2023,220299,Outras bebidas não alcoólicas,8186419,1.432,10,mirror
+2024,271019,Gasóleo e combustíveis médios e pesados,55598809,10.402,1,mirror
+2024,100640,Arroz partido,55355489,10.357,2,mirror
+2024,890190,Navios de carga,27048630,5.061,3,mirror
+2024,100630,Arroz semibranqueado ou branqueado,22270448,4.167,4,mirror
+2024,271012,Gasolinas e destilados leves,20972354,3.924,5,mirror
+2024,721590,"Outros varões de ferro ou aço, n.e. (pos. 7215)",18942562,3.544,6,mirror
 2024,110100,Farinha de trigo,13192445,2.468,7,mirror
 2024,220300,Cerveja,11219070,2.099,8,mirror
-2024,220299,Bebidas não alcoólicas,10114525,1.892,9,mirror
+2024,220299,Outras bebidas não alcoólicas,10114525,1.892,9,mirror
 2024,210410,Sopas e caldos,8906154,1.666,10,mirror

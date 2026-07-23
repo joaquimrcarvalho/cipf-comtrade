@@ -1,441 +1,441 @@
 year,hs6,description_pt,value,share_pct,rank,basis
 2003,270900,Petróleo bruto,2721304954,5.77,1,direct
 2003,300490,Medicamentos,1067694257,2.264,2,direct
-2003,870332,Automóveis de passageiros,1033761962,2.192,3,direct
-2003,854221,Circuitos integrados,966119326,2.048,4,direct
-2003,870899,Partes e acessórios de veículos,942782156,1.999,5,direct
-2003,870322,Automóveis de passageiros,888412269,1.884,6,direct
-2003,271019,Combustíveis refinados,618557510,1.311,7,direct
-2003,870421,Veículos de mercadorias,513886542,1.09,8,direct
-2003,840820,Motores diesel,460404232,0.976,9,direct
-2003,852520,Aparelhos de transmissão e câmaras,447141786,0.948,10,direct
+2003,870332,Automóveis diesel 1.500–2.500 cm³,1033761962,2.192,3,direct
+2003,854221,Circuitos integrados digitais (ed. antiga),966119326,2.048,4,direct
+2003,870899,Outras partes de veículos,942782156,1.999,5,direct
+2003,870322,Automóveis a gasolina 1.000–1.500 cm³,888412269,1.884,6,direct
+2003,271019,Gasóleo e combustíveis médios e pesados,618557510,1.311,7,direct
+2003,870421,Camiões diesel até 5 t,513886542,1.09,8,direct
+2003,840820,Motores diesel para veículos,460404232,0.976,9,direct
+2003,852520,Aparelhos transmissores-recetores,447141786,0.948,10,direct
 2003,270900,Petróleo bruto,1763034556,3.66,1,mirror
 2003,999999,Mercadorias não especificadas,1343910151,2.79,2,mirror
-2003,870332,Automóveis de passageiros,1062161658,2.205,3,mirror
+2003,870332,Automóveis diesel 1.500–2.500 cm³,1062161658,2.205,3,mirror
 2003,300490,Medicamentos,984136429,2.043,4,mirror
-2003,870899,Partes e acessórios de veículos,882503988,1.832,5,mirror
-2003,271121,Gás natural e outros gases de petróleo,607495228,1.261,6,mirror
-2003,870322,Automóveis de passageiros,554150788,1.15,7,mirror
-2003,870323,Automóveis de passageiros,508178200,1.055,8,mirror
-2003,271019,Combustíveis refinados,469756764,0.975,9,mirror
-2003,840820,Motores diesel,423185704,0.878,10,mirror
+2003,870899,Outras partes de veículos,882503988,1.832,5,mirror
+2003,271121,Gás natural em estado gasoso,607495228,1.261,6,mirror
+2003,870322,Automóveis a gasolina 1.000–1.500 cm³,554150788,1.15,7,mirror
+2003,870323,Automóveis a gasolina 1.500–3.000 cm³,508178200,1.055,8,mirror
+2003,271019,Gasóleo e combustíveis médios e pesados,469756764,0.975,9,mirror
+2003,840820,Motores diesel para veículos,423185704,0.878,10,mirror
 2004,999999,Mercadorias não especificadas,11229183190,16.46,1,direct
 2004,270900,Petróleo bruto,3713963796,5.444,2,direct
-2004,870332,Automóveis de passageiros,1385649387,2.031,3,direct
+2004,870332,Automóveis diesel 1.500–2.500 cm³,1385649387,2.031,3,direct
 2004,300490,Medicamentos,1368492781,2.006,4,direct
-2004,870899,Partes e acessórios de veículos,1150861861,1.687,5,direct
-2004,854221,Circuitos integrados,1094902871,1.605,6,direct
-2004,870421,Veículos de mercadorias,807988247,1.184,7,direct
-2004,870322,Automóveis de passageiros,711946945,1.044,8,direct
-2004,271019,Combustíveis refinados,631184603,0.925,9,direct
-2004,870331,Automóveis de passageiros,618079829,0.906,10,direct
+2004,870899,Outras partes de veículos,1150861861,1.687,5,direct
+2004,854221,Circuitos integrados digitais (ed. antiga),1094902871,1.605,6,direct
+2004,870421,Camiões diesel até 5 t,807988247,1.184,7,direct
+2004,870322,Automóveis a gasolina 1.000–1.500 cm³,711946945,1.044,8,direct
+2004,271019,Gasóleo e combustíveis médios e pesados,631184603,0.925,9,direct
+2004,870331,Automóveis diesel até 1.500 cm³,618079829,0.906,10,direct
 2004,999999,Mercadorias não especificadas,1900805697,3.351,1,mirror
 2004,270900,Petróleo bruto,1557880738,2.747,2,mirror
-2004,870332,Automóveis de passageiros,1483996192,2.616,3,mirror
+2004,870332,Automóveis diesel 1.500–2.500 cm³,1483996192,2.616,3,mirror
 2004,300490,Medicamentos,1311787322,2.313,4,mirror
-2004,870899,Partes e acessórios de veículos,954323840,1.683,5,mirror
-2004,271121,Gás natural e outros gases de petróleo,635846520,1.121,6,mirror
-2004,870322,Automóveis de passageiros,567862262,1.001,7,mirror
-2004,870331,Automóveis de passageiros,539714083,0.952,8,mirror
-2004,870421,Veículos de mercadorias,511158464,0.901,9,mirror
+2004,870899,Outras partes de veículos,954323840,1.683,5,mirror
+2004,271121,Gás natural em estado gasoso,635846520,1.121,6,mirror
+2004,870322,Automóveis a gasolina 1.000–1.500 cm³,567862262,1.001,7,mirror
+2004,870331,Automóveis diesel até 1.500 cm³,539714083,0.952,8,mirror
+2004,870421,Camiões diesel até 5 t,511158464,0.901,9,mirror
 2004,271600,Energia elétrica,496592505,0.876,10,mirror
 2005,270900,Petróleo bruto,4928855958,7.713,1,direct
-2005,870332,Automóveis de passageiros,1952958658,3.056,2,direct
+2005,870332,Automóveis diesel 1.500–2.500 cm³,1952958658,3.056,2,direct
 2005,300490,Medicamentos,1417591280,2.218,3,direct
-2005,854221,Circuitos integrados,1356374634,2.123,4,direct
-2005,271019,Combustíveis refinados,1238053127,1.937,5,direct
-2005,870899,Partes e acessórios de veículos,1163934130,1.821,6,direct
-2005,870421,Veículos de mercadorias,777967600,1.217,7,direct
+2005,854221,Circuitos integrados digitais (ed. antiga),1356374634,2.123,4,direct
+2005,271019,Gasóleo e combustíveis médios e pesados,1238053127,1.937,5,direct
+2005,870899,Outras partes de veículos,1163934130,1.821,6,direct
+2005,870421,Camiões diesel até 5 t,777967600,1.217,7,direct
 2005,999999,Mercadorias não especificadas,744730020,1.165,8,direct
-2005,852520,Aparelhos de transmissão e câmaras,723594838,1.132,9,direct
-2005,870322,Automóveis de passageiros,653599952,1.023,10,direct
+2005,852520,Aparelhos transmissores-recetores,723594838,1.132,9,direct
+2005,870322,Automóveis a gasolina 1.000–1.500 cm³,653599952,1.023,10,direct
 2005,270900,Petróleo bruto,2286883433,3.737,1,mirror
-2005,870332,Automóveis de passageiros,1575347256,2.574,2,mirror
+2005,870332,Automóveis diesel 1.500–2.500 cm³,1575347256,2.574,2,mirror
 2005,999999,Mercadorias não especificadas,1517868300,2.481,3,mirror
 2005,300490,Medicamentos,1332868373,2.178,4,mirror
-2005,870899,Partes e acessórios de veículos,1045968484,1.709,5,mirror
-2005,271019,Combustíveis refinados,1001799436,1.637,6,mirror
-2005,870331,Automóveis de passageiros,642091462,1.049,7,mirror
-2005,271121,Gás natural e outros gases de petróleo,607475882,0.993,8,mirror
-2005,870323,Automóveis de passageiros,567759845,0.928,9,mirror
-2005,870421,Veículos de mercadorias,471194957,0.77,10,mirror
+2005,870899,Outras partes de veículos,1045968484,1.709,5,mirror
+2005,271019,Gasóleo e combustíveis médios e pesados,1001799436,1.637,6,mirror
+2005,870331,Automóveis diesel até 1.500 cm³,642091462,1.049,7,mirror
+2005,271121,Gás natural em estado gasoso,607475882,0.993,8,mirror
+2005,870323,Automóveis a gasolina 1.500–3.000 cm³,567759845,0.928,9,mirror
+2005,870421,Camiões diesel até 5 t,471194957,0.77,10,mirror
 2006,270900,Petróleo bruto,6333785065,8.958,1,direct
 2006,300490,Medicamentos,1662589691,2.351,2,direct
-2006,854221,Circuitos integrados,1631743671,2.308,3,direct
-2006,870332,Automóveis de passageiros,1568585093,2.218,4,direct
-2006,870899,Partes e acessórios de veículos,1204425005,1.703,5,direct
-2006,271019,Combustíveis refinados,1162865398,1.645,6,direct
-2006,870331,Automóveis de passageiros,812923303,1.15,7,direct
-2006,870323,Automóveis de passageiros,782794309,1.107,8,direct
-2006,870421,Veículos de mercadorias,752152495,1.064,9,direct
+2006,854221,Circuitos integrados digitais (ed. antiga),1631743671,2.308,3,direct
+2006,870332,Automóveis diesel 1.500–2.500 cm³,1568585093,2.218,4,direct
+2006,870899,Outras partes de veículos,1204425005,1.703,5,direct
+2006,271019,Gasóleo e combustíveis médios e pesados,1162865398,1.645,6,direct
+2006,870331,Automóveis diesel até 1.500 cm³,812923303,1.15,7,direct
+2006,870323,Automóveis a gasolina 1.500–3.000 cm³,782794309,1.107,8,direct
+2006,870421,Camiões diesel até 5 t,752152495,1.064,9,direct
 2006,999999,Mercadorias não especificadas,688269319,0.973,10,direct
 2006,270900,Petróleo bruto,3558691258,5.265,1,mirror
-2006,870332,Automóveis de passageiros,1561296778,2.31,2,mirror
+2006,870332,Automóveis diesel 1.500–2.500 cm³,1561296778,2.31,2,mirror
 2006,300490,Medicamentos,1509917782,2.234,3,mirror
 2006,999999,Mercadorias não especificadas,1194245357,1.767,4,mirror
-2006,870899,Partes e acessórios de veículos,1123073626,1.662,5,mirror
-2006,271019,Combustíveis refinados,680827105,1.007,6,mirror
-2006,870331,Automóveis de passageiros,671412050,0.993,7,mirror
-2006,271121,Gás natural e outros gases de petróleo,522463204,0.773,8,mirror
-2006,870323,Automóveis de passageiros,520878065,0.771,9,mirror
-2006,870421,Veículos de mercadorias,493082053,0.729,10,mirror
+2006,870899,Outras partes de veículos,1123073626,1.662,5,mirror
+2006,271019,Gasóleo e combustíveis médios e pesados,680827105,1.007,6,mirror
+2006,870331,Automóveis diesel até 1.500 cm³,671412050,0.993,7,mirror
+2006,271121,Gás natural em estado gasoso,522463204,0.773,8,mirror
+2006,870323,Automóveis a gasolina 1.500–3.000 cm³,520878065,0.771,9,mirror
+2006,870421,Camiões diesel até 5 t,493082053,0.729,10,mirror
 2007,270900,Petróleo bruto,6462747373,7.856,1,direct
-2007,870332,Automóveis de passageiros,1998943913,2.43,2,direct
+2007,870332,Automóveis diesel 1.500–2.500 cm³,1998943913,2.43,2,direct
 2007,300490,Medicamentos,1880741374,2.286,3,direct
-2007,854239,Circuitos integrados,1553678013,1.889,4,direct
-2007,271019,Combustíveis refinados,1275314750,1.55,5,direct
+2007,854239,Outros circuitos integrados,1553678013,1.889,4,direct
+2007,271019,Gasóleo e combustíveis médios e pesados,1275314750,1.55,5,direct
 2007,999999,Mercadorias não especificadas,1064013264,1.293,6,direct
-2007,870899,Partes e acessórios de veículos,1031705411,1.254,7,direct
-2007,870331,Automóveis de passageiros,981329665,1.193,8,direct
-2007,870421,Veículos de mercadorias,901421713,1.096,9,direct
-2007,870323,Automóveis de passageiros,877836851,1.067,10,direct
+2007,870899,Outras partes de veículos,1031705411,1.254,7,direct
+2007,870331,Automóveis diesel até 1.500 cm³,981329665,1.193,8,direct
+2007,870421,Camiões diesel até 5 t,901421713,1.096,9,direct
+2007,870323,Automóveis a gasolina 1.500–3.000 cm³,877836851,1.067,10,direct
 2007,270900,Petróleo bruto,3651994711,4.754,1,mirror
-2007,870332,Automóveis de passageiros,1899035643,2.472,2,mirror
+2007,870332,Automóveis diesel 1.500–2.500 cm³,1899035643,2.472,2,mirror
 2007,300490,Medicamentos,1734217168,2.257,3,mirror
 2007,999999,Mercadorias não especificadas,1722884472,2.243,4,mirror
-2007,870899,Partes e acessórios de veículos,957786885,1.247,5,mirror
-2007,870331,Automóveis de passageiros,911210067,1.186,6,mirror
-2007,271019,Combustíveis refinados,704326404,0.917,7,mirror
-2007,851712,Aparelhos de telecomunicações,662933865,0.863,8,mirror
-2007,870421,Veículos de mercadorias,580128768,0.755,9,mirror
-2007,870322,Automóveis de passageiros,536380712,0.698,10,mirror
+2007,870899,Outras partes de veículos,957786885,1.247,5,mirror
+2007,870331,Automóveis diesel até 1.500 cm³,911210067,1.186,6,mirror
+2007,271019,Gasóleo e combustíveis médios e pesados,704326404,0.917,7,mirror
+2007,851712,Telemóveis,662933865,0.863,8,mirror
+2007,870421,Camiões diesel até 5 t,580128768,0.755,9,mirror
+2007,870322,Automóveis a gasolina 1.000–1.500 cm³,536380712,0.698,10,mirror
 2008,270900,Petróleo bruto,8877422672,9.389,1,direct
-2008,870332,Automóveis de passageiros,2637004461,2.789,2,direct
+2008,870332,Automóveis diesel 1.500–2.500 cm³,2637004461,2.789,2,direct
 2008,300490,Medicamentos,2166820009,2.292,3,direct
-2008,271019,Combustíveis refinados,1609000631,1.702,4,direct
-2008,854239,Circuitos integrados,1480675910,1.566,5,direct
-2008,271121,Gás natural e outros gases de petróleo,1143807777,1.21,6,direct
+2008,271019,Gasóleo e combustíveis médios e pesados,1609000631,1.702,4,direct
+2008,854239,Outros circuitos integrados,1480675910,1.566,5,direct
+2008,271121,Gás natural em estado gasoso,1143807777,1.21,6,direct
 2008,999999,Mercadorias não especificadas,1074549857,1.136,7,direct
-2008,870899,Partes e acessórios de veículos,1062143217,1.123,8,direct
-2008,870331,Automóveis de passageiros,1011127880,1.069,9,direct
+2008,870899,Outras partes de veículos,1062143217,1.123,8,direct
+2008,870331,Automóveis diesel até 1.500 cm³,1011127880,1.069,9,direct
 2008,271600,Energia elétrica,942781467,0.997,10,direct
 2008,270900,Petróleo bruto,6166013543,7.144,1,mirror
-2008,870332,Automóveis de passageiros,2280201141,2.642,2,mirror
+2008,870332,Automóveis diesel 1.500–2.500 cm³,2280201141,2.642,2,mirror
 2008,300490,Medicamentos,1973471702,2.287,3,mirror
 2008,999999,Mercadorias não especificadas,1545843034,1.791,4,mirror
-2008,271019,Combustíveis refinados,1120486812,1.298,5,mirror
-2008,271121,Gás natural e outros gases de petróleo,976123080,1.131,6,mirror
-2008,870899,Partes e acessórios de veículos,935842280,1.084,7,mirror
-2008,870331,Automóveis de passageiros,835021153,0.968,8,mirror
-2008,870322,Automóveis de passageiros,701831899,0.813,9,mirror
-2008,880240,Helicópteros e aviões,700595205,0.812,10,mirror
+2008,271019,Gasóleo e combustíveis médios e pesados,1120486812,1.298,5,mirror
+2008,271121,Gás natural em estado gasoso,976123080,1.131,6,mirror
+2008,870899,Outras partes de veículos,935842280,1.084,7,mirror
+2008,870331,Automóveis diesel até 1.500 cm³,835021153,0.968,8,mirror
+2008,870322,Automóveis a gasolina 1.000–1.500 cm³,701831899,0.813,9,mirror
+2008,880240,Aviões +15.000 kg,700595205,0.812,10,mirror
 2009,270900,Petróleo bruto,4733235918,6.591,1,direct
 2009,300490,Medicamentos,2267058089,3.157,2,direct
-2009,870332,Automóveis de passageiros,1685983368,2.348,3,direct
-2009,271019,Combustíveis refinados,1213915413,1.69,4,direct
-2009,870899,Partes e acessórios de veículos,1161939344,1.618,5,direct
-2009,271111,Gás natural e outros gases de petróleo,775811980,1.08,6,direct
-2009,271121,Gás natural e outros gases de petróleo,619217564,0.862,7,direct
-2009,847130,Computadores e unidades,614364688,0.856,8,direct
-2009,870331,Automóveis de passageiros,597573518,0.832,9,direct
-2009,870322,Automóveis de passageiros,524476037,0.73,10,direct
+2009,870332,Automóveis diesel 1.500–2.500 cm³,1685983368,2.348,3,direct
+2009,271019,Gasóleo e combustíveis médios e pesados,1213915413,1.69,4,direct
+2009,870899,Outras partes de veículos,1161939344,1.618,5,direct
+2009,271111,Gás natural liquefeito (GNL),775811980,1.08,6,direct
+2009,271121,Gás natural em estado gasoso,619217564,0.862,7,direct
+2009,847130,Computadores portáteis,614364688,0.856,8,direct
+2009,870331,Automóveis diesel até 1.500 cm³,597573518,0.832,9,direct
+2009,870322,Automóveis a gasolina 1.000–1.500 cm³,524476037,0.73,10,direct
 2009,270900,Petróleo bruto,3357068453,4.964,1,mirror
 2009,300490,Medicamentos,2070622953,3.062,2,mirror
-2009,870332,Automóveis de passageiros,1482350846,2.192,3,mirror
+2009,870332,Automóveis diesel 1.500–2.500 cm³,1482350846,2.192,3,mirror
 2009,999999,Mercadorias não especificadas,1456341418,2.153,4,mirror
-2009,271019,Combustíveis refinados,688752155,1.018,5,mirror
-2009,870899,Partes e acessórios de veículos,616384079,0.911,6,mirror
-2009,271121,Gás natural e outros gases de petróleo,579867212,0.857,7,mirror
-2009,847130,Computadores e unidades,553463502,0.818,8,mirror
-2009,870322,Automóveis de passageiros,509893773,0.754,9,mirror
-2009,870331,Automóveis de passageiros,505912645,0.748,10,mirror
+2009,271019,Gasóleo e combustíveis médios e pesados,688752155,1.018,5,mirror
+2009,870899,Outras partes de veículos,616384079,0.911,6,mirror
+2009,271121,Gás natural em estado gasoso,579867212,0.857,7,mirror
+2009,847130,Computadores portáteis,553463502,0.818,8,mirror
+2009,870322,Automóveis a gasolina 1.000–1.500 cm³,509893773,0.754,9,mirror
+2009,870331,Automóveis diesel até 1.500 cm³,505912645,0.748,10,mirror
 2010,270900,Petróleo bruto,6649521200,8.56,1,direct
-2010,870332,Automóveis de passageiros,2228263755,2.868,2,direct
+2010,870332,Automóveis diesel 1.500–2.500 cm³,2228263755,2.868,2,direct
 2010,300490,Medicamentos,2168059594,2.791,3,direct
-2010,271019,Combustíveis refinados,1396691932,1.798,4,direct
-2010,870899,Partes e acessórios de veículos,1382736606,1.78,5,direct
-2010,890610,Outros navios,1327243354,1.709,6,direct
-2010,870331,Automóveis de passageiros,933380796,1.202,7,direct
-2010,271121,Gás natural e outros gases de petróleo,763320139,0.983,8,direct
-2010,271111,Gás natural e outros gases de petróleo,753609756,0.97,9,direct
-2010,870322,Automóveis de passageiros,668176740,0.86,10,direct
+2010,271019,Gasóleo e combustíveis médios e pesados,1396691932,1.798,4,direct
+2010,870899,Outras partes de veículos,1382736606,1.78,5,direct
+2010,890610,Navios de guerra,1327243354,1.709,6,direct
+2010,870331,Automóveis diesel até 1.500 cm³,933380796,1.202,7,direct
+2010,271121,Gás natural em estado gasoso,763320139,0.983,8,direct
+2010,271111,Gás natural liquefeito (GNL),753609756,0.97,9,direct
+2010,870322,Automóveis a gasolina 1.000–1.500 cm³,668176740,0.86,10,direct
 2010,270900,Petróleo bruto,5039706372,6.82,1,mirror
 2010,999999,Mercadorias não especificadas,2393143012,3.238,2,mirror
-2010,870332,Automóveis de passageiros,2096066064,2.836,3,mirror
+2010,870332,Automóveis diesel 1.500–2.500 cm³,2096066064,2.836,3,mirror
 2010,300490,Medicamentos,1867603436,2.527,4,mirror
-2010,271019,Combustíveis refinados,1008954960,1.365,5,mirror
-2010,870331,Automóveis de passageiros,712538131,0.964,6,mirror
-2010,870899,Partes e acessórios de veículos,662486667,0.896,7,mirror
-2010,870322,Automóveis de passageiros,659339703,0.892,8,mirror
-2010,271121,Gás natural e outros gases de petróleo,654245876,0.885,9,mirror
-2010,847130,Computadores e unidades,543411429,0.735,10,mirror
+2010,271019,Gasóleo e combustíveis médios e pesados,1008954960,1.365,5,mirror
+2010,870331,Automóveis diesel até 1.500 cm³,712538131,0.964,6,mirror
+2010,870899,Outras partes de veículos,662486667,0.896,7,mirror
+2010,870322,Automóveis a gasolina 1.000–1.500 cm³,659339703,0.892,8,mirror
+2010,271121,Gás natural em estado gasoso,654245876,0.885,9,mirror
+2010,847130,Computadores portáteis,543411429,0.735,10,mirror
 2011,270900,Petróleo bruto,8448644069,10.188,1,direct
 2011,300490,Medicamentos,2208391277,2.663,2,direct
-2011,271019,Combustíveis refinados,1933849705,2.332,3,direct
-2011,870332,Automóveis de passageiros,1927846500,2.325,4,direct
-2011,870899,Partes e acessórios de veículos,1713244060,2.066,5,direct
-2011,271111,Gás natural e outros gases de petróleo,988932649,1.193,6,direct
-2011,271121,Gás natural e outros gases de petróleo,836072437,1.008,7,direct
-2011,271011,Combustíveis refinados,677483821,0.817,8,direct
-2011,870331,Automóveis de passageiros,668865977,0.807,9,direct
+2011,271019,Gasóleo e combustíveis médios e pesados,1933849705,2.332,3,direct
+2011,870332,Automóveis diesel 1.500–2.500 cm³,1927846500,2.325,4,direct
+2011,870899,Outras partes de veículos,1713244060,2.066,5,direct
+2011,271111,Gás natural liquefeito (GNL),988932649,1.193,6,direct
+2011,271121,Gás natural em estado gasoso,836072437,1.008,7,direct
+2011,271011,Óleos leves de petróleo (ed. antiga),677483821,0.817,8,direct
+2011,870331,Automóveis diesel até 1.500 cm³,668865977,0.807,9,direct
 2011,100590,Milho,495414234,0.597,10,direct
 2011,270900,Petróleo bruto,7138760700,9.025,1,mirror
 2011,300490,Medicamentos,1948070860,2.463,2,mirror
-2011,870332,Automóveis de passageiros,1750616356,2.213,3,mirror
+2011,870332,Automóveis diesel 1.500–2.500 cm³,1750616356,2.213,3,mirror
 2011,999999,Mercadorias não especificadas,1411368797,1.784,4,mirror
-2011,271019,Combustíveis refinados,1023265076,1.294,5,mirror
-2011,271121,Gás natural e outros gases de petróleo,880249160,1.113,6,mirror
-2011,870899,Partes e acessórios de veículos,750184279,0.948,7,mirror
-2011,870331,Automóveis de passageiros,648614628,0.82,8,mirror
-2011,847130,Computadores e unidades,495309455,0.626,9,mirror
-2011,870322,Automóveis de passageiros,426915688,0.54,10,mirror
+2011,271019,Gasóleo e combustíveis médios e pesados,1023265076,1.294,5,mirror
+2011,271121,Gás natural em estado gasoso,880249160,1.113,6,mirror
+2011,870899,Outras partes de veículos,750184279,0.948,7,mirror
+2011,870331,Automóveis diesel até 1.500 cm³,648614628,0.82,8,mirror
+2011,847130,Computadores portáteis,495309455,0.626,9,mirror
+2011,870322,Automóveis a gasolina 1.000–1.500 cm³,426915688,0.54,10,mirror
 2012,270900,Petróleo bruto,9555226184,13.178,1,direct
 2012,300490,Medicamentos,2012505804,2.776,2,direct
-2012,271019,Combustíveis refinados,1505174537,2.076,3,direct
-2012,870899,Partes e acessórios de veículos,1411825459,1.947,4,direct
-2012,870332,Automóveis de passageiros,1116331650,1.54,5,direct
-2012,271121,Gás natural e outros gases de petróleo,989534404,1.365,6,direct
-2012,271111,Gás natural e outros gases de petróleo,762276178,1.051,7,direct
+2012,271019,Gasóleo e combustíveis médios e pesados,1505174537,2.076,3,direct
+2012,870899,Outras partes de veículos,1411825459,1.947,4,direct
+2012,870332,Automóveis diesel 1.500–2.500 cm³,1116331650,1.54,5,direct
+2012,271121,Gás natural em estado gasoso,989534404,1.365,6,direct
+2012,271111,Gás natural liquefeito (GNL),762276178,1.051,7,direct
 2012,271600,Energia elétrica,509109216,0.702,8,direct
-2012,851712,Aparelhos de telecomunicações,475458738,0.656,9,direct
+2012,851712,Telemóveis,475458738,0.656,9,direct
 2012,100590,Milho,469244816,0.647,10,direct
 2012,270900,Petróleo bruto,6906255255,10.3,1,mirror
 2012,300490,Medicamentos,1770545346,2.641,2,mirror
 2012,999999,Mercadorias não especificadas,1072409249,1.599,3,mirror
-2012,870332,Automóveis de passageiros,1029865191,1.536,4,mirror
-2012,271019,Combustíveis refinados,923315207,1.377,5,mirror
-2012,271121,Gás natural e outros gases de petróleo,884171423,1.319,6,mirror
-2012,870899,Partes e acessórios de veículos,667900576,0.996,7,mirror
-2012,847130,Computadores e unidades,542962405,0.81,8,mirror
+2012,870332,Automóveis diesel 1.500–2.500 cm³,1029865191,1.536,4,mirror
+2012,271019,Gasóleo e combustíveis médios e pesados,923315207,1.377,5,mirror
+2012,271121,Gás natural em estado gasoso,884171423,1.319,6,mirror
+2012,870899,Outras partes de veículos,667900576,0.996,7,mirror
+2012,847130,Computadores portáteis,542962405,0.81,8,mirror
 2012,100590,Milho,417110228,0.622,9,mirror
-2012,851712,Aparelhos de telecomunicações,399289274,0.596,10,mirror
+2012,851712,Telemóveis,399289274,0.596,10,mirror
 2013,270900,Petróleo bruto,9355129303,12.356,1,direct
 2013,300490,Medicamentos,1947434028,2.572,2,direct
-2013,271019,Combustíveis refinados,1667749665,2.203,3,direct
-2013,870899,Partes e acessórios de veículos,1384370047,1.828,4,direct
-2013,870332,Automóveis de passageiros,1277568118,1.687,5,direct
-2013,271121,Gás natural e outros gases de petróleo,1214062681,1.603,6,direct
-2013,271111,Gás natural e outros gases de petróleo,742496502,0.981,7,direct
-2013,851712,Aparelhos de telecomunicações,569965310,0.753,8,direct
-2013,847130,Computadores e unidades,496039469,0.655,9,direct
+2013,271019,Gasóleo e combustíveis médios e pesados,1667749665,2.203,3,direct
+2013,870899,Outras partes de veículos,1384370047,1.828,4,direct
+2013,870332,Automóveis diesel 1.500–2.500 cm³,1277568118,1.687,5,direct
+2013,271121,Gás natural em estado gasoso,1214062681,1.603,6,direct
+2013,271111,Gás natural liquefeito (GNL),742496502,0.981,7,direct
+2013,851712,Telemóveis,569965310,0.753,8,direct
+2013,847130,Computadores portáteis,496039469,0.655,9,direct
 2013,100590,Milho,467363098,0.617,10,direct
 2013,270900,Petróleo bruto,7457714337,10.226,1,mirror
 2013,300490,Medicamentos,1722479867,2.362,2,mirror
-2013,870332,Automóveis de passageiros,1353638605,1.856,3,mirror
+2013,870332,Automóveis diesel 1.500–2.500 cm³,1353638605,1.856,3,mirror
 2013,999999,Mercadorias não especificadas,1189470439,1.631,4,mirror
-2013,271019,Combustíveis refinados,1178138630,1.615,5,mirror
-2013,271121,Gás natural e outros gases de petróleo,903871307,1.239,6,mirror
-2013,870899,Partes e acessórios de veículos,748452448,1.026,7,mirror
-2013,870331,Automóveis de passageiros,663551633,0.91,8,mirror
-2013,847130,Computadores e unidades,573678030,0.787,9,mirror
-2013,851712,Aparelhos de telecomunicações,488903061,0.67,10,mirror
+2013,271019,Gasóleo e combustíveis médios e pesados,1178138630,1.615,5,mirror
+2013,271121,Gás natural em estado gasoso,903871307,1.239,6,mirror
+2013,870899,Outras partes de veículos,748452448,1.026,7,mirror
+2013,870331,Automóveis diesel até 1.500 cm³,663551633,0.91,8,mirror
+2013,847130,Computadores portáteis,573678030,0.787,9,mirror
+2013,851712,Telemóveis,488903061,0.67,10,mirror
 2014,270900,Petróleo bruto,8161382620,10.41,1,direct
 2014,300490,Medicamentos,1939718158,2.474,2,direct
-2014,271019,Combustíveis refinados,1825940848,2.329,3,direct
-2014,870332,Automóveis de passageiros,1825425884,2.328,4,direct
-2014,870899,Partes e acessórios de veículos,1500793309,1.914,5,direct
-2014,271121,Gás natural e outros gases de petróleo,1314256052,1.676,6,direct
-2014,870331,Automóveis de passageiros,750466555,0.957,7,direct
-2014,851712,Aparelhos de telecomunicações,640181929,0.817,8,direct
-2014,847130,Computadores e unidades,494448262,0.631,9,direct
-2014,271112,Gás natural e outros gases de petróleo,477215950,0.609,10,direct
+2014,271019,Gasóleo e combustíveis médios e pesados,1825940848,2.329,3,direct
+2014,870332,Automóveis diesel 1.500–2.500 cm³,1825425884,2.328,4,direct
+2014,870899,Outras partes de veículos,1500793309,1.914,5,direct
+2014,271121,Gás natural em estado gasoso,1314256052,1.676,6,direct
+2014,870331,Automóveis diesel até 1.500 cm³,750466555,0.957,7,direct
+2014,851712,Telemóveis,640181929,0.817,8,direct
+2014,847130,Computadores portáteis,494448262,0.631,9,direct
+2014,271112,Propano liquefeito,477215950,0.609,10,direct
 2014,270900,Petróleo bruto,5839066799,7.744,1,mirror
-2014,870332,Automóveis de passageiros,1763529078,2.339,2,mirror
+2014,870332,Automóveis diesel 1.500–2.500 cm³,1763529078,2.339,2,mirror
 2014,300490,Medicamentos,1673522150,2.22,3,mirror
 2014,999999,Mercadorias não especificadas,1210682546,1.606,4,mirror
-2014,271019,Combustíveis refinados,1016421169,1.348,5,mirror
-2014,271121,Gás natural e outros gases de petróleo,802912946,1.065,6,mirror
-2014,870899,Partes e acessórios de veículos,775393580,1.028,7,mirror
-2014,870331,Automóveis de passageiros,745448337,0.989,8,mirror
-2014,851712,Aparelhos de telecomunicações,593676146,0.787,9,mirror
-2014,847130,Computadores e unidades,528367640,0.701,10,mirror
+2014,271019,Gasóleo e combustíveis médios e pesados,1016421169,1.348,5,mirror
+2014,271121,Gás natural em estado gasoso,802912946,1.065,6,mirror
+2014,870899,Outras partes de veículos,775393580,1.028,7,mirror
+2014,870331,Automóveis diesel até 1.500 cm³,745448337,0.989,8,mirror
+2014,851712,Telemóveis,593676146,0.787,9,mirror
+2014,847130,Computadores portáteis,528367640,0.701,10,mirror
 2015,270900,Petróleo bruto,5465884986,8.169,1,direct
-2015,870332,Automóveis de passageiros,1838383770,2.748,2,direct
+2015,870332,Automóveis diesel 1.500–2.500 cm³,1838383770,2.748,2,direct
 2015,300490,Medicamentos,1784697311,2.667,3,direct
-2015,870899,Partes e acessórios de veículos,1267853116,1.895,4,direct
-2015,870331,Automóveis de passageiros,972767347,1.454,5,direct
-2015,271019,Combustíveis refinados,953488090,1.425,6,direct
-2015,271121,Gás natural e outros gases de petróleo,929098810,1.389,7,direct
-2015,851712,Aparelhos de telecomunicações,590303881,0.882,8,direct
-2015,847130,Computadores e unidades,391615756,0.585,9,direct
-2015,870322,Automóveis de passageiros,374939555,0.56,10,direct
+2015,870899,Outras partes de veículos,1267853116,1.895,4,direct
+2015,870331,Automóveis diesel até 1.500 cm³,972767347,1.454,5,direct
+2015,271019,Gasóleo e combustíveis médios e pesados,953488090,1.425,6,direct
+2015,271121,Gás natural em estado gasoso,929098810,1.389,7,direct
+2015,851712,Telemóveis,590303881,0.882,8,direct
+2015,847130,Computadores portáteis,391615756,0.585,9,direct
+2015,870322,Automóveis a gasolina 1.000–1.500 cm³,374939555,0.56,10,direct
 2015,270900,Petróleo bruto,4344676244,6.78,1,mirror
-2015,870332,Automóveis de passageiros,1686640194,2.632,2,mirror
+2015,870332,Automóveis diesel 1.500–2.500 cm³,1686640194,2.632,2,mirror
 2015,300490,Medicamentos,1508838934,2.355,3,mirror
 2015,999999,Mercadorias não especificadas,1231797512,1.922,4,mirror
-2015,870331,Automóveis de passageiros,914212111,1.427,5,mirror
-2015,271019,Combustíveis refinados,621553688,0.97,6,mirror
-2015,870899,Partes e acessórios de veículos,620485494,0.968,7,mirror
-2015,851712,Aparelhos de telecomunicações,601924652,0.939,8,mirror
-2015,847130,Computadores e unidades,420682805,0.657,9,mirror
-2015,870322,Automóveis de passageiros,357268910,0.558,10,mirror
+2015,870331,Automóveis diesel até 1.500 cm³,914212111,1.427,5,mirror
+2015,271019,Gasóleo e combustíveis médios e pesados,621553688,0.97,6,mirror
+2015,870899,Outras partes de veículos,620485494,0.968,7,mirror
+2015,851712,Telemóveis,601924652,0.939,8,mirror
+2015,847130,Computadores portáteis,420682805,0.657,9,mirror
+2015,870322,Automóveis a gasolina 1.000–1.500 cm³,357268910,0.558,10,mirror
 2016,270900,Petróleo bruto,4286734735,6.308,1,direct
-2016,870332,Automóveis de passageiros,2007526509,2.954,2,direct
+2016,870332,Automóveis diesel 1.500–2.500 cm³,2007526509,2.954,2,direct
 2016,300490,Medicamentos,1856193864,2.732,3,direct
-2016,870899,Partes e acessórios de veículos,1203067936,1.77,4,direct
-2016,870331,Automóveis de passageiros,1069740389,1.574,5,direct
-2016,271019,Combustíveis refinados,758736264,1.117,6,direct
-2016,271121,Gás natural e outros gases de petróleo,718534234,1.057,7,direct
-2016,851712,Aparelhos de telecomunicações,611449115,0.9,8,direct
-2016,880240,Helicópteros e aviões,500909286,0.737,9,direct
-2016,870322,Automóveis de passageiros,432079115,0.636,10,direct
+2016,870899,Outras partes de veículos,1203067936,1.77,4,direct
+2016,870331,Automóveis diesel até 1.500 cm³,1069740389,1.574,5,direct
+2016,271019,Gasóleo e combustíveis médios e pesados,758736264,1.117,6,direct
+2016,271121,Gás natural em estado gasoso,718534234,1.057,7,direct
+2016,851712,Telemóveis,611449115,0.9,8,direct
+2016,880240,Aviões +15.000 kg,500909286,0.737,9,direct
+2016,870322,Automóveis a gasolina 1.000–1.500 cm³,432079115,0.636,10,direct
 2016,270900,Petróleo bruto,3076957528,4.704,1,mirror
-2016,870332,Automóveis de passageiros,1767987552,2.703,2,mirror
+2016,870332,Automóveis diesel 1.500–2.500 cm³,1767987552,2.703,2,mirror
 2016,300490,Medicamentos,1534271763,2.346,3,mirror
 2016,999999,Mercadorias não especificadas,1146601351,1.753,4,mirror
-2016,870331,Automóveis de passageiros,991493192,1.516,5,mirror
-2016,851712,Aparelhos de telecomunicações,647286652,0.99,6,mirror
-2016,870899,Partes e acessórios de veículos,561556403,0.859,7,mirror
-2016,271019,Combustíveis refinados,514559353,0.787,8,mirror
-2016,870322,Automóveis de passageiros,439183727,0.671,9,mirror
+2016,870331,Automóveis diesel até 1.500 cm³,991493192,1.516,5,mirror
+2016,851712,Telemóveis,647286652,0.99,6,mirror
+2016,870899,Outras partes de veículos,561556403,0.859,7,mirror
+2016,271019,Gasóleo e combustíveis médios e pesados,514559353,0.787,8,mirror
+2016,870322,Automóveis a gasolina 1.000–1.500 cm³,439183727,0.671,9,mirror
 2016,381512,Catalisadores,391330855,0.598,10,mirror
 2017,270900,Petróleo bruto,5548688656,7.046,1,direct
-2017,870332,Automóveis de passageiros,1992721789,2.531,2,direct
+2017,870332,Automóveis diesel 1.500–2.500 cm³,1992721789,2.531,2,direct
 2017,300490,Medicamentos,1792836291,2.277,3,direct
-2017,870899,Partes e acessórios de veículos,1334915765,1.695,4,direct
-2017,870331,Automóveis de passageiros,1156825064,1.469,5,direct
-2017,271019,Combustíveis refinados,972384760,1.235,6,direct
-2017,271121,Gás natural e outros gases de petróleo,684725330,0.87,7,direct
-2017,271111,Gás natural e outros gases de petróleo,676430054,0.859,8,direct
-2017,851712,Aparelhos de telecomunicações,668822781,0.849,9,direct
-2017,880240,Helicópteros e aviões,588825375,0.748,10,direct
+2017,870899,Outras partes de veículos,1334915765,1.695,4,direct
+2017,870331,Automóveis diesel até 1.500 cm³,1156825064,1.469,5,direct
+2017,271019,Gasóleo e combustíveis médios e pesados,972384760,1.235,6,direct
+2017,271121,Gás natural em estado gasoso,684725330,0.87,7,direct
+2017,271111,Gás natural liquefeito (GNL),676430054,0.859,8,direct
+2017,851712,Telemóveis,668822781,0.849,9,direct
+2017,880240,Aviões +15.000 kg,588825375,0.748,10,direct
 2017,270900,Petróleo bruto,3526223127,4.719,1,mirror
-2017,870332,Automóveis de passageiros,1912622705,2.56,2,mirror
+2017,870332,Automóveis diesel 1.500–2.500 cm³,1912622705,2.56,2,mirror
 2017,300490,Medicamentos,1585014870,2.121,3,mirror
 2017,999999,Mercadorias não especificadas,1451283293,1.942,4,mirror
-2017,870331,Automóveis de passageiros,1113396768,1.49,5,mirror
-2017,271019,Combustíveis refinados,779080944,1.043,6,mirror
-2017,851712,Aparelhos de telecomunicações,694073080,0.929,7,mirror
-2017,271111,Gás natural e outros gases de petróleo,647361076,0.866,8,mirror
-2017,870899,Partes e acessórios de veículos,620872837,0.831,9,mirror
-2017,870322,Automóveis de passageiros,501848069,0.672,10,mirror
+2017,870331,Automóveis diesel até 1.500 cm³,1113396768,1.49,5,mirror
+2017,271019,Gasóleo e combustíveis médios e pesados,779080944,1.043,6,mirror
+2017,851712,Telemóveis,694073080,0.929,7,mirror
+2017,271111,Gás natural liquefeito (GNL),647361076,0.866,8,mirror
+2017,870899,Outras partes de veículos,620872837,0.831,9,mirror
+2017,870322,Automóveis a gasolina 1.000–1.500 cm³,501848069,0.672,10,mirror
 2018,270900,Petróleo bruto,7186604488,7.515,1,direct
 2018,300490,Medicamentos,2149085030,2.247,2,direct
-2018,870332,Automóveis de passageiros,2037380352,2.13,3,direct
-2018,870899,Partes e acessórios de veículos,1358742706,1.421,4,direct
-2018,870331,Automóveis de passageiros,1349898676,1.412,5,direct
-2018,271019,Combustíveis refinados,1208947689,1.264,6,direct
-2018,271111,Gás natural e outros gases de petróleo,921786901,0.964,7,direct
-2018,851712,Aparelhos de telecomunicações,796922446,0.833,8,direct
-2018,870322,Automóveis de passageiros,730724596,0.764,9,direct
-2018,271121,Gás natural e outros gases de petróleo,728083024,0.761,10,direct
+2018,870332,Automóveis diesel 1.500–2.500 cm³,2037380352,2.13,3,direct
+2018,870899,Outras partes de veículos,1358742706,1.421,4,direct
+2018,870331,Automóveis diesel até 1.500 cm³,1349898676,1.412,5,direct
+2018,271019,Gasóleo e combustíveis médios e pesados,1208947689,1.264,6,direct
+2018,271111,Gás natural liquefeito (GNL),921786901,0.964,7,direct
+2018,851712,Telemóveis,796922446,0.833,8,direct
+2018,870322,Automóveis a gasolina 1.000–1.500 cm³,730724596,0.764,9,direct
+2018,271121,Gás natural em estado gasoso,728083024,0.761,10,direct
 2018,270900,Petróleo bruto,3689119309,4.419,1,mirror
 2018,999999,Mercadorias não especificadas,2051272062,2.457,2,mirror
-2018,870332,Automóveis de passageiros,1800187988,2.156,3,mirror
+2018,870332,Automóveis diesel 1.500–2.500 cm³,1800187988,2.156,3,mirror
 2018,300490,Medicamentos,1655656127,1.983,4,mirror
-2018,870331,Automóveis de passageiros,1052276030,1.26,5,mirror
-2018,851712,Aparelhos de telecomunicações,984713620,1.179,6,mirror
-2018,271019,Combustíveis refinados,875894822,1.049,7,mirror
-2018,271111,Gás natural e outros gases de petróleo,767427351,0.919,8,mirror
-2018,870899,Partes e acessórios de veículos,732877028,0.878,9,mirror
-2018,880240,Helicópteros e aviões,698380850,0.836,10,mirror
+2018,870331,Automóveis diesel até 1.500 cm³,1052276030,1.26,5,mirror
+2018,851712,Telemóveis,984713620,1.179,6,mirror
+2018,271019,Gasóleo e combustíveis médios e pesados,875894822,1.049,7,mirror
+2018,271111,Gás natural liquefeito (GNL),767427351,0.919,8,mirror
+2018,870899,Outras partes de veículos,732877028,0.878,9,mirror
+2018,880240,Aviões +15.000 kg,698380850,0.836,10,mirror
 2019,270900,Petróleo bruto,5437114694,6.072,1,direct
-2019,880240,Helicópteros e aviões,2905721205,3.245,2,direct
+2019,880240,Aviões +15.000 kg,2905721205,3.245,2,direct
 2019,300490,Medicamentos,1871875135,2.091,3,direct
-2019,271019,Combustíveis refinados,1656377642,1.85,4,direct
-2019,870899,Partes e acessórios de veículos,1378782007,1.54,5,direct
-2019,271111,Gás natural e outros gases de petróleo,1364427030,1.524,6,direct
-2019,870332,Automóveis de passageiros,1285523032,1.436,7,direct
-2019,870331,Automóveis de passageiros,1074879055,1.2,8,direct
+2019,271019,Gasóleo e combustíveis médios e pesados,1656377642,1.85,4,direct
+2019,870899,Outras partes de veículos,1378782007,1.54,5,direct
+2019,271111,Gás natural liquefeito (GNL),1364427030,1.524,6,direct
+2019,870332,Automóveis diesel 1.500–2.500 cm³,1285523032,1.436,7,direct
+2019,870331,Automóveis diesel até 1.500 cm³,1074879055,1.2,8,direct
 2019,381512,Catalisadores,758286981,0.847,9,direct
-2019,870322,Automóveis de passageiros,749785474,0.837,10,direct
+2019,870322,Automóveis a gasolina 1.000–1.500 cm³,749785474,0.837,10,direct
 2019,270900,Petróleo bruto,3108164753,3.691,1,mirror
-2019,880240,Helicópteros e aviões,3025581584,3.593,2,mirror
+2019,880240,Aviões +15.000 kg,3025581584,3.593,2,mirror
 2019,999999,Mercadorias não especificadas,1779345790,2.113,3,mirror
 2019,300490,Medicamentos,1671113208,1.984,4,mirror
-2019,870332,Automóveis de passageiros,1332263768,1.582,5,mirror
-2019,271019,Combustíveis refinados,1153593660,1.37,6,mirror
-2019,271111,Gás natural e outros gases de petróleo,995387726,1.182,7,mirror
-2019,851712,Aparelhos de telecomunicações,988535646,1.174,8,mirror
-2019,870322,Automóveis de passageiros,807209614,0.958,9,mirror
-2019,870899,Partes e acessórios de veículos,803844852,0.954,10,mirror
+2019,870332,Automóveis diesel 1.500–2.500 cm³,1332263768,1.582,5,mirror
+2019,271019,Gasóleo e combustíveis médios e pesados,1153593660,1.37,6,mirror
+2019,271111,Gás natural liquefeito (GNL),995387726,1.182,7,mirror
+2019,851712,Telemóveis,988535646,1.174,8,mirror
+2019,870322,Automóveis a gasolina 1.000–1.500 cm³,807209614,0.958,9,mirror
+2019,870899,Outras partes de veículos,803844852,0.954,10,mirror
 2020,270900,Petróleo bruto,3867733034,4.969,1,direct
 2020,300490,Medicamentos,2058579536,2.645,2,direct
-2020,870899,Partes e acessórios de veículos,1283096877,1.648,3,direct
-2020,271111,Gás natural e outros gases de petróleo,1081262070,1.389,4,direct
+2020,870899,Outras partes de veículos,1283096877,1.648,3,direct
+2020,271111,Gás natural liquefeito (GNL),1081262070,1.389,4,direct
 2020,381512,Catalisadores,868108739,1.115,5,direct
-2020,880240,Helicópteros e aviões,850074091,1.092,6,direct
-2020,870332,Automóveis de passageiros,776196456,0.997,7,direct
-2020,851712,Aparelhos de telecomunicações,704529679,0.905,8,direct
-2020,870331,Automóveis de passageiros,691830273,0.889,9,direct
-2020,271019,Combustíveis refinados,676611566,0.869,10,direct
+2020,880240,Aviões +15.000 kg,850074091,1.092,6,direct
+2020,870332,Automóveis diesel 1.500–2.500 cm³,776196456,0.997,7,direct
+2020,851712,Telemóveis,704529679,0.905,8,direct
+2020,870331,Automóveis diesel até 1.500 cm³,691830273,0.889,9,direct
+2020,271019,Gasóleo e combustíveis médios e pesados,676611566,0.869,10,direct
 2020,270900,Petróleo bruto,2717205000,3.677,1,mirror
 2020,300490,Medicamentos,1833860631,2.482,2,mirror
 2020,999999,Mercadorias não especificadas,1538358443,2.082,3,mirror
-2020,271111,Gás natural e outros gases de petróleo,872833747,1.181,4,mirror
-2020,851712,Aparelhos de telecomunicações,858446765,1.162,5,mirror
-2020,880240,Helicópteros e aviões,847948804,1.147,6,mirror
+2020,271111,Gás natural liquefeito (GNL),872833747,1.181,4,mirror
+2020,851712,Telemóveis,858446765,1.162,5,mirror
+2020,880240,Aviões +15.000 kg,847948804,1.147,6,mirror
 2020,381512,Catalisadores,806181093,1.091,7,mirror
-2020,870332,Automóveis de passageiros,724962846,0.981,8,mirror
-2020,870899,Partes e acessórios de veículos,610368032,0.826,9,mirror
-2020,271019,Combustíveis refinados,575224368,0.778,10,mirror
+2020,870332,Automóveis diesel 1.500–2.500 cm³,724962846,0.981,8,mirror
+2020,870899,Outras partes de veículos,610368032,0.826,9,mirror
+2020,271019,Gasóleo e combustíveis médios e pesados,575224368,0.778,10,mirror
 2021,270900,Petróleo bruto,4782866564,4.864,1,direct
 2021,300490,Medicamentos,2012087116,2.046,2,direct
-2021,271019,Combustíveis refinados,1912911807,1.945,3,direct
-2021,271111,Gás natural e outros gases de petróleo,1686267960,1.715,4,direct
-2021,870899,Partes e acessórios de veículos,1444112052,1.469,5,direct
+2021,271019,Gasóleo e combustíveis médios e pesados,1912911807,1.945,3,direct
+2021,271111,Gás natural liquefeito (GNL),1686267960,1.715,4,direct
+2021,870899,Outras partes de veículos,1444112052,1.469,5,direct
 2021,271600,Energia elétrica,1287525357,1.309,6,direct
 2021,381512,Catalisadores,1111843863,1.131,7,direct
-2021,870332,Automóveis de passageiros,853680120,0.868,8,direct
-2021,847130,Computadores e unidades,844979936,0.859,9,direct
-2021,851712,Aparelhos de telecomunicações,776549261,0.79,10,direct
+2021,870332,Automóveis diesel 1.500–2.500 cm³,853680120,0.868,8,direct
+2021,847130,Computadores portáteis,844979936,0.859,9,direct
+2021,851712,Telemóveis,776549261,0.79,10,direct
 2021,270900,Petróleo bruto,3741250273,3.982,1,mirror
 2021,999999,Mercadorias não especificadas,1829642250,1.947,2,mirror
 2021,300490,Medicamentos,1719366703,1.83,3,mirror
 2021,271600,Energia elétrica,1618997377,1.723,4,mirror
-2021,271019,Combustíveis refinados,1230363362,1.31,5,mirror
-2021,271111,Gás natural e outros gases de petróleo,1216467155,1.295,6,mirror
+2021,271019,Gasóleo e combustíveis médios e pesados,1230363362,1.31,5,mirror
+2021,271111,Gás natural liquefeito (GNL),1216467155,1.295,6,mirror
 2021,381512,Catalisadores,1072089392,1.141,7,mirror
-2021,847130,Computadores e unidades,796144146,0.847,8,mirror
-2021,851712,Aparelhos de telecomunicações,768042998,0.817,9,mirror
-2021,870899,Partes e acessórios de veículos,636792880,0.678,10,mirror
+2021,847130,Computadores portáteis,796144146,0.847,8,mirror
+2021,851712,Telemóveis,768042998,0.817,9,mirror
+2021,870899,Outras partes de veículos,636792880,0.678,10,mirror
 2022,270900,Petróleo bruto,7798251953,6.722,1,direct
-2022,271111,Gás natural e outros gases de petróleo,3987989807,3.438,2,direct
-2022,271019,Combustíveis refinados,3119962396,2.689,3,direct
+2022,271111,Gás natural liquefeito (GNL),3987989807,3.438,2,direct
+2022,271019,Gasóleo e combustíveis médios e pesados,3119962396,2.689,3,direct
 2022,271600,Energia elétrica,2240637231,1.931,4,direct
 2022,300490,Medicamentos,2135141892,1.84,5,direct
-2022,870899,Partes e acessórios de veículos,1559223219,1.344,6,direct
-2022,854143,Díodos e células fotovoltaicas,1272320244,1.097,7,direct
+2022,870899,Outras partes de veículos,1559223219,1.344,6,direct
+2022,854143,Células fotovoltaicas em módulos,1272320244,1.097,7,direct
 2022,381512,Catalisadores,921511255,0.794,8,direct
-2022,854231,Circuitos integrados,895474292,0.772,9,direct
-2022,870332,Automóveis de passageiros,836770213,0.721,10,direct
+2022,854231,Processadores e controladores,895474292,0.772,9,direct
+2022,870332,Automóveis diesel 1.500–2.500 cm³,836770213,0.721,10,direct
 2022,270900,Petróleo bruto,6330652929,5.983,1,mirror
 2022,271600,Energia elétrica,2990364608,2.826,2,mirror
-2022,271019,Combustíveis refinados,2479214467,2.343,3,mirror
+2022,271019,Gasóleo e combustíveis médios e pesados,2479214467,2.343,3,mirror
 2022,999999,Mercadorias não especificadas,2338145565,2.21,4,mirror
 2022,300490,Medicamentos,1766203374,1.669,5,mirror
-2022,271111,Gás natural e outros gases de petróleo,1546210247,1.461,6,mirror
+2022,271111,Gás natural liquefeito (GNL),1546210247,1.461,6,mirror
 2022,381512,Catalisadores,936606074,0.885,7,mirror
-2022,870899,Partes e acessórios de veículos,595396157,0.563,8,mirror
-2022,870332,Automóveis de passageiros,581609113,0.55,9,mirror
+2022,870899,Outras partes de veículos,595396157,0.563,8,mirror
+2022,870332,Automóveis diesel 1.500–2.500 cm³,581609113,0.55,9,mirror
 2022,100590,Milho,558080543,0.527,10,mirror
 2023,270900,Petróleo bruto,5925094568,5.212,1,direct
-2023,271019,Combustíveis refinados,2617027300,2.302,2,direct
+2023,271019,Gasóleo e combustíveis médios e pesados,2617027300,2.302,2,direct
 2023,300490,Medicamentos,2251901770,1.981,3,direct
-2023,870380,Automóveis de passageiros,1678753344,1.477,4,direct
-2023,271111,Gás natural e outros gases de petróleo,1659857180,1.46,5,direct
-2023,870899,Partes e acessórios de veículos,1573960699,1.384,6,direct
+2023,870380,Automóveis elétricos,1678753344,1.477,4,direct
+2023,271111,Gás natural liquefeito (GNL),1659857180,1.46,5,direct
+2023,870899,Outras partes de veículos,1573960699,1.384,6,direct
 2023,271600,Energia elétrica,1295730714,1.14,7,direct
-2023,854143,Díodos e células fotovoltaicas,1207803597,1.062,8,direct
-2023,870323,Automóveis de passageiros,1057123674,0.93,9,direct
+2023,854143,Células fotovoltaicas em módulos,1207803597,1.062,8,direct
+2023,870323,Automóveis a gasolina 1.500–3.000 cm³,1057123674,0.93,9,direct
 2023,293319,Compostos heterocíclicos,1011522930,0.89,10,direct
 2023,270900,Petróleo bruto,4508765726,4.275,1,mirror
 2023,999999,Mercadorias não especificadas,2173042377,2.061,2,mirror
-2023,271019,Combustíveis refinados,1926567527,1.827,3,mirror
+2023,271019,Gasóleo e combustíveis médios e pesados,1926567527,1.827,3,mirror
 2023,300490,Medicamentos,1810622725,1.717,4,mirror
 2023,271600,Energia elétrica,1531885751,1.453,5,mirror
-2023,271111,Gás natural e outros gases de petróleo,1058462236,1.004,6,mirror
+2023,271111,Gás natural liquefeito (GNL),1058462236,1.004,6,mirror
 2023,381512,Catalisadores,853030389,0.809,7,mirror
-2023,870899,Partes e acessórios de veículos,789144311,0.748,8,mirror
-2023,870322,Automóveis de passageiros,702467567,0.666,9,mirror
-2023,880240,Helicópteros e aviões,668362048,0.634,10,mirror
+2023,870899,Outras partes de veículos,789144311,0.748,8,mirror
+2023,870322,Automóveis a gasolina 1.000–1.500 cm³,702467567,0.666,9,mirror
+2023,880240,Aviões +15.000 kg,668362048,0.634,10,mirror
 2024,270900,Petróleo bruto,6414373195,5.708,1,direct
 2024,300490,Medicamentos,2296636516,2.044,2,direct
-2024,271019,Combustíveis refinados,2006042887,1.785,3,direct
-2024,870380,Automóveis de passageiros,1600414285,1.424,4,direct
-2024,870899,Partes e acessórios de veículos,1535172418,1.366,5,direct
-2024,271111,Gás natural e outros gases de petróleo,1292449548,1.15,6,direct
+2024,271019,Gasóleo e combustíveis médios e pesados,2006042887,1.785,3,direct
+2024,870380,Automóveis elétricos,1600414285,1.424,4,direct
+2024,870899,Outras partes de veículos,1535172418,1.366,5,direct
+2024,271111,Gás natural liquefeito (GNL),1292449548,1.15,6,direct
 2024,271600,Energia elétrica,1083845353,0.964,7,direct
-2024,870332,Automóveis de passageiros,1074325778,0.956,8,direct
-2024,870322,Automóveis de passageiros,961152605,0.855,9,direct
+2024,870332,Automóveis diesel 1.500–2.500 cm³,1074325778,0.956,8,direct
+2024,870322,Automóveis a gasolina 1.000–1.500 cm³,961152605,0.855,9,direct
 2024,293319,Compostos heterocíclicos,936527547,0.833,10,direct
 2024,270900,Petróleo bruto,5529604238,5.169,1,mirror
 2024,999999,Mercadorias não especificadas,2413655895,2.256,2,mirror
 2024,300490,Medicamentos,1864155366,1.742,3,mirror
-2024,271019,Combustíveis refinados,1734040296,1.621,4,mirror
+2024,271019,Gasóleo e combustíveis médios e pesados,1734040296,1.621,4,mirror
 2024,271600,Energia elétrica,1179203251,1.102,5,mirror
-2024,870322,Automóveis de passageiros,982588741,0.918,6,mirror
-2024,870899,Partes e acessórios de veículos,845254303,0.79,7,mirror
-2024,271111,Gás natural e outros gases de petróleo,768368841,0.718,8,mirror
-2024,870332,Automóveis de passageiros,641202852,0.599,9,mirror
-2024,880240,Helicópteros e aviões,609278465,0.569,10,mirror
+2024,870322,Automóveis a gasolina 1.000–1.500 cm³,982588741,0.918,6,mirror
+2024,870899,Outras partes de veículos,845254303,0.79,7,mirror
+2024,271111,Gás natural liquefeito (GNL),768368841,0.718,8,mirror
+2024,870332,Automóveis diesel 1.500–2.500 cm³,641202852,0.599,9,mirror
+2024,880240,Aviões +15.000 kg,609278465,0.569,10,mirror

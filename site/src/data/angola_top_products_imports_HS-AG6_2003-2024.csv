@@ -1,431 +1,431 @@
 year,hs6,description_pt,value,share_pct,rank,basis
-2003,890520,Plataformas e dragas,337516932,7.617,1,mirror
-2003,843143,Partes de máquinas de terraplanagem,266495643,6.014,2,mirror
-2003,150790,Óleo de soja,58242674,1.314,3,mirror
+2003,890520,Plataformas de perfuração ou produção,337516932,7.617,1,mirror
+2003,843143,Partes de máquinas de perfuração (8430),266495643,6.014,2,mirror
+2003,150790,Óleo de soja refinado,58242674,1.314,3,mirror
 2003,110100,Farinha de trigo,55043410,1.242,4,mirror
-2003,870421,Veículos de mercadorias,54838341,1.238,5,mirror
-2003,870422,Veículos de mercadorias,49422288,1.115,6,mirror
-2003,170199,Açúcar de cana ou de beterraba,49054453,1.107,7,mirror
-2003,730429,Tubos sem costura (petróleo/gás),45666486,1.031,8,mirror
+2003,870421,Camiões diesel até 5 t,54838341,1.238,5,mirror
+2003,870422,Camiões diesel 5–20 t,49422288,1.115,6,mirror
+2003,170199,Açúcar refinado,49054453,1.107,7,mirror
+2003,730429,Tubos sem costura de revestimento,45666486,1.031,8,mirror
 2003,999999,Mercadorias não especificadas,42522362,0.96,9,mirror
-2003,870323,Automóveis de passageiros,40862207,0.922,10,mirror
-2004,843143,Partes de máquinas de terraplanagem,579677254,11.429,1,direct
-2004,100630,Arroz,134294951,2.648,2,direct
+2003,870323,Automóveis a gasolina 1.500–3.000 cm³,40862207,0.922,10,mirror
+2004,843143,Partes de máquinas de perfuração (8430),579677254,11.429,1,direct
+2004,100630,Arroz semibranqueado ou branqueado,134294951,2.648,2,direct
 2004,220300,Cerveja,82377392,1.624,3,direct
 2004,110100,Farinha de trigo,80047202,1.578,4,direct
-2004,870421,Veículos de mercadorias,76063013,1.5,5,direct
-2004,870323,Automóveis de passageiros,75702936,1.493,6,direct
+2004,870421,Camiões diesel até 5 t,76063013,1.5,5,direct
+2004,870323,Automóveis a gasolina 1.500–3.000 cm³,75702936,1.493,6,direct
 2004,020230,"Carne de bovino, congelada",65896351,1.299,7,direct
-2004,150790,Óleo de soja,59247406,1.168,8,direct
-2004,730890,Estruturas de ferro ou aço,51592365,1.017,9,direct
+2004,150790,Óleo de soja refinado,59247406,1.168,8,direct
+2004,730890,Outras estruturas de ferro ou aço,51592365,1.017,9,direct
 2004,630900,Vestuário usado,50205326,0.99,10,direct
-2004,890520,Plataformas e dragas,989307187,14.821,1,mirror
-2004,843143,Partes de máquinas de terraplanagem,384400060,5.759,2,mirror
+2004,890520,Plataformas de perfuração ou produção,989307187,14.821,1,mirror
+2004,843143,Partes de máquinas de perfuração (8430),384400060,5.759,2,mirror
 2004,110100,Farinha de trigo,79799823,1.196,3,mirror
-2004,100630,Arroz,77837733,1.166,4,mirror
-2004,150790,Óleo de soja,56992970,0.854,5,mirror
-2004,870323,Automóveis de passageiros,54573005,0.818,6,mirror
-2004,870421,Veículos de mercadorias,52032696,0.78,7,mirror
+2004,100630,Arroz semibranqueado ou branqueado,77837733,1.166,4,mirror
+2004,150790,Óleo de soja refinado,56992970,0.854,5,mirror
+2004,870323,Automóveis a gasolina 1.500–3.000 cm³,54573005,0.818,6,mirror
+2004,870421,Camiões diesel até 5 t,52032696,0.78,7,mirror
 2004,999999,Mercadorias não especificadas,51492488,0.771,8,mirror
 2004,020230,"Carne de bovino, congelada",48100289,0.721,9,mirror
-2004,730429,Tubos sem costura (petróleo/gás),44624791,0.669,10,mirror
-2005,843143,Partes de máquinas de terraplanagem,1376207451,17.402,1,direct
-2005,890590,Plataformas e dragas,364919011,4.614,2,direct
-2005,271019,Combustíveis refinados,245242542,3.101,3,direct
-2005,271011,Combustíveis refinados,139159781,1.76,4,direct
-2005,870421,Veículos de mercadorias,107928453,1.365,5,direct
-2005,870323,Automóveis de passageiros,99790617,1.262,6,direct
-2005,843139,Partes de máquinas de terraplanagem,90063635,1.139,7,direct
+2004,730429,Tubos sem costura de revestimento,44624791,0.669,10,mirror
+2005,843143,Partes de máquinas de perfuração (8430),1376207451,17.402,1,direct
+2005,890590,Navios-farol e outros auxiliares,364919011,4.614,2,direct
+2005,271019,Gasóleo e combustíveis médios e pesados,245242542,3.101,3,direct
+2005,271011,Óleos leves de petróleo (ed. antiga),139159781,1.76,4,direct
+2005,870421,Camiões diesel até 5 t,107928453,1.365,5,direct
+2005,870323,Automóveis a gasolina 1.500–3.000 cm³,99790617,1.262,6,direct
+2005,843139,Partes de máquinas de elevação (8428),90063635,1.139,7,direct
 2005,110100,Farinha de trigo,83535069,1.056,8,direct
-2005,852520,Aparelhos de transmissão e câmaras,82677461,1.045,9,direct
+2005,852520,Aparelhos transmissores-recetores,82677461,1.045,9,direct
 2005,020230,"Carne de bovino, congelada",78687833,0.995,10,direct
-2005,890520,Plataformas e dragas,707663213,9.111,1,mirror
-2005,843143,Partes de máquinas de terraplanagem,442307818,5.695,2,mirror
+2005,890520,Plataformas de perfuração ou produção,707663213,9.111,1,mirror
+2005,843143,Partes de máquinas de perfuração (8430),442307818,5.695,2,mirror
 2005,999999,Mercadorias não especificadas,122017550,1.571,3,mirror
-2005,730429,Tubos sem costura (petróleo/gás),91396540,1.177,4,mirror
-2005,100630,Arroz,83472680,1.075,5,mirror
-2005,870323,Automóveis de passageiros,82249674,1.059,6,mirror
+2005,730429,Tubos sem costura de revestimento,91396540,1.177,4,mirror
+2005,100630,Arroz semibranqueado ou branqueado,83472680,1.075,5,mirror
+2005,870323,Automóveis a gasolina 1.500–3.000 cm³,82249674,1.059,6,mirror
 2005,110100,Farinha de trigo,76406923,0.984,7,mirror
-2005,730890,Estruturas de ferro ou aço,71850206,0.925,8,mirror
-2005,870421,Veículos de mercadorias,68355728,0.88,9,mirror
+2005,730890,Outras estruturas de ferro ou aço,71850206,0.925,8,mirror
+2005,870421,Camiões diesel até 5 t,68355728,0.88,9,mirror
 2005,020230,"Carne de bovino, congelada",64910677,0.836,10,mirror
-2006,880240,Helicópteros e aviões,646001347,6.085,1,direct
-2006,271019,Combustíveis refinados,484304578,4.562,2,direct
-2006,843143,Partes de máquinas de terraplanagem,430448819,4.054,3,direct
-2006,271011,Combustíveis refinados,210850717,1.986,4,direct
-2006,870421,Veículos de mercadorias,181141872,1.706,5,direct
-2006,870323,Automóveis de passageiros,142468600,1.342,6,direct
-2006,852520,Aparelhos de transmissão e câmaras,136617143,1.287,7,direct
-2006,730520,Tubos para oleodutos e gasodutos,130182346,1.226,8,direct
+2006,880240,Aviões +15.000 kg,646001347,6.085,1,direct
+2006,271019,Gasóleo e combustíveis médios e pesados,484304578,4.562,2,direct
+2006,843143,Partes de máquinas de perfuração (8430),430448819,4.054,3,direct
+2006,271011,Óleos leves de petróleo (ed. antiga),210850717,1.986,4,direct
+2006,870421,Camiões diesel até 5 t,181141872,1.706,5,direct
+2006,870323,Automóveis a gasolina 1.500–3.000 cm³,142468600,1.342,6,direct
+2006,852520,Aparelhos transmissores-recetores,136617143,1.287,7,direct
+2006,730520,Tubos de revestimento para perfuração,130182346,1.226,8,direct
 2006,220300,Cerveja,113329675,1.067,9,direct
 2006,110100,Farinha de trigo,105958878,0.998,10,direct
-2006,843143,Partes de máquinas de terraplanagem,479403751,4.507,1,mirror
-2006,890520,Plataformas e dragas,171180875,1.609,2,mirror
-2006,730429,Tubos sem costura (petróleo/gás),160490812,1.509,3,mirror
-2006,870323,Automóveis de passageiros,115374815,1.085,4,mirror
-2006,170199,Açúcar de cana ou de beterraba,109665399,1.031,5,mirror
-2006,870421,Veículos de mercadorias,109156348,1.026,6,mirror
+2006,843143,Partes de máquinas de perfuração (8430),479403751,4.507,1,mirror
+2006,890520,Plataformas de perfuração ou produção,171180875,1.609,2,mirror
+2006,730429,Tubos sem costura de revestimento,160490812,1.509,3,mirror
+2006,870323,Automóveis a gasolina 1.500–3.000 cm³,115374815,1.085,4,mirror
+2006,170199,Açúcar refinado,109665399,1.031,5,mirror
+2006,870421,Camiões diesel até 5 t,109156348,1.026,6,mirror
 2006,020230,"Carne de bovino, congelada",105970066,0.996,7,mirror
-2006,271019,Combustíveis refinados,100766224,0.947,8,mirror
+2006,271019,Gasóleo e combustíveis médios e pesados,100766224,0.947,8,mirror
 2006,999999,Mercadorias não especificadas,99581902,0.936,9,mirror
-2006,730890,Estruturas de ferro ou aço,97443820,0.916,10,mirror
+2006,730890,Outras estruturas de ferro ou aço,97443820,0.916,10,mirror
 2007,843149,Partes de máquinas de terraplanagem,1108019774,7.451,1,direct
-2007,271019,Combustíveis refinados,745706159,5.014,2,direct
-2007,843143,Partes de máquinas de terraplanagem,506939676,3.409,3,direct
-2007,271011,Combustíveis refinados,417844210,2.81,4,direct
-2007,870421,Veículos de mercadorias,310849173,2.09,5,direct
-2007,870323,Automóveis de passageiros,252841204,1.7,6,direct
-2007,880240,Helicópteros e aviões,159477877,1.072,7,direct
-2007,870422,Veículos de mercadorias,154774117,1.041,8,direct
+2007,271019,Gasóleo e combustíveis médios e pesados,745706159,5.014,2,direct
+2007,843143,Partes de máquinas de perfuração (8430),506939676,3.409,3,direct
+2007,271011,Óleos leves de petróleo (ed. antiga),417844210,2.81,4,direct
+2007,870421,Camiões diesel até 5 t,310849173,2.09,5,direct
+2007,870323,Automóveis a gasolina 1.500–3.000 cm³,252841204,1.7,6,direct
+2007,880240,Aviões +15.000 kg,159477877,1.072,7,direct
+2007,870422,Camiões diesel 5–20 t,154774117,1.041,8,direct
 2007,110100,Farinha de trigo,146268976,0.984,9,direct
-2007,730890,Estruturas de ferro ou aço,144604952,0.972,10,direct
-2007,843143,Partes de máquinas de terraplanagem,539390530,4.26,1,mirror
-2007,870421,Veículos de mercadorias,163315381,1.29,2,mirror
-2007,730890,Estruturas de ferro ou aço,159188668,1.257,3,mirror
-2007,870323,Automóveis de passageiros,154985168,1.224,4,mirror
-2007,890520,Plataformas e dragas,145693532,1.151,5,mirror
-2007,271019,Combustíveis refinados,142366060,1.124,6,mirror
-2007,271011,Combustíveis refinados,135296429,1.068,7,mirror
-2007,730429,Tubos sem costura (petróleo/gás),124650443,0.984,8,mirror
+2007,730890,Outras estruturas de ferro ou aço,144604952,0.972,10,direct
+2007,843143,Partes de máquinas de perfuração (8430),539390530,4.26,1,mirror
+2007,870421,Camiões diesel até 5 t,163315381,1.29,2,mirror
+2007,730890,Outras estruturas de ferro ou aço,159188668,1.257,3,mirror
+2007,870323,Automóveis a gasolina 1.500–3.000 cm³,154985168,1.224,4,mirror
+2007,890520,Plataformas de perfuração ou produção,145693532,1.151,5,mirror
+2007,271019,Gasóleo e combustíveis médios e pesados,142366060,1.124,6,mirror
+2007,271011,Óleos leves de petróleo (ed. antiga),135296429,1.068,7,mirror
+2007,730429,Tubos sem costura de revestimento,124650443,0.984,8,mirror
 2007,999999,Mercadorias não especificadas,121568856,0.96,9,mirror
-2007,870422,Veículos de mercadorias,118238444,0.934,10,mirror
-2008,271019,Combustíveis refinados,2233073249,9.333,1,direct
-2008,890520,Plataformas e dragas,1252949536,5.237,2,direct
-2008,271011,Combustíveis refinados,756723393,3.163,3,direct
-2008,843143,Partes de máquinas de terraplanagem,578047636,2.416,4,direct
-2008,870421,Veículos de mercadorias,481027215,2.01,5,direct
+2007,870422,Camiões diesel 5–20 t,118238444,0.934,10,mirror
+2008,271019,Gasóleo e combustíveis médios e pesados,2233073249,9.333,1,direct
+2008,890520,Plataformas de perfuração ou produção,1252949536,5.237,2,direct
+2008,271011,Óleos leves de petróleo (ed. antiga),756723393,3.163,3,direct
+2008,843143,Partes de máquinas de perfuração (8430),578047636,2.416,4,direct
+2008,870421,Camiões diesel até 5 t,481027215,2.01,5,direct
 2008,999999,Mercadorias não especificadas,436071685,1.823,6,direct
 2008,870210,Autocarros,407254387,1.702,7,direct
 2008,870120,Tratores rodoviários,249308652,1.042,8,direct
-2008,870323,Automóveis de passageiros,246826914,1.032,9,direct
+2008,870323,Automóveis a gasolina 1.500–3.000 cm³,246826914,1.032,9,direct
 2008,110100,Farinha de trigo,234697189,0.981,10,direct
-2008,890520,Plataformas e dragas,975600963,4.77,1,mirror
-2008,843143,Partes de máquinas de terraplanagem,594847951,2.908,2,mirror
-2008,271019,Combustíveis refinados,348127066,1.702,3,mirror
-2008,730890,Estruturas de ferro ou aço,278039715,1.359,4,mirror
+2008,890520,Plataformas de perfuração ou produção,975600963,4.77,1,mirror
+2008,843143,Partes de máquinas de perfuração (8430),594847951,2.908,2,mirror
+2008,271019,Gasóleo e combustíveis médios e pesados,348127066,1.702,3,mirror
+2008,730890,Outras estruturas de ferro ou aço,278039715,1.359,4,mirror
 2008,870210,Autocarros,268928375,1.315,5,mirror
-2008,870421,Veículos de mercadorias,255543462,1.249,6,mirror
+2008,870421,Camiões diesel até 5 t,255543462,1.249,6,mirror
 2008,999999,Mercadorias não especificadas,237247654,1.16,7,mirror
-2008,100630,Arroz,232880715,1.139,8,mirror
-2008,870323,Automóveis de passageiros,206244340,1.008,9,mirror
-2008,271011,Combustíveis refinados,183302437,0.896,10,mirror
-2009,271019,Combustíveis refinados,2238654044,9.359,1,direct
-2009,271011,Combustíveis refinados,1112411074,4.651,2,direct
-2009,890520,Plataformas e dragas,655038559,2.739,3,direct
-2009,870421,Veículos de mercadorias,538297653,2.251,4,direct
-2009,843143,Partes de máquinas de terraplanagem,396003635,1.656,5,direct
-2009,870323,Automóveis de passageiros,332794430,1.391,6,direct
-2009,870324,Automóveis de passageiros,262251797,1.096,7,direct
+2008,100630,Arroz semibranqueado ou branqueado,232880715,1.139,8,mirror
+2008,870323,Automóveis a gasolina 1.500–3.000 cm³,206244340,1.008,9,mirror
+2008,271011,Óleos leves de petróleo (ed. antiga),183302437,0.896,10,mirror
+2009,271019,Gasóleo e combustíveis médios e pesados,2238654044,9.359,1,direct
+2009,271011,Óleos leves de petróleo (ed. antiga),1112411074,4.651,2,direct
+2009,890520,Plataformas de perfuração ou produção,655038559,2.739,3,direct
+2009,870421,Camiões diesel até 5 t,538297653,2.251,4,direct
+2009,843143,Partes de máquinas de perfuração (8430),396003635,1.656,5,direct
+2009,870323,Automóveis a gasolina 1.500–3.000 cm³,332794430,1.391,6,direct
+2009,870324,Automóveis a gasolina +3.000 cm³,262251797,1.096,7,direct
 2009,870210,Autocarros,245766669,1.028,8,direct
-2009,730890,Estruturas de ferro ou aço,233591040,0.977,9,direct
-2009,870422,Veículos de mercadorias,226631596,0.948,10,direct
-2009,271019,Combustíveis refinados,620815020,3.48,1,mirror
-2009,890520,Plataformas e dragas,503401867,2.822,2,mirror
-2009,843143,Partes de máquinas de terraplanagem,444613502,2.493,3,mirror
-2009,730890,Estruturas de ferro ou aço,300539571,1.685,4,mirror
+2009,730890,Outras estruturas de ferro ou aço,233591040,0.977,9,direct
+2009,870422,Camiões diesel 5–20 t,226631596,0.948,10,direct
+2009,271019,Gasóleo e combustíveis médios e pesados,620815020,3.48,1,mirror
+2009,890520,Plataformas de perfuração ou produção,503401867,2.822,2,mirror
+2009,843143,Partes de máquinas de perfuração (8430),444613502,2.493,3,mirror
+2009,730890,Outras estruturas de ferro ou aço,300539571,1.685,4,mirror
 2009,999999,Mercadorias não especificadas,204256499,1.145,5,mirror
-2009,870323,Automóveis de passageiros,185567055,1.04,6,mirror
-2009,870421,Veículos de mercadorias,162926600,0.913,7,mirror
-2009,271011,Combustíveis refinados,134091011,0.752,8,mirror
+2009,870323,Automóveis a gasolina 1.500–3.000 cm³,185567055,1.04,6,mirror
+2009,870421,Camiões diesel até 5 t,162926600,0.913,7,mirror
+2009,271011,Óleos leves de petróleo (ed. antiga),134091011,0.752,8,mirror
 2009,110100,Farinha de trigo,130442618,0.731,9,mirror
 2009,870210,Autocarros,108392979,0.608,10,mirror
-2010,271019,Combustíveis refinados,1691709932,9.324,1,direct
-2010,271011,Combustíveis refinados,1339253584,7.382,2,direct
-2010,848180,Válvulas e torneiras,362467925,1.998,3,direct
-2010,843143,Partes de máquinas de terraplanagem,356758367,1.966,4,direct
-2010,890520,Plataformas e dragas,215465062,1.188,5,direct
+2010,271019,Gasóleo e combustíveis médios e pesados,1691709932,9.324,1,direct
+2010,271011,Óleos leves de petróleo (ed. antiga),1339253584,7.382,2,direct
+2010,848180,"Válvulas e torneiras, outras",362467925,1.998,3,direct
+2010,843143,Partes de máquinas de perfuração (8430),356758367,1.966,4,direct
+2010,890520,Plataformas de perfuração ou produção,215465062,1.188,5,direct
 2010,732690,Outros artigos de ferro ou aço,210040281,1.158,6,direct
-2010,020714,Carne de aves,195747242,1.079,7,direct
-2010,870421,Veículos de mercadorias,169245184,0.933,8,direct
+2010,020714,Cortes e miudezas de galinha congelados,195747242,1.079,7,direct
+2010,870421,Camiões diesel até 5 t,169245184,0.933,8,direct
 2010,110100,Farinha de trigo,160768412,0.886,9,direct
-2010,870323,Automóveis de passageiros,158525596,0.874,10,direct
-2010,271019,Combustíveis refinados,596767832,3.76,1,mirror
-2010,890520,Plataformas e dragas,474752673,2.992,2,mirror
-2010,843143,Partes de máquinas de terraplanagem,417103246,2.628,3,mirror
-2010,848180,Válvulas e torneiras,250052598,1.576,4,mirror
-2010,730890,Estruturas de ferro ou aço,190225243,1.199,5,mirror
-2010,020714,Carne de aves,176478445,1.112,6,mirror
-2010,100630,Arroz,152981727,0.964,7,mirror
+2010,870323,Automóveis a gasolina 1.500–3.000 cm³,158525596,0.874,10,direct
+2010,271019,Gasóleo e combustíveis médios e pesados,596767832,3.76,1,mirror
+2010,890520,Plataformas de perfuração ou produção,474752673,2.992,2,mirror
+2010,843143,Partes de máquinas de perfuração (8430),417103246,2.628,3,mirror
+2010,848180,"Válvulas e torneiras, outras",250052598,1.576,4,mirror
+2010,730890,Outras estruturas de ferro ou aço,190225243,1.199,5,mirror
+2010,020714,Cortes e miudezas de galinha congelados,176478445,1.112,6,mirror
+2010,100630,Arroz semibranqueado ou branqueado,152981727,0.964,7,mirror
 2010,999999,Mercadorias não especificadas,147847264,0.932,8,mirror
-2010,870323,Automóveis de passageiros,138397982,0.872,9,mirror
+2010,870323,Automóveis a gasolina 1.500–3.000 cm³,138397982,0.872,9,mirror
 2010,110100,Farinha de trigo,137216416,0.865,10,mirror
-2011,890520,Plataformas e dragas,2066434023,9.939,1,direct
-2011,271019,Combustíveis refinados,1329450059,6.394,2,direct
-2011,271011,Combustíveis refinados,965783675,4.645,3,direct
-2011,020714,Carne de aves,278396108,1.339,4,direct
+2011,890520,Plataformas de perfuração ou produção,2066434023,9.939,1,direct
+2011,271019,Gasóleo e combustíveis médios e pesados,1329450059,6.394,2,direct
+2011,271011,Óleos leves de petróleo (ed. antiga),965783675,4.645,3,direct
+2011,020714,Cortes e miudezas de galinha congelados,278396108,1.339,4,direct
 2011,110100,Farinha de trigo,254967864,1.226,5,direct
-2011,870421,Veículos de mercadorias,251999838,1.212,6,direct
-2011,843143,Partes de máquinas de terraplanagem,246019818,1.183,7,direct
-2011,100630,Arroz,187996462,0.904,8,direct
-2011,870323,Automóveis de passageiros,165489216,0.796,9,direct
-2011,848180,Válvulas e torneiras,165316758,0.795,10,direct
+2011,870421,Camiões diesel até 5 t,251999838,1.212,6,direct
+2011,843143,Partes de máquinas de perfuração (8430),246019818,1.183,7,direct
+2011,100630,Arroz semibranqueado ou branqueado,187996462,0.904,8,direct
+2011,870323,Automóveis a gasolina 1.500–3.000 cm³,165489216,0.796,9,direct
+2011,848180,"Válvulas e torneiras, outras",165316758,0.795,10,direct
 2011,999999,Mercadorias não especificadas,501851629,2.739,1,mirror
-2011,271019,Combustíveis refinados,430486457,2.349,2,mirror
-2011,271011,Combustíveis refinados,394862302,2.155,3,mirror
-2011,843143,Partes de máquinas de terraplanagem,270528557,1.476,4,mirror
-2011,020714,Carne de aves,239496926,1.307,5,mirror
+2011,271019,Gasóleo e combustíveis médios e pesados,430486457,2.349,2,mirror
+2011,271011,Óleos leves de petróleo (ed. antiga),394862302,2.155,3,mirror
+2011,843143,Partes de máquinas de perfuração (8430),270528557,1.476,4,mirror
+2011,020714,Cortes e miudezas de galinha congelados,239496926,1.307,5,mirror
 2011,110100,Farinha de trigo,212804340,1.161,6,mirror
-2011,151190,Óleo de palma,191996157,1.048,7,mirror
-2011,150790,Óleo de soja,165860455,0.905,8,mirror
-2011,848180,Válvulas e torneiras,147794418,0.806,9,mirror
-2011,170199,Açúcar de cana ou de beterraba,147335826,0.804,10,mirror
-2012,890120,Navios,1362734400,4.744,1,direct
-2012,271019,Combustíveis refinados,826548048,2.878,2,direct
-2012,870421,Veículos de mercadorias,673699755,2.346,3,direct
-2012,870323,Automóveis de passageiros,396375984,1.38,4,direct
-2012,020714,Carne de aves,386562680,1.346,5,direct
+2011,151190,Óleo de palma refinado,191996157,1.048,7,mirror
+2011,150790,Óleo de soja refinado,165860455,0.905,8,mirror
+2011,848180,"Válvulas e torneiras, outras",147794418,0.806,9,mirror
+2011,170199,Açúcar refinado,147335826,0.804,10,mirror
+2012,890120,Navios-tanque,1362734400,4.744,1,direct
+2012,271019,Gasóleo e combustíveis médios e pesados,826548048,2.878,2,direct
+2012,870421,Camiões diesel até 5 t,673699755,2.346,3,direct
+2012,870323,Automóveis a gasolina 1.500–3.000 cm³,396375984,1.38,4,direct
+2012,020714,Cortes e miudezas de galinha congelados,386562680,1.346,5,direct
 2012,110100,Farinha de trigo,341364160,1.188,6,direct
-2012,100630,Arroz,287300942,1.0,7,direct
-2012,870324,Automóveis de passageiros,283551979,0.987,8,direct
-2012,870322,Automóveis de passageiros,280978197,0.978,9,direct
-2012,721420,Varões de ferro ou aço,273651506,0.953,10,direct
-2012,890520,Plataformas e dragas,740352597,3.348,1,mirror
-2012,271019,Combustíveis refinados,702509074,3.177,2,mirror
-2012,870323,Automóveis de passageiros,534481019,2.417,3,mirror
-2012,843143,Partes de máquinas de terraplanagem,306937255,1.388,4,mirror
-2012,020714,Carne de aves,296576868,1.341,5,mirror
-2012,870421,Veículos de mercadorias,246916748,1.117,6,mirror
+2012,100630,Arroz semibranqueado ou branqueado,287300942,1.0,7,direct
+2012,870324,Automóveis a gasolina +3.000 cm³,283551979,0.987,8,direct
+2012,870322,Automóveis a gasolina 1.000–1.500 cm³,280978197,0.978,9,direct
+2012,721420,Varões de ferro com saliências (betão armado),273651506,0.953,10,direct
+2012,890520,Plataformas de perfuração ou produção,740352597,3.348,1,mirror
+2012,271019,Gasóleo e combustíveis médios e pesados,702509074,3.177,2,mirror
+2012,870323,Automóveis a gasolina 1.500–3.000 cm³,534481019,2.417,3,mirror
+2012,843143,Partes de máquinas de perfuração (8430),306937255,1.388,4,mirror
+2012,020714,Cortes e miudezas de galinha congelados,296576868,1.341,5,mirror
+2012,870421,Camiões diesel até 5 t,246916748,1.117,6,mirror
 2012,110100,Farinha de trigo,208485588,0.943,7,mirror
-2012,730890,Estruturas de ferro ou aço,199355094,0.902,8,mirror
-2012,271012,Combustíveis refinados,193900965,0.877,9,mirror
-2012,100630,Arroz,192110370,0.869,10,mirror
-2013,890520,Plataformas e dragas,3775584049,14.111,1,direct
-2013,271019,Combustíveis refinados,1408588623,5.265,2,direct
-2013,271011,Combustíveis refinados,477341895,1.784,3,direct
-2013,870421,Veículos de mercadorias,385955714,1.442,4,direct
-2013,890590,Plataformas e dragas,331281339,1.238,5,direct
+2012,730890,Outras estruturas de ferro ou aço,199355094,0.902,8,mirror
+2012,271012,Gasolinas e destilados leves,193900965,0.877,9,mirror
+2012,100630,Arroz semibranqueado ou branqueado,192110370,0.869,10,mirror
+2013,890520,Plataformas de perfuração ou produção,3775584049,14.111,1,direct
+2013,271019,Gasóleo e combustíveis médios e pesados,1408588623,5.265,2,direct
+2013,271011,Óleos leves de petróleo (ed. antiga),477341895,1.784,3,direct
+2013,870421,Camiões diesel até 5 t,385955714,1.442,4,direct
+2013,890590,Navios-farol e outros auxiliares,331281339,1.238,5,direct
 2013,110100,Farinha de trigo,329427886,1.231,6,direct
-2013,020714,Carne de aves,322936300,1.207,7,direct
-2013,870323,Automóveis de passageiros,301145632,1.126,8,direct
-2013,151190,Óleo de palma,259797085,0.971,9,direct
+2013,020714,Cortes e miudezas de galinha congelados,322936300,1.207,7,direct
+2013,870323,Automóveis a gasolina 1.500–3.000 cm³,301145632,1.126,8,direct
+2013,151190,Óleo de palma refinado,259797085,0.971,9,direct
 2013,870210,Autocarros,250763421,0.937,10,direct
-2013,890520,Plataformas e dragas,1686992921,6.901,1,mirror
-2013,271019,Combustíveis refinados,753112435,3.081,2,mirror
-2013,843143,Partes de máquinas de terraplanagem,321553574,1.315,3,mirror
-2013,020714,Carne de aves,296254102,1.212,4,mirror
-2013,151190,Óleo de palma,255145526,1.044,5,mirror
-2013,870421,Veículos de mercadorias,253037477,1.035,6,mirror
+2013,890520,Plataformas de perfuração ou produção,1686992921,6.901,1,mirror
+2013,271019,Gasóleo e combustíveis médios e pesados,753112435,3.081,2,mirror
+2013,843143,Partes de máquinas de perfuração (8430),321553574,1.315,3,mirror
+2013,020714,Cortes e miudezas de galinha congelados,296254102,1.212,4,mirror
+2013,151190,Óleo de palma refinado,255145526,1.044,5,mirror
+2013,870421,Camiões diesel até 5 t,253037477,1.035,6,mirror
 2013,110100,Farinha de trigo,246794231,1.01,7,mirror
-2013,848180,Válvulas e torneiras,233295873,0.954,8,mirror
-2013,100630,Arroz,214937047,0.879,9,mirror
-2013,170199,Açúcar de cana ou de beterraba,212854683,0.871,10,mirror
+2013,848180,"Válvulas e torneiras, outras",233295873,0.954,8,mirror
+2013,100630,Arroz semibranqueado ou branqueado,214937047,0.879,9,mirror
+2013,170199,Açúcar refinado,212854683,0.871,10,mirror
 2014,999999,Mercadorias não especificadas,3652235402,12.702,1,direct
-2014,271012,Combustíveis refinados,1263116122,4.393,2,direct
-2014,870323,Automóveis de passageiros,444131695,1.545,3,direct
-2014,870322,Automóveis de passageiros,403643012,1.404,4,direct
-2014,020714,Carne de aves,395981393,1.377,5,direct
+2014,271012,Gasolinas e destilados leves,1263116122,4.393,2,direct
+2014,870323,Automóveis a gasolina 1.500–3.000 cm³,444131695,1.545,3,direct
+2014,870322,Automóveis a gasolina 1.000–1.500 cm³,403643012,1.404,4,direct
+2014,020714,Cortes e miudezas de galinha congelados,395981393,1.377,5,direct
 2014,870210,Autocarros,361719142,1.258,6,direct
 2014,110100,Farinha de trigo,351010455,1.221,7,direct
-2014,870324,Automóveis de passageiros,317169361,1.103,8,direct
+2014,870324,Automóveis a gasolina +3.000 cm³,317169361,1.103,8,direct
 2014,382319,Ácidos gordos industriais,312424033,1.087,9,direct
-2014,730429,Tubos sem costura (petróleo/gás),285286792,0.992,10,direct
-2014,890520,Plataformas e dragas,1241622116,4.37,1,mirror
-2014,271019,Combustíveis refinados,994495619,3.5,2,mirror
-2014,843143,Partes de máquinas de terraplanagem,414171463,1.458,3,mirror
+2014,730429,Tubos sem costura de revestimento,285286792,0.992,10,direct
+2014,890520,Plataformas de perfuração ou produção,1241622116,4.37,1,mirror
+2014,271019,Gasóleo e combustíveis médios e pesados,994495619,3.5,2,mirror
+2014,843143,Partes de máquinas de perfuração (8430),414171463,1.458,3,mirror
 2014,999999,Mercadorias não especificadas,401104646,1.412,4,mirror
-2014,870323,Automóveis de passageiros,380200415,1.338,5,mirror
-2014,870322,Automóveis de passageiros,354911300,1.249,6,mirror
-2014,870324,Automóveis de passageiros,336896387,1.186,7,mirror
-2014,020714,Carne de aves,330479030,1.163,8,mirror
-2014,870421,Veículos de mercadorias,309559848,1.09,9,mirror
-2014,151190,Óleo de palma,283013976,0.996,10,mirror
+2014,870323,Automóveis a gasolina 1.500–3.000 cm³,380200415,1.338,5,mirror
+2014,870322,Automóveis a gasolina 1.000–1.500 cm³,354911300,1.249,6,mirror
+2014,870324,Automóveis a gasolina +3.000 cm³,336896387,1.186,7,mirror
+2014,020714,Cortes e miudezas de galinha congelados,330479030,1.163,8,mirror
+2014,870421,Camiões diesel até 5 t,309559848,1.09,9,mirror
+2014,151190,Óleo de palma refinado,283013976,0.996,10,mirror
 2015,999999,Mercadorias não especificadas,4041837214,18.756,1,direct
-2015,271012,Combustíveis refinados,1142171830,5.3,2,direct
+2015,271012,Gasolinas e destilados leves,1142171830,5.3,2,direct
 2015,843149,Partes de máquinas de terraplanagem,337769322,1.567,3,direct
 2015,110100,Farinha de trigo,276759310,1.284,4,direct
-2015,020714,Carne de aves,226265652,1.05,5,direct
+2015,020714,Cortes e miudezas de galinha congelados,226265652,1.05,5,direct
 2015,732690,Outros artigos de ferro ou aço,220538430,1.023,6,direct
-2015,848180,Válvulas e torneiras,206329567,0.957,7,direct
-2015,730429,Tubos sem costura (petróleo/gás),202983803,0.942,8,direct
-2015,730890,Estruturas de ferro ou aço,176748670,0.82,9,direct
-2015,843143,Partes de máquinas de terraplanagem,155729204,0.723,10,direct
-2015,890520,Plataformas e dragas,2254243548,12.167,1,mirror
-2015,271019,Combustíveis refinados,677368702,3.656,2,mirror
+2015,848180,"Válvulas e torneiras, outras",206329567,0.957,7,direct
+2015,730429,Tubos sem costura de revestimento,202983803,0.942,8,direct
+2015,730890,Outras estruturas de ferro ou aço,176748670,0.82,9,direct
+2015,843143,Partes de máquinas de perfuração (8430),155729204,0.723,10,direct
+2015,890520,Plataformas de perfuração ou produção,2254243548,12.167,1,mirror
+2015,271019,Gasóleo e combustíveis médios e pesados,677368702,3.656,2,mirror
 2015,999999,Mercadorias não especificadas,275787977,1.489,3,mirror
-2015,730890,Estruturas de ferro ou aço,271282813,1.464,4,mirror
-2015,843143,Partes de máquinas de terraplanagem,226207044,1.221,5,mirror
-2015,151190,Óleo de palma,226070074,1.22,6,mirror
-2015,100630,Arroz,182460949,0.985,7,mirror
+2015,730890,Outras estruturas de ferro ou aço,271282813,1.464,4,mirror
+2015,843143,Partes de máquinas de perfuração (8430),226207044,1.221,5,mirror
+2015,151190,Óleo de palma refinado,226070074,1.22,6,mirror
+2015,100630,Arroz semibranqueado ou branqueado,182460949,0.985,7,mirror
 2015,110100,Farinha de trigo,177245465,0.957,8,mirror
-2015,848180,Válvulas e torneiras,167912997,0.906,9,mirror
-2015,020714,Carne de aves,137736878,0.743,10,mirror
+2015,848180,"Válvulas e torneiras, outras",167912997,0.906,9,mirror
+2015,020714,Cortes e miudezas de galinha congelados,137736878,0.743,10,mirror
 2016,999999,Mercadorias não especificadas,2777080387,19.356,1,direct
-2016,271012,Combustíveis refinados,1425916224,9.938,2,direct
-2016,841182,Turborreatores e turbinas a gás,293595219,2.046,3,direct
+2016,271012,Gasolinas e destilados leves,1425916224,9.938,2,direct
+2016,841182,Turbinas a gás +5.000 kW,293595219,2.046,3,direct
 2016,110100,Farinha de trigo,273467410,1.906,4,direct
-2016,848140,Válvulas e torneiras,184243112,1.284,5,direct
-2016,020714,Carne de aves,170509706,1.188,6,direct
-2016,730419,Tubos sem costura (petróleo/gás),164143529,1.144,7,direct
+2016,848140,Válvulas de segurança,184243112,1.284,5,direct
+2016,020714,Cortes e miudezas de galinha congelados,170509706,1.188,6,direct
+2016,730419,Tubos sem costura para oleodutos,164143529,1.144,7,direct
 2016,732690,Outros artigos de ferro ou aço,141931109,0.989,8,direct
-2016,843143,Partes de máquinas de terraplanagem,116798054,0.814,9,direct
-2016,847990,Máquinas de funções diversas,108369940,0.755,10,direct
+2016,843143,Partes de máquinas de perfuração (8430),116798054,0.814,9,direct
+2016,847990,Partes de máquinas de funções diversas,108369940,0.755,10,direct
 2016,999999,Mercadorias não especificadas,868964608,7.455,1,mirror
-2016,271019,Combustíveis refinados,686577053,5.89,2,mirror
-2016,843143,Partes de máquinas de terraplanagem,193551419,1.661,3,mirror
-2016,100630,Arroz,187113362,1.605,4,mirror
+2016,271019,Gasóleo e combustíveis médios e pesados,686577053,5.89,2,mirror
+2016,843143,Partes de máquinas de perfuração (8430),193551419,1.661,3,mirror
+2016,100630,Arroz semibranqueado ou branqueado,187113362,1.605,4,mirror
 2016,110100,Farinha de trigo,163210091,1.4,5,mirror
-2016,170199,Açúcar de cana ou de beterraba,143069873,1.227,6,mirror
-2016,730890,Estruturas de ferro ou aço,123989335,1.064,7,mirror
-2016,151190,Óleo de palma,120756623,1.036,8,mirror
+2016,170199,Açúcar refinado,143069873,1.227,6,mirror
+2016,730890,Outras estruturas de ferro ou aço,123989335,1.064,7,mirror
+2016,151190,Óleo de palma refinado,120756623,1.036,8,mirror
 2016,732690,Outros artigos de ferro ou aço,119057495,1.021,9,mirror
-2016,848180,Válvulas e torneiras,115240506,0.989,10,mirror
-2017,271012,Combustíveis refinados,1754488690,10.847,1,direct
+2016,848180,"Válvulas e torneiras, outras",115240506,0.989,10,mirror
+2017,271012,Gasolinas e destilados leves,1754488690,10.847,1,direct
 2017,999999,Mercadorias não especificadas,722035498,4.464,2,direct
-2017,151190,Óleo de palma,440764856,2.725,3,direct
-2017,150790,Óleo de soja,388297718,2.401,4,direct
-2017,170199,Açúcar de cana ou de beterraba,317841320,1.965,5,direct
-2017,020714,Carne de aves,304892013,1.885,6,direct
-2017,843143,Partes de máquinas de terraplanagem,279073043,1.725,7,direct
+2017,151190,Óleo de palma refinado,440764856,2.725,3,direct
+2017,150790,Óleo de soja refinado,388297718,2.401,4,direct
+2017,170199,Açúcar refinado,317841320,1.965,5,direct
+2017,020714,Cortes e miudezas de galinha congelados,304892013,1.885,6,direct
+2017,843143,Partes de máquinas de perfuração (8430),279073043,1.725,7,direct
 2017,110100,Farinha de trigo,265748515,1.643,8,direct
 2017,860210,Locomotivas diesel-elétricas,221803104,1.371,9,direct
-2017,100630,Arroz,185267366,1.145,10,direct
-2017,271019,Combustíveis refinados,378477013,3.187,1,mirror
-2017,843143,Partes de máquinas de terraplanagem,260444533,2.193,2,mirror
+2017,100630,Arroz semibranqueado ou branqueado,185267366,1.145,10,direct
+2017,271019,Gasóleo e combustíveis médios e pesados,378477013,3.187,1,mirror
+2017,843143,Partes de máquinas de perfuração (8430),260444533,2.193,2,mirror
 2017,999999,Mercadorias não especificadas,242314697,2.04,3,mirror
-2017,170199,Açúcar de cana ou de beterraba,209923975,1.767,4,mirror
-2017,020714,Carne de aves,193068144,1.626,5,mirror
-2017,151190,Óleo de palma,179634585,1.512,6,mirror
-2017,100630,Arroz,174788418,1.472,7,mirror
+2017,170199,Açúcar refinado,209923975,1.767,4,mirror
+2017,020714,Cortes e miudezas de galinha congelados,193068144,1.626,5,mirror
+2017,151190,Óleo de palma refinado,179634585,1.512,6,mirror
+2017,100630,Arroz semibranqueado ou branqueado,174788418,1.472,7,mirror
 2017,110100,Farinha de trigo,169535612,1.427,8,mirror
-2017,870324,Automóveis de passageiros,132867735,1.119,9,mirror
-2017,150790,Óleo de soja,124660219,1.05,10,mirror
-2018,271012,Combustíveis refinados,2339500915,14.136,1,direct
-2018,890520,Plataformas e dragas,1641248066,9.917,2,direct
+2017,870324,Automóveis a gasolina +3.000 cm³,132867735,1.119,9,mirror
+2017,150790,Óleo de soja refinado,124660219,1.05,10,mirror
+2018,271012,Gasolinas e destilados leves,2339500915,14.136,1,direct
+2018,890520,Plataformas de perfuração ou produção,1641248066,9.917,2,direct
 2018,999999,Mercadorias não especificadas,457505514,2.764,3,direct
-2018,020714,Carne de aves,339603645,2.052,4,direct
-2018,151190,Óleo de palma,219894288,1.329,5,direct
-2018,150790,Óleo de soja,208997669,1.263,6,direct
-2018,170199,Açúcar de cana ou de beterraba,196465038,1.187,7,direct
-2018,100630,Arroz,188127359,1.137,8,direct
-2018,841182,Turborreatores e turbinas a gás,186157162,1.125,9,direct
+2018,020714,Cortes e miudezas de galinha congelados,339603645,2.052,4,direct
+2018,151190,Óleo de palma refinado,219894288,1.329,5,direct
+2018,150790,Óleo de soja refinado,208997669,1.263,6,direct
+2018,170199,Açúcar refinado,196465038,1.187,7,direct
+2018,100630,Arroz semibranqueado ou branqueado,188127359,1.137,8,direct
+2018,841182,Turbinas a gás +5.000 kW,186157162,1.125,9,direct
 2018,110100,Farinha de trigo,177940889,1.075,10,direct
-2018,020714,Carne de aves,222449841,2.149,1,mirror
-2018,100630,Arroz,208659453,2.016,2,mirror
-2018,890520,Plataformas e dragas,195302804,1.887,3,mirror
-2018,870324,Automóveis de passageiros,187215622,1.809,4,mirror
-2018,271019,Combustíveis refinados,178038009,1.72,5,mirror
-2018,151190,Óleo de palma,143405784,1.386,6,mirror
-2018,271012,Combustíveis refinados,127862611,1.235,7,mirror
+2018,020714,Cortes e miudezas de galinha congelados,222449841,2.149,1,mirror
+2018,100630,Arroz semibranqueado ou branqueado,208659453,2.016,2,mirror
+2018,890520,Plataformas de perfuração ou produção,195302804,1.887,3,mirror
+2018,870324,Automóveis a gasolina +3.000 cm³,187215622,1.809,4,mirror
+2018,271019,Gasóleo e combustíveis médios e pesados,178038009,1.72,5,mirror
+2018,151190,Óleo de palma refinado,143405784,1.386,6,mirror
+2018,271012,Gasolinas e destilados leves,127862611,1.235,7,mirror
 2018,110100,Farinha de trigo,122720768,1.186,8,mirror
 2018,300490,Medicamentos,116157850,1.122,9,mirror
-2018,870323,Automóveis de passageiros,114313785,1.104,10,mirror
-2019,271012,Combustíveis refinados,1885546646,13.499,1,direct
-2019,890520,Plataformas e dragas,1556856438,11.146,2,direct
-2019,100630,Arroz,220621797,1.58,3,direct
-2019,020714,Carne de aves,216666796,1.551,4,direct
-2019,151190,Óleo de palma,214730875,1.537,5,direct
-2019,170199,Açúcar de cana ou de beterraba,204154521,1.462,6,direct
+2018,870323,Automóveis a gasolina 1.500–3.000 cm³,114313785,1.104,10,mirror
+2019,271012,Gasolinas e destilados leves,1885546646,13.499,1,direct
+2019,890520,Plataformas de perfuração ou produção,1556856438,11.146,2,direct
+2019,100630,Arroz semibranqueado ou branqueado,220621797,1.58,3,direct
+2019,020714,Cortes e miudezas de galinha congelados,216666796,1.551,4,direct
+2019,151190,Óleo de palma refinado,214730875,1.537,5,direct
+2019,170199,Açúcar refinado,204154521,1.462,6,direct
 2019,110100,Farinha de trigo,141027959,1.01,7,direct
 2019,300490,Medicamentos,123102597,0.881,8,direct
-2019,150790,Óleo de soja,118536833,0.849,9,direct
-2019,100119,Trigo,117007584,0.838,10,direct
-2019,020714,Carne de aves,191664582,2.021,1,mirror
-2019,271019,Combustíveis refinados,187325484,1.976,2,mirror
-2019,100630,Arroz,187233762,1.975,3,mirror
-2019,151190,Óleo de palma,161365689,1.702,4,mirror
-2019,271012,Combustíveis refinados,129993399,1.371,5,mirror
-2019,170199,Açúcar de cana ou de beterraba,128690337,1.357,6,mirror
-2019,890520,Plataformas e dragas,118037294,1.245,7,mirror
+2019,150790,Óleo de soja refinado,118536833,0.849,9,direct
+2019,100119,"Trigo duro, não para semente",117007584,0.838,10,direct
+2019,020714,Cortes e miudezas de galinha congelados,191664582,2.021,1,mirror
+2019,271019,Gasóleo e combustíveis médios e pesados,187325484,1.976,2,mirror
+2019,100630,Arroz semibranqueado ou branqueado,187233762,1.975,3,mirror
+2019,151190,Óleo de palma refinado,161365689,1.702,4,mirror
+2019,271012,Gasolinas e destilados leves,129993399,1.371,5,mirror
+2019,170199,Açúcar refinado,128690337,1.357,6,mirror
+2019,890520,Plataformas de perfuração ou produção,118037294,1.245,7,mirror
 2019,110100,Farinha de trigo,94718097,0.999,8,mirror
 2019,300490,Medicamentos,90260902,0.952,9,mirror
-2019,843143,Partes de máquinas de terraplanagem,85106337,0.898,10,mirror
-2020,271012,Combustíveis refinados,806992948,8.75,1,direct
-2020,100630,Arroz,283327332,3.072,2,direct
-2020,151190,Óleo de palma,192423955,2.086,3,direct
-2020,020714,Carne de aves,152507299,1.654,4,direct
+2019,843143,Partes de máquinas de perfuração (8430),85106337,0.898,10,mirror
+2020,271012,Gasolinas e destilados leves,806992948,8.75,1,direct
+2020,100630,Arroz semibranqueado ou branqueado,283327332,3.072,2,direct
+2020,151190,Óleo de palma refinado,192423955,2.086,3,direct
+2020,020714,Cortes e miudezas de galinha congelados,152507299,1.654,4,direct
 2020,300490,Medicamentos,133059217,1.443,5,direct
-2020,100119,Trigo,132324921,1.435,6,direct
-2020,170199,Açúcar de cana ou de beterraba,120460600,1.306,7,direct
+2020,100119,"Trigo duro, não para semente",132324921,1.435,6,direct
+2020,170199,Açúcar refinado,120460600,1.306,7,direct
 2020,870210,Autocarros,118735864,1.287,8,direct
 2020,110100,Farinha de trigo,114682175,1.243,9,direct
-2020,271019,Combustíveis refinados,109551405,1.188,10,direct
-2020,100630,Arroz,216131777,2.847,1,mirror
-2020,151190,Óleo de palma,155411758,2.047,2,mirror
-2020,271012,Combustíveis refinados,150308967,1.98,3,mirror
-2020,271019,Combustíveis refinados,137711202,1.814,4,mirror
-2020,020714,Carne de aves,124476540,1.64,5,mirror
-2020,848180,Válvulas e torneiras,119976407,1.58,6,mirror
+2020,271019,Gasóleo e combustíveis médios e pesados,109551405,1.188,10,direct
+2020,100630,Arroz semibranqueado ou branqueado,216131777,2.847,1,mirror
+2020,151190,Óleo de palma refinado,155411758,2.047,2,mirror
+2020,271012,Gasolinas e destilados leves,150308967,1.98,3,mirror
+2020,271019,Gasóleo e combustíveis médios e pesados,137711202,1.814,4,mirror
+2020,020714,Cortes e miudezas de galinha congelados,124476540,1.64,5,mirror
+2020,848180,"Válvulas e torneiras, outras",119976407,1.58,6,mirror
 2020,300490,Medicamentos,93463963,1.231,7,mirror
-2020,843143,Partes de máquinas de terraplanagem,71173127,0.937,8,mirror
+2020,843143,Partes de máquinas de perfuração (8430),71173127,0.937,8,mirror
 2020,110100,Farinha de trigo,69201674,0.912,9,mirror
-2020,170199,Açúcar de cana ou de beterraba,67092984,0.884,10,mirror
-2021,271012,Combustíveis refinados,1808229639,15.717,1,direct
-2021,100119,Trigo,231241838,2.01,2,direct
-2021,100630,Arroz,225020860,1.956,3,direct
-2021,020714,Carne de aves,202460925,1.76,4,direct
+2020,170199,Açúcar refinado,67092984,0.884,10,mirror
+2021,271012,Gasolinas e destilados leves,1808229639,15.717,1,direct
+2021,100119,"Trigo duro, não para semente",231241838,2.01,2,direct
+2021,100630,Arroz semibranqueado ou branqueado,225020860,1.956,3,direct
+2021,020714,Cortes e miudezas de galinha congelados,202460925,1.76,4,direct
 2021,870210,Autocarros,196888779,1.711,5,direct
 2021,630790,Outros artigos têxteis confecionados,166953552,1.451,6,direct
 2021,300490,Medicamentos,144950572,1.26,7,direct
-2021,151190,Óleo de palma,135589053,1.179,8,direct
-2021,150790,Óleo de soja,131517340,1.143,9,direct
+2021,151190,Óleo de palma refinado,135589053,1.179,8,direct
+2021,150790,Óleo de soja refinado,131517340,1.143,9,direct
 2021,903180,Outros instrumentos de medição,117108873,1.018,10,direct
-2021,271012,Combustíveis refinados,361563553,3.826,1,mirror
-2021,151190,Óleo de palma,219356129,2.321,2,mirror
-2021,020714,Carne de aves,204124209,2.16,3,mirror
-2021,100630,Arroz,188109937,1.99,4,mirror
-2021,271019,Combustíveis refinados,152641781,1.615,5,mirror
+2021,271012,Gasolinas e destilados leves,361563553,3.826,1,mirror
+2021,151190,Óleo de palma refinado,219356129,2.321,2,mirror
+2021,020714,Cortes e miudezas de galinha congelados,204124209,2.16,3,mirror
+2021,100630,Arroz semibranqueado ou branqueado,188109937,1.99,4,mirror
+2021,271019,Gasóleo e combustíveis médios e pesados,152641781,1.615,5,mirror
 2021,999999,Mercadorias não especificadas,135772985,1.437,6,mirror
-2021,848180,Válvulas e torneiras,107216306,1.134,7,mirror
+2021,848180,"Válvulas e torneiras, outras",107216306,1.134,7,mirror
 2021,300490,Medicamentos,97228861,1.029,8,mirror
-2021,870323,Automóveis de passageiros,96894131,1.025,9,mirror
-2021,843143,Partes de máquinas de terraplanagem,70596598,0.747,10,mirror
-2022,271012,Combustíveis refinados,3725523158,20.926,1,direct
-2022,100119,Trigo,385719471,2.167,2,direct
-2022,100630,Arroz,349117094,1.961,3,direct
-2022,020714,Carne de aves,345215364,1.939,4,direct
-2022,151190,Óleo de palma,334601946,1.879,5,direct
-2022,300220,"Sangue, vacinas e produtos imunológicos",329820541,1.853,6,direct
-2022,150790,Óleo de soja,227990572,1.281,7,direct
+2021,870323,Automóveis a gasolina 1.500–3.000 cm³,96894131,1.025,9,mirror
+2021,843143,Partes de máquinas de perfuração (8430),70596598,0.747,10,mirror
+2022,271012,Gasolinas e destilados leves,3725523158,20.926,1,direct
+2022,100119,"Trigo duro, não para semente",385719471,2.167,2,direct
+2022,100630,Arroz semibranqueado ou branqueado,349117094,1.961,3,direct
+2022,020714,Cortes e miudezas de galinha congelados,345215364,1.939,4,direct
+2022,151190,Óleo de palma refinado,334601946,1.879,5,direct
+2022,300220,Vacinas para medicina humana,329820541,1.853,6,direct
+2022,150790,Óleo de soja refinado,227990572,1.281,7,direct
 2022,490700,Selos e títulos de valor,222580423,1.25,8,direct
 2022,300490,Medicamentos,216117611,1.214,9,direct
-2022,271019,Combustíveis refinados,185458120,1.042,10,direct
-2022,271012,Combustíveis refinados,1121364074,7.638,1,mirror
-2022,271019,Combustíveis refinados,445235135,3.033,2,mirror
-2022,151190,Óleo de palma,395514987,2.694,3,mirror
-2022,020714,Carne de aves,367756756,2.505,4,mirror
-2022,100630,Arroz,258421657,1.76,5,mirror
-2022,890520,Plataformas e dragas,246199514,1.677,6,mirror
+2022,271019,Gasóleo e combustíveis médios e pesados,185458120,1.042,10,direct
+2022,271012,Gasolinas e destilados leves,1121364074,7.638,1,mirror
+2022,271019,Gasóleo e combustíveis médios e pesados,445235135,3.033,2,mirror
+2022,151190,Óleo de palma refinado,395514987,2.694,3,mirror
+2022,020714,Cortes e miudezas de galinha congelados,367756756,2.505,4,mirror
+2022,100630,Arroz semibranqueado ou branqueado,258421657,1.76,5,mirror
+2022,890520,Plataformas de perfuração ou produção,246199514,1.677,6,mirror
 2022,999999,Mercadorias não especificadas,229132658,1.561,7,mirror
-2022,870323,Automóveis de passageiros,176348062,1.201,8,mirror
-2022,870324,Automóveis de passageiros,170869649,1.164,9,mirror
-2022,870421,Veículos de mercadorias,140338274,0.956,10,mirror
-2023,271012,Combustíveis refinados,3174876936,20.388,1,direct
-2023,100119,Trigo,376478854,2.418,2,direct
-2023,020714,Carne de aves,255163959,1.639,3,direct
-2023,100630,Arroz,213126142,1.369,4,direct
+2022,870323,Automóveis a gasolina 1.500–3.000 cm³,176348062,1.201,8,mirror
+2022,870324,Automóveis a gasolina +3.000 cm³,170869649,1.164,9,mirror
+2022,870421,Camiões diesel até 5 t,140338274,0.956,10,mirror
+2023,271012,Gasolinas e destilados leves,3174876936,20.388,1,direct
+2023,100119,"Trigo duro, não para semente",376478854,2.418,2,direct
+2023,020714,Cortes e miudezas de galinha congelados,255163959,1.639,3,direct
+2023,100630,Arroz semibranqueado ou branqueado,213126142,1.369,4,direct
 2023,300490,Medicamentos,173349537,1.113,5,direct
-2023,271019,Combustíveis refinados,159002263,1.021,6,direct
-2023,151190,Óleo de palma,150810075,0.968,7,direct
-2023,848180,Válvulas e torneiras,148236687,0.952,8,direct
+2023,271019,Gasóleo e combustíveis médios e pesados,159002263,1.021,6,direct
+2023,151190,Óleo de palma refinado,150810075,0.968,7,direct
+2023,848180,"Válvulas e torneiras, outras",148236687,0.952,8,direct
 2023,870210,Autocarros,140197722,0.9,9,direct
-2023,870322,Automóveis de passageiros,128823529,0.827,10,direct
-2023,271019,Combustíveis refinados,802023678,6.139,1,mirror
-2023,271012,Combustíveis refinados,395674311,3.029,2,mirror
-2023,890520,Plataformas e dragas,302784399,2.318,3,mirror
-2023,020714,Carne de aves,180738254,1.384,4,mirror
+2023,870322,Automóveis a gasolina 1.000–1.500 cm³,128823529,0.827,10,direct
+2023,271019,Gasóleo e combustíveis médios e pesados,802023678,6.139,1,mirror
+2023,271012,Gasolinas e destilados leves,395674311,3.029,2,mirror
+2023,890520,Plataformas de perfuração ou produção,302784399,2.318,3,mirror
+2023,020714,Cortes e miudezas de galinha congelados,180738254,1.384,4,mirror
 2023,999999,Mercadorias não especificadas,161754821,1.238,5,mirror
-2023,100630,Arroz,151329630,1.158,6,mirror
-2023,848180,Válvulas e torneiras,138460002,1.06,7,mirror
-2023,151190,Óleo de palma,127263224,0.974,8,mirror
-2023,730890,Estruturas de ferro ou aço,115016307,0.88,9,mirror
-2023,870324,Automóveis de passageiros,97097116,0.743,10,mirror
-2024,271012,Combustíveis refinados,2708484061,18.053,1,direct
-2024,100119,Trigo,423731456,2.824,2,direct
-2024,848180,Válvulas e torneiras,285081853,1.9,3,direct
-2024,100630,Arroz,273960027,1.826,4,direct
-2024,020714,Carne de aves,249471653,1.663,5,direct
+2023,100630,Arroz semibranqueado ou branqueado,151329630,1.158,6,mirror
+2023,848180,"Válvulas e torneiras, outras",138460002,1.06,7,mirror
+2023,151190,Óleo de palma refinado,127263224,0.974,8,mirror
+2023,730890,Outras estruturas de ferro ou aço,115016307,0.88,9,mirror
+2023,870324,Automóveis a gasolina +3.000 cm³,97097116,0.743,10,mirror
+2024,271012,Gasolinas e destilados leves,2708484061,18.053,1,direct
+2024,100119,"Trigo duro, não para semente",423731456,2.824,2,direct
+2024,848180,"Válvulas e torneiras, outras",285081853,1.9,3,direct
+2024,100630,Arroz semibranqueado ou branqueado,273960027,1.826,4,direct
+2024,020714,Cortes e miudezas de galinha congelados,249471653,1.663,5,direct
 2024,830710,Tubos flexíveis de metal,188369293,1.256,6,direct
 2024,732690,Outros artigos de ferro ou aço,186680178,1.244,7,direct
 2024,490700,Selos e títulos de valor,182191107,1.214,8,direct
-2024,730890,Estruturas de ferro ou aço,164273884,1.095,9,direct
-2024,170199,Açúcar de cana ou de beterraba,164129971,1.094,10,direct
-2024,271019,Combustíveis refinados,872593830,7.243,1,mirror
-2024,271012,Combustíveis refinados,261017080,2.167,2,mirror
-2024,100630,Arroz,226615826,1.881,3,mirror
-2024,848180,Válvulas e torneiras,220952092,1.834,4,mirror
-2024,020714,Carne de aves,219464537,1.822,5,mirror
-2024,843143,Partes de máquinas de terraplanagem,157272951,1.305,6,mirror
-2024,151190,Óleo de palma,156580866,1.3,7,mirror
+2024,730890,Outras estruturas de ferro ou aço,164273884,1.095,9,direct
+2024,170199,Açúcar refinado,164129971,1.094,10,direct
+2024,271019,Gasóleo e combustíveis médios e pesados,872593830,7.243,1,mirror
+2024,271012,Gasolinas e destilados leves,261017080,2.167,2,mirror
+2024,100630,Arroz semibranqueado ou branqueado,226615826,1.881,3,mirror
+2024,848180,"Válvulas e torneiras, outras",220952092,1.834,4,mirror
+2024,020714,Cortes e miudezas de galinha congelados,219464537,1.822,5,mirror
+2024,843143,Partes de máquinas de perfuração (8430),157272951,1.305,6,mirror
+2024,151190,Óleo de palma refinado,156580866,1.3,7,mirror
 2024,732690,Outros artigos de ferro ou aço,143682560,1.193,8,mirror
 2024,999999,Mercadorias não especificadas,135907961,1.128,9,mirror
-2024,170199,Açúcar de cana ou de beterraba,130137524,1.08,10,mirror
+2024,170199,Açúcar refinado,130137524,1.08,10,mirror
