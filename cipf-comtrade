@@ -8,7 +8,8 @@ Commands:
                 90-day cache; years beyond 2024 may trigger live API calls
                 and need the key in config.ini).
   update-local  Regenerate generated pages and rebuild the static site.
-  local         Start the local preview server and open it in the browser.
+  local [port]  Start the local preview server (default port 3000) and open
+                it in the browser.
   commit        Commit pending changes on the dev branch.
   publish       Merge dev into main, push, and monitor the Pages deploy.
 
@@ -32,7 +33,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent
 SITE_DIR = REPO_ROOT / "site"
 VENV_PY = REPO_ROOT / "venv" / "bin" / "python"
-PREVIEW_URL = "http://localhost:3000"
+DEFAULT_PORT = 3000
 DEPLOY_WORKFLOW = "deploy.yml"
 CO_AUTHOR = "Co-authored-by: Kimi <kimi@moonshot.ai>"
 
@@ -91,14 +92,16 @@ def cmd_update_local(_args):
     print("\nSite rebuilt. Preview with: ./cipf-comtrade local")
 
 
-def cmd_local(_args):
+def cmd_local(args):
+    url = f"http://localhost:{args.port}"
+
     def open_browser():
         time.sleep(4)  # give the preview server a moment to come up
-        subprocess.run(["open", PREVIEW_URL],
+        subprocess.run(["open", url],
                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     threading.Thread(target=open_browser, daemon=True).start()
-    print(f"Starting preview at {PREVIEW_URL} — Ctrl+C to stop.")
-    run(["npm", "run", "dev"], cwd=SITE_DIR)
+    print(f"Starting preview at {url} — Ctrl+C to stop.")
+    run(["npm", "run", "dev", "--", "--port", str(args.port)], cwd=SITE_DIR)
 
 
 def cmd_commit(args):
@@ -203,7 +206,7 @@ def help_text():
 {h('RELEASE CYCLE')}
    1. {c('update-data')}    fetch new UN Comtrade data (honors the 90-day cache)
    2. {c('update-local')}   regenerate pages and rebuild the static site
-   3. {c('local')}          preview at http://localhost:3000 — Ctrl+C to stop
+   3. {c('local')}          preview at http://localhost:3000 (port optional) — Ctrl+C to stop
    4. {c('commit')}         commit pending changes on the dev branch
    5. {c('publish')}        merge dev into main, push, and watch the deploy
 
@@ -214,6 +217,7 @@ def help_text():
                   {d('         --skip-flows --skip-profiles')}
   {c('update-local')}   Regenerate /perfis and /dados pages, then npm run build.
   {c('local')}          Start the Observable preview server and open the browser.
+                  {d('usage: local [port]   (default 3000, e.g. local 3001)')}
   {c('commit')}         Stage everything and commit on dev (auto-switches to dev).
                   {d('options: -m "message" --dry-run')}
   {c('publish')}        Requires a clean tree. Merges dev → main, pushes main
@@ -267,6 +271,8 @@ def main():
     p.set_defaults(func=cmd_update_local)
 
     p = sub.add_parser("local", help="start preview server and open browser")
+    p.add_argument("port", nargs="?", type=int, default=DEFAULT_PORT,
+                   help=f"port for the preview server (default: {DEFAULT_PORT})")
     p.set_defaults(func=cmd_local)
 
     p = sub.add_parser("commit", help="commit pending changes on dev")
