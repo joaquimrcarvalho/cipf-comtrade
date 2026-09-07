@@ -3,20 +3,42 @@
 ## Objectivo
 
 Acesso a dados da base `comtrade` da Organização das Nações Unidas
-através de `jupyter notebooks`com exposição dos dados em [joaquimrcarvalho.github.io/cipf-comtrade](https://joaquimrcarvalho.github.io/cipf-comtrade/) 
+através de `jupyter notebooks`. Interface interactivo em web experimental em [https://joaquimrcarvalho.github.io/cipf-comtrade/](https://joaquimrcarvalho.github.io/cipf-comtrade/).
 
-Desenvolvido para estimular estudos sobre as relações comerciais
-da China com os países de língua portuguesa e o papel da
-Região Administrativa Especial de Macau como plataforma de serviços
-para essas relações.
+Desenvolvido para estimular estudos sobre as relações comerciais da China com os países de língua portuguesa e o papel da Região Administrativa Especial de Macau como plataforma de serviços para essas relações.
+
+## Lista de notebooks disponíveis
+
+1. [cn_plp_import_export.ipynb](https://github.com/joaquimrcarvalho/cipf-comtrade/blob/main/cn_plp_import_export.ipynb) - Análise das importações e exportações da China com os países de língua portuguesa. Fornece valor das importações, exportações, volume de trocas (importaç~oes + exportações) e balança comercial (exportações - importações).
+
+   1. Produz adicionalmente tabelas Excel com os resultados de forma comparável com os dados anualmente publicados pelo Fórum Macau.
+   2. Produz também gráficos em formato PNG. Ficheiros produzidos são guardados na pasta `reports`.
+2. [hk_plp_import_export.ipynb](https://github.com/joaquimrcarvalho/cipf-comtrade/blob/main/hk_plp_import_export.ipynb) - Igual ao anterior mas analisando
+   as trocas entre Hong Kong e países de língua portuguesa
+3. [mo_plp_import_export.ipynb](https://github.com/joaquimrcarvalho/cipf-comtrade/blob/main/mo_plp_import_export.ipynb) - Igual ao anterior mas
+   analisando as trocas entre Macau e países de língua portuguesa
+4. [tw_plp_import_export.ipynb](https://github.com/joaquimrcarvalho/cipf-comtrade/blob/main/tw_plp_import_export.ipynb) - Igual ao anterior mas
+   analisando as trocas entre Taiwan, província da China e os países de língua portuguesa
+
+   (ver https://unstats.un.org/wiki/display/comtrade/Taiwan%2C+Province+of+China+Trade+data)
+5. [cn_plp_commodities.ipynb](https://github.com/joaquimrcarvalho/cipf-comtrade/blob/main/cn_plp_commodities.ipynb) - Análise da composição das importações e exportações entre a China e os países de língua portuguesa através dos produtos mais trocados.
+
+   1. Por cada PLP analisa ano a ano os cinco (configurável) produtos mais importados e exportados pela China e produz uma tabela Excel.
+   2. Gera também um relatório em texto que assinala as principais variações contidas nos dados ano longo do tempo: novos produtos entrados no "top", produtos que saíram, produtos que subiram ou desceram de posição e variação anual do valor de cada tipo de produto.
+   3. Produz adicionalmente um quadro detalhado da composição das categorias de produtos trocados até seis dígitos da classificação HS.
+6. [country_trade_profile.ipynb](https://github.com/joaquimrcarvalho/cipf-comtrade/blob/main/country_trade_profile.ipynb) - Análise do perfil comercial
+   de um país. Analise os principais produtos exportados e importados e os principais parceiros comerciais.
+
+   1. Evolução dos principais produtos exportados e importados.
+   2. Evolução dos principais parceiros comerciais.
+   3. Análise da dependências de produtos e parceiros comerciais, ou seja o peso do país em análise nas exportações e importações dos seus parceiros comerciais principais.
 
 ## Fonte
 
 - **UN Comtrade** ([comtradeplus.un.org](https://comtradeplus.un.org)) — estatísticas
-  oficiais de comércio de mercadorias reportadas pelos países às Nações Unidas.
-  Usamos os dados *finais* (não *preliminares*), periodicidade **anual**,
+  oficiais de comércio de mercadorias reportadas pelos países às Nações Unidas. Usamos os dados *finais* (não *preliminares*), periodicidade **anual**,
   classificação de produtos **HS** (*Harmonized System*), valores em **USD correntes**.
-- O acesso é feito pela API oficial através do módulo aberto
+- O acesso é feito pela API oficial através do módulo utilitário
   [`comtradetools.py`](https://github.com/joaquimrcarvalho/cipf-comtrade/blob/main/comtradetools.py)
   do projeto, que trata da divisão de pedidos em blocos de 12 períodos, da cache
   local (validade de 90 dias) e dos limites de taxa da API.
@@ -72,11 +94,11 @@ supressões por confidencialidade na fonte.
 
 ## Rankings, quotas e concorrência
 
-- **Principais parceiros e produtos:** top 10 por ano e base; a quota é
+- **Principais parceiros/produtos (D6/D7):** top 10 por ano e base; a quota é
   calculada sobre o total mundial do ano na mesma base.
-- **Produto × parceiro:** os 25 produtos mais importantes do período × 8
+- **Produto × parceiro (D8):** os 25 produtos mais importantes do período × 8
   parceiros por produto/ano; a quota é sobre o total desse produto-ano.
-- **Concorrência (secções 2.4/3.4 dos perfis):** para os 5 principais
+- **Concorrência (D9/D10; secções 2.4/3.4 dos perfis):** para os 5 principais
   parceiros diretos × 8 principais produtos diretos, a posição do país entre os
   fornecedores de cada cliente (2.4, a partir das importações do cliente) ou entre
   os clientes de cada fornecedor (3.4, a partir das exportações do fornecedor).
@@ -106,7 +128,7 @@ supressões por confidencialidade na fonte.
 - A base espelho não substitui a direta: são leituras complementares.
 - Países com reporte direto fraco (ex.: Timor-Leste, com vários anos sem reporte
   AG6) têm a vista espelho como referência principal nos respetivos perfis.
-- A cobertura da análise de concorrência limita-se aos principais parceiros/produtos
+- A cobertura da concorrência (D9/D10) limita-se aos principais parceiros/produtos
   diretos; mercados fora desse conjunto não aparecem.
 
 ## Atualização
